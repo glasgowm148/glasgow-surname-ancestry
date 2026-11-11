@@ -83134,7 +83134,7 @@
     {
       "id": "irvine-michael-household-reconciliation-20261111",
       "found_on": "2026-11-11",
-      "kind": "correction",
+      "kind": "record",
       "status": "qualified",
       "finding": "The Michael/Katharin Baird marriage indexed at Kilmarnock on 9 June 1703 and the Irvine Elizabeth (1710) and Janet (1715) baptism households belong to Michael Glasgow-1406’s existing family. Two separate documentary father accounts are consolidated into that profile. Their 12% Robert-father proposals are historical duplicates; Michael’s canonical father remains 23% uncertain.",
       "qualification": "Provider index transcripts; originals uninspected. This is an identity and catalogue correction, not two new sons, new father attachments or a confidence increase. The earlier 1679 skinner identification retains its existing locality/trade qualification; the summons is not a birth record.",
@@ -83187,7 +83187,7 @@
     {
       "id": "irvine-michael-mother-premise-correction-20261111",
       "found_on": "2026-11-11",
-      "kind": "correction",
+      "kind": "relationship",
       "status": "qualified",
       "finding": "Michael Glasgow’s proposed mother Margaret Donald is reassessed from 43% possible to 15% uncertain. The earlier rating mistook the 1679 adult skinner occurrence for Michael’s birth and treated the 23% Robert father hypothesis as established. The Ayr Robert/Margaret household remains a tentative family identification.",
       "qualification": "Reinterpretation of held index/transcript evidence, not a new original record. No mother clause names Michael, no person is detached, and the father remains 23% uncertain. The percentages are subjective assessments.",
@@ -83228,12 +83228,13 @@
           "relative": "Donald-1722",
           "before": "possible",
           "after": "uncertain",
-          "before_percent": 43,
-          "after_percent": 15,
           "explanation": "Corrected the false 1679 birth premise and the assumption that Robert was an established father.",
-          "previous_status_provenance": "Native claim clm-c2-glasgow-1406-mother-20261106 assessment revision 1, 6 November 2026, 43% possible; superseded by revision 2 on 11 November."
+          "previous_status_provenance": "Native claim clm-c2-glasgow-1406-mother-20261106 assessment revision 1, 6 November 2026, 43% possible; superseded by revision 2 on 11 November.",
+          "previous_probability_percent": 43,
+          "probability_percent": 15
         }
-      ]
+      ],
+      "detail_url": "/people/glasgow-1406.html#research-findings"
     }
   ]
 }
