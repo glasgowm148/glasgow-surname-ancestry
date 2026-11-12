@@ -321,7 +321,12 @@ def public_research_states(public_ids: set[str]) -> dict[str, dict]:
         if ident not in public_ids:
             continue
         state = plan.get('research_state')
-        if not isinstance(state, dict) or not re.fullmatch(r'\d{4}-\d{2}-\d{2}', str(state.get('reviewed', ''))):
+        if not isinstance(state, dict):
+            continue
+        state = dict(state)
+        state.setdefault('reviewed', state.get('reviewed_on'))
+        state.setdefault('resume_when', state.get('reopen_when'))
+        if not re.fullmatch(r'\d{4}-\d{2}-\d{2}', str(state.get('reviewed', ''))):
             continue
         result[ident] = {key: state[key].strip() for key in fields
                          if isinstance(state.get(key), str) and state[key].strip()}

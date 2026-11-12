@@ -5,6 +5,16 @@ from tools import catalogue_machine_data as machine
 
 
 class SelectedDossierTests(unittest.TestCase):
+    def test_reviewed_on_and_reopen_when_keep_the_recorded_date_and_condition(self):
+        plans = {'Fable-1': {'research_state': {
+            'reviewed_on': '2026-10-31', 'next_test': 'Find a parent record.',
+            'reopen_when': 'New identifying evidence is available.'}}}
+        with patch.object(machine, '_research_plans', return_value=plans):
+            result = machine.public_research_states({'Fable-1'})
+        self.assertEqual(result['Fable-1']['reviewed'], '2026-10-31')
+        self.assertEqual(result['Fable-1']['resume_when'], 'New identifying evidence is available.')
+        self.assertNotIn('reviewed_on', result['Fable-1'])
+
     def test_public_review_state_excludes_private_fields_and_unreviewed_plans(self):
         plans = {
             'Fable-1': {'research_state': {
