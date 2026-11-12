@@ -138,6 +138,9 @@ def review_body(review):
     original_url = f'/assets/research/testament-originals/{ident}.pdf'
     original_link = (f'<p><a href="{e(original_url)}">Read the complete supplied original (PDF)</a></p>'
                      if approved_preview(original_url) else "")
+    source_url = review.get("source_url", "https://www.scotlandspeople.gov.uk/search-records/legal-records/wills")
+    source_label = review.get("source_label", "ScotlandsPeople")
+    source_access = review.get("source_access_note", "The full originals remain in the local research archive. Selected unaltered crops are shown above for reading and commentary, with separate switchable highlights. Image credit: Crown copyright, National Records of Scotland / ScotlandsPeople. Duplicate downloads are not independent evidence.")
     return (
         render_walkthrough(review)
         + '<details class="tx-extra" id="case-analysis"><summary>Full case analysis'
@@ -169,11 +172,8 @@ def review_body(review):
         '<h3>Pages examined</h3>' + bullets(review.get("reviewed_pages", []))
         + '<h3>Supplied local source files</h3>' + bullets(sources)
         + original_link
-        + '<p>The full originals remain in the local research archive. Selected unaltered crops are shown above '
-        'for reading and commentary, with separate switchable highlights. Image credit: Crown copyright, '
-        'National Records of Scotland / ScotlandsPeople. Duplicate downloads are not independent evidence. '
-        'Consult the original using the reference above through '
-        '<a href="https://www.scotlandspeople.gov.uk/search-records/legal-records/wills">ScotlandsPeople</a>.</p></section></div></details>'
+        + '<p>' + e(source_access) + ' Consult the original using the reference above through '
+        + f'<a href="{e(source_url)}">{e(source_label)}</a>.</p></section></div></details>'
     )
 
 

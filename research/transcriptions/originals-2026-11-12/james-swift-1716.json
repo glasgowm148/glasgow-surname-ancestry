@@ -1,0 +1,87 @@
+{
+  "id": "james-swift-1716",
+  "title": "James Glasgow, Swift surgeon: will and probate",
+  "record": "The National Archives, Prerogative Court of Canterbury, PROB 11/569/479",
+  "date": "Will 15 June 1716; proved 21 August 1719",
+  "reviewed_at": "2026-11-12",
+  "source_url": "https://discovery.nationalarchives.gov.uk/details/r/D682397",
+  "source_label": "The National Archives Discovery",
+  "source_access_note": "Original images are not reproduced here; consult the linked National Archives record. The working text preserves the supplied transcription with partial verification and unresolved readings.",
+  "reviewed_pages": [
+    "PDF p.1: will opening near foot, separate earlier entries excluded",
+    "PDF p.2: continuation, family clauses and probate"
+  ],
+  "coverage": "Both supplied pages visually inspected by the lead researcher. Decisive mother/sister, surgeon/ship/station and date clauses checked; the supplied full wording and Latin expansions remain partly unverified.",
+  "reviewer": "Owner-supplied transcription; decisive clauses checked visually by lead researcher",
+  "confidence_statement": "Partial verification only. Isabell Duff and Jean family clauses, Swift surgeon at Sheerness, will date and probate date checked. The cancelled text, property wording and tentative personal names remain unresolved. Full text is a supplied working reading, not a diplomatic edition.",
+  "profiles": [
+    [
+      "Glasgow-4124",
+      "James Glasgow, surgeon/testator"
+    ],
+    [
+      "Duffe-18",
+      "Isabell Duff, strongly identified mother"
+    ],
+    [
+      "Glasgow-2682",
+      "James Glasgow, proposed father from separate 1733 index"
+    ],
+    [
+      "Glasgow-3088",
+      "Jean Glasgow, strong sister candidate"
+    ]
+  ],
+  "transcription": [
+    {
+      "page": "1 / will opening",
+      "lines": [
+        "**In the Name of God Amen.**",
+        "The fifteenth day of June One thousand Seven hundred and Sixteen Year of our Lord, I James Glasgow, Surgeon of his Majesties Sloop the Swift at Shireness, Being very well in body and of perfect mind and memory, thanks be given unto God, therefore calling unto mind the mortality of my body and knowing that it is appointed for all Men once to dye, do make and ordain this my last Will and Testament, that is to say:",
+        "Principally and first of all I give and recommend my Soul into the hands of God that gave it, And as for my body to the place appointed for it, not at all doubting of the Resurrection thereof at the last Day. And as touching such worldly Estate wherewith it hath pleased God to bless me in this Life, I give, devise and dispose of the same"
+      ]
+    },
+    {
+      "page": "2 / will continuation",
+      "lines": [
+        "in the following manner and form:",
+        "Imprimis I give and bequeath to my [cancelled passage, partly illegible] to my own Mother Isabell Duff all such [Silver land?] as of right belongs to me in North Britain, particularly in Edinburgh, as also out of my money in the publick funds of the Kingdom of Great Britain the Sume of One hundred pounds, which on her death is to fall to my Sister Jean and her heirs, and failing heirs of her body to the Poor of Lady Yesters Church Parish.",
+        "Item I give to my Sister Jean the Sume of fifty pounds lawfull money of Great Britain out of the said publick funds.",
+        "Item for the use of the Poor of Lady Yesters Church Parish at Edinburgh the Sume of fifty pounds lawfull money of Great Britain out of the said funds.",
+        "Item to my very good friend John Barclay, Surgeon, whom I appoint Executor of this my last Will and Testament, the Sume of fifty pounds.",
+        "Item to my very good friend John [Allison?] in Popings Court the Sume of Twenty pounds to him or his Wife. What remains belonging to me to be proportionably divided amongst the above named Persons.",
+        "And I do hereby disallow, revoke and disannull all and every other former Testaments, Wills and Legacies, requests and Executors by me in any ways before this time named, willed and bequeathed, Ratifying and confirming this and no other to be my last Will and Testament.",
+        "In Witness whereof I have hereunto set my hand and Seal day and year aforesaid.",
+        "**James Glasgow.**",
+        "Sign’d, Seal’d, publish’d, pronounc’d and declar’d by me the said James Glasgow in the presence of us the Subscribers as my last Will and Testament. Witness:",
+        "John [Whinyard?]",
+        "Thomas Watts, Steward."
+      ]
+    },
+    {
+      "page": "2 / probate (supplied expansion)",
+      "lines": [
+        "Probatum fuit hujusmodi Testamentum apud London Coram Venerabili Viro Johanne Andrew Legum Doctore Surrogato Venerabilis et egregij Viri Johannis Bettesworth Legum etiam Doctoris Curiae Prerogativae Cantuariensis Magistri Custodis sive Commissarij legitime constituti Vicesimo primo die mensis Augusti Anno Domini Millesimo Septingentesimo Decimo Nono Juramento Johannis Barclay Executoris unici in dicto Testamento nominati Cui commissa fuit Administratio omnium et singulorum bonorum jurium et creditorum dicti defuncti de bene et fideliter Administrando eadem ad Sancta Dei Evangelia jurat."
+      ]
+    }
+  ],
+  "plain_english": [
+    "James Glasgow, surgeon of HMS sloop Swift at Sheerness, made his will on 15 June 1716; probate followed on 21 August 1719. He expressly names his mother Isabell Duff and sister Jean, with Edinburgh property and parish context.",
+    "The original supports the existing surgeon identity and maternal household. The father is the Edinburgh weaver James Glasgow-2682 through the separate 1733 index, not a legible father named in this will."
+  ],
+  "findings": [
+    "Alive when making the will 15 June 1716 and dead by probate 21 August 1719; neither is an exact death date.",
+    "The mother and sister roles are explicit. Duffe-18 remains the 95% mother identification; the father’s 95% assessment is unchanged.",
+    "Jean-3088, indexed 13 April 1677 to James/Issobell Duff at Edinburgh, is a strong sister candidate, not a proved adult identity."
+  ],
+  "changes_from_previous": [
+    "The 1733 administrative index date no longer implies the surgeon was alive in 1733. Later newspaper subjects are excluded by his death before probate.",
+    "Original mother and sister clauses add source confirmation without a confidence-score increase or profile merger."
+  ],
+  "unresolved": [
+    "No father’s name can reliably be recovered from the cancelled passage.",
+    "The property phrase [Silver land?], John [Allison?], John [Whinyard?] and Latin expansions remain uncertain or only partly verified.",
+    "Do not identify the 1696 apprentice or 1679/1680 children from these clauses alone.",
+    "Grant’s printed Surf remains a source variant; the original English will reads Swift. Underlying Scottish testament and Services of Heirs papers remain unread."
+  ]
+}
