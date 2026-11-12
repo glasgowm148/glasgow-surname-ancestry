@@ -1,6 +1,6 @@
 # Findings: [James Glasgow (Glasgow-2988), born about 1720, Derryloran, County Tyrone, Ireland](https://www.wikitree.com/wiki/Glasgow-2988)
 
-Last updated: 2026-10-16
+Last updated: 2026-11-12
 
 ## Current conclusion
 
@@ -8,6 +8,8 @@ Last updated: 2026-10-16
 **Cookstown comparison, 17 October 2026:** The existing uncertain older-family placement is extended to the compatible Mitchell-family James-1970. The Corvanaghan, Moneymore and Mitchell accounts remain separate possible identities; no Scottish migration, wife or new proved child is transferred.
 
 The dated review below materializes the preferred working family and retains earlier evidence, conflicts and alternatives.
+
+**Greenwich Packet record update, 12 November 2026:** TNA HCA 32/345/5 strongly connects the Greenwich Packet capture in 1776 with the same-vessel/master report in the May 1777 newspapers. This is an event-level bridge; it does not identify the master as this profile or establish family relationships. The 1782 Two Sisters James Glasgow occurrence remains separate.
 
 Reviewed: 2026-10-16
 
@@ -103,9 +105,11 @@ James Glascow, master of Greenwich Packet: possible, weaker. Estimated c.1720 bi
 
 Greenwich Packet: James Glascow, master; James Young, owner; from Philadelphia to Winyew, Carolina; with rum, bread, flour and porter. Three issues preserve the same vessel-list passage. The visible heading is “By the Orpheus and Daphne”; no overall heading or explicit genre label was found in the inspected area. The purpose of the list remains unresolved. The destination spelling is uncertain and not normalized. The owner is James Young, not James Glascow. [The Public Advertiser, 1777-05-14, p.2](https://www.newspapers.com/image/34421452/), [The Ipswich Journal, 1777-05-17, p.1](https://www.newspapers.com/image/396765804/), [The Gloucester Journal, 1777-05-19, p.1](https://www.newspapers.com/image/971522063/)
 
+The TNA catalogue for [HCA 32/345/5](https://discovery.nationalarchives.gov.uk/details/r/C13506030) describes the Greenwich Packet of New Jersey, master James Glasgow, captured by HMS Orpheus and HMS Daphne off Cape Henlopen on 18 November 1776. It gives a Philadelphia-to-Winyah [catalogue spelling: Winyew], South Carolina voyage with rum, bread, flour, apples and porter. The matching vessel, master-name form, captors, route and substantially matching cargo strongly link this capture to the May 1777 newspaper passage. This is a link between reports of one event, not proof that the master is Glasgow-2988. The TNA catalogue says the 1771 ship register names Constant Waitham and John Shippard as owners; the newspapers name James Young as owner in 1777. Because the evidence refers to different years, preserve the difference as unresolved; ownership may have changed. The HCA catalogue lists a ship register, crew list/agreement, clearance, bill of lading and invoice, but its digitised flag is false; originals were not inspected. A separate [HCA 32/467/14](https://discovery.nationalarchives.gov.uk/details/r/C13507992) catalogue entry for the Two Sisters (3 July 1782) names James Glasgow as prize master, a master’s mate of HMS Mentor; keep this occurrence separate because no identity bridge is shown.
+
 ## Next questions
 
-Check the report’s overall heading, prize/admiralty records and original vessel/master papers. Bridge to any profile by residence, signatures or family evidence.
+The catalogue search has located the related prize-paper file, but it is not marked digitised. If an original copy can be consulted, check the crew list/agreement, clearance, bill of lading and 1771 register for the master’s recorded form/signature and compare the stated ownership with James Young in 1777. Keep the ship/capture event matched while the master’s identity with any profile remains unresolved; do not join the separate 1782 Two Sisters occurrence without evidence.
 
 ## Current conclusion — postal and certificate originals, 5 October 2026
 
@@ -220,3 +224,9 @@ The list gives an Edinburgh designation but no age or relatives; it is not evide
 
 This may concern [Glasgow-2988](https://www.wikitree.com/wiki/Glasgow-2988). Birth c.1720, estimated, County Tyrone; death not recorded. Chronologically possible with no Edinburgh/certificate link; the recorded Irish locality is not a concrete conflict.
 <!-- queue-record-integration-2026-10-17:end -->
+
+### Separate Two Sisters comparison and excluded surgeon — 12 November 2026
+
+The [Two Sisters catalogue, HCA 32/467/14](https://discovery.nationalarchives.gov.uk/details/r/C13507992) describes James Cochran as the vessel’s master and James Glasgow as prize master, a master’s mate of HMS Mentor, bringing in an affidavit of papers on 8 July 1782 after the 3 July capture. Glasgow-2988’s estimated circa 1720 birth and unknown death leave him chronologically compatible, but no trade, voyage, residence or family identifier proves that he was this prize master. This remains an explicit weak comparison, separate from the Greenwich Packet captain.
+
+[James Glasgow, Swift surgeon (Glasgow-4124)](/people/glasgow-4124.html) is excluded from both later maritime occurrences by his death before probate on 21 August 1719 ([PROB 11/569/479](https://discovery.nationalarchives.gov.uk/details/r/D682397), earlier reviewed original). No new vital or confidence assessment is made.

@@ -595884,5 +595884,60 @@
     "publish_to_record_index": true,
     "record_category": "Insurance records",
     "country": "scotland"
+  },
+  {
+    "record_id": "tna-greenwich-packet-james-glasgow-capture-1776",
+    "association": "Capture of the Greenwich Packet, master James Glasgow",
+    "date": "18 November 1776",
+    "year": 1776,
+    "place": "Off Cape Henlopen, Delaware; brought into New York",
+    "source_url": "https://discovery.nationalarchives.gov.uk/details/r/C13506030",
+    "source_title": "The National Archives, HCA 32/345/5, HCA Prize Papers, C13506030 (Discovery catalogue description)",
+    "status": "TNA catalogue description only; originals not inspected; catalogue digitised flag is false",
+    "note": "The TNA catalogue describes the Greenwich Packet of New Jersey (30 tons, five crew), mastered by James Glasgow, captured off Cape Henlopen on 18 November 1776 by HMS Orpheus and HMS Daphne and brought into New York. It gives a Philadelphia-to-Winyah [catalogue spelling: Winyew], South Carolina voyage and cargo including rum, bread, flour, apples and porter. The catalogue enumerates a 1771 ship register, 1776 crew list/agreement and clearance, bill of lading, invoice and wrapper. This strongly matches the Greenwich Packet vessel/capture event reported in three May 1777 newspapers under master James Glascow. It does not identify the master with Glasgow-2988 or establish kinship. The 1771 register owners (Constant Waitham and John Shippard) differ from James Young named as owner in the 1777 newspaper transcription; as these refer to different years, retain the difference unresolved because ownership may have changed. Original papers were not accessed.",
+    "role": "Ship master as named in the catalogue description; event-level match to the 1777 newspaper reports",
+    "profiles": {
+      "Glasgow-2988": {
+        "role": "Possible existing profile comparison only; related 1777 newspaper event is already in this case, but the master’s personal identity is unproved",
+        "identification_status": "candidate",
+        "timeline_group": "Possible identity records"
+      }
+    },
+    "reviewed_on": "2026-11-12",
+    "assessment": "Same Greenwich Packet capture/event as the May 1777 newspaper reports is strongly supported at catalogue-description level. Identity of the master with Glasgow-2988 remains unproved.",
+    "provenance": "UK National Archives Discovery API record detail C13506030 / HCA 32/345/5, retrieved 12 November 2026; catalogue digitised=false; original not inspected. Correlated with the previously maintained May 1777 newspaper reading in Glasgow-2988 findings.",
+    "publish_to_record_index": true,
+    "provenance_details": [
+      "research/Glasgow-2988/findings.md",
+      "research/source-library/newspaper-targets.json"
+    ],
+    "country": "united states"
+  },
+  {
+    "record_id": "tna-two-sisters-james-glasgow-prize-master-1782",
+    "association": "Two Sisters prize case: catalogue occurrence of James Glasgow as prize master",
+    "date": "3 July 1782 (capture); 8 July 1782 (affidavit)",
+    "year": 1782,
+    "place": "Off the Delaware River; brought into New York",
+    "source_url": "https://discovery.nationalarchives.gov.uk/details/r/C13507992",
+    "source_title": "The National Archives, HCA 32/467/14, HCA Prize Papers, C13507992 (Discovery catalogue description)",
+    "status": "TNA catalogue description only; originals not inspected; catalogue digitised flag is false",
+    "note": "The catalogue describes the capture of the Two Sisters (master James Cochran) and says the 8 July 1782 affidavit of papers was brought in by prize master James Glasgow, master’s mate of HMS Mentor. The entry is a separate later maritime occurrence. It is not linked to the Greenwich Packet master or to the 1719 Swift surgeon; no personal identity or kinship is established. Glasgow-2988’s estimated circa 1720 birth and unknown death leave him chronologically compatible, but no profession, voyage, locality or family bridge identifies him. The Swift surgeon Glasgow-4124, dead by 21 August 1719, is excluded by chronology.",
+    "role": "Prize master named in catalogue description; separate unresolved occurrence",
+    "profiles": {
+      "Glasgow-2988": {
+        "role": "Chronologically compatible existing profile comparison only; no identification with this prize master or the Greenwich Packet captain",
+        "identification_status": "candidate",
+        "timeline_group": "Possible identity records"
+      }
+    },
+    "reviewed_on": "2026-11-12",
+    "assessment": "Separate 1782 occurrence. Glasgow-2988 is a weak compatible candidate only, not the identified prize master; there is no demonstrated same-captain bridge to the 1776 Greenwich Packet event. Glasgow-4124 is excluded because he was deceased by probate on 21 August 1719.",
+    "provenance": "UK National Archives Discovery API record detail C13507992 / HCA 32/467/14, retrieved 12 November 2026; catalogue digitised=false; original not inspected.",
+    "publish_to_record_index": true,
+    "provenance_details": [
+      "research/Glasgow-2988/findings.md"
+    ],
+    "country": "united states"
   }
 ]

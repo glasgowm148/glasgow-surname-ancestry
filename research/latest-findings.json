@@ -84807,6 +84807,50 @@
         "research/record-john-glasgow-anderston-manufacturer/findings.md",
         "research/record-john-glasgow-anderston-manufacturer/profile-draft.wiki"
       ]
+    },
+    {
+      "id": "greenwich-packet-capture-corroborates-1777-newspaper-event-20261112",
+      "found_on": "2026-11-12",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "The TNA catalogue for HCA 32/345/5 names James Glasgow as master of the Greenwich Packet of New Jersey and dates its capture by HMS Orpheus and HMS Daphne off Cape Henlopen to 18 November 1776. Its Philadelphia-to-Carolina route and substantially matching cargo strongly connect this capture to the Greenwich Packet report naming James Glascow in three May 1777 newspapers. This links the same vessel/capture event; it does not identify the master with Glasgow-2988.",
+      "qualification": "This assessment is based on catalogue descriptions and the previously maintained newspaper reading; the HCA original papers were not inspected and the catalogue says digitised=false. The HCA catalogue describes the 1771 register as naming Constant Waitham and John Shippard as owners, whereas the 1777 newspaper transcription names James Young. The dates differ and ownership could have changed, so retain this unresolved difference without treating it as a conflict. The 1782 HCA 32/467/14 Two Sisters entry separately names a James Glasgow as prize master (master’s mate of HMS Mentor); no evidence joins that occurrence to the Greenwich Packet master. No parent, spouse, death date, profile identity, or relationship change is established. Glasgow-2988 is also chronologically compatible with the separate 1782 prize master, but no personal bridge identifies him. The already reviewed Swift surgeon Glasgow-4124 is excluded by death before 21 August 1719; no new vital or confidence assessment follows.",
+      "people": [
+        {
+          "id": "Glasgow-2988",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-2988.html",
+          "role": "Existing weak possible profile comparison only; identity remains unproved"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The National Archives, HCA 32/345/5, HCA Prize Papers, C13506030 (catalogue description; digitised=false)",
+          "url": "https://discovery.nationalarchives.gov.uk/details/r/C13506030"
+        },
+        {
+          "title": "The Public Advertiser, 14 May 1777, p. 2",
+          "url": "https://www.newspapers.com/image/34421452/"
+        },
+        {
+          "title": "The Ipswich Journal, 17 May 1777, p. 1",
+          "url": "https://www.newspapers.com/image/396765804/"
+        },
+        {
+          "title": "The Gloucester Journal, 19 May 1777, p. 1",
+          "url": "https://www.newspapers.com/image/971522063/"
+        },
+        {
+          "title": "Separate occurrence: The National Archives, HCA 32/467/14, HCA Prize Papers, C13507992 (catalogue description; digitised=false)",
+          "url": "https://discovery.nationalarchives.gov.uk/details/r/C13507992"
+        }
+      ],
+      "detail_url": "/people/glasgow-2988.html#research-findings",
+      "provenance": [
+        "research/Glasgow-2988/findings.md",
+        "research/Glasgow-2988/Glasgow-2988.md",
+        "research/source-library/newspaper-targets.json"
+      ]
     }
   ]
 }
