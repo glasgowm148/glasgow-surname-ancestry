@@ -84495,6 +84495,53 @@
           "url": "https://www.familysearch.org/ark:/61903/1:1:F318-T2H"
         }
       ]
+    },
+    {
+      "id": "bengal-william-general-george-confident-father-20261112",
+      "found_on": "2026-11-12",
+      "kind": "relationship",
+      "status": "qualified",
+      "detail_url": "/people/record-father-william-glasgow-bengal-amelia.html#research-findings",
+      "finding": "New confident father for the Bengal William-and-Amelia family: General George Glasgow → Captain William Glasgow, 95%, previously Unknown. Hodson explicitly names the father and records William’s 1824 Barrackpore marriage to Amelia Campbell.",
+      "significance": "Joins an already catalogued Bengal family to the artillery family through a named father and an identifying marriage. This is a real new parent attachment, not an initial numerical label on an unchanged known father.",
+      "qualification": "The 95% is a subjective estimate of the whole father-profile identification, not a measured frequency. The printed 1928 biography was visually inspected; its underlying cadet, marriage and burial originals were not. Hodson states the officer’s parentage directly, while transferring it to the baptism-index household remains an identity inference. It names no mother for William. No Green mother, identity merge or new WikiTree profile is selected. Amelia Glasgow-482’s separate 78% identification and Edward George’s separate 55% father assessment are unchanged. The officer’s 1841 death distinguishes him from the separate 53rd Native Infantry William described as murdered in February 1855; that service file remains unread and is not attached to this father.",
+      "people": [
+        {
+          "id": "record-father-william-glasgow-bengal-amelia",
+          "name": "William Glasgow, Bengal officer and family father",
+          "url": "/people/record-father-william-glasgow-bengal-amelia.html",
+          "role": "Father previously Unknown; new confident parent connection, 95%"
+        },
+        {
+          "id": "record-queue-newspapers-irish-1800-1850-george-senior-artillery",
+          "name": "General George Glasgow",
+          "url": "/people/record-queue-newspapers-irish-1800-1850-george-senior-artillery.html",
+          "role": "New confident father, explicitly named in the printed biography"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Hodson, List of the Officers of the Bengal Army, part II (1928), p.273; printed page inspected",
+          "url": "https://archive.org/details/dli.csl.3669/page/n278/mode/1up"
+        },
+        {
+          "title": "Held Barrackpore baptism of William, born 6 September 1825, parents William and Amelia; original unread",
+          "url": "https://www.ancestry.co.uk/search/collections/9899/records/1271490"
+        }
+      ],
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "record-father-william-glasgow-bengal-amelia",
+          "relative": "record-queue-newspapers-irish-1800-1850-george-senior-artillery",
+          "before": "unknown",
+          "after": "certain",
+          "probability_percent": 95,
+          "previous_probability_percent": null,
+          "previous_status_provenance": "Before this source was read, the existing public William-and-Amelia dossier had no father, its saved source review explicitly retained Unknown parentage, and the native relationship views returned no father claim. The subject was already catalogued and has held baptism records; this is not indexing coverage.",
+          "explanation": "General George Glasgow is the newly selected confident father of William Glasgow in the Bengal William-and-Amelia household, assessed at 95%. Hodson’s printed officer biography explicitly calls William the son of George Glasgow of Greenwich, lieutenant-general Royal Artillery. It records William’s marriage to Amelia Campbell at Barrackpore on 15 October 1824. The held baptism index places William and Amelia’s first known child William at Barrackpore on 6 September 1825, followed by the same parental names at other Bengal stations. This specific wife, station and chronology identifies the officer with the existing documentary father far more securely than name and Bengal alone. The general’s name, rank, corps, Greenwich residence and Quebec service identify the existing General George account. This is a new named father for an already catalogued family, not a first numerical rating of a previously selected father."
+        }
+      ]
     }
   ]
 }

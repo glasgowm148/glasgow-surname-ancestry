@@ -220321,5 +220321,72 @@
       ],
       "scope": "Subjective 96% for this complete existing profile pair. The original 1888 published biography names both parents and matches William’s distinctive name, Geneva College graduation in 1880, Allegheny Seminary and Baltimore pastorate. This is the author’s own lifetime biographical statement, not a contemporary birth register. The attributed author also wrote the held family typescript, so the two accounts are not independent witnesses. Page 526 reports birth on 1 July 1856 at Northwood, Logan County; the retained profile says 5 July 1856 at Youngstown, Mahoning County. That vital conflict remains open and no vital field is changed. The retained 1850 William Glasgow census citation cannot describe this 1856-born subject and is not corroboration. Existing family attachments and live WikiTree certainty flags are unchanged; an unmarked prior flag is not a 0% baseline."
     }
+  },
+  {
+    "assertion_id": "clm-bengal-william-general-george-father-20261112",
+    "people": [
+      "record-father-william-glasgow-bengal-amelia",
+      "record-queue-newspapers-irish-1800-1850-george-senior-artillery"
+    ],
+    "claim": "General George Glasgow is the newly selected confident father of William Glasgow in the Bengal William-and-Amelia household, assessed at 95%. Hodson’s printed officer biography explicitly calls William the son of George Glasgow of Greenwich, lieutenant-general Royal Artillery. It records William’s marriage to Amelia Campbell at Barrackpore on 15 October 1824. The held baptism index places William and Amelia’s first known child William at Barrackpore on 6 September 1825, followed by the same parental names at other Bengal stations. This specific wife, station and chronology identifies the officer with the existing documentary father far more securely than name and Bengal alone. The general’s name, rank, corps, Greenwich residence and Quebec service identify the existing General George account. This is a new named father for an already catalogued family, not a first numerical rating of a previously selected father.",
+    "relation_type": "biological",
+    "perspectives": {
+      "record-father-william-glasgow-bengal-amelia": {
+        "relationship": "father"
+      },
+      "record-queue-newspapers-irish-1800-1850-george-senior-artillery": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "hodson-bengal-william-glasgow-1928-p273",
+      "ancestry-9899-1271490"
+    ],
+    "provenance": {
+      "first_assessment": true,
+      "new_father_attachment": true,
+      "new_father_attachment_reviewed": "2026-11-12",
+      "newly_indexed_subject": false,
+      "prior_assessment": {
+        "percent": null,
+        "reviewed": "2026-11-12",
+        "source_basis": "Before this source was read, the existing public William-and-Amelia dossier had no father, its saved source review explicitly retained Unknown parentage, and the native relationship views returned no father claim. The subject was already catalogued and has held baptism records; this is not indexing coverage.",
+        "status": "unknown"
+      },
+      "review_kind": "new_father_from_named_officer_biography",
+      "source_newly_discovered": true
+    },
+    "status": "strongly_supported",
+    "assessment_date": "2026-11-12",
+    "basis": "General George Glasgow is the newly selected confident father of William Glasgow in the Bengal William-and-Amelia household, assessed at 95%. Hodson’s printed officer biography explicitly calls William the son of George Glasgow of Greenwich, lieutenant-general Royal Artillery. It records William’s marriage to Amelia Campbell at Barrackpore on 15 October 1824. The held baptism index places William and Amelia’s first known child William at Barrackpore on 6 September 1825, followed by the same parental names at other Bengal stations. This specific wife, station and chronology identifies the officer with the existing documentary father far more securely than name and Bengal alone. The general’s name, rank, corps, Greenwich residence and Quebec service identify the existing General George account. This is a new named father for an already catalogued family, not a first numerical rating of a previously selected father.",
+    "assessment_history": [],
+    "reason": "General George Glasgow is the newly selected confident father of William Glasgow in the Bengal William-and-Amelia household, assessed at 95%. Hodson’s printed officer biography explicitly calls William the son of George Glasgow of Greenwich, lieutenant-general Royal Artillery. It records William’s marriage to Amelia Campbell at Barrackpore on 15 October 1824. The held baptism index places William and Amelia’s first known child William at Barrackpore on 6 September 1825, followed by the same parental names at other Bengal stations. This specific wife, station and chronology identifies the officer with the existing documentary father far more securely than name and Bengal alone. The general’s name, rank, corps, Greenwich residence and Quebec service identify the existing General George account. This is a new named father for an already catalogued family, not a first numerical rating of a previously selected father.",
+    "limitations": "The 95% is a subjective estimate of the whole father-profile identification, not a measured frequency. The printed 1928 biography was visually inspected; its underlying cadet, marriage and burial originals were not. Hodson states the officer’s parentage directly, while transferring it to the baptism-index household remains an identity inference. It names no mother for William. No Green mother, identity merge or new WikiTree profile is selected. Amelia Glasgow-482’s separate 78% identification and Edward George’s separate 55% father assessment are unchanged. The officer’s 1841 death distinguishes him from the separate 53rd Native Infantry William described as murdered in February 1855; that service file remains unread and is not attached to this father.",
+    "probability": {
+      "value": 0.95,
+      "reviewed": "2026-11-12",
+      "basis": "General George Glasgow is the newly selected confident father of William Glasgow in the Bengal William-and-Amelia household, assessed at 95%. Hodson’s printed officer biography explicitly calls William the son of George Glasgow of Greenwich, lieutenant-general Royal Artillery. It records William’s marriage to Amelia Campbell at Barrackpore on 15 October 1824. The held baptism index places William and Amelia’s first known child William at Barrackpore on 6 September 1825, followed by the same parental names at other Bengal stations. This specific wife, station and chronology identifies the officer with the existing documentary father far more securely than name and Bengal alone. The general’s name, rank, corps, Greenwich residence and Quebec service identify the existing General George account. This is a new named father for an already catalogued family, not a first numerical rating of a previously selected father.",
+      "source_ids": [
+        "hodson-bengal-william-glasgow-1928-p273",
+        "ancestry-9899-1271490"
+      ],
+      "scope": "The 95% is a subjective estimate of the whole father-profile identification, not a measured frequency. The printed 1928 biography was visually inspected; its underlying cadet, marriage and burial originals were not. Hodson states the officer’s parentage directly, while transferring it to the baptism-index household remains an identity inference. It names no mother for William. No Green mother, identity merge or new WikiTree profile is selected. Amelia Glasgow-482’s separate 78% identification and Edward George’s separate 55% father assessment are unchanged. The officer’s 1841 death distinguishes him from the separate 53rd Native Infantry William described as murdered in February 1855; that service file remains unread and is not attached to this father."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-father-william-glasgow-bengal-amelia.html#research-findings",
+        "label": "New confident father: Hodson’s named parent and Barrackpore marriage"
+      }
+    ],
+    "profile_names": {
+      "record-father-william-glasgow-bengal-amelia": "William Glasgow, Bengal William-and-Amelia household",
+      "record-queue-newspapers-irish-1800-1850-george-senior-artillery": "General George Glasgow"
+    }
   }
 ]

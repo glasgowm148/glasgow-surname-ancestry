@@ -595524,5 +595524,43 @@
     "source_level": "Printed transcription and later editorial annotation; manuscripts unread",
     "provenance": "Visually checked the public-domain printed page on 12 November 2026 after locating the entry in the provider OCR. The 1913 edition confirms an earlier second-hand quotation; no original university manuscript or minute was inspected.",
     "assessment": "Student forename John and father’s ministerial office verified in print; identification with the 1713 or 1717 child remains unresolved."
+  },
+  {
+    "record_id": "hodson-bengal-william-glasgow-1928-p273",
+    "provider": "Internet Archive / Central Secretariat Library digitization",
+    "collection": "Hodson, List of the Officers of the Bengal Army, 1758–1834, part II (1928)",
+    "association": "William Glasgow, 61st Native Infantry; son of General George; husband of Amelia Campbell",
+    "person": "William Glasgow",
+    "event_role": "Officer, son and bridegroom",
+    "date": "1824-10-15",
+    "year": 1824,
+    "place": "Barrackpore, Bengal, India",
+    "country": "India",
+    "reference": "Part II, printed p.273, GLASGOW, William; Internet Archive dli.csl.3669, image 278",
+    "source_url": "https://archive.org/details/dli.csl.3669/page/n278/mode/1up",
+    "source_title": "V. C. P. Hodson, List of the Officers of the Bengal Army, part II (1928), p.273: William Glasgow (1800–1841)",
+    "source_type": "Printed officer biography",
+    "source_quality": "derivative",
+    "source_level": "Researched printed compilation; underlying historical originals unread",
+    "source_status": "Printed page visually inspected 12 November 2026",
+    "record_type": "Military officer biography",
+    "record_category": "Military",
+    "status": "Confident identification of the existing Bengal father; reported parentage explicit",
+    "note": "William Glasgow (1800–1841), captain, Invalid Establishment, 61st Native Infantry. Born Quebec, Canada, 11 July 1800; cadet 1818; admitted 7 July 1819; ensign 5 February 1819; lieutenant 12 June 1820; captain 5 June 1829; invalided 13 June 1833; died Mussoorie 29 October 1841. Son of George Glasgow of Greenwich, lieutenant-general Royal Artillery. Married Miss Amelia Campbell at Barrackpore on 15 October 1824. Sandhurst cadet. The service paragraph gives transfers through the 31st to the 61st Native Infantry in May 1824. These are Hodson’s statements, not original registers inspected in this review. General George Glasgow is the newly selected confident father of William Glasgow in the Bengal William-and-Amelia household, assessed at 95%. Hodson’s printed officer biography explicitly calls William the son of George Glasgow of Greenwich, lieutenant-general Royal Artillery. It records William’s marriage to Amelia Campbell at Barrackpore on 15 October 1824. The held baptism index places William and Amelia’s first known child William at Barrackpore on 6 September 1825, followed by the same parental names at other Bengal stations. This specific wife, station and chronology identifies the officer with the existing documentary father far more securely than name and Bengal alone. The general’s name, rank, corps, Greenwich residence and Quebec service identify the existing General George account. This is a new named father for an already catalogued family, not a first numerical rating of a previously selected father. The 95% is a subjective estimate of the whole father-profile identification, not a measured frequency. The printed 1928 biography was visually inspected; its underlying cadet, marriage and burial originals were not. Hodson states the officer’s parentage directly, while transferring it to the baptism-index household remains an identity inference. It names no mother for William. No Green mother, identity merge or new WikiTree profile is selected. Amelia Glasgow-482’s separate 78% identification and Edward George’s separate 55% father assessment are unchanged. The officer’s 1841 death distinguishes him from the separate 53rd Native Infantry William described as murdered in February 1855; that service file remains unread and is not attached to this father.",
+    "profiles": {
+      "record-father-william-glasgow-bengal-amelia": {
+        "role": "Officer and bridegroom; existing William-and-Amelia father identified at 95%",
+        "assessment": "confident",
+        "probability": 0.95
+      },
+      "record-queue-newspapers-irish-1800-1850-george-senior-artillery": {
+        "role": "Named father, George Glasgow of Greenwich, lieutenant-general Royal Artillery",
+        "assessment": "confident",
+        "probability": 0.95
+      }
+    },
+    "reviewed_on": "2026-11-12",
+    "publish_to_record_index": true,
+    "provenance": "Printed p.273 visually checked against the source scan on 12 November 2026 after locating the entry in provider OCR. The OCR misread 13 June 1833 as 15 June; the scan supports 13. No original military, parish or probate manuscript was inspected."
   }
 ]
