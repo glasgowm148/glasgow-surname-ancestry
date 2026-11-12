@@ -83858,6 +83858,68 @@
           "url": "https://archive.org/details/10thcensus1114unit/page/n107/mode/1up"
         }
       ]
+    },
+    {
+      "id": "martha-manchester-probable-father-20261112",
+      "found_on": "2026-11-12",
+      "kind": "relationship",
+      "status": "qualified",
+      "detail_url": "/people/record-ancestry-glasgow-2712abdeb849.html#research-findings",
+      "finding": "Prefer William Glasgow-3545 as Martha’s probable father at 84% subjective confidence. Martha’s 6 August 1809 Lloyd Street Presbyterian baptism names William Glasgow and Ann. The same chapel records Robert to William and Ann in 1806, Agnus in 1812 and William in 1816. Martha falls naturally between the earlier two entries. The existing William-3545 account represents the Manchester groom who married Ann Denham on 30 September 1805 and is already the preferred father in the related household comparisons. The matching full paternal name, maternal forename, exact chapel and coherent child sequence support one household more strongly than a city-and-generation guess.",
+      "significance": "A new probable placement of an existing documentary child in the Manchester William-3545 family; no new record or confident connection.",
+      "qualification": "This is a new profile identification from held index evidence, not a new record discovery or a confident father identification. The indexed entries do not name the mother’s maiden surname, father’s occupation or address. Another William-and-Ann couple, a second wife named Ann, or a transcription error remains possible. The 1806/1812/1816 entries are separate events in the same register tradition, not independent proofs of the profile identity. No person is merged. Martha’s documentary mother Ann remains distinct from Ann Denham pending an independent identity assessment. Other tentative children attached to the documentary William are not transferred. The existing father claim at 90% confirms the father named in Martha’s own baptism by defining a documentary William from that entry. It did not identify him with William-3545. That record-role assessment is retained at 90% as a historical representation; it is not disproved or treated as a competing biological father. The selected 84% concerns the more specific identification with an existing adult profile.",
+      "people": [
+        {
+          "id": "record-ancestry-glasgow-2712abdeb849",
+          "name": "Martha Glasgow, baptised 1809",
+          "url": "/people/record-ancestry-glasgow-2712abdeb849.html",
+          "role": "Existing documentary child; probable father-profile identification 84%"
+        },
+        {
+          "id": "Glasgow-3545",
+          "name": "William Glasgow, husband of Ann Denham",
+          "url": "/people/glasgow-3545.html",
+          "role": "Probable father 84%; own parents unknown"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Martha baptism index, 6 August 1809, Lloyd Street; William and Ann named",
+          "url": "https://www.ancestry.co.uk/search/collections/9841/records/86820999"
+        },
+        {
+          "title": "William and Ann Denham marriage index, 30 September 1805, Manchester",
+          "url": "https://www.ancestry.co.uk/search/collections/9852/records/10952888"
+        },
+        {
+          "title": "Robert baptism index, 28 September 1806, same chapel and parents",
+          "url": "https://www.ancestry.co.uk/search/collections/9841/records/122660630"
+        },
+        {
+          "title": "Agnus baptism index, 3 January 1812, same chapel and parents",
+          "url": "https://www.ancestry.co.uk/search/collections/9841/records/2392597"
+        },
+        {
+          "title": "William baptism index, 23 June 1816, same chapel and parents",
+          "url": "https://www.ancestry.co.uk/search/collections/9841/records/183640583"
+        }
+      ],
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "before": "certain",
+          "after": "probable",
+          "assertion_id": "clm-martha-1809-william-3545-father-20261112",
+          "previous_status_provenance": "The existing father claim at 90% confirms the father named in Martha’s own baptism by defining a documentary William from that entry. It did not identify him with William-3545. That record-role assessment is retained at 90% as a historical representation; it is not disproved or treated as a competing biological father. The selected 84% concerns the more specific identification with an existing adult profile.",
+          "scope": "Identity refinement from a record-defined father to an existing adult profile; not an upgrade from 90% to 84%.",
+          "explanation": "Father-profile identity refinement, not a 90% to 84% downgrade of the same proposition. Prefer William Glasgow-3545 as Martha’s probable father at 84% subjective confidence. Martha’s 6 August 1809 Lloyd Street Presbyterian baptism names William Glasgow and Ann. The same chapel records Robert to William and Ann in 1806, Agnus in 1812 and William in 1816. Martha falls naturally between the earlier two entries. The existing William-3545 account represents the Manchester groom who married Ann Denham on 30 September 1805 and is already the preferred father in the related household comparisons. The matching full paternal name, maternal forename, exact chapel and coherent child sequence support one household more strongly than a city-and-generation guess.",
+          "subject": "record-ancestry-glasgow-2712abdeb849",
+          "relative": "Glasgow-3545",
+          "previous_relative": "record-ancestry-glasgow-30dc6133ca83",
+          "previous_probability_percent": 90,
+          "probability_percent": 84
+        }
+      ]
     }
   ]
 }

@@ -21,3 +21,14 @@ An [original Manchester Courier legal notice](https://www.findmypast.co.uk/image
 
 The trade and address context support comparison with the page-6 original death notice already integrated in the preceding batch. They do not independently identify Glasgow-3545, whose occupation and adult address remain unproved. The existing death-notice and 5/8 April register-index comparisons, age 66 versus 64, Ann Denham household and all prior source references are retained. No model vital, occupation, address, relative or confidence changes follow. The licensed raw image remains private; public text paraphrases it.
 <!-- END FMP-PAGE37-20261104 Glasgow-3545 -->
+
+
+## Martha’s 1809 household placement — 12 November 2026
+
+Prefer William Glasgow-3545 as Martha’s probable father at 84% subjective confidence. Martha’s 6 August 1809 Lloyd Street Presbyterian baptism names William Glasgow and Ann. The same chapel records Robert to William and Ann in 1806, Agnus in 1812 and William in 1816. Martha falls naturally between the earlier two entries. The existing William-3545 account represents the Manchester groom who married Ann Denham on 30 September 1805 and is already the preferred father in the related household comparisons. The matching full paternal name, maternal forename, exact chapel and coherent child sequence support one household more strongly than a city-and-generation guess.
+
+This is a new profile identification from held index evidence, not a new record discovery or a confident father identification. The indexed entries do not name the mother’s maiden surname, father’s occupation or address. Another William-and-Ann couple, a second wife named Ann, or a transcription error remains possible. The 1806/1812/1816 entries are separate events in the same register tradition, not independent proofs of the profile identity. No person is merged. Martha’s documentary mother Ann remains distinct from Ann Denham pending an independent identity assessment. Other tentative children attached to the documentary William are not transferred.
+
+The existing father claim at 90% confirms the father named in Martha’s own baptism by defining a documentary William from that entry. It did not identify him with William-3545. That record-role assessment is retained at 90% as a historical representation; it is not disproved or treated as a competing biological father. The selected 84% concerns the more specific identification with an existing adult profile.
+
+[Martha’s complete source comparison](/people/record-ancestry-glasgow-2712abdeb849.html#research-findings). Existing adult-child assessments, William’s own unknown parentage and the engineer/death-notice identity holds are unchanged.
