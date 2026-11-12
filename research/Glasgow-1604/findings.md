@@ -58,7 +58,7 @@ before his 1690 marriage to Jean Cunningham.
 | --- | --- | --- |
 | [John Glasgow (Glasgow-3375), about 1650, Kilwinning](https://www.wikitree.com/wiki/Glasgow-3375) | John and Barbara Alason were parents in 1679/1689; no record names John-1604 as the father's father. | Uncertain; serious duplicate candidate for Rev. John-1073. |
 | [Robert Glasgow (Glasgow-1512), before 1652, Ayr](https://www.wikitree.com/wiki/Glasgow-1512) | Robert and Margaret Donald had sons in Ayr in 1670-71. | Uncertain; no grandparent is named. |
-| [Hew Glasgow (Glasgow-1066), before about 1655, Kilwinning](https://www.wikitree.com/wiki/Glasgow-1066) | Hew married Margaret Lachland in 1676 and had children at Kilwinning. | Uncertain; the attached 1658 birth is incompatible with his marriage and child in 1676. |
+| [Hew Glasgow (Glasgow-1066), before about 1655, Kilwinning](https://www.wikitree.com/wiki/Glasgow-1066) | Hew and Margaret Lachland are named as parents of the child christened at Kilwinning on 24 May 1676. | Uncertain; no grandparent is named. A birth in 1658 would make the father about eighteen in 1676 and is not chronologically excluded by that event alone. |
 
 ## Complete WikiTree handoff
 
@@ -108,3 +108,14 @@ Sources reused: [NRS GD39/5/59, 9 February 1571: James elder of Corsinkell and s
 
 A possible identification concerns John Glasgow in Rashlie, Kilbride, 1643. John Glasgow was listed as “in Rashlie, parish of Kilbride” in a printed index to Glasgow Commissary Court testaments, dated 17 April 1643. (FamilySearch, *Glasgow. Wills 1547–1800*, item #007960708, image 112, printed index p. 196, entry for John Glasgow in Rashlie, parish of Kilbride, 17 April 1643, reference CC9/7/28; https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS8K-D98V?view=fullText&keywords=Glasgow&searchForm=advanced&lang=en&groupId=M97N-2NT. The image is of the printed index, not the underlying testament.) The identification remains uncertain.
 <!-- queue-record-integration-2026-10-17:end -->
+
+
+## 12 November 2026 — child christening and upstream evidence limits
+
+The signed-in FamilySearch transcript XTVY-FQ2 explicitly labels the event Christening, 24 May 1676, Kilwinning, and names child Hew Glasgow, father Hew Glasgow and mother Margaret Lachland. Its Birth Date field displays only “5”, not a complete date. It says Image Unavailable. This is an index-transcript reading, not an original-register inspection.
+
+The transcript does not identify either grandparent or substantiate a marriage on the child’s christening date. The separately reported parish 599/M, FR34 marriage citation remains unverified; a marriage on that date is not disproved. The child’s existing 99% father and 90% mother assessments, the adult’s own parentage, and all vital fields remain unchanged.
+
+The earlier claim that a 1658 birth is incompatible with fatherhood in 1676 is withdrawn: about eighteen is possible. No new birth date or child-to-adult identity is selected. For the older John-to-Hugh link, the missing discriminator is an independently identified John with named father Hugh, or a kinship/property record bridging those two adults. Re-reading Hew’s already established child entry cannot supply that generation.
+
+[FamilySearch child/parent transcript](https://www.familysearch.org/ark:/61903/1:1:XTVY-FQ2).

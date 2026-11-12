@@ -2652,10 +2652,10 @@
     "date": "24 May 1676",
     "year": 1676,
     "place": "Kilwinning",
-    "source_title": "Hew,24 May 1676,Kilwinning; named parents in supplied SP599,10/23,FR34; FMP mother Mt Lach?",
-    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3624324&tab=this",
+    "source_title": "FamilySearch, Scotland Births and Baptisms, 1564–1950: Hew Glasgow, christening 24 May 1676, Kilwinning; parents Hew Glasgow and Margaret Lachland",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:XTVY-FQ2",
     "status": "Existing supplied index/transcript review",
-    "note": "Child clause names both parents.5 May in the father’s older biography and the reported marriage event type remain unresolved; no new original inspection.",
+    "note": "The signed-in FamilySearch transcript XTVY-FQ2 explicitly labels the event Christening, 24 May 1676, Kilwinning, and names child Hew Glasgow, father Hew Glasgow and mother Margaret Lachland. Its Birth Date field displays only “5”, not a complete date. It says Image Unavailable. This is an index-transcript reading, not an original-register inspection. The transcript does not identify either grandparent or substantiate a marriage on the child’s christening date. The separately reported parish 599/M, FR34 marriage citation remains unverified; a marriage on that date is not disproved. The child’s existing 99% father and 90% mother assessments, the adult’s own parentage, and all vital fields remain unchanged. Earlier Findmypast comparison: https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3624324&tab=this",
     "profiles": {
       "Glasgow-1067": {
         "role": "indexed child"
@@ -2666,7 +2666,13 @@
       "Lachland-2": {
         "role": "named mother in supplied full index"
       }
-    }
+    },
+    "source_type": "Provider index transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "FamilySearch transcript inspected 12 November 2026; Image Unavailable; original uninspected",
+    "record_type": "Baptism index",
+    "reviewed_on": "2026-11-12",
+    "provenance": "Supplied ScotlandsPeople and Findmypast index comparison retained; explicit FamilySearch event and parent roles inspected 12 November 2026. No new relationship assessment."
   },
   {
     "record_id": "irvine-hugh-service-1696",

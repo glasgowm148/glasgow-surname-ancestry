@@ -40,5 +40,17 @@
       "updated_at": "2026-07-19T12:07:21Z"
     }
   ],
-  "web_searches": []
+  "web_searches": [],
+  "research_state": {
+    "disposition": "awaiting_source",
+    "father_id": "Glasgow-1603",
+    "reviewed": "2026-11-12",
+    "last_test": "Reviewed existing John/Hugh family evidence and inspected the 1676 Kilwinning child transcript; its father is Hew, not John, and no grandfather is named.",
+    "next_test": "Find an independently identified adult John naming father Hugh, or an original kinship/property record connecting those adults. Inspect RD3/42, p.148 for the 1677 preacher’s residence and associates before assigning that occurrence to Hugh-1603; the index alone cannot identify him.",
+    "resume_when": "An original or concrete new record identifies John or Hugh with a father, residence, occupation or property discriminator; another downstream child-index reading does not reopen this parent pair.",
+    "review_conclusion": "John’s c 1626 identity and Hugh’s c 1600 identity remain inherited scaffold accounts. The independently documented later Kilwinning household supplies no proved intermediate kinship. No relationship grade, percentage or topology is changed.",
+    "review_source": "research/Glasgow-1604/findings.md"
+  },
+  "last_test": "Reviewed existing John/Hugh family evidence and inspected the 1676 Kilwinning child transcript; its father is Hew, not John, and no grandfather is named.",
+  "next_test": "Find an independently identified adult John naming father Hugh, or an original kinship/property record connecting those adults. Inspect RD3/42, p.148 for the 1677 preacher’s residence and associates before assigning that occurrence to Hugh-1603; the index alone cannot identify him."
 }

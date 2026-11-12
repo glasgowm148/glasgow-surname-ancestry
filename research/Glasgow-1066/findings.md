@@ -17,7 +17,7 @@ The minister now has one selected local working father, Glasgow-1604, with Glasg
 
 [Robert Glasgow (Glasgow-1078)](https://www.wikitree.com/wiki/Glasgow-1078) is
 not presently a reliable father candidate. Hew is documented at Kilwinning by
-his 1676 marriage and his children's 1676 and 1678 baptisms. Robert belongs to
+his children's 1676 and 1678 baptism material. The separately reported 1676 marriage is not established by the FamilySearch child transcript. Robert belongs to
 a Glasgow-city family and is promoted chiefly through
 [John Glasgow M.A. (Glasgow-1073)](https://www.wikitree.com/wiki/Glasgow-1073),
 whose combined local data currently contain two competing fathers:
@@ -27,7 +27,7 @@ Glasgow-1078 and [John Glasgow (Glasgow-1604)](https://www.wikitree.com/wiki/Gla
 
 | Source | Finding | Assessment |
 | --- | --- | --- |
-| Kilwinning marriage record, 24 May 1676, parish 599, FR34 | Records Hew Glasgow and Margaret Lachland at Kilwinning. | Direct locality evidence for Hew's adult household. |
+| Reported marriage citation, 24 May 1676, parish 599/M, FR34 | The marriage citation is retained, but its underlying entry has not been checked; the accessible same-date FamilySearch event is a child christening. | Do not count this citation as an independently verified marriage. |
 | [Hew child baptism, FamilySearch XTVY-FQ2](https://www.familysearch.org/ark:/61903/1:1:XTVY-FQ2) and Robert's 1678 Kilwinning baptism | Records Hew's children at Kilwinning. | Does not connect him to Glasgow-1078. |
 | Live relationship data for [Glasgow-1073](https://www.wikitree.com/wiki/Glasgow-1073) | The apparent sibling bridge contains competing same-role parents. | Tree conflict; unusable as positive parentage evidence until resolved. |
 
@@ -62,3 +62,14 @@ The 1696 Irvine father is now provisionally placed as an uncertain son through t
 
 A possible identification concerns Hugh Glasgow, preacher of the gospel, indexed 1677. Hugh Glasgow was described in a 1677 printed Register of Deeds index as “preacher of the gospel.” The index lists him as grantee in a deed abbreviated “Transl.”, recorded 8 March 1677 in the Durie Office, volume 42, page 148 (National Records of Scotland RD3/42, p. 148). The underlying deed has not been examined. The identification remains uncertain. (FamilySearch, *Scotland. Land Records 1677*, item #007830797, Item 3, image 48; printed *Register of Deeds, 1677. Name and Designation*, vol. XVII, p.80, Hugh Glasgow; Durie Office vol.42 p.148, National Records of Scotland RD3/42. [printed index image](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS39-S9V2-4?view=fullText&keywords=HUGH+Glasgow&searchForm=simple&lang=en&groupId=M9QN-ZQ3).)
 <!-- queue-record-integration-2026-10-17:end -->
+
+
+## 12 November 2026 — child christening and upstream evidence limits
+
+The signed-in FamilySearch transcript XTVY-FQ2 explicitly labels the event Christening, 24 May 1676, Kilwinning, and names child Hew Glasgow, father Hew Glasgow and mother Margaret Lachland. Its Birth Date field displays only “5”, not a complete date. It says Image Unavailable. This is an index-transcript reading, not an original-register inspection.
+
+The transcript does not identify either grandparent or substantiate a marriage on the child’s christening date. The separately reported parish 599/M, FR34 marriage citation remains unverified; a marriage on that date is not disproved. The child’s existing 99% father and 90% mother assessments, the adult’s own parentage, and all vital fields remain unchanged.
+
+The earlier claim that a 1658 birth is incompatible with fatherhood in 1676 is withdrawn: about eighteen is possible. No new birth date or child-to-adult identity is selected. For the older John-to-Hugh link, the missing discriminator is an independently identified John with named father Hugh, or a kinship/property record bridging those two adults. Re-reading Hew’s already established child entry cannot supply that generation.
+
+[FamilySearch child/parent transcript](https://www.familysearch.org/ark:/61903/1:1:XTVY-FQ2).
