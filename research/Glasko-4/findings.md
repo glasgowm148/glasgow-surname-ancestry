@@ -2,7 +2,7 @@
 
 ## Current conclusion
 
-Reviewed 22 October 2026. **Jacob Glasko-5 is Isaac Glasko-4’s father: 96% confident**, reassessed from 88% probable. This applies to the complete father–adult-profile pair. The earlier review overlooked the 1800 marriage citation already present in Jacob’s account; it is not a newly found original record or a new parent attachment.
+Reviewed 22 October 2026; source check 12 November 2026. **Jacob Glasko-5 is Isaac Glasko-4’s father: 96% confident**, reassessed from 88% probable. This applies to the complete father–adult-profile pair. The earlier review overlooked the 1800 marriage citation already present in Jacob’s account; it is not a newly found original record or a new parent attachment.
 
 The retained Smithfield marriage citation names Jacob Glasse as father of Isaac Glasse, who married Lucy Brayton on 19 December 1800. Isaac’s separate citation identifies the same distinctive Isaac/Lucy couple. The Rhode Island–North Uxbridge–Griswold family sequence and the reported 1807 distribution of Jacob’s land to Isaac and George connect that groom to the established blacksmith and his father’s account. These jointly support the complete Isaac Glasko-4 to Jacob Glasko-5 identification, rather than only an anonymous father role. No concrete competing Jacob father or second Isaac/Lucy couple appears in the reviewed material.
 
@@ -31,3 +31,10 @@ Held source basis: [After King Philip's War: Presence and Persistence in Indian 
 | [Calloway, After King Philip’s War](https://www.google.com/books/edition/After_King_Philip_s_War/LXrgK29zl2QC?hl=en&gbpv=1&dq=Isaac+Glasko&pg=PT344&printsec=frontcover), and Knoblock, African American Historic Burial Grounds(2015),pp. 167–168 | Report the Rhode Island–Uxbridge–Griswold family and Jacob’s1807 land distribution to Isaac and George. | Context supporting the complete identification; retellings may be dependent, and the deed is unread. |
 
 The complete captures and previous proposal were compared. Matilda, Martha and the passage putting Lucy Brayton in a maternal position are conflicting maternal labels; the marriage identifies Lucy as wife, not mother. No maternal identity or structured parent is removed or replaced. The captured father remains attached and unmarked on WikiTree, checked22 October 2026. The genuine pending action is a confident mark on the existing father, with the source argument; local research changes88→96. It is not a new father or an applied live edit.
+
+
+## 12 November 2026 — printed Smithfield entry and earlier-parent search
+
+James N. Arnold, *Vital Record of Rhode Island*, volume 3, Smithfield part, printed p. 35, gives **Glasie Isaac, of Jacob, of North Uxbridge**, marrying Lucy Brayton, of James, of Smithfield, on **19 December 1800**, by Elisha Arnold, justice. The printed entry cites town book 1, p. 363. [Printed page](https://archive.org/details/providencecounty00arnol/page/n364/mode/1up). The page image was inspected; its OCR mangles Glasie as GIASIE. This is another publication of the already-known marriage, not independent evidence of a second event or a newly found original town-register entry. Isaac’s father assessment remains **96%**.
+
+This corroborates the existing father clause without changing its rating. [Jacob’s research account](/people/glasko-5.html) keeps the search for his own parents separate; they remain unknown.
