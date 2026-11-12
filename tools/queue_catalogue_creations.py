@@ -97,7 +97,7 @@ def native_creation_merges(root):
     with open_project(root, readonly=True) as project:
         view = Views(project.store)
         merges = {old: new for old, new in view._merged_public.items()
-                  if old != new and old.startswith("record-") and new.startswith("record-")}
+                  if old != new and old.startswith("record-")}
         reasons = {}
         rows = project.store.all("SELECT id,kind,survivor_id,reason FROM entity_merge")
         undone = {row["reason"].split("undo ", 1)[1].split(":", 1)[0]
@@ -126,6 +126,8 @@ def _project_creation_merges(entries, merges, reasons):
         old = entry["catalogue_id"]
         target = merges.get(old, old)
         if target not in by_id:
+            if old in merges and not target.startswith("record-"):
+                continue  # The native decision retired this draft into an existing profile.
             if old in merges:
                 raise ValueError(f"{old}: native merge survivor {target} has no reviewed creation account")
             continue
@@ -527,8 +529,12 @@ def apply_creations(root=ROOT, catalogue_ids=None):
     """Materialize reviewed identities in the actual catalogue and person pages."""
     from bs4 import BeautifulSoup
     root = Path(root).resolve()
+    merges, _ = native_creation_merges(root)
+    native_retired = {old: target.casefold() for old, target in merges.items()
+                      if not target.startswith("record-")
+                      and (catalogue_ids is None or old in catalogue_ids)}
     entries = reviewed_people(root, catalogue_ids)
-    if not entries:
+    if not entries and not native_retired:
         return {"integrated": [], "count": 0}
     all_records = reviewed_records(root, catalogue_ids)
     built = catalogue._build_people(all_records, {}, [], {}, {"profiles": {}})
@@ -540,7 +546,8 @@ def apply_creations(root=ROOT, catalogue_ids=None):
     for entry in entries:
         people.append(decorate_person(by_id[entry['catalogue_id']], entry))
     web = root / "www"
-    retired = {old: entry["catalogue_id"] for entry in entries for old in entry.get("retired_catalogue_ids", [])}
+    retired = {**native_retired, **{old: entry["catalogue_id"] for entry in entries
+                                  for old in entry.get("retired_catalogue_ids", [])}}
     restored_aliases = {}
     for person in people:
         slug = person['catalogue_id']

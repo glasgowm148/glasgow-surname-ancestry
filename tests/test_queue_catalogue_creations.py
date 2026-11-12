@@ -55,6 +55,36 @@ The deed does not give her birth date. No compatible profile survived the docume
     def read(self, relative):
         return json.loads((self.root / "www" / relative).read_text())
 
+    def test_native_merge_into_existing_profile_does_not_recreate_duplicate(self):
+        web = self.root / 'www'
+        target = 'Example-2'
+        (web / 'people/example-2.html').write_text('Existing profile')
+        for relative, value in [
+            ('data/people.json', {'people': [{'catalogue_id': 'example-2', 'records': []},
+                                           {'catalogue_id': self.slug, 'records': []}]}),
+            ('assets/research/record-index.json', [{'id': 'original-record', 'p': self.slug}]),
+        ]:
+            path = web / relative
+            path.parent.mkdir(parents=True, exist_ok=True)
+            path.write_text(json.dumps(value))
+        route = web / 'assets/unified/routes.js'
+        route.parent.mkdir(parents=True, exist_ok=True)
+        route.write_text('window.GlasgowRoutes=' + json.dumps({self.slug: 'example-2'}) + ';')
+        original = (self.root / module.MANIFEST).read_bytes()
+        with patch.object(module, 'native_creation_merges', return_value=({self.slug: target}, {})):
+            result = module.apply_creations(self.root)
+        self.assertEqual(0, result['count'])
+        self.assertEqual(['example-2'], [p['catalogue_id'] for p in self.read('data/people.json')['people']])
+        self.assertEqual('example-2', self.read('people/' + self.slug + '.json')['native_merge_redirect'])
+        self.assertEqual('original-record', self.read('assets/research/record-index.json')[0]['id'])
+        self.assertEqual('example-2', self.read('assets/research/record-index.json')[0]['p'])
+        self.assertEqual(original, (self.root / module.MANIFEST).read_bytes())
+        with patch.object(module, 'native_creation_merges', return_value=({}, {})):
+            restored = module.apply_creations(self.root)
+        self.assertEqual(1, restored['count'])
+        self.assertNotIn('native_merge_redirect', self.read('people/' + self.slug + '.json'))
+        self.assertEqual(self.slug, self.read('assets/research/record-index.json')[0]['p'])
+
     def test_targeted_statistics_refreshes_hero_panels_and_artifact_preserving_shell(self):
         web = self.root / 'www'
         for relative in ('catalogue.html', 'catalogue/index.html', 'catalogue/advanced.html'):
