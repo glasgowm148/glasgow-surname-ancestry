@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+12 November 2026: a newly inspected 1736 Northwest River boundary names Daniel Glasgow junior; the 1737 assignment original is also checked. Neither supplies William’s parentage. See the original-deed review below.
+
 New title leads reviewed 4 November 2026: the 1737 White-to-Daniel assignment and 1768 Daniel boundary are unselected identity comparisons, not parent clauses. Existing father ratings remain unchanged; see the dated title-lead section below.
 
 Reviewed: 2026-11-01. Re-read against the later dated sections below; this conclusion already includes them, so no change.
@@ -110,3 +112,13 @@ The competing accounts are [Daniel, Mary Gamon’s husband](https://www.wikitree
 The original 1692 Miller acquisition and 1714 father–son deed are completed tests. Keep Richford Swamp’s 80 acres, the Miller 100 acres, Slade’s 100 acres, this unlocated 1737 assignment, the 1768 boundary, and William’s New Entry distinct until an actual title recital joins them. William Glasgow-428’s selected father stays **42% Possible**; Daniel-1158’s father stays **12% Uncertain**, and Daniel-3322’s father stays **34% Possible**. The documentary junior’s established 98% father relationship is unchanged. These source leads add no confidence improvement to the chart.
 
 Next discriminating test: inspect Currituck Deed Book 3 p.45 and its underlying deed/endorsement for a tract description, origin, wife, kin or Senior/Junior designation; trace the identified title forward to a named heir or William household. The partial online Book 1 list is explicitly unfinished; the Books 2/3 and Letter Book extracts are not complete manuscript coverage. An indexed web-search miss is not a negative search of all county deeds. The OCCGS compilation’s OCR repeats the 1737 assignment; its page image could not be fetched and was not inspected or counted as an independent witness. Browser tabs were preserved; no manuscript image was inspected in this batch.
+
+## Original Currituck deeds — 12 November 2026
+
+A deed dated 2 October 1736 from William Muncreef and Margaret his wife to Isaac Davis describes 160 acres on the south side of the Northwest River. Its boundary names Daniel Glasgow junior, then runs southwest to land formerly belonging to John Muncreef senior. The deed was acknowledged on 5 April 1737. This supplies a concrete holding and neighbouring title to trace for the younger Daniel, beyond the 1714 family conveyance.
+
+The boundary does not name Daniel’s parents, spouse or children. Identification with the documentary son in the 1714 deed is compatible, not established by a recited title. It does not name William Glasgow-428 as Daniel’s son. No person is merged or created, no vital field changes, and father ratings remain 42%, 12% and 34% for William-428, Daniel-1158 and Daniel-3322 respectively.
+
+The original 5 January 1736/7 White assignment on manuscript p.45 was also inspected. It confirms Luke and Margaret White, Daniel Glasgoe, witnesses Lewis Jenkins and John Martyn, and the July 1737 acknowledgment. It still describes the interest only as “the within deed”; the copied page does not establish which earlier title it means. The adjacent Lurry-to-Jarvis deed is not selected as its antecedent. The earlier original-uninspected statement is superseded for this assignment only.
+
+[Currituck Deed Book 3, manuscript pp.63–64, DGS 007513406, images68–69](https://www.familysearch.org/ark:/61903/3:1:3QS7-8989-QS96); [continuation](https://www.familysearch.org/ark:/61903/3:1:3QS7-L989-Q95T); [1737 assignment, p.45, image48](https://www.familysearch.org/ark:/61903/3:1:3QS7-L989-QSS3). Originals inspected; source images held privately. Next trace the Muncreef–Davis 160-acre title and Daniel junior’s adjoining holding. The 1738 William/Susanna parish-acre deed was also visually checked at p.83, image88; it repeats the held spouse/locality evidence and supplies no parent clause.

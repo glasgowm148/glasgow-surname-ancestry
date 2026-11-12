@@ -53135,10 +53135,10 @@
     "year": 1737,
     "place": "Currituck precinct, North Carolina",
     "country": "United States",
-    "source_url": "https://www.ncgenweb.us/currituck/deeds/db03.html",
-    "source_type": "Published deed transcription",
-    "status": "Published extract inspected; original register uninspected",
-    "note": "Deed Book 3, p.45: Luke and Margaret White assign their interest in the within deed to Daniel Glasgoe; Lewis Jenkins and John Martyn witness. The court extract says Luke White acknowledged the assignment. The extract supplies no tract acreage or boundaries, named Glasgow relative, wife, or Senior/Junior suffix. Its reference to a within deed must be resolved from the original context, not assigned to the preceding online entry. The dual-year January date is retained. Comparison accounts and the record-defined 1714 junior remain unresolved; no life dates or parent claim are changed.",
+    "source_url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L989-QSS3",
+    "source_type": "Original deed register; published transcription retained",
+    "status": "Original manuscript page inspected 12 November 2026",
+    "note": "Deed Book 3, p.45: Luke and Margaret White assign their interest in the within deed to Daniel Glasgoe; Lewis Jenkins and John Martyn witness. The court extract says Luke White acknowledged the assignment. The extract supplies no tract acreage or boundaries, named Glasgow relative, wife, or Senior/Junior suffix. Its reference to a within deed must be resolved from the original context, not assigned to the preceding online entry. The dual-year January date is retained. Comparison accounts and the record-defined 1714 junior remain unresolved; no life dates or parent claim are changed. Original p.45, DGS007513406 image48 inspected12November2026; confirms the extract but does not identify the underlying within deed. No tract or parent is inferred.",
     "profiles": {
       "Glasgow-3322": {
         "role": "Unselected family comparison only; recorded Daniel not assigned to this modern account",
@@ -53154,8 +53154,14 @@
       }
     },
     "provenance": "research/Glasgow-3322/findings.md",
-    "reviewed_on": "2026-11-04",
-    "publish_to_record_index": true
+    "reviewed_on": "2026-11-12",
+    "publish_to_record_index": true,
+    "source_quality": "original_register",
+    "record_type": "Registered land deed",
+    "record_category": "Land and valuation",
+    "record_precision": "Recorded deed locality; not geocoded",
+    "source_status": "Original register page inspected 12 November 2026",
+    "source_title": "Currituck Deed Book 3, p.45: Luke and Margaret White to Daniel Glasgoe, 5 January 1736/7; DGS007513406, image48"
   },
   {
     "record_id": "currituck-daniel-glasgow-boundary-1768",
@@ -594932,5 +594938,48 @@
     "provenance": "Full searchable p. 95 passage returned by public provider search; direct PDF fetch exceeded web-tool size limit. No manuscript or exact birth date claimed.",
     "reviewed_on": "2026-11-12",
     "publish_to_record_index": true
+  },
+  {
+    "record_id": "currituck-daniel-junior-muncreef-boundary-1736",
+    "association": "Daniel Glasgow junior on Muncreef–Davis land boundary",
+    "person": "Daniel Glasgow junior",
+    "date": "2 October 1736; acknowledged 5 April 1737",
+    "year": 1736,
+    "place": "South side of Northwest River, Currituck precinct, North Carolina",
+    "country": "United States",
+    "source_url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-8989-QS96",
+    "source_type": "Original deed register",
+    "status": "Original register images inspected",
+    "note": "A deed dated 2 October 1736 from William Muncreef and Margaret his wife to Isaac Davis describes 160 acres on the south side of the Northwest River. Its boundary names Daniel Glasgow junior, then runs southwest to land formerly belonging to John Muncreef senior. The deed was acknowledged on 5 April 1737. This supplies a concrete holding and neighbouring title to trace for the younger Daniel, beyond the 1714 family conveyance. The boundary does not name Daniel’s parents, spouse or children. Identification with the documentary son in the 1714 deed is compatible, not established by a recited title. It does not name William Glasgow-428 as Daniel’s son. No person is merged or created, no vital field changes, and father ratings remain 42%, 12% and 34% for William-428, Daniel-1158 and Daniel-3322 respectively. Currituck Deed Book3, pp.63–64, DGS007513406, images68–69.",
+    "profiles": {
+      "Glasgow-3322": {
+        "role": "Unselected family comparison; no parent clause",
+        "timeline_group": "Title and identity comparisons"
+      },
+      "Glasgow-1158": {
+        "role": "Unselected family comparison; no parent clause",
+        "timeline_group": "Title and identity comparisons"
+      },
+      "Glasgow-428": {
+        "role": "Unselected family comparison; no parent clause",
+        "timeline_group": "Title and identity comparisons"
+      },
+      "record-queue-norfolk-daniel-1729-1730-daniel-junior-1714": {
+        "role": "Compatible earlier junior identity; unselected event attribution",
+        "timeline_group": "Title and identity comparisons"
+      }
+    },
+    "provenance": "research/Glasgow-3322/findings.md",
+    "reviewed_on": "2026-11-12",
+    "publish_to_record_index": true,
+    "source_quality": "original_register",
+    "record_type": "Registered land deed",
+    "record_category": "Land and valuation",
+    "record_precision": "Recorded deed locality; not geocoded",
+    "source_status": "Original register page inspected 12 November 2026",
+    "source_title": "Currituck Deed Book 3, pp.63–64: William and Margaret Muncreef to Isaac Davis, 2 October 1736; DGS007513406, images68–69",
+    "additional_source_urls": [
+      "https://www.familysearch.org/ark:/61903/3:1:3QS7-L989-Q95T"
+    ]
   }
 ]
