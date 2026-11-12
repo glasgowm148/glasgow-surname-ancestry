@@ -594869,5 +594869,68 @@
     "provenance": "Located 12 November 2026 in FamilySearch full-text results for +Glasg* +Cookstown, then checked against the original images. Exact adjoining image227ARK obtained from the visible film grid. Private source pixels retained by hash, not published.",
     "publish_to_record_index": true,
     "reviewed_on": "2026-11-12"
+  },
+  {
+    "record_id": "james-glasgow-armstrong-nephew-journal-1870",
+    "record_type": "Missionary diary: named nephew",
+    "date": "1870-04-24",
+    "year": 1870,
+    "place": "St Louis, Missouri, United States; missionary diary",
+    "association": "James McClure Glasgow names Rev James Glasgow Armstrong of St Louis as nephew",
+    "source_title": "James McClure Glasgow diary,24 April 1870, transcribed in John Faris, A Black Sheep, Heritage, Autumn 2023",
+    "source_url": "https://presbyterianhistoryireland.com/publications/heritage/",
+    "additional_source_urls": [
+      "https://revjamesmcclureglasgow.blogspot.com/"
+    ],
+    "source_type": "Published transcription of a contemporary diary",
+    "source_quality": "derivative",
+    "source_status": "Published 1870 extract read 12 November 2026; original manuscript uninspected",
+    "status": "Named nephew relationship explicit; precise parental route inferred",
+    "profiles": {
+      "record-james-glasgow-armstrong-nephew": {
+        "role": "Named ministerial nephew, identified with the Hitchcock genealogy husband",
+        "assessment": "strongly_supported",
+        "timeline_group": "Family comparisons"
+      },
+      "Glasgow-1780": {
+        "role": "Diarist; calls the St Louis minister his nephew",
+        "assessment": "proved",
+        "timeline_group": "Family comparisons"
+      },
+      "Glasgow-1779": {
+        "role": "Preferred probable mother, 72%; not named as mother by this source",
+        "assessment": "probable",
+        "timeline_group": "Family comparisons"
+      }
+    },
+    "note": "The missionary identifies the named minister as his nephew; the entry does not identify the nephew’s parents. The diary does not name the nephew’s parents or say whether nephew is by blood or marriage. Jane is the leading mother hypothesis, not a literal maternity statement. The 1838 Antrim Assizes report names another Anne Armstrong, wife of John, whose mother was Jane Glasgow; Anne’s birth surname, age and identity with this family are unproved. That is a surviving alternative route, not an alias or identity merge with Jane-1779. No Armstrong father is named or invented. The reported 1836 Belfast birth comes from searchable text of the Hitchcock genealogy, p. 95; its page image was not inspected. The family memorial is known through the held transcription, not a newly inspected photograph. No father-confidence improvement or live WikiTree edit is claimed.",
+    "provenance": "Newly reconciled with held 1861 journal and independently published Hitchcock family account; original diary not inspected.",
+    "reviewed_on": "2026-11-12",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "hitchcock-genealogy-james-glasgow-armstrong-p95",
+    "record_type": "Published family genealogy",
+    "date": "1836",
+    "year": 1836,
+    "place": "Belfast, Ireland; Sidney, Ohio; St Louis and Richmond, United States",
+    "association": "James Glasgow Armstrong, reported born 1836 Belfast, husband of Alma Emily Hitchcock, Episcopal rector",
+    "source_title": "The genealogy of the Hitchcock family, printed p. 95, Almon Hitchcock family, Alma Emily Hitchcock and James Glasgow Armstrong",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/15/The_genealogy_of_the_Hitchcock_family%2C_who_are_descended_from_Matthias_Hitchcock_of_East_Haven%2C_Conn.%2C_and_Luke_Hitchcock_of_Wethersfield%2C_Conn_%28IA_cu31924012053785%29.pdf",
+    "source_type": "Published family genealogy, searchable text",
+    "source_quality": "secondary",
+    "source_status": "Searchable passage inspected 12 November 2026; original page image uninspected",
+    "status": "Reported life and spouse framework; no parents for Armstrong",
+    "profiles": {
+      "record-james-glasgow-armstrong-nephew": {
+        "role": "Husband of Alma Emily Hitchcock; St Louis/Richmond ministerial identity",
+        "assessment": "strongly_supported",
+        "timeline_group": "Life and family"
+      }
+    },
+    "note": "The passage reports 1836 Belfast birth, Sidney marriage to Alma Emily, and daughters Miriam Marcella and Agnes Ruth. It gives no parents for Armstrong. Reported year and place are not a newly inspected baptism.",
+    "provenance": "Full searchable p. 95 passage returned by public provider search; direct PDF fetch exceeded web-tool size limit. No manuscript or exact birth date claimed.",
+    "reviewed_on": "2026-11-12",
+    "publish_to_record_index": true
   }
 ]

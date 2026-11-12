@@ -162,3 +162,7 @@ David Faris, The Glasgow Family of Adams County, Ohio (Baltimore: Gateway Press,
 [Book, pp.12–13](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS3J-H9VW-9), [chart, pp.10–11](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS3J-H9FN-6), [Peters reconstruction, pp.14–15](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS3J-H9FV-S), [FamilySearch catalogue](https://www.familysearch.org/en/search/catalog/koha:646654).
 
 [Shared family review](/branches/research-irish-moneymore/#moneymore-probable-father); [James’s complete research account](/people/glasgow-1024.html#research-findings).
+
+## Printed family letters checked —12 November 2026
+
+Faris’s printed pp. 18–20 were visually checked in DGS 007834162: [image 1569,pp. 18–19](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS3J-H9F8-G) and [image 1570,pp. 20–21](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS3J-H9V7-B). They include the 6 November 1806 Joseph-and-Betty letter to Arthur and Robert-and-Rosey’s 24 May 1807 letter to Arthur. The passages confirm already-held sibling material and Robert’s reference to daughter Nancy McClelland; they do not name Robert’s father. These are the book’s printed transcriptions, not original letters. The earlier 23 October statement that these pages were uninspected is superseded; the 30% father assessment is unchanged.

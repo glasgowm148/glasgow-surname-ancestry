@@ -7,6 +7,8 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
+**Named Armstrong nephew —12 November 2026:** Rev. James Glasgow Armstrong of St Louis is expressly described as James McClure Glasgow’s nephew. Jane-1779 is his preferred probable mother, 72%; the parental route is inferred and the Cross John’s own father remains 8% unchanged.
+
 Current father assessment (22 October 2026): **99% (proved)** for [Glasgow-1657](https://www.wikitree.com/wiki/Glasgow-1657). Whole selected father-profile proposition; maternity and upstream ancestry assessed separately. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 No sourced conclusion recorded yet.
@@ -60,3 +62,11 @@ Next useful test: Inspect the Racavan stone photograph for wording and dates.
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [www.thebraid.com/ancestor_search.aspx?surname=Glasgow: Racavan Burying-Ground, Broughshane: "With the Lord" 1 Thess IV. 17. In loving memory of William Glasgow, who died 1823, aged 22. His father John Glasgow, 1836, aged 70. Jane Armstrong, daughter of the latter 1837, aged 38 And Jane, his widow 1858, aged 85](https://www.wikitree.com/wiki/Glasgow-1779)
+
+## Named nephew and maternal comparison —12 November 2026
+
+Prefer Jane Glasgow-1779 as the probable mother of Rev. James Glasgow Armstrong, at 72% subjective confidence. James McClure Glasgow calls the named St Louis minister his nephew in the diary entry of 24 April 1870, as transcribed by the manuscript owner in Heritage, Autumn 2023. The held 1861 journal also names the clerical nephew. Jane is independently recorded as the missionary’s sister, married Armstrong, on the Racavan family memorial; her estimated 1799 birth and reported 1837 death fit the nephew’s reported 1836 Belfast birth. Surname, an explicit uncle relationship, a specifically identified married sister and compatible generation make a positive maternal inference, beyond a common-name match.
+
+The diary does not name the nephew’s parents or say whether nephew is by blood or marriage. Jane is the leading mother hypothesis, not a literal maternity statement. The 1838 Antrim Assizes report names another Anne Armstrong, wife of John, whose mother was Jane Glasgow; Anne’s birth surname, age and identity with this family are unproved. That is a surviving alternative route, not an alias or identity merge with Jane-1779. No Armstrong father is named or invented. The reported 1836 Belfast birth comes from searchable text of the Hitchcock genealogy, p. 95; its page image was not inspected. The family memorial is known through the held transcription, not a newly inspected photograph. No father-confidence improvement or live WikiTree edit is claimed.
+
+Sources: [Heritage, Autumn 2023, A Black Sheep, diary 24 April 1870](https://presbyterianhistoryireland.com/publications/heritage/); [held missionary journal,p. 82](https://revjamesmcclureglasgow.blogspot.com/); [Hitchcock genealogy,p. 95](https://upload.wikimedia.org/wikipedia/commons/1/15/The_genealogy_of_the_Hitchcock_family%2C_who_are_descended_from_Matthias_Hitchcock_of_East_Haven%2C_Conn.%2C_and_Luke_Hitchcock_of_Wethersfield%2C_Conn_%28IA_cu31924012053785%29.pdf); [1838 Antrim Assizes comparison](https://www.newspapers.com/image/1050122635/). [Consolidated new-person account](/people/record-james-glasgow-armstrong-nephew.html).
