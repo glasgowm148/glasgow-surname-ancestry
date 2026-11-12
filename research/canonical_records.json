@@ -595053,5 +595053,32 @@
     "provenance": "research/Glasgow-752/findings.md",
     "reviewed_on": "2026-11-12",
     "publish_to_record_index": true
+  },
+  {
+    "record_id": "wylie-glasgow-donbought-marriage-1859",
+    "association": "Margaret Anne Glasgow of Donbought and James Wylie of Glenleslie marriage",
+    "date": "11 November 1859",
+    "year": 1859,
+    "place": "Newtowncrommelin, County Antrim, Ireland",
+    "source_url": "https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1859/09563/5467079.pdf",
+    "source_title": "Irish civil marriage return, Ballymena district, register p.134 entry98",
+    "source_quality": "original_register",
+    "source_type": "Civil marriage register",
+    "record_category": "marriage",
+    "status": "Original register inspected",
+    "note": "Bride Margaret Anne Glasgow, full age, spinster, Donbought, Dunaghy, father Robert Glasgow, farmer. Groom James Wylie, full age, bachelor, farmer, Glenleslie, Dunaghy, father Archibald Wylie, farmer. The older project table read the bride’s father as Andrew; the original clearly reads Robert. The 1876 Kendall directory p102 names James Wylie’s wife Margaret Ann as Robert Glasgow senior’s daughter. These details strongly support the identification with the 1851 Donbought daughter, but the marriage gives no mother or exact birth date. No upstream parent of Robert1049 is supplied.",
+    "reviewed_on": "2026-11-12",
+    "publish_to_record_index": true,
+    "profiles": {
+      "Glasgow-1399": {
+        "role": "Strongly supported identification with bride Margaret Anne Glasgow of Donbought",
+        "timeline_group": "Life events"
+      },
+      "Glasgow-1049": {
+        "role": "Father Robert Glasgow, farmer; identified through the Donbought family comparison",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "Original Irish civil register image inspected 12 November 2026, Ballymena register p134 entry98, PDF page1; compared with original1876 Kendall directory printedpp97 and102, PDFpp103 and108. Corrects the older Andrew transcription to Robert. Family identification is an inference from exact Donbought residence and the matching Wylie couple; no new father assessment."
   }
 ]

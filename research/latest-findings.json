@@ -83920,6 +83920,40 @@
           "probability_percent": 84
         }
       ]
+    },
+    {
+      "id": "donbought-wylie-original-marriage-20261112",
+      "found_on": "2026-11-12",
+      "kind": "record",
+      "status": "qualified",
+      "detail_url": "/people/glasgow-1399.html#research-findings",
+      "finding": "The original 11 November 1859 marriage names Margaret Anne Glasgow of Donbought, daughter of Robert Glasgow, marrying James Wylie of Glenleslie, son of Archibald Wylie. It corrects the older project transcription of her father as Andrew. The 1876 Kendall County directory names James Wylie’s wife Margaret Ann as Robert Glasgow senior’s daughter, strongly supporting the Donbought-to-Illinois family identification.",
+      "significance": "An exact Irish townland and named fathers connect the Irish marriage to the later Illinois family account.",
+      "qualification": "This strengthens the adult identification of the already documented Donbought daughter; it is not a new father attachment or numerical confidence increase. The marriage names no mother, and neither source identifies Robert1049’s father. His upstream54% possible assessment is unchanged.",
+      "people": [
+        {
+          "id": "Glasgow-1399",
+          "name": "Margret Glasgow",
+          "url": "/people/glasgow-1399.html",
+          "role": "Strongly supported identification with the Donbought bride and later Wylie wife"
+        },
+        {
+          "id": "Glasgow-1049",
+          "name": "Robert Glasgow",
+          "url": "/people/glasgow-1049.html",
+          "role": "Father of the Donbought daughter; upstream father still possible54%"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Original1859 marriage, Ballymena p134 entry98, PDFp1",
+          "url": "https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1859/09563/5467079.pdf"
+        },
+        {
+          "title": "George Fisher1876 Kendall directory, printedpp97,102; PDFpp103,108",
+          "url": "https://libsysdigi.library.uiuc.edu/oca/Books2007-09/biographicaldire00fish/biographicaldire00fish.pdf"
+        }
+      ]
     }
   ]
 }

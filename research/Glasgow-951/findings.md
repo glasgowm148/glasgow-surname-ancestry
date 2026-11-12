@@ -1022,7 +1022,7 @@ five-district corridor, or after emigration.
 | [Alice Glasgow - William Cust, 1856](https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1856/09503/5444003.pdf) | Samuel Glasgow, labourer |
 | [Jane Glasgow - Thomas Dugan, 1857](https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1857/09521/5450989.pdf) | William Glasgow, weaver |
 | [Mary Jane Glasgow - Samuel McCleary, 1857](https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1857/09522/5451552.pdf) | James Glasgow, farmer |
-| [Margaret Anne Glasgow - James Wylie, 1859](https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1859/09563/5467079.pdf) | Andrew Glasgow, farmer |
+| [Margaret Anne Glasgow - James Wylie, 1859](https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1859/09563/5467079.pdf) | Robert Glasgow, farmer |
 | [Maria Glasgow - James Montgomery, 1860](https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1860/09583/5474594.pdf) | Robert Glasgow, farmer |
 | [Martha Glasgow - William Wiley, 1862](https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1862/09623/5489652.pdf) | Robert Glasgow, farmer |
 | [Mary Ann Glasgow - David Bell, 1866](https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1866/11533/8241677.pdf) | James Glasgow, farmer |
@@ -3511,3 +3511,10 @@ From the John Glasgow of Larne file ([Glasgow-4179](https://www.wikitree.com/wik
 
 - John Glascow, a sedan-chair carrier, gave evidence after the 1779 shooting of Martha Ray in Covent Garden: [Derby Mercury, 1779, p.2](https://www.newspapers.com/image/394231375/); [Old Bailey original, p.207](https://www.dhi.ac.uk/san/ob/1770s/177904040005.gif); [Old Bailey Online t17790404-3](https://www.oldbaileyonline.org/record/t17790404-3). A London working man with no WikiTree profile.
 - John Glasco, Esq., claiming to be a staff officer, was committed at Bow Street for wounding a patrolman after the play at Covent Garden: [The Times, 2 May 1799, p.3](https://www.newspapers.com/image/32820363/). Not identifiable with any WikiTree candidate.
+
+
+### Wylie marriage resolves the father's reading
+
+The [original civil marriage return](https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1859/09563/5467079.pdf), Ballymena district, register p. 134, entry 98, PDF p. 1, records **11 November 1859**, James Wylie, full age, bachelor, farmer, of Glenleslie, Dunaghy, son of Archibald Wylie, farmer; and **Margaret Anne Glasgow**, full age, spinster, of **Donbought, Dunaghy**, daughter of **Robert Glasgow, farmer**. They married at the Presbyterian church in Newtowncrommelin. The bride's father's forename is Robert, not Andrew as transcribed in the older Glasgow-951 survey table. That table is corrected, with this dated reading retaining the change.
+
+The matching couple, the bride's exact Donbought residence, her father Robert, and the Illinois directory's explicit father–daughter statement strongly support identifying the Wylie wife with [Margret Glasgow-1399](/people/glasgow-1399.html), aged thirteen in the 1851 Donbought household of Robert and Margaret. The groom's Glenleslie residence and father Archibald provide additional distinctive anchors for the Illinois family, where Archibald Wylie is also listed on p. 102. The marriage names no mother; the father's description as farmer differs from the 1851 linen-weaver occupation but can coexist with farming and is not by itself a different-person test. No new father is attached and the existing child–father confidence is unchanged. Neither original identifies Robert-1049's father, so his upstream **54% possible** assessment is unchanged.
