@@ -173,3 +173,10 @@ The downloaded OCR texts of [*The Scottish Antiquary*, volume 10](https://archiv
 The earlier Brady review already established Richard as John Brady’s son and Gilbert as John’s grandson and heir, while leaving the intervening parent unnamed. Those named Brady relationships do not join any Glasgow man to that family; the civic surname network remains context, not independent pedigree proof. The father assessment remains **22% uncertain**; no downstream relationship, mother, identity or vital field is changed.
 
 **Next actual test:** obtain and read the complete **28 April 1506 Blackhouse instrument BL204, old reference GUA16403**, identified in the [University of Glasgow catalogue](https://www.gla.ac.uk/media/Media_223124_smxx.pdf). Transcribe the full John de Glasgow alias Smith clause, the acquirers’ capacities, any kin terms, the title and adjoining-property descriptions, and the witnesses and endorsements. Compare those particulars with the already maintained Stirling and Saltmarket instruments. A distinguishing kin or shared-title clause could alter the working family; another generic surname or place match would not. Do not repeat the broad published-text search without new readable material.
+
+
+## Munimenta edition check — 12 November 2026
+
+The downloaded Munimenta Alme Universitatis Glasguensis volume I (Privileges and Property) was searched for Glasgw/Glasgu, Smith/Smyth aliases and the 1506 date. The combined personal index, printed pp.55–56 (PDF167–168), was visually checked. The located 1506 texts concern other instruments; the 28 April BL204 instrument was not located. Volumes II and III were not searched in full, and this does not prove that the charter was never printed. No father or identity rating changes. The full BL204/GUA16403 remains the useful test.
+
+Sources: [volume I](https://deriv.nls.uk/dcn23/8071/80717906.23.pdf), [supplement and combined indexes](https://deriv.nls.uk/dcn23/8071/80714517.23.pdf). This is a completed bounded search, not a new genealogy finding.
