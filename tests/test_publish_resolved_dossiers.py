@@ -11,6 +11,14 @@ spec.loader.exec_module(module)
 
 
 class ResolvedDossierTests(unittest.TestCase):
+    def test_unnamed_relative_keeps_its_details_without_a_profile_link(self):
+        relative = {'id': None, 'name': 'Unnamed father', 'relationship': 'father',
+                    'status': 'unknown'}
+        dossier = {'relationships': {'parents': [relative.copy()]}}
+        with tempfile.TemporaryDirectory() as directory:
+            module.repair_external_family_links(dossier, Path(directory))
+        self.assertEqual(dossier['relationships']['parents'], [relative])
+
     def test_relative_without_local_page_uses_verified_wikitree_url(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)

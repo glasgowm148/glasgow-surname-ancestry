@@ -504,7 +504,9 @@ def repair_external_family_links(dossier, root):
     """Use the actual WikiTree account when a relative has no local page."""
     for rows in dossier.get('relationships', {}).values():
         for relative in rows:
-            pid = relative.get('id', '')
+            pid = relative.get('id')
+            if not isinstance(pid, str) or not pid:
+                continue
             local = f'/people/{pid.lower()}.html'
             external = f'https://www.wikitree.com/wiki/{pid}'
             if (pid and not pid.startswith('record-')
