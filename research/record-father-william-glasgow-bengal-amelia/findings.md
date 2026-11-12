@@ -39,6 +39,23 @@ The 95% is a subjective estimate of the whole father-profile identification, not
 
 [William’s complete family](/people/record-father-william-glasgow-bengal-amelia.html#research-findings) · [General George’s family](/people/record-queue-newspapers-irish-1800-1850-george-senior-artillery.html#research-findings).
 
-## Next ancestry test
+## Earlier next ancestry test — updated below
 
 Inspect the original 1824 marriage or cadet papers to independently verify the officer’s parentage and identify his mother. Inspect the 1841 Mussoorie burial and the children’s original registers for rank and regiment. Keep the 53rd NI 1855 service file separate; the 1825 son is only a possible later officer comparison, not an identified match. General George’s unread 1820 will remains the separate test for Edward George’s 55% placement.
+
+
+## Original will: named children — 12 November 2026
+
+George Glasgow, lieutenant-general in the Royal Artillery, then residing in Trinity Place, Charing Cross, made his will on 28 October 1818. It names Edward George, George Mark and William among his children and provides separate shares in property in Canada/British North America for named children. The will was proved at London on 16 December 1820; William Shaw is identified as one executor. This is a selective factual abstract, not a complete transcription. Both downloaded PDF pages were inspected; the second continues the attestation and probate before beginning another testator’s will. No parent of the testator was identified in his will.
+
+[Original will catalogue: PROB 11/1637/234](https://discovery.nationalarchives.gov.uk/details/r/D199415).
+
+General George Glasgow is the probable father of Edward George Glasgow, husband of Emily Caroline Medlicott, at 78% subjective confidence, increased from 55%. The general’s original registered will explicitly includes Edward George Glasgow among his children, alongside George Mark and William. It therefore independently verifies the distinctive family group previously known from an unsourced compilation. The existing adult account has the same uncommon full name and an 1823 military marriage; the general’s Canadian family, London connections and the chronology are compatible. This is a material Possible-to-Probable improvement from a newly read original, not a first numerical rating.
+
+The will proves that the general had a son named Edward George, but does not name Emily Caroline, state Edward’s age, or identify his regiment. Identification with the 1823 groom and Bermondsey/Dover father remains an inference. Conflicting index ages and the separate 1843 death identity remain unresolved; no birth/death field, mother, identity merge or new WikiTree profile is selected. The general’s own parents are still Unknown. William’s separate 95% connection is unchanged.
+
+[Edward’s account](/people/record-ancestry-glasgow-d71b0ae3f539.html#research-findings) · [General George](/people/record-queue-newspapers-irish-1800-1850-george-senior-artillery.html#research-findings) · [William’s family](/people/record-father-william-glasgow-bengal-amelia.html#research-findings).
+
+## Next test after the will
+
+Inspect the original 23 September 1823 Edward George–Emily Caroline Medlicott military marriage return for regiment or father, then follow the son’s service record or Canadian baptism. These can distinguish the named son from the adult husband. Do not repeat the now completed 1820 will lookup. For the general’s own father, test the separate artillery George who died at Charlton on 16 March 1785 against an original cadet/service or probate record; same corps and locality alone do not establish kinship.

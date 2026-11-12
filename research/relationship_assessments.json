@@ -173512,13 +173512,21 @@
     "source_ids": [
       "compiled-quebec-george-green-family",
       "ancestry-60931-362920",
-      "ancestry-9841-122874989"
+      "ancestry-9841-122874989",
+      "tna-prob-11-1637-234-george-glasgow-will"
     ],
     "provenance": {
-      "first_assessment": true,
+      "first_assessment": false,
       "new_father_attachment": true,
       "new_father_attachment_reviewed": "2026-11-12",
       "newly_indexed_subject": false,
+      "previous_review": {
+        "limitations": "Possible, not proved: the compiled tree cites no original baptism, and its Edward has not been independently identified as the adult husband of Emily Caroline. The family compilation and online member trees are not independent corroboration. Its dates may be baptisms rather than births. The general’s biography names Margaret Green whereas the compilation says Magdalen; its 1801 marriage follows several listed children, and the March 1794 Quebec entry precedes the known October 1794 posting. These remain questions, not exclusions or invented explanations. The 1841 index’s age 41 and the separate 1843 burial’s age 47 differ from the compiled 1794 date. General George’s original will is not yet read. No mother, birth/death field, merge or identity with Glasgow-3501 is selected. The 1843 death account stays separate with its own existing assessment; it is not a second newly linked son.",
+        "probability_percent": 55,
+        "reasoning": "General George Glasgow is the preferred possible father of Edward George Glasgow, the 1823 groom of Emily Caroline Medlicott and the father in the Bermondsey/Dover household: 55% subjective confidence in the complete identification. A compiled family explicitly lists Edward George at Quebec in 1794 alongside George Mark in 1795, as children of George Glasgow and Magdalen Green. The unusual combination of the two sons’ full names, Quebec chronology and Green spouse identifies the general’s family more specifically than London locality alone. George Mark’s independently held 1851 obituary calls him a son of the late General Glasgow of the Royal Artillery. Edward’s military marriage context is compatible with this family. This replaces the selected Samuel Glasgow hypothesis, assessed at 10% on 6 November from broad place and estimated age alone; no source then named Samuel as Edward’s father.",
+        "reviewed": "2026-11-12",
+        "status": "possible"
+      },
       "prior_assessment": {
         "assessment_date": "2026-11-06",
         "probability_percent": 10,
@@ -173527,25 +173535,33 @@
         "source_basis": "Edward Glasgow (record-ancestry-glasgow-d71b0ae3f539) is recorded in UK, British Army and Navy Birth, Marriage and Death Records, 1730-1960, groom, 23 Sep 1823. Samuel Glasgow (record-ancestry-glasgow-d54b26479243, Saint Benet Pauls Wharf,London,London,England; born 1749 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) london; 46 years older; his own records are held (ancestry-9841-148573462, ancestry-9841-159558065). He ranks first on those grounds against 3 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage. None of the cited records names Edward Glasgow's father; the link rests on place and age alone. The child's birth year is itself estimated from a record date. Other candidates of fitting age in the same area: Isaac C Glasko (Glasko-4, b. 1776), Jacob Glasko (Glasko-5, b. 1750), John Glasgow (record-ancestry-glasgow-33381969b4dd, b. 1740). The candidate's own birth year is estimated and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found.",
         "status": "uncertain"
       },
-      "review_kind": "replacement_father_family_comparison",
+      "review_kind": "original_will_named_son_identity_review",
       "source_newly_discovered": true
     },
-    "status": "possible",
+    "status": "probable",
     "assessment_date": "2026-11-12",
-    "basis": "General George Glasgow is the preferred possible father of Edward George Glasgow, the 1823 groom of Emily Caroline Medlicott and the father in the Bermondsey/Dover household: 55% subjective confidence in the complete identification. A compiled family explicitly lists Edward George at Quebec in 1794 alongside George Mark in 1795, as children of George Glasgow and Magdalen Green. The unusual combination of the two sons’ full names, Quebec chronology and Green spouse identifies the general’s family more specifically than London locality alone. George Mark’s independently held 1851 obituary calls him a son of the late General Glasgow of the Royal Artillery. Edward’s military marriage context is compatible with this family. This replaces the selected Samuel Glasgow hypothesis, assessed at 10% on 6 November from broad place and estimated age alone; no source then named Samuel as Edward’s father.",
-    "assessment_history": [],
-    "reason": "General George Glasgow is the preferred possible father of Edward George Glasgow, the 1823 groom of Emily Caroline Medlicott and the father in the Bermondsey/Dover household: 55% subjective confidence in the complete identification. A compiled family explicitly lists Edward George at Quebec in 1794 alongside George Mark in 1795, as children of George Glasgow and Magdalen Green. The unusual combination of the two sons’ full names, Quebec chronology and Green spouse identifies the general’s family more specifically than London locality alone. George Mark’s independently held 1851 obituary calls him a son of the late General Glasgow of the Royal Artillery. Edward’s military marriage context is compatible with this family. This replaces the selected Samuel Glasgow hypothesis, assessed at 10% on 6 November from broad place and estimated age alone; no source then named Samuel as Edward’s father.",
-    "limitations": "Possible, not proved: the compiled tree cites no original baptism, and its Edward has not been independently identified as the adult husband of Emily Caroline. The family compilation and online member trees are not independent corroboration. Its dates may be baptisms rather than births. The general’s biography names Margaret Green whereas the compilation says Magdalen; its 1801 marriage follows several listed children, and the March 1794 Quebec entry precedes the known October 1794 posting. These remain questions, not exclusions or invented explanations. The 1841 index’s age 41 and the separate 1843 burial’s age 47 differ from the compiled 1794 date. General George’s original will is not yet read. No mother, birth/death field, merge or identity with Glasgow-3501 is selected. The 1843 death account stays separate with its own existing assessment; it is not a second newly linked son.",
+    "basis": "General George Glasgow is the probable father of Edward George Glasgow, husband of Emily Caroline Medlicott, at 78% subjective confidence, increased from 55%. The general’s original registered will explicitly includes Edward George Glasgow among his children, alongside George Mark and William. It therefore independently verifies the distinctive family group previously known from an unsourced compilation. The existing adult account has the same uncommon full name and an 1823 military marriage; the general’s Canadian family, London connections and the chronology are compatible. This is a material Possible-to-Probable improvement from a newly read original, not a first numerical rating.",
+    "assessment_history": [
+      {
+        "status": "possible",
+        "probability_percent": 55,
+        "assessment_date": "2026-11-12",
+        "source_basis": "General George Glasgow is the preferred possible father of Edward George Glasgow, the 1823 groom of Emily Caroline Medlicott and the father in the Bermondsey/Dover household: 55% subjective confidence in the complete identification. A compiled family explicitly lists Edward George at Quebec in 1794 alongside George Mark in 1795, as children of George Glasgow and Magdalen Green. The unusual combination of the two sons’ full names, Quebec chronology and Green spouse identifies the general’s family more specifically than London locality alone. George Mark’s independently held 1851 obituary calls him a son of the late General Glasgow of the Royal Artillery. Edward’s military marriage context is compatible with this family. This replaces the selected Samuel Glasgow hypothesis, assessed at 10% on 6 November from broad place and estimated age alone; no source then named Samuel as Edward’s father."
+      }
+    ],
+    "reason": "General George Glasgow is the probable father of Edward George Glasgow, husband of Emily Caroline Medlicott, at 78% subjective confidence, increased from 55%. The general’s original registered will explicitly includes Edward George Glasgow among his children, alongside George Mark and William. It therefore independently verifies the distinctive family group previously known from an unsourced compilation. The existing adult account has the same uncommon full name and an 1823 military marriage; the general’s Canadian family, London connections and the chronology are compatible. This is a material Possible-to-Probable improvement from a newly read original, not a first numerical rating.",
+    "limitations": "The will proves that the general had a son named Edward George, but does not name Emily Caroline, state Edward’s age, or identify his regiment. Identification with the 1823 groom and Bermondsey/Dover father remains an inference. Conflicting index ages and the separate 1843 death identity remain unresolved; no birth/death field, mother, identity merge or new WikiTree profile is selected. The general’s own parents are still Unknown. William’s separate 95% connection is unchanged.",
     "probability": {
-      "value": 0.55,
+      "value": 0.78,
       "reviewed": "2026-11-12",
-      "basis": "General George Glasgow is the preferred possible father of Edward George Glasgow, the 1823 groom of Emily Caroline Medlicott and the father in the Bermondsey/Dover household: 55% subjective confidence in the complete identification. A compiled family explicitly lists Edward George at Quebec in 1794 alongside George Mark in 1795, as children of George Glasgow and Magdalen Green. The unusual combination of the two sons’ full names, Quebec chronology and Green spouse identifies the general’s family more specifically than London locality alone. George Mark’s independently held 1851 obituary calls him a son of the late General Glasgow of the Royal Artillery. Edward’s military marriage context is compatible with this family. This replaces the selected Samuel Glasgow hypothesis, assessed at 10% on 6 November from broad place and estimated age alone; no source then named Samuel as Edward’s father.",
+      "basis": "General George Glasgow is the probable father of Edward George Glasgow, husband of Emily Caroline Medlicott, at 78% subjective confidence, increased from 55%. The general’s original registered will explicitly includes Edward George Glasgow among his children, alongside George Mark and William. It therefore independently verifies the distinctive family group previously known from an unsourced compilation. The existing adult account has the same uncommon full name and an 1823 military marriage; the general’s Canadian family, London connections and the chronology are compatible. This is a material Possible-to-Probable improvement from a newly read original, not a first numerical rating.",
       "source_ids": [
         "compiled-quebec-george-green-family",
         "ancestry-60931-362920",
-        "ancestry-9841-122874989"
+        "ancestry-9841-122874989",
+        "tna-prob-11-1637-234-george-glasgow-will"
       ],
-      "scope": "Possible, not proved: the compiled tree cites no original baptism, and its Edward has not been independently identified as the adult husband of Emily Caroline. The family compilation and online member trees are not independent corroboration. Its dates may be baptisms rather than births. The general’s biography names Margaret Green whereas the compilation says Magdalen; its 1801 marriage follows several listed children, and the March 1794 Quebec entry precedes the known October 1794 posting. These remain questions, not exclusions or invented explanations. The 1841 index’s age 41 and the separate 1843 burial’s age 47 differ from the compiled 1794 date. General George’s original will is not yet read. No mother, birth/death field, merge or identity with Glasgow-3501 is selected. The 1843 death account stays separate with its own existing assessment; it is not a second newly linked son."
+      "scope": "The will proves that the general had a son named Edward George, but does not name Emily Caroline, state Edward’s age, or identify his regiment. Identification with the 1823 groom and Bermondsey/Dover father remains an inference. Conflicting index ages and the separate 1843 death identity remain unresolved; no birth/death field, mother, identity merge or new WikiTree profile is selected. The general’s own parents are still Unknown. William’s separate 95% connection is unchanged."
     },
     "working_selection": true,
     "attachment_status": "attached",
@@ -173555,7 +173571,7 @@
     "analysis_links": [
       {
         "href": "/people/record-ancestry-glasgow-d71b0ae3f539.html#research-findings",
-        "label": "Edward George’s possible artillery family"
+        "label": "Original will: Edward George father confidence 55% → 78%"
       }
     ],
     "historical_assertions": [

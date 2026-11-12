@@ -595562,5 +595562,47 @@
     "reviewed_on": "2026-11-12",
     "publish_to_record_index": true,
     "provenance": "Printed p.273 visually checked against the source scan on 12 November 2026 after locating the entry in provider OCR. The OCR misread 13 June 1833 as 15 June; the scan supports 13. No original military, parish or probate manuscript was inspected."
+  },
+  {
+    "record_id": "tna-prob-11-1637-234-george-glasgow-will",
+    "provider": "The National Archives",
+    "collection": "Prerogative Court of Canterbury will registers",
+    "person": "George Glasgow",
+    "association": "General George Glasgow’s registered will; names sons Edward George, George Mark and William",
+    "event_role": "Testator and expressly named children",
+    "date": "1820-12-16",
+    "year": 1820,
+    "place": "Trinity Place, Charing Cross, London, England",
+    "country": "England",
+    "reference": "PROB 11/1637/234; will dated 28 October 1818, proved 16 December 1820; downloaded PDF pp.1–2, register p.673 and continuation",
+    "source_url": "https://discovery.nationalarchives.gov.uk/details/r/D199415",
+    "source_title": "Will of George Glasgow, lieutenant-general Royal Artillery, proved 16 December 1820, PROB 11/1637/234",
+    "source_type": "Original registered will",
+    "source_quality": "original",
+    "source_level": "Original probate register image",
+    "source_status": "Both PDF pages visually inspected 12 November 2026",
+    "record_type": "Will",
+    "record_category": "Probate",
+    "status": "Explicit named children; adult Edward identity probable",
+    "note": "George Glasgow, lieutenant-general in the Royal Artillery, then residing in Trinity Place, Charing Cross, made his will on 28 October 1818. It names Edward George, George Mark and William among his children and provides separate shares in property in Canada/British North America for named children. The will was proved at London on 16 December 1820; William Shaw is identified as one executor. This is a selective factual abstract, not a complete transcription. Both downloaded PDF pages were inspected; the second continues the attestation and probate before beginning another testator’s will. No parent of the testator was identified in his will. General George Glasgow is the probable father of Edward George Glasgow, husband of Emily Caroline Medlicott, at 78% subjective confidence, increased from 55%. The general’s original registered will explicitly includes Edward George Glasgow among his children, alongside George Mark and William. It therefore independently verifies the distinctive family group previously known from an unsourced compilation. The existing adult account has the same uncommon full name and an 1823 military marriage; the general’s Canadian family, London connections and the chronology are compatible. This is a material Possible-to-Probable improvement from a newly read original, not a first numerical rating. The will proves that the general had a son named Edward George, but does not name Emily Caroline, state Edward’s age, or identify his regiment. Identification with the 1823 groom and Bermondsey/Dover father remains an inference. Conflicting index ages and the separate 1843 death identity remain unresolved; no birth/death field, mother, identity merge or new WikiTree profile is selected. The general’s own parents are still Unknown. William’s separate 95% connection is unchanged.",
+    "profiles": {
+      "record-queue-newspapers-irish-1800-1850-george-senior-artillery": {
+        "role": "Testator; lieutenant-general Royal Artillery",
+        "assessment": "confident"
+      },
+      "record-ancestry-glasgow-d71b0ae3f539": {
+        "role": "Probable identification with the expressly named son Edward George",
+        "assessment": "probable",
+        "probability": 0.78
+      },
+      "record-father-william-glasgow-bengal-amelia": {
+        "role": "Son William; independently supported officer identification",
+        "assessment": "confident",
+        "probability": 0.95
+      }
+    },
+    "reviewed_on": "2026-11-12",
+    "publish_to_record_index": true,
+    "provenance": "Free authenticated TNA download, inspected locally for private research. PDF SHA256 09cddb59941639d20a2e8daea08937b1a3127a1def2aa4a8df01c2221308381b. Public account contains a factual abstract and catalogue citation, not the licensed scan or a full transcription."
   }
 ]

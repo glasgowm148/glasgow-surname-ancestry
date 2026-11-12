@@ -84542,6 +84542,49 @@
           "explanation": "General George Glasgow is the newly selected confident father of William Glasgow in the Bengal William-and-Amelia household, assessed at 95%. Hodson’s printed officer biography explicitly calls William the son of George Glasgow of Greenwich, lieutenant-general Royal Artillery. It records William’s marriage to Amelia Campbell at Barrackpore on 15 October 1824. The held baptism index places William and Amelia’s first known child William at Barrackpore on 6 September 1825, followed by the same parental names at other Bengal stations. This specific wife, station and chronology identifies the officer with the existing documentary father far more securely than name and Bengal alone. The general’s name, rank, corps, Greenwich residence and Quebec service identify the existing General George account. This is a new named father for an already catalogued family, not a first numerical rating of a previously selected father."
         }
       ]
+    },
+    {
+      "id": "edward-george-will-father-probable-20261112",
+      "found_on": "2026-11-12",
+      "kind": "relationship",
+      "status": "qualified",
+      "detail_url": "/people/record-ancestry-glasgow-d71b0ae3f539.html#research-findings",
+      "finding": "Edward George Glasgow → General George Glasgow: 55% Possible → 78% Probable. The general’s original will explicitly names Edward George among his children.",
+      "significance": "Replaces reliance on an unsourced family compilation with original named-son evidence, while preserving the unresolved identification with Emily Caroline’s husband.",
+      "qualification": "The will proves that the general had a son named Edward George, but does not name Emily Caroline, state Edward’s age, or identify his regiment. Identification with the 1823 groom and Bermondsey/Dover father remains an inference. Conflicting index ages and the separate 1843 death identity remain unresolved; no birth/death field, mother, identity merge or new WikiTree profile is selected. The general’s own parents are still Unknown. William’s separate 95% connection is unchanged.",
+      "people": [
+        {
+          "id": "record-ancestry-glasgow-d71b0ae3f539",
+          "name": "Edward George Glasgow, Emily Caroline household",
+          "url": "/people/record-ancestry-glasgow-d71b0ae3f539.html",
+          "role": "Existing father hypothesis strengthened: 55% → 78%"
+        },
+        {
+          "id": "record-queue-newspapers-irish-1800-1850-george-senior-artillery",
+          "name": "General George Glasgow",
+          "url": "/people/record-queue-newspapers-irish-1800-1850-george-senior-artillery.html",
+          "role": "Testator; explicitly names son Edward George"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Will of George Glasgow, lieutenant-general Royal Artillery, proved 16 December 1820, PROB 11/1637/234",
+          "url": "https://discovery.nationalarchives.gov.uk/details/r/D199415"
+        }
+      ],
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "record-ancestry-glasgow-d71b0ae3f539",
+          "relative": "record-queue-newspapers-irish-1800-1850-george-senior-artillery",
+          "before": "possible",
+          "after": "probable",
+          "probability_percent": 78,
+          "previous_probability_percent": 55,
+          "previous_status_provenance": "Native assessment clm-edward-george-general-father-20261112, revision 1, 12 November 2026: Possible 55%; basis compiled-quebec-george-green-family, ancestry-60931-362920, ancestry-9841-122874989",
+          "explanation": "General George Glasgow is the probable father of Edward George Glasgow, husband of Emily Caroline Medlicott, at 78% subjective confidence, increased from 55%. The general’s original registered will explicitly includes Edward George Glasgow among his children, alongside George Mark and William. It therefore independently verifies the distinctive family group previously known from an unsourced compilation. The existing adult account has the same uncommon full name and an 1823 military marriage; the general’s Canadian family, London connections and the chronology are compatible. This is a material Possible-to-Probable improvement from a newly read original, not a first numerical rating."
+        }
+      ]
     }
   ]
 }
