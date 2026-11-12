@@ -288,7 +288,24 @@ def published_next_test(dossier):
     return ''
 
 
-def missing_father_priorities(nodes, edges, cohort_ids, listings, next_tests=None):
+def research_review_summary(state):
+    """Keep the completed test and its reopening condition visible together."""
+    parts = []
+    if state.get('last_test'):
+        prefix = f"Reviewed {state['reviewed']}: " if state.get('reviewed') else ''
+        parts.append(prefix + state['last_test'])
+    if state.get('resume_when'):
+        parts.append('Resume when: ' + state['resume_when'])
+    return ' '.join(parts)
+
+
+def research_review_metadata(state):
+    return {key: state[source] for key, source in
+            [('reviewed_on', 'reviewed'), ('resume_when', 'resume_when')]
+            if state.get(source)}
+
+
+def missing_father_priorities(nodes, edges, cohort_ids, listings, next_tests=None, review_states=None):
     """Rank absent fathers by existing descendant accounts, without a fake join."""
     cohort = set(cohort_ids) & nodes.keys()
     allowed = cohort | {ident for ident, node in nodes.items()
@@ -320,7 +337,8 @@ def missing_father_priorities(nodes, edges, cohort_ids, listings, next_tests=Non
                  confident_pair_gain=None, confident_component_reduction=None,
                  analysis_url=nodes[ident]['url'],
                  next_test=(next_tests or {}).get(ident) or 'Identify a father from the earliest records and family evidence for this branch.',
-                 last_review='')
+                 last_review=research_review_summary((review_states or {}).get(ident, {})),
+                 **research_review_metadata((review_states or {}).get(ident, {})))
             for ident in sorted(cohort) if listings.get(ident) is False]
 
 
@@ -499,6 +517,8 @@ def build(create_baseline=False):
                json.loads(documentary_path.read_text()) if documentary_path.exists() else {'schema_version': 1, 'people': []})
     retained_fathers = []
     nodes, edges, quality = load_public_nodes(WEB, set(strategy["variants"]), retained_fathers=retained_fathers)
+    from tools.catalogue_machine_data import public_research_states
+    review_states = public_research_states(set(nodes))
     listings, bands, next_tests = {}, {}, {}
     identity_hold_ids = set()
     for ident, node in nodes.items():
@@ -512,6 +532,8 @@ def build(create_baseline=False):
             next_tests[ident] = published_next_test(dossier)
             if dossier.get('creation_status') == 'identity_hold':
                 identity_hold_ids.add(ident)
+        if not next_tests.get(ident):
+            next_tests[ident] = review_states.get(ident, {}).get('next_test', '')
     cohorts = {}
     for cutoff in strategy["cutoffs"]:
         working = summarize(nodes, edges, cutoff)
@@ -556,9 +578,10 @@ def build(create_baseline=False):
                            'year': nodes[child].get('year'),
                            'analysis_url': next((l['href'] for l in assessment.get('analysis_links', []) if l.get('href')), nodes[child]['url']),
                            'next_test': case.get('next_test') or assessment.get('next_test') or estimate.get('next_test') or rating_tests.get(impact.get('assertion_id')) or next_tests.get(child) or 'Read the family evidence and next question.',
-                           'last_review': case.get('last_test') or assessment.get('last_test') or estimate.get('last_test', '')})
+                           'last_review': case.get('last_test') or assessment.get('last_test') or estimate.get('last_test') or research_review_summary(review_states.get(child, {})),
+                           **research_review_metadata(review_states.get(child, {}))})
     priorities.extend(missing_father_priorities(
-        nodes, edges, primary['working']['cohort_ids'], listings, next_tests))
+        nodes, edges, primary['working']['cohort_ids'], listings, next_tests, review_states))
     priorities.sort(key=lambda r: (-r['child_side'], r['child']))
     fingerprint = hashlib.sha256(json.dumps({"nodes": nodes, "edges": edges}, sort_keys=True).encode()).hexdigest()
     baseline_path = WORK / "baseline-2026-10-15.json"

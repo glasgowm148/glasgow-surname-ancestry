@@ -312,6 +312,22 @@ def _research_plans(public_ids: set[str]) -> dict[str, dict]:
     return plans
 
 
+def public_research_states(public_ids: set[str]) -> dict[str, dict]:
+    """Project reviewed planning fields for already-public historical people."""
+    fields = ('disposition', 'reviewed', 'last_test', 'next_test',
+              'resume_when', 'review_conclusion')
+    result = {}
+    for ident, plan in _research_plans(public_ids).items():
+        if ident not in public_ids:
+            continue
+        state = plan.get('research_state')
+        if not isinstance(state, dict) or not re.fullmatch(r'\d{4}-\d{2}-\d{2}', str(state.get('reviewed', ''))):
+            continue
+        result[ident] = {key: state[key].strip() for key in fields
+                         if isinstance(state.get(key), str) and state[key].strip()}
+    return result
+
+
 def _assessment_roles(assessment: dict) -> tuple[str | None, str | None]:
     relation = assessment["relationship"].casefold()
     if re.search(r"\b(?:son|daughter|child) of\b", relation):

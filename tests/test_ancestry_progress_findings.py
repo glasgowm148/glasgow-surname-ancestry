@@ -8,6 +8,22 @@ from tools.branch_connectivity import has_named_father, summarize
 
 
 class MissingFatherPriorityTests(unittest.TestCase):
+    def test_completed_review_survives_in_unknown_father_queue(self):
+        state = {'reviewed': '2026-10-26', 'last_test': 'Four same-name households compared.',
+                 'next_test': 'Inspect the original lease.',
+                 'resume_when': 'A tenancy transfer identifies the family.'}
+        row, = missing_father_priorities(
+            {'james': dict(name='James', url='/people/james.html', year=1805)},
+            [], {'james'}, {'james': False}, {'james': state['next_test']}, {'james': state})
+        self.assertEqual(row['next_test'], state['next_test'])
+        self.assertIn('Reviewed 2026-10-26: ' + state['last_test'], row['last_review'])
+        self.assertIn('Resume when: ' + state['resume_when'], row['last_review'])
+        self.assertEqual(row['reviewed_on'], '2026-10-26')
+        self.assertEqual(row['resume_when'], state['resume_when'])
+        self.assertEqual(row['status'], 'unknown')
+        self.assertIsNone(row['father'])
+        self.assertIsNone(row['confidence_percent'])
+
     def test_reviewed_unknown_keeps_specific_next_test_without_inventing_parent(self):
         dossier = {'research_findings': [{'sections': [
             {'title': 'Current conclusion', 'markdown': 'Father unknown; do not reuse the Scottish birthday.'},
