@@ -3,6 +3,8 @@
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-8c3d545ec0e5 -->
 ## Current conclusion
 
+**12 November 2026 — printed source checked:** Addison’s 1913 matriculation edition, p.6, explicitly names the minister’s student son John and annotates his April 1740 death. This confirms previously quoted information and the student’s forename; it does not identify him with either the 1713 or 1717 child or change an existing father grade. [W. Innes Addison, *The Matriculation Albums of the University of Glasgow from 1728 to 1858* (1913), printed p.6, entry 186; scan image 28](https://archive.org/details/matriculationalb00univuoft/page/6/mode/1up).
+
 Current father assessment (22 October 2026): **99% (proved)** for [Glasgow-1073](https://www.wikitree.com/wiki/Glasgow-1073). This 1717 child’s father, without merging him with the 1713 child or assuming either adult fate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 John’s 22 September 1717 Kirkland entry names Revd Mr John Glasgow, minister, and Margaret Scot; the exact office and couple resolve the father even with another John child in 1713.
@@ -35,3 +37,14 @@ Next useful test: Compare the 1713 and 1717 originals and seek burial evidence b
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: John Glasgow, 22 Sep 1717, record SCOT/OPR/BAP/3586332](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3586332&tab=this)
+
+
+## Printed university entry checked — 12 November 2026
+
+The printed 1730 entry names **Joannes Glasgow**, son of **Johannis Glasgow, A.M., V.D.M., pastor of the church of Kilbirnie**. The editorial annotation gives an MA in 1739, the Dundonald Bursary and death in April 1740. The page was visually inspected on 12 November 2026. This checks the printed transcription and its editorial note, not the original matriculation album or the university minute of 26 June 1740.
+
+[W. Innes Addison, *The Matriculation Albums of the University of Glasgow from 1728 to 1858* (1913), printed p.6, entry 186; scan image 28](https://archive.org/details/matriculationalb00univuoft/page/6/mode/1up)
+
+This verifies the student’s forename as John; the earlier second-hand quotation omitted it. It supplies no birth date, mother or age. The existing John born or baptised in 1717 (Glasgow-3553) is compatible, and the 1713 child (Glasgow-3551) remains a comparison: his before-1717 death bound is an inference from name reuse, not a burial established by this entry. The university record alone cannot choose between them. The 1690 child/provost comparison Glasgow-1077, with a separate reported 1764 death, must not automatically receive this student’s fate. No child accounts are merged, no vital field is changed and no father percentage is revised.
+
+Next discriminating test: the original 1713 and 1717 parish entries, bursary nomination or university minute must identify an age, mother or another distinguishing family fact. Do not repeat the printed-entry lookup as a new discovery. [Minister’s family](/people/glasgow-1073.html#research-findings) · [1713 child](/people/glasgow-3551.html#research-findings) · [1717 child](/people/glasgow-3553.html#research-findings).

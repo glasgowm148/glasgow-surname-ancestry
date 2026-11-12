@@ -595480,5 +595480,49 @@
     ],
     "role": "Named daughter; father identified through published narrative context",
     "publication_status": "approved"
+  },
+  {
+    "record_id": "glasgow-university-matriculation-john-1730-186",
+    "record_type": "university",
+    "date": "1730",
+    "year": 1730,
+    "place": "Glasgow, Lanarkshire, Scotland",
+    "source_title": "Addison, Matriculation Albums (1913), printed p.6, entry 186: Joannes Glasgow, son of the Kilbirnie minister",
+    "source_url": "https://archive.org/details/matriculationalb00univuoft/page/6/mode/1up",
+    "source_type": "Printed register transcription and editorial annotation",
+    "source_status": "Printed page visually inspected 12 November 2026; original university manuscripts uninspected",
+    "source_references": [
+      {
+        "title": "Addison (1913), p.6, entry 186, scan image 28",
+        "url": "https://archive.org/details/matriculationalb00univuoft/page/6/mode/1up"
+      }
+    ],
+    "profiles": {
+      "Glasgow-1073": {
+        "role": "Named father: John Glasgow, MA, minister of Kilbirnie; identified by name and specific office"
+      },
+      "Glasgow-3551": {
+        "role": "Compatible 1713 child identity comparison only; not selected as the student"
+      },
+      "Glasgow-3553": {
+        "role": "Compatible 1717 child identity comparison only; not selected as the student"
+      }
+    },
+    "note": "The printed 1730 entry names **Joannes Glasgow**, son of **Johannis Glasgow, A.M., V.D.M., pastor of the church of Kilbirnie**. The editorial annotation gives an MA in 1739, the Dundonald Bursary and death in April 1740. The page was visually inspected on 12 November 2026. This checks the printed transcription and its editorial note, not the original matriculation album or the university minute of 26 June 1740. This verifies the student’s forename as John; the earlier second-hand quotation omitted it. It supplies no birth date, mother or age. The existing John born or baptised in 1717 (Glasgow-3553) is compatible, and the 1713 child (Glasgow-3551) remains a comparison: his before-1717 death bound is an inference from name reuse, not a burial established by this entry. The university record alone cannot choose between them. The 1690 child/provost comparison Glasgow-1077, with a separate reported 1764 death, must not automatically receive this student’s fate. No child accounts are merged, no vital field is changed and no father percentage is revised.",
+    "status": "Printed source inspected; student-to-child identity unresolved",
+    "publish_to_record_index": true,
+    "reviewed_on": "2026-11-12",
+    "provider": "Internet Archive / University of Toronto",
+    "collection": "University of Glasgow matriculation albums, 1728–1858",
+    "association": "John Glasgow, student son of John Glasgow, minister of Kilbirnie",
+    "person": "John Glasgow",
+    "event_role": "Student; compatible child identities retained separately",
+    "reference": "Addison (1913), p.6, entry 186; scan image 28",
+    "country": "Scotland",
+    "record_category": "Education",
+    "source_quality": "printed_transcription",
+    "source_level": "Printed transcription and later editorial annotation; manuscripts unread",
+    "provenance": "Visually checked the public-domain printed page on 12 November 2026 after locating the entry in the provider OCR. The 1913 edition confirms an earlier second-hand quotation; no original university manuscript or minute was inspected.",
+    "assessment": "Student forename John and father’s ministerial office verified in print; identification with the 1713 or 1717 child remains unresolved."
   }
 ]
