@@ -219,7 +219,12 @@ def record_document(project, relative: str, document: Any, *, expected_revision:
 
 
 def regenerate(project, relative: str, root: Path) -> None:
-    text = views.Views(project.store).files()[relative]
+    generated = views.Views(project.store)
+    selected = {views.RECORDS: generated.records,
+                views.FINDINGS: generated.findings,
+                views.VITALS: generated.vitals}
+    # A single entry must not materialise every research document and assessment.
+    text = views.dump(selected[relative]()) if relative in selected else generated.files()[relative]
     (root / relative).write_text(text, encoding="utf-8")
 
 

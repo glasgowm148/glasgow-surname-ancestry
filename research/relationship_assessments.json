@@ -2301,19 +2301,21 @@
       "Hutcheson-1650"
     ],
     "status": "strongly_supported",
-    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
-    "source_ids": [],
-    "source_summary": "Biography reports the Glasgow kirk session's 1588 paternity admission by George Hutcheson for Janet; this is a direct father statement.",
-    "assessment_date": "2026-09-28",
-    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "basis": "Provenance correction for the existing named Janet account, not a new relationship or confidence upgrade. The History of Glasgow, volume II, chapter XX quotes a 1679 burgh order naming Janet Hutcheson in Holland as natural daughter of deceased George Hutchesone; its surrounding narrative identifies the hospital founder. The cited 1588 kirk-session account describes an unnamed female child, not Janet by name. The existing account is qualified to the named Holland daughter; identity with the unnamed 1588 child remains unproved.",
+    "source_ids": [
+      "janet-hutcheson-holland-burgh-orders-1679-1684"
+    ],
+    "source_summary": "The published History of Glasgow II, chapter XX quotes a 1679 Glasgow burgh order naming Janet Hutcheson in Holland as natural daughter of deceased George Hutchesone; surrounding narrative identifies the hospital founder. The 1588 female child is unnamed and her identity with Janet remains unresolved.",
+    "assessment_date": "2026-11-12",
+    "identity_scope": "Existing named Janet account qualified to the Holland pensioner; identity with the unnamed 1588 child by Elspeth Craig remains unproved.",
     "perspectives": {
       "Hutcheson-1650": {
         "relationship": "father",
-        "reason": "Biography reports the Glasgow kirk session's 1588 paternity admission by George Hutcheson for Janet; this is a direct father statement."
+        "reason": "Provenance correction for the existing named Janet account, not a new relationship or confidence upgrade. The History of Glasgow, volume II, chapter XX quotes a 1679 burgh order naming Janet Hutcheson in Holland as natural daughter of deceased George Hutchesone; its surrounding narrative identifies the hospital founder. The cited 1588 kirk-session account describes an unnamed female child, not Janet by name. The existing account is qualified to the named Holland daughter; identity with the unnamed 1588 child remains unproved."
       },
       "Hutcheson-1648": {
         "relationship": "daughter",
-        "reason": "Biography reports the Glasgow kirk session's 1588 paternity admission by George Hutcheson for Janet; this is a direct father statement."
+        "reason": "Provenance correction for the existing named Janet account, not a new relationship or confidence upgrade. The History of Glasgow, volume II, chapter XX quotes a 1679 burgh order naming Janet Hutcheson in Holland as natural daughter of deceased George Hutchesone; its surrounding narrative identifies the hospital founder. The cited 1588 kirk-session account describes an unnamed female child, not Janet by name. The existing account is qualified to the named Holland daughter; identity with the unnamed 1588 child remains unproved."
       }
     },
     "analysis_links": [
@@ -2325,10 +2327,16 @@
     "publication_status": "approved",
     "provenance": {
       "source": "/assets/research/relationship-assessments.json",
-      "reviewed_at": "2026-09-28",
-      "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
-      "live_wikitree_status": "confident"
-    }
+      "reviewed_at": "2026-11-12",
+      "basis": "Published historical quotation and surrounding narrative reviewed; original burgh entries not inspected. Corrected source attribution, not new relationship or confidence upgrade.",
+      "live_wikitree_status": "confident",
+      "live_flag_changed": false,
+      "prior_assessed_on": "2026-09-28"
+    },
+    "assessment_history": [],
+    "reason": "Provenance correction for the existing named Janet account, not a new relationship or confidence upgrade. The History of Glasgow, volume II, chapter XX quotes a 1679 burgh order naming Janet Hutcheson in Holland as natural daughter of deceased George Hutchesone; its surrounding narrative identifies the hospital founder. The cited 1588 kirk-session account describes an unnamed female child, not Janet by name. The existing account is qualified to the named Holland daughter; identity with the unnamed 1588 child remains unproved.",
+    "limitations": "The published quotation and historical narrative were read; underlying burgh entries were not inspected. No proof establishes the Holland pensioner as either identical with or distinct from the unnamed 1588 child. Do not carry the 1587/1588 birth or Elspeth Craig maternity into this record-scoped account. Retain the existing strongly_supported grade, null percentage and null selection. George died on 26 December 1639: allowing a posthumous birth during 1640 gives birth before 1641. The 1684 funeral reimbursement gives death before 1685, not an exact death date. This is a source-basis correction only.",
+    "probability": null
   },
   {
     "assertion_id": "C-father-audit-20260928-hutcheson-1651-hutcheson-1647",

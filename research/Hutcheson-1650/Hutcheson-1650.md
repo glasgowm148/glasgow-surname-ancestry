@@ -1,17 +1,12 @@
 == Biography ==
-'''Janet Hutcheson''' was born around 1587–1588 in Glasgow, Scotland. She was the natural (illegitimate) daughter of [[Hutcheson-XX|George Hutcheson]], the notary, banker, and philanthropist, and [[Craig-XX|Elizabeth (Elspeth) Craig]].
+'''Janet Hutcheson''' was living in Holland in 1679. A Glasgow burgh order quoted in ''The History of Glasgow'', volume II, chapter XX, names her as the natural daughter of deceased [[Hutcheson-1648|George Hutcheson]]. The surrounding narrative identifies George as the founder of Hutchesons' Hospital.<ref name="History">''The History of Glasgow'', volume II, chapter XX, “George Hutcheson, Notary, Banker, and Philanthropist,” [https://www.electricscotland.com/history/glasgow/glasgow2_20.htm published text], quoting Glasgow burgh orders of 1679 and 1684 and cross-referencing 24 July 1680. Original entries not inspected for this review.</ref>
 
-Her birth was recorded by the Glasgow kirk session in 1588 when George admitted paternity and agreed to marry Elspeth Craig, who was likely the sister or daughter of John Craig, notary. The marriage did not retroactively legitimate Janet, and no other known children were born to the couple.
+Her father died on 26 December 1639. Allowing a posthumous birth in 1640 gives a conservative birth bound before 1641. A quoted 1684 funeral payment names the deceased Holland pensioner, so she died before 1685; no exact date is established.<ref name="History" />
 
-Later in life Janet lived in Holland and became dependent on the charity of the Glasgow town council. In 1679 the Burgh Treasurer was ordered to send her annual payments for her support. She died there in 1684, and the city paid for her funeral.
+== Research Notes ==
+The history describes an unnamed female child by George and Elspeth Craig in the 1588 kirk-session case. It does not name that child Janet. Identity between that child and the Holland pensioner remains unresolved. No 1587/1588 birth, birthplace or Elspeth Craig maternity is carried into this qualified account. No new person, merge or confidence upgrade is proposed.
 
-== Family ==
-* Father: [[Hutcheson-1648|George Hutcheson]] (b. ~1554, d. 1639)
-* Mother: [[Craig-XX|Elizabeth (Elspeth) Craig]]
-* Status: Natural (illegitimate) daughter
+A possible existing FamilySearch candidate is [https://www.familysearch.org/en/tree/person/details/KCG1-1V7 Janet Hucheson], approximately born in 1641 of Glasgow and attached to James Ferguson with six children dated 1663–1674. This unsourced tree supplies no parents and no connection to Holland or George Hutcheson. The approximate date is not a concrete exclusion, but no match or merge is established. Seek a record connecting this household to the named Holland daughter before creating or attaching another account.
 
 == Sources ==
-* *The History of Glasgow, Volume 2, Chapter XX*
-* Glasgow Kirk Session Records, 1588
-* Burgh Records, 1679–1684
-* https://www.electricscotland.com/history/glasgow/glasgow2_20.htm
+<references />

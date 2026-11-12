@@ -9,7 +9,7 @@ George was a notary, procurator, moneylender, and early banker in Glasgow. In 15
 
 He also handled the city’s legal business against Dutch merchants and local land disputes, showing his central role in Glasgow’s urban development.
 
-Though influential, George’s life was not without scandal: in 1588, he appeared before the kirk session for fathering a “demesell bairn” with Elizabeth Craig, whom he married shortly after. Their only known child, [[Hutcheson-1650|Janet Hutcheson (1587–1684)]], was not legitimate. Outside the marriage, he had another natural daughter, Janet, who lived her final days in Holland as a Glasgow pensioner.
+In 1588 George appeared before the kirk session for fathering an unnamed female child with Elizabeth or Elspeth Craig, whom he subsequently married. The published history separately names Janet Hutcheson, the Holland pensioner, as his natural daughter in a quoted 1679 burgh order. Whether she was the unnamed 1588 child remains unresolved; no identity or distinctness is asserted. See [[Hutcheson-1650|Janet's qualified record account]].
 
 George is recognized as one of Glasgow’s first bankers. He lent money on simple bonds secured by guarantees from reputable men, charging about 8% interest — an early form of personal and civic credit that anticipated the Bank of Scotland by decades.
 

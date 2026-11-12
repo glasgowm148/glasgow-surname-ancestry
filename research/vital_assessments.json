@@ -2960,6 +2960,39 @@
       "source_ids": [
         "saltcoats-john-testament-1637"
       ]
+    },
+    {
+      "schema_version": 3,
+      "id": "hutcheson-1650-holland-record-bounds-20261112",
+      "subject": "Hutcheson-1650",
+      "status": "approved",
+      "reviewed": "2026-11-12",
+      "basis": "The published 1679 burgh order identifies Janet as the natural daughter of deceased George Hutcheson. The surrounding narrative identifies the hospital founder, who died on 26 December 1639. A quoted 1684 funeral payment names the deceased Holland pensioner. https://www.electricscotland.com/history/glasgow/glasgow2_20.htm",
+      "summary": "The named Holland daughter was born before 1641, allowing posthumous birth in 1640, and died before 1685; identity with the unnamed 1588 child remains unresolved.",
+      "source_ids": [
+        "janet-hutcheson-holland-burgh-orders-1679-1684"
+      ],
+      "vitals": {
+        "birth": {
+          "date": "before 1641",
+          "status": "uncertain",
+          "note": "Conservative year bound from father’s death on 26 December 1639, allowing a posthumous birth during 1640: birth before 1641. No age, exact birth year, birthplace or identification with the unnamed 1588 child is inferred.",
+          "source_url": "https://www.electricscotland.com/history/glasgow/glasgow2_20.htm",
+          "source_level": "Published historical narrative with quoted burgh order"
+        },
+        "death": {
+          "date": "before 1685",
+          "status": "uncertain",
+          "location": "Holland",
+          "note": "The quoted 1684 funeral payment names the deceased Janet in Holland. This gives a conservative death bound before 1685, not an exact death date.",
+          "source_url": "https://www.electricscotland.com/history/glasgow/glasgow2_20.htm",
+          "source_level": "Published quotation; original burgh record not inspected"
+        }
+      },
+      "vital_qualifications": {
+        "birth": "Born before 1641, allowing posthumous birth in 1640; no identification with the unnamed 1588 child.",
+        "death": "Died before 1685, from the 1684 funeral payment; no exact date."
+      }
     }
   ]
 }

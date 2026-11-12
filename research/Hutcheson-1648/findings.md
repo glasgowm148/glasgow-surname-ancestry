@@ -4,6 +4,8 @@
 
 The father relationship with [Thomas Hutcheson](https://www.wikitree.com/wiki/Hutcheson-1647) is assessed as **confident**. Specific compiled family histories identify George as Thomas Sr.'s eldest son; chronology and named family match.
 
+George is also the father named in the published account of the Holland pensioner [Janet Hutcheson](https://www.wikitree.com/wiki/Hutcheson-1650). The source-basis correction of 12 November 2026 retains their existing confident father assessment; identity with his unnamed 1588 child by Elspeth Craig remains unresolved.
+
 ## Source findings
 
 ## Father relationship assessment — 28 September 2026
@@ -17,9 +19,8 @@ Source summary: W.H. Hill, Early Records of an Old Glasgow Family; History of Gl
 <!-- repo-integration-audit-2026-10-07:L05-012 -->
 ## Relationship assessment — daughter Janet (Hutcheson-1650), 28 September 2026
 
-The biography of [Janet Hutcheson-1650](https://www.wikitree.com/wiki/Hutcheson-1650) reports George Hutcheson's admission of paternity before the Glasgow kirk session in 1588, a direct father statement. On that basis the certainty review of 28 September 2026 assessed the father link as **confident** (previously unmarked). The kirk-session minute was not re-inspected; the evidence is the biography's report of it.
+The September review relied on a biography that called the 1588 child Janet. This attribution is corrected on 12 November 2026: the published *History of Glasgow*, volume II, [chapter XX](https://www.electricscotland.com/history/glasgow/glasgow2_20.htm), leaves that child unnamed but quotes a 1679 burgh order naming Janet Hutcheson in Holland as the natural daughter of deceased George. The surrounding narrative identifies the hospital founder. The existing confident father grade is retained on that named account, without a new percentage or selection flag. No original burgh or kirk-session entry was inspected. Janet's identity with the unnamed 1588 child and her mother remain unresolved.
 
-Recorded in `research/latest-findings.json` (28 September 2026); carried into this file on 7 October 2026.
 
 <!-- repo-integration-audit-2026-10-07:L17-005 -->
 ## Source findings — notarial work, marriage and death, from the biography review, 28 September 2026
