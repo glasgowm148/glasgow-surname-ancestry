@@ -84658,6 +84658,91 @@
           "explanation": "General George Glasgow is the probable father of Edward George Glasgow, husband of Emily Caroline Medlicott, at 78% subjective confidence, increased from 55%. The general’s original registered will explicitly includes Edward George Glasgow among his children, alongside George Mark and William. It therefore independently verifies the distinctive family group previously known from an unsourced compilation. The existing adult account has the same uncommon full name and an 1823 military marriage; the general’s Canadian family, London connections and the chronology are compatible. This is a material Possible-to-Probable improvement from a newly read original, not a first numerical rating."
         }
       ]
+    },
+    {
+      "id": "tna-michael-glasgow-naval-records-20261112",
+      "found_on": "2026-11-12",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "Official archive descriptions identify Michael Glasgow in an Antigua yard discharge order of 3 January 1756 and a forty-year-old supernumerary seaman in the Portsmouth convalescent-ship journal on 16 March 1797. Their identities remain separate and unresolved.",
+      "qualification": "Reviewed 12 November 2026 from The National Archives official Discovery catalogue/API description. The original manuscript was not inspected; the catalogue reports the item as not digitised and open. Open archival access does not mean online images exist. No live WikiTree or FamilySearch edit, merge or family attachment follows. The 1797 age implies birth about 1756–1757 and conflicts with the 1741 birth of Glasgow-1416. Gladiator was the convalescent treatment ship; Michael’s normal ship is unnamed. No relationship assessment changed.",
+      "people": [
+        {
+          "id": "record-michael-glasgow-antigua-1756",
+          "name": "Michael Glasgow",
+          "role": "Separate documentary account, 1756",
+          "url": "/people/record-michael-glasgow-antigua-1756.html"
+        },
+        {
+          "id": "record-michael-glasgow-gladiator-1797",
+          "name": "Michael Glasgow",
+          "role": "Separate documentary account, 1797",
+          "url": "/people/record-michael-glasgow-gladiator-1797.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Thomas Frankland to the Naval Officer at Antigua, 3 January 1756; ADM 106/1118/3",
+          "url": "https://discovery.nationalarchives.gov.uk/details/r/C8840820"
+        },
+        {
+          "title": "Michael Glasgow, aged 40, in HMS Gladiator medical journal, folios 3–4; ADM 101/103/1/1, folios 3–4",
+          "url": "https://discovery.nationalarchives.gov.uk/details/r/C10568938"
+        }
+      ],
+      "detail_url": "/people/record-michael-glasgow-antigua-1756.html",
+      "provenance": [
+        "research/record-michael-glasgow-antigua-1756/profile-draft.wiki",
+        "research/record-michael-glasgow-antigua-1756/findings.md",
+        "research/record-michael-glasgow-gladiator-1797/profile-draft.wiki",
+        "research/record-michael-glasgow-gladiator-1797/findings.md",
+        "research/queue-review-2026-10-17/catalogue-integration.json"
+      ]
+    },
+    {
+      "id": "james-swift-will-mother-sister-1716-20261112",
+      "found_on": "2026-11-12",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "James Glasgow’s original Swift surgeon will, made 15 June 1716 and proved 21 August 1719, names his mother Isabell Duff and sister Jean. It establishes death by probate and corrects the earlier 1733 activity interpretation.",
+      "qualification": "Original PDF pages 1– 2 visually checked by the lead researcher. Explicit maternal and sister roles; Duffe- 18 remains the 95%mother identification, Glasgow- 2682 the 95%father through the 1733 index, not a legible named father in this will. Jean 3088 is a strong candidate from the 1677 James/IssobellDuff Edinburgh household, not proved from the will. No score increase, new family attachment or merger. Supplied full transcript remains partly unverified; property clause, cancelled passage and some names uncertain.",
+      "people": [
+        {
+          "id": "Glasgow-4124",
+          "name": "James Glasgow",
+          "role": "Naval surgeon, testator",
+          "url": "/people/glasgow-4124.html"
+        },
+        {
+          "id": "Duffe-18",
+          "name": "Isobell/Elizabeth Duffe",
+          "role": "Existing mother identification, explicit maternal role",
+          "url": "/people/duffe-18.html"
+        },
+        {
+          "id": "Glasgow-2682",
+          "name": "James Glasgow",
+          "role": "Proposed father, Edinburgh weaver; not named legibly in will",
+          "url": "/people/glasgow-2682.html"
+        },
+        {
+          "id": "Glasgow-3088",
+          "name": "Jean Glasgow",
+          "role": "Strong sister candidate; identity unproved",
+          "url": "/people/glasgow-3088.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The National Archives, PROB11/569/479, PDFpp.1–2, Swift surgeon will1716, probate1719",
+          "url": "https://discovery.nationalarchives.gov.uk/details/r/D682397"
+        }
+      ],
+      "detail_url": "/people/glasgow-4124.html",
+      "provenance": [
+        "research/Glasgow-4124/will-1716-transcription.md",
+        "research/Glasgow-4124/findings.md"
+      ]
     }
   ]
 }

@@ -3153,6 +3153,70 @@
         "review_kind": "cited_event_date_scope_correction",
         "original_inspected": false
       }
+    },
+    {
+      "schema_version": 3,
+      "id": "tna-michael-gladiator-age-derived-birth-20261112",
+      "subject": "record-michael-glasgow-gladiator-1797",
+      "status": "approved",
+      "reviewed": "2026-11-12",
+      "basis": "The National Archives official Discovery description, ADM 101/103/1/1 folios 3–4, Michael Glasgow aged 40 on the sick list from 16 March 1797; catalogue description reviewed, original journal unread.",
+      "summary": "Birth approximately 1756–1757 from reported age forty; exact date and birthplace unknown.",
+      "source_ids": [
+        "tna-michael-glasgow-gladiator-1797"
+      ],
+      "vitals": {
+        "birth": {
+          "date": "about 1757",
+          "place": null,
+          "status": "uncertain",
+          "note": "Derived solely from catalogue age 40 on 16 March 1797, suggesting 1756–1757 if accurate. No independently recorded birth date or birthplace. Do not transfer the 1741 Irvine birth to this documentary subject.",
+          "source_url": "https://discovery.nationalarchives.gov.uk/details/r/C10568938",
+          "source_level": "Official archival catalogue; original journal uninspected",
+          "qualifier": "Approximately 1756–1757 from age forty; source-qualified estimate."
+        }
+      },
+      "vital_qualifications": {
+        "birth": "Approximate 1756–1757 from reported age; original journal unread."
+      },
+      "provenance": {
+        "original_inspected": false,
+        "review_kind": "age-derived documentary subject estimate"
+      }
+    },
+    {
+      "schema_version": 3,
+      "id": "james-glasgow-4124-swift-will-death-bounds-20261112",
+      "subject": "Glasgow-4124",
+      "status": "approved",
+      "reviewed": "2026-11-12",
+      "basis": "Original PROB 11/ 569/ 479, PDFpp. 1– 2, visually checked: will 15 June 1716, probate 21 August 1719; specific surgeon/Swift/Sheerness identity.",
+      "summary": "Alive 15 June 1716 when making will; deceased by probate 21 August 1719. Exact death date/place unknown; 1733 index does not establish survival.",
+      "source_ids": [
+        "tna-james-glasgow-swift-will-1716"
+      ],
+      "vitals": {
+        "death": {
+          "date": "before 22 August 1719",
+          "place": null,
+          "status": "supported",
+          "note": "Alive when the will was made15June1716 and deceased by probate21August1719. This is a bounded death interval, not an exact death day. Probate at London does not prove death there. The1733Scottish index/Services of Heirs references are posthumous administrative evidence.",
+          "source_url": "https://discovery.nationalarchives.gov.uk/details/r/D682397",
+          "source_level": "Original probate copy, PDFpp.1–2 visually checked",
+          "qualifier": "After15June1716 and by21August1719; exact date/place unknown.",
+          "earliest": "1716-06-15",
+          "latest": "1719-08-21"
+        }
+      },
+      "vital_qualifications": {
+        "death": "After15June1716 and by21August1719; exact date and place unknown."
+      },
+      "provenance": {
+        "original_inspected": true,
+        "review_kind": "original_will_probate_death_interval",
+        "prior_death": "unknown",
+        "supplied_full_transcription": "partly verified; only checked clauses used"
+      }
     }
   ]
 }

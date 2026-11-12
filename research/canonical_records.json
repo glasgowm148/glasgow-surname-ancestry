@@ -595677,5 +595677,94 @@
     "publish_to_record_index": true,
     "reviewed_on": "2026-11-12",
     "provenance": "Saved before owner paused research. Integration only: no further source pages inspected or percentage changed. Original PDF retained privately in tmp/cecil-probate-20261112/james-ee5-p4-5.pdf; public factual abstract only."
+  },
+  {
+    "record_id": "tna-michael-glasgow-antigua-1756",
+    "association": "Thomas Frankland to the Naval Officer at Antigua, 3 January 1756",
+    "date": "3 January 1756",
+    "year": 1756,
+    "place": "English Harbour, Antigua",
+    "source_url": "https://discovery.nationalarchives.gov.uk/details/r/C8840820",
+    "source_title": "Thomas Frankland to the Naval Officer at Antigua, 3 January 1756; ADM 106/1118/3",
+    "status": "Official catalogue description; original uninspected",
+    "note": "The National Archives catalogue describes an order sent by Thomas Frankland at English Harbour to the Naval Officer at Antigua on 3 January 1756, directing the discharge of Michael Glasgow and three other men for incompetence and preventing their entry to the yard. This describes the order; it does not prove when the discharge was carried out. The catalogue gives Michael no age, birthplace, family or specific trade. Reviewed 12 November 2026 from The National Archives official Discovery catalogue/API description. The original manuscript was not inspected; the catalogue reports the item as not digitised and open. Open archival access does not mean online images exist. No live WikiTree or FamilySearch edit, merge or family attachment follows.",
+    "role": "Documentary subject",
+    "profiles": {
+      "record-michael-glasgow-antigua-1756": {
+        "role": "Named subject; modern profile identity unresolved",
+        "timeline_group": "Life events"
+      }
+    },
+    "reviewed_on": "2026-11-12",
+    "assessment": "Michael Glasgow (Glasgow-1410), baptised at Irvine in 1712, remains chronologically compatible. Michael Glasgow (Glasgow-1416), born 19 November 1741, would have been fourteen; the catalogue gives neither age nor occupation, so this is not an exclusion. Michael Glasgow (Glasgow-1406), recorded as an Irvine skinner in 1679, would be very old in 1756 but is not excluded merely from a before-birth bound. No record bridges any of these Irvine men to Antigua. Glasgow-3911 belongs to the sixteenth century and Glasgow-3595 was born in 1815, concrete chronological conflicts. Keep this documentary account on identity hold; do not create a duplicate live profile.",
+    "publish_to_record_index": true,
+    "provenance": {
+      "reviewed_on": "2026-11-12",
+      "basis": "Official Discovery catalogue/API description reviewed; original uninspected"
+    }
+  },
+  {
+    "record_id": "tna-michael-glasgow-gladiator-1797",
+    "association": "Michael Glasgow, aged 40, in HMS Gladiator medical journal, folios 3–4",
+    "date": "16 March 1797",
+    "year": 1797,
+    "place": "Portsmouth Harbour, Hampshire, England",
+    "source_url": "https://discovery.nationalarchives.gov.uk/details/r/C10568938",
+    "source_title": "Michael Glasgow, aged 40, in HMS Gladiator medical journal, folios 3–4; ADM 101/103/1/1, folios 3–4",
+    "status": "Official catalogue description; original uninspected",
+    "note": "The National Archives catalogue indexes Michael Glasgow, aged 40, a supernumerary seaman, on the sick list from 16 March 1797 with venereal gonorrhoea, subsequently discharged to his ship. No discharge date or name of that ship is supplied for Michael. The parent description identifies the journal as that of HMS Gladiator, kept by surgeon H Maybee from 5 January 1797 to 25 February 1798 while Gladiator served as a convalescent ship in Portsmouth Harbour. This identifies the treatment setting, not Michael’s normal ship. Reviewed 12 November 2026 from The National Archives official Discovery catalogue/API description. The original manuscript was not inspected; the catalogue reports the item as not digitised and open. Open archival access does not mean online images exist. No live WikiTree or FamilySearch edit, merge or family attachment follows.",
+    "role": "Documentary subject",
+    "profiles": {
+      "record-michael-glasgow-gladiator-1797": {
+        "role": "Named subject; modern profile identity unresolved",
+        "timeline_group": "Life events"
+      }
+    },
+    "reviewed_on": "2026-11-12",
+    "assessment": "The recorded age 40 implies birth approximately 1756–1757, if accurate. Glasgow-1416, born 19 November 1741, would be 55 on 16 March 1797, a concrete age conflict; do not assign this record to him without evidence correcting the reported age. Glasgow-1410 was baptised in 1712 and Glasgow-1406 was already recorded in 1679, also incompatible with an accurate age 40. Glasgow-3911 belongs to the sixteenth century; Glasgow-3595 was born in 1815 and Glasgow-4252 in 1889. No compatible maintained Michael profile was established. Wider live duplicate search and the original journal remain outstanding, so this is a source-verification hold, not an authorized live creation.",
+    "publish_to_record_index": true,
+    "provenance": {
+      "reviewed_on": "2026-11-12",
+      "basis": "Official Discovery catalogue/API description reviewed; original uninspected"
+    }
+  },
+  {
+    "record_id": "tna-james-glasgow-swift-will-1716",
+    "association": "Will of James Glasgow, surgeon of HMS sloop Swift at Sheerness",
+    "date": "15 June 1716; proved 21 August 1719",
+    "year": 1716,
+    "place": "Sheerness, Kent, England; Edinburgh family property context",
+    "source_url": "https://discovery.nationalarchives.gov.uk/details/r/D682397",
+    "source_title": "The National Archives, PROB 11/569/479, PDF pp.1–2",
+    "status": "Original probate copy visually inspected; selected clauses verified",
+    "note": "Will dated 15 June 1716 and proved 21 August 1719. Testator James Glasgow is surgeon of HMS sloop Swift at Sheerness; he expressly names his mother Isabell Duff and sister Jean, mentions Edinburgh property and the poor of Lady Yester’s parish, and names surgeon John Barclay executor. Cancelled passage gives no legible named father. Exact property wording and some personal names remain uncertain; supplied complete transcript is only partly verified. The 1733 references are later administrative evidence, not survival to 1733.",
+    "role": "Will testator",
+    "profiles": {
+      "Glasgow-4124": {
+        "role": "Testator; strongly identified by surgeon, Swift and Sheerness",
+        "timeline_group": "Life events"
+      },
+      "Duffe-18": {
+        "role": "Strongly identified mother, expressly named Isabell Duff; profile identity retained at95%",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-3088": {
+        "role": "Strong candidate for sister Jean, not proved adult identity",
+        "identification_status": "candidate",
+        "timeline_group": "Possible identity records"
+      },
+      "Glasgow-2682": {
+        "role": "Contextual proposed father from1733index; not legibly named in this will",
+        "identification_status": "context",
+        "timeline_group": "Family context"
+      }
+    },
+    "reviewed_on": "2026-11-12",
+    "assessment": "Surgeon identity strongly supported; explicit mother/sister roles; adult female profile identities distinguished; parent assessments unchanged.",
+    "provenance": [
+      "research/Glasgow-4124/will-1716-transcription.md",
+      "research/Glasgow-4124/findings.md"
+    ],
+    "publish_to_record_index": true
   }
 ]
