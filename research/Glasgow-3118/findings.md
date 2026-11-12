@@ -94,3 +94,14 @@ The parish index supplies no mother, occupation, precise residence or explicit l
 - [Current Agnes profile](https://www.wikitree.com/wiki/Glasgow-1312), anonymous API check 21 October 2026, revision 20260825213813; [Alexander-3118](https://www.wikitree.com/wiki/Glasgow-3118), numeric ID 44215058. Current tree fields and prose are modern assertions, not additional parish sources.
 
 **Next discriminating evidence:** inspect the original 1667 marriage and 1673/1677 child entries for residences, witnesses and maternal names; compare the original 1674 St Cuthbert’s entry before any cross-household identity proposal.
+
+
+## 12 November 2026 — marriage transcript and image access
+
+The signed-in FamilySearch record XY9W-TPB was inspected. It names Alexander Glasgow and Margaret Smith, with an indexed marriage date of 18 October 1667 at Kirknewton and East Calder. The page explicitly says “No Image Available”. Its displayed transcript supplies no father, precise residence, occupation, cautioner or witness. The associated Family Tree profile is not independent evidence for the parentage.
+
+This completes inspection of the available FamilySearch transcript, not the original parish register. No absence of family detail in the original is inferred. The proposed father John Glasgow-3610 remains uncertain at 26%; the children’s assessments are unchanged. This access check is not a new genealogical finding or confidence gain.
+
+The discriminating test remains the original OPR 690/10/54, FR37, alongside the 1673 and 1677 child entries: compare residences, occupations, witnesses and maternal names with John’s documented household. Do not retry this transcript expecting an image unless the provider’s availability changes. An original supplied through a lawful alternative would reopen the test.
+
+[FamilySearch marriage transcript](https://www.familysearch.org/ark:/61903/1:1:XY9W-TPB).
