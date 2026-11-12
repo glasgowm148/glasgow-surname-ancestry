@@ -84060,6 +84060,64 @@
           "previous_status_provenance": "Current workbench assessment revision 2, dated 2026-10-22, probable 86%; Lloyd's 1836 birth and 1850 entry in Samuel and Elizabeth's family fit the established sibling sequence and Samuel's age. This is a strong household inference with no relationship column or later parent statement held."
         }
       ]
+    },
+    {
+      "id": "sunderland-james-berwick-father-20261112",
+      "found_on": "2026-11-12",
+      "kind": "relationship",
+      "status": "qualified",
+      "detail_url": "/people/record-ancestry-glasgow-fd84e4728b02.html#research-findings",
+      "finding": "New probable father: the Sunderland James Glasgow, husband of Jane Clough Duncan, is identified with the 1803 Berwick child at 88%; the existing Berwick father James is now linked to this branch.",
+      "significance": "Changes a previously unknown father to a specific probable parent using new census identity evidence; reuses two existing catalogue people rather than adding another orphan.",
+      "qualification": "88% is a subjective identity-and-parentage judgment, not a measured probability or genetic proof. The original baptism, marriage and census pages were not inspected; these are provider indexes. The two 1803 baptism indexes describe one event. Census ages and birthplaces may repeat family information; another same-named Berwick child or an erroneous indexed place remains possible. The baptism gives no mother here. No wife, birth date, Scottish origin or earlier father is assigned to James senior. His identity with compatible existing James profiles remains open. FamilySearch tree attachments are locators, not evidence.",
+      "people": [
+        {
+          "id": "record-ancestry-glasgow-fd84e4728b02",
+          "name": "James Glasgow, Sunderland mariner",
+          "url": "/people/record-ancestry-glasgow-fd84e4728b02.html",
+          "role": "Previously unknown father; now probable at 88%"
+        },
+        {
+          "id": "record-ancestry-glasgow-5af9a41ee137",
+          "name": "James Glasgow, Berwick father",
+          "url": "/people/record-ancestry-glasgow-5af9a41ee137.html",
+          "role": "Named father in the 1803 baptism; wider identity unresolved"
+        }
+      ],
+      "sources": [
+        {
+          "title": "England, Births and Christenings, 1538–1975: Wesleyan Methodist, Berwick, James Glasgow, 21 January 1803",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:JMKT-MQZ"
+        },
+        {
+          "title": "England Marriages, 1538–1973: James Glasgow and Jane Clough Duncan, 30 August 1825",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:NL8M-4JM"
+        },
+        {
+          "title": "England and Wales, Census, 1861: James Glasgow, RG09/3783 folio 82, page 4",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:M76T-HWD"
+        },
+        {
+          "title": "England and Wales, Census, 1871: James Glasgow, ED 13, household 74, entry 22",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:VB84-53H"
+        },
+        {
+          "title": "England and Wales, Census, 1881: James Glasgow, RG11/4997 folio 64, page 18",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:Q271-N9YF"
+        }
+      ],
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "record-ancestry-glasgow-fd84e4728b02",
+          "relative": "record-ancestry-glasgow-5af9a41ee137",
+          "before": "unknown",
+          "after": "probable",
+          "probability_percent": 88,
+          "previous_status_provenance": "Before this review the current public James Sunderland dossier has no parent relationship; saved before dossier in the private batch receipt. The Berwick father was a separate, unconnected existing documentary account.",
+          "explanation": "James Glasgow, husband of Jane Clough Duncan at Sunderland in 1825, is probably the James baptised at the Berwick-upon-Tweed Wesleyan Methodist chapel on 21 January 1803, whose father is named James Glasgow. The 1861 and 1871 census indexes give the Sunderland/Monkwearmouth adult a Berwick birthplace and birth about 1803; the 1881 index gives about 1802 and identifies his daughter as Elizabeth Duncan Burns. Her distinctive Duncan name matches Elizabeth Duncan Glasgow in the held 1827 James/Jane Clough Duncan baptism. In 1871 Elizabeth Burns is explicitly his daughter and Jane his wife. The repeated birthplace, coherent ages, wife and distinctive daughter provide the adult-to-child bridge absent from the earlier baptism-only account. Select the existing record-defined Berwick father account at 88% probable; no new person is needed."
+        }
+      ]
     }
   ]
 }

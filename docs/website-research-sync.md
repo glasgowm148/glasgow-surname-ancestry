@@ -196,6 +196,7 @@ research section does not replace that integration.
   partners and descendants. This does not create relationships or new branches.
   Read-only mode reports stale parent rows; `--write` updates them.
 - Reviewed vital publication: `.venv/bin/python tools/publish_resolved_dossiers.py --id Glasgow-635` resolves the selected dossier, network and catalogue rows without replaying unrelated people. Repeat `--id` for several people. Targeted person-page synchronization uses the same selection; maintained assessment/source registries are still refreshed. Record the vital assessment in the research database first.
+- Documentary parent batches: after `queue_catalogue_creations.py --catalogue-id …`, run `publish_resolved_dossiers.py --id …` for the affected people before building trees and progress. The creation builder updates their dossiers but does not refresh the shared relationship assets. Without that publication step, current father counts can change while the individual research-history row remains absent. Verify both the totals and the individual event.
 - Full catalogue generation, when needed:
   `.venv/bin/python tools/build_family_map.py`. This is broader than a person
   update and regenerates several datasets and views. First reconcile manual
