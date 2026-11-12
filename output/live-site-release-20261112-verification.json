@@ -1,0 +1,283 @@
+{
+  "published_utc": "2026-11-12T19:43:20.854702+00:00",
+  "site": "https://glasgow.phenotype.dev",
+  "branch": "main",
+  "release_commit": "73cf5d838e0392a210ea46424b7f3753a039a298",
+  "remote_main_verified_at_release": "73cf5d838e0392a210ea46424b7f3753a039a298",
+  "research_goal": "paused",
+  "research_searches_resumed": false,
+  "relationship_probabilities_changed_for_release": false,
+  "publication_backfill_is_not_a_confidence_gain": true,
+  "public_catalogue_people": 8022,
+  "public_record_entries": 16979,
+  "payload": {
+    "files": 139866,
+    "bytes": 3726117676,
+    "manifest_sha256": "37359e2224885676cbab1d9c6faba526c7dafd0254269fb2d6d727c5b2fee54d"
+  },
+  "deployment": {
+    "method": "rsync over SSH to the existing real document root",
+    "prepared_bytes_reused": true,
+    "executor_no_stamp": true,
+    "finalize_and_asset_stamp_check_previously_passed": true,
+    "all_executor_safety_gates_passed": true,
+    "production_smoke": "PASS",
+    "final_rsync_preview_empty": true
+  },
+  "server_sha256_verification": {
+    "checked": 139866,
+    "expected": 139866,
+    "failures": []
+  },
+  "live_https_verification": {
+    "checked": 289,
+    "exact": 227,
+    "normalized": 62,
+    "failures": []
+  },
+  "preservation": {
+    "baseline_people": 8020,
+    "baseline_people_missing": [],
+    "baseline_records": 10297,
+    "retired_or_replaced_record_ids": 165,
+    "old_public_sources_absent_current_primary_index": 0,
+    "source_record_audit_counts": {
+      "snapshot_records": 10297,
+      "current_records": 16979,
+      "record_ids_present_both": 10132,
+      "old_record_ids_absent_current": 165,
+      "absent_ids_preserved_by_exact_primary_source_url": 165,
+      "absent_ids_without_current_primary_source_url": 0,
+      "absent_ids_matching_canonical_registry_source_url": 0,
+      "canonical_registry_matches_with_same_record_id": 0,
+      "canonical_registry_matches_with_rekeyed_record_id": 0,
+      "canonical_registry_matches_with_explicit_publication_status": 0,
+      "genuinely_without_current_or_canonical_source_url": 0,
+      "ambiguous_exact_source_url_matches": 60,
+      "same_url_matches_with_changed_catalogue_id": 146,
+      "changed_catalogue_ids_with_old_alias_to_current_target": 53,
+      "same_url_matches_with_profile_ids_changed_in_index": 90,
+      "those_associations_preserved_in_canonical_profiles": 90,
+      "same_url_matches_with_material_fields_dropped": 0,
+      "stable_id_rows_with_material_fields_dropped": 1
+    },
+    "reviewed_profile_changes": [
+      {
+        "id": "glasgow-4124",
+        "kind": [
+          "vitals"
+        ]
+      },
+      {
+        "id": "record-ancestry-glasgow-1d6da75fa0b0",
+        "kind": [
+          "parents"
+        ]
+      },
+      {
+        "id": "record-ancestry-glasgow-49960156af04",
+        "kind": [
+          "parents"
+        ]
+      }
+    ],
+    "profile_change_review": "Surgeon death bound comes from the inspected 1716/1719 original will; the other two father ID differences normalize existing native aliases at unchanged 93% and 94%. Recent 95%,78%,57% father assessments were explicitly retained.",
+    "live_before_people": 6423,
+    "live_before_records": 15021,
+    "old_live_people_without_current_routes": [],
+    "reviewed_live_citation_changes": [
+      {
+        "record_id": "currituck-daniel-glasgoe-white-assignment-1737",
+        "old_url": "https://www.ncgenweb.us/currituck/deeds/db03.html",
+        "new_url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L989-QSS3",
+        "review": "Same stable record ID, same 1737 assignment; citation upgraded from a retained NCGenWeb abstract to the inspected original Deed Book3 p45 image. Abstract retained in maintained findings; no parentage or life-date change."
+      }
+    ],
+    "unresolved_live_source_omissions": []
+  },
+  "fresh_connectivity_graph": {
+    "checked_cutoffs": [
+      1500,
+      1550,
+      1600,
+      1650,
+      1700,
+      1750,
+      1800,
+      1850
+    ],
+    "views": [
+      "working",
+      "supported",
+      "confident"
+    ],
+    "fresh_graph_matches_published_metrics": true,
+    "failures": []
+  },
+  "checks": {
+    "research_publication": "0 new failing items against maintained baseline",
+    "internal_links": "0 new failing items against maintained baseline",
+    "finding_links": "PASS",
+    "tree_links": "PASS after refreshing 605 changed tree links",
+    "public_catalogue_layout": "PASS",
+    "experience_audit": "PASS",
+    "asset_versions": "0 stale references",
+    "publication_boundary": "0 failures",
+    "workbench_generated_views": {
+      "checked": 346,
+      "matching": 346
+    },
+    "git_diff_whitespace": "PASS",
+    "targeted_build_regressions": {
+      "publish_resolved_dossiers": 27,
+      "queue_catalogue_creations": 31
+    }
+  },
+  "browser_verification": {
+    "existing_chrome_window_reused": true,
+    "new_browser_windows_or_profiles": 0,
+    "desktop_viewports": [
+      [
+        1200,
+        1244
+      ],
+      [
+        1200,
+        1245
+      ]
+    ],
+    "catalogue": {
+      "url": "https://glasgow.phenotype.dev/catalogue/?needsUpdate=1&sort=significance%3Adesc#catalogue-filters",
+      "observed": "Sidebar, table, applied filter and coloured father-confidence badges render correctly; all 4,696 results load."
+    },
+    "charts": {
+      "requested_legacy_url": "https://glasgow.phenotype.dev/onetree/progress/?through=1850&links=confident&historyCohort=selected#uncertainty-history",
+      "current_url": "https://glasgow.phenotype.dev/latest-findings/?through=1850&links=confident&historyCohort=selected#uncertainty-history",
+      "observed": "Legacy route forwards to Latest Findings; line charts and dated uncertainty/confidence tables render with data through 12 November 2026."
+    },
+    "local_browser_limit": "Mac MCP blocks local/private IP navigation; local catalogue instead verified through actual HTTP CSS bytes/content-types, and identical public payload visually inspected.",
+    "mobile_visual_verification": false,
+    "retained_tab": "One verified public findings/chart tab retained for owner review; two pre-existing personal tabs preserved."
+  },
+  "local_catalogue_css": [
+    {
+      "href": "/people/catalogue.css?v=70166f4bb8",
+      "status": 200,
+      "bytes": 111263,
+      "matches_current_file": true,
+      "sha256": "70166f4bb819bd1470cffff7d4d73e42057679856ed342d61e44927945a9d8a5",
+      "content_type": "text/css"
+    },
+    {
+      "href": "/assets/unified/site.css?v=54e36149cb",
+      "status": 200,
+      "bytes": 23180,
+      "matches_current_file": true,
+      "sha256": "54e36149cb21c211cc035aac0d299c16bdbc409cbe9d7a640c0f1224456834c0",
+      "content_type": "text/css"
+    },
+    {
+      "href": "/assets/unified/sections.css?v=33e02bc6d3",
+      "status": 200,
+      "bytes": 19409,
+      "matches_current_file": true,
+      "sha256": "33e02bc6d3f64a4f0f2b249192acd7a6f8bca5dcabe7a87deda46e5413961c87",
+      "content_type": "text/css"
+    },
+    {
+      "href": "/assets/unified/home.css?v=9de9ad1c0b",
+      "status": 200,
+      "bytes": 15594,
+      "matches_current_file": true,
+      "sha256": "9de9ad1c0b4aa30341f182f3493907396cab7b808b9c4e0dc2b47a4c313aac24",
+      "content_type": "text/css"
+    },
+    {
+      "href": "/assets/research/research.css?v=73bef00d2c",
+      "status": 200,
+      "bytes": 39361,
+      "matches_current_file": true,
+      "sha256": "73bef00d2c801592b5e4ef64789de6194da4e10c7ba0c0ad181292ebc71cb31f",
+      "content_type": "text/css"
+    },
+    {
+      "href": "/assets/v3/site.css?v=b6eb9b9e11",
+      "status": 200,
+      "bytes": 50209,
+      "matches_current_file": true,
+      "sha256": "b6eb9b9e11139bc53cbaa79195f7d330ba20c76c84a4260eecb11228a42655d2",
+      "content_type": "text/css"
+    },
+    {
+      "href": "/assets/repair/site.css?v=2d9d9f2e14",
+      "status": 200,
+      "bytes": 33519,
+      "matches_current_file": true,
+      "sha256": "2d9d9f2e1486887e9787914741499e0899358c8b7e9487f6ad5ea46ec45e8343",
+      "content_type": "text/css"
+    },
+    {
+      "href": "/assets/unified/section-submenus.css?v=ad2d678732",
+      "status": 200,
+      "bytes": 5465,
+      "matches_current_file": true,
+      "sha256": "ad2d678732b27cbac4293a6749a061ca43f561ae7863b966a3e128ffeb9c378f",
+      "content_type": "text/css"
+    },
+    {
+      "href": "/assets/repair/resources.css?v=58a32e2a06",
+      "status": 200,
+      "bytes": 2885,
+      "matches_current_file": true,
+      "sha256": "58a32e2a0629dbaf47d698950546873469b1e9b1fc9490e9a7c9a96fe4c5a185",
+      "content_type": "text/css"
+    },
+    {
+      "href": "/assets/repair/reader-guidance.css?v=3820922f77",
+      "status": 200,
+      "bytes": 4654,
+      "matches_current_file": true,
+      "sha256": "3820922f7710249a29a98438e7de6d4338f108623350c206be0da5e58315dc92",
+      "content_type": "text/css"
+    },
+    {
+      "href": "/assets/research/research-queue.css?v=cb15337cc3",
+      "status": 200,
+      "bytes": 1260,
+      "matches_current_file": true,
+      "sha256": "cb15337cc318423334317ad04ab78ac79aeb3f47df0142e2fb118db4b5c44d5d",
+      "content_type": "text/css"
+    }
+  ],
+  "backups": {
+    "workbench": {
+      "asset_count": 3737,
+      "logical_digest": "29d6a57ddcee15a5227ab5b2e23bda21902c27bdad89bfe406e82d20bc8cdf85",
+      "path": "data/private/workbench/backups/20261112T192446Z-final-release",
+      "referenced_only": 87230,
+      "schema_version": 2,
+      "verified": true,
+      "excluded_asset_root": "repository"
+    },
+    "live_rollback": {
+      "host": "23.88.104.255",
+      "archive": "/var/backups/glasgow/20261112-163701-pre-main-release/site-before.tar.gz",
+      "sha256": "982b83586ed6135b1d8f8518c1cdd9fe0068a8e7f72f550f2b239955ed9824c8",
+      "bytes": 626201822,
+      "gzip_verified": true
+    },
+    "local_prebuild_site": "data/private/workbench/www-before-release-20261112"
+  },
+  "maintained_build_state_saved": true,
+  "known_limitations": {
+    "whole_workbench_validate_clean": false,
+    "detail": "The broader private audit retains already documented undefined project-grade labels and historical generated-output asset-reference warnings. It was run during the mutable build; it is not represented as a clean final native validation. Database views match 346/346 and the final native backup independently verifies. No relationship percentage was changed to silence those warnings.",
+    "undeclared_project_grade_labels": [
+      "proved",
+      "possible"
+    ],
+    "standalone_mobile_or_performance_benchmark_run": false
+  },
+  "no_live_wikitree_edits": true,
+  "bundle_created": false
+}
