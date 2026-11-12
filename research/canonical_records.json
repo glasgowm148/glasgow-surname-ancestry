@@ -594981,5 +594981,66 @@
     "additional_source_urls": [
       "https://www.familysearch.org/ark:/61903/3:1:3QS7-L989-Q95T"
     ]
+  },
+  {
+    "record_id": "robert-glasgow-west-marlborough-census-1880",
+    "record_type": "Federal population census",
+    "record_category": "Census and households",
+    "date": "1880-06-11",
+    "year": 1880,
+    "place": "West Marlborough, Chester County, Pennsylvania",
+    "country": "United States",
+    "association": "Robert Glasgow,85, with daughter Annie and grandson Willie R.; parental birthplaces",
+    "source_title": "1880 United States census, ED51, sheet 229A, local page 17, lines 41–43; NARA T9/1114; Internet Archive scan 107",
+    "source_url": "https://archive.org/details/10thcensus1114unit/page/n107/mode/1up",
+    "additional_source_urls": [
+      "https://www.familysearch.org/ark:/61903/1:1:MWXK-QJB"
+    ],
+    "source_type": "Original census microfilm image",
+    "source_quality": "original_manuscript",
+    "source_status": "Original household and nativity columns inspected 12 November 2026",
+    "status": "Both parents recorded as born Pennsylvania; neither parent named",
+    "record_precision": "Recorded census township; not geocoded",
+    "profiles": {
+      "Glasgow-752": {
+        "role": "Named older household member; parents’ birthplaces recorded, names absent",
+        "timeline_group": "Census and households"
+      }
+    },
+    "note": "The original nativity columns 24–26 give Pennsylvania for Robert and for both his parents. Robert is 85; Annie 40 is daughter and Willie R.3 grandson. Reported ages do not establish exact birthdays or Willie’s parent. The informant is unknown; parental birthplace is reported evidence, not a named-parent identification. No father or mother is selected. Existing daughter paternity grade 98% is unchanged; no new father-confidence event.",
+    "provenance": "research/Glasgow-752/findings.md",
+    "reviewed_on": "2026-11-12",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "new-london-robert-menough-return-1795",
+    "record_type": "Child servitude registration",
+    "record_category": "Births and baptisms | Tax and civil lists",
+    "date": "1795-08-10; filed1795-10-30",
+    "year": 1795,
+    "place": "New London Township, Chester County, Pennsylvania",
+    "country": "United States",
+    "association": "Robert, surname unstated, registered by John Menough junior",
+    "source_title": "Chester County Archives RG4100.052, Negro Servant Returns 1788–1821, document 859766, images 86–87; birth 10 August 1795, docket 30 October 1795",
+    "source_url": "https://portal.laserfiche.com/Portal/DocView.aspx?id=859766&repo=r-24f48cc6",
+    "additional_source_urls": [
+      "https://www.chesco.org/DocumentCenter/View/4133",
+      "https://www.chesco.org/DocumentCenter/View/4134"
+    ],
+    "source_type": "Original manuscript return",
+    "source_quality": "original_manuscript",
+    "source_status": "Original docket and return inspected 12 November 2026",
+    "status": "Possible unselected childhood comparison; no Glasgow surname or parent named",
+    "record_precision": "Recorded township; not geocoded",
+    "profiles": {
+      "Glasgow-752": {
+        "role": "Compatible unselected identity comparison; not an established childhood event",
+        "timeline_group": "Candidate childhood records"
+      }
+    },
+    "note": "A male child Robert was born 10 August 1795 in the family of John Menough junior of New London Township. The docket is 30 October 1795. The original names no parent or surname for Robert; Menough is registrant, not an evidenced father. Date and county suggest a childhood candidate for the West Marlborough adult, but surname, continuity, spouse and kin are unbridged. The child would be 84 at the 1880 census, against reported 85. No parent or exact birth is assigned, and no new person is created for this possible earlier event.",
+    "provenance": "research/Glasgow-752/findings.md",
+    "reviewed_on": "2026-11-12",
+    "publish_to_record_index": true
   }
 ]

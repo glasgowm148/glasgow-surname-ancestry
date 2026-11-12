@@ -83833,6 +83833,31 @@
           "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L989-Q95T"
         }
       ]
+    },
+    {
+      "id": "robert-752-parents-pennsylvania-census-20261112",
+      "found_on": "2026-11-12",
+      "reviewed_on": "2026-11-12",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "The original 1880 West Marlborough census records Pennsylvania as the birthplace of Robert Glasgow and of both his parents. The formerly unread parental-birthplace columns now give a specific regional direction for the older-generation search.",
+      "significance": "Completes the held original-image test for an unknown father supporting the Pennsylvania branch; no parent is named and no confidence gain is claimed.",
+      "qualification": "Reported census birthplaces and an unidentified informant do not prove exact parent origins. The separate 1795 New London child Robert is only an unselected identity comparison; John Menough junior is not assigned as father.",
+      "detail_url": "/people/glasgow-752.html#research-findings",
+      "people": [
+        {
+          "id": "Glasgow-752",
+          "name": "Robert Glasgow",
+          "url": "/people/glasgow-752.html",
+          "role": "Both parents unknown; reported parental birthplaces Pennsylvania"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Original 1880 census, sheet 229A, lines 41–43, NARA T9/1114, scan 107",
+          "url": "https://archive.org/details/10thcensus1114unit/page/n107/mode/1up"
+        }
+      ]
     }
   ]
 }
