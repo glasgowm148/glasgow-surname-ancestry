@@ -4,6 +4,8 @@ Last updated: 2026-10-30
 
 ## Current conclusion
 
+**Source search completed, 12 November 2026:** the remaining Munimenta volumes II and III were screened in OCR without locating the 1506 instrument. This is a search result, not a confidence improvement; the full BL204/GUA16403 original remains the discriminator.
+
 Reviewed 30 October 2026: the selected Stirling father remains **uncertain, 22%**. A bounded OCR screen of the published Stirling protocol abstracts in *The Scottish Antiquary*, volumes 10 and 11, supplied no new personal Glasgow occurrence joining the Stirling predecessor to Saltmarket John. This does not establish absence from the manuscript. The next discriminating source is the full instrument **Blackhouse BL204 / GUA16403, 28 April 1506**, including its alias, title, kin and witness wording; the catalogue abstract alone does not resolve the identity.
 
 **Chronology review, 17 October 2026:** the selected Stirling father remains **uncertain, 22%**. The combined 1447–1480 civic identity and the possible 1506 alias-Smith identity are separate dependencies; actual births remain unknown. Saltmarket John → William remains **probable, 88%**, and William → John Glasgow-1093 remains **confident, 99%**. These downstream assessments do not strengthen the Stirling father link. See the qualified chronology below.
@@ -180,3 +182,10 @@ The earlier Brady review already established Richard as John Brady’s son and G
 The downloaded Munimenta Alme Universitatis Glasguensis volume I (Privileges and Property) was searched for Glasgw/Glasgu, Smith/Smyth aliases and the 1506 date. The combined personal index, printed pp.55–56 (PDF167–168), was visually checked. The located 1506 texts concern other instruments; the 28 April BL204 instrument was not located. Volumes II and III were not searched in full, and this does not prove that the charter was never printed. No father or identity rating changes. The full BL204/GUA16403 remains the useful test.
 
 Sources: [volume I](https://deriv.nls.uk/dcn23/8071/80717906.23.pdf), [supplement and combined indexes](https://deriv.nls.uk/dcn23/8071/80714517.23.pdf). This is a completed bounded search, not a new genealogy finding.
+
+
+## Remaining Munimenta OCR screen — 12 November 2026
+
+The OCR text of Munimenta Alme Universitatis Glasguensis, volumes II (Statutes and Annals) and III (Lists of Members—Internal Economy), was retrieved in overlapping byte ranges and screened for Glasgow/Glesgw/Glasgu variants, John and William name contexts, and Smith/Smyth alias wording. The 28 April 1506 BL204/GUA16403 instrument was not located. This completes the remaining two-volume OCR screen, not an inspection of every printed page or the manuscript. The Stephen Glasgow student and later Glasgow student/bursar leads are already held; they supply no new Stirling–Saltmarket parent clause. OCR omissions and unrecognized spellings remain possible. The next discriminating test is still the full original BL204 instrument, not another sweep of these same OCR texts. Father confidence remains 22%; no identity or parent recommendation changes.
+
+[Volume II, Statutes and Annals](https://archive.org/details/munimentaalmeuni02mait); [volume III, Lists of Members—Internal Economy](https://archive.org/details/munimentaalmeuni03mait). Source provider: National Library of Scotland, scans hosted by Internet Archive.
