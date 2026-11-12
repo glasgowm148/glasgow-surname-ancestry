@@ -2,6 +2,9 @@
 
 ## Current conclusion
 
+**12 November 2026:** Katherine Campbell, called Katie in the historical study, shared a Corsankell holding with James Glasgow elder. Cross identifies her as his wife and describes the younger James as their son. The spouse relationship is strongly supported at 93%; maternity of James younger is probable at 86%, pending the original account’s precise wording. The earlier co-tenant-only conclusion is superseded by this published historical account; original manuscript wording remains uninspected. All existing father assessments remain unchanged.
+
+
 **Parentage review, 17 October 2026:** [William Glasgow (Glasgow-1098)](https://www.wikitree.com/wiki/Glasgow-1098) remains James’s selected **possible father, 38% subjective confidence**. His documented married son John in 1534 places William in a compatible generation for James, whose circa 1515 birth is estimated from his own adult son’s tenancy. Glasgow civic and Mathie–Glencairn contacts supply a plausible route to Corsankell, but do not distinguish William’s fatherhood from a collateral or other local origin. The existing percentage and uncertain attachment are retained; this is no new connection or confidence upgrade.
 
 [Isobel/Esbell Brade (Brade-232)](https://www.wikitree.com/wiki/Brade-232) is assessed independently as James’s **uncertain mother, 28% subjective confidence**. Protocol 1196 proves her marriage to William and maternity of John, not James. She is the best named mother candidate conditional on William’s fatherhood, without independent maternal evidence. This first individual maternal estimate preserves the uncertain attachment and does not imply that the relationship has strengthened. Percentages express comparative research judgment, not measured probabilities.
@@ -70,7 +73,7 @@ This dating makes John-1093 a much less comfortable father than William-1098 und
 | --- | --- | --- |
 | [James Glasgow younger (Glasgow-3921), Corsankell](https://www.wikitree.com/wiki/Glasgow-3921) | Son | **Confirmed by record and already attached.** |
 | [John Glasgow (Glasgow-3193), Kilwinning/Corsinkell survivor](https://www.wikitree.com/wiki/Glasgow-3193) | Son | **Corsinkell son documented by GD39/5/59; confident father setting saved and verified 27 September 2026.** Former record-only Glasgow-4061 merged into this survivor; its additional Kilwinning occurrences remain probable, without a direct residence bridge. Those event attributions are separate from the documented parentage. |
-| Katherine Campbell, at Corsankell in 1559-60 | Unknown | Co-tenant/householder only. The list states no marriage or kinship. |
+| [Katherine (Katie) Campbell](/people/record-katherine-campbell-corsankell.html), at Corsankell | Wife, 93% strongly supported | The earlier bare list gives co-tenancy; Cross’s newly inspected history reports wife and joint holder from TD77/135 fol.6r. Original manuscript wording uninspected. |
 | Christian Campbell, at Corsankell in 1571 | Unknown | The catalogue states no marriage or kinship. Do not assume she is Katherine under another name without the original deed or corroboration. |
 | [Matthew Glasgow (Glasgow-3908), Ardeer Nether](https://www.wikitree.com/wiki/Glasgow-3908) and [Michael Glasgow (Glasgow-3911), Brakpleuch/Dubbs](https://www.wikitree.com/wiki/Glasgow-3911) | Possible local collateral kin | The same 1559-60 Stevenston list places them in the immediate parish cluster, but supplies no relationship. |
 
@@ -134,7 +137,7 @@ father; Glasgow-3921 and Glasgow-3193 are already the structured sons.
 5. Change structured death from `after 8 November 1580` to **after 9 February
    1571, place unknown**, uncertain. The biography itself correctly says the
    1580 date is an online-tree conflation.
-6. Do not identify Katherine or Christian Campbell as James's wife from these
+6. The short lists alone did not identify a wife. The new historical study identifies Katherine/Katie as James elder’s wife (93%); Christian remains unidentified. The earlier limitation concerned these
    records alone.
 
 Edit summary: `Align uncertain relationship and death settings with the Corsankell evidence.`
@@ -212,3 +215,17 @@ Mr Adam Wallace’s presence as a Glasgow burgess in the 1571 Corsinkell deed es
 The surviving alternatives concern the exact degree and origin. The 1527 and 1537 Corsankell charters name Cunningham superiors without identifying Glasgow tenants, so they neither prove nor exclude an earlier local Glasgow line. Negative testament and register searches are weak evidence. The absence of a literal father clause is not itself a reason to withhold an upgrade; the positive evidence currently fails to distinguish fatherhood from the collateral/local alternatives.
 
 Esbell’s separate 28% maternal assessment rests on her proved marriage and maternity of John in protocol 1196, combined with James’s compatible generation. Her public circa 1500 Glasgow birth is unsupported by the inspected record and her maintained findings; no birth correction is applied here. No record connects her personally to James. No new source inspection, live relationship change, new connection or confident-link upgrade is claimed. The July–September instructions above remain dated history; this section and the overall Current conclusion control the present origin assessment.
+
+## Katie Campbell’s household — 12 November 2026
+
+Morag Cross’s historical section identifies Katie Campbell as the wife of James Glasgow elder, sharing his Corsankell holding, from Ayrshire Archives TD77/135, folio 6r, in the teind material dated 1561–1563. The earlier published tenant list names Katherine Campbell beside the elder and younger James at this same holding. Katie is a familiar form of Katherine, and the unusual two-James household and exact holding strongly identify the previously unlinked co-tenant. Assess the spouse relationship at 93% strongly supported. The account does not identify her with Christian Campbell in the 1571 deed.
+
+The historical study describes James Glasgow younger as the son of James elder and Katie Campbell. This adds a specific reported mother to the existing Corsankell son, rather than inferring one from the Campbell surname alone. The father–son identity is independently established by the 1571 reversion. Select Katherine (Katie) Campbell as James younger’s probable mother at 86%. The historian’s unquoted kinship description may incorporate interpretation, so it is not presented as a newly read literal maternal clause in the manuscript.
+
+The publisher’s full historical section was read on 12 November 2026; the underlying TD77/135 folio 6r and NRS GD103/2/22 transcription were not inspected. The archival list is dated 1561–1563 in this study, whereas Sanderson’s printed appendix is labelled 1559–1560; overlapping teind accounts must not be counted as independent family witnesses. The study’s wording could summarize or infer biological maternity, and Katie could instead have been a stepmother. Exact percentages are subjective judgments. Christian Campbell of 1571 remains distinct unless further evidence identifies her. No mother is selected for John-3193, and James elder’s possible William-1098 father at 38% and both sons’ existing father assessments are unchanged.
+
+Source: [Atkinson, Brown, Cross, Taylor and Franklin, A late medieval farmstead at Corsankell, Scottish Archaeological Journal 36–37 (2014–15), 197–215, Historical Evidence section by Morag Cross](https://www.euppublishing.com/doi/full/10.3366/saj.2014.0056), Historical Evidence. [Katherine’s complete account](/people/record-katherine-campbell-corsankell.html).
+
+### Next source test
+
+Inspect Ayrshire Archives TD77/135 folio 6r or NRS GD103/2/22, checking whether the wife and maternal wording is literal. Keep the 1571 Christian Campbell identity separate.

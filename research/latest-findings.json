@@ -84118,6 +84118,68 @@
           "explanation": "James Glasgow, husband of Jane Clough Duncan at Sunderland in 1825, is probably the James baptised at the Berwick-upon-Tweed Wesleyan Methodist chapel on 21 January 1803, whose father is named James Glasgow. The 1861 and 1871 census indexes give the Sunderland/Monkwearmouth adult a Berwick birthplace and birth about 1803; the 1881 index gives about 1802 and identifies his daughter as Elizabeth Duncan Burns. Her distinctive Duncan name matches Elizabeth Duncan Glasgow in the held 1827 James/Jane Clough Duncan baptism. In 1871 Elizabeth Burns is explicitly his daughter and Jane his wife. The repeated birthplace, coherent ages, wife and distinctive daughter provide the adult-to-child bridge absent from the earlier baptism-only account. Select the existing record-defined Berwick father account at 88% probable; no new person is needed."
         }
       ]
+    },
+    {
+      "id": "corsankell-katie-campbell-household-20261112",
+      "found_on": "2026-11-12",
+      "kind": "relationship",
+      "status": "qualified",
+      "detail_url": "/branches/research-corsankell-household/#chapter-katie-campbell-household",
+      "finding": "Katherine (Katie) Campbell is identified as James elder’s wife, 93%, and the probable mother of James younger, 86%, from a newly read historical study of the Corsankell teind accounts.",
+      "significance": "Resolves the earlier unlinked Campbell co-tenant and adds a named early mother. This is not a new father connection or an improvement to the proposed Glasgow-burgh ancestry.",
+      "qualification": "The publisher’s full historical section was read on 12 November 2026; the underlying TD77/135 folio 6r and NRS GD103/2/22 transcription were not inspected. The archival list is dated 1561–1563 in this study, whereas Sanderson’s printed appendix is labelled 1559–1560; overlapping teind accounts must not be counted as independent family witnesses. The study’s wording could summarize or infer biological maternity, and Katie could instead have been a stepmother. Exact percentages are subjective judgments. Christian Campbell of 1571 remains distinct unless further evidence identifies her. No mother is selected for John-3193, and James elder’s possible William-1098 father at 38% and both sons’ existing father assessments are unchanged.",
+      "people": [
+        {
+          "id": "record-katherine-campbell-corsankell",
+          "name": "Katherine (Katie) Campbell",
+          "url": "/people/record-katherine-campbell-corsankell.html",
+          "role": "Reported wife; probable mother"
+        },
+        {
+          "id": "Glasgow-1168",
+          "name": "James Glasgow elder",
+          "url": "/people/glasgow-1168.html",
+          "role": "Husband, 93%; own father unchanged"
+        },
+        {
+          "id": "Glasgow-3921",
+          "name": "James Glasgow younger",
+          "url": "/people/glasgow-3921.html",
+          "role": "Probable son of Katie, 86%; father unchanged"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Atkinson, Brown, Cross, Taylor and Franklin, A late medieval farmstead at Corsankell, Scottish Archaeological Journal 36–37 (2014–15), 197–215, Historical Evidence section by Morag Cross",
+          "url": "https://www.euppublishing.com/doi/full/10.3366/saj.2014.0056"
+        },
+        {
+          "title": "Sanderson, The People of Sixteenth Century Ayrshire, teind appendix p.331",
+          "url": "https://aanhs.org/wp-content/uploads/2018/05/people-of-ayrshire.pdf"
+        }
+      ],
+      "relationship_changes": [
+        {
+          "relationship": "spouse",
+          "subject": "Glasgow-1168",
+          "relative": "record-katherine-campbell-corsankell",
+          "before": "unknown",
+          "after": "certain",
+          "probability_percent": 93,
+          "previous_status_provenance": "Pre-review public dossier has no named spouse; earlier findings explicitly limited Katherine to co-tenancy.",
+          "explanation": "Morag Cross’s historical section identifies Katie Campbell as the wife of James Glasgow elder, sharing his Corsankell holding, from Ayrshire Archives TD77/135, folio 6r, in the teind material dated 1561–1563. The earlier published tenant list names Katherine Campbell beside the elder and younger James at this same holding. Katie is a familiar form of Katherine, and the unusual two-James household and exact holding strongly identify the previously unlinked co-tenant. Assess the spouse relationship at 93% strongly supported. The account does not identify her with Christian Campbell in the 1571 deed."
+        },
+        {
+          "relationship": "mother",
+          "subject": "Glasgow-3921",
+          "relative": "record-katherine-campbell-corsankell",
+          "before": "unknown",
+          "after": "probable",
+          "probability_percent": 86,
+          "previous_status_provenance": "Pre-review public dossier has no named mother; earlier findings explicitly limited Katherine to co-tenancy.",
+          "explanation": "The historical study describes James Glasgow younger as the son of James elder and Katie Campbell. This adds a specific reported mother to the existing Corsankell son, rather than inferring one from the Campbell surname alone. The father–son identity is independently established by the 1571 reversion. Select Katherine (Katie) Campbell as James younger’s probable mother at 86%. The historian’s unquoted kinship description may incorporate interpretation, so it is not presented as a newly read literal maternal clause in the manuscript."
+        }
+      ]
     }
   ]
 }

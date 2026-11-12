@@ -7885,11 +7885,28 @@
     "Glasgow-1168": {
       "queued_at": "2026-10-17",
       "status": "OPEN",
-      "draft_path": "research/Glasgow-1168/Glasgow-1168.md",
-      "preservation_review_path": "research/queue-review-2026-10-17/astra-ancestry-preservation.json",
-      "significance": 50,
-      "summary": "Reconcile the reviewed family/identity assessment, individual percentages and retained alternatives; preserve the complete sourced biography.",
-      "relationship_changes": []
+      "draft_path": "research/Glasgow-1168/katie-campbell-review-2026-11-12.wiki",
+      "preservation_review_path": "research/ancestry-connections/corsankell-katie-preservation-2026-11-12.json",
+      "significance": 86,
+      "summary": "Add Katherine/Katie Campbell as strongly supported wife, 93% from the newly read Corsankell history; retain all earlier father qualifications.",
+      "relationship_changes": [
+        {
+          "relationship": "spouse",
+          "relative_id": "record-katherine-campbell-corsankell",
+          "relative_name": "Katherine (Katie) Campbell",
+          "action": "add",
+          "status": "strongly_supported",
+          "probability_percent": 93,
+          "assertion_id": "clm-corsankell-katie-spouse-20261112",
+          "previous_status": "unknown",
+          "previous_status_provenance": "Pre-review dossier has no named spouse; earlier findings identify her only as co-tenant."
+        }
+      ],
+      "work_queue_summary": "Add Katherine/Katie Campbell as strongly supported wife, 93% from the newly read Corsankell history; retain all earlier father qualifications.",
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": false,
+      "biography_rechecked_at": "2026-11-12",
+      "pending": true
     },
     "Glasgow-1156": {
       "queued_at": "2026-10-21",
@@ -9773,12 +9790,12 @@
     },
     "Glasgow-3921": {
       "queued_at": "2026-10-20",
-      "significance": 78,
-      "summary": "Edward’s preferred father changes to George 26%; this James remains an uncertain 18% alternative.",
+      "significance": 86,
+      "summary": "Add Katherine/Katie Campbell as probable mother, 86% from the newly read Corsankell history; retain all earlier father qualifications.",
       "manual_update": true,
-      "draft_path": "research/Glasgow-3921/fisherrow-murieston-2026-10-20.wiki",
-      "preservation_review_path": "research/ancestry-connections/fisherrow-murieston-preservation-2026-10-20.json",
-      "reviewed_narrative_reduction": true,
+      "draft_path": "research/Glasgow-3921/katie-campbell-review-2026-11-12.wiki",
+      "preservation_review_path": "research/ancestry-connections/corsankell-katie-preservation-2026-11-12.json",
+      "reviewed_narrative_reduction": false,
       "preserve_captured_detail": false,
       "relationship_changes": [
         {
@@ -9787,13 +9804,25 @@
           "status": "uncertain",
           "relative_id": "Glasgow-3178",
           "assertion_id": "C-working-20261016-agnes-stevenston-james-younger"
+        },
+        {
+          "relationship": "mother",
+          "relative_id": "record-katherine-campbell-corsankell",
+          "relative_name": "Katherine (Katie) Campbell",
+          "action": "add",
+          "status": "probable",
+          "probability_percent": 86,
+          "assertion_id": "clm-corsankell-katie-mother-20261112",
+          "previous_status": "unknown",
+          "previous_status_provenance": "Pre-review dossier has no named mother; earlier findings identify her only as co-tenant."
         }
       ],
       "profile_id": "Glasgow-3921",
       "findings_path": "research/Glasgow-3921/findings.md",
-      "work_queue_summary": "Edward’s preferred father changes to George 26%; this James remains an uncertain 18% alternative.",
+      "work_queue_summary": "Add Katherine/Katie Campbell as probable mother, 86% from the newly read Corsankell history; retain all earlier father qualifications.",
       "status": "OPEN",
-      "pending": true
+      "pending": true,
+      "biography_rechecked_at": "2026-11-12"
     },
     "Glasgow-3923": {
       "profile_id": "Glasgow-3923",
@@ -413596,6 +413625,67 @@
           "before": "unknown",
           "after": "probable",
           "previous_status_provenance": "New documentary subject, parents not previously catalogued. First maternal hypothesis, not a confidence regrade."
+        }
+      ]
+    },
+    {
+      "catalogue_id": "record-katherine-campbell-corsankell",
+      "subject_id": "katherine-campbell-corsankell",
+      "name": "Katherine (Katie) Campbell",
+      "first_names": [
+        "Katherine"
+      ],
+      "last_names_at_birth": [
+        "Campbell"
+      ],
+      "last_names_current": [
+        "Campbell"
+      ],
+      "gender": "Female",
+      "birth": "before 1544",
+      "birth_note": "Conservative estimate only: adult co-tenant in 1559–1560, assuming at least fifteen. Exact birth unrecorded.",
+      "birth_location": "Stevenston, Ayrshire, Scotland",
+      "birth_location_note": "Uncertain family-context location from Corsankell tenancy; not a recorded birthplace.",
+      "death": "after 1561",
+      "death_location": "Stevenston, Ayrshire, Scotland",
+      "death_location_note": "Uncertain last-residence context, not a recorded death place.",
+      "occupations": [
+        "Joint tenant"
+      ],
+      "historical_basis": {
+        "latest_birth_year": 1544,
+        "source_url": "https://aanhs.org/wp-content/uploads/2018/05/people-of-ayrshire.pdf"
+      },
+      "source_subject_url": "https://www.euppublishing.com/doi/full/10.3366/saj.2014.0056",
+      "research_subject_url": "/people/record-katherine-campbell-corsankell.html",
+      "draft_path": "research/record-katherine-campbell-corsankell/profile-draft.wiki",
+      "draft_wikitext": "{{Estimated Date}}\n[[Category:Glasgow Name Study]]\n== Biography ==\nKatherine Campbell, also called Katie Campbell, was recorded at Corsankell in Stevenston parish, Ayrshire, in the sixteenth century. The printed Cunninghame teind list names Katherine Campbell with the elder and younger James Glasgow.<ref>[https://aanhs.org/wp-content/uploads/2018/05/people-of-ayrshire.pdf Margaret H. B. Sanderson, The People of Sixteenth Century Ayrshire (1987), appendix The Cunninghame Teind Lists of 1559–60, p.331]. Printed list already held; no new page inspection in this review.</ref>\n\nMorag Cross identifies Katie as the wife of [[Glasgow-1168|James Glasgow elder]], sharing his holding, and describes [[Glasgow-3921|James Glasgow younger]] as their son, citing Ayrshire Archives TD77/135, folio 6r.<ref>[https://www.euppublishing.com/doi/full/10.3366/saj.2014.0056 Atkinson, Brown, Cross, Taylor and Franklin, A late medieval farmstead at Corsankell, Scottish Archaeological Journal 36–37 (2014–15), 197–215, Historical Evidence section by Morag Cross], published online 21 August 2015. Full historical section inspected; underlying manuscript uninspected.</ref>\n\nHer birth and death dates are not recorded. A birth before about 1544 is a conservative estimate assuming she was at least fifteen when listed in 1559–60; she was alive in the accounts dated 1561–1563. Stevenston is family residence evidence, not a proved birthplace or place of death.\n\n== Research Notes ==\nThe wife identification is strongly supported at 93%. Her maternity of James younger is a probable 86% interpretation of the historian’s account, not a newly inspected manuscript parent clause. A stepmother remains possible. John Glasgow’s mother is not selected by association. The differently named Christian Campbell in the 1571 deed is not identified as Katherine.\n\nNo compatible Katherine, Katie or Catherine Campbell was found in the maintained public catalogue or the targeted WikiTree web searches. Six locally catalogued Campbell women have nineteenth-century births. Margaret Campbell (Campbell-73041) is a differently named wife of Christian Cunningham, with no documented Katie/James identity; her broad before-1623 birth alone is not an exclusion. This documentary account does not merge her or any other Campbell. The draft remains on source-verification hold pending the original teind wording; no live profile creation is proposed by this review.\n\n== Sources ==\n<references />",
+      "assessment": "Katherine Campbell, called Katie in the historical study, shared a Corsankell holding with James Glasgow elder. Cross identifies her as his wife and describes the younger James as their son. The spouse relationship is strongly supported at 93%; maternity of James younger is probable at 86%, pending the original account’s precise wording. The publisher’s full historical section was read on 12 November 2026; the underlying TD77/135 folio 6r and NRS GD103/2/22 transcription were not inspected. The archival list is dated 1561–1563 in this study, whereas Sanderson’s printed appendix is labelled 1559–1560; overlapping teind accounts must not be counted as independent family witnesses. The study’s wording could summarize or infer biological maternity, and Katie could instead have been a stepmother. Exact percentages are subjective judgments. Christian Campbell of 1571 remains distinct unless further evidence identifies her. No mother is selected for John-3193, and James elder’s possible William-1098 father at 38% and both sons’ existing father assessments are unchanged.",
+      "current_conclusion": "Katherine Campbell, called Katie in the historical study, shared a Corsankell holding with James Glasgow elder. Cross identifies her as his wife and describes the younger James as their son. The spouse relationship is strongly supported at 93%; maternity of James younger is probable at 86%, pending the original account’s precise wording.",
+      "current_questions": [
+        "Read TD77/135 fol.6r or GD103/2/22 to distinguish literal wife/parent clauses from historical interpretation."
+      ],
+      "creation_status": "hold_source_verification",
+      "reviewed_at": "2026-11-12",
+      "candidates": [],
+      "duplicate_audit": {
+        "scope": "Maintained public catalogue: Campbell birth surnames and Katherine/Katie/Catherine variants; targeted public WikiTree web searches with James Glasgow and Corsankell/Corsinkell.",
+        "conclusion": "No compatible named Katherine account found; one consolidated documentary draft, not a live creation. Six later Campbell women have nineteenth-century births. Differently named Margaret Campbell-73041 is not merged or excluded merely from her broad birth bound. Original kinship wording remains the source hold."
+      },
+      "records": [
+        {
+          "year": "1561–1563",
+          "filter_year": 1561,
+          "family_group": "Corsankell household",
+          "region": "Ayrshire, Scotland",
+          "record_location": "Corsankell, Stevenston, Ayrshire, Scotland",
+          "association": "Reported wife of James elder and probable mother of James younger",
+          "note": "The publisher’s full historical section was read on 12 November 2026; the underlying TD77/135 folio 6r and NRS GD103/2/22 transcription were not inspected. The archival list is dated 1561–1563 in this study, whereas Sanderson’s printed appendix is labelled 1559–1560; overlapping teind accounts must not be counted as independent family witnesses. The study’s wording could summarize or infer biological maternity, and Katie could instead have been a stepmother. Exact percentages are subjective judgments. Christian Campbell of 1571 remains distinct unless further evidence identifies her. No mother is selected for John-3193, and James elder’s possible William-1098 father at 38% and both sons’ existing father assessments are unchanged.",
+          "source_title": "Atkinson, Brown, Cross, Taylor and Franklin, A late medieval farmstead at Corsankell, Scottish Archaeological Journal 36–37 (2014–15), 197–215, Historical Evidence section by Morag Cross",
+          "source_url": "https://www.euppublishing.com/doi/full/10.3366/saj.2014.0056",
+          "source_type": "Published historical study",
+          "source_status": "Full historical section read; cited manuscripts unread",
+          "evidence": "Named wife and joint holder; reported son relationship"
         }
       ]
     }

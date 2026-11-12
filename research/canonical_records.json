@@ -595257,5 +595257,37 @@
         "role": "Named adult James Glasgow; Sunderland family"
       }
     }
+  },
+  {
+    "record_id": "corsankell-katie-campbell-teind-history-2015",
+    "association": "Corsankell household: Katie Campbell, wife of James elder, and reported son James younger",
+    "date": "1561–1563",
+    "year": 1561,
+    "place": "Corsankell, Stevenston, Ayrshire, Scotland",
+    "source_title": "Atkinson, Brown, Cross, Taylor and Franklin, A late medieval farmstead at Corsankell, Scottish Archaeological Journal 36–37 (2014–15), 197–215, Historical Evidence section by Morag Cross",
+    "source_url": "https://www.euppublishing.com/doi/full/10.3366/saj.2014.0056",
+    "source_type": "Published historical study reporting archival teind accounts",
+    "source_quality": "provider_derivative",
+    "record_category": "land",
+    "status": "Published historical section inspected; cited manuscripts uninspected",
+    "note": "Katherine Campbell, called Katie in the historical study, shared a Corsankell holding with James Glasgow elder. Cross identifies her as his wife and describes the younger James as their son. The spouse relationship is strongly supported at 93%; maternity of James younger is probable at 86%, pending the original account’s precise wording. The publisher’s full historical section was read on 12 November 2026; the underlying TD77/135 folio 6r and NRS GD103/2/22 transcription were not inspected. The archival list is dated 1561–1563 in this study, whereas Sanderson’s printed appendix is labelled 1559–1560; overlapping teind accounts must not be counted as independent family witnesses. The study’s wording could summarize or infer biological maternity, and Katie could instead have been a stepmother. Exact percentages are subjective judgments. Christian Campbell of 1571 remains distinct unless further evidence identifies her. No mother is selected for John-3193, and James elder’s possible William-1098 father at 38% and both sons’ existing father assessments are unchanged.",
+    "reviewed_on": "2026-11-12",
+    "provenance": "Read through the publisher’s ordinary full-text page in the existing Chrome profile; public Open Access article. No original manuscript reading claimed.",
+    "publish_to_record_index": true,
+    "profiles": {
+      "record-katherine-campbell-corsankell": {
+        "role": "Named Katie, wife and joint holder"
+      },
+      "Glasgow-1168": {
+        "role": "Named James elder, husband and joint holder"
+      },
+      "Glasgow-3921": {
+        "role": "Reported son of the couple"
+      }
+    },
+    "historical_basis": {
+      "latest_birth_year": 1544,
+      "source_url": "https://www.euppublishing.com/doi/full/10.3366/saj.2014.0056"
+    }
   }
 ]

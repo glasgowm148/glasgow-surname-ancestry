@@ -164991,6 +164991,142 @@
     }
   },
   {
+    "assertion_id": "clm-corsankell-katie-mother-20261112",
+    "people": [
+      "Glasgow-3921",
+      "record-katherine-campbell-corsankell"
+    ],
+    "claim": "The historical study describes James Glasgow younger as the son of James elder and Katie Campbell. This adds a specific reported mother to the existing Corsankell son, rather than inferring one from the Campbell surname alone. The father–son identity is independently established by the 1571 reversion. Select Katherine (Katie) Campbell as James younger’s probable mother at 86%. The historian’s unquoted kinship description may incorporate interpretation, so it is not presented as a newly read literal maternal clause in the manuscript.",
+    "relation_type": "biological",
+    "perspectives": {
+      "Glasgow-3921": {
+        "relationship": "mother"
+      },
+      "record-katherine-campbell-corsankell": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "corsankell-katie-campbell-teind-history-2015"
+    ],
+    "provenance": {
+      "first_assessment": true,
+      "newly_indexed_subject": true,
+      "prior_assessment": {
+        "relative_id": null,
+        "source_basis": "Saved pre-review public dossier has no spouse for James elder and no mother for James younger; earlier findings explicitly withheld the co-tenant’s kinship.",
+        "status": "unknown"
+      },
+      "review_kind": "new_early_household_relationship"
+    },
+    "status": "probable",
+    "assessment_date": "2026-11-12",
+    "basis": "The historical study describes James Glasgow younger as the son of James elder and Katie Campbell. This adds a specific reported mother to the existing Corsankell son, rather than inferring one from the Campbell surname alone. The father–son identity is independently established by the 1571 reversion. Select Katherine (Katie) Campbell as James younger’s probable mother at 86%. The historian’s unquoted kinship description may incorporate interpretation, so it is not presented as a newly read literal maternal clause in the manuscript.",
+    "assessment_history": [
+      {
+        "status": "probable",
+        "probability_percent": 86,
+        "assessment_date": "2026-11-12",
+        "source_basis": "The historical study describes James Glasgow younger as the son of James elder and Katie Campbell. This adds a specific reported mother to the existing Corsankell son, rather than inferring one from the Campbell surname alone. The father–son identity is independently established by the 1571 reversion. Select Katherine (Katie) Campbell as James younger’s probable mother at 86%. The historian’s unquoted kinship description may incorporate interpretation, so it is not presented as a newly read literal maternal clause in the manuscript."
+      }
+    ],
+    "reason": "The historical study describes James Glasgow younger as the son of James elder and Katie Campbell. This adds a specific reported mother to the existing Corsankell son, rather than inferring one from the Campbell surname alone. The father–son identity is independently established by the 1571 reversion. Select Katherine (Katie) Campbell as James younger’s probable mother at 86%. The historian’s unquoted kinship description may incorporate interpretation, so it is not presented as a newly read literal maternal clause in the manuscript.",
+    "limitations": "The publisher’s full historical section was read on 12 November 2026; the underlying TD77/135 folio 6r and NRS GD103/2/22 transcription were not inspected. The archival list is dated 1561–1563 in this study, whereas Sanderson’s printed appendix is labelled 1559–1560; overlapping teind accounts must not be counted as independent family witnesses. The study’s wording could summarize or infer biological maternity, and Katie could instead have been a stepmother. Exact percentages are subjective judgments. Christian Campbell of 1571 remains distinct unless further evidence identifies her. No mother is selected for John-3193, and James elder’s possible William-1098 father at 38% and both sons’ existing father assessments are unchanged.",
+    "probability": {
+      "value": 0.86,
+      "reviewed": "2026-11-12",
+      "basis": "The historical study describes James Glasgow younger as the son of James elder and Katie Campbell. This adds a specific reported mother to the existing Corsankell son, rather than inferring one from the Campbell surname alone. The father–son identity is independently established by the 1571 reversion. Select Katherine (Katie) Campbell as James younger’s probable mother at 86%. The historian’s unquoted kinship description may incorporate interpretation, so it is not presented as a newly read literal maternal clause in the manuscript.",
+      "source_ids": [
+        "corsankell-katie-campbell-teind-history-2015"
+      ],
+      "scope": "The publisher’s full historical section was read on 12 November 2026; the underlying TD77/135 folio 6r and NRS GD103/2/22 transcription were not inspected. The archival list is dated 1561–1563 in this study, whereas Sanderson’s printed appendix is labelled 1559–1560; overlapping teind accounts must not be counted as independent family witnesses. The study’s wording could summarize or infer biological maternity, and Katie could instead have been a stepmother. Exact percentages are subjective judgments. Christian Campbell of 1571 remains distinct unless further evidence identifies her. No mother is selected for John-3193, and James elder’s possible William-1098 father at 38% and both sons’ existing father assessments are unchanged."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/branches/research-corsankell-household/#chapter-katie-campbell-household",
+        "label": "Reported wife and probable mother; manuscript wording still open"
+      }
+    ],
+    "profile_names": {
+      "Glasgow-3921": "James Glasgow younger",
+      "record-katherine-campbell-corsankell": "Katherine (Katie) Campbell"
+    }
+  },
+  {
+    "assertion_id": "clm-corsankell-katie-spouse-20261112",
+    "people": [
+      "Glasgow-1168",
+      "record-katherine-campbell-corsankell"
+    ],
+    "claim": "Morag Cross’s historical section identifies Katie Campbell as the wife of James Glasgow elder, sharing his Corsankell holding, from Ayrshire Archives TD77/135, folio 6r, in the teind material dated 1561–1563. The earlier published tenant list names Katherine Campbell beside the elder and younger James at this same holding. Katie is a familiar form of Katherine, and the unusual two-James household and exact holding strongly identify the previously unlinked co-tenant. Assess the spouse relationship at 93% strongly supported. The account does not identify her with Christian Campbell in the 1571 deed.",
+    "relation_type": null,
+    "perspectives": {
+      "Glasgow-1168": {
+        "relationship": "spouse"
+      },
+      "record-katherine-campbell-corsankell": {
+        "relationship": "spouse"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "corsankell-katie-campbell-teind-history-2015"
+    ],
+    "provenance": {
+      "first_assessment": true,
+      "newly_indexed_subject": true,
+      "prior_assessment": {
+        "relative_id": null,
+        "source_basis": "Saved pre-review public dossier has no spouse for James elder and no mother for James younger; earlier findings explicitly withheld the co-tenant’s kinship.",
+        "status": "unknown"
+      },
+      "review_kind": "new_early_household_relationship"
+    },
+    "status": "strongly_supported",
+    "assessment_date": "2026-11-12",
+    "basis": "Morag Cross’s historical section identifies Katie Campbell as the wife of James Glasgow elder, sharing his Corsankell holding, from Ayrshire Archives TD77/135, folio 6r, in the teind material dated 1561–1563. The earlier published tenant list names Katherine Campbell beside the elder and younger James at this same holding. Katie is a familiar form of Katherine, and the unusual two-James household and exact holding strongly identify the previously unlinked co-tenant. Assess the spouse relationship at 93% strongly supported. The account does not identify her with Christian Campbell in the 1571 deed.",
+    "assessment_history": [
+      {
+        "status": "strongly_supported",
+        "probability_percent": 93,
+        "assessment_date": "2026-11-12",
+        "source_basis": "Morag Cross’s historical section identifies Katie Campbell as the wife of James Glasgow elder, sharing his Corsankell holding, from Ayrshire Archives TD77/135, folio 6r, in the teind material dated 1561–1563. The earlier published tenant list names Katherine Campbell beside the elder and younger James at this same holding. Katie is a familiar form of Katherine, and the unusual two-James household and exact holding strongly identify the previously unlinked co-tenant. Assess the spouse relationship at 93% strongly supported. The account does not identify her with Christian Campbell in the 1571 deed."
+      }
+    ],
+    "reason": "Morag Cross’s historical section identifies Katie Campbell as the wife of James Glasgow elder, sharing his Corsankell holding, from Ayrshire Archives TD77/135, folio 6r, in the teind material dated 1561–1563. The earlier published tenant list names Katherine Campbell beside the elder and younger James at this same holding. Katie is a familiar form of Katherine, and the unusual two-James household and exact holding strongly identify the previously unlinked co-tenant. Assess the spouse relationship at 93% strongly supported. The account does not identify her with Christian Campbell in the 1571 deed.",
+    "limitations": "The publisher’s full historical section was read on 12 November 2026; the underlying TD77/135 folio 6r and NRS GD103/2/22 transcription were not inspected. The archival list is dated 1561–1563 in this study, whereas Sanderson’s printed appendix is labelled 1559–1560; overlapping teind accounts must not be counted as independent family witnesses. The study’s wording could summarize or infer biological maternity, and Katie could instead have been a stepmother. Exact percentages are subjective judgments. Christian Campbell of 1571 remains distinct unless further evidence identifies her. No mother is selected for John-3193, and James elder’s possible William-1098 father at 38% and both sons’ existing father assessments are unchanged.",
+    "probability": {
+      "value": 0.93,
+      "reviewed": "2026-11-12",
+      "basis": "Morag Cross’s historical section identifies Katie Campbell as the wife of James Glasgow elder, sharing his Corsankell holding, from Ayrshire Archives TD77/135, folio 6r, in the teind material dated 1561–1563. The earlier published tenant list names Katherine Campbell beside the elder and younger James at this same holding. Katie is a familiar form of Katherine, and the unusual two-James household and exact holding strongly identify the previously unlinked co-tenant. Assess the spouse relationship at 93% strongly supported. The account does not identify her with Christian Campbell in the 1571 deed.",
+      "source_ids": [
+        "corsankell-katie-campbell-teind-history-2015"
+      ],
+      "scope": "The publisher’s full historical section was read on 12 November 2026; the underlying TD77/135 folio 6r and NRS GD103/2/22 transcription were not inspected. The archival list is dated 1561–1563 in this study, whereas Sanderson’s printed appendix is labelled 1559–1560; overlapping teind accounts must not be counted as independent family witnesses. The study’s wording could summarize or infer biological maternity, and Katie could instead have been a stepmother. Exact percentages are subjective judgments. Christian Campbell of 1571 remains distinct unless further evidence identifies her. No mother is selected for John-3193, and James elder’s possible William-1098 father at 38% and both sons’ existing father assessments are unchanged."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/branches/research-corsankell-household/#chapter-katie-campbell-household",
+        "label": "Reported wife and probable mother; manuscript wording still open"
+      }
+    ],
+    "profile_names": {
+      "Glasgow-1168": "James Glasgow elder",
+      "record-katherine-campbell-corsankell": "Katherine (Katie) Campbell"
+    }
+  },
+  {
     "assertion_id": "clm-crawford-george-father-20261031",
     "people": [
       "Glasgow-638",
