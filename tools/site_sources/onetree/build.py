@@ -510,10 +510,10 @@ def apply_reviewed_parent_replacements(people: list[dict], assessments: list[dic
 
 
 def approved_record_parent_nodes(nodes, cohort, site_root, assessments):
-    """Extend display scope only along assessed, public historical parent links.
+    """Extend display scope both ways along assessed public historical parent links.
 
     The surname coverage graph remains unchanged; a named mother or grandparent
-    need not acquire a Glasgow surname to appear in the selected family.
+    or child need not acquire a Glasgow surname to appear in the selected family.
     """
     index_path = site_root / 'data/people-index.json'
     if not index_path.is_file():
@@ -532,12 +532,18 @@ def approved_record_parent_nodes(nodes, cohort, site_root, assessments):
                     or assessment.get('lifecycle') not in (None, 'current')):
                 continue
             for child, view in assessment.get('perspectives', {}).items():
-                if child not in scope or view.get('relationship') not in {'father', 'mother'}:
+                if view.get('relationship') not in {'father', 'mother'}:
                     continue
                 others = [p for p in assessment.get('people', []) if p != child]
                 if len(others) != 1:
                     continue
-                target = others[0]
+                parent = others[0]
+                if child in scope:
+                    target = parent
+                elif parent in scope:
+                    target = child
+                else:
+                    continue
                 if target in scope or not re.fullmatch(r'record-[a-z0-9]+(?:-[a-z0-9]+)*', target):
                     continue
                 row = index.get(target, {})
@@ -563,7 +569,7 @@ def approved_record_parent_nodes(nodes, cohort, site_root, assessments):
                     continue
                 child_dossier = json.loads(child_path.read_text())
                 selected = [r for r in (child_dossier.get('relationships') or {}).get('parents', [])
-                            if r.get('id') == target and r.get('assertion_id') == assessment.get('assertion_id')
+                            if r.get('id') == parent and r.get('assertion_id') == assessment.get('assertion_id')
                             and r.get('relationship') == view['relationship'] and not r.get('withheld')
                             and r.get('publication_status') == 'approved'
                             and r.get('lifecycle') in (None, 'current')

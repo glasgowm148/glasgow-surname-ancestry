@@ -8,6 +8,36 @@ from tools.publish_resolved_dossiers import resolve
 
 
 class RecordParentTests(unittest.TestCase):
+    def test_reviewed_non_surname_child_appears_through_selected_mother(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / 'data').mkdir()
+            (root / 'people').mkdir()
+            index, assessments = [], []
+            for kind in ('son', 'private', 'recent', 'withdrawn'):
+                ident = 'record-' + kind
+                index.append(dict(id=ident, json_url=f'/people/{ident}.json',
+                                  html_url=f'/people/{ident}.html', birth_surnames=['Armstrong']))
+                aid = 'mother-' + kind
+                dossier = dict(id=ident, name=ident, pending_profile_creation=True,
+                    historical_basis=dict(latest_birth_year=2000 if kind == 'recent' else 1836,
+                                          source_url='https://example.org/diary'),
+                    private=kind == 'private', relationships={'parents': [dict(
+                        id='Mother-1', relationship='mother', assertion_id=aid,
+                        publication_status='approved',
+                        display='historical' if kind == 'withdrawn' else 'current')]})
+                (root / 'people' / f'{ident}.json').write_text(json.dumps(dossier))
+                assessments.append(dict(assertion_id=aid, people=[ident, 'Mother-1'],
+                    publication_status='approved', source_ids=['diary'], status='probable',
+                    probability={'value': .72}, perspectives={ident: {'relationship': 'mother'}}))
+            (root / 'data/people-index.json').write_text(json.dumps(index))
+            nodes, cohort = {}, {'Mother-1'}
+            added = approved_record_parent_nodes(nodes, cohort, root, assessments)
+            self.assertEqual({'record-son'}, added)
+            self.assertEqual({'Mother-1'}, cohort)
+            self.assertEqual(['Armstrong'], nodes['record-son']['birth_surnames'])
+            self.assertNotIn('father', nodes['record-son'])
+
     def test_only_selected_public_historical_parent_closure_is_admitted(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
