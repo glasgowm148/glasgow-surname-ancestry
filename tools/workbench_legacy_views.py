@@ -81,7 +81,7 @@ def research_fields(revision: dict[str, Any]) -> dict[str, Any]:
     alone does not imply a readiness decision.
     """
     extra = _extra(revision)
-    fields = {key: extra[key] for key in ("last_test", "next_test") if key in extra}
+    fields = {key: extra[key] for key in ("last_test", "next_test", "source_summary", "identity_scope") if key in extra}
     for key in ("working_selection", "attachment_status"):
         if revision.get(key) is not None:
             fields[key] = bool(revision[key]) if key == "working_selection" else revision[key]

@@ -237,5 +237,25 @@ class LegacyViewPersonTests(unittest.TestCase):
         self.assertEqual("child", mother_row["perspectives"]["Pierce-14470"]["relationship"])
 
 
+class CurrentExplanatoryOverrideTests(unittest.TestCase):
+    def test_current_explanatory_override_wins_and_absent_preserves_legacy(self):
+        legacy = {"source_summary": "superseded source description",
+                  "identity_scope": "old combined identity"}
+        base = {"status": "strongly_supported", "assessed_on": "2026-11-12",
+                "reasoning": "Corrected source basis", "limitations": None,
+                "basis_json": None, "estimate_percent": None,
+                "working_selection": None, "attachment_status": None}
+        view = Views.__new__(Views)
+        corrected = dict(base, extra_json=json.dumps({
+            "source_summary": "Named documentary daughter, original unread",
+            "identity_scope": "Named adult only; childhood identity unresolved"}))
+        result = {**legacy, **view.derived_assessment([corrected], legacy)}
+        self.assertEqual("Named documentary daughter, original unread", result["source_summary"])
+        self.assertEqual("Named adult only; childhood identity unresolved", result["identity_scope"])
+        absent = dict(base, extra_json=None)
+        result = {**legacy, **view.derived_assessment([absent], legacy)}
+        self.assertEqual(legacy["source_summary"], result["source_summary"])
+        self.assertEqual(legacy["identity_scope"], result["identity_scope"])
+
 if __name__ == "__main__":
     unittest.main()
