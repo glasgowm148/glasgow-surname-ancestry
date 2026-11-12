@@ -12165,12 +12165,14 @@
       "percent": 57,
       "assessment_status": "possible",
       "assertion_id": "C-coverage-20261022d-glasgow-1134-father",
-      "basis": "Samuel’s c 1749 birth fits James’s c 1720 generation, and the contributed family account consistently names James Glasgow and Ann Hartshorne. This supplies a specific candidate couple rather than a surname-only guess.",
+      "basis": "Samuel’s c 1749 birth fits James’s c 1720 generation, and the contributed family account consistently names James Glasgow and Ann Hartshorne. This supplies a specific candidate couple rather than a surname-only guess. The original 1784 will opening now confirms a son Samuel in the Cecil family; the transfer to this later adult account remains unresolved.",
       "source_ids": [
-        "held-e-4e61bec88933"
+        "held-e-4e61bec88933",
+        "msa-cm363-5-james-glasgow-1784-p5-opening"
       ],
       "reviewed": "2026-10-22",
-      "scope": "Possible placement from a collaborative family tree; no held contemporary parent clause has been identified."
+      "scope": "The will supplies a contemporary named-son clause for the Cecil family. Identification of that Samuel with the later Pennsylvania/Ohio Samuel Glasgow-1134 remains unproved, as does identification of the Cecil testator with the Glencorse child. Neither Ann’s Hartshorne surname nor a military identity is established by this opening. Father confidence stays Possible 57%; no new confidence finding or new connection is claimed.",
+      "working_selection": false
     },
     {
       "subject_id": "Glasgow-2868",
@@ -12179,12 +12181,14 @@
       "percent": 57,
       "assessment_status": "possible",
       "assertion_id": "C-coverage-20261022d-glasgow-1134-father",
-      "basis": "Samuel’s c 1749 birth fits James’s c 1720 generation, and the contributed family account consistently names James Glasgow and Ann Hartshorne. This supplies a specific candidate couple rather than a surname-only guess.",
+      "basis": "Samuel’s c 1749 birth fits James’s c 1720 generation, and the contributed family account consistently names James Glasgow and Ann Hartshorne. This supplies a specific candidate couple rather than a surname-only guess. The original 1784 will opening now confirms a son Samuel in the Cecil family; the transfer to this later adult account remains unresolved.",
       "source_ids": [
-        "held-e-4e61bec88933"
+        "held-e-4e61bec88933",
+        "msa-cm363-5-james-glasgow-1784-p5-opening"
       ],
       "reviewed": "2026-10-22",
-      "scope": "Possible placement from a collaborative family tree; no held contemporary parent clause has been identified."
+      "scope": "The will supplies a contemporary named-son clause for the Cecil family. Identification of that Samuel with the later Pennsylvania/Ohio Samuel Glasgow-1134 remains unproved, as does identification of the Cecil testator with the Glencorse child. Neither Ann’s Hartshorne surname nor a military identity is established by this opening. Father confidence stays Possible 57%; no new confidence finding or new connection is claimed.",
+      "working_selection": false
     },
     {
       "subject_id": "Glasgow-1145",
@@ -49954,6 +49958,66 @@
       "profile_names": {
         "Glasgow-1779": "Jane Glasgow Armstrong",
         "record-james-glasgow-armstrong-nephew": "Rev. James Glasgow Armstrong"
+      }
+    },
+    {
+      "subject_id": "record-father-william-glasgow-bengal-amelia",
+      "relative_id": "record-queue-newspapers-irish-1800-1850-george-senior-artillery",
+      "relationship": "father",
+      "percent": 95,
+      "assessment_status": "strongly_supported",
+      "assertion_id": "clm-bengal-william-general-george-father-20261112",
+      "basis": "General George Glasgow is the newly selected confident father of William Glasgow in the Bengal William-and-Amelia household, assessed at 95%. Hodson’s printed officer biography explicitly calls William the son of George Glasgow of Greenwich, lieutenant-general Royal Artillery. It records William’s marriage to Amelia Campbell at Barrackpore on 15 October 1824. The held baptism index places William and Amelia’s first known child William at Barrackpore on 6 September 1825, followed by the same parental names at other Bengal stations. This specific wife, station and chronology identifies the officer with the existing documentary father far more securely than name and Bengal alone. The general’s name, rank, corps, Greenwich residence and Quebec service identify the existing General George account. This is a new named father for an already catalogued family, not a first numerical rating of a previously selected father.",
+      "reviewed": "2026-11-12",
+      "source_ids": [
+        "hodson-bengal-william-glasgow-1928-p273",
+        "ancestry-9899-1271490"
+      ],
+      "scope": "The 95% is a subjective estimate of the whole father-profile identification, not a measured frequency. The printed 1928 biography was visually inspected; its underlying cadet, marriage and burial originals were not. Hodson states the officer’s parentage directly, while transferring it to the baptism-index household remains an identity inference. It names no mother for William. No Green mother, identity merge or new WikiTree profile is selected. Amelia Glasgow-482’s separate 78% identification and Edward George’s separate 55% father assessment are unchanged. The officer’s 1841 death distinguishes him from the separate 53rd Native Infantry William described as murdered in February 1855; that service file remains unread and is not attached to this father.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-father-william-glasgow-bengal-amelia.html#research-findings",
+          "label": "New confident father: Hodson’s named parent and Barrackpore marriage"
+        }
+      ],
+      "profile_names": {
+        "record-father-william-glasgow-bengal-amelia": "William Glasgow, Bengal William-and-Amelia household",
+        "record-queue-newspapers-irish-1800-1850-george-senior-artillery": "General George Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-queue-newspapers-irish-1800-1850-george-senior-artillery",
+      "relative_id": "record-father-william-glasgow-bengal-amelia",
+      "relationship": "child",
+      "percent": 95,
+      "assessment_status": "strongly_supported",
+      "assertion_id": "clm-bengal-william-general-george-father-20261112",
+      "basis": "General George Glasgow is the newly selected confident father of William Glasgow in the Bengal William-and-Amelia household, assessed at 95%. Hodson’s printed officer biography explicitly calls William the son of George Glasgow of Greenwich, lieutenant-general Royal Artillery. It records William’s marriage to Amelia Campbell at Barrackpore on 15 October 1824. The held baptism index places William and Amelia’s first known child William at Barrackpore on 6 September 1825, followed by the same parental names at other Bengal stations. This specific wife, station and chronology identifies the officer with the existing documentary father far more securely than name and Bengal alone. The general’s name, rank, corps, Greenwich residence and Quebec service identify the existing General George account. This is a new named father for an already catalogued family, not a first numerical rating of a previously selected father.",
+      "reviewed": "2026-11-12",
+      "source_ids": [
+        "hodson-bengal-william-glasgow-1928-p273",
+        "ancestry-9899-1271490"
+      ],
+      "scope": "The 95% is a subjective estimate of the whole father-profile identification, not a measured frequency. The printed 1928 biography was visually inspected; its underlying cadet, marriage and burial originals were not. Hodson states the officer’s parentage directly, while transferring it to the baptism-index household remains an identity inference. It names no mother for William. No Green mother, identity merge or new WikiTree profile is selected. Amelia Glasgow-482’s separate 78% identification and Edward George’s separate 55% father assessment are unchanged. The officer’s 1841 death distinguishes him from the separate 53rd Native Infantry William described as murdered in February 1855; that service file remains unread and is not attached to this father.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-father-william-glasgow-bengal-amelia.html#research-findings",
+          "label": "New confident father: Hodson’s named parent and Barrackpore marriage"
+        }
+      ],
+      "profile_names": {
+        "record-father-william-glasgow-bengal-amelia": "William Glasgow, Bengal William-and-Amelia household",
+        "record-queue-newspapers-irish-1800-1850-george-senior-artillery": "General George Glasgow"
       }
     },
     {
@@ -107319,114 +107383,6 @@
       }
     },
     {
-      "subject_id": "Porteous-912",
-      "relative_id": "Porteous-914",
-      "relationship": "mother",
-      "percent": 35,
-      "assessment_status": "possible",
-      "assertion_id": "clm-er2-porteous-912-mother-20261105",
-      "basis": "No saved 1600-1699 record (the Ancestry 60143 and 60144 transcripts, the christening indexes, inscriptions or testaments) names Porteous-914 as mother of Issobell (Porteous) Glasgow or couples her with Andro Porteous in a sibling entry. The attachment comes from the tree alone; it is kept as a possible hypothesis at 35% and assessed apart from the father link (strongly_supported).",
-      "reviewed": "2026-11-05",
-      "source_ids": [],
-      "scope": "Tree attachment with no record; no competing mother is recorded either, so the figure measures only how far the unsupported attachment can be trusted.",
-      "working_selection": false,
-      "attachment_status": "attached",
-      "allow_new_relationship": true,
-      "lifecycle": "current",
-      "display": "current",
-      "analysis_links": [
-        {
-          "href": "/people/porteous-912.html#research-findings",
-          "label": "1600-1649 parent link review"
-        }
-      ],
-      "profile_names": {
-        "Porteous-912": "Issobell (Porteous) Glasgow",
-        "Porteous-914": ""
-      }
-    },
-    {
-      "subject_id": "Porteous-914",
-      "relative_id": "Porteous-912",
-      "relationship": "child",
-      "percent": 35,
-      "assessment_status": "possible",
-      "assertion_id": "clm-er2-porteous-912-mother-20261105",
-      "basis": "No saved 1600-1699 record (the Ancestry 60143 and 60144 transcripts, the christening indexes, inscriptions or testaments) names Porteous-914 as mother of Issobell (Porteous) Glasgow or couples her with Andro Porteous in a sibling entry. The attachment comes from the tree alone; it is kept as a possible hypothesis at 35% and assessed apart from the father link (strongly_supported).",
-      "reviewed": "2026-11-05",
-      "source_ids": [],
-      "scope": "Tree attachment with no record; no competing mother is recorded either, so the figure measures only how far the unsupported attachment can be trusted.",
-      "working_selection": false,
-      "attachment_status": "attached",
-      "allow_new_relationship": true,
-      "lifecycle": "current",
-      "display": "current",
-      "analysis_links": [
-        {
-          "href": "/people/porteous-912.html#research-findings",
-          "label": "1600-1649 parent link review"
-        }
-      ],
-      "profile_names": {
-        "Porteous-912": "Issobell (Porteous) Glasgow",
-        "Porteous-914": ""
-      }
-    },
-    {
-      "subject_id": "Porteous-915",
-      "relative_id": "Porteous-914",
-      "relationship": "mother",
-      "percent": 35,
-      "assessment_status": "possible",
-      "assertion_id": "clm-er2-porteous-915-mother-20261105",
-      "basis": "No saved 1600-1699 record (the Ancestry 60143 and 60144 transcripts, the christening indexes, inscriptions or testaments) names Porteous-914 as mother of Alexander Porteous or couples her with Andro Porteous in a sibling entry. The attachment comes from the tree alone; it is kept as a possible hypothesis at 35% and assessed apart from the father link (strongly_supported).",
-      "reviewed": "2026-11-05",
-      "source_ids": [],
-      "scope": "Tree attachment with no record; no competing mother is recorded either, so the figure measures only how far the unsupported attachment can be trusted.",
-      "working_selection": false,
-      "attachment_status": "attached",
-      "allow_new_relationship": true,
-      "lifecycle": "current",
-      "display": "current",
-      "analysis_links": [
-        {
-          "href": "/people/porteous-915.html#research-findings",
-          "label": "1600-1649 parent link review"
-        }
-      ],
-      "profile_names": {
-        "Porteous-914": "",
-        "Porteous-915": "Alexander Porteous"
-      }
-    },
-    {
-      "subject_id": "Porteous-914",
-      "relative_id": "Porteous-915",
-      "relationship": "child",
-      "percent": 35,
-      "assessment_status": "possible",
-      "assertion_id": "clm-er2-porteous-915-mother-20261105",
-      "basis": "No saved 1600-1699 record (the Ancestry 60143 and 60144 transcripts, the christening indexes, inscriptions or testaments) names Porteous-914 as mother of Alexander Porteous or couples her with Andro Porteous in a sibling entry. The attachment comes from the tree alone; it is kept as a possible hypothesis at 35% and assessed apart from the father link (strongly_supported).",
-      "reviewed": "2026-11-05",
-      "source_ids": [],
-      "scope": "Tree attachment with no record; no competing mother is recorded either, so the figure measures only how far the unsupported attachment can be trusted.",
-      "working_selection": false,
-      "attachment_status": "attached",
-      "allow_new_relationship": true,
-      "lifecycle": "current",
-      "display": "current",
-      "analysis_links": [
-        {
-          "href": "/people/porteous-915.html#research-findings",
-          "label": "1600-1649 parent link review"
-        }
-      ],
-      "profile_names": {
-        "Porteous-914": "",
-        "Porteous-915": "Alexander Porteous"
-      }
-    },
-    {
       "subject_id": "Prime-957",
       "relative_id": "Prime-958",
       "relationship": "father",
@@ -145547,6 +145503,7 @@
         "held-e-7ca3729cc4ff"
       ],
       "scope": "45% is a subjective comparative judgement for the whole parent-profile proposition, including the unproved Patrick-to-Peter identity. Baptism in 1742 does not establish a 1742 birth; delayed baptism or a two-year memorial-age error are possibilities, not established facts. The Scottish names reference is contextual, not a personal identity record. Original parish pages and stone were not newly inspected. The 1739 adult Peter in the court book is not identified with the later man, and its editorial Patrick index entry is not independent name or kinship proof. John-1444 remains an unselected 15% father alternative; an unrepresented Peter, another father or collateral relationship remain viable. No person merge, birth change or proved sibling relation is made.",
+      "identity_scope": "Peter-2878 may be Patrick-1225; no merge and no assertion that they are distinct brothers.",
       "working_selection": true,
       "attachment_status": "attached",
       "allow_new_relationship": true,
@@ -145590,6 +145547,7 @@
         "held-e-7ca3729cc4ff"
       ],
       "scope": "45% is a subjective comparative judgement for the whole parent-profile proposition, including the unproved Patrick-to-Peter identity. Baptism in 1742 does not establish a 1742 birth; delayed baptism or a two-year memorial-age error are possibilities, not established facts. The Scottish names reference is contextual, not a personal identity record. Original parish pages and stone were not newly inspected. The 1739 adult Peter in the court book is not identified with the later man, and its editorial Patrick index entry is not independent name or kinship proof. John-1444 remains an unselected 15% father alternative; an unrepresented Peter, another father or collateral relationship remain viable. No person merge, birth change or proved sibling relation is made.",
+      "identity_scope": "Peter-2878 may be Patrick-1225; no merge and no assertion that they are distinct brothers.",
       "working_selection": true,
       "attachment_status": "attached",
       "allow_new_relationship": true,
@@ -145633,6 +145591,7 @@
         "held-e-7ca3729cc4ff"
       ],
       "scope": "45% is a subjective comparative judgement for the whole parent-profile proposition, including the unproved Patrick-to-Peter identity. Baptism in 1742 does not establish a 1742 birth; delayed baptism or a two-year memorial-age error are possibilities, not established facts. The Scottish names reference is contextual, not a personal identity record. Original parish pages and stone were not newly inspected. The 1739 adult Peter in the court book is not identified with the later man, and its editorial Patrick index entry is not independent name or kinship proof. John-1444 remains an unselected 15% father alternative; an unrepresented Peter, another father or collateral relationship remain viable. No person merge, birth change or proved sibling relation is made.",
+      "identity_scope": "Peter-2878 may be Patrick-1225; no merge and no assertion that they are distinct brothers.",
       "working_selection": true,
       "attachment_status": "attached",
       "allow_new_relationship": true,
@@ -145670,6 +145629,7 @@
         "held-e-7ca3729cc4ff"
       ],
       "scope": "45% is a subjective comparative judgement for the whole parent-profile proposition, including the unproved Patrick-to-Peter identity. Baptism in 1742 does not establish a 1742 birth; delayed baptism or a two-year memorial-age error are possibilities, not established facts. The Scottish names reference is contextual, not a personal identity record. Original parish pages and stone were not newly inspected. The 1739 adult Peter in the court book is not identified with the later man, and its editorial Patrick index entry is not independent name or kinship proof. John-1444 remains an unselected 15% father alternative; an unrepresented Peter, another father or collateral relationship remain viable. No person merge, birth change or proved sibling relation is made.",
+      "identity_scope": "Peter-2878 may be Patrick-1225; no merge and no assertion that they are distinct brothers.",
       "working_selection": true,
       "attachment_status": "attached",
       "allow_new_relationship": true,
@@ -145811,66 +145771,6 @@
         "william590-1888-biographical-parentage"
       ],
       "scope": "Subjective 96% for this complete existing profile pair. The original 1888 published biography names both parents and matches William’s distinctive name, Geneva College graduation in 1880, Allegheny Seminary and Baltimore pastorate. This is the author’s own lifetime biographical statement, not a contemporary birth register. The attributed author also wrote the held family typescript, so the two accounts are not independent witnesses. Page 526 reports birth on 1 July 1856 at Northwood, Logan County; the retained profile says 5 July 1856 at Youngstown, Mahoning County. That vital conflict remains open and no vital field is changed. The retained 1850 William Glasgow census citation cannot describe this 1856-born subject and is not corroboration. Existing family attachments and live WikiTree certainty flags are unchanged; an unmarked prior flag is not a 0% baseline."
-    },
-    {
-      "subject_id": "record-father-william-glasgow-bengal-amelia",
-      "relative_id": "record-queue-newspapers-irish-1800-1850-george-senior-artillery",
-      "relationship": "father",
-      "percent": 95,
-      "assessment_status": "strongly_supported",
-      "assertion_id": "clm-bengal-william-general-george-father-20261112",
-      "basis": "General George Glasgow is the newly selected confident father of William Glasgow in the Bengal William-and-Amelia household, assessed at 95%. Hodson’s printed officer biography explicitly calls William the son of George Glasgow of Greenwich, lieutenant-general Royal Artillery. It records William’s marriage to Amelia Campbell at Barrackpore on 15 October 1824. The held baptism index places William and Amelia’s first known child William at Barrackpore on 6 September 1825, followed by the same parental names at other Bengal stations. This specific wife, station and chronology identifies the officer with the existing documentary father far more securely than name and Bengal alone. The general’s name, rank, corps, Greenwich residence and Quebec service identify the existing General George account. This is a new named father for an already catalogued family, not a first numerical rating of a previously selected father.",
-      "reviewed": "2026-11-12",
-      "source_ids": [
-        "hodson-bengal-william-glasgow-1928-p273",
-        "ancestry-9899-1271490"
-      ],
-      "scope": "The 95% is a subjective estimate of the whole father-profile identification, not a measured frequency. The printed 1928 biography was visually inspected; its underlying cadet, marriage and burial originals were not. Hodson states the officer’s parentage directly, while transferring it to the baptism-index household remains an identity inference. It names no mother for William. No Green mother, identity merge or new WikiTree profile is selected. Amelia Glasgow-482’s separate 78% identification and Edward George’s separate 55% father assessment are unchanged. The officer’s 1841 death distinguishes him from the separate 53rd Native Infantry William described as murdered in February 1855; that service file remains unread and is not attached to this father.",
-      "working_selection": true,
-      "attachment_status": "attached",
-      "allow_new_relationship": true,
-      "lifecycle": "current",
-      "display": "current",
-      "analysis_links": [
-        {
-          "href": "/people/record-father-william-glasgow-bengal-amelia.html#research-findings",
-          "label": "New confident father: Hodson’s named parent and Barrackpore marriage"
-        }
-      ],
-      "profile_names": {
-        "record-father-william-glasgow-bengal-amelia": "William Glasgow, Bengal William-and-Amelia household",
-        "record-queue-newspapers-irish-1800-1850-george-senior-artillery": "General George Glasgow"
-      }
-    },
-    {
-      "subject_id": "record-queue-newspapers-irish-1800-1850-george-senior-artillery",
-      "relative_id": "record-father-william-glasgow-bengal-amelia",
-      "relationship": "child",
-      "percent": 95,
-      "assessment_status": "strongly_supported",
-      "assertion_id": "clm-bengal-william-general-george-father-20261112",
-      "basis": "General George Glasgow is the newly selected confident father of William Glasgow in the Bengal William-and-Amelia household, assessed at 95%. Hodson’s printed officer biography explicitly calls William the son of George Glasgow of Greenwich, lieutenant-general Royal Artillery. It records William’s marriage to Amelia Campbell at Barrackpore on 15 October 1824. The held baptism index places William and Amelia’s first known child William at Barrackpore on 6 September 1825, followed by the same parental names at other Bengal stations. This specific wife, station and chronology identifies the officer with the existing documentary father far more securely than name and Bengal alone. The general’s name, rank, corps, Greenwich residence and Quebec service identify the existing General George account. This is a new named father for an already catalogued family, not a first numerical rating of a previously selected father.",
-      "reviewed": "2026-11-12",
-      "source_ids": [
-        "hodson-bengal-william-glasgow-1928-p273",
-        "ancestry-9899-1271490"
-      ],
-      "scope": "The 95% is a subjective estimate of the whole father-profile identification, not a measured frequency. The printed 1928 biography was visually inspected; its underlying cadet, marriage and burial originals were not. Hodson states the officer’s parentage directly, while transferring it to the baptism-index household remains an identity inference. It names no mother for William. No Green mother, identity merge or new WikiTree profile is selected. Amelia Glasgow-482’s separate 78% identification and Edward George’s separate 55% father assessment are unchanged. The officer’s 1841 death distinguishes him from the separate 53rd Native Infantry William described as murdered in February 1855; that service file remains unread and is not attached to this father.",
-      "working_selection": true,
-      "attachment_status": "attached",
-      "allow_new_relationship": true,
-      "lifecycle": "current",
-      "display": "current",
-      "analysis_links": [
-        {
-          "href": "/people/record-father-william-glasgow-bengal-amelia.html#research-findings",
-          "label": "New confident father: Hodson’s named parent and Barrackpore marriage"
-        }
-      ],
-      "profile_names": {
-        "record-father-william-glasgow-bengal-amelia": "William Glasgow, Bengal William-and-Amelia household",
-        "record-queue-newspapers-irish-1800-1850-george-senior-artillery": "General George Glasgow"
-      }
     }
   ]
 }

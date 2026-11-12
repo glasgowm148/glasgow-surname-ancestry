@@ -84544,6 +84544,79 @@
       ]
     },
     {
+      "id": "porteous-margaret-indexed-maternity-20261112",
+      "found_on": "2026-11-12",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Fresh review of the two cited christening indexes explicitly names Margaret as mother of Alexander Porteous in 1608 and Issobell Porteous in 1617. Their existing local maternity links are now selected and strongly supported by those indexes; the former 35% unselected assessments are retained in history.",
+      "significance": "Replaces the earlier absence-of-naming-record rationale with explicit indexed maternity. The current numerical estimate is withdrawn rather than replaced with an invented percentage.",
+      "qualification": "The records are derivative indexes from the same FamilySearch collection; they are separate household events, not independent corroboration of each child’s parentage. Original images were unavailable and were not inspected. Margaret’s maiden surname, ancestry and exact birth are unknown. Alexander’s explicit 14 July 1608 christening gives birth before 1609, not an exact birthday; his inherited circa1612 date is superseded. No later adult identity or marriage is proved.",
+      "people": [
+        {
+          "id": "Porteous-914",
+          "name": "Margaret, indexed mother",
+          "url": "/people/porteous-914.html",
+          "role": "Named mother; birth surname unknown"
+        },
+        {
+          "id": "Porteous-913",
+          "name": "Andro or Andrew Porteous",
+          "url": "/people/porteous-913.html",
+          "role": "Indexed father; existing qualitative father assessments unchanged"
+        },
+        {
+          "id": "Porteous-912",
+          "name": "Issobell Porteous",
+          "url": "/people/porteous-912.html",
+          "role": "Christened 12 June 1617"
+        },
+        {
+          "id": "Porteous-915",
+          "name": "Alexander Porteous",
+          "url": "/people/porteous-915.html",
+          "role": "Christened 14 July 1608"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Scotland, Births and Baptisms, 1564–1950: Issobell Porteous,1617",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:VQC7-2LB"
+        },
+        {
+          "title": "Scotland, Births and Baptisms, 1564–1950: Margaret Porteous in entry for Alexander Porteous,1608",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:VQ4N-KQ2"
+        }
+      ],
+      "source_ids": [
+        "baptism-porteous-912-maternal-index-vqc7-2lb",
+        "baptism-porteous-915-maternal-index-vq4n-kq2"
+      ],
+      "detail_url": "/people/porteous-914.html#research-findings",
+      "relationship_changes": [],
+      "assessment_changes": [
+        {
+          "child": "Porteous-912",
+          "prior_revision": 1,
+          "prior_status": "possible",
+          "prior_percent": 35,
+          "prior_working_selection": false,
+          "current_status": "strongly_supported",
+          "current_percent": null,
+          "current_working_selection": true
+        },
+        {
+          "child": "Porteous-915",
+          "prior_revision": 1,
+          "prior_status": "possible",
+          "prior_percent": 35,
+          "prior_working_selection": false,
+          "current_status": "strongly_supported",
+          "current_percent": null,
+          "current_working_selection": true
+        }
+      ]
+    },
+    {
       "id": "edward-george-will-father-probable-20261112",
       "found_on": "2026-11-12",
       "kind": "relationship",

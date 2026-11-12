@@ -182,3 +182,12 @@ Scope: Complete profile placement86%; the marriage-to-baptism couple is strong, 
 Next useful test: Compare the 1676 and 1704 originals for family or residence identifiers.
 
 This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
+
+
+## Partial original Cecil will reading — saved 12 November 2026
+
+The opening of James Glasgow senior’s will, Cecil County, Maryland, dated 6 January 1784, names his wife Ann, his son Samuel, and a granddaughter Ann described as Samuel’s daughter. Printed register page 5 was visually inspected in MSA CM363-5, EE 5, viewer image 6. The continuation and probate have not been read. This is a partial factual abstract, not a completed will transcription.
+
+The will supplies a contemporary named-son clause for the Cecil family. Identification of that Samuel with the later Pennsylvania/Ohio Samuel Glasgow-1134 remains unproved, as does identification of the Cecil testator with the Glencorse child. Neither Ann’s Hartshorne surname nor a military identity is established by this opening. Father confidence stays Possible 57%; no new confidence finding or new connection is claimed.
+
+[MSA Cecil County will images](https://guide.msa.maryland.gov/pages/series.aspx?ID=CM363). Resume with the continuation of the will and its probate when research resumes; do not treat the original opening as unread.

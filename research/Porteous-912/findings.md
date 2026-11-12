@@ -2,14 +2,18 @@
 
 ## Current conclusion
 
-The father relationship with [Andro Porteous](https://www.wikitree.com/wiki/Porteous-913) is assessed as **confident**. FamilySearch baptism index VQC7-2LB is cited for Issobell; this is the supplied primary-type event support for the attached father.
+Reviewed 12 November 2026: the saved FamilySearch christening index explicitly names Andro Porteous and Margaret Porteous as the parents of Issobell Porteous, christened on 12 June 1617 at Saint Cuthberts, Edinburgh. The existing mother link is selected and strongly supported by this index, replacing the earlier 35% unselected hypothesis whose rationale was absence of a naming record. No new numerical estimate is assigned; the exact prior assessment remains in history. The existing confident father assessment is unchanged.
 
-## Source findings
+The date is a christening, not an established birthday. The displayed birth token is incomplete and supplies no usable birth date. Margaret’s maiden surname and ancestry are unknown. No later adult identity is proved.
 
-## Father relationship assessment — 28 September 2026
+## Source findings — indexed maternity, 12 November 2026
 
-This is a review of existing evidence, not a newly discovered record. Attached father: [Andro Porteous](https://www.wikitree.com/wiki/Porteous-913). Assessment: **confident**.
+[FamilySearch VQC7-2LB](https://www.familysearch.org/ark:/61903/1:1:VQC7-2LB), “Scotland, Births and Baptisms, 1564–1950,” Issobell Porteous, 1617: christening 12 June 1617, Saint Cuthberts, Edinburgh, Midlothian, Scotland; father Andro Porteous; mother Margaret Porteous. The original image was unavailable and was not inspected. The attached tree household is identity context, not additional source evidence.
 
-Reason: FamilySearch baptism index VQC7-2LB is cited for Issobell; this is the supplied primary-type event support for the attached father.
+## Earlier assessment retained
 
-Source summary: FamilySearch baptism index VQC7-2LB is cited for Issobell; this is the supplied primary-type event support for the attached father. Saved on WikiTree and verified in the live edit form on 28 September 2026; only the father certainty and its explanation were updated.
+The 28 September 2026 father review cited this same index and assessed the father as confident. The 5 November mother assessment was possible, 35%, and unselected because no naming entry had been reviewed. Its absence-of-evidence premise is superseded by the explicit index fields read on 12 November; no earlier grade is invented or erased.
+
+## Outstanding questions
+
+Inspect the original baptism and seek identifying details connecting the child to any later adult. Resolve Margaret’s birth surname independently; the index alone does not establish it.

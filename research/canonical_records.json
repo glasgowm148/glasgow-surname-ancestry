@@ -595564,6 +595564,44 @@
     "provenance": "Printed p.273 visually checked against the source scan on 12 November 2026 after locating the entry in provider OCR. The OCR misread 13 June 1833 as 15 June; the scan supports 13. No original military, parish or probate manuscript was inspected."
   },
   {
+    "record_id": "baptism-porteous-912-maternal-index-vqc7-2lb",
+    "association": "Porteous-912 christening: named mother Margaret Porteous and father Andro Porteous",
+    "source_title": "FamilySearch, Scotland, Births and Baptisms, 1564–1950: Issobell Porteous,1617",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:VQC7-2LB",
+    "date": "12 June 1617",
+    "year": 1617,
+    "place": "Saint Cuthberts, Edinburgh, Midlothian, Scotland",
+    "source_type": "Derivative christening index",
+    "status": "Saved live index transcription reviewed; Image Unavailable, original not inspected",
+    "note": "Index expressly names Margaret Porteous as mother and Andro Porteous as father. This is a christening date, not an independently established birth date. Displayed Birth Date token is incomplete (6 or7); do not construct a birthday. Margaret’s maiden surname is not established by this index.",
+    "profile_ids": [
+      "Porteous-912",
+      "Porteous-914",
+      "Porteous-913"
+    ],
+    "role": "Named mother in child christening entry",
+    "publication_status": "approved"
+  },
+  {
+    "record_id": "baptism-porteous-915-maternal-index-vq4n-kq2",
+    "association": "Porteous-915 christening: named mother Margaret Porteous and father Andrew Porteous",
+    "source_title": "FamilySearch, Scotland, Births and Baptisms, 1564–1950: Margaret Porteous in entry for Alexander Porteous,1608",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:VQ4N-KQ2",
+    "date": "14 July 1608",
+    "year": 1608,
+    "place": "Edinburgh Parish, Edinburgh, Midlothian, Scotland",
+    "source_type": "Derivative christening index",
+    "status": "Saved live index transcription reviewed; Image Unavailable, original not inspected",
+    "note": "Index expressly names Margaret Porteous as mother and Andrew Porteous as father. This is a christening date, not an independently established birth date. Displayed Birth Date token is incomplete (6 or7); do not construct a birthday. Margaret’s maiden surname is not established by this index.",
+    "profile_ids": [
+      "Porteous-915",
+      "Porteous-914",
+      "Porteous-913"
+    ],
+    "role": "Named mother in child christening entry",
+    "publication_status": "approved"
+  },
+  {
     "record_id": "tna-prob-11-1637-234-george-glasgow-will",
     "provider": "The National Archives",
     "collection": "Prerogative Court of Canterbury will registers",
@@ -595604,5 +595642,40 @@
     "reviewed_on": "2026-11-12",
     "publish_to_record_index": true,
     "provenance": "Free authenticated TNA download, inspected locally for private research. PDF SHA256 09cddb59941639d20a2e8daea08937b1a3127a1def2aa4a8df01c2221308381b. Public account contains a factual abstract and catalogue citation, not the licensed scan or a full transcription."
+  },
+  {
+    "record_id": "msa-cm363-5-james-glasgow-1784-p5-opening",
+    "provider": "Maryland State Archives",
+    "collection": "Cecil County Register of Wills, Wills",
+    "person": "James Glasgow senior",
+    "event_role": "Testator; named son Samuel",
+    "association": "Partial original will opening names wife Ann, son Samuel and Samuel’s daughter Ann; later adult identities remain qualified",
+    "date": "1784-01-06",
+    "year": 1784,
+    "place": "Cecil County, Maryland, United States",
+    "country": "United States",
+    "reference": "EE 5, printed p.5; MSA CM363-5 viewer image 6; paper counterpart C646-4",
+    "source_url": "https://guide.msa.maryland.gov/pages/series.aspx?ID=CM363",
+    "source_title": "James Glasgow Sr., will dated 6 January 1784, Cecil County EE 5 p.5: opening only",
+    "source_type": "Original registered will opening",
+    "source_quality": "original",
+    "source_status": "Printed p.5 visually inspected; continuation and probate unread",
+    "record_type": "Will",
+    "record_category": "Probate",
+    "status": "Partial reading; identities qualified",
+    "note": "The opening of James Glasgow senior’s will, Cecil County, Maryland, dated 6 January 1784, names his wife Ann, his son Samuel, and a granddaughter Ann described as Samuel’s daughter. Printed register page 5 was visually inspected in MSA CM363-5, EE 5, viewer image 6. The continuation and probate have not been read. This is a partial factual abstract, not a completed will transcription. The will supplies a contemporary named-son clause for the Cecil family. Identification of that Samuel with the later Pennsylvania/Ohio Samuel Glasgow-1134 remains unproved, as does identification of the Cecil testator with the Glencorse child. Neither Ann’s Hartshorne surname nor a military identity is established by this opening. Father confidence stays Possible 57%; no new confidence finding or new connection is claimed.",
+    "profiles": {
+      "Glasgow-2868": {
+        "role": "Cecil testator; Scottish childhood identity not established"
+      },
+      "Glasgow-1134": {
+        "role": "Possible identification with named son Samuel; retained 57%",
+        "assessment": "possible",
+        "probability": 0.57
+      }
+    },
+    "publish_to_record_index": true,
+    "reviewed_on": "2026-11-12",
+    "provenance": "Saved before owner paused research. Integration only: no further source pages inspected or percentage changed. Original PDF retained privately in tmp/cecil-probate-20261112/james-ee5-p4-5.pdf; public factual abstract only."
   }
 ]

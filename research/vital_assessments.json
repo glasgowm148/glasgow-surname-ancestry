@@ -3115,6 +3115,44 @@
           "source_url": "https://archive.org/details/dli.csl.3669/page/n278/mode/1up"
         }
       }
+    },
+    {
+      "schema_version": 3,
+      "id": "porteous-915-christening-1608-birth-bound-20261112",
+      "subject": "Porteous-915",
+      "status": "approved",
+      "reviewed": "2026-11-12",
+      "basis": "FamilySearch Scotland, Births and Baptisms, 1564–1950, VQ4N-KQ2, Alexander Porteous christening, 14 July 1608, Edinburgh Parish; Andrew Porteous and Margaret Porteous named. Index reviewed; original image unavailable.",
+      "summary": "Christened 14 July 1608; birth before 1609 is a conservative bound, not a birthday. The inherited circa1612 birth is not supported by the profile’s own cited record.",
+      "source_ids": [
+        "baptism-porteous-915-maternal-index-vq4n-kq2"
+      ],
+      "vitals": {
+        "birth": {
+          "date": "before 1609",
+          "place": null,
+          "status": "uncertain",
+          "note": "Christened on 14 July 1608 in the indexed Edinburgh Parish entry. This gives a conservative birth bound before 1609; the record does not provide a usable complete birth date. The inherited circa1612 birth conflicts with the cited event and is retained only as prior profile history. No later adult identity is inferred.",
+          "source_url": "https://www.familysearch.org/ark:/61903/1:1:VQ4N-KQ2",
+          "source_level": "Derivative christening index; original not inspected",
+          "qualifier": "Christened 14 July 1608; birth before 1609 is an upper bound, not a birthday."
+        },
+        "christening": {
+          "date": "1608-07-14",
+          "place": "Edinburgh Parish, Edinburgh, Midlothian, Scotland",
+          "status": "supported",
+          "note": "Explicit indexed christening date; original image unavailable.",
+          "source_url": "https://www.familysearch.org/ark:/61903/1:1:VQ4N-KQ2"
+        }
+      },
+      "vital_qualifications": {
+        "birth": "Birth before 1609; explicit christening 14 July 1608. Exact birthday unknown."
+      },
+      "provenance": {
+        "prior_profile_birth": "circa1612, inherited",
+        "review_kind": "cited_event_date_scope_correction",
+        "original_inspected": false
+      }
     }
   ]
 }

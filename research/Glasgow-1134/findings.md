@@ -2,7 +2,7 @@
 
 ## Current conclusion
 
-Current father assessment (22 October 2026): **57% (possible)** for [Glasgow-2868](https://www.wikitree.com/wiki/Glasgow-2868). Possible placement from a collaborative family tree; no held contemporary parent clause has been identified. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Current father assessment (22 October 2026): **57% (possible)** for [Glasgow-2868](https://www.wikitree.com/wiki/Glasgow-2868). Possible identification of the later adult with the Cecil son Samuel; the partial original will now names that son, but does not resolve his later identity. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 `Glasgow-2869` was merged into this profile on 26 August 2026. Both profiles
 represented the same Samuel Glasgow: they gave the same 1749 birth, the same
@@ -113,10 +113,19 @@ This may concern [Glasgow-1134](https://www.wikitree.com/wiki/Glasgow-1134). Est
 
 Samuel’s c 1749 birth fits James’s c 1720 generation, and the contributed family account consistently names James Glasgow and Ann Hartshorne. This supplies a specific candidate couple rather than a surname-only guess.
 
-Scope: Possible placement from a collaborative family tree; no held contemporary parent clause has been identified.
+Scope: Possible identification of the later adult with the Cecil son Samuel; the partial original will now names that son, but does not resolve his later identity.
 
 Next useful test: Check James/Ann probate or a register naming Samuel.
 
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [WikiTree profile export for Glasgow-1134](https://www.wikitree.com/wiki/Glasgow-1134)
+
+
+## Partial original Cecil will reading — saved 12 November 2026
+
+The opening of James Glasgow senior’s will, Cecil County, Maryland, dated 6 January 1784, names his wife Ann, his son Samuel, and a granddaughter Ann described as Samuel’s daughter. Printed register page 5 was visually inspected in MSA CM363-5, EE 5, viewer image 6. The continuation and probate have not been read. This is a partial factual abstract, not a completed will transcription.
+
+The will supplies a contemporary named-son clause for the Cecil family. Identification of that Samuel with the later Pennsylvania/Ohio Samuel Glasgow-1134 remains unproved, as does identification of the Cecil testator with the Glencorse child. Neither Ann’s Hartshorne surname nor a military identity is established by this opening. Father confidence stays Possible 57%; no new confidence finding or new connection is claimed.
+
+[MSA Cecil County will images](https://guide.msa.maryland.gov/pages/series.aspx?ID=CM363). Resume with the continuation of the will and its probate when research resumes; do not treat the original opening as unread.

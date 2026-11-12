@@ -112,12 +112,14 @@
     },
     "Glasgow-1134": {
       "current_sha256": "87a38ecd7bae8a59c952469e9690f0c1b7a9f44a4dcc8cc2511a3abc935e0082",
-      "proposed_sha256": "e4d645fb98cfb38d0cc874d175141fb6443d480e9bbcb5f6e5bccac7d741a494",
+      "proposed_sha256": "dc9c53ca70e70b58ec09751f88c4e8d21cb979731a4e3802f966eca526497818",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-1134/father-confidence-2026-10-22d.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
-      "restored_source_passage_count": 0
+      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label. 12 November 2026: complete previous draft retained byte-for-byte after removing only the newly added partial Cecil-will section; all earlier source identities retained.",
+      "restored_source_passage_count": 0,
+      "previous_proposed_sha256": "e4d645fb98cfb38d0cc874d175141fb6443d480e9bbcb5f6e5bccac7d741a494",
+      "reviewed": "2026-11-12"
     },
     "Glasgow-1145": {
       "current_sha256": "3b5134aad44992320dcf4315e59754546ea1b56fec9726effddc9bd1aac210d6",
