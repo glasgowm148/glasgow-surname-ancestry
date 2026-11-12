@@ -99541,7 +99541,7 @@
       }
     },
     {
-      "subject_id": "record-ancestry-glasgow-a35693a1bff6",
+      "subject_id": "record-ancestry-glasgow-19b522352b30",
       "relative_id": "Glasgow-1028",
       "relationship": "father",
       "percent": 12,
@@ -99574,7 +99574,7 @@
     },
     {
       "subject_id": "Glasgow-1028",
-      "relative_id": "record-ancestry-glasgow-a35693a1bff6",
+      "relative_id": "record-ancestry-glasgow-19b522352b30",
       "relationship": "child",
       "percent": 12,
       "assessment_status": "uncertain",
@@ -101867,7 +101867,7 @@
       }
     },
     {
-      "subject_id": "record-ancestry-glasgow-ce3e0b881807",
+      "subject_id": "record-ancestry-glasgow-24ef9f16ee44",
       "relative_id": "Glasgow-1572",
       "relationship": "father",
       "percent": 12,
@@ -101898,7 +101898,7 @@
     },
     {
       "subject_id": "Glasgow-1572",
-      "relative_id": "record-ancestry-glasgow-ce3e0b881807",
+      "relative_id": "record-ancestry-glasgow-24ef9f16ee44",
       "relationship": "child",
       "percent": 12,
       "assessment_status": "uncertain",
@@ -113585,10 +113585,11 @@
       "percent": 80,
       "assessment_status": "probable",
       "assertion_id": "clm-fa1-record-ancestry-glasgow-27207f08be60-father-20261105",
-      "basis": "Allexander Glasgow is named as father of Allexander Glasgow, baptised 3 Sep 1637 at Inveresk with Musselburgh, with mother Jannet Clerk (Ancestry index entry https://www.ancestry.co.uk/search/collections/60143/records/10004875). The catalogue's Alexander Glasgow-1148, husband of Jannet Clerk and father of Robert, John and Alexander at Inveresk and Fisherrow, has father James Glasgow-991 at 84% (probable, reviewed 17 Oct 2026; the printed 1624-25 sasine index calls Alexander son of James, tailor in Fisherrow). The documentary person matches Alexander-1148 (name, parish, wife Jannet Clerk) so the link is carried at 80%, a little below 84% because the two are not merged.",
+      "basis": "Allexander Glasgow is named as father of Allexander Glasgow, baptised 3 Sep 1637 at Inveresk with Musselburgh, with mother Jannet Clerk (Ancestry index entry https://www.ancestry.co.uk/search/collections/60143/records/10004875). The catalogue's Alexander Glasgow-1148, husband of Jannet Clerk and father of Robert, John and Alexander at Inveresk and Fisherrow, has father James Glasgow-991 at 84% (probable, reviewed 17 Oct 2026; the printed 1624-25 sasine index calls Alexander son of James, tailor in Fisherrow). The documentary person matches Alexander-1148 (name, parish, wife Jannet Clerk) so the link is carried at 80%, a little below 84% because the two are not merged.\n\nAllexander Glasgow is named as father of Allexander Glasgow, born 2 Sep 1637 at Inveresk with Musselburgh, with mother Jannet Clerk (Ancestry index entry https://www.ancestry.co.uk/search/collections/60143/records/8291158). The catalogue's Alexander Glasgow-1148, husband of Jannet Clerk and father of Robert, John and Alexander at Inveresk and Fisherrow, has father James Glasgow-991 at 84% (probable, reviewed 17 Oct 2026; the printed 1624-25 sasine index calls Alexander son of James, tailor in Fisherrow). The documentary person matches Alexander-1148 (name, parish, wife Jannet Clerk) so the link is carried at 80%, a little below 84% because the two are not merged.",
       "reviewed": "2026-11-05",
       "source_ids": [
-        "ancestry-60143-10004875"
+        "ancestry-60143-10004875",
+        "ancestry-60143-8291158"
       ],
       "scope": "Index transcript only. Alexander-1148's descent from James-991 depends on the sasine index and a Mid Calder/Inveresk identity of James that the catalogue itself calls probable; the identification of this documentary person with Alexander-1148 is probable, not proved.",
       "working_selection": true,
@@ -113605,7 +113606,136 @@
       "profile_names": {
         "Glasgow-991": "James Glasgow",
         "record-ancestry-glasgow-27207f08be60": "Allexander Glasgow"
-      }
+      },
+      "merged_estimate_provenance": [
+        {
+          "original": {
+            "subject_id": "record-ancestry-glasgow-27207f08be60",
+            "relative_id": "Glasgow-991",
+            "relationship": "father",
+            "percent": 80,
+            "assessment_status": "probable",
+            "assertion_id": "clm-fa1-record-ancestry-glasgow-27207f08be60-father-20261105",
+            "basis": "Allexander Glasgow is named as father of Allexander Glasgow, baptised 3 Sep 1637 at Inveresk with Musselburgh, with mother Jannet Clerk (Ancestry index entry https://www.ancestry.co.uk/search/collections/60143/records/10004875). The catalogue's Alexander Glasgow-1148, husband of Jannet Clerk and father of Robert, John and Alexander at Inveresk and Fisherrow, has father James Glasgow-991 at 84% (probable, reviewed 17 Oct 2026; the printed 1624-25 sasine index calls Alexander son of James, tailor in Fisherrow). The documentary person matches Alexander-1148 (name, parish, wife Jannet Clerk) so the link is carried at 80%, a little below 84% because the two are not merged.",
+            "reviewed": "2026-11-05",
+            "source_ids": [
+              "ancestry-60143-10004875"
+            ],
+            "scope": "Index transcript only. Alexander-1148's descent from James-991 depends on the sasine index and a Mid Calder/Inveresk identity of James that the catalogue itself calls probable; the identification of this documentary person with Alexander-1148 is probable, not proved.",
+            "working_selection": true,
+            "attachment_status": "attached",
+            "allow_new_relationship": true,
+            "lifecycle": "current",
+            "display": "current",
+            "analysis_links": [
+              {
+                "href": "/people/record-ancestry-glasgow-27207f08be60.html#research-findings",
+                "label": "Father-link review (FA1, 5 Nov 2026)"
+              }
+            ],
+            "profile_names": {
+              "Glasgow-991": "James Glasgow",
+              "record-ancestry-glasgow-27207f08be60": "Allexander Glasgow"
+            }
+          },
+          "current": {
+            "subject_id": "record-ancestry-glasgow-27207f08be60",
+            "relative_id": "Glasgow-991",
+            "relationship": "father",
+            "percent": 80,
+            "assessment_status": "probable",
+            "assertion_id": "clm-fa1-record-ancestry-glasgow-27207f08be60-father-20261105",
+            "basis": "Allexander Glasgow is named as father of Allexander Glasgow, baptised 3 Sep 1637 at Inveresk with Musselburgh, with mother Jannet Clerk (Ancestry index entry https://www.ancestry.co.uk/search/collections/60143/records/10004875). The catalogue's Alexander Glasgow-1148, husband of Jannet Clerk and father of Robert, John and Alexander at Inveresk and Fisherrow, has father James Glasgow-991 at 84% (probable, reviewed 17 Oct 2026; the printed 1624-25 sasine index calls Alexander son of James, tailor in Fisherrow). The documentary person matches Alexander-1148 (name, parish, wife Jannet Clerk) so the link is carried at 80%, a little below 84% because the two are not merged.",
+            "reviewed": "2026-11-05",
+            "source_ids": [
+              "ancestry-60143-10004875"
+            ],
+            "scope": "Index transcript only. Alexander-1148's descent from James-991 depends on the sasine index and a Mid Calder/Inveresk identity of James that the catalogue itself calls probable; the identification of this documentary person with Alexander-1148 is probable, not proved.",
+            "working_selection": true,
+            "attachment_status": "attached",
+            "allow_new_relationship": true,
+            "lifecycle": "current",
+            "display": "current",
+            "analysis_links": [
+              {
+                "href": "/people/record-ancestry-glasgow-27207f08be60.html#research-findings",
+                "label": "Father-link review (FA1, 5 Nov 2026)"
+              }
+            ],
+            "profile_names": {
+              "Glasgow-991": "James Glasgow",
+              "record-ancestry-glasgow-27207f08be60": "Allexander Glasgow"
+            }
+          }
+        },
+        {
+          "original": {
+            "subject_id": "record-ancestry-glasgow-5e0f5a798080",
+            "relative_id": "Glasgow-991",
+            "relationship": "father",
+            "percent": 80,
+            "assessment_status": "probable",
+            "assertion_id": "clm-fa1-record-ancestry-glasgow-5e0f5a798080-father-20261105",
+            "basis": "Allexander Glasgow is named as father of Allexander Glasgow, born 2 Sep 1637 at Inveresk with Musselburgh, with mother Jannet Clerk (Ancestry index entry https://www.ancestry.co.uk/search/collections/60143/records/8291158). The catalogue's Alexander Glasgow-1148, husband of Jannet Clerk and father of Robert, John and Alexander at Inveresk and Fisherrow, has father James Glasgow-991 at 84% (probable, reviewed 17 Oct 2026; the printed 1624-25 sasine index calls Alexander son of James, tailor in Fisherrow). The documentary person matches Alexander-1148 (name, parish, wife Jannet Clerk) so the link is carried at 80%, a little below 84% because the two are not merged.",
+            "reviewed": "2026-11-05",
+            "source_ids": [
+              "ancestry-60143-8291158"
+            ],
+            "scope": "Index transcript only. Alexander-1148's descent from James-991 depends on the sasine index and a Mid Calder/Inveresk identity of James that the catalogue itself calls probable; the identification of this documentary person with Alexander-1148 is probable, not proved.",
+            "working_selection": true,
+            "attachment_status": "attached",
+            "allow_new_relationship": true,
+            "lifecycle": "current",
+            "display": "current",
+            "analysis_links": [
+              {
+                "href": "/people/record-ancestry-glasgow-5e0f5a798080.html#research-findings",
+                "label": "Father-link review (FA1, 5 Nov 2026)"
+              }
+            ],
+            "profile_names": {
+              "Glasgow-991": "James Glasgow",
+              "record-ancestry-glasgow-5e0f5a798080": "Allexander Glasgow"
+            }
+          },
+          "current": {
+            "subject_id": "record-ancestry-glasgow-27207f08be60",
+            "relative_id": "Glasgow-991",
+            "relationship": "father",
+            "percent": 80,
+            "assessment_status": "probable",
+            "assertion_id": "clm-fa1-record-ancestry-glasgow-5e0f5a798080-father-20261105",
+            "basis": "Allexander Glasgow is named as father of Allexander Glasgow, born 2 Sep 1637 at Inveresk with Musselburgh, with mother Jannet Clerk (Ancestry index entry https://www.ancestry.co.uk/search/collections/60143/records/8291158). The catalogue's Alexander Glasgow-1148, husband of Jannet Clerk and father of Robert, John and Alexander at Inveresk and Fisherrow, has father James Glasgow-991 at 84% (probable, reviewed 17 Oct 2026; the printed 1624-25 sasine index calls Alexander son of James, tailor in Fisherrow). The documentary person matches Alexander-1148 (name, parish, wife Jannet Clerk) so the link is carried at 80%, a little below 84% because the two are not merged.",
+            "reviewed": "2026-11-05",
+            "source_ids": [
+              "ancestry-60143-8291158"
+            ],
+            "scope": "Index transcript only. Alexander-1148's descent from James-991 depends on the sasine index and a Mid Calder/Inveresk identity of James that the catalogue itself calls probable; the identification of this documentary person with Alexander-1148 is probable, not proved.",
+            "working_selection": true,
+            "attachment_status": "attached",
+            "allow_new_relationship": true,
+            "lifecycle": "current",
+            "display": "current",
+            "analysis_links": [
+              {
+                "href": "/people/record-ancestry-glasgow-5e0f5a798080.html#research-findings",
+                "label": "Father-link review (FA1, 5 Nov 2026)"
+              }
+            ],
+            "profile_names": {
+              "Glasgow-991": "James Glasgow",
+              "record-ancestry-glasgow-5e0f5a798080": "Allexander Glasgow"
+            }
+          }
+        }
+      ],
+      "native_identity_merges": {
+        "record-ancestry-glasgow-5e0f5a798080": "record-ancestry-glasgow-27207f08be60"
+      },
+      "assertion_ids": [
+        "clm-fa1-record-ancestry-glasgow-27207f08be60-father-20261105",
+        "clm-fa1-record-ancestry-glasgow-5e0f5a798080-father-20261105"
+      ]
     },
     {
       "subject_id": "Glasgow-991",
@@ -113614,10 +113744,11 @@
       "percent": 80,
       "assessment_status": "probable",
       "assertion_id": "clm-fa1-record-ancestry-glasgow-27207f08be60-father-20261105",
-      "basis": "Allexander Glasgow is named as father of Allexander Glasgow, baptised 3 Sep 1637 at Inveresk with Musselburgh, with mother Jannet Clerk (Ancestry index entry https://www.ancestry.co.uk/search/collections/60143/records/10004875). The catalogue's Alexander Glasgow-1148, husband of Jannet Clerk and father of Robert, John and Alexander at Inveresk and Fisherrow, has father James Glasgow-991 at 84% (probable, reviewed 17 Oct 2026; the printed 1624-25 sasine index calls Alexander son of James, tailor in Fisherrow). The documentary person matches Alexander-1148 (name, parish, wife Jannet Clerk) so the link is carried at 80%, a little below 84% because the two are not merged.",
+      "basis": "Allexander Glasgow is named as father of Allexander Glasgow, baptised 3 Sep 1637 at Inveresk with Musselburgh, with mother Jannet Clerk (Ancestry index entry https://www.ancestry.co.uk/search/collections/60143/records/10004875). The catalogue's Alexander Glasgow-1148, husband of Jannet Clerk and father of Robert, John and Alexander at Inveresk and Fisherrow, has father James Glasgow-991 at 84% (probable, reviewed 17 Oct 2026; the printed 1624-25 sasine index calls Alexander son of James, tailor in Fisherrow). The documentary person matches Alexander-1148 (name, parish, wife Jannet Clerk) so the link is carried at 80%, a little below 84% because the two are not merged.\n\nAllexander Glasgow is named as father of Allexander Glasgow, born 2 Sep 1637 at Inveresk with Musselburgh, with mother Jannet Clerk (Ancestry index entry https://www.ancestry.co.uk/search/collections/60143/records/8291158). The catalogue's Alexander Glasgow-1148, husband of Jannet Clerk and father of Robert, John and Alexander at Inveresk and Fisherrow, has father James Glasgow-991 at 84% (probable, reviewed 17 Oct 2026; the printed 1624-25 sasine index calls Alexander son of James, tailor in Fisherrow). The documentary person matches Alexander-1148 (name, parish, wife Jannet Clerk) so the link is carried at 80%, a little below 84% because the two are not merged.",
       "reviewed": "2026-11-05",
       "source_ids": [
-        "ancestry-60143-10004875"
+        "ancestry-60143-10004875",
+        "ancestry-60143-8291158"
       ],
       "scope": "Index transcript only. Alexander-1148's descent from James-991 depends on the sasine index and a Mid Calder/Inveresk identity of James that the catalogue itself calls probable; the identification of this documentary person with Alexander-1148 is probable, not proved.",
       "working_selection": true,
@@ -113634,7 +113765,136 @@
       "profile_names": {
         "Glasgow-991": "James Glasgow",
         "record-ancestry-glasgow-27207f08be60": "Allexander Glasgow"
-      }
+      },
+      "merged_estimate_provenance": [
+        {
+          "original": {
+            "subject_id": "Glasgow-991",
+            "relative_id": "record-ancestry-glasgow-27207f08be60",
+            "relationship": "child",
+            "percent": 80,
+            "assessment_status": "probable",
+            "assertion_id": "clm-fa1-record-ancestry-glasgow-27207f08be60-father-20261105",
+            "basis": "Allexander Glasgow is named as father of Allexander Glasgow, baptised 3 Sep 1637 at Inveresk with Musselburgh, with mother Jannet Clerk (Ancestry index entry https://www.ancestry.co.uk/search/collections/60143/records/10004875). The catalogue's Alexander Glasgow-1148, husband of Jannet Clerk and father of Robert, John and Alexander at Inveresk and Fisherrow, has father James Glasgow-991 at 84% (probable, reviewed 17 Oct 2026; the printed 1624-25 sasine index calls Alexander son of James, tailor in Fisherrow). The documentary person matches Alexander-1148 (name, parish, wife Jannet Clerk) so the link is carried at 80%, a little below 84% because the two are not merged.",
+            "reviewed": "2026-11-05",
+            "source_ids": [
+              "ancestry-60143-10004875"
+            ],
+            "scope": "Index transcript only. Alexander-1148's descent from James-991 depends on the sasine index and a Mid Calder/Inveresk identity of James that the catalogue itself calls probable; the identification of this documentary person with Alexander-1148 is probable, not proved.",
+            "working_selection": true,
+            "attachment_status": "attached",
+            "allow_new_relationship": true,
+            "lifecycle": "current",
+            "display": "current",
+            "analysis_links": [
+              {
+                "href": "/people/record-ancestry-glasgow-27207f08be60.html#research-findings",
+                "label": "Father-link review (FA1, 5 Nov 2026)"
+              }
+            ],
+            "profile_names": {
+              "Glasgow-991": "James Glasgow",
+              "record-ancestry-glasgow-27207f08be60": "Allexander Glasgow"
+            }
+          },
+          "current": {
+            "subject_id": "Glasgow-991",
+            "relative_id": "record-ancestry-glasgow-27207f08be60",
+            "relationship": "child",
+            "percent": 80,
+            "assessment_status": "probable",
+            "assertion_id": "clm-fa1-record-ancestry-glasgow-27207f08be60-father-20261105",
+            "basis": "Allexander Glasgow is named as father of Allexander Glasgow, baptised 3 Sep 1637 at Inveresk with Musselburgh, with mother Jannet Clerk (Ancestry index entry https://www.ancestry.co.uk/search/collections/60143/records/10004875). The catalogue's Alexander Glasgow-1148, husband of Jannet Clerk and father of Robert, John and Alexander at Inveresk and Fisherrow, has father James Glasgow-991 at 84% (probable, reviewed 17 Oct 2026; the printed 1624-25 sasine index calls Alexander son of James, tailor in Fisherrow). The documentary person matches Alexander-1148 (name, parish, wife Jannet Clerk) so the link is carried at 80%, a little below 84% because the two are not merged.",
+            "reviewed": "2026-11-05",
+            "source_ids": [
+              "ancestry-60143-10004875"
+            ],
+            "scope": "Index transcript only. Alexander-1148's descent from James-991 depends on the sasine index and a Mid Calder/Inveresk identity of James that the catalogue itself calls probable; the identification of this documentary person with Alexander-1148 is probable, not proved.",
+            "working_selection": true,
+            "attachment_status": "attached",
+            "allow_new_relationship": true,
+            "lifecycle": "current",
+            "display": "current",
+            "analysis_links": [
+              {
+                "href": "/people/record-ancestry-glasgow-27207f08be60.html#research-findings",
+                "label": "Father-link review (FA1, 5 Nov 2026)"
+              }
+            ],
+            "profile_names": {
+              "Glasgow-991": "James Glasgow",
+              "record-ancestry-glasgow-27207f08be60": "Allexander Glasgow"
+            }
+          }
+        },
+        {
+          "original": {
+            "subject_id": "Glasgow-991",
+            "relative_id": "record-ancestry-glasgow-5e0f5a798080",
+            "relationship": "child",
+            "percent": 80,
+            "assessment_status": "probable",
+            "assertion_id": "clm-fa1-record-ancestry-glasgow-5e0f5a798080-father-20261105",
+            "basis": "Allexander Glasgow is named as father of Allexander Glasgow, born 2 Sep 1637 at Inveresk with Musselburgh, with mother Jannet Clerk (Ancestry index entry https://www.ancestry.co.uk/search/collections/60143/records/8291158). The catalogue's Alexander Glasgow-1148, husband of Jannet Clerk and father of Robert, John and Alexander at Inveresk and Fisherrow, has father James Glasgow-991 at 84% (probable, reviewed 17 Oct 2026; the printed 1624-25 sasine index calls Alexander son of James, tailor in Fisherrow). The documentary person matches Alexander-1148 (name, parish, wife Jannet Clerk) so the link is carried at 80%, a little below 84% because the two are not merged.",
+            "reviewed": "2026-11-05",
+            "source_ids": [
+              "ancestry-60143-8291158"
+            ],
+            "scope": "Index transcript only. Alexander-1148's descent from James-991 depends on the sasine index and a Mid Calder/Inveresk identity of James that the catalogue itself calls probable; the identification of this documentary person with Alexander-1148 is probable, not proved.",
+            "working_selection": true,
+            "attachment_status": "attached",
+            "allow_new_relationship": true,
+            "lifecycle": "current",
+            "display": "current",
+            "analysis_links": [
+              {
+                "href": "/people/record-ancestry-glasgow-5e0f5a798080.html#research-findings",
+                "label": "Father-link review (FA1, 5 Nov 2026)"
+              }
+            ],
+            "profile_names": {
+              "Glasgow-991": "James Glasgow",
+              "record-ancestry-glasgow-5e0f5a798080": "Allexander Glasgow"
+            }
+          },
+          "current": {
+            "subject_id": "Glasgow-991",
+            "relative_id": "record-ancestry-glasgow-27207f08be60",
+            "relationship": "child",
+            "percent": 80,
+            "assessment_status": "probable",
+            "assertion_id": "clm-fa1-record-ancestry-glasgow-5e0f5a798080-father-20261105",
+            "basis": "Allexander Glasgow is named as father of Allexander Glasgow, born 2 Sep 1637 at Inveresk with Musselburgh, with mother Jannet Clerk (Ancestry index entry https://www.ancestry.co.uk/search/collections/60143/records/8291158). The catalogue's Alexander Glasgow-1148, husband of Jannet Clerk and father of Robert, John and Alexander at Inveresk and Fisherrow, has father James Glasgow-991 at 84% (probable, reviewed 17 Oct 2026; the printed 1624-25 sasine index calls Alexander son of James, tailor in Fisherrow). The documentary person matches Alexander-1148 (name, parish, wife Jannet Clerk) so the link is carried at 80%, a little below 84% because the two are not merged.",
+            "reviewed": "2026-11-05",
+            "source_ids": [
+              "ancestry-60143-8291158"
+            ],
+            "scope": "Index transcript only. Alexander-1148's descent from James-991 depends on the sasine index and a Mid Calder/Inveresk identity of James that the catalogue itself calls probable; the identification of this documentary person with Alexander-1148 is probable, not proved.",
+            "working_selection": true,
+            "attachment_status": "attached",
+            "allow_new_relationship": true,
+            "lifecycle": "current",
+            "display": "current",
+            "analysis_links": [
+              {
+                "href": "/people/record-ancestry-glasgow-5e0f5a798080.html#research-findings",
+                "label": "Father-link review (FA1, 5 Nov 2026)"
+              }
+            ],
+            "profile_names": {
+              "Glasgow-991": "James Glasgow",
+              "record-ancestry-glasgow-5e0f5a798080": "Allexander Glasgow"
+            }
+          }
+        }
+      ],
+      "native_identity_merges": {
+        "record-ancestry-glasgow-5e0f5a798080": "record-ancestry-glasgow-27207f08be60"
+      },
+      "assertion_ids": [
+        "clm-fa1-record-ancestry-glasgow-27207f08be60-father-20261105",
+        "clm-fa1-record-ancestry-glasgow-5e0f5a798080-father-20261105"
+      ]
     },
     {
       "subject_id": "record-ancestry-glasgow-2e5fe8d33cbb",
@@ -113933,10 +114193,11 @@
       "percent": 18,
       "assessment_status": "uncertain",
       "assertion_id": "clm-fa1-record-ancestry-glasgow-3e92b3018961-father-20261105",
-      "basis": "John Glasgow is named as father of John Glasgow, christened 26 Jun 1608 at Mid Calder (Ancestry index entry https://www.ancestry.co.uk/search/collections/60143/records/6519788). The entry gives only his name and the parish. The catalogue assigns the Mid Calder father of John (Glasgow-1086, 1608) and of William (Glasgow-1087, 1609) to John Glasgow-3296 (90% and 46%), and gives John-3296's own father as Stephen Glasgow-1029 at 22% (uncertain, reviewed 2026-10-17). Taking this documentary person to be John-3296 (the same forename and parish, 1608 and 1609, so about 80% likely) the figure is carried over at 18%. It is a two-step inference and is held in the 'uncertain' band.",
+      "basis": "John Glasgow is named as father of John Glasgow, christened 26 Jun 1608 at Mid Calder (Ancestry index entry https://www.ancestry.co.uk/search/collections/60143/records/6519788). The entry gives only his name and the parish. The catalogue assigns the Mid Calder father of John (Glasgow-1086, 1608) and of William (Glasgow-1087, 1609) to John Glasgow-3296 (90% and 46%), and gives John-3296's own father as Stephen Glasgow-1029 at 22% (uncertain, reviewed 2026-10-17). Taking this documentary person to be John-3296 (the same forename and parish, 1608 and 1609, so about 80% likely) the figure is carried over at 18%. It is a two-step inference and is held in the 'uncertain' band.\n\nJohn Glasgow is named as father of John Glasgow, christened 26 Jun 1608 at Mid Calder (Ancestry index entry https://www.ancestry.co.uk/search/collections/60143/records/17896526, a second indexing of the same baptism). The entry gives only his name and the parish. The catalogue assigns the Mid Calder father of John (Glasgow-1086, 1608) and of William (Glasgow-1087, 1609) to John Glasgow-3296 (90% and 46%), and gives John-3296's own father as Stephen Glasgow-1029 at 22% (uncertain, reviewed 2026-10-17). Taking this documentary person to be John-3296 (the same forename and parish, 1608 and 1609, so about 80% likely) the figure is carried over at 18%. It is a two-step inference and is held in the 'uncertain' band.",
       "reviewed": "2026-11-05",
       "source_ids": [
-        "ancestry-60143-6519788"
+        "ancestry-60143-6519788",
+        "ancestry-60143-17896526"
       ],
       "scope": "The entry is an index transcript; the register is uninspected. Identity of this documentary person with John Glasgow-3296 is probable, not proved, and 3296's descent from Stephen Glasgow-1029 is itself only 22%. Other Mid Calder families (James Glasgow-991's, with a son John baptised 1616) are separate.",
       "working_selection": true,
@@ -113953,7 +114214,136 @@
       "profile_names": {
         "Glasgow-1029": "Stephen Glasgow",
         "record-ancestry-glasgow-3e92b3018961": "Jhone Glasgow"
-      }
+      },
+      "merged_estimate_provenance": [
+        {
+          "original": {
+            "subject_id": "record-ancestry-glasgow-3e92b3018961",
+            "relative_id": "Glasgow-1029",
+            "relationship": "father",
+            "percent": 18,
+            "assessment_status": "uncertain",
+            "assertion_id": "clm-fa1-record-ancestry-glasgow-3e92b3018961-father-20261105",
+            "basis": "John Glasgow is named as father of John Glasgow, christened 26 Jun 1608 at Mid Calder (Ancestry index entry https://www.ancestry.co.uk/search/collections/60143/records/6519788). The entry gives only his name and the parish. The catalogue assigns the Mid Calder father of John (Glasgow-1086, 1608) and of William (Glasgow-1087, 1609) to John Glasgow-3296 (90% and 46%), and gives John-3296's own father as Stephen Glasgow-1029 at 22% (uncertain, reviewed 2026-10-17). Taking this documentary person to be John-3296 (the same forename and parish, 1608 and 1609, so about 80% likely) the figure is carried over at 18%. It is a two-step inference and is held in the 'uncertain' band.",
+            "reviewed": "2026-11-05",
+            "source_ids": [
+              "ancestry-60143-6519788"
+            ],
+            "scope": "The entry is an index transcript; the register is uninspected. Identity of this documentary person with John Glasgow-3296 is probable, not proved, and 3296's descent from Stephen Glasgow-1029 is itself only 22%. Other Mid Calder families (James Glasgow-991's, with a son John baptised 1616) are separate.",
+            "working_selection": true,
+            "attachment_status": "attached",
+            "allow_new_relationship": true,
+            "lifecycle": "current",
+            "display": "current",
+            "analysis_links": [
+              {
+                "href": "/people/record-ancestry-glasgow-3e92b3018961.html#research-findings",
+                "label": "Father-link review (FA1, 5 Nov 2026)"
+              }
+            ],
+            "profile_names": {
+              "Glasgow-1029": "Stephen Glasgow",
+              "record-ancestry-glasgow-3e92b3018961": "Jhone Glasgow"
+            }
+          },
+          "current": {
+            "subject_id": "record-ancestry-glasgow-3e92b3018961",
+            "relative_id": "Glasgow-1029",
+            "relationship": "father",
+            "percent": 18,
+            "assessment_status": "uncertain",
+            "assertion_id": "clm-fa1-record-ancestry-glasgow-3e92b3018961-father-20261105",
+            "basis": "John Glasgow is named as father of John Glasgow, christened 26 Jun 1608 at Mid Calder (Ancestry index entry https://www.ancestry.co.uk/search/collections/60143/records/6519788). The entry gives only his name and the parish. The catalogue assigns the Mid Calder father of John (Glasgow-1086, 1608) and of William (Glasgow-1087, 1609) to John Glasgow-3296 (90% and 46%), and gives John-3296's own father as Stephen Glasgow-1029 at 22% (uncertain, reviewed 2026-10-17). Taking this documentary person to be John-3296 (the same forename and parish, 1608 and 1609, so about 80% likely) the figure is carried over at 18%. It is a two-step inference and is held in the 'uncertain' band.",
+            "reviewed": "2026-11-05",
+            "source_ids": [
+              "ancestry-60143-6519788"
+            ],
+            "scope": "The entry is an index transcript; the register is uninspected. Identity of this documentary person with John Glasgow-3296 is probable, not proved, and 3296's descent from Stephen Glasgow-1029 is itself only 22%. Other Mid Calder families (James Glasgow-991's, with a son John baptised 1616) are separate.",
+            "working_selection": true,
+            "attachment_status": "attached",
+            "allow_new_relationship": true,
+            "lifecycle": "current",
+            "display": "current",
+            "analysis_links": [
+              {
+                "href": "/people/record-ancestry-glasgow-3e92b3018961.html#research-findings",
+                "label": "Father-link review (FA1, 5 Nov 2026)"
+              }
+            ],
+            "profile_names": {
+              "Glasgow-1029": "Stephen Glasgow",
+              "record-ancestry-glasgow-3e92b3018961": "Jhone Glasgow"
+            }
+          }
+        },
+        {
+          "original": {
+            "subject_id": "record-ancestry-glasgow-6bd8be3b980f",
+            "relative_id": "Glasgow-1029",
+            "relationship": "father",
+            "percent": 18,
+            "assessment_status": "uncertain",
+            "assertion_id": "clm-fa1-record-ancestry-glasgow-6bd8be3b980f-father-20261105",
+            "basis": "John Glasgow is named as father of John Glasgow, christened 26 Jun 1608 at Mid Calder (Ancestry index entry https://www.ancestry.co.uk/search/collections/60143/records/17896526, a second indexing of the same baptism). The entry gives only his name and the parish. The catalogue assigns the Mid Calder father of John (Glasgow-1086, 1608) and of William (Glasgow-1087, 1609) to John Glasgow-3296 (90% and 46%), and gives John-3296's own father as Stephen Glasgow-1029 at 22% (uncertain, reviewed 2026-10-17). Taking this documentary person to be John-3296 (the same forename and parish, 1608 and 1609, so about 80% likely) the figure is carried over at 18%. It is a two-step inference and is held in the 'uncertain' band.",
+            "reviewed": "2026-11-05",
+            "source_ids": [
+              "ancestry-60143-17896526"
+            ],
+            "scope": "The entry is an index transcript; the register is uninspected. Identity of this documentary person with John Glasgow-3296 is probable, not proved, and 3296's descent from Stephen Glasgow-1029 is itself only 22%. Other Mid Calder families (James Glasgow-991's, with a son John baptised 1616) are separate.",
+            "working_selection": true,
+            "attachment_status": "attached",
+            "allow_new_relationship": true,
+            "lifecycle": "current",
+            "display": "current",
+            "analysis_links": [
+              {
+                "href": "/people/record-ancestry-glasgow-6bd8be3b980f.html#research-findings",
+                "label": "Father-link review (FA1, 5 Nov 2026)"
+              }
+            ],
+            "profile_names": {
+              "Glasgow-1029": "Stephen Glasgow",
+              "record-ancestry-glasgow-6bd8be3b980f": "Jhone Glasgow"
+            }
+          },
+          "current": {
+            "subject_id": "record-ancestry-glasgow-3e92b3018961",
+            "relative_id": "Glasgow-1029",
+            "relationship": "father",
+            "percent": 18,
+            "assessment_status": "uncertain",
+            "assertion_id": "clm-fa1-record-ancestry-glasgow-6bd8be3b980f-father-20261105",
+            "basis": "John Glasgow is named as father of John Glasgow, christened 26 Jun 1608 at Mid Calder (Ancestry index entry https://www.ancestry.co.uk/search/collections/60143/records/17896526, a second indexing of the same baptism). The entry gives only his name and the parish. The catalogue assigns the Mid Calder father of John (Glasgow-1086, 1608) and of William (Glasgow-1087, 1609) to John Glasgow-3296 (90% and 46%), and gives John-3296's own father as Stephen Glasgow-1029 at 22% (uncertain, reviewed 2026-10-17). Taking this documentary person to be John-3296 (the same forename and parish, 1608 and 1609, so about 80% likely) the figure is carried over at 18%. It is a two-step inference and is held in the 'uncertain' band.",
+            "reviewed": "2026-11-05",
+            "source_ids": [
+              "ancestry-60143-17896526"
+            ],
+            "scope": "The entry is an index transcript; the register is uninspected. Identity of this documentary person with John Glasgow-3296 is probable, not proved, and 3296's descent from Stephen Glasgow-1029 is itself only 22%. Other Mid Calder families (James Glasgow-991's, with a son John baptised 1616) are separate.",
+            "working_selection": true,
+            "attachment_status": "attached",
+            "allow_new_relationship": true,
+            "lifecycle": "current",
+            "display": "current",
+            "analysis_links": [
+              {
+                "href": "/people/record-ancestry-glasgow-6bd8be3b980f.html#research-findings",
+                "label": "Father-link review (FA1, 5 Nov 2026)"
+              }
+            ],
+            "profile_names": {
+              "Glasgow-1029": "Stephen Glasgow",
+              "record-ancestry-glasgow-6bd8be3b980f": "Jhone Glasgow"
+            }
+          }
+        }
+      ],
+      "native_identity_merges": {
+        "record-ancestry-glasgow-6bd8be3b980f": "record-ancestry-glasgow-3e92b3018961"
+      },
+      "assertion_ids": [
+        "clm-fa1-record-ancestry-glasgow-3e92b3018961-father-20261105",
+        "clm-fa1-record-ancestry-glasgow-6bd8be3b980f-father-20261105"
+      ]
     },
     {
       "subject_id": "Glasgow-1029",
@@ -113962,10 +114352,11 @@
       "percent": 18,
       "assessment_status": "uncertain",
       "assertion_id": "clm-fa1-record-ancestry-glasgow-3e92b3018961-father-20261105",
-      "basis": "John Glasgow is named as father of John Glasgow, christened 26 Jun 1608 at Mid Calder (Ancestry index entry https://www.ancestry.co.uk/search/collections/60143/records/6519788). The entry gives only his name and the parish. The catalogue assigns the Mid Calder father of John (Glasgow-1086, 1608) and of William (Glasgow-1087, 1609) to John Glasgow-3296 (90% and 46%), and gives John-3296's own father as Stephen Glasgow-1029 at 22% (uncertain, reviewed 2026-10-17). Taking this documentary person to be John-3296 (the same forename and parish, 1608 and 1609, so about 80% likely) the figure is carried over at 18%. It is a two-step inference and is held in the 'uncertain' band.",
+      "basis": "John Glasgow is named as father of John Glasgow, christened 26 Jun 1608 at Mid Calder (Ancestry index entry https://www.ancestry.co.uk/search/collections/60143/records/6519788). The entry gives only his name and the parish. The catalogue assigns the Mid Calder father of John (Glasgow-1086, 1608) and of William (Glasgow-1087, 1609) to John Glasgow-3296 (90% and 46%), and gives John-3296's own father as Stephen Glasgow-1029 at 22% (uncertain, reviewed 2026-10-17). Taking this documentary person to be John-3296 (the same forename and parish, 1608 and 1609, so about 80% likely) the figure is carried over at 18%. It is a two-step inference and is held in the 'uncertain' band.\n\nJohn Glasgow is named as father of John Glasgow, christened 26 Jun 1608 at Mid Calder (Ancestry index entry https://www.ancestry.co.uk/search/collections/60143/records/17896526, a second indexing of the same baptism). The entry gives only his name and the parish. The catalogue assigns the Mid Calder father of John (Glasgow-1086, 1608) and of William (Glasgow-1087, 1609) to John Glasgow-3296 (90% and 46%), and gives John-3296's own father as Stephen Glasgow-1029 at 22% (uncertain, reviewed 2026-10-17). Taking this documentary person to be John-3296 (the same forename and parish, 1608 and 1609, so about 80% likely) the figure is carried over at 18%. It is a two-step inference and is held in the 'uncertain' band.",
       "reviewed": "2026-11-05",
       "source_ids": [
-        "ancestry-60143-6519788"
+        "ancestry-60143-6519788",
+        "ancestry-60143-17896526"
       ],
       "scope": "The entry is an index transcript; the register is uninspected. Identity of this documentary person with John Glasgow-3296 is probable, not proved, and 3296's descent from Stephen Glasgow-1029 is itself only 22%. Other Mid Calder families (James Glasgow-991's, with a son John baptised 1616) are separate.",
       "working_selection": true,
@@ -113982,11 +114373,140 @@
       "profile_names": {
         "Glasgow-1029": "Stephen Glasgow",
         "record-ancestry-glasgow-3e92b3018961": "Jhone Glasgow"
-      }
+      },
+      "merged_estimate_provenance": [
+        {
+          "original": {
+            "subject_id": "Glasgow-1029",
+            "relative_id": "record-ancestry-glasgow-3e92b3018961",
+            "relationship": "child",
+            "percent": 18,
+            "assessment_status": "uncertain",
+            "assertion_id": "clm-fa1-record-ancestry-glasgow-3e92b3018961-father-20261105",
+            "basis": "John Glasgow is named as father of John Glasgow, christened 26 Jun 1608 at Mid Calder (Ancestry index entry https://www.ancestry.co.uk/search/collections/60143/records/6519788). The entry gives only his name and the parish. The catalogue assigns the Mid Calder father of John (Glasgow-1086, 1608) and of William (Glasgow-1087, 1609) to John Glasgow-3296 (90% and 46%), and gives John-3296's own father as Stephen Glasgow-1029 at 22% (uncertain, reviewed 2026-10-17). Taking this documentary person to be John-3296 (the same forename and parish, 1608 and 1609, so about 80% likely) the figure is carried over at 18%. It is a two-step inference and is held in the 'uncertain' band.",
+            "reviewed": "2026-11-05",
+            "source_ids": [
+              "ancestry-60143-6519788"
+            ],
+            "scope": "The entry is an index transcript; the register is uninspected. Identity of this documentary person with John Glasgow-3296 is probable, not proved, and 3296's descent from Stephen Glasgow-1029 is itself only 22%. Other Mid Calder families (James Glasgow-991's, with a son John baptised 1616) are separate.",
+            "working_selection": true,
+            "attachment_status": "attached",
+            "allow_new_relationship": true,
+            "lifecycle": "current",
+            "display": "current",
+            "analysis_links": [
+              {
+                "href": "/people/record-ancestry-glasgow-3e92b3018961.html#research-findings",
+                "label": "Father-link review (FA1, 5 Nov 2026)"
+              }
+            ],
+            "profile_names": {
+              "Glasgow-1029": "Stephen Glasgow",
+              "record-ancestry-glasgow-3e92b3018961": "Jhone Glasgow"
+            }
+          },
+          "current": {
+            "subject_id": "Glasgow-1029",
+            "relative_id": "record-ancestry-glasgow-3e92b3018961",
+            "relationship": "child",
+            "percent": 18,
+            "assessment_status": "uncertain",
+            "assertion_id": "clm-fa1-record-ancestry-glasgow-3e92b3018961-father-20261105",
+            "basis": "John Glasgow is named as father of John Glasgow, christened 26 Jun 1608 at Mid Calder (Ancestry index entry https://www.ancestry.co.uk/search/collections/60143/records/6519788). The entry gives only his name and the parish. The catalogue assigns the Mid Calder father of John (Glasgow-1086, 1608) and of William (Glasgow-1087, 1609) to John Glasgow-3296 (90% and 46%), and gives John-3296's own father as Stephen Glasgow-1029 at 22% (uncertain, reviewed 2026-10-17). Taking this documentary person to be John-3296 (the same forename and parish, 1608 and 1609, so about 80% likely) the figure is carried over at 18%. It is a two-step inference and is held in the 'uncertain' band.",
+            "reviewed": "2026-11-05",
+            "source_ids": [
+              "ancestry-60143-6519788"
+            ],
+            "scope": "The entry is an index transcript; the register is uninspected. Identity of this documentary person with John Glasgow-3296 is probable, not proved, and 3296's descent from Stephen Glasgow-1029 is itself only 22%. Other Mid Calder families (James Glasgow-991's, with a son John baptised 1616) are separate.",
+            "working_selection": true,
+            "attachment_status": "attached",
+            "allow_new_relationship": true,
+            "lifecycle": "current",
+            "display": "current",
+            "analysis_links": [
+              {
+                "href": "/people/record-ancestry-glasgow-3e92b3018961.html#research-findings",
+                "label": "Father-link review (FA1, 5 Nov 2026)"
+              }
+            ],
+            "profile_names": {
+              "Glasgow-1029": "Stephen Glasgow",
+              "record-ancestry-glasgow-3e92b3018961": "Jhone Glasgow"
+            }
+          }
+        },
+        {
+          "original": {
+            "subject_id": "Glasgow-1029",
+            "relative_id": "record-ancestry-glasgow-6bd8be3b980f",
+            "relationship": "child",
+            "percent": 18,
+            "assessment_status": "uncertain",
+            "assertion_id": "clm-fa1-record-ancestry-glasgow-6bd8be3b980f-father-20261105",
+            "basis": "John Glasgow is named as father of John Glasgow, christened 26 Jun 1608 at Mid Calder (Ancestry index entry https://www.ancestry.co.uk/search/collections/60143/records/17896526, a second indexing of the same baptism). The entry gives only his name and the parish. The catalogue assigns the Mid Calder father of John (Glasgow-1086, 1608) and of William (Glasgow-1087, 1609) to John Glasgow-3296 (90% and 46%), and gives John-3296's own father as Stephen Glasgow-1029 at 22% (uncertain, reviewed 2026-10-17). Taking this documentary person to be John-3296 (the same forename and parish, 1608 and 1609, so about 80% likely) the figure is carried over at 18%. It is a two-step inference and is held in the 'uncertain' band.",
+            "reviewed": "2026-11-05",
+            "source_ids": [
+              "ancestry-60143-17896526"
+            ],
+            "scope": "The entry is an index transcript; the register is uninspected. Identity of this documentary person with John Glasgow-3296 is probable, not proved, and 3296's descent from Stephen Glasgow-1029 is itself only 22%. Other Mid Calder families (James Glasgow-991's, with a son John baptised 1616) are separate.",
+            "working_selection": true,
+            "attachment_status": "attached",
+            "allow_new_relationship": true,
+            "lifecycle": "current",
+            "display": "current",
+            "analysis_links": [
+              {
+                "href": "/people/record-ancestry-glasgow-6bd8be3b980f.html#research-findings",
+                "label": "Father-link review (FA1, 5 Nov 2026)"
+              }
+            ],
+            "profile_names": {
+              "Glasgow-1029": "Stephen Glasgow",
+              "record-ancestry-glasgow-6bd8be3b980f": "Jhone Glasgow"
+            }
+          },
+          "current": {
+            "subject_id": "Glasgow-1029",
+            "relative_id": "record-ancestry-glasgow-3e92b3018961",
+            "relationship": "child",
+            "percent": 18,
+            "assessment_status": "uncertain",
+            "assertion_id": "clm-fa1-record-ancestry-glasgow-6bd8be3b980f-father-20261105",
+            "basis": "John Glasgow is named as father of John Glasgow, christened 26 Jun 1608 at Mid Calder (Ancestry index entry https://www.ancestry.co.uk/search/collections/60143/records/17896526, a second indexing of the same baptism). The entry gives only his name and the parish. The catalogue assigns the Mid Calder father of John (Glasgow-1086, 1608) and of William (Glasgow-1087, 1609) to John Glasgow-3296 (90% and 46%), and gives John-3296's own father as Stephen Glasgow-1029 at 22% (uncertain, reviewed 2026-10-17). Taking this documentary person to be John-3296 (the same forename and parish, 1608 and 1609, so about 80% likely) the figure is carried over at 18%. It is a two-step inference and is held in the 'uncertain' band.",
+            "reviewed": "2026-11-05",
+            "source_ids": [
+              "ancestry-60143-17896526"
+            ],
+            "scope": "The entry is an index transcript; the register is uninspected. Identity of this documentary person with John Glasgow-3296 is probable, not proved, and 3296's descent from Stephen Glasgow-1029 is itself only 22%. Other Mid Calder families (James Glasgow-991's, with a son John baptised 1616) are separate.",
+            "working_selection": true,
+            "attachment_status": "attached",
+            "allow_new_relationship": true,
+            "lifecycle": "current",
+            "display": "current",
+            "analysis_links": [
+              {
+                "href": "/people/record-ancestry-glasgow-6bd8be3b980f.html#research-findings",
+                "label": "Father-link review (FA1, 5 Nov 2026)"
+              }
+            ],
+            "profile_names": {
+              "Glasgow-1029": "Stephen Glasgow",
+              "record-ancestry-glasgow-6bd8be3b980f": "Jhone Glasgow"
+            }
+          }
+        }
+      ],
+      "native_identity_merges": {
+        "record-ancestry-glasgow-6bd8be3b980f": "record-ancestry-glasgow-3e92b3018961"
+      },
+      "assertion_ids": [
+        "clm-fa1-record-ancestry-glasgow-3e92b3018961-father-20261105",
+        "clm-fa1-record-ancestry-glasgow-6bd8be3b980f-father-20261105"
+      ]
     },
     {
       "subject_id": "record-ancestry-glasgow-49960156af04",
-      "relative_id": "record-ancestry-glasgow-a35693a1bff6",
+      "relative_id": "record-ancestry-glasgow-19b522352b30",
       "relationship": "father",
       "percent": 94,
       "assessment_status": "proved",
@@ -114014,7 +114534,7 @@
       }
     },
     {
-      "subject_id": "record-ancestry-glasgow-a35693a1bff6",
+      "subject_id": "record-ancestry-glasgow-19b522352b30",
       "relative_id": "record-ancestry-glasgow-49960156af04",
       "relationship": "child",
       "percent": 94,
@@ -114217,64 +114737,6 @@
       }
     },
     {
-      "subject_id": "record-ancestry-glasgow-5e0f5a798080",
-      "relative_id": "Glasgow-991",
-      "relationship": "father",
-      "percent": 80,
-      "assessment_status": "probable",
-      "assertion_id": "clm-fa1-record-ancestry-glasgow-5e0f5a798080-father-20261105",
-      "basis": "Allexander Glasgow is named as father of Allexander Glasgow, born 2 Sep 1637 at Inveresk with Musselburgh, with mother Jannet Clerk (Ancestry index entry https://www.ancestry.co.uk/search/collections/60143/records/8291158). The catalogue's Alexander Glasgow-1148, husband of Jannet Clerk and father of Robert, John and Alexander at Inveresk and Fisherrow, has father James Glasgow-991 at 84% (probable, reviewed 17 Oct 2026; the printed 1624-25 sasine index calls Alexander son of James, tailor in Fisherrow). The documentary person matches Alexander-1148 (name, parish, wife Jannet Clerk) so the link is carried at 80%, a little below 84% because the two are not merged.",
-      "reviewed": "2026-11-05",
-      "source_ids": [
-        "ancestry-60143-8291158"
-      ],
-      "scope": "Index transcript only. Alexander-1148's descent from James-991 depends on the sasine index and a Mid Calder/Inveresk identity of James that the catalogue itself calls probable; the identification of this documentary person with Alexander-1148 is probable, not proved.",
-      "working_selection": true,
-      "attachment_status": "attached",
-      "allow_new_relationship": true,
-      "lifecycle": "current",
-      "display": "current",
-      "analysis_links": [
-        {
-          "href": "/people/record-ancestry-glasgow-5e0f5a798080.html#research-findings",
-          "label": "Father-link review (FA1, 5 Nov 2026)"
-        }
-      ],
-      "profile_names": {
-        "Glasgow-991": "James Glasgow",
-        "record-ancestry-glasgow-5e0f5a798080": "Allexander Glasgow"
-      }
-    },
-    {
-      "subject_id": "Glasgow-991",
-      "relative_id": "record-ancestry-glasgow-5e0f5a798080",
-      "relationship": "child",
-      "percent": 80,
-      "assessment_status": "probable",
-      "assertion_id": "clm-fa1-record-ancestry-glasgow-5e0f5a798080-father-20261105",
-      "basis": "Allexander Glasgow is named as father of Allexander Glasgow, born 2 Sep 1637 at Inveresk with Musselburgh, with mother Jannet Clerk (Ancestry index entry https://www.ancestry.co.uk/search/collections/60143/records/8291158). The catalogue's Alexander Glasgow-1148, husband of Jannet Clerk and father of Robert, John and Alexander at Inveresk and Fisherrow, has father James Glasgow-991 at 84% (probable, reviewed 17 Oct 2026; the printed 1624-25 sasine index calls Alexander son of James, tailor in Fisherrow). The documentary person matches Alexander-1148 (name, parish, wife Jannet Clerk) so the link is carried at 80%, a little below 84% because the two are not merged.",
-      "reviewed": "2026-11-05",
-      "source_ids": [
-        "ancestry-60143-8291158"
-      ],
-      "scope": "Index transcript only. Alexander-1148's descent from James-991 depends on the sasine index and a Mid Calder/Inveresk identity of James that the catalogue itself calls probable; the identification of this documentary person with Alexander-1148 is probable, not proved.",
-      "working_selection": true,
-      "attachment_status": "attached",
-      "allow_new_relationship": true,
-      "lifecycle": "current",
-      "display": "current",
-      "analysis_links": [
-        {
-          "href": "/people/record-ancestry-glasgow-5e0f5a798080.html#research-findings",
-          "label": "Father-link review (FA1, 5 Nov 2026)"
-        }
-      ],
-      "profile_names": {
-        "Glasgow-991": "James Glasgow",
-        "record-ancestry-glasgow-5e0f5a798080": "Allexander Glasgow"
-      }
-    },
-    {
       "subject_id": "record-ancestry-glasgow-6347b6cb2db8",
       "relative_id": "Glasgow-991",
       "relationship": "father",
@@ -114392,64 +114854,6 @@
       "profile_names": {
         "Glasgow-1096": "Robert Glasgow",
         "record-ancestry-glasgow-688a923794ba": "Johne Glasgow"
-      }
-    },
-    {
-      "subject_id": "record-ancestry-glasgow-6bd8be3b980f",
-      "relative_id": "Glasgow-1029",
-      "relationship": "father",
-      "percent": 18,
-      "assessment_status": "uncertain",
-      "assertion_id": "clm-fa1-record-ancestry-glasgow-6bd8be3b980f-father-20261105",
-      "basis": "John Glasgow is named as father of John Glasgow, christened 26 Jun 1608 at Mid Calder (Ancestry index entry https://www.ancestry.co.uk/search/collections/60143/records/17896526, a second indexing of the same baptism). The entry gives only his name and the parish. The catalogue assigns the Mid Calder father of John (Glasgow-1086, 1608) and of William (Glasgow-1087, 1609) to John Glasgow-3296 (90% and 46%), and gives John-3296's own father as Stephen Glasgow-1029 at 22% (uncertain, reviewed 2026-10-17). Taking this documentary person to be John-3296 (the same forename and parish, 1608 and 1609, so about 80% likely) the figure is carried over at 18%. It is a two-step inference and is held in the 'uncertain' band.",
-      "reviewed": "2026-11-05",
-      "source_ids": [
-        "ancestry-60143-17896526"
-      ],
-      "scope": "The entry is an index transcript; the register is uninspected. Identity of this documentary person with John Glasgow-3296 is probable, not proved, and 3296's descent from Stephen Glasgow-1029 is itself only 22%. Other Mid Calder families (James Glasgow-991's, with a son John baptised 1616) are separate.",
-      "working_selection": true,
-      "attachment_status": "attached",
-      "allow_new_relationship": true,
-      "lifecycle": "current",
-      "display": "current",
-      "analysis_links": [
-        {
-          "href": "/people/record-ancestry-glasgow-6bd8be3b980f.html#research-findings",
-          "label": "Father-link review (FA1, 5 Nov 2026)"
-        }
-      ],
-      "profile_names": {
-        "Glasgow-1029": "Stephen Glasgow",
-        "record-ancestry-glasgow-6bd8be3b980f": "Jhone Glasgow"
-      }
-    },
-    {
-      "subject_id": "Glasgow-1029",
-      "relative_id": "record-ancestry-glasgow-6bd8be3b980f",
-      "relationship": "child",
-      "percent": 18,
-      "assessment_status": "uncertain",
-      "assertion_id": "clm-fa1-record-ancestry-glasgow-6bd8be3b980f-father-20261105",
-      "basis": "John Glasgow is named as father of John Glasgow, christened 26 Jun 1608 at Mid Calder (Ancestry index entry https://www.ancestry.co.uk/search/collections/60143/records/17896526, a second indexing of the same baptism). The entry gives only his name and the parish. The catalogue assigns the Mid Calder father of John (Glasgow-1086, 1608) and of William (Glasgow-1087, 1609) to John Glasgow-3296 (90% and 46%), and gives John-3296's own father as Stephen Glasgow-1029 at 22% (uncertain, reviewed 2026-10-17). Taking this documentary person to be John-3296 (the same forename and parish, 1608 and 1609, so about 80% likely) the figure is carried over at 18%. It is a two-step inference and is held in the 'uncertain' band.",
-      "reviewed": "2026-11-05",
-      "source_ids": [
-        "ancestry-60143-17896526"
-      ],
-      "scope": "The entry is an index transcript; the register is uninspected. Identity of this documentary person with John Glasgow-3296 is probable, not proved, and 3296's descent from Stephen Glasgow-1029 is itself only 22%. Other Mid Calder families (James Glasgow-991's, with a son John baptised 1616) are separate.",
-      "working_selection": true,
-      "attachment_status": "attached",
-      "allow_new_relationship": true,
-      "lifecycle": "current",
-      "display": "current",
-      "analysis_links": [
-        {
-          "href": "/people/record-ancestry-glasgow-6bd8be3b980f.html#research-findings",
-          "label": "Father-link review (FA1, 5 Nov 2026)"
-        }
-      ],
-      "profile_names": {
-        "Glasgow-1029": "Stephen Glasgow",
-        "record-ancestry-glasgow-6bd8be3b980f": "Jhone Glasgow"
       }
     },
     {
@@ -119964,7 +120368,7 @@
     },
     {
       "subject_id": "record-ancestry-glasgow-1d6da75fa0b0",
-      "relative_id": "record-ancestry-glasgow-ce3e0b881807",
+      "relative_id": "record-ancestry-glasgow-24ef9f16ee44",
       "relationship": "father",
       "percent": 93,
       "assessment_status": "proved",
@@ -119992,7 +120396,7 @@
       }
     },
     {
-      "subject_id": "record-ancestry-glasgow-ce3e0b881807",
+      "subject_id": "record-ancestry-glasgow-24ef9f16ee44",
       "relative_id": "record-ancestry-glasgow-1d6da75fa0b0",
       "relationship": "child",
       "percent": 93,

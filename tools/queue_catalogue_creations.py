@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import argparse
 from contextlib import contextmanager
+from collections import Counter
 from copy import deepcopy
 from datetime import date
 from html import escape
@@ -37,7 +38,7 @@ def _write(path, value):
     path.write_text(json.dumps(value, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
 
 
-def creation_routes(web, slugs):
+def creation_routes(web, slugs, restored_aliases=None):
     """Register reviewed local people in the existing shared route map."""
     path = web / 'assets/unified/routes.js'
     if not path.exists():
@@ -48,7 +49,7 @@ def creation_routes(web, slugs):
         raise ValueError('Unsupported unified route schema')
     routes, end = json.JSONDecoder().raw_decode(text[len(prefix):])
     for slug in slugs:
-        if slug in routes and routes[slug] != slug:
+        if slug in routes and routes[slug] != slug and (restored_aliases or {}).get(slug) != routes[slug]:
             raise ValueError(f'{slug}: reviewed creation conflicts with an existing route alias')
         routes[slug] = slug
     return prefix + json.dumps(routes, ensure_ascii=False, separators=(',', ':')) + text[len(prefix) + end:]
@@ -86,22 +87,117 @@ def publish_creation_aliases(root, entries):
     return changed
 
 
-def reviewed_people(root=ROOT, catalogue_ids=None):
+def native_creation_merges(root):
+    """Read reversible workbench identity decisions; never infer a merge from names."""
+    root = Path(root)
+    if not (root / "genealogy.toml").is_file():
+        return {}, {}
+    from genealogy.store import open_project
+    from tools.workbench_legacy_views import Views
+    with open_project(root, readonly=True) as project:
+        view = Views(project.store)
+        merges = {old: new for old, new in view._merged_public.items()
+                  if old != new and old.startswith("record-") and new.startswith("record-")}
+        reasons = {}
+        rows = project.store.all("SELECT id,kind,survivor_id,reason FROM entity_merge")
+        undone = {row["reason"].split("undo ", 1)[1].split(":", 1)[0]
+                  for row in rows if row["kind"] == "split" and str(row["reason"] or "").startswith("undo ")}
+        for row in rows:
+            if row["kind"] != "merge" or row["id"] in undone:
+                continue
+            target = view.person(row["survivor_id"])
+            if target:
+                reason = row["reason"]
+                try:
+                    structured = json.loads(reason)
+                    if isinstance(structured, dict) and isinstance(structured.get("basis"), str):
+                        reason = structured["basis"]
+                except (TypeError, ValueError):
+                    pass
+                reasons.setdefault(target, []).append(reason)
+    return merges, reasons
+
+
+def _project_creation_merges(entries, merges, reasons):
+    """Consolidate validated accounts without changing their maintained source drafts."""
+    by_id = {entry["catalogue_id"]: deepcopy(entry) for entry in entries}
+    grouped = {}
+    for entry in entries:
+        old = entry["catalogue_id"]
+        target = merges.get(old, old)
+        if target not in by_id:
+            if old in merges:
+                raise ValueError(f"{old}: native merge survivor {target} has no reviewed creation account")
+            continue
+        grouped.setdefault(target, []).append(entry)
+    result = []
+    for target, sources in grouped.items():
+        survivor = by_id[target]
+        if len(sources) == 1:
+            result.append(survivor)
+            continue
+        sources = sorted(sources, key=lambda entry: entry["catalogue_id"] != target)
+        survivor["merged_source_accounts"] = deepcopy(sources)
+        survivor["retired_catalogue_ids"] = [entry["catalogue_id"] for entry in sources if entry["catalogue_id"] != target]
+        survivor["records"] = []
+        survivor["candidates"] = []
+        for entry in sources:
+            for field in ("records", "candidates"):
+                for row in entry.get(field, []):
+                    if row not in survivor[field]:
+                        survivor[field].append(deepcopy(row))
+        for field in ("birth", "death", "birth_location", "death_location", "gender"):
+            values = {entry[field] for entry in sources if entry.get(field)}
+            if len(values) > 1:
+                raise ValueError(f"{target}: native merge has conflicting {field}")
+            if not survivor.get(field) and values:
+                survivor[field] = next(iter(values))
+        local_ids = {entry["catalogue_id"].casefold() for entry in sources}
+        survivor["candidates"] = [candidate for candidate in survivor["candidates"]
+            if str(candidate.get("profile_id") or candidate.get("catalogue_id") or candidate.get("id") or "").casefold()
+            not in local_ids]
+        statuses = {entry.get("creation_status", "creation_ready") for entry in sources}
+        survivor["creation_status"] = ("identity_hold" if "identity_hold" in statuses else
+                                      "hold_source_verification" if "hold_source_verification" in statuses else "creation_ready")
+        survivor["assessment"] = "\n\n".join(
+            ["Identity consolidation: " + "; ".join(dict.fromkeys(reasons.get(target, []))) ] +
+            [entry["assessment"] for entry in sources])
+        additions = []
+        for index, entry in enumerate(sources[1:], 1):
+            draft = entry["draft_wikitext"]
+            ref_prefix = "merged" + str(index) + "-"
+            while ref_prefix in survivor["draft_wikitext"] or any(ref_prefix in text for text in additions):
+                ref_prefix = "m" + ref_prefix
+            # Namespace both named definitions and reuses, including unquoted names.
+            draft = re.sub(r"""(<ref\b[^>]*?\bname\s*=\s*)(?:"([^"<>]+)"|'([^'<>]+)'|([^\s>/]+))""",
+                           lambda match: match[1] + '"' + ref_prefix + next(value for value in match.groups()[1:] if value is not None) + '"', draft, flags=re.I)
+            draft = re.sub(r"(?m)^\[\[Category:.*?\]\]\s*", "", draft)
+            draft = re.sub(r"<references\s*/\s*>", "", draft, flags=re.I)
+            draft = re.sub(r"(?m)^(==+)(.*?)\1\s*$", lambda m: "=" + m[1] + m[2] + m[1] + "=", draft)
+            additions.append("=== Additional source account: " + entry["name"] + " ===\n" + draft.strip())
+        insertion = "\n\n".join(additions) + "\n\n"
+        survivor["draft_wikitext"] = re.sub(r"(?mi)^==\s*Sources\s*==\s*$", lambda m: insertion + m[0],
+                                               survivor["draft_wikitext"], count=1)
+        result.append(survivor)
+    return result
+
+
+def reviewed_people(root=ROOT, catalogue_ids=None, *, merge_state=None):
     """Return validated public historical subjects; fail before any writes."""
     root = Path(root).resolve()
     payload = _read(root / MANIFEST, {})
     entries = payload.get("new_people", [])
+    merges, reasons = native_creation_merges(root) if merge_state is None else merge_state
     if catalogue_ids is not None:
         requested = list(catalogue_ids)
         if len(requested) != len(set(requested)):
             raise ValueError("Duplicate requested catalogue IDs")
         known = {entry.get("catalogue_id") for entry in entries if isinstance(entry, dict)}
-        unknown = set(requested) - known
-        if unknown:
-            raise ValueError(f"Unknown requested catalogue IDs: {sorted(unknown)}")
-        selected = set(requested)
-        # Unselected drafts need not validate for a separately authorised case.
-        entries = [entry for entry in entries if isinstance(entry, dict) and entry.get("catalogue_id") in selected]
+        if set(requested) - known:
+            raise ValueError(f"Unknown requested catalogue IDs: {sorted(set(requested) - known)}")
+        selected = {merges.get(ident, ident) for ident in requested}
+        entries = [entry for entry in entries if isinstance(entry, dict)
+                   and merges.get(entry.get("catalogue_id"), entry.get("catalogue_id")) in selected]
     seen = set()
     for entry in entries:
         slug = entry.get("catalogue_id", "")
@@ -152,6 +248,7 @@ def reviewed_people(root=ROOT, catalogue_ids=None):
                       and catalogue._is_external_public_url(basis.get("source_url", "")))
         if not age_proven and not any(int(year) <= 1900 for year in re.findall(r"\b(1\d{3})\b", historical)):
             raise ValueError(f"{slug}: public historical status is not established")
+    entries = _project_creation_merges(entries, merges, reasons)
     return entries
 
 
@@ -198,6 +295,8 @@ def decorate_person(person, entry):
                   creation_subject_id=entry["subject_id"], creation_assessment=entry["assessment"],
                   creation_draft_path=entry["draft_path"], creation_draft_wikitext=entry["draft_wikitext"],
                   creation_source_url=entry["source_subject_url"],
+                  creation_merged_source_accounts=deepcopy(entry.get("merged_source_accounts") or []),
+                  retired_catalogue_ids=deepcopy(entry.get("retired_catalogue_ids") or []),
                   creation_historical_basis=deepcopy(entry.get("historical_basis") or {}),
                   creation_relationship_changes=[normalise_change(change, entry["catalogue_id"])
                                                  for change in entry.get("relationship_changes", [])])
@@ -324,6 +423,106 @@ def _merge(existing, supplied, key):
     return [row for row in existing if row[key] not in identities] + supplied
 
 
+def refresh_creation_statistics(root):
+    """Refresh catalogue counts and maintained statistical panels from current public models."""
+    from bs4 import BeautifulSoup
+    from tools.catalogue_search_markup import compact_statistics
+    web = Path(root) / 'www'
+    people = _read(web / 'data/people.json', {'people': []})['people']
+    searches = _read(web / 'data/catalogue-search-index.json', [])
+    by_id = {row['id'].casefold(): row for row in searches}
+    memberships = {person['catalogue_id']: {
+        'primary': by_id.get(person['catalogue_id'].casefold(), {}).get('family_root'),
+        'roots': by_id.get(person['catalogue_id'].casefold(), {}).get('family_roots', [])}
+        for person in people}
+    places = _read(web / 'data/places-index.json', [])
+    locations = {place['id']: place['slug'] for place in places}
+    records = _read(web / 'assets/research/record-index.json', None)
+    record_count = len(records) if records is not None else sum(len(person['records']) for person in people)
+    work_counts = Counter(person.get('profile_work_status') or 'unreviewed'
+                          for person in people if not person.get('profile_ids'))
+    original_count = sum(bool(row.get('has_original_record')) for row in searches)
+    html = catalogue._catalogue_statistics(people, memberships, locations, len(places), record_count,
+        work_counts, original_count, date.today().strftime('%-d %B %Y'))
+    _write(web / 'data/catalogue-statistics.json', {'html': html})
+    compact = compact_statistics(html)
+    detailed = BeautifulSoup(html, 'html.parser')
+    changed = []
+    for relative in ('catalogue.html', 'catalogue/index.html', 'catalogue/advanced.html', 'statistics/index.html'):
+        path = web / relative
+        if not path.exists():
+            continue
+        original = path.read_text(encoding='utf-8')
+        soup = BeautifulSoup(original, 'html.parser')
+        hero = soup.select_one('.catalogue-hero .lede')
+        if hero is not None:
+            hero.string = f'Search {len(people):,} historical people connected with the Glasgow surname.'
+        for total in soup.select('#catalogue-total'):
+            total.string = f'{len(people):,}'
+        section = soup.select_one('#statistics')
+        if section is not None:
+            fragment = compact if relative != 'statistics/index.html' else html
+            section.replace_with(BeautifulSoup(fragment, 'html.parser'))
+        elif relative == 'statistics/index.html':
+            # The dedicated page has its own reader shell and panel headings.
+            for selector in ('.statistics-summary', '.statistics-grid', '.statistics-caution', '.catalogue-refresh'):
+                old, new = soup.select_one(selector), detailed.select_one(selector)
+                if old is not None and new is not None:
+                    old.replace_with(BeautifulSoup(str(new), 'html.parser'))
+        updated = str(soup)
+        if updated != original:
+            path.write_text(updated, encoding='utf-8')
+            changed.append(relative)
+    return {'people': len(people), 'records': record_count, 'pages': changed}
+
+
+def retire_creation_context(web, retired, restored=()):
+    """Remove retired search identities while retaining every record and event."""
+    if not retired and not restored:
+        return
+    for relative in ('assets/research/registry.json', 'assets/research/search-people.json',
+                     'assets/research/search-index.json', 'assets/v3/search-people.json',
+                     'assets/v3/people-quick.json'):
+        path = web / relative
+        if not path.exists():
+            continue
+        rows = _read(path, [])
+        rows = [row for row in rows if
+                (row.get('slug') or row.get('id') if isinstance(row, dict) else row[0]) not in retired]
+        _write(path, rows)
+    packed_path = web / 'assets/v3/registry-packed.json'
+    if packed_path.exists():
+        packed = _read(packed_path, {})
+        positions = [packed['fields'].index(key) for key in ('id', 'slug', 'selection_id') if key in packed['fields']]
+        packed['rows'] = [row for row in packed['rows'] if not any(row[index] in retired for index in positions)]
+        _write(packed_path, packed)
+    for relative in ('assets/research/record-index.json', 'assets/research/event-index.json'):
+        path = web / relative
+        if not path.exists():
+            continue
+        rows = _read(path, [])
+        for row in rows:
+            original = row.get('native_merge_original_person')
+            if original in restored and original not in retired:
+                row['p'] = row.pop('native_merge_original_person')
+            old = row.get('p')
+            if old in retired:
+                row.setdefault('native_merge_original_person', old)
+                row['p'] = retired[old]
+            for participant in row.get('participants', []):
+                original = participant.get('native_merge_original_id')
+                if original in restored and original not in retired:
+                    participant['id'] = participant.pop('native_merge_original_id')
+                old = participant.get('id')
+                if old in retired:
+                    participant.setdefault('native_merge_original_id', old)
+                    participant['id'] = retired[old]
+        _write(path, rows)
+    for old, target in retired.items():
+        _write(web / 'assets/research/people' / (old + '.json'),
+               {'id': old, 'redirect_to': f'/assets/research/people/{target}.json', 'native_merge_redirect': target})
+
+
 def apply_creations(root=ROOT, catalogue_ids=None):
     """Materialize reviewed identities in the actual catalogue and person pages."""
     from bs4 import BeautifulSoup
@@ -341,7 +540,19 @@ def apply_creations(root=ROOT, catalogue_ids=None):
     for entry in entries:
         people.append(decorate_person(by_id[entry['catalogue_id']], entry))
     web = root / "www"
-    routes_content = creation_routes(web, [p['catalogue_id'] for p in people])
+    retired = {old: entry["catalogue_id"] for entry in entries for old in entry.get("retired_catalogue_ids", [])}
+    restored_aliases = {}
+    for person in people:
+        slug = person['catalogue_id']
+        previous = _read(web / 'people' / (slug + '.json'), {})
+        if previous.get('native_merge_redirect'):
+            restored_aliases[slug] = previous['native_merge_redirect']
+    routes_content = creation_routes(web, [p['catalogue_id'] for p in people], restored_aliases)
+    if routes_content is not None and retired:
+        prefix = 'window.GlasgowRoutes='
+        routes, end = json.JSONDecoder().raw_decode(routes_content[len(prefix):])
+        routes.update(retired)
+        routes_content = prefix + json.dumps(routes, separators=(',', ':')) + routes_content[len(prefix) + end:]
     combined = _read(web / "data/people.json", {"people": []})
     for person in people:
         for old in combined["people"]:
@@ -358,7 +569,7 @@ def apply_creations(root=ROOT, catalogue_ids=None):
     from tools.publish_resolved_dossiers import project_catalogue_spouses, project_catalogue_parents
     project_catalogue_spouses(people, {d['id'].casefold(): d for d in dossiers.values()})
     searches = []
-    public_index = _read(web / "data/people-index.json", [])
+    public_index = [row for row in _read(web / "data/people-index.json", []) if row.get("catalogue_id") not in retired]
     links = {p["id"]: p.get("catalogue_id") or p.get("slug") or p["id"].lower() for p in public_index}
     links.update({d["id"]: slug for slug, d in dossiers.items()})
     audits = reviewed_audits(root, catalogue_ids)
@@ -384,6 +595,8 @@ def apply_creations(root=ROOT, catalogue_ids=None):
             dossier.update(research_findings=findings, profile_work=audits[slug], pending_profile_creation=True,
                            creation_ready=person["creation_ready"], creation_status=person["creation_status"], wikitree_update=update, similar_people=[], potential_parentage={})
             dossier["provenance"]["research_findings"] = finding_source
+            if person["creation_merged_source_accounts"]:
+                dossier["provenance"]["merged_source_accounts"] = person["creation_merged_source_accounts"]
             if person["creation_historical_basis"]:
                 dossier["historical_basis"] = deepcopy(person["creation_historical_basis"])
             _write(web / f"people/{slug}.json", dossier)
@@ -405,17 +618,24 @@ def apply_creations(root=ROOT, catalogue_ids=None):
         # Context assets belong to complete sites; tiny build fixtures may omit them.
         if (web / "assets/research/registry.json").exists():
             cases.publish_context(people, dossiers)
-    combined["people"] = _merge(combined["people"], people, "catalogue_id")
+    combined["people"] = _merge([row for row in combined["people"] if row.get("catalogue_id") not in retired], people, "catalogue_id")
     combined["count"] = len(combined["people"])
     combined["generated"] = date.today().isoformat()
     _write(web / "data/people.json", combined)
-    search = _merge(_read(web / "data/catalogue-search-index.json", []), searches, "id")
+    search = _merge([row for row in _read(web / "data/catalogue-search-index.json", []) if row.get("id") not in retired], searches, "id")
     _write(web / "data/catalogue-search-index.json", search)
     _write(web / "data/people-index.json", _merge(public_index, [compact_resolver_row(row) for row in resolver], "catalogue_id"))
     (web / "data/people-index.js").write_text("window.glasgowPeopleIndex=" + json.dumps(search, ensure_ascii=False, separators=(",", ":")) + ";\n", encoding="utf-8")
     if routes_content is not None:
         (web / 'assets/unified/routes.js').write_text(routes_content, encoding='utf-8')
+    retire_creation_context(web, retired, {person["catalogue_id"] for person in people})
     publish_creation_aliases(root, entries)
+    from tools.publish_retired_record_redirects import redirect_page
+    for old, target in retired.items():
+        (web / "people" / (old + ".html")).write_text(redirect_page(old, target), encoding="utf-8")
+        _write(web / "people" / (old + ".json"), {"id": old, "redirect_to": f"/people/{target}.json", "native_merge_redirect": target})
+        _write(web / "people" / (old + ".network.json"), {"redirect_to": f"/people/{target}.network.json", "relationships": []})
+    refresh_creation_statistics(root)
     return {"integrated": [p["catalogue_id"] for p in people], "count": len(people)}
 
 

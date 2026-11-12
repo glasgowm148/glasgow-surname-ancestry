@@ -55,6 +55,148 @@ The deed does not give her birth date. No compatible profile survived the docume
     def read(self, relative):
         return json.loads((self.root / "www" / relative).read_text())
 
+    def test_targeted_statistics_refreshes_hero_panels_and_artifact_preserving_shell(self):
+        web = self.root / 'www'
+        for relative in ('catalogue.html', 'catalogue/index.html', 'catalogue/advanced.html'):
+            path = web / relative
+            path.parent.mkdir(parents=True, exist_ok=True)
+            path.write_text('<main><section class="catalogue-hero"><p class="lede">Search 9 people.</p>'
+                '<strong id="catalogue-total">9</strong></section><section id="statistics">Old counts</section>'
+                '<section id="catalogue-search-panel">Keep search controls</section></main>')
+        stats = web / 'statistics/index.html'
+        stats.parent.mkdir(parents=True)
+        stats.write_text('<main><h1>Keep statistics layout</h1><div class="statistics-summary">Old</div>'
+            '<div class="statistics-grid">Old</div><p class="statistics-caution">Old</p></main>')
+        module.apply_creations(self.root)
+        for relative in ('catalogue.html', 'catalogue/index.html', 'catalogue/advanced.html'):
+            soup = BeautifulSoup((web / relative).read_text(), 'html.parser')
+            self.assertIn('Search 1 historical people', soup.select_one('.lede').text)
+            self.assertEqual('1', soup.select_one('#catalogue-total').text)
+            self.assertIn('catalogue-statistics-compact', soup.select_one('#statistics')['class'])
+            self.assertEqual('Keep search controls', soup.select_one('#catalogue-search-panel').text)
+        self.assertIn('Keep statistics layout', stats.read_text())
+        self.assertNotIn('>Old<', stats.read_text())
+        artifact = BeautifulSoup(self.read('data/catalogue-statistics.json')['html'], 'html.parser')
+        self.assertEqual('1', artifact.select_one('.statistics-summary strong').text)
+        self.assertEqual('1', artifact.select('.statistics-summary strong')[1].text)
+
+    def test_retired_context_removes_search_identity_preserves_record_event_rows(self):
+        old, current = 'record-retired', self.slug
+        web = self.root / 'www'
+        fixtures = {
+            'assets/research/registry.json': [{'slug': old}, {'slug': current}],
+            'assets/research/search-people.json': [{'id': old}, {'id': current}],
+            'assets/research/search-index.json': [{'id': old}, {'id': 'source-id'}],
+            'assets/v3/search-people.json': [[old, 'Old'], [current, 'Current']],
+            'assets/v3/people-quick.json': [[old, 'Old'], [current, 'Current']],
+            'assets/v3/registry-packed.json': {'fields': ['name', 'slug'], 'rows': [['Old', old], ['Current', current]]},
+            'assets/research/record-index.json': [{'id': 'record-1', 'p': old, 'title': 'Original wording'}],
+            'assets/research/event-index.json': [{'p': old, 'participants': [{'id': old, 'role': 'father'}]}],
+        }
+        for relative, value in fixtures.items():
+            target = web / relative
+            target.parent.mkdir(parents=True, exist_ok=True)
+            target.write_text(json.dumps(value))
+        module.retire_creation_context(web, {old: current})
+        self.assertEqual([{'slug': current}], self.read('assets/research/registry.json'))
+        self.assertEqual([[current, 'Current']], self.read('assets/v3/people-quick.json'))
+        self.assertEqual([['Current', current]], self.read('assets/v3/registry-packed.json')['rows'])
+        record = self.read('assets/research/record-index.json')[0]
+        self.assertEqual(('record-1', current, 'Original wording'), (record['id'], record['p'], record['title']))
+        self.assertEqual(old, record['native_merge_original_person'])
+        participant = self.read('assets/research/event-index.json')[0]['participants'][0]
+        self.assertEqual(current, participant['id'])
+        self.assertEqual(old, participant['native_merge_original_id'])
+        self.assertIn(current, self.read('assets/research/people/' + old + '.json')['redirect_to'])
+        module.retire_creation_context(web, {}, restored={old})
+        self.assertEqual(old, self.read('assets/research/record-index.json')[0]['p'])
+        self.assertEqual(old, self.read('assets/research/event-index.json')[0]['participants'][0]['id'])
+
+    def test_merge_fills_only_consistent_empty_scalars_and_filters_self_candidates(self):
+        other = deepcopy(self.entry)
+        other.update(catalogue_id='record-other', birth='1700', gender='Female',
+                     candidates=[{'profile_id': self.slug}, {'profile_id': 'record-other'}, {'profile_id': 'Example-2'}])
+        projected = module._project_creation_merges([self.entry, other], {'record-other': self.slug}, {})[0]
+        self.assertEqual('1700', projected['birth'])
+        self.assertEqual([{'profile_id': 'Example-2'}], projected['candidates'])
+        self.assertEqual(3, len(projected['merged_source_accounts'][1]['candidates']))
+        other['gender'] = 'Male'
+        with self.assertRaisesRegex(ValueError, 'conflicting gender'):
+            module._project_creation_merges([self.entry, other], {'record-other': self.slug}, {})
+
+    def test_native_merge_projects_all_sources_preserves_hold_and_undo(self):
+        from genealogy.cli import initialize_project
+        from genealogy.store import Research, open_project
+        other = deepcopy(self.entry)
+        old = 'record-jane-another-account'
+        other.update(catalogue_id=old, subject_id='jane-other',
+                     source_subject_url='https://example.org/deed-1785',
+                     draft_path='research/drafts/other.wiki', creation_status='identity_hold',
+                     candidates=[{'profile_id': 'Example-2', 'note': 'Still a candidate'}])
+        other['records'][0]['source_url'] = other['source_subject_url']
+        other['draft_wikitext'] = self.draft.replace(self.url, other['source_subject_url']).replace(
+            '<ref>', '<ref name="shared citation">').replace('== Research Notes ==',
+            'A reused citation.<ref name="shared citation" />\n== Research Notes ==')
+        (self.root / other['draft_path']).write_text(other['draft_wikitext'])
+        manifest = self.root / module.MANIFEST
+        manifest.write_text(json.dumps({'new_people': [self.entry, other]}))
+        original_manifest = manifest.read_bytes()
+        import shutil
+        native = self.root / 'native'
+        initialize_project(native, 'Fictional duplicate research')
+        (self.root / 'genealogy.toml').write_text((native / 'genealogy.toml').read_text())
+        with open_project(native) as project:
+            relative_database = project.settings.database
+            database = project.database_path
+        target_database = self.root / relative_database
+        target_database.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(database, target_database)
+        with open_project(self.root) as project:
+            research = Research(project.store)
+            with project.store.write(actor='test') as tx:
+                for ident, alias in [('survivor', self.slug), ('retired', old)]:
+                    research.create_person(tx, id=ident)
+                    research.map_external(tx, ident, 'glasgow-local', alias)
+                merge = research.merge_people(tx, survivor_id='survivor', retired_id='retired',
+                    reason='Same deed subject; wider identity remains on hold')
+        projected = module.reviewed_people(self.root, [self.slug])
+        self.assertEqual(1, len(projected))
+        entry = projected[0]
+        self.assertEqual('identity_hold', entry['creation_status'])
+        self.assertEqual(2, len(entry['records']))
+        self.assertEqual(2, len(entry['merged_source_accounts']))
+        self.assertEqual(other['candidates'], entry['candidates'])
+        self.assertIn('wider identity remains on hold', entry['assessment'])
+        self.assertIn('name="merged1-shared citation"', entry['draft_wikitext'])
+        self.assertEqual(2, entry['draft_wikitext'].count('name="merged1-shared citation"'))
+        self.assertIn(other['source_subject_url'], entry['draft_wikitext'])
+        self.assertEqual([self.slug], [row['catalogue_id'] for row in
+            module.reviewed_people(self.root, [old])])
+        web = self.root / 'www'
+        route = web / 'assets/unified/routes.js'
+        route.parent.mkdir(parents=True)
+        route.write_text('window.GlasgowRoutes=' + json.dumps({old: old}) + ';')
+        for path, data in [('data/people.json', {'people': [{'catalogue_id': old}]}),
+                           ('data/catalogue-search-index.json', [{'id': old}]),
+                           ('data/people-index.json', [{'catalogue_id': old, 'id': old}])]:
+            target = web / path
+            target.parent.mkdir(parents=True, exist_ok=True)
+            target.write_text(json.dumps(data))
+        module.apply_creations(self.root, [self.slug])
+        self.assertEqual([self.slug], [row['catalogue_id'] for row in self.read('data/people.json')['people']])
+        self.assertNotIn(old, [row['id'] for row in self.read('data/catalogue-search-index.json')])
+        self.assertIn(self.slug + '.html', (web / 'people' / (old + '.html')).read_text())
+        self.assertEqual(self.slug, self.read('people/' + old + '.json')['native_merge_redirect'])
+        self.assertEqual(2, len(self.read('people/' + self.slug + '.json')['provenance']['merged_source_accounts']))
+        self.assertEqual(original_manifest, manifest.read_bytes())
+        with open_project(self.root) as project:
+            with project.store.write(actor='test') as tx:
+                Research(project.store).undo_merge(tx, merge, reason='Test reversal')
+        self.assertEqual(2, len(module.reviewed_people(self.root)))
+        module.apply_creations(self.root)
+        self.assertEqual(2, len(self.read('data/people.json')['people']))
+        self.assertNotIn('native_merge_redirect', self.read('people/' + old + '.json'))
+
     def test_external_relative_links_use_existing_accounts_without_new_people(self):
         row={'id':'Example-2','url':'/people/example-2.html',
              'wikitree_url':'https://www.wikitree.com/wiki/Example-2'}

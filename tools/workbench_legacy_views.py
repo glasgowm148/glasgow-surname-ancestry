@@ -312,8 +312,46 @@ class Views:
         row.update(self.derived_assessment(revisions, {}))
         return row
 
+    def _merged_claim_origins(self):
+        """Recover literal pre-merge aliases for native claims from reversible merge receipts."""
+        if not self._merged_entities:
+            return {}
+        aliases = {row["id"]: row for row in self.store.all("SELECT id,system,value FROM external_id")}
+        merges = self.store.all("SELECT id,kind,survivor_id,retired_ids,moved_json,reason FROM entity_merge")
+        undone = {row["reason"].split("undo ", 1)[1].split(":", 1)[0] for row in merges
+                  if row["kind"] == "split" and str(row["reason"] or "").startswith("undo ")}
+        active = [row for row in merges if row["kind"] == "merge" and row["id"] not in undone]
+        direct = {retired: row["survivor_id"] for row in active for retired in json.loads(row["retired_ids"])}
+        origins = {}
+        def depth(person):
+            seen = set()
+            while person in direct and person not in seen:
+                seen.add(person)
+                person = direct[person]
+            return len(seen)
+        for merge in active:
+            retired = json.loads(merge["retired_ids"])[0]
+            moved = json.loads(merge["moved_json"])["rows"]
+            values = [aliases[item["key"]["id"]] for item in moved
+                      if item["table"] == "external_id" and item.get("status") == "current"
+                      and item["key"].get("id") in aliases]
+            values = [row for row in values if row["system"] in {"wikitree", "glasgow-local"}]
+            values.sort(key=lambda row: row["system"] != "wikitree")
+            if not values:
+                continue
+            alias = values[0]["value"]
+            for item in moved:
+                if item["table"] != "claim" or item.get("kept_on_retired"):
+                    continue
+                pair = (item["key"]["id"], item["column"])
+                if pair not in origins or depth(retired) > origins[pair][0]:
+                    origins[pair] = (depth(retired), alias)
+        return {pair: value for pair, (_, value) in origins.items()}
+
     def estimates(self) -> list[dict[str, Any]]:
         legacy, new = [], []
+        originals = {}
+        claim_origins = self._merged_claim_origins()
         for claim in self.claims():
             extra = claim["extra"]
             revisions = self.revisions(claim["id"])
@@ -321,7 +359,9 @@ class Views:
             percent = current["estimate_percent"] if current else None
             for index, row in extra.get("legacy_estimates", []):
                 if self.migrated(current) and row.get("percent") == percent:
-                    legacy.append((index, self._legacy_participants(row)))
+                    projected = self._legacy_participants(row)
+                    originals[id(projected)] = row
+                    legacy.append((index, projected))
                     continue
                 corrected = dict(row)
                 corrected = self._legacy_participants(corrected)
@@ -340,6 +380,7 @@ class Views:
                         if current["basis_json"]:
                             corrected["source_ids"] = json.loads(current["basis_json"])
                         corrected.update(research_fields(current))
+                originals[id(corrected)] = row
                 legacy.append((index, corrected))
             if not extra.get("legacy_estimates") and "legacy" not in extra and current is not None \
                     and percent is not None and self.researched_here(claim):
@@ -352,13 +393,69 @@ class Views:
                     display_role = ("stepfather" if role == "father" else "stepmother" if role == "mother"
                                     else "stepchild" if role == "child" else role) \
                     if relation_type == "step" else role
-                    new.append({"subject_id": subject, "relative_id": other, "relationship": display_role, "percent": percent,
+                    row = {"subject_id": subject, "relative_id": other, "relationship": display_role, "percent": percent,
                                 "assessment_status": current["status"], "assertion_id": aid,
                                 "basis": current["reasoning"], "reviewed": current["assessed_on"],
                                 "source_ids": json.loads(current["basis_json"] or "[]"),
                                 **({"scope": current["limitations"]} if current["limitations"] is not None else {}),
-                                **research_fields(current)})
-        return [row for _, row in sorted(legacy, key=lambda item: item[0])] + new
+                                **research_fields(current)}
+                    new.append(row)
+                    original = dict(row)
+                    child_origin = claim_origins.get((claim["id"], "subject_person_id"), child)
+                    relative_origin = claim_origins.get((claim["id"], "object_person_id"), relative)
+                    original.update(subject_id=child_origin if subject == child else relative_origin,
+                                    relative_id=relative_origin if subject == child else child_origin)
+                    originals[id(row)] = original
+        rows = [row for _, row in sorted(legacy, key=lambda item: item[0])] + new
+        return self._coalesce_merged_estimates(rows, originals)
+
+    def _coalesce_merged_estimates(self, rows, originals):
+        """One current pair after a native identity merge; all original estimates remain auditable."""
+        def key(row):
+            return (str(row.get("subject_id", "")).casefold(),
+                    str(row.get("relative_id", "")).casefold(), row.get("relationship"))
+
+        groups = {}
+        for row in rows:
+            if row.get("lifecycle") in {"historical", "superseded"} and (
+                    row.get("percent") is None or row.get("display") == "historical"):
+                continue
+            groups.setdefault(key(row), []).append(row)
+        replacements, omitted = {}, set()
+        for pair, members in groups.items():
+            if len(members) < 2:
+                continue
+            source_rows = [originals.get(id(row), row) for row in members]
+            original_pairs = {key(row) for row in source_rows}
+            changed = any(key(source) != pair for source in source_rows)
+            # Existing independent duplicate claims still fail the downstream strict index.
+            if not changed or len(original_pairs) != len(members):
+                continue
+            fields = ("percent", "assessment_status", "lifecycle", "display", "working_selection")
+            signatures = {tuple(row.get(field) for field in fields) for row in members}
+            if len(signatures) != 1:
+                raise ValueError(f"Native identity merge has conflicting current estimates: {pair}")
+            combined = dict(members[0])
+            combined["merged_estimate_provenance"] = [
+                {"original": source, "current": row} for source, row in zip(source_rows, members)]
+            combined["native_identity_merges"] = {old: target for old, target in self._merged_public.items()
+                if old.casefold() in {value for source in source_rows for value in key(source)[:2]}
+                and target.casefold() in pair[:2]}
+            combined["assertion_ids"] = list(dict.fromkeys(row["assertion_id"] for row in members if row.get("assertion_id")))
+            for field in ("source_ids", "assessment_history"):
+                values = []
+                for row in members:
+                    for value in row.get(field, []) or []:
+                        if value not in values:
+                            values.append(value)
+                if values:
+                    combined[field] = values
+            combined["basis"] = "\n\n".join(dict.fromkeys(row.get("basis") or "" for row in members))
+            replacements[id(members[0])] = combined
+            omitted.update(id(row) for row in members[1:])
+        return [replacements.get(id(row), row) for row in rows if id(row) not in omitted]
+
+
 
     def estimates_document(self) -> dict[str, Any]:
         header = json.loads(self.store.meta("glasgow.estimates_header") or "{}")

@@ -84306,6 +84306,50 @@
           "explanation": "Select George Glasgow-1070 as the possible father of the Crawford Robert Glasgow/Isabel Porteous household, 55% subjective confidence in the full relationship. The leading childhood comparison is Robert Glasgow-1122, baptised 12 December 1742 at Covington and Thankerton to George Glasgow and Agnes Williamson. He would be about 24 at Mary’s 1767 baptism, 26 at George’s 1769 baptism and 31 in 1774. The nearby upper-Clyde parishes, compatible generation, matching full name and the later son George favour this existing family over an unspecified father. The son’s name is only modest supporting context, not a naming rule. No conflicting adult event is known for Robert-1122. This is a new working father hypothesis for an existing parentless account, not a newly discovered baptism or a demonstrated adult identity."
         }
       ]
+    },
+    {
+      "id": "catalogue-duplicate-accounts-20261112",
+      "found_on": "2026-11-12",
+      "kind": "biographical",
+      "status": "qualified",
+      "finding": "Repeated index imports described the same named people and events in separate catalogue accounts. Seventy-two documentary groups are consolidated, retiring 77 redundant entries while preserving their sources. Six A E Glasgow Royal Sussex medal-card accounts now share one held research account.",
+      "qualification": "Catalogue-wide comparison of saved indexed evidence, not fresh inspection of original images. Exact named events support the other consolidations. The A E Glasgow cluster may still contain more than one serviceman; full identity remains unresolved. Namesakes without distinguishing evidence, including a conflicting-birth James Glasgow pair, remain separate. No parent confidence upgrade or live WikiTree merge.",
+      "people": [
+        {
+          "id": "record-anc-a-e-glasgow-1905-64773",
+          "name": "A E Glasgow",
+          "url": "/people/record-anc-a-e-glasgow-1905-64773.html"
+        },
+        {
+          "id": "record-ancestry-glasgow-0104e36dbcaf",
+          "name": "John Glasgow",
+          "url": "/people/record-ancestry-glasgow-0104e36dbcaf.html"
+        },
+        {
+          "id": "record-ancestry-glasgow-02b530eb7322",
+          "name": "William Glasgow",
+          "url": "/people/record-ancestry-glasgow-02b530eb7322.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "UK, British Army World War I Medal Rolls Index Cards, 1914-1920 - Ancestry.co.uk — A E Glasgow",
+          "url": "https://www.ancestry.co.uk/search/collections/1262/records/10964773"
+        },
+        {
+          "title": "Ancestry, Scotland, Select Births and Baptisms, 1564-1950: John Glasgow, 25 Jul 1701",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/19969912"
+        },
+        {
+          "title": "Ancestry, Scotland, Select Births and Baptisms, 1564-1950: William Glasgow, 27 Aug 1710",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/5537561"
+        }
+      ],
+      "detail_url": "/people/record-anc-a-e-glasgow-1905-64773.html",
+      "provenance": [
+        "research/catalogue-duplicate-audit-2026-11-12.md",
+        "research/queue-review-2026-10-17/catalogue-integration.json"
+      ]
     }
   ]
 }

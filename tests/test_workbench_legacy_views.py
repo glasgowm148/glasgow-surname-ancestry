@@ -8,6 +8,49 @@ from tools.workbench_legacy_views import Views
 
 
 class NativeMergeProjectionTests(unittest.TestCase):
+    def test_equivalent_native_claim_estimates_coalesce_only_after_merge_and_undo(self):
+        from genealogy.cli import initialize_project
+        from genealogy.store import Research, open_project
+        from tools.relationship_probability import index_reviewed_estimates
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory) / 'project'
+            initialize_project(root, 'Fictional matching assessments')
+            with open_project(root) as project:
+                research = Research(project.store)
+                with project.store.write(actor='test', tool='genealogy.assess') as tx:
+                    for person, alias in [('old', 'record-old'), ('survivor', 'record-current'), ('father', 'Fable-1')]:
+                        research.create_person(tx, id=person)
+                        research.map_external(tx, person, 'wikitree' if person == 'father' else 'glasgow-local', alias)
+                    for child in ('old', 'survivor'):
+                        claim = research.relationship_claim(tx, id='claim-' + child,
+                            child_id=child, relative_id='father', role='father', publication_status='approved')
+                        research.assess(tx, claim, status='probable', estimate_percent=80,
+                            estimate_kind='subjective', reasoning='Source basis for ' + child,
+                            working_selection=True, extra={'lifecycle': 'current', 'display': 'current'})
+                before = Views(project.store).estimates()
+                self.assertEqual(4, len(index_reviewed_estimates(before)))
+                with project.store.write(actor='test') as tx:
+                    merge = research.merge_people(tx, survivor_id='survivor', retired_id='old', reason='same event')
+                view = Views(project.store)
+                rows = view.estimates()
+                self.assertEqual(2, len(index_reviewed_estimates(rows)))
+                self.assertEqual(2, len(view.assessments()))
+                forward = next(row for row in rows if row['relationship'] == 'father')
+                self.assertEqual({'claim-old', 'claim-survivor'}, set(forward['assertion_ids']))
+                self.assertEqual({'record-old', 'record-current'},
+                    {item['original']['subject_id'] for item in forward['merged_estimate_provenance']})
+                self.assertIn('Source basis for old', forward['basis'])
+                self.assertIn('Source basis for survivor', forward['basis'])
+                with project.store.write(actor='test', tool='genealogy.assess') as tx:
+                    research.assess(tx, 'claim-old', expected_revision=1, status='probable',
+                        estimate_percent=81, estimate_kind='subjective', reasoning='Conflicting revision',
+                        working_selection=True, extra={'lifecycle': 'current', 'display': 'current'})
+                with self.assertRaisesRegex(ValueError, 'conflicting current estimates'):
+                    Views(project.store).estimates()
+                with project.store.write(actor='test') as tx:
+                    research.undo_merge(tx, merge, reason='Review changed')
+                self.assertEqual(4, len(index_reviewed_estimates(Views(project.store).estimates())))
+
     def test_native_merge_chain_and_undo_preserve_historical_participants(self):
         from genealogy.cli import initialize_project
         from genealogy.store import Research, open_project
