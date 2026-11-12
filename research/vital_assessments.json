@@ -3217,6 +3217,84 @@
         "prior_death": "unknown",
         "supplied_full_transcription": "partly verified; only checked clauses used"
       }
+    },
+    {
+      "schema_version": 3,
+      "id": "thomas-glasgow-ticket-death-bound-20261112",
+      "subject": "record-thomas-glasgow-navy-ticket-1711",
+      "status": "approved",
+      "reviewed": "2026-11-12",
+      "basis": "ADM 106/663/238, 9 February 1711: catalogue explicitly says Thomas Glasgow has died.",
+      "summary": "Deceased by 9 February 1711; exact death date and place unknown.",
+      "source_ids": [
+        "tna-thomas-glasgow-ticket-1711"
+      ],
+      "vitals": {
+        "death": {
+          "date": "before 10 February 1711",
+          "place": null,
+          "status": "supported",
+          "note": "Letter dated 9 February 1711 says he had died. This is a latest-death bound, not an exact date. Tower Hill is the writer’s address and is not a death place. Original letter uninspected.",
+          "source_url": "https://discovery.nationalarchives.gov.uk/details/r/C16638332",
+          "source_level": "Official archival catalogue description; original unread",
+          "qualifier": "Deceased by 9 February 1711; exact date and place unknown."
+        }
+      },
+      "vital_qualifications": {
+        "death": "Deceased by 9 February 1711; exact date/place unknown."
+      }
+    },
+    {
+      "schema_version": 3,
+      "id": "samuel-pen-cutter-birth-bound-20261112",
+      "subject": "record-samuel-glasgow-london-amicable",
+      "status": "approved",
+      "reviewed": "2026-11-12",
+      "basis": "The held Amicable Society notice was published 14 and 15 July 1795 and reports deaths for 1794 (Old Style); the probate catalogue is dated 27 March 1795. Before 1796 is a conservative record-derived upper bound, not a birth year, exact birthday or inferred age. The notice’s Old Style wording is preserved without calendar conversion. No birthplace is established.",
+      "summary": "Birth before 1796; record-derived upper bound, not birth year.",
+      "source_ids": [
+        "tna-samuel-glasgow-pencutter-will-1795"
+      ],
+      "vitals": {
+        "birth": {
+          "date": "before 1796",
+          "place": null,
+          "status": "uncertain",
+          "note": "The held Amicable Society notice was published 14 and 15 July 1795 and reports deaths for 1794 (Old Style); the probate catalogue is dated 27 March 1795. Before 1796 is a conservative record-derived upper bound, not a birth year, exact birthday or inferred age. The notice’s Old Style wording is preserved without calendar conversion. No birthplace is established.",
+          "source_url": "https://www.newspapers.com/image/32751669/",
+          "source_level": "Previously inspected Amicable notice, reused; probate catalogue unread",
+          "qualifier": "Record-derived upper bound, not birth year; no age or birthplace inferred."
+        }
+      },
+      "vital_qualifications": {
+        "birth": "Record-derived upper bound, not birth year; no age or birthplace inferred."
+      }
+    },
+    {
+      "schema_version": 3,
+      "id": "john-anderston-manufacturer-birth-bound-20261112",
+      "subject": "record-john-glasgow-anderston-manufacturer",
+      "status": "approved",
+      "reviewed": "2026-11-12",
+      "basis": "The first held policy entry names John Glasgow as an insured manufacturer at Anderston on 1 October 1788. Before 1789 is a conservative record-derived upper bound, not a birth year, exact birthday or inferred age. No birthplace is established; same-man continuity with the 1792 policy remains tentative.",
+      "summary": "Birth before 1789; record-derived upper bound, not birth year.",
+      "source_ids": [
+        "tna-john-glasgow-anderston-policy-1788"
+      ],
+      "vitals": {
+        "birth": {
+          "date": "before 1789",
+          "place": null,
+          "status": "uncertain",
+          "note": "The first held policy entry names John Glasgow as an insured manufacturer at Anderston on 1 October 1788. Before 1789 is a conservative record-derived upper bound, not a birth year, exact birthday or inferred age. No birthplace is established; same-man continuity with the 1792 policy remains tentative.",
+          "source_url": "https://discovery.nationalarchives.gov.uk/details/r/759aad01-4282-444a-bfa5-7650c4796bbd",
+          "source_level": "Official policy catalogue; original policy unread",
+          "qualifier": "Record-derived upper bound, not birth year; no age or birthplace inferred."
+        }
+      },
+      "vital_qualifications": {
+        "birth": "Record-derived upper bound, not birth year; no age or birthplace inferred."
+      }
     }
   ]
 }

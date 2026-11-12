@@ -20576,11 +20576,13 @@
       "kind": "biographical",
       "finding": "Samuel Glasgow, pen-cutter, formerly of Shaftesbury Place, Aldersgate Street, and afterwards Webber Street, Surrey Road, is item 70 in an Amicable Society notice concerning deaths in 1794 (Old Style).",
       "status": "confirmed",
-      "qualification": "A London death in 1794 (Old Style) is reported. No supported candidate links him to the American Samuels or the 1761 defendant. Later American death estimates create conditional conflicts.",
+      "qualification": "A London death in 1794 (Old Style) is reported. No supported candidate links him to the American Samuels or the 1761 defendant. Later American death estimates create conditional conflicts. Archive addition reviewed 12 November 2026: PROB 11/1257/293 describes Samuel Glasgow, pen-cutter of Christ Church, Surrey, catalogued 27 March 1795. Strong compatible record-cluster match, not proved modern-profile identity; original will unread. Existing estimated-date rivals remain, and no 1761 defendant identification follows.",
       "people": [
         {
+          "id": "record-samuel-glasgow-london-amicable",
           "name": "Samuel Glasgow, London pen-cutter",
-          "url": "/research/subjects/newspapers-early-glasgow/#samuel-glasgow-london-amicable"
+          "role": "Existing consolidated documentary account; modern-profile identity unresolved",
+          "url": "/people/record-samuel-glasgow-london-amicable.html"
         }
       ],
       "sources": [
@@ -20591,12 +20593,17 @@
         {
           "title": "The Times, 1795-07-15, p.1",
           "url": "https://www.newspapers.com/image/32751719/"
+        },
+        {
+          "title": "The National Archives, PROB 11/1257/293, catalogue date 27 March 1795",
+          "url": "https://discovery.nationalarchives.gov.uk/details/r/D318783"
         }
       ],
-      "detail_url": "/sources/newspapers/#newspaper-32751669",
+      "detail_url": "/people/record-samuel-glasgow-london-amicable.html",
       "provenance": [
         "surname-research/indexes/glasgow-newspaper-review.json",
-        "surname-research/new-people/pre1800_samuel-glasgow-london-amicable.md"
+        "surname-research/new-people/pre 1800_samuel-glasgow-london-amicable.md",
+        "research/record-samuel-glasgow-london-amicable/findings.md"
       ]
     },
     {
@@ -84742,6 +84749,63 @@
       "provenance": [
         "research/Glasgow-4124/will-1716-transcription.md",
         "research/Glasgow-4124/findings.md"
+      ]
+    },
+    {
+      "id": "tna-thomas-glasgow-ticket-1711-20261112",
+      "found_on": "2026-11-12",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "An official 9 February 1711 naval letter description states that Thomas Glasgow had died and Captain Hemington was sending his ticket.",
+      "qualification": "The catalogue gives no age, ship, rank, trade, birthplace, family or death place. Tower Hill identifies Captain Hemington’s writing location, not Thomas’s residence or death. None of the checked Thomas accounts is positively identified. Retain chronologically compatible candidates; missing naval details or locality alone do not exclude them. Glasgow-3943 has a later concrete death date 6 October 1725 and cannot be this deceased 1711 subject if that date belongs to him. Glasgow-1103’s circa 1675 death remains an estimated conflict, not a firm exclusion. Original uninspected; no live edit, profile merger or relationship confidence change.",
+      "people": [
+        {
+          "id": "record-thomas-glasgow-navy-ticket-1711",
+          "name": "Thomas Glasgow",
+          "role": "Held documentary account; existing-profile identity unresolved",
+          "url": "/people/record-thomas-glasgow-navy-ticket-1711.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The National Archives ADM 106/663/238",
+          "url": "https://discovery.nationalarchives.gov.uk/details/r/C16638332"
+        }
+      ],
+      "detail_url": "/people/record-thomas-glasgow-navy-ticket-1711.html",
+      "provenance": [
+        "research/record-thomas-glasgow-navy-ticket-1711/findings.md"
+      ]
+    },
+    {
+      "id": "john-glasgow-anderston-policies-20261112",
+      "found_on": "2026-11-12",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "Two Sun Fire Office catalogue entries identify John Glasgow as a manufacturer at Anderston on 1 Oct 1788 and 29 Mar 1792. They support a provisional same-subject grouping, not proven same-man continuity or profile attribution. Glasgow-2871 is chronologically compatible because his recorded death (3 Apr 1792) follows the second entry.",
+      "qualification": "Two official catalogue descriptions, original policies uninspected and reported not digitised. Same-man continuity remains tentative; Glasgow-2871 profile identification is possible and unproved. No family attachment, merge or confidence change.",
+      "people": [
+        {
+          "id": "record-john-glasgow-anderston-manufacturer",
+          "name": "John Glasgow, Anderston manufacturer",
+          "role": "Qualified consolidated documentary account for two policies",
+          "url": "/people/record-john-glasgow-anderston-manufacturer.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Sun Fire Office policy register, MS 11936/356/548623",
+          "url": "https://discovery.nationalarchives.gov.uk/details/r/759aad01-4282-444a-bfa5-7650c4796bbd"
+        },
+        {
+          "title": "Sun Fire Office policy register, MS 11936/386/598338",
+          "url": "https://discovery.nationalarchives.gov.uk/details/r/20a9024e-49f2-4786-b28b-842289523374"
+        }
+      ],
+      "detail_url": "/people/record-john-glasgow-anderston-manufacturer.html",
+      "provenance": [
+        "research/record-john-glasgow-anderston-manufacturer/findings.md",
+        "research/record-john-glasgow-anderston-manufacturer/profile-draft.wiki"
       ]
     }
   ]

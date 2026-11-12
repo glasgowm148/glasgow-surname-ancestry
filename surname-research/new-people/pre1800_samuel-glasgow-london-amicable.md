@@ -31,3 +31,30 @@ The notice reports a London death in 1794. WikiTree Samuels of the era are Glasg
 - [July 1795 Amicable Society notice listing Samuel Glasgow, pen-cutter, of Shaftesbury Place, Aldersgate Street, later Webber Street, Surrey Road, among members who died in 1794. He is a London tradesman with no WikiTree profile.](https://www.newspapers.com/image/32751669/)
 
 Searches: wt.py search Samuel Glasgow 1700-1735 and 1735-1775; Samuel Glascow 1715-1745.
+
+
+## Probate catalogue addition — 12 November 2026
+
+The 1795 probate catalogue’s Samuel Glasgow, pen-cutter of Christ Church, Surrey, is strongly compatible with the existing Amicable pen-cutter formerly of Shaftesbury Place, Aldersgate Street, and later Webber Street, Surrey Road. The uncommon occupation, name and compatible Surrey context support one consolidated documentary account. The original will, beneficiary names and address remain uninspected, so the cluster match is strong rather than proved. Preserve the Amicable notice’s 1794(Old Style) wording; do not equate the catalogue’s 27 March 1795 date with an execution or death day before inspecting the probate copy.
+
+[The National Archives Discovery D318783](https://discovery.nationalarchives.gov.uk/details/r/D318783), PROB 11/1257/293. Catalogue description only; the original is described as digitised but has not been inspected for this proposal. No birth, death, spouse or parent field is changed from the catalogue alone. Existing candidate holds, including Glasgow-3175’s conditional estimated-date conflict, remain.
+
+## Updated complete consolidated draft — 12 November 2026
+
+[[Category:Glasgow Name Study]]
+== Biography ==
+Samuel Glasgow was a London-area pen-cutter. An Amicable Society notice, headed 10 July 1795 and printed 14 and 15 July 1795, lists him as formerly of Shaftesbury Place, Aldersgate Street, and afterwards Webber Street, Surrey Road. It includes him among members whose deaths were reported for 1794 (Old Style); no exact death day is given.<ref>[https://www.newspapers.com/image/32751669/ The Times, 14 July 1795, p.1], and [https://www.newspapers.com/image/32751719/ The Times, 15 July 1795, p.1]; originals inspected 5 October 2026, reused here.</ref>
+
+The National Archives catalogue describes a will for Samuel Glasgow, pen-cutter of Christ Church, Surrey, dated in the catalogue 27 March 1795, PROB 11/1257/293.<ref>The National Archives, [https://discovery.nationalarchives.gov.uk/details/r/D318783 Discovery D318783], PROB 11/1257/293, 27 March 1795; official catalogue/API description reviewed 12 November 2026. Original probate copy uninspected in this review; described as digitised.</ref> The matching uncommon trade and Surrey setting strongly support treating the two records as one documentary account, pending the will’s exact address and family details. His birth, exact death date and family remain unknown. Christ Church is the catalogue’s locality, not proof of birthplace or death place.
+
+His birth is conservatively bounded before 1796 solely from the dated record. This is a record-derived upper bound, not his birth year; no age or birthplace is inferred.
+
+== Research Notes ==
+The 1795 probate catalogue’s Samuel Glasgow, pen-cutter of Christ Church, Surrey, is strongly compatible with the existing Amicable pen-cutter formerly of Shaftesbury Place, Aldersgate Street, and later Webber Street, Surrey Road. The uncommon occupation, name and compatible Surrey context support one consolidated documentary account. The original will, beneficiary names and address remain uninspected, so the cluster match is strong rather than proved. Preserve the Amicable notice’s 1794 (Old Style) wording; do not equate the catalogue’s 27 March 1795 date with an execution or death day before inspecting the probate copy.
+
+Retain the existing candidate profiles [[Glasgow-1133|Samuel Glasgow (1133)]], [[Glasgow-3524|Samuel Glasgow (3524)]], [[Glasgow-3166|Samuel Glasgow (3166)]], [[Glasgow-3175|Samuel Glasgow (3175)]], [[Glasgow-1492|Samuel Glasgow (1492)]], [[Glasgow-1134|Samuel Glasgow (1134)]]. Their identities are unproved. The specifically sourced 1818 Govan burial of nailer [[Glasgow-3063]] conflicts with the earlier London death account. Do not identify this pen-cutter with the 1761 Holborn/High Wycombe defendant solely from London context.
+
+The existing Amicable draft is reused and remains on HOLD. Inspect PROB 11/1257/293 for exact death/probate dates, address, relatives, occupation and executor, and compare the Amicable membership/death claim before a live creation or attachment. The catalogue date alone must not replace the notice’s reported death year.
+
+== Sources ==
+<references />

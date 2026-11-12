@@ -464,7 +464,7 @@ def _subject_page(template, main, clean, title, description):
     return _with_base(page, clean)
 
 
-def repair(web=WEB, ledger=LEDGER, *, refresh_subject_drafts=True):
+def repair(web=WEB, ledger=LEDGER, *, refresh_subject_drafts=True, refresh_tree_status=True):
     changed = Counter()
     if refresh_subject_drafts and web == WEB and (ROOT / 'research/latest-findings-subjects/subjects.json').exists():
         try:
@@ -568,7 +568,7 @@ def repair(web=WEB, ledger=LEDGER, *, refresh_subject_drafts=True):
         if updated != original:
             changes_path.write_text(updated, encoding='utf-8'); changed['latest_findings_links'] += 1
     # The whole-tree view's research marks follow the latest findings.
-    if Path(web).resolve() == WEB.resolve():
+    if refresh_tree_status and Path(web).resolve() == WEB.resolve():
         try:
             try:
                 from tools.build_tree_research_status import write as write_tree_status

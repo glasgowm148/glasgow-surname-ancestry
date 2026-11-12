@@ -410,6 +410,46 @@ class ResolvedDossierTests(unittest.TestCase):
             self.assertEqual(json.loads((root / 'assets/research/people/person-1.json').read_text())[
                 'relationships'], first['relationships'])
 
+    def test_targeted_publish_refreshes_alias_named_networks_by_person_identity(self):
+        for requested in ('Person-1', 'Alias-1'):
+            with self.subTest(requested=requested), tempfile.TemporaryDirectory() as temp:
+                root = Path(temp)
+                dossier = {'id': 'Person-1', 'profile_ids': ['Alias-1'],
+                           'vitals': {'birth': {'date': 'c. 1610'}},
+                           'relationships': {}, 'claims': []}
+                assessment = {'id': 'birth-review', 'subject': 'Person-1', 'status': 'approved',
+                              'reviewed': '2026-11-12', 'basis': 'Inspected birth record',
+                              'vitals': {'birth': {'date': '1601', 'status': 'supported'}}}
+                parent = {'assertion_id': 'parent-claim', 'people': ['Person-1', 'Parent-2'],
+                          'publication_status': 'approved', 'status': 'proved',
+                          'allow_new_relationship': True, 'source_ids': ['parent-record'],
+                          'perspectives': {'Person-1': {'relationship': 'father',
+                                                       'reason': 'Explicit parent record'}}}
+                files = {'people/person-1.json': dossier,
+                         'assets/research/assessments.json': {'assessments': [assessment]},
+                         'assets/research/relationship-assessments.json': [parent]}
+                networks = {'person-1': 'Person-1', 'alias-1': 'Alias-1',
+                            'retained-export': 'Person-1', 'person-2': 'Person-2'}
+                for filename, person_id in networks.items():
+                    files['people/' + filename + '.network.json'] = {
+                        'person': {'id': person_id}, 'relationships': [],
+                        'vitals': {'birth': {'date': 'c. 1700'}}, 'claims': []}
+                for name, value in files.items():
+                    path = root / name
+                    path.parent.mkdir(parents=True, exist_ok=True)
+                    path.write_text(json.dumps(value))
+                unrelated = (root / 'people/person-2.network.json').read_bytes()
+                module.publish(root, [requested])
+                published = json.loads((root / 'people/person-1.json').read_text())
+                self.assertEqual('1601', published['vitals']['birth']['date'])
+                self.assertEqual('Parent-2', published['relationships']['parents'][0]['id'])
+                for filename in ('person-1', 'alias-1', 'retained-export'):
+                    network = json.loads((root / ('people/' + filename + '.network.json')).read_text())
+                    self.assertEqual(published['vitals'], network['vitals'], filename)
+                    self.assertEqual(published['relationships']['parents'], network['relationships'], filename)
+                    self.assertEqual({'parent-claim'}, {claim['id'] for claim in network['claims']}, filename)
+                self.assertEqual(unrelated, (root / 'people/person-2.network.json').read_bytes())
+
     def test_targeted_publish_rejects_unknown_ids_before_writes(self):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)

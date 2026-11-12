@@ -526,7 +526,16 @@ def publish(root=ROOT / 'www', profile_ids=None):
     requested = None if profile_ids is None else {str(value).casefold() for value in profile_ids}
     if requested is not None and (not requested or '' in requested):
         raise ValueError('Requested profile IDs must be non-empty')
-    dossier_paths = sorted((root / 'people').glob('*.json'))
+    # Exact canonical IDs need only their own files. Preserve the broader
+    # lookup for aliases and redirect IDs whose canonical filename differs.
+    direct = ([root / 'people' / (ident + '.json') for ident in sorted(requested)]
+              if requested is not None and all(ident.isascii() and ident.replace('-', '').isalnum()
+                                                for ident in requested) else [])
+    direct_rows = [json.loads(path.read_text()) for path in direct if path.is_file()]
+    direct_keys = {key for path, row in zip(direct, direct_rows)
+                   if not row.get('redirect_to') for key in aliases(row, path.stem)} if len(direct_rows) == len(direct) else set()
+    dossier_paths = (direct if requested is not None and requested <= direct_keys
+                     else sorted((root / 'people').glob('*.json')))
     selected_keys = set()
     selected_paths = set(dossier_paths) if requested is None else set()
     if requested is not None:
@@ -653,6 +662,8 @@ def publish(root=ROOT / 'www', profile_ids=None):
                                      for row in payload['candidates']]
         if payload != before:
             path.write_text(prefix + json.dumps(payload, ensure_ascii=False, separators=(',', ':')) + (';\n' if prefix else '\n'))
+    # Retained exports may use alias or unrelated filenames. A single bounded
+    # scan preserves identity-based selection for every network representation.
     for path in sorted((root / 'people').glob('*.network.json')):
         before = json.loads(path.read_text())
         if requested is not None:

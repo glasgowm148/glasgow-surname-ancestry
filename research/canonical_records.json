@@ -595777,5 +595777,112 @@
       "research/Glasgow-4124/will-1716-transcription.md",
       "research/Glasgow-4124/findings.md"
     ]
+  },
+  {
+    "record_id": "tna-thomas-glasgow-ticket-1711",
+    "association": "Captain Hemington sends the ticket of deceased Thomas Glasgow",
+    "date": "9 February 1711",
+    "year": 1711,
+    "place": "Tower Hill, London, England (correspondent’s location)",
+    "source_url": "https://discovery.nationalarchives.gov.uk/details/r/C16638332",
+    "source_title": "The National Archives, ADM 106/663/238, folio 238",
+    "status": "Official catalogue description; original uninspected",
+    "note": "Captain Hemington, writing from the Thistle and Crown Inn, Tower Hill, sends Thomas Glasgow’s ticket and states he has died. Thomas’s exact death date, death place, residence, age, occupation and ship remain unknown.",
+    "role": "Named deceased ticket subject",
+    "profiles": {
+      "record-thomas-glasgow-navy-ticket-1711": {
+        "role": "Record-defined subject; modern profile identity unresolved",
+        "timeline_group": "Life events"
+      }
+    },
+    "reviewed_on": "2026-11-12",
+    "provenance": "Official National Archives Discovery/API description reviewed 12 November 2026; original manuscript uninspected, reported not digitised. Proposed maintained findings: research/record-thomas-glasgow-navy-ticket-1711/findings.md.",
+    "publish_to_record_index": true,
+    "record_category": "Other records",
+    "country": "england"
+  },
+  {
+    "record_id": "tna-samuel-glasgow-pencutter-will-1795",
+    "association": "Will catalogue: Samuel Glasgow, pen-cutter of Christ Church, Surrey",
+    "date": "27 March 1795 (catalogue date)",
+    "year": 1795,
+    "place": "Christ Church, Surrey, England",
+    "source_url": "https://discovery.nationalarchives.gov.uk/details/r/D318783",
+    "source_title": "The National Archives, PROB 11/1257/293",
+    "status": "Official probate catalogue; original unread",
+    "note": "The catalogue names Samuel Glasgow, pen-cutter of Christ Church, Surrey, and is dated 27 March 1795. Strong compatible match to the existing Amicable London pen-cutter, with identical uncommon occupation and compatible Surrey context; original address, family and precise date roles remain unchecked. No exact death day or kinship is inferred.",
+    "role": "Will subject; consolidated documentary candidate",
+    "profiles": {
+      "record-samuel-glasgow-london-amicable": {
+        "role": "Strongly compatible with existing Amicable pen-cutter; cluster identity not yet proved",
+        "identification_status": "candidate",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "reviewed_on": "2026-11-12",
+    "provenance": "Official National Archives Discovery/API description reviewed 12 November 2026; original probate copy uninspected. Reuses surname-research/new-people/pre 1800_samuel-glasgow-london-amicable.md and existing subject newspapers-early-glasgow/samuel-glasgow-london-amicable.",
+    "publish_to_record_index": true,
+    "record_category": "Wills and testaments",
+    "country": "england"
+  },
+  {
+    "record_id": "tna-john-glasgow-anderston-policy-1788",
+    "association": "Sun Fire Office: insured John Glasgow, manufacturer at Anderston",
+    "date": "1 October 1788",
+    "year": 1788,
+    "place": "Anderston, Barony, Lanarkshire, Scotland",
+    "source_url": "https://discovery.nationalarchives.gov.uk/details/r/759aad01-4282-444a-bfa5-7650c4796bbd",
+    "source_title": "The London Archives: City of London, Sun Fire Office policy register, MS 11936/356/548623",
+    "status": "Official insurance catalogue description; original uninspected",
+    "note": "Not digitised; original not inspected; catalogue text: insured John Glasgow, south side of village of Anderston, parish of Barony, Lanarkshire, manufacturer. Two same-name, same-trade Anderston entries support provisional same-subject continuity only. Glasgow-2871 remains chronologically compatible; no attribution, family or exact industry is established.",
+    "role": "Named insured manufacturer",
+    "profiles": {
+      "record-john-glasgow-anderston-manufacturer": {
+        "role": "Qualified consolidated documentary account; same-man continuity tentative",
+        "identification_status": "qualified",
+        "timeline_group": "Life events"
+      }
+    },
+    "reviewed_on": "2026-11-12",
+    "provenance": "Official Discovery catalogue description reviewed 12 November 2026; original insurance policy held by The London Archives, not inspected and reported not digitised. Same-subject continuity is tentative; no modern profile attribution.",
+    "provenance_details": {
+      "catalogue_id": "759aad01-4282-444a-bfa5-7650c4796bbd",
+      "archive_reference": "MS 11936/356/548623",
+      "source_holder": "The London Archives: City of London",
+      "review_packet": "/tmp/tna-early-glasgow-20261112/anderston-john-proposal.json"
+    },
+    "publish_to_record_index": true,
+    "record_category": "Insurance records",
+    "country": "scotland"
+  },
+  {
+    "record_id": "tna-john-glasgow-anderston-policy-1792",
+    "association": "Sun Fire Office: insured John Glasgow, manufacturer at Anderston",
+    "date": "29 March 1792",
+    "year": 1792,
+    "place": "Anderston, Barony, Lanarkshire, Scotland",
+    "source_url": "https://discovery.nationalarchives.gov.uk/details/r/20a9024e-49f2-4786-b28b-842289523374",
+    "source_title": "The London Archives: City of London, Sun Fire Office policy register, MS 11936/386/598338",
+    "status": "Official insurance catalogue description; original uninspected",
+    "note": "Not digitised; original not inspected; catalogue text: insured John Glasgow, south side main street, Anderston, manufacturer. Two same-name, same-trade Anderston entries support provisional same-subject continuity only. Glasgow-2871 remains chronologically compatible; no attribution, family or exact industry is established.",
+    "role": "Named insured manufacturer",
+    "profiles": {
+      "record-john-glasgow-anderston-manufacturer": {
+        "role": "Qualified consolidated documentary account; same-man continuity tentative",
+        "identification_status": "qualified",
+        "timeline_group": "Life events"
+      }
+    },
+    "reviewed_on": "2026-11-12",
+    "provenance": "Official Discovery catalogue description reviewed 12 November 2026; original insurance policy held by The London Archives, not inspected and reported not digitised. Same-subject continuity is tentative; no modern profile attribution.",
+    "provenance_details": {
+      "catalogue_id": "20a9024e-49f2-4786-b28b-842289523374",
+      "archive_reference": "MS 11936/386/598338",
+      "source_holder": "The London Archives: City of London",
+      "review_packet": "/tmp/tna-early-glasgow-20261112/anderston-john-proposal.json"
+    },
+    "publish_to_record_index": true,
+    "record_category": "Insurance records",
+    "country": "scotland"
   }
 ]

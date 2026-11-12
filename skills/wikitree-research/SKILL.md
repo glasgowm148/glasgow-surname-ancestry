@@ -11,6 +11,8 @@ description: Research historical WikiTree people, assess exact father–child co
 
 ## Working in this project (read first)
 
+- Qualified record bounds (owner correction, 12 November 2026): do not leave a new documentary account wholly undated when its earliest held dated appearance supports a conservative birth upper bound. Use a qualified “before the following year” boundary where appropriate, state that it is record-derived rather than a birth year, and never invent an age or birthplace. Preserve a better sourced or identity-defining estimate instead of replacing it with a weaker bound.
+
 - FamilySearch record-hint navigation (verified 12 November 2026): use the supported `/tree/person/research-help/<PID>` page to review a person’s actual active Record Hints and Dismissed Helps. The home `/en/home/tasks/` feed can be blank or stale; do not loop on it or infer completion from a visited card. Its Ignore action can merely hide a home task while leaving the hint in Research Help. Use the person’s Not a Match / Dismiss Match workflow, give the concrete record conflict, and verify the fully loaded active/dismissed counts for the correct PID. An already-attached record is not a new attachment; verify its exact record URL and skip duplicates.
 
 - FamilySearch search counts (owner correction, 12 November 2026): the owner removed the local daily search-count cap. Do not impose an arbitrary count limit or pause the authorized transfer to request a higher quota. Keep duplicate checks, existing request spacing, activity logs and explicit stop handling; an actual provider restriction remains a separate condition. The active helper is `/Users/m/genealogy/handoff-2026-11-05/scratchpad/fsthrottle.sh`.
