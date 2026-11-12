@@ -2,9 +2,9 @@
   "case_id": "Glasgow-3332",
   "findings": [
     {
-      "claim": "Glasgow-3332 cannot be the James deceased by 1624 and is only an unproved candidate for the 1680 Back of Lindsaylands weaver.",
-      "confidence": "high",
-      "reasoning": "His profile estimates birth in 1634; no record links him to the 1680 residence.",
+      "claim": "Glasgow-3332 is a compatible but unproved identity for the 1680 Back of Lindsaylands weaver. The estimated 1634 birth does not independently exclude the distinct 1624 testament subject.",
+      "confidence": "unresolved",
+      "reasoning": "The 1690 apprentice names a deceased Lindsayland weaver father James; name, trade, residence and prior death favour the 1680 testament subject. Selecting that documentary father as Glasgow-3332 remains a 46% identity assessment. No record independently establishes the profile’s estimated birth or its own parentage.",
       "sources": [
         "captures/20260717T084257Z_Glasgow-3332.json",
         "sources/grant_commissariot_of_lanark_testaments_1595_1800_1903.pdf"
@@ -50,5 +50,17 @@
       "updated_at": "2026-07-17T08:42:57Z"
     }
   ],
-  "web_searches": []
+  "web_searches": [],
+  "research_state": {
+    "disposition": "awaiting_source",
+    "father_id": "Glasgow-1086",
+    "reviewed": "2026-11-12",
+    "last_test": "The signed-in FamilySearch catalogue identifies film 231207, DGS 8461936, as Lanark testament registers volumes 9–10, 1673–1682. This is the film covering the indexed 10 November 1680 Lindsaylands testament, NRS CC14/5/10. Its viewer reports 591 images, but no manuscript rendered during this check at the opening images. The cause was not established: this is not a confirmed Centre-only restriction, nor a negative search of the testament. No original text has been read.",
+    "next_test": "Obtain the 1680 testament itself and compare its spouse, executors, children, debts and named associates with the Lindsayland apprentice, the 1648 Jamis father and the Whitecastle man. Check the original 1690 and 1696 indentures for a repeated identifier or an explanation of the score-out. A repeated index entry or catalogue availability check does not establish those identities.",
+    "resume_when": "An original testament, indenture or other record supplies a family or identity discriminator beyond the already inspected indexes.",
+    "review_conclusion": "The 1690 apprentice’s named deceased father remains a documented role; identifying that father with Glasgow-3332 remains possible at 46%. The latter’s own proposed father John-1086 is unchanged. The earlier plan’s categorical exclusion of the 1624 decedent from an estimated 1634 birth is withdrawn: that estimate cannot independently exclude an identity. The 1624 and 1680 testament subjects are distinct documentary occurrences; the profile’s identification still needs evidence. No merge, new relative or confidence gain is claimed.",
+    "review_source": "research/Glasgow-3332/findings.md"
+  },
+  "last_test": "The signed-in FamilySearch catalogue identifies film 231207, DGS 8461936, as Lanark testament registers volumes 9–10, 1673–1682. This is the film covering the indexed 10 November 1680 Lindsaylands testament, NRS CC14/5/10. Its viewer reports 591 images, but no manuscript rendered during this check at the opening images. The cause was not established: this is not a confirmed Centre-only restriction, nor a negative search of the testament. No original text has been read.",
+  "next_test": "Obtain the 1680 testament itself and compare its spouse, executors, children, debts and named associates with the Lindsayland apprentice, the 1648 Jamis father and the Whitecastle man. Check the original 1690 and 1696 indentures for a repeated identifier or an explanation of the score-out. A repeated index entry or catalogue availability check does not establish those identities."
 }

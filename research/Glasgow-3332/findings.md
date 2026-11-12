@@ -135,3 +135,14 @@ Sources: [Robert Wodrow, History of the Sufferings of the Church of Scotland (17
 
 - [Watson, Register of Edinburgh Apprentices, 1666–1700 (1929), printed p.37 / PDF p.47; held page visually rechecked 20 October 2026](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/edinburgh_apprentices_~_1666_to_1700_~_1929.pdf#page=47)
 - [Grant, Commissariot Record of Lanark (1903), pp.38/99; 1680 Lindsaylands weaver; held index account reused](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/the_commissariot_record_of_lanark__register_of_testaments__1595-1800_~_1903.pdf)
+
+
+## 12 November 2026 — original testament locator and remaining test
+
+The signed-in FamilySearch catalogue identifies film 231207, DGS 8461936, as Lanark testament registers volumes 9–10, 1673–1682. This is the film covering the indexed 10 November 1680 Lindsaylands testament, NRS CC14/5/10. Its viewer reports 591 images, but no manuscript rendered during this check at the opening images. The cause was not established: this is not a confirmed Centre-only restriction, nor a negative search of the testament. No original text has been read.
+
+The 1690 apprentice’s named deceased father remains a documented role; identifying that father with Glasgow-3332 remains possible at 46%. The latter’s own proposed father John-1086 is unchanged. The earlier plan’s categorical exclusion of the 1624 decedent from an estimated 1634 birth is withdrawn: that estimate cannot independently exclude an identity. The 1624 and 1680 testament subjects are distinct documentary occurrences; the profile’s identification still needs evidence. No merge, new relative or confidence gain is claimed.
+
+Obtain the 1680 testament itself and compare its spouse, executors, children, debts and named associates with the Lindsayland apprentice, the 1648 Jamis father and the Whitecastle man. Check the original 1690 and 1696 indentures for a repeated identifier or an explanation of the score-out. A repeated index entry or catalogue availability check does not establish those identities.
+
+[FamilySearch original-register catalogue](https://www.familysearch.org/en/search/catalog/koha:259832); [film viewer](https://www.familysearch.org/en/search/film/008461936?cat=259832).
