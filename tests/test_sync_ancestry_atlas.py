@@ -131,7 +131,8 @@ class AtlasWorkingTests(unittest.TestCase):
         self.assertEqual(overlay_model(result, fresh), result)
 
     def test_reviewed_family_alias_uses_canonical_account_without_merging_facts(self):
-        old = {'meta': {}, 'landmarks': [], 'sections': [], 'people': [
+        old = {'meta': {'publicFamilyScopeIds': ['Alias-1'],
+                        'workingOverlayIds': ['Alias-1']}, 'landmarks': [], 'sections': [], 'people': [
             {'id': '@smaller-families', 'kind': 'group'},
             {'id': 'Father-1', 'kind': 'person', 'partners': [
                 {'id': 'Alias-1', 'role': 'spouse', 'name': 'Superseded name'}]},
@@ -140,8 +141,11 @@ class AtlasWorkingTests(unittest.TestCase):
             {'id': 'Alias-1', 'kind': 'person', 'name': 'Superseded name', 'born': 1540}]}
         fresh = deepcopy(old)
         fresh['people'] = [p for p in fresh['people'] if p['id'] != 'Alias-1']
+        fresh['meta'].pop('workingOverlayIds')
+        fresh['meta'].pop('publicFamilyScopeIds')
         fresh['people'].append(dict(id='Mother-1', kind='person', name='Canonical mother', born=1560,
-                                   parents=[], partners=[{'id': 'Father-1'}], edge={'parent': '@smaller-families'}))
+                                   parents=[], partners=[{'id': 'Father-1'}],
+                                   edge={'parent': '@smaller-families', 'type': 'group', 'semantic': 'collection'}))
         fresh['meta'].update(date='2026-10-17', reviewedFamilyAliases={'Alias-1': 'Mother-1'})
         result = overlay_model(old, fresh)
         people = {p['id']: p for p in result['people']}

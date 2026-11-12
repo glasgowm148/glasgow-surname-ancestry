@@ -108,6 +108,19 @@ def overlay_model(retained: dict, fresh: dict, *, site_root: Path | None = None)
     aliases = fresh['meta'].get('reviewedFamilyAliases', {})
     if any(old == current or current not in incoming or current in aliases for old, current in aliases.items()):
         raise ValueError('Reviewed family aliases need canonical public model targets')
+    # Retained scope metadata can still name an account retired by a reviewed
+    # identity decision. Project the scopes as well as the family rows below.
+    def canonical_scope(ids):
+        return {aliases.get(ident, ident) for ident in ids}
+    selected = canonical_scope(selected)
+    prior_selected = canonical_scope(prior_selected)
+    documentary = canonical_scope(documentary)
+    reviewed = canonical_scope(reviewed)
+    restored = canonical_scope(restored)
+    public_families = canonical_scope(public_families)
+    previous_public = canonical_scope(previous_public)
+    refresh = canonical_scope(refresh)
+    sibling_scope = canonical_scope(sibling_scope)
     for old, current in aliases.items():
         existing.setdefault(current, deepcopy(incoming[current]))
         existing.pop(old, None)

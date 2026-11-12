@@ -1032,6 +1032,15 @@ def generate_model(catalogue_path: Path, prior: dict) -> dict:
     seeded_public = apply_public_families(people, ROOT / 'www', assessments=assessments, add_only=True)
     restored_family_ids = apply_recorded_family_restorations(people, assessments)
     family_aliases = reviewed_family_aliases(assessments, parent_aliases, {p['id'] for p in people})
+    from tools.queue_catalogue_creations import native_creation_merges
+    native_aliases, _ = native_creation_merges(ROOT)
+    model_ids = {p['id'] for p in people}
+    for old, current in native_aliases.items():
+        if current not in model_ids:
+            continue
+        if old in model_ids or family_aliases.get(old, current) != current:
+            raise ValueError('Conflicting native family alias: ' + old)
+        family_aliases[old] = current
     reviewed_parent_ids = apply_reviewed_parent_replacements(people, assessments)
     hypotheses = apply_working_hypotheses(people, assessments, parent_aliases)
     maternal_hypotheses = apply_working_mothers(people, assessments, ROOT / 'www')
