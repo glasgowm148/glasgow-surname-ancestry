@@ -3,11 +3,37 @@ from pathlib import Path
 import subprocess
 import unittest
 
-from tools.build_ancestry_progress import individual_finding_rows, pending_father_changes, named_father_review_counts, missing_father_priorities, parent_bands, parent_band_counts, PARENT_BANDS
+from tools.build_ancestry_progress import individual_finding_rows, pending_father_changes, named_father_review_counts, missing_father_priorities, published_next_test, parent_bands, parent_band_counts, PARENT_BANDS
 from tools.branch_connectivity import has_named_father, summarize
 
 
 class MissingFatherPriorityTests(unittest.TestCase):
+    def test_reviewed_unknown_keeps_specific_next_test_without_inventing_parent(self):
+        dossier = {'research_findings': [{'sections': [
+            {'title': 'Current conclusion', 'markdown': 'Father unknown; do not reuse the Scottish birthday.'},
+            {'title': 'Next useful test', 'markdown': 'Inspect **1850 Ohio** census and [church register](/sources/example/).\n\nKeep the Irish origin separate.'},
+        ]}]}
+        question = published_next_test(dossier)
+        row, = missing_father_priorities(
+            {'john': dict(name='John', url='/people/john.html', year=1774)},
+            [], {'john'}, {'john': False}, {'john': question})
+        self.assertEqual(row['next_test'], 'Inspect 1850 Ohio census and church register. Keep the Irish origin separate.')
+        self.assertIsNone(row['father'])
+        self.assertIsNone(row['confidence_percent'])
+        self.assertEqual(row['status'], 'unknown')
+
+    def test_latest_explicit_test_wins_and_other_prose_is_not_a_test(self):
+        dossier = {'research_findings': [
+            {'sections': [{'title': 'Next useful test', 'markdown': 'Old source.'}]},
+            {'sections': [{'title': 'Next ancestry test', 'markdown': 'Original probate.'}]},
+        ]}
+        self.assertEqual(published_next_test(dossier), 'Original probate.')
+        self.assertEqual(published_next_test({'research_findings': [{'sections': [
+            {'title': 'Next useful test', 'markdown': 'Search **Cecil** for `Glasg*`.'}]}]}),
+            'Search Cecil for Glasg*.')
+        self.assertEqual(published_next_test({'research_findings': [
+            {'sections': [{'title': 'Current conclusion', 'markdown': 'A possible father.'}]}]}), '')
+
     def test_missing_fathers_include_descendants_without_inventing_a_join(self):
         nodes = {key: dict(name=key, url=f'/people/{key}', year=1800)
                  for key in ['root', 'child', 'grandchild', 'other', 'outside', 'unavailable']}

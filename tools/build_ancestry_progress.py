@@ -271,7 +271,24 @@ def father_listing_counts(cohort_ids, listings):
                 unavailable_count=values.count(None), population=len(values))
 
 
-def missing_father_priorities(nodes, edges, cohort_ids, listings):
+def published_next_test(dossier):
+    """Reuse an explicit public next-step section, never infer a parent claim."""
+    titles = {'next useful test', 'next actual test', 'next discriminating test',
+              'next ancestry test', 'next research step', 'next steps'}
+    for finding in reversed(dossier.get('research_findings') or []):
+        for section in reversed(finding.get('sections') or []):
+            if str(section.get('title') or '').strip().casefold().rstrip(':') not in titles:
+                continue
+            text = str(section.get('markdown') or '').strip()
+            if text:
+                # The queue is plain text; its analysis link opens the full reading.
+                text = re.sub(r'\[([^\]]+)\]\([^\n)]*\)', r'\1', text)
+                text = text.replace('**', '').replace('`', '')
+                return re.sub(r'\s+', ' ', text).strip()
+    return ''
+
+
+def missing_father_priorities(nodes, edges, cohort_ids, listings, next_tests=None):
     """Rank absent fathers by existing descendant accounts, without a fake join."""
     cohort = set(cohort_ids) & nodes.keys()
     allowed = cohort | {ident for ident, node in nodes.items()
@@ -302,7 +319,7 @@ def missing_father_priorities(nodes, edges, cohort_ids, listings):
                  parent_side=None, cross_pairs=None, confident_parent_side=None,
                  confident_pair_gain=None, confident_component_reduction=None,
                  analysis_url=nodes[ident]['url'],
-                 next_test='Identify a father from the earliest records and family evidence for this branch.',
+                 next_test=(next_tests or {}).get(ident) or 'Identify a father from the earliest records and family evidence for this branch.',
                  last_review='')
             for ident in sorted(cohort) if listings.get(ident) is False]
 
@@ -482,7 +499,7 @@ def build(create_baseline=False):
                json.loads(documentary_path.read_text()) if documentary_path.exists() else {'schema_version': 1, 'people': []})
     retained_fathers = []
     nodes, edges, quality = load_public_nodes(WEB, set(strategy["variants"]), retained_fathers=retained_fathers)
-    listings, bands = {}, {}
+    listings, bands, next_tests = {}, {}, {}
     identity_hold_ids = set()
     for ident, node in nodes.items():
         # Read the public account, including named fathers excluded from the
@@ -492,6 +509,7 @@ def build(create_baseline=False):
             dossier = json.loads(path.with_suffix('.json').read_text())
             listings[ident] = has_named_father(dossier)
             bands[ident] = parent_bands(dossier)
+            next_tests[ident] = published_next_test(dossier)
             if dossier.get('creation_status') == 'identity_hold':
                 identity_hold_ids.add(ident)
     cohorts = {}
@@ -537,10 +555,10 @@ def build(create_baseline=False):
                            'child_url': nodes[child]['url'], 'father_url': nodes[father]['url'],
                            'year': nodes[child].get('year'),
                            'analysis_url': next((l['href'] for l in assessment.get('analysis_links', []) if l.get('href')), nodes[child]['url']),
-                           'next_test': case.get('next_test') or assessment.get('next_test') or estimate.get('next_test') or rating_tests.get(impact.get('assertion_id')) or 'Read the family evidence and next question.',
+                           'next_test': case.get('next_test') or assessment.get('next_test') or estimate.get('next_test') or rating_tests.get(impact.get('assertion_id')) or next_tests.get(child) or 'Read the family evidence and next question.',
                            'last_review': case.get('last_test') or assessment.get('last_test') or estimate.get('last_test', '')})
     priorities.extend(missing_father_priorities(
-        nodes, edges, primary['working']['cohort_ids'], listings))
+        nodes, edges, primary['working']['cohort_ids'], listings, next_tests))
     priorities.sort(key=lambda r: (-r['child_side'], r['child']))
     fingerprint = hashlib.sha256(json.dumps({"nodes": nodes, "edges": edges}, sort_keys=True).encode()).hexdigest()
     baseline_path = WORK / "baseline-2026-10-15.json"
