@@ -60,3 +60,16 @@ The will proves that the general had a son named Edward George, but does not nam
 ## Next test after the will
 
 Inspect the original 23 September 1823 Edward George–Emily Caroline Medlicott military marriage return for regiment or father, then follow the son’s service record or Canadian baptism. These can distinguish the named son from the adult husband. Do not repeat the now completed 1820 will lookup. For the general’s own father, test the separate artillery George who died at Charlton on 16 March 1785 against an original cadet/service or probate record; same corps and locality alone do not establish kinship.
+
+
+## Own-parent search: source coverage and earlier officer — 12 November 2026
+
+Own father remains Unknown. The earlier Royal Artillery George Glasgow is a plausible relative, not a selected father: Askwith’s 1900 officer list, printed p.11, officer no.394, records his death at Charlton on 16 March 1785. The later general is a separate officer, no.498 on printed p.14, admitted as cadet in 1771 and dying in 1820. Both table pages were visually checked. Shared surname, corps and Charlton association do not distinguish father from another relative or namesake. The unsourced member-tree father George (1725–1785) is only a lead; neither that birth year nor parentage is independently established.
+
+The Sandhurst Collection’s own RMA register description says its earliest surviving volume begins in 1783, with retrospective and incomplete early entries; it cannot provide a normal 1771 admission entry. The 1892 Records of the Royal Military Academy introduction says the intended complete cadet list was omitted; the introduction was visually checked. A bounded OCR surname check is not proof of absence from every page. Discovery’s exact-name George Glasgow search for 1785–1786 returned no catalogue result; the unrestricted exact-name search exposed only the already-read 1820 will in the PROB collection facet. This does not establish intestacy or rule out variant spellings or local probate jurisdictions.
+
+Sources: [Askwith, printed p.11](https://archive.org/details/listofficersroy01askwgoog/page/n38/mode/1up); [RMA surviving-register description](https://sandhurstcollection.co.uk/online-collection/register-volumes/royal-military-academy-rma-woolwich-cadet-register); [1892 academy records, introduction](https://archive.org/details/records-of-the-royal-military-academy-woolwich/page/n5/mode/1up).
+
+Next discriminating test: Seek a parent-naming baptism for the general around 1755–1757 at Woolwich/Charlton, or an original Royal Artillery officer service return giving birth, origin or family. Test an actual Charlton/Rochester probate or administration entry for the earlier officer if located. Do not repeat the 1820 will, purchase the 1892 academy book expecting a complete cadet list, or search the 1783-onward cadet register as though it covers 1771. Any proposed father must also resolve the earlier officer’s identity against retained Scottish George candidates.
+
+This review adds no selected parent, confidence upgrade or newly connected branch.
