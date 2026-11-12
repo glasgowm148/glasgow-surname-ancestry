@@ -792,3 +792,10 @@ This changes the earlier general statement that no civic status was known for th
 The Saltmarket man is securely located in 1527. His circa-1480 estimate is conditional on the unproved 1506 alias-Smith identification. The working Stirling-to-Saltmarket father hypothesis remains possible; neither a new father proof nor a new surname-component join is claimed.
 
 Search scope: official NRS catalogue reference B66/25/43 and web-indexed Glesgw/Glasgw occurrences; the University of Glasgow Blackhouse catalogue; Stirling Archives Darow article. No original 1475 charter image or unrecorded kinship clause was found. Original inspection and comparison of complete witness wording and endorsements remain the next discriminating test.
+
+
+## 12 November 2026 — limited printed civil-court index check
+
+The public-domain Indiana copy of *Acts of the Lords of Council in Civil Causes*, volume II (1918), covering 1496–1501 with some earlier acts of 1469–1483, is available in [HathiTrust Full View](https://babel.hathitrust.org/cgi/pt?id=inu.30000047784453). The Glasgow search returned thirteen matching pages. This is a page-hit count, not thirteen people. Visual inspection of the printed index, pp. 524, 530, 533 and 536 (scans 676, 682, 685 and 688), found Glasgow as a place or ecclesiastical office. The alphabetic Glasgow heading on p. 536 lists the bishop, archbishop, barony, chanter, city, dean and official; it has no personal-surname subentry. Nearby Glasfurd is a distinct name.
+
+This closes only this limited index check. The body text, all thirteen search-hit pages, spelling variants, other printed volumes and manuscript indexes have not been exhaustively checked. It is not evidence that no Glasgow person appears in the volume, and does not discharge the archival civil-process task above. No identity, parent relationship or confidence percentage changes.
