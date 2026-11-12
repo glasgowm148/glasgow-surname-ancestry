@@ -117,3 +117,12 @@ Scope: Existing father hypothesis only. Hugh’s documented wife, children and p
 Next useful test: Seek a succession or kinship clause in the existing Larne lease/title chain; do not reread unrelated national indexes.
 
 This is a first numerical review of an existing attachment, not a new father, new branch connection or original-source discovery. The prior contributor mark is retained in the structured assessment history.
+
+## Source context retained from merged Glasgow-1503 — 12 November 2026
+
+Glasgow-1503 is the former Hugh profile now redirected to this canonical account. Its reviewed findings are retained here as source context, not as evidence for a second Hugh or an identity beyond the recorded redirect.
+
+- The [St Catherine baptism index](https://www.irishgenealogy.ie/view/?record_id=1d928783dd-38743) names Hugh Glasroe, son of Wm Glasroe and Jone, on 23 October 1704; the separate [St Catherine burial index](https://www.irishgenealogy.ie/view/?record_id=894b618d15-42863) transcribes an unnamed Glasrow on 25 August 1704. Neither entry is identified with Hugh of Larne; the surname difference and missing Dublin-to-Larne bridge remain unresolved. The [RCB Library register list](https://www.churchofireland.org/cmsfiles/pdf/AboutUs/library/registers/ParishRegisters/DEF/DublinStCatherineParishRegisterList.pdf) identifies Herbert Wood's 1908 edition as the next source to inspect.
+- The [archived Life's Weaving page](https://web.archive.org/web/20101101170252id_/http://lifesweaving.com/Glasgow/Ireland/photo.html) and [archived Webshots album](https://web.archive.org/web/20120412114928id_/http://travel.webshots.com/album/558514063awmMGT) identify Donna Jean Glasgow's advertised 79-photo 2006 collection. The later image pages were not captured; recovery from the contributor's files remains a source lead, not inspected evidence.
+- The [Registry memorial 76,724 index](https://clugstonfamilytree.wordpress.com/records/irish-deeds-mentioning-clugstons/) names Robert Glasgow of Kilwaughter as a witness on 17 June 1741. That witness does not support a claim that Hugh became an elder in 1741.
+- The Larne monument account names [James Glasgow-3991](https://www.wikitree.com/wiki/Glasgow-3991) as a son of Hugh and Ann; this is the separately documented younger James, not the older ropemaker. The Dublin candidate and monument source do not establish Hugh's parentage or merge the two James accounts.

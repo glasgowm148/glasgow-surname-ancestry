@@ -11,6 +11,7 @@ Helen Hewitt was the wife of [William Glasgow (Glasgow-3157)](https://www.wikitr
 - William's profile preserves a family statement naming his wife Helen Hewitt and placing the family at Derrynoose, County Armagh.
 - The [GRONI marriage index](https://geni.nidirect.gov.uk/search/marriage) lists William Glasgow and a spouse surnamed Hewett in Armagh on 23 October 1873, `M/1873/Q1/86/2/45`.
 - The [GRONI birth index](https://geni.nidirect.gov.uk/search/birth) gives mother's maiden surname Hewitt for Henry (`U/1876/11/1002/11/31`), Alice (`U/1884/11/1002/16/205`) and Henrietta (`U/1895/11/1002/22/55`).
+- [Hewitt-8271's WikiTree profile](https://www.wikitree.com/wiki/Hewitt-8271) is the surviving profile after the former Unknown mother placeholder Hewitt-9718 was merged into it. This link records the canonical destination; it is not separate evidence for the children's parentage.
 
 ## Identity and relationship assessment
 
