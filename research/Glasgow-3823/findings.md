@@ -2,6 +2,9 @@
 
 ## Current conclusion
 
+
+**12 November 2026 child-group review:** Complementary school-index and obituary-transcription evidence now strongly supports the existing father links to [Jacob](/people/glasgow-3825.html), 95%; [Zephenia](/people/glasgow-3826.html), 94%; [Henrietta Enos](/people/glasco-165.html), 94%; and [Lloyd](/people/glasgow-3828.html), 93%. These are upgrades of existing links, not new attachments. Samuel’s own father remains **Unknown**.
+
 Reviewed 22 October 2026. **Father unknown; no new parent selected.** Samuel’s complete captured biography identifies his family as Free People of Color in Pennsylvania and records emigration to Liberia. Its cited 1840 census places Samuel at Kennett, and the 1850 citation places Samuel Glasgo, aged 46 and born in Pennsylvania, at East Nottingham. The biography also preserves poor-school records at East Marlborough and New Garden. These are important household context, not a documented ancestry.
 
 The older [Samuel Glasgow-2872](https://www.wikitree.com/wiki/Glasgow-2872), represented at West Nottingham and Cochranville, was compared as a possible father. Neighbouring localities, the repeated name and compatible generations do not establish a relationship between these particular households. No parent, sibling, common household, land transfer or named associate connects them in the material reviewed. Do not select that father or transfer his wife Judith as mother. Different racial or community classifications alone would not exclude biological kinship; the missing positive family connection is the reason no father is selected.
@@ -18,3 +21,12 @@ The older [Samuel Glasgow-2872](https://www.wikitree.com/wiki/Glasgow-2872), rep
 ## Next ancestry test
 
 Read the cited census originals and recover the original poor-school entries to establish occupation, neighbours, guardians and continuity across the three townships. Then compare a specific older household or probate/land record. The older Samuel’s memorial and the 1824 Samuel Glascow tax-index entries cannot substitute for that connection. His father remains Unknown in the tree and progress counts.
+
+
+## Child-group corroboration — 12 November 2026
+
+The official [county school index](https://www.chesco.org/DocumentCenter/View/83915/Poor-School-Children-1810-1842), PDF pages 365–366, corroborates Samuel’s named children Jacob and Zephenia in 1836–1837. Those page images were inspected; the original tax/school manuscripts were not. The rows marked Tax Only: Yes require the relevant township tax list, rather than an assumed school-register page.
+
+The [published transcription](https://blackintoledo.wordpress.com/2018/07/27/granville-lee-enos-civil-war-soldier-and-connection-to-glasgow-glasco-and-davis-families-of-chester-county-pa/) of Henrietta Enos’s Daily Local News obituary, 11 November 1916, explicitly identifies Samuel as her father and Lloyd and Jesse as her brothers. The distinctive Oxford brickyard/Liberia account fits the maintained family. Its migration and birth-year statements conflict with other evidence, so no vital or migration field is changed. The original newspaper and pension file were not inspected. These family clauses strengthen the four existing links stated above; mothers and Samuel’s own father remain separate.
+
+The two trial 1850 IA frames did not contain the target household and are not cited as readings of it. The census-original test remains open. Next upstream test: obtain an identifying parent, sibling or succession clause for Samuel himself; the earlier local Jacob, Elias and other school-index households remain comparisons, not selected fathers.

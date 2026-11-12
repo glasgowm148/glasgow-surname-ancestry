@@ -85172,18 +85172,19 @@
       "Glasgow-3825",
       "Glasgow-3823"
     ],
-    "status": "probable",
+    "status": "strongly_supported",
     "publication_status": "approved",
     "working_selection": false,
     "allow_new_relationship": false,
-    "assessment_date": "2026-10-22",
-    "basis": "Jacob's 1830 birth and 1850 entry in the Samuel/Elizabeth household fit Samuel's 1804 generation. His 1860 household with Jesse supplies an additional sibling bridge, but no early census relationship column exists.",
-    "reason": "Jacob's 1830 birth and 1850 entry in the Samuel/Elizabeth household fit Samuel's 1804 generation. His 1860 household with Jesse supplies an additional sibling bridge, but no early census relationship column exists.",
-    "claim": "Glasgow-3823 remains the selected father of Glasgow-3825, individually assessed 89%.",
-    "record_scope": "Selected Glasgow-3823 fatherhood of Glasgow-3825; maternal identity and upstream ancestry are separate.",
-    "limitations": "Selected Glasgow-3823 fatherhood of Glasgow-3825; maternal identity and upstream ancestry are separate.",
+    "assessment_date": "2026-11-12",
+    "basis": "The official Chester County school index names Samuel Glasco with Jacob aged six at East Marlborough in 1836, then Samuel with Jacob aged six and Zephenia aged five at New Garden in 1837. The matching names, ages and child group corroborate the held 1850 Samuel/Elizabeth household, where Jacob is aged twenty; Jacob's later household with Jesse supplies additional family continuity. The records describe a sustained parent-and-children household rather than one unexplained census association.",
+    "reason": "The official Chester County school index names Samuel Glasco with Jacob aged six at East Marlborough in 1836, then Samuel with Jacob aged six and Zephenia aged five at New Garden in 1837. The matching names, ages and child group corroborate the held 1850 Samuel/Elizabeth household, where Jacob is aged twenty; Jacob's later household with Jesse supplies additional family continuity. The records describe a sustained parent-and-children household rather than one unexplained census association.",
+    "claim": "The official Chester County school index names Samuel Glasco with Jacob aged six at East Marlborough in 1836, then Samuel with Jacob aged six and Zephenia aged five at New Garden in 1837. The matching names, ages and child group corroborate the held 1850 Samuel/Elizabeth household, where Jacob is aged twenty; Jacob's later household with Jesse supplies additional family continuity. The records describe a sustained parent-and-children household rather than one unexplained census association.",
+    "record_scope": "Confidence is a strongly supported family inference, not genetic proof or a literal birth-register parent clause. The county index pages 365–366 were inspected; the underlying school and tax manuscripts were not. School returns can list a guardian and can carry an age forward. The repeated surname, coherent child group and independent census context favour ordinary parentage over that unsupported alternative. Mother Elizabeth and Samuel’s own unknown father are not reassessed. The 1850 index is reused; no original census reading is claimed.",
+    "limitations": "Confidence is a strongly supported family inference, not genetic proof or a literal birth-register parent clause. The county index pages 365–366 were inspected; the underlying school and tax manuscripts were not. School returns can list a guardian and can carry an age forward. The repeated surname, coherent child group and independent census context favour ordinary parentage over that unsupported alternative. Mother Elizabeth and Samuel’s own unknown father are not reassessed. The 1850 index is reused; no original census reading is claimed.",
     "source_ids": [
-      "held-e-1ad2551495e2"
+      "held-e-1ad2551495e2",
+      "chester-samuel-glasco-school-index-1835-1837"
     ],
     "assessment_history": [
       {
@@ -85196,16 +85197,28 @@
         "claim_id": "C-213a1bb5292b",
         "source_ids": [],
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+      },
+      {
+        "status": "probable",
+        "probability_percent": 89,
+        "assessment_date": "2026-10-22",
+        "source_basis": "Jacob's 1830 birth and 1850 entry in the Samuel/Elizabeth household fit Samuel's 1804 generation. His 1860 household with Jesse supplies an additional sibling bridge, but no early census relationship column exists."
+      },
+      {
+        "status": "strongly_supported",
+        "probability_percent": 95,
+        "assessment_date": "2026-11-12",
+        "source_basis": "The official Chester County school index names Samuel Glasco with Jacob aged six at East Marlborough in 1836, then Samuel with Jacob aged six and Zephenia aged five at New Garden in 1837. The matching names, ages and child group corroborate the held 1850 Samuel/Elizabeth household, where Jacob is aged twenty; Jacob's later household with Jesse supplies additional family continuity. The records describe a sustained parent-and-children household rather than one unexplained census association."
       }
     ],
     "perspectives": {
       "Glasgow-3825": {
         "relationship": "father",
-        "reason": "Jacob's 1830 birth and 1850 entry in the Samuel/Elizabeth household fit Samuel's 1804 generation. His 1860 household with Jesse supplies an additional sibling bridge, but no early census relationship column exists."
+        "reason": "The official Chester County school index names Samuel Glasco with Jacob aged six at East Marlborough in 1836, then Samuel with Jacob aged six and Zephenia aged five at New Garden in 1837. The matching names, ages and child group corroborate the held 1850 Samuel/Elizabeth household, where Jacob is aged twenty; Jacob's later household with Jesse supplies additional family continuity. The records describe a sustained parent-and-children household rather than one unexplained census association."
       },
       "Glasgow-3823": {
         "relationship": "son",
-        "reason": "Jacob's 1830 birth and 1850 entry in the Samuel/Elizabeth household fit Samuel's 1804 generation. His 1860 household with Jesse supplies an additional sibling bridge, but no early census relationship column exists."
+        "reason": "The official Chester County school index names Samuel Glasco with Jacob aged six at East Marlborough in 1836, then Samuel with Jacob aged six and Zephenia aged five at New Garden in 1837. The matching names, ages and child group corroborate the held 1850 Samuel/Elizabeth household, where Jacob is aged twenty; Jacob's later household with Jesse supplies additional family continuity. The records describe a sustained parent-and-children household rather than one unexplained census association."
       }
     },
     "analysis_links": [
@@ -85216,27 +85229,27 @@
     ],
     "provenance": {
       "prior_assessment": {
-        "status": "unmarked",
-        "assessment_status": "unknown",
-        "tree_status": "unmarked",
-        "probability_percent": null,
-        "basis": "tree",
-        "scope": null,
-        "claim_id": "C-213a1bb5292b",
-        "source_ids": [],
-        "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+        "assessed_on": "2026-10-22",
+        "probability_percent": 89,
+        "source_basis": "Jacob's 1830 birth and 1850 entry in the Samuel/Elizabeth household fit Samuel's 1804 generation. His 1860 household with Jesse supplies an additional sibling bridge, but no early census relationship column exists.",
+        "status": "probable"
       },
       "original_inspected_in_batch": false,
-      "live_flag_changed": false
+      "live_flag_changed": false,
+      "index_pages_inspected_in_batch": true,
+      "new_father_attachment": false,
+      "original_newspaper_inspected": false,
+      "review_kind": "complementary_family_evidence"
     },
     "probability": {
-      "value": 0.89,
-      "basis": "Jacob's 1830 birth and 1850 entry in the Samuel/Elizabeth household fit Samuel's 1804 generation. His 1860 household with Jesse supplies an additional sibling bridge, but no early census relationship column exists.",
-      "reviewed": "2026-10-22",
+      "value": 0.95,
+      "reviewed": "2026-11-12",
+      "basis": "The official Chester County school index names Samuel Glasco with Jacob aged six at East Marlborough in 1836, then Samuel with Jacob aged six and Zephenia aged five at New Garden in 1837. The matching names, ages and child group corroborate the held 1850 Samuel/Elizabeth household, where Jacob is aged twenty; Jacob's later household with Jesse supplies additional family continuity. The records describe a sustained parent-and-children household rather than one unexplained census association.",
       "source_ids": [
-        "held-e-1ad2551495e2"
+        "held-e-1ad2551495e2",
+        "chester-samuel-glasco-school-index-1835-1837"
       ],
-      "scope": "Selected Glasgow-3823 fatherhood of Glasgow-3825; maternal identity and upstream ancestry are separate."
+      "scope": "Confidence is a strongly supported family inference, not genetic proof or a literal birth-register parent clause. The county index pages 365–366 were inspected; the underlying school and tax manuscripts were not. School returns can list a guardian and can carry an age forward. The repeated surname, coherent child group and independent census context favour ordinary parentage over that unsupported alternative. Mother Elizabeth and Samuel’s own unknown father are not reassessed. The 1850 index is reused; no original census reading is claimed."
     }
   },
   {
@@ -87444,18 +87457,19 @@
       "Glasgow-3826",
       "Glasgow-3823"
     ],
-    "status": "probable",
+    "status": "strongly_supported",
     "publication_status": "approved",
     "working_selection": false,
     "allow_new_relationship": false,
-    "assessment_date": "2026-10-22",
-    "basis": "Zephenia's 1832 birth and 1850 Samuel/Elizabeth entry place her in a coherent age-ordered child group. The inherited daughter statement agrees, although only household association is held.",
-    "reason": "Zephenia's 1832 birth and 1850 Samuel/Elizabeth entry place her in a coherent age-ordered child group. The inherited daughter statement agrees, although only household association is held.",
-    "claim": "Glasgow-3823 remains the selected father of Glasgow-3826, individually assessed 85%.",
-    "record_scope": "Selected Glasgow-3823 fatherhood of Glasgow-3826; maternal identity and upstream ancestry are separate.",
-    "limitations": "Selected Glasgow-3823 fatherhood of Glasgow-3826; maternal identity and upstream ancestry are separate.",
+    "assessment_date": "2026-11-12",
+    "basis": "The official Chester County school index names Samuel Glasco with Zephenia aged five and Jacob aged six at New Garden in 1837. The named children and their ages fit the held 1850 Samuel/Elizabeth child group and the 1836 Samuel/Jacob entry at East Marlborough. This supplies an earlier, separate school-record basis for the selected father, not merely another rendering of the 1850 census.",
+    "reason": "The official Chester County school index names Samuel Glasco with Zephenia aged five and Jacob aged six at New Garden in 1837. The named children and their ages fit the held 1850 Samuel/Elizabeth child group and the 1836 Samuel/Jacob entry at East Marlborough. This supplies an earlier, separate school-record basis for the selected father, not merely another rendering of the 1850 census.",
+    "claim": "The official Chester County school index names Samuel Glasco with Zephenia aged five and Jacob aged six at New Garden in 1837. The named children and their ages fit the held 1850 Samuel/Elizabeth child group and the 1836 Samuel/Jacob entry at East Marlborough. This supplies an earlier, separate school-record basis for the selected father, not merely another rendering of the 1850 census.",
+    "record_scope": "Confidence is a strongly supported family inference, not genetic proof or a literal birth-register parent clause. The county index pages 365–366 were inspected; the underlying school and tax manuscripts were not. School returns can list a guardian and can carry an age forward. The repeated surname, coherent child group and independent census context favour ordinary parentage over that unsupported alternative. Mother Elizabeth and Samuel’s own unknown father are not reassessed. The 1850 index is reused; no original census reading is claimed.",
+    "limitations": "Confidence is a strongly supported family inference, not genetic proof or a literal birth-register parent clause. The county index pages 365–366 were inspected; the underlying school and tax manuscripts were not. School returns can list a guardian and can carry an age forward. The repeated surname, coherent child group and independent census context favour ordinary parentage over that unsupported alternative. Mother Elizabeth and Samuel’s own unknown father are not reassessed. The 1850 index is reused; no original census reading is claimed.",
     "source_ids": [
-      "held-e-1ad2551495e2"
+      "held-e-1ad2551495e2",
+      "chester-samuel-glasco-school-index-1835-1837"
     ],
     "assessment_history": [
       {
@@ -87468,16 +87482,28 @@
         "claim_id": "C-66d11a54e51f",
         "source_ids": [],
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+      },
+      {
+        "status": "probable",
+        "probability_percent": 85,
+        "assessment_date": "2026-10-22",
+        "source_basis": "Zephenia's 1832 birth and 1850 Samuel/Elizabeth entry place her in a coherent age-ordered child group. The inherited daughter statement agrees, although only household association is held."
+      },
+      {
+        "status": "strongly_supported",
+        "probability_percent": 94,
+        "assessment_date": "2026-11-12",
+        "source_basis": "The official Chester County school index names Samuel Glasco with Zephenia aged five and Jacob aged six at New Garden in 1837. The named children and their ages fit the held 1850 Samuel/Elizabeth child group and the 1836 Samuel/Jacob entry at East Marlborough. This supplies an earlier, separate school-record basis for the selected father, not merely another rendering of the 1850 census."
       }
     ],
     "perspectives": {
       "Glasgow-3826": {
         "relationship": "father",
-        "reason": "Zephenia's 1832 birth and 1850 Samuel/Elizabeth entry place her in a coherent age-ordered child group. The inherited daughter statement agrees, although only household association is held."
+        "reason": "The official Chester County school index names Samuel Glasco with Zephenia aged five and Jacob aged six at New Garden in 1837. The named children and their ages fit the held 1850 Samuel/Elizabeth child group and the 1836 Samuel/Jacob entry at East Marlborough. This supplies an earlier, separate school-record basis for the selected father, not merely another rendering of the 1850 census."
       },
       "Glasgow-3823": {
         "relationship": "daughter",
-        "reason": "Zephenia's 1832 birth and 1850 Samuel/Elizabeth entry place her in a coherent age-ordered child group. The inherited daughter statement agrees, although only household association is held."
+        "reason": "The official Chester County school index names Samuel Glasco with Zephenia aged five and Jacob aged six at New Garden in 1837. The named children and their ages fit the held 1850 Samuel/Elizabeth child group and the 1836 Samuel/Jacob entry at East Marlborough. This supplies an earlier, separate school-record basis for the selected father, not merely another rendering of the 1850 census."
       }
     },
     "analysis_links": [
@@ -87488,27 +87514,27 @@
     ],
     "provenance": {
       "prior_assessment": {
-        "status": "unmarked",
-        "assessment_status": "unknown",
-        "tree_status": "unmarked",
-        "probability_percent": null,
-        "basis": "tree",
-        "scope": null,
-        "claim_id": "C-66d11a54e51f",
-        "source_ids": [],
-        "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+        "assessed_on": "2026-10-22",
+        "probability_percent": 85,
+        "source_basis": "Zephenia's 1832 birth and 1850 Samuel/Elizabeth entry place her in a coherent age-ordered child group. The inherited daughter statement agrees, although only household association is held.",
+        "status": "probable"
       },
       "original_inspected_in_batch": false,
-      "live_flag_changed": false
+      "live_flag_changed": false,
+      "index_pages_inspected_in_batch": true,
+      "new_father_attachment": false,
+      "original_newspaper_inspected": false,
+      "review_kind": "complementary_family_evidence"
     },
     "probability": {
-      "value": 0.85,
-      "basis": "Zephenia's 1832 birth and 1850 Samuel/Elizabeth entry place her in a coherent age-ordered child group. The inherited daughter statement agrees, although only household association is held.",
-      "reviewed": "2026-10-22",
+      "value": 0.94,
+      "reviewed": "2026-11-12",
+      "basis": "The official Chester County school index names Samuel Glasco with Zephenia aged five and Jacob aged six at New Garden in 1837. The named children and their ages fit the held 1850 Samuel/Elizabeth child group and the 1836 Samuel/Jacob entry at East Marlborough. This supplies an earlier, separate school-record basis for the selected father, not merely another rendering of the 1850 census.",
       "source_ids": [
-        "held-e-1ad2551495e2"
+        "held-e-1ad2551495e2",
+        "chester-samuel-glasco-school-index-1835-1837"
       ],
-      "scope": "Selected Glasgow-3823 fatherhood of Glasgow-3826; maternal identity and upstream ancestry are separate."
+      "scope": "Confidence is a strongly supported family inference, not genetic proof or a literal birth-register parent clause. The county index pages 365–366 were inspected; the underlying school and tax manuscripts were not. School returns can list a guardian and can carry an age forward. The repeated surname, coherent child group and independent census context favour ordinary parentage over that unsupported alternative. Mother Elizabeth and Samuel’s own unknown father are not reassessed. The 1850 index is reused; no original census reading is claimed."
     }
   },
   {
@@ -91697,18 +91723,19 @@
       "Glasco-165",
       "Glasgow-3823"
     ],
-    "status": "probable",
+    "status": "strongly_supported",
     "publication_status": "approved",
     "working_selection": false,
     "allow_new_relationship": false,
-    "assessment_date": "2026-10-22",
-    "basis": "Henrietta 13 is specifically indexed on the same 1850 East Nottingham image as Samuel's family, matching the selected sibling generation. Her later Enos census sequence is coherent, though the 1850 entry cannot literally call Samuel her father.",
-    "reason": "Henrietta 13 is specifically indexed on the same 1850 East Nottingham image as Samuel's family, matching the selected sibling generation. Her later Enos census sequence is coherent, though the 1850 entry cannot literally call Samuel her father.",
-    "claim": "Glasgow-3823 remains the selected father of Glasco-165, individually assessed 88%.",
-    "record_scope": "Selected Glasgow-3823 fatherhood of Glasco-165; maternal identity and upstream ancestry are separate.",
-    "limitations": "Selected Glasgow-3823 fatherhood of Glasco-165; maternal identity and upstream ancestry are separate.",
+    "assessment_date": "2026-11-12",
+    "basis": "The published transcription of Henrietta Enos's 11 November 1916 obituary explicitly calls her a daughter of Samuel Glasco, the Oxford brickyard owner who emigrated to Liberia, and names Lloyd and Jesse as her brothers. Her Enos identity, the distinctive father's occupation and migration, and the named brothers identify the same family as the held 1850 Samuel/Elizabeth household. The father relationship is now supported by an express family statement alongside the census sequence.",
+    "reason": "The published transcription of Henrietta Enos's 11 November 1916 obituary explicitly calls her a daughter of Samuel Glasco, the Oxford brickyard owner who emigrated to Liberia, and names Lloyd and Jesse as her brothers. Her Enos identity, the distinctive father's occupation and migration, and the named brothers identify the same family as the held 1850 Samuel/Elizabeth household. The father relationship is now supported by an express family statement alongside the census sequence.",
+    "claim": "The published transcription of Henrietta Enos's 11 November 1916 obituary explicitly calls her a daughter of Samuel Glasco, the Oxford brickyard owner who emigrated to Liberia, and names Lloyd and Jesse as her brothers. Her Enos identity, the distinctive father's occupation and migration, and the named brothers identify the same family as the held 1850 Samuel/Elizabeth household. The father relationship is now supported by an express family statement alongside the census sequence.",
+    "record_scope": "The newspaper is known through a 2018 published transcription, not an inspected original issue. Its 1826 birth statement conflicts with its age eighty in 1916 and the held 1850 age; its 1849 migration also conflicts with the university account of 1859. Those dates are not adopted or silently corrected. The explicit father and sibling clauses, distinctive occupation/migration and known family sequence support the identification despite those narrative errors. Mother Elizabeth and Samuel’s unknown father remain separate; no new father is attached.",
+    "limitations": "The newspaper is known through a 2018 published transcription, not an inspected original issue. Its 1826 birth statement conflicts with its age eighty in 1916 and the held 1850 age; its 1849 migration also conflicts with the university account of 1859. Those dates are not adopted or silently corrected. The explicit father and sibling clauses, distinctive occupation/migration and known family sequence support the identification despite those narrative errors. Mother Elizabeth and Samuel’s unknown father remain separate; no new father is attached.",
     "source_ids": [
-      "held-e-5ac6e3c11f48"
+      "held-e-5ac6e3c11f48",
+      "henrietta-enos-obituary-1916-family"
     ],
     "assessment_history": [
       {
@@ -91721,16 +91748,28 @@
         "claim_id": "C-bd3854f23946",
         "source_ids": [],
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+      },
+      {
+        "status": "probable",
+        "probability_percent": 88,
+        "assessment_date": "2026-10-22",
+        "source_basis": "Henrietta 13 is specifically indexed on the same 1850 East Nottingham image as Samuel's family, matching the selected sibling generation. Her later Enos census sequence is coherent, though the 1850 entry cannot literally call Samuel her father."
+      },
+      {
+        "status": "strongly_supported",
+        "probability_percent": 94,
+        "assessment_date": "2026-11-12",
+        "source_basis": "The published transcription of Henrietta Enos's11 November 1916 obituary explicitly calls her a daughter of Samuel Glasco, the Oxford brickyard owner who emigrated to Liberia, and names Lloyd and Jesse as her brothers. Her Enos identity, the distinctive father's occupation and migration, and the named brothers identify the same family as the held 1850 Samuel/Elizabeth household. The father relationship is now supported by an express family statement alongside the census sequence."
       }
     ],
     "perspectives": {
       "Glasco-165": {
         "relationship": "father",
-        "reason": "Henrietta 13 is specifically indexed on the same 1850 East Nottingham image as Samuel's family, matching the selected sibling generation. Her later Enos census sequence is coherent, though the 1850 entry cannot literally call Samuel her father."
+        "reason": "The published transcription of Henrietta Enos's 11 November 1916 obituary explicitly calls her a daughter of Samuel Glasco, the Oxford brickyard owner who emigrated to Liberia, and names Lloyd and Jesse as her brothers. Her Enos identity, the distinctive father's occupation and migration, and the named brothers identify the same family as the held 1850 Samuel/Elizabeth household. The father relationship is now supported by an express family statement alongside the census sequence."
       },
       "Glasgow-3823": {
         "relationship": "daughter",
-        "reason": "Henrietta 13 is specifically indexed on the same 1850 East Nottingham image as Samuel's family, matching the selected sibling generation. Her later Enos census sequence is coherent, though the 1850 entry cannot literally call Samuel her father."
+        "reason": "The published transcription of Henrietta Enos's 11 November 1916 obituary explicitly calls her a daughter of Samuel Glasco, the Oxford brickyard owner who emigrated to Liberia, and names Lloyd and Jesse as her brothers. Her Enos identity, the distinctive father's occupation and migration, and the named brothers identify the same family as the held 1850 Samuel/Elizabeth household. The father relationship is now supported by an express family statement alongside the census sequence."
       }
     },
     "analysis_links": [
@@ -91741,27 +91780,27 @@
     ],
     "provenance": {
       "prior_assessment": {
-        "status": "unmarked",
-        "assessment_status": "unknown",
-        "tree_status": "unmarked",
-        "probability_percent": null,
-        "basis": "tree",
-        "scope": null,
-        "claim_id": "C-bd3854f23946",
-        "source_ids": [],
-        "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+        "assessed_on": "2026-10-22",
+        "probability_percent": 88,
+        "source_basis": "Henrietta 13 is specifically indexed on the same 1850 East Nottingham image as Samuel's family, matching the selected sibling generation. Her later Enos census sequence is coherent, though the 1850 entry cannot literally call Samuel her father.",
+        "status": "probable"
       },
       "original_inspected_in_batch": false,
-      "live_flag_changed": false
+      "live_flag_changed": false,
+      "index_pages_inspected_in_batch": false,
+      "new_father_attachment": false,
+      "original_newspaper_inspected": false,
+      "review_kind": "complementary_family_evidence"
     },
     "probability": {
-      "value": 0.88,
-      "basis": "Henrietta 13 is specifically indexed on the same 1850 East Nottingham image as Samuel's family, matching the selected sibling generation. Her later Enos census sequence is coherent, though the 1850 entry cannot literally call Samuel her father.",
-      "reviewed": "2026-10-22",
+      "value": 0.94,
+      "reviewed": "2026-11-12",
+      "basis": "The published transcription of Henrietta Enos's 11 November 1916 obituary explicitly calls her a daughter of Samuel Glasco, the Oxford brickyard owner who emigrated to Liberia, and names Lloyd and Jesse as her brothers. Her Enos identity, the distinctive father's occupation and migration, and the named brothers identify the same family as the held 1850 Samuel/Elizabeth household. The father relationship is now supported by an express family statement alongside the census sequence.",
       "source_ids": [
-        "held-e-5ac6e3c11f48"
+        "held-e-5ac6e3c11f48",
+        "henrietta-enos-obituary-1916-family"
       ],
-      "scope": "Selected Glasgow-3823 fatherhood of Glasco-165; maternal identity and upstream ancestry are separate."
+      "scope": "The newspaper is known through a 2018 published transcription, not an inspected original issue. Its 1826 birth statement conflicts with its age eighty in 1916 and the held 1850 age; its 1849 migration also conflicts with the university account of 1859. Those dates are not adopted or silently corrected. The explicit father and sibling clauses, distinctive occupation/migration and known family sequence support the identification despite those narrative errors. Mother Elizabeth and Samuel’s unknown father remain separate; no new father is attached."
     }
   },
   {
@@ -91770,18 +91809,19 @@
       "Glasgow-3828",
       "Glasgow-3823"
     ],
-    "status": "probable",
+    "status": "strongly_supported",
     "publication_status": "approved",
     "working_selection": false,
     "allow_new_relationship": false,
-    "assessment_date": "2026-10-22",
-    "basis": "Lloyd's 1836 birth and 1850 entry in Samuel and Elizabeth's family fit the established sibling sequence and Samuel's age. This is a strong household inference with no relationship column or later parent statement held.",
-    "reason": "Lloyd's 1836 birth and 1850 entry in Samuel and Elizabeth's family fit the established sibling sequence and Samuel's age. This is a strong household inference with no relationship column or later parent statement held.",
-    "claim": "Glasgow-3823 remains the selected father of Glasgow-3828, individually assessed 86%.",
-    "record_scope": "Selected Glasgow-3823 fatherhood of Glasgow-3828; maternal identity and upstream ancestry are separate.",
-    "limitations": "Selected Glasgow-3823 fatherhood of Glasgow-3828; maternal identity and upstream ancestry are separate.",
+    "assessment_date": "2026-11-12",
+    "basis": "The published transcription of Henrietta Enos's 11 November 1916 obituary calls Samuel Glasco her father and Lloyd her brother. The distinctive Oxford brickyard/Liberia family matches the held 1850 Samuel/Elizabeth household containing Henrietta and Lloyd. The common paternal surname, explicit sibling statement and coherent family support inferring Samuel as Lloyd's father; no concrete alternative parentage is known. The father need not remain merely probable because the article states the relationship through his sister.",
+    "reason": "The published transcription of Henrietta Enos's 11 November 1916 obituary calls Samuel Glasco her father and Lloyd her brother. The distinctive Oxford brickyard/Liberia family matches the held 1850 Samuel/Elizabeth household containing Henrietta and Lloyd. The common paternal surname, explicit sibling statement and coherent family support inferring Samuel as Lloyd's father; no concrete alternative parentage is known. The father need not remain merely probable because the article states the relationship through his sister.",
+    "claim": "The published transcription of Henrietta Enos's 11 November 1916 obituary calls Samuel Glasco her father and Lloyd her brother. The distinctive Oxford brickyard/Liberia family matches the held 1850 Samuel/Elizabeth household containing Henrietta and Lloyd. The common paternal surname, explicit sibling statement and coherent family support inferring Samuel as Lloyd's father; no concrete alternative parentage is known. The father need not remain merely probable because the article states the relationship through his sister.",
+    "record_scope": "The newspaper is known through a 2018 published transcription, not an inspected original issue. Its 1826 birth statement conflicts with its age eighty in 1916 and the held 1850 age; its 1849 migration also conflicts with the university account of 1859. Those dates are not adopted or silently corrected. The explicit father and sibling clauses, distinctive occupation/migration and known family sequence support the identification despite those narrative errors. Mother Elizabeth and Samuel’s unknown father remain separate; no new father is attached.",
+    "limitations": "The newspaper is known through a 2018 published transcription, not an inspected original issue. Its 1826 birth statement conflicts with its age eighty in 1916 and the held 1850 age; its 1849 migration also conflicts with the university account of 1859. Those dates are not adopted or silently corrected. The explicit father and sibling clauses, distinctive occupation/migration and known family sequence support the identification despite those narrative errors. Mother Elizabeth and Samuel’s unknown father remain separate; no new father is attached.",
     "source_ids": [
-      "held-e-1ad2551495e2"
+      "held-e-1ad2551495e2",
+      "henrietta-enos-obituary-1916-family"
     ],
     "assessment_history": [
       {
@@ -91794,16 +91834,28 @@
         "claim_id": "C-71b4c6c7e91a",
         "source_ids": [],
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+      },
+      {
+        "status": "probable",
+        "probability_percent": 86,
+        "assessment_date": "2026-10-22",
+        "source_basis": "Lloyd's 1836 birth and 1850 entry in Samuel and Elizabeth's family fit the established sibling sequence and Samuel's age. This is a strong household inference with no relationship column or later parent statement held."
+      },
+      {
+        "status": "strongly_supported",
+        "probability_percent": 93,
+        "assessment_date": "2026-11-12",
+        "source_basis": "The published transcription of Henrietta Enos's11 November 1916 obituary calls Samuel Glasco her father and Lloyd her brother. The distinctive Oxford brickyard/Liberia family matches the held 1850 Samuel/Elizabeth household containing Henrietta and Lloyd. The common paternal surname, explicit sibling statement and coherent family support inferring Samuel as Lloyd's father; no concrete alternative parentage is known. The father need not remain merely probable because the article states the relationship through his sister."
       }
     ],
     "perspectives": {
       "Glasgow-3828": {
         "relationship": "father",
-        "reason": "Lloyd's 1836 birth and 1850 entry in Samuel and Elizabeth's family fit the established sibling sequence and Samuel's age. This is a strong household inference with no relationship column or later parent statement held."
+        "reason": "The published transcription of Henrietta Enos's 11 November 1916 obituary calls Samuel Glasco her father and Lloyd her brother. The distinctive Oxford brickyard/Liberia family matches the held 1850 Samuel/Elizabeth household containing Henrietta and Lloyd. The common paternal surname, explicit sibling statement and coherent family support inferring Samuel as Lloyd's father; no concrete alternative parentage is known. The father need not remain merely probable because the article states the relationship through his sister."
       },
       "Glasgow-3823": {
         "relationship": "son",
-        "reason": "Lloyd's 1836 birth and 1850 entry in Samuel and Elizabeth's family fit the established sibling sequence and Samuel's age. This is a strong household inference with no relationship column or later parent statement held."
+        "reason": "The published transcription of Henrietta Enos's 11 November 1916 obituary calls Samuel Glasco her father and Lloyd her brother. The distinctive Oxford brickyard/Liberia family matches the held 1850 Samuel/Elizabeth household containing Henrietta and Lloyd. The common paternal surname, explicit sibling statement and coherent family support inferring Samuel as Lloyd's father; no concrete alternative parentage is known. The father need not remain merely probable because the article states the relationship through his sister."
       }
     },
     "analysis_links": [
@@ -91814,27 +91866,27 @@
     ],
     "provenance": {
       "prior_assessment": {
-        "status": "unmarked",
-        "assessment_status": "unknown",
-        "tree_status": "unmarked",
-        "probability_percent": null,
-        "basis": "tree",
-        "scope": null,
-        "claim_id": "C-71b4c6c7e91a",
-        "source_ids": [],
-        "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+        "assessed_on": "2026-10-22",
+        "probability_percent": 86,
+        "source_basis": "Lloyd's 1836 birth and 1850 entry in Samuel and Elizabeth's family fit the established sibling sequence and Samuel's age. This is a strong household inference with no relationship column or later parent statement held.",
+        "status": "probable"
       },
       "original_inspected_in_batch": false,
-      "live_flag_changed": false
+      "live_flag_changed": false,
+      "index_pages_inspected_in_batch": false,
+      "new_father_attachment": false,
+      "original_newspaper_inspected": false,
+      "review_kind": "complementary_family_evidence"
     },
     "probability": {
-      "value": 0.86,
-      "basis": "Lloyd's 1836 birth and 1850 entry in Samuel and Elizabeth's family fit the established sibling sequence and Samuel's age. This is a strong household inference with no relationship column or later parent statement held.",
-      "reviewed": "2026-10-22",
+      "value": 0.93,
+      "reviewed": "2026-11-12",
+      "basis": "The published transcription of Henrietta Enos's 11 November 1916 obituary calls Samuel Glasco her father and Lloyd her brother. The distinctive Oxford brickyard/Liberia family matches the held 1850 Samuel/Elizabeth household containing Henrietta and Lloyd. The common paternal surname, explicit sibling statement and coherent family support inferring Samuel as Lloyd's father; no concrete alternative parentage is known. The father need not remain merely probable because the article states the relationship through his sister.",
       "source_ids": [
-        "held-e-1ad2551495e2"
+        "held-e-1ad2551495e2",
+        "henrietta-enos-obituary-1916-family"
       ],
-      "scope": "Selected Glasgow-3823 fatherhood of Glasgow-3828; maternal identity and upstream ancestry are separate."
+      "scope": "The newspaper is known through a 2018 published transcription, not an inspected original issue. Its 1826 birth statement conflicts with its age eighty in 1916 and the held 1850 age; its 1849 migration also conflicts with the university account of 1859. Those dates are not adopted or silently corrected. The explicit father and sibling clauses, distinctive occupation/migration and known family sequence support the identification despite those narrative errors. Mother Elizabeth and Samuel’s unknown father remain separate; no new father is attached."
     }
   },
   {

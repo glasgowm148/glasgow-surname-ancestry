@@ -595080,5 +595080,69 @@
       }
     },
     "provenance": "Original Irish civil register image inspected 12 November 2026, Ballymena register p134 entry98, PDF page1; compared with original1876 Kendall directory printedpp97 and102, PDFpp103 and108. Corrects the older Andrew transcription to Robert. Family identification is an inference from exact Donbought residence and the matching Wylie couple; no new father assessment."
+  },
+  {
+    "record_id": "chester-samuel-glasco-school-index-1835-1837",
+    "association": "Samuel Glasco and children, Chester County school index 1835–1837",
+    "date": "1835–1837",
+    "year": 1837,
+    "place": "East Marlborough and New Garden, Chester County, Pennsylvania",
+    "source_url": "https://www.chesco.org/DocumentCenter/View/83915/Poor-School-Children-1810-1842",
+    "source_title": "Chester County Archives, Poor School Children 1810–1842, PDF pages 365–366",
+    "source_type": "Official archive index",
+    "source_quality": "provider_derivative",
+    "record_category": "education",
+    "status": "Official index pages inspected; manuscripts not inspected",
+    "note": "The 1836 East Marlborough row lists Samuel Glasco with Jacob(6); the 1837 New Garden row lists Samuel Glasco with Jacob(6) and Zephenia(5). These are selected names from fuller child lists. Both rows are marked Tax Only: Yes; the 1835 East Marlborough entry for the same head is Tax Only: No. Treat the yearly returns as one school-record tradition, independent of the 1850 census. Confidence is a strongly supported family inference, not genetic proof or a literal birth-register parent clause. The county index pages 365–366 were inspected; the underlying school and tax manuscripts were not. School returns can list a guardian and can carry an age forward. The repeated surname, coherent child group and independent census context favour ordinary parentage over that unsupported alternative. Mother Elizabeth and Samuel’s own unknown father are not reassessed. The 1850 index is reused; no original census reading is claimed.",
+    "reviewed_on": "2026-11-12",
+    "provenance": "County published index PDF pages 365 and 366 visually inspected 12 November 2026. No original school register or tax list inspected.",
+    "publish_to_record_index": true,
+    "profiles": {
+      "Glasgow-3823": {
+        "role": "Named adult head, Samuel Glasco"
+      },
+      "Glasgow-3825": {
+        "role": "Named child Jacob, aged six"
+      },
+      "Glasgow-3826": {
+        "role": "Named child Zephenia, aged five in 1837"
+      }
+    }
+  },
+  {
+    "record_id": "henrietta-enos-obituary-1916-family",
+    "association": "Henrietta Enos obituary identifies Samuel Glasco and brothers Lloyd and Jesse",
+    "date": "11 November 1916",
+    "year": 1916,
+    "place": "West Chester, Pennsylvania",
+    "source_url": "https://blackintoledo.wordpress.com/2018/07/27/granville-lee-enos-civil-war-soldier-and-connection-to-glasgow-glasco-and-davis-families-of-chester-county-pa/",
+    "source_title": "Daily Local News, 11 November 1916, Henrietta Enos obituary, transcription published by Black In Toledo 27 July 2018",
+    "source_type": "Published newspaper transcription",
+    "source_quality": "provider_derivative",
+    "record_category": "death",
+    "record_precision": "Obituary publication date; original issue/page not inspected",
+    "status": "Published transcription reviewed; date conflicts retained",
+    "note": "The transcription explicitly identifies Henrietta Enos as daughter of Samuel Glasco, the Oxford brickyard owner and Liberia emigrant, and identifies Lloyd and Jesse as her brothers. The newspaper is known through a 2018 published transcription, not an inspected original issue. Its 1826 birth statement conflicts with its age eighty in 1916 and the held 1850 age; its 1849 migration also conflicts with the university account of 1859. Those dates are not adopted or silently corrected. The explicit father and sibling clauses, distinctive occupation/migration and known family sequence support the identification despite those narrative errors. Mother Elizabeth and Samuel’s unknown father remain separate; no new father is attached.",
+    "reviewed_on": "2026-11-12",
+    "provenance": "Read the separately dated historical obituary transcription in the 27 July 2018 article; original 1916 issue and pension file not inspected. Used only the obituary family clauses for these assessments.",
+    "historical_basis": {
+      "latest_birth_year": 1837,
+      "source_url": "https://www.familysearch.org/ark:/61903/1:1:M4HM-J4K"
+    },
+    "publish_to_record_index": true,
+    "profiles": {
+      "Glasco-165": {
+        "role": "Obituary subject, identified through Enos family and distinctive father"
+      },
+      "Glasgow-3823": {
+        "role": "Expressly named father Samuel Glasco"
+      },
+      "Glasgow-3828": {
+        "role": "Expressly named brother Lloyd; father inferred through sister"
+      },
+      "Glasgow-3829": {
+        "role": "Expressly named brother Jesse; existing 90% father assessment unchanged"
+      }
+    }
   }
 ]

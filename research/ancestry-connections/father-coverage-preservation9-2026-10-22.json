@@ -544,15 +544,31 @@
     },
     "Glasgow-3825": {
       "current_sha256": "4bbf71a51cd9cac7754f8457cc2698348032653d0f55fd555cd4410bac01a4c4",
-      "proposed_sha256": "b7f588ee9b03411dab23dfad05d5276724597225de28048d6bfbee5ec064231b",
+      "proposed_sha256": "f5535b08e428ab9a2c70d0bf54841cfb954983bff401303a309985307103e28d",
       "previous_proposed_sha256": "4bbf71a51cd9cac7754f8457cc2698348032653d0f55fd555cd4410bac01a4c4",
       "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/father-coverage9-20261022/previous-proposals/Glasgow-3825.wiki",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-3825/father-confidence-2026-10-22i.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
+      "retained": "Complete previous reviewed proposal preserved; only the12November2026 source review was inserted. Verified against the previous committed draft and unchanged captured biography; references retained.",
       "restored_source_passage_count": 0,
-      "reference_repairs": []
+      "reference_repairs": [],
+      "review_history": [
+        {
+          "current_sha256": "4bbf71a51cd9cac7754f8457cc2698348032653d0f55fd555cd4410bac01a4c4",
+          "proposed_sha256": "b7f588ee9b03411dab23dfad05d5276724597225de28048d6bfbee5ec064231b",
+          "previous_proposed_sha256": "4bbf71a51cd9cac7754f8457cc2698348032653d0f55fd555cd4410bac01a4c4",
+          "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/father-coverage9-20261022/previous-proposals/Glasgow-3825.wiki",
+          "all_substantive_passages_accounted_for": true,
+          "draft_path": "research/Glasgow-3825/father-confidence-2026-10-22i.wiki",
+          "private_comparison": false,
+          "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
+          "restored_source_passage_count": 0,
+          "reference_repairs": []
+        }
+      ],
+      "reviewed_on": "2026-11-12",
+      "previous_reviewed_proposal_sha256": "b7f588ee9b03411dab23dfad05d5276724597225de28048d6bfbee5ec064231b"
     },
     "Glasgow-4094": {
       "current_sha256": "2f3210624970f1f2dd47d9edc7043e2e568ae5d3eec797c2876e856e1acdc8b9",
@@ -904,15 +920,31 @@
     },
     "Glasgow-3826": {
       "current_sha256": "f1a4159616ab175e5c171910b702c2785a4d50bac0ef373a6cb1ce8fbacb3c29",
-      "proposed_sha256": "1d027a66dc3bd04980e8c420a6cc54da70d4e3e77fdc0e10c8e9b319ae22766f",
+      "proposed_sha256": "12ce337bfd1a261df45952e70a20ee06fc2ed22f2d9ea4180511289086a8b9d3",
       "previous_proposed_sha256": "f1a4159616ab175e5c171910b702c2785a4d50bac0ef373a6cb1ce8fbacb3c29",
       "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/father-coverage9-20261022/previous-proposals/Glasgow-3826.wiki",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-3826/father-confidence-2026-10-22i.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
+      "retained": "Complete previous reviewed proposal preserved; only the12November2026 source review was inserted. Verified against the previous committed draft and unchanged captured biography; references retained.",
       "restored_source_passage_count": 0,
-      "reference_repairs": []
+      "reference_repairs": [],
+      "review_history": [
+        {
+          "current_sha256": "f1a4159616ab175e5c171910b702c2785a4d50bac0ef373a6cb1ce8fbacb3c29",
+          "proposed_sha256": "1d027a66dc3bd04980e8c420a6cc54da70d4e3e77fdc0e10c8e9b319ae22766f",
+          "previous_proposed_sha256": "f1a4159616ab175e5c171910b702c2785a4d50bac0ef373a6cb1ce8fbacb3c29",
+          "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/father-coverage9-20261022/previous-proposals/Glasgow-3826.wiki",
+          "all_substantive_passages_accounted_for": true,
+          "draft_path": "research/Glasgow-3826/father-confidence-2026-10-22i.wiki",
+          "private_comparison": false,
+          "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
+          "restored_source_passage_count": 0,
+          "reference_repairs": []
+        }
+      ],
+      "reviewed_on": "2026-11-12",
+      "previous_reviewed_proposal_sha256": "1d027a66dc3bd04980e8c420a6cc54da70d4e3e77fdc0e10c8e9b319ae22766f"
     },
     "Glasgow-2222": {
       "current_sha256": "771881504378ef8b7ebc8fca8bfd43dbc8b7b8cf9ddb34f6173edf3aca00e305",
@@ -1576,27 +1608,59 @@
     },
     "Glasco-165": {
       "current_sha256": "00c15d3ff703f37200fed600d9bf8fce59beca1761966b96b6a50f4d48018668",
-      "proposed_sha256": "849d11f7877dff48fecd2bd4d1551eb3b4cada368ee229cfcc23692377b8dccf",
+      "proposed_sha256": "0db194022f33d54b3a27b4b0acbe31a6f6362bed5956d5b6cf3cd59a6434689e",
       "previous_proposed_sha256": "00c15d3ff703f37200fed600d9bf8fce59beca1761966b96b6a50f4d48018668",
       "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/father-coverage9-20261022/previous-proposals/Glasco-165.wiki",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasco-165/father-confidence-2026-10-22i.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
+      "retained": "Complete previous reviewed proposal preserved; only the12November2026 source review was inserted. Verified against the previous committed draft and unchanged captured biography; references retained.",
       "restored_source_passage_count": 0,
-      "reference_repairs": []
+      "reference_repairs": [],
+      "review_history": [
+        {
+          "current_sha256": "00c15d3ff703f37200fed600d9bf8fce59beca1761966b96b6a50f4d48018668",
+          "proposed_sha256": "849d11f7877dff48fecd2bd4d1551eb3b4cada368ee229cfcc23692377b8dccf",
+          "previous_proposed_sha256": "00c15d3ff703f37200fed600d9bf8fce59beca1761966b96b6a50f4d48018668",
+          "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/father-coverage9-20261022/previous-proposals/Glasco-165.wiki",
+          "all_substantive_passages_accounted_for": true,
+          "draft_path": "research/Glasco-165/father-confidence-2026-10-22i.wiki",
+          "private_comparison": false,
+          "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
+          "restored_source_passage_count": 0,
+          "reference_repairs": []
+        }
+      ],
+      "reviewed_on": "2026-11-12",
+      "previous_reviewed_proposal_sha256": "849d11f7877dff48fecd2bd4d1551eb3b4cada368ee229cfcc23692377b8dccf"
     },
     "Glasgow-3828": {
       "current_sha256": "08ec2bad716e3d1cb93d0fe8e1d11e05cda5fbcb471ad2b8ab1799a370ed23d9",
-      "proposed_sha256": "44b260da2988d5c92598c2a43ccd32c508cb8ea862fa38dd15dc99acbe6ded5f",
+      "proposed_sha256": "6290ad164e44d053546735c7dc52c1904ae7cbd39f3ff07af04c3e5301f87a1a",
       "previous_proposed_sha256": "08ec2bad716e3d1cb93d0fe8e1d11e05cda5fbcb471ad2b8ab1799a370ed23d9",
       "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/father-coverage9-20261022/previous-proposals/Glasgow-3828.wiki",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-3828/father-confidence-2026-10-22i.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
+      "retained": "Complete previous reviewed proposal preserved; only the12November2026 source review was inserted. Verified against the previous committed draft and unchanged captured biography; references retained.",
       "restored_source_passage_count": 0,
-      "reference_repairs": []
+      "reference_repairs": [],
+      "review_history": [
+        {
+          "current_sha256": "08ec2bad716e3d1cb93d0fe8e1d11e05cda5fbcb471ad2b8ab1799a370ed23d9",
+          "proposed_sha256": "44b260da2988d5c92598c2a43ccd32c508cb8ea862fa38dd15dc99acbe6ded5f",
+          "previous_proposed_sha256": "08ec2bad716e3d1cb93d0fe8e1d11e05cda5fbcb471ad2b8ab1799a370ed23d9",
+          "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/father-coverage9-20261022/previous-proposals/Glasgow-3828.wiki",
+          "all_substantive_passages_accounted_for": true,
+          "draft_path": "research/Glasgow-3828/father-confidence-2026-10-22i.wiki",
+          "private_comparison": false,
+          "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
+          "restored_source_passage_count": 0,
+          "reference_repairs": []
+        }
+      ],
+      "reviewed_on": "2026-11-12",
+      "previous_reviewed_proposal_sha256": "44b260da2988d5c92598c2a43ccd32c508cb8ea862fa38dd15dc99acbe6ded5f"
     },
     "Glasgow-1175": {
       "current_sha256": "b798196fada602d352c3d7d50954f1aebbde504f4a5b1816b95a11e2b74a0039",
