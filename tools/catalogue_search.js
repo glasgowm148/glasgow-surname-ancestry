@@ -448,6 +448,13 @@
   }
   function restoreUrl(){
     const params=new URLSearchParams(location.search);
+    // Start ordinary visits with the research cohort; explicit links keep their own scope.
+    if(!params.size){
+      params.set('glasgowBirth','1');
+      params.set('dateType','birth');
+      params.set('from','1451');
+      params.set('sort','birth:asc');
+    }
     Object.entries(textParams).forEach(([param,key])=>{const control=controls[key];if(!control) return;const value=params.get(param);if(value!==null) control.value=value;});
     // Restore older death-exclusion bookmarks using their original scope.
     if(params.has('excludeDeath')&&!params.has('excludeLocation')){controls.excludeDeath.value=params.get('excludeDeath');if(!params.has('locationType')) controls.locationType.value='death';}
@@ -1066,7 +1073,7 @@
     const current=++renderNumber;
     disconnectCatalogueMap();
     updateClear();
-    // With no filters the whole catalogue is browsable, A–Z by default.
+    // With no filters the whole catalogue is browsable, oldest births first.
     const browsing=!hasActiveFilter();
     if(!browsing&&autoBrowseSort){sortMode='relevance';autoBrowseSort=false;}
     setStatus('Searching…','busy');
@@ -1074,7 +1081,7 @@
     try{source=await loadPeople();}catch(_error){return;}
     if(current!==renderNumber) return;
     const filters=criteria();
-    if(browsing&&sortMode==='relevance'){sortMode='name:asc';autoBrowseSort=true;}
+    if(browsing&&sortMode==='relevance'){sortMode='birth:asc';autoBrowseSort=true;}
     if(!filters.query.length&&sortMode==='relevance') sortMode=controls.needsUpdate.checked?'updatePriority:desc':'birth:asc';
     let matchesSource,workerSorted=false;
     if(searchWorker){try{const flags=Object.fromEntries(Object.entries(controls).map(([key,c])=>[key,Boolean(c?.checked)]));const ids=await workerRequest('filter',{filters:{...filters,gender:selectedGender(),flags},sortMode});const byId=new Map(source.map(p=>[p.id,p]));matchesSource=ids.map(id=>byId.get(id));workerSorted=true}catch(error){searchWorker?.terminate();searchWorker=null;source=people=await preparedPeople(false);matchesSource=source.filter(p=>matches(p,filters))}}
