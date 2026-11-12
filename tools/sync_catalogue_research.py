@@ -12,6 +12,7 @@ from copy import deepcopy
 from collections import Counter
 from html import escape
 from pathlib import Path
+from urllib.parse import urlsplit
 
 from bs4 import BeautifulSoup
 
@@ -191,6 +192,9 @@ def refresh_family_branch_parents(profile_ids, *, site_root=WEB, write=False):
         for parent in parents:
             name = escape(str(parent.get('name') or parent.get('id') or 'Parent'))
             href = str(parent.get('url') or parent.get('wikitree_url') or '')
+            # An attached relative need not have a published person page.
+            if href.startswith('/people/') and not (site_root / urlsplit(href).path.lstrip('/')).is_file():
+                href = ''
             link = (f'<a data-r-person-link="{escape(str(parent.get("id") or ""), quote=True)}" '
                     f'href="{escape(href, quote=True)}">{name}</a>') if href.startswith(('/', 'https://')) else name
             probability = parent.get('probability') or {}

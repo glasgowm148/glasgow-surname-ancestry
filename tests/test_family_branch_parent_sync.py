@@ -23,11 +23,13 @@ class FamilyBranchParentSyncTest(unittest.TestCase):
             registry.write_text(json.dumps([{'id': 'family-example-1', 'rootId': 'Example-1'}]))
             person = root / 'people/example-1.json'
             person.parent.mkdir()
+            (person.parent / 'example-2.html').write_text('<h1>Preferred father</h1>')
             person.write_text(json.dumps({'relationships': {'parents': [
                 {'id': 'Example-2', 'name': 'Preferred father', 'relationship': 'father',
                  'url': '/people/example-2.html', 'status': 'probable', 'display': 'hypothesis',
                  'lifecycle': 'current', 'probability': {'value': .64, 'label': 'Probable · 64%'}},
                 {'id': 'Example-3', 'name': 'Recorded mother', 'relationship': 'mother',
+                 'url': '/people/example-3.html',
                  'status': 'unknown', 'tree_status_label': 'WikiTree: confident parent',
                  'probability': {'value': None}},
                 {'id': 'Example-4', 'name': 'Alternative father', 'relationship': 'father',
@@ -45,6 +47,7 @@ class FamilyBranchParentSyncTest(unittest.TestCase):
             mother = rows[0].select('.r-family-person')[1].get_text()
             self.assertIn('WikiTree: confident parent', mother)
             self.assertNotIn('%', mother)
+            self.assertIsNone(rows[0].select('.r-family-person')[1].find('a'))
             original_rows = BeautifulSoup(before, 'html.parser').select('.r-family-row')
             self.assertEqual([str(row) for row in rows[1:]], [str(row) for row in original_rows[1:]])
             self.assertEqual(refresh_family_branch_parents(['Example-1'], site_root=root, write=True), [])
