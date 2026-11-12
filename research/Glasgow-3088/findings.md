@@ -4,6 +4,8 @@ Last updated: 2026-09-10
 
 ## Current conclusion
 
+The original will of [naval surgeon James Glasgow-4124](/people/glasgow-4124.html), made 15 June 1716 and proved 21 August 1719, expressly names his mother Isabell Duff and sister Jean. This Jean’s 13 April 1677 Edinburgh index names James Glasgow and Issobell Duff, making her a **strong candidate for the sister** on the combined parental-household and Edinburgh evidence. The will gives the sister no age, surname or husband, so it does not prove that she is this indexed child or establish a marriage identity. The sister’s maternity cannot be inferred solely because both women occur in the will: the original 1677 entry is the maternal source for this child. Existing father 98% and other assessed links are unchanged.
+
 Current father assessment (22 October 2026): **98% (proved)** for [Glasgow-2682](https://www.wikitree.com/wiki/Glasgow-2682). Confident for this child and couple; identifying the father with another weaver or childhood profile is separately qualified. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 The supplied index entry is a compatible derivative-record match by name, parish and recorded parent(s). Its date may be a birth or baptism date; the original image has not been inspected.
@@ -40,3 +42,10 @@ Next useful test: Use the original entry if a competing James/Duff couple is evi
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: ["Scotland Births and Baptisms, 1564-1950", database, FamilySearch (https://familysearch.org/ark:/61903/1:1:XTPF-7YY : 11 February 2020), Jean Glasgow, 1677.](https://familysearch.org/ark:/61903/1:1:XTPF-7YY)
+
+
+## Swift surgeon’s will — 12 November 2026
+
+The original will of [naval surgeon James Glasgow-4124](/people/glasgow-4124.html), made 15 June 1716 and proved 21 August 1719, expressly names his mother Isabell Duff and sister Jean. This Jean’s 13 April 1677 Edinburgh index names James Glasgow and Issobell Duff, making her a **strong candidate for the sister** on the combined parental-household and Edinburgh evidence. The will gives the sister no age, surname or husband, so it does not prove that she is this indexed child or establish a marriage identity. The sister’s maternity cannot be inferred solely because both women occur in the will: the original 1677 entry is the maternal source for this child. Existing father 98% and other assessed links are unchanged.
+
+[James Glasgow, surgeon of HMS sloop Swift, will dated 15 June 1716 and proved 21 August 1719](https://discovery.nationalarchives.gov.uk/details/r/D682397), The National Archives, PROB 11/569/479, PDF pp.1–2; original images visually checked by the lead researcher on 12 November 2026. See the [surgeon’s current account](/people/glasgow-4124.html) for source limits and the separate will reading.

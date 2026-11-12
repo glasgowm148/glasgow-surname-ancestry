@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+The original will of [James Glasgow-4124](/people/glasgow-4124.html), made 15 June 1716 and proved 21 August 1719, expressly names his own mother **Isabell Duff** and his sister Jean. This directly confirms the documentary maternal role; identifying her with this existing household remains the shared family inference, retained at 95%. [Jean Glasgow-3088](/people/glasgow-3088.html), indexed in 1677 to James/Issobell Duff, is a strong sister candidate, not a proved adult identity. The will does not settle the Elizabeth/Isobell variation throughout the older household or identify the 1696 apprentice; his separate maternal 72% remains unchanged.
+
 Reviewed: 30 October 2026. **The 1733 printed testament index expressly names Isobel Duff as mother of a naval surgeon James by James Glasgow, Edinburgh weaver and burgess; identify the son with existing Glasgow-4124 and propose her mother attachment at 95% confident inference.** The same family evidence supports the surgeon's father James-2682 at **95%**. The printed *Surf* / Dobson *Swift* variant remains unresolved, with original testaments uninspected. This is a new sourced surgeon-child connection, distinct from her unchanged **72%** probable motherhood of apprentice Glasgow-4114; neither his childhood identity nor the older weaver identity is resolved. See the dated source argument below.
 
 ### Retained apprentice and ancestry assessment — 21 October 2026
@@ -63,3 +65,10 @@ The cited printed registers, apprenticeship entries and parish index association
 The existing Saltoun surgeon [Glasgow-4124](/people/glasgow-4124.html), recorded in Dobson's held derivative as surgeon of *Swift* of Sheerness in 1733, is the strongly supported son, with father James-2682 and mother Duffe-18 each assessed **95% confident inference**. Keep *Surf* / *Swift* explicit; the parental roles are directly stated, while identity with the existing profiles is inferred through the shared surgeon/family evidence. The Dobson citation points to Services of Heirs, but that original entry and its independence remain unverified. [The surgeon's account carries the complete source and identity argument](/people/glasgow-4124.html#research-update).
 
 This does not identify the surgeon with apprentice Glasgow-4114 or either 1679/1680 child, establish James-2682 as the older 1649 burgess, or alter the retained apprentice parent grades (82% father, 72% mother), Robert father hypothesis (61%) or older-weaver identity (70%). Next: inspect the 1733 testaments and Services of Heirs entry for executors, relatives, residence or medical training. No birth/death date, merger or live WikiTree save follows.
+
+
+## Swift surgeon’s will — 12 November 2026
+
+The original will of [James Glasgow-4124](/people/glasgow-4124.html), made 15 June 1716 and proved 21 August 1719, expressly names his own mother **Isabell Duff** and his sister Jean. This directly confirms the documentary maternal role; identifying her with this existing household remains the shared family inference, retained at 95%. [Jean Glasgow-3088](/people/glasgow-3088.html), indexed in 1677 to James/Issobell Duff, is a strong sister candidate, not a proved adult identity. The will does not settle the Elizabeth/Isobell variation throughout the older household or identify the 1696 apprentice; his separate maternal 72% remains unchanged.
+
+[James Glasgow, surgeon of HMS sloop Swift, will dated 15 June 1716 and proved 21 August 1719](https://discovery.nationalarchives.gov.uk/details/r/D682397), The National Archives, PROB 11/569/479, PDF pp.1–2; original images visually checked by the lead researcher on 12 November 2026. See the [surgeon’s current account](/people/glasgow-4124.html) for source limits and the separate will reading.
