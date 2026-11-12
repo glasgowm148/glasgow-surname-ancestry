@@ -7,6 +7,8 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
+**Robert father-link reconciliation, 12 November 2026:** The proposed son [Robert Glasgow-1157](https://www.wikitree.com/wiki/Glasgow-1157) remains **5% uncertain**. His Scottish origin and identification with the Virginia Glascocke records are unproved. A later 20% row overlooked the earlier individual review and supplied no new supporting evidence; it is corrected, with both revisions retained. Edward’s independently documented Inveresk children and his own ancestry assessments are unchanged.
+
 Reviewed: 2026-10-29. Re-read against the later dated sections below; no change to this conclusion.
 
 Reviewed: 2026-10-20. **Preferred uncertain father George of Mureistoun 26%, replacing Corsankell James 18%; old father retained as alternative.**

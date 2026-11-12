@@ -139,6 +139,16 @@ class IndividualFindingTests(unittest.TestCase):
         self.assertEqual(rows[0]['kind'],'new')
         self.assertIsNone(rows[0]['research_event'])
 
+    def test_duplicate_assessment_correction_is_visible_but_not_a_research_gain(self):
+        history = [{'status': 'uncertain', 'probability_percent': 20,
+                    'assessment_date': '2026-11-05'}]
+        rows = self.rows(history, value=5,
+                         provenance={'review_kind': 'assessment_reconciliation',
+                                     'prior_assessment': {'status': 'uncertain', 'percent': 5}})
+        self.assertEqual([(r['before_percent'], r['after_percent']) for r in rows],
+                         [(5, 20), (20, 5)])
+        self.assertTrue(all(r['research_event'] is None for r in rows))
+
     def test_native_documentary_account_initial_rating_is_not_a_new_father(self):
         changes = {('record-son', 'glasgow-653', 'selected'): dict(action='add')}
         row, = self.rows([{'status': 'strongly_supported', 'probability_percent': None}],

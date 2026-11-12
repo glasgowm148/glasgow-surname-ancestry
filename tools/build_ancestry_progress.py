@@ -187,6 +187,10 @@ def individual_finding_rows(nodes, edges, assessments, cohorts, baseline_ids, id
             elif not new and (before is not None or (before_grade and after_grade and before_grade != after_grade)):
                 research_event = dict(type='confidence_change', date=review_date,
                                       before_grade=before_grade, after_grade=after_grade)
+            # Duplicate/import corrections remain reviewable in the individual
+            # table, but must not invent a discovery from a bad earlier row.
+            if provenance.get('review_kind') == 'assessment_reconciliation':
+                research_event = None
             rows.append(dict(
                 assertion_id=assertion['assertion_id'], child=person(child), father=person(father),
                 date=review_date, research_event=research_event,

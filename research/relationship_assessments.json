@@ -175317,26 +175317,37 @@
     "provenance": {
       "new_mother_attachment": false,
       "prior_assessment": {
+        "percent": 5,
         "relationship": "father",
         "relative_id": "Glasgow-1557",
-        "source_basis": "Before 5 November 2026 the catalogue and WikiTree attached this parent only as an unassessed family-tree link ('parent' attachment with no status or percentage); none is invented.",
-        "status": "unmarked"
+        "reviewed": "2026-10-17",
+        "source_basis": "Earlier individually reasoned Scottish/Virginia identity review retained in native claim clm-6d5fb13c1f0b7c74",
+        "status": "uncertain"
       },
-      "review_kind": "era1649_parent_assessment",
+      "reconciles_claim_id": "clm-6d5fb13c1f0b7c74",
+      "reconciliation_reason": "The later initial-rating row overlooked an existing individual assessment and did not introduce new evidence.",
+      "review_kind": "assessment_reconciliation",
       "source_newly_discovered": false
     },
     "status": "uncertain",
-    "assessment_date": "2026-11-05",
-    "basis": "No saved 1600-1699 record (the Ancestry 60143 and 60144 transcripts, the christening indexes, inscriptions or testaments) names Edward Glasgow as father of Robert Glasgow II or couples her with Edward Glasgow in a sibling entry. The attachment comes from the tree alone; it is kept as a uncertain hypothesis at 20% and assessed apart from the father link (no father assessment).",
-    "assessment_history": [],
-    "reason": "No saved 1600-1699 record (the Ancestry 60143 and 60144 transcripts, the christening indexes, inscriptions or testaments) names Edward Glasgow as father of Robert Glasgow II or couples her with Edward Glasgow in a sibling entry. The attachment comes from the tree alone; it is kept as a uncertain hypothesis at 20% and assessed apart from the father link (no father assessment).",
-    "limitations": "Tree attachment with no record; no competing mother is recorded either, so the figure measures only how far the unsupported attachment can be trusted.",
+    "assessment_date": "2026-11-12",
+    "basis": "Restore the individually reasoned 17 October assessment at 5%. Edward has documented Inveresk children in 1609 and 1615, but no reviewed record places Robert among them. Robert’s Scottish origin, 1612 birth and identification with the Virginia Glascocke occurrences remain unestablished. The 5 November 20% row overlooked the earlier 5% review and supplied no new evidence for Edward as father. Compatible generations alone do not bridge the two accounts.",
+    "assessment_history": [
+      {
+        "status": "uncertain",
+        "probability_percent": 20,
+        "assessment_date": "2026-11-05",
+        "source_basis": "No saved 1600-1699 record (the Ancestry 60143 and 60144 transcripts, the christening indexes, inscriptions or testaments) names Edward Glasgow as father of Robert Glasgow II or couples her with Edward Glasgow in a sibling entry. The attachment comes from the tree alone; it is kept as a uncertain hypothesis at 20% and assessed apart from the father link (no father assessment)."
+      }
+    ],
+    "reason": "Restore the individually reasoned 17 October assessment at 5%. Edward has documented Inveresk children in 1609 and 1615, but no reviewed record places Robert among them. Robert’s Scottish origin, 1612 birth and identification with the Virginia Glascocke occurrences remain unestablished. The 5 November 20% row overlooked the earlier 5% review and supplied no new evidence for Edward as father. Compatible generations alone do not bridge the two accounts.",
+    "limitations": "Assessment reconciliation, not a new source discovery, father attachment or improved family connection. The 20% revision and the separate October estimate are retained as provenance. No parent, spouse, vital date or identity is transferred; Scottish-to-Virginia migration remains unproved.",
     "probability": {
-      "value": 0.2,
-      "reviewed": "2026-11-05",
-      "basis": "No saved 1600-1699 record (the Ancestry 60143 and 60144 transcripts, the christening indexes, inscriptions or testaments) names Edward Glasgow as father of Robert Glasgow II or couples her with Edward Glasgow in a sibling entry. The attachment comes from the tree alone; it is kept as a uncertain hypothesis at 20% and assessed apart from the father link (no father assessment).",
+      "value": 0.05,
+      "reviewed": "2026-11-12",
+      "basis": "Restore the individually reasoned 17 October assessment at 5%. Edward has documented Inveresk children in 1609 and 1615, but no reviewed record places Robert among them. Robert’s Scottish origin, 1612 birth and identification with the Virginia Glascocke occurrences remain unestablished. The 5 November 20% row overlooked the earlier 5% review and supplied no new evidence for Edward as father. Compatible generations alone do not bridge the two accounts.",
       "source_ids": [],
-      "scope": "Tree attachment with no record; no competing mother is recorded either, so the figure measures only how far the unsupported attachment can be trusted."
+      "scope": "Assessment reconciliation, not a new source discovery, father attachment or improved family connection. The 20% revision and the separate October estimate are retained as provenance. No parent, spouse, vital date or identity is transferred; Scottish-to-Virginia migration remains unproved."
     },
     "working_selection": false,
     "attachment_status": "attached",
@@ -175346,7 +175357,15 @@
     "analysis_links": [
       {
         "href": "/people/glasgow-1157.html#research-findings",
-        "label": "1600-1649 parent link review"
+        "label": "Scottish origin and Virginia identity limits; earlier individual review"
+      },
+      {
+        "href": "https://archive.org/details/cavalierspioneer00nuge/page/33/mode/2up",
+        "label": "Nugent, printed p.33: Robert Glascocke patent,1635; not a named Scottish parent"
+      },
+      {
+        "href": "https://archive.org/details/cavalierspioneer00nuge/page/111/mode/2up",
+        "label": "Nugent, printed p.111: Robert Glascocke patent,1639; identity unresolved"
       }
     ],
     "profile_names": {

@@ -104104,13 +104104,13 @@
       "subject_id": "Glasgow-1157",
       "relative_id": "Glasgow-1557",
       "relationship": "father",
-      "percent": 20,
+      "percent": 5,
       "assessment_status": "uncertain",
       "assertion_id": "clm-er2-glasgow-1157-father-20261105",
-      "basis": "No saved 1600-1699 record (the Ancestry 60143 and 60144 transcripts, the christening indexes, inscriptions or testaments) names Edward Glasgow as father of Robert Glasgow II or couples her with Edward Glasgow in a sibling entry. The attachment comes from the tree alone; it is kept as a uncertain hypothesis at 20% and assessed apart from the father link (no father assessment).",
-      "reviewed": "2026-11-05",
+      "basis": "Restore the individually reasoned 17 October assessment at 5%. Edward has documented Inveresk children in 1609 and 1615, but no reviewed record places Robert among them. Robert’s Scottish origin, 1612 birth and identification with the Virginia Glascocke occurrences remain unestablished. The 5 November 20% row overlooked the earlier 5% review and supplied no new evidence for Edward as father. Compatible generations alone do not bridge the two accounts.",
+      "reviewed": "2026-11-12",
       "source_ids": [],
-      "scope": "Tree attachment with no record; no competing mother is recorded either, so the figure measures only how far the unsupported attachment can be trusted.",
+      "scope": "Assessment reconciliation, not a new source discovery, father attachment or improved family connection. The 20% revision and the separate October estimate are retained as provenance. No parent, spouse, vital date or identity is transferred; Scottish-to-Virginia migration remains unproved.",
       "working_selection": false,
       "attachment_status": "attached",
       "allow_new_relationship": true,
@@ -104119,7 +104119,15 @@
       "analysis_links": [
         {
           "href": "/people/glasgow-1157.html#research-findings",
-          "label": "1600-1649 parent link review"
+          "label": "Scottish origin and Virginia identity limits; earlier individual review"
+        },
+        {
+          "href": "https://archive.org/details/cavalierspioneer00nuge/page/33/mode/2up",
+          "label": "Nugent, printed p.33: Robert Glascocke patent,1635; not a named Scottish parent"
+        },
+        {
+          "href": "https://archive.org/details/cavalierspioneer00nuge/page/111/mode/2up",
+          "label": "Nugent, printed p.111: Robert Glascocke patent,1639; identity unresolved"
         }
       ],
       "profile_names": {
@@ -104131,13 +104139,13 @@
       "subject_id": "Glasgow-1557",
       "relative_id": "Glasgow-1157",
       "relationship": "child",
-      "percent": 20,
+      "percent": 5,
       "assessment_status": "uncertain",
       "assertion_id": "clm-er2-glasgow-1157-father-20261105",
-      "basis": "No saved 1600-1699 record (the Ancestry 60143 and 60144 transcripts, the christening indexes, inscriptions or testaments) names Edward Glasgow as father of Robert Glasgow II or couples her with Edward Glasgow in a sibling entry. The attachment comes from the tree alone; it is kept as a uncertain hypothesis at 20% and assessed apart from the father link (no father assessment).",
-      "reviewed": "2026-11-05",
+      "basis": "Restore the individually reasoned 17 October assessment at 5%. Edward has documented Inveresk children in 1609 and 1615, but no reviewed record places Robert among them. Robert’s Scottish origin, 1612 birth and identification with the Virginia Glascocke occurrences remain unestablished. The 5 November 20% row overlooked the earlier 5% review and supplied no new evidence for Edward as father. Compatible generations alone do not bridge the two accounts.",
+      "reviewed": "2026-11-12",
       "source_ids": [],
-      "scope": "Tree attachment with no record; no competing mother is recorded either, so the figure measures only how far the unsupported attachment can be trusted.",
+      "scope": "Assessment reconciliation, not a new source discovery, father attachment or improved family connection. The 20% revision and the separate October estimate are retained as provenance. No parent, spouse, vital date or identity is transferred; Scottish-to-Virginia migration remains unproved.",
       "working_selection": false,
       "attachment_status": "attached",
       "allow_new_relationship": true,
@@ -104146,7 +104154,15 @@
       "analysis_links": [
         {
           "href": "/people/glasgow-1157.html#research-findings",
-          "label": "1600-1649 parent link review"
+          "label": "Scottish origin and Virginia identity limits; earlier individual review"
+        },
+        {
+          "href": "https://archive.org/details/cavalierspioneer00nuge/page/33/mode/2up",
+          "label": "Nugent, printed p.33: Robert Glascocke patent,1635; not a named Scottish parent"
+        },
+        {
+          "href": "https://archive.org/details/cavalierspioneer00nuge/page/111/mode/2up",
+          "label": "Nugent, printed p.111: Robert Glascocke patent,1639; identity unresolved"
         }
       ],
       "profile_names": {
