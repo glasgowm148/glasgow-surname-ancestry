@@ -460517,7 +460517,12 @@
     "reviewed_on": "2026-11-05",
     "publish_to_record_index": true,
     "date_status": "exact_event_date",
-    "record_category": "Baptisms"
+    "record_category": "Baptisms",
+    "supersedes_public_record_ids": [
+      "5cbe627abb0366f9",
+      "6b3080a8035ff82c"
+    ],
+    "public_record_replacement_reason": "Reviewed 12 November 2026: the two public rows represent the same Findmypast baptism transcript, once for Janet Glasgow and once for the documentary father William Davies. Consolidate the source record while retaining both named roles in profiles and aliases for both former record IDs. The Davies/Glasgow surname mismatch, uninspected original and existing 70% father hypothesis remain unchanged."
   },
   {
     "record_id": "fmp-scot-opr-bap-2975865",
