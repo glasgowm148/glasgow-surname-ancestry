@@ -799,3 +799,14 @@ Search scope: official NRS catalogue reference B66/25/43 and web-indexed Glesgw/
 The public-domain Indiana copy of *Acts of the Lords of Council in Civil Causes*, volume II (1918), covering 1496–1501 with some earlier acts of 1469–1483, is available in [HathiTrust Full View](https://babel.hathitrust.org/cgi/pt?id=inu.30000047784453). The Glasgow search returned thirteen matching pages. This is a page-hit count, not thirteen people. Visual inspection of the printed index, pp. 524, 530, 533 and 536 (scans 676, 682, 685 and 688), found Glasgow as a place or ecclesiastical office. The alphabetic Glasgow heading on p. 536 lists the bishop, archbishop, barony, chanter, city, dean and official; it has no personal-surname subentry. Nearby Glasfurd is a distinct name.
 
 This closes only this limited index check. The body text, all thirteen search-hit pages, spelling variants, other printed volumes and manuscript indexes have not been exhaustively checked. It is not evidence that no Glasgow person appears in the volume, and does not discharge the archival civil-process task above. No identity, parent relationship or confidence percentage changes.
+
+
+## 12 November 2026 — Lords Auditors index and Civil Causes I access
+
+The separate *Acts of the Lords Auditors of Causes and Complaints*, 1466–1494 (1839), is lawfully available in HathiTrust Full View, Harvard copy hvd.32044081414880. The title page was read and the personal index, printed p. 13 (scan 289), visually checked. Its GLASGW heading lists the archbishop, bishop, archdean, dean, official, provost and subdean. The Robert entry is subordinate to the bishop heading; it is not a new Robert Glasgow surname identification. No lay Glasgow surname entry was found in that checked heading.
+
+The modern Glasgow query returned 20 matching pages and the historical spelling Glasgw 24. Search snippets were reviewed as leads, not as a complete visual reading of the cases. Other spellings, omissions and unindexed content remain possible. This is not an exhaustive negative search of the register and supplies no identity or parent-confidence change.
+
+Civil Causes volume I (1478–1495) remains a separate access hold. The inspected HathiTrust catalogue links lead to later volumes, including the previously checked volume II; the university digital-book list repeats that catalogue. Two bounded Internet Archive title queries returned no item, which is not proof that no digitized copy exists. No readable volume I scan was confirmed and none was searched as if read. The accessible Auditors book does not discharge the Civil Causes or manuscript-index tasks.
+
+[Auditors personal index,p. 13](https://babel.hathitrust.org/cgi/pt?id=hvd.32044081414880&seq=289); [Auditors catalogue](https://catalog.hathitrust.org/Record/102684238); [Civil Causes catalogue](https://catalog.hathitrust.org/Record/010488552).
