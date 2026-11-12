@@ -594836,5 +594836,38 @@
     "additional_source_urls": [
       "https://www.familysearch.org/en/search/catalog/koha:273344"
     ]
+  },
+  {
+    "record_id": "cookstown-johns-mortgage-1824",
+    "record_type": "Registry of Deeds mortgage memorial",
+    "date": "1824-03-16",
+    "year": 1824,
+    "place": "Cookstown and Gortin, County Tyrone, Ireland",
+    "association": "John Glasgow junior, Cookstown grocer, mortgages to John Glasgow senior, Gortin farmer; William Glasgow creditor and Hugh Glasgow witness",
+    "source_title": "Ireland Registry of Deeds, memorial 536082, mortgage dated 16 March 1824; FamilySearch DGS 008091882, images 226–227 of 365",
+    "source_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJ7-7S6T-P",
+    "additional_source_urls": [
+      "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJ7-7S65-6"
+    ],
+    "source_type": "Registered manuscript memorial; original selected passages inspected",
+    "source_quality": "original_manuscript",
+    "source_status": "Original parties, security and witness passages inspected 12 November 2026; not a full diplomatic transcription",
+    "status": "Mortgage parties, date and financial arrangement directly recorded; fatherhood and profile identities inferred",
+    "profiles": {
+      "Glasgow-2058": {
+        "role": "Preferred candidate for junior Cookstown grocer; father-profile hypothesis45%, unchanged",
+        "assessment": "possible",
+        "timeline_group": "Family comparisons"
+      },
+      "Glasgow-2539": {
+        "role": "Preferred candidate for senior Gortin farmer; inferred identity, not proved by the mortgage",
+        "assessment": "possible",
+        "timeline_group": "Family comparisons"
+      }
+    },
+    "note": "The recited mortgage has been located: Registry of Deeds memorial 536082, dated 16 March 1824, DGS 008091882 images 226–227. It names John Glasgow junior of Cookstown, grocer, and John Glasgow senior of Gortin, farmer. It secures junior’s £50 debt to senior and indemnifies senior for two bonds totaling £150, payable to William Glasgow, farmer in County Tyrone, and the Reverend John Harkness. Hugh Glasgow witnesses the transaction. This is the underlying mortgage recited in the 1825 assignment, not a second independent family transaction. No father/son clause was found in the inspected original mortgage passages. The Gortin father hypothesis stays possible, 45%; profile identifications remain inferred. William the creditor and Hugh the witness are not securely assigned to existing profiles, and their exact locations are not asserted. The existing Gortin Hugh (Glasgow-2540, estimated birth 1805) is a compatible witness candidate by name and chronology, not an identified signatory. A younger witness is not excluded solely by that estimate. The 1825 recital and this mortgage share one underlying financial arrangement and must not be counted as independent kinship proofs. Full diplomatic transcription, uncertain witness placenames and exact jurat date remain outstanding.",
+    "provenance": "Located 12 November 2026 in FamilySearch full-text results for +Glasg* +Cookstown, then checked against the original images. Exact adjoining image227ARK obtained from the visible film grid. Private source pixels retained by hash, not published.",
+    "publish_to_record_index": true,
+    "reviewed_on": "2026-11-12"
   }
 ]
