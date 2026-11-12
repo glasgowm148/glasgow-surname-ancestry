@@ -2,6 +2,18 @@
 
 ## Current conclusion
 
+
+Current father assessment (completed 2026-10-30): **97% (confident)** for [Glascow-14](https://www.wikitree.com/wiki/Glascow-14).
+
+The original 1851 Weakley deed calls its grantors the heirs of deceased Isaac Glasgow and conveys land originally surveyed in his name. The acknowledgment expands the distinctive Wagstaff K. name, agreeing with the existing Weakley family and independently held cemetery context. No birthday discrepancy is silently resolved. Numerous other heirs match Isaac’s existing family, including Elijah, William C., Wagstaff K., John G., Joseph D. and Jesse Glasgow, with the Adams couple. This supports confident fatherhood by the combined specific family group, rather than a generic same-name or age match.
+
+**Limits:** The record directly states heirship, not a literal child clause. Husbands are among the grantors and are not treated as biological children. This is a profile-specific confident inference; full middle names, vital dates, mothers and upstream ancestry are not proved by the deed. The acknowledgment expands the distinctive Wagstaff K. name, agreeing with the existing Weakley family and independently held cemetery context. No birthday discrepancy is silently resolved.
+
+Sources: [Weakley County Register of Deeds, pp. 410–411, DGS 008151469, image 213](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKJ-RS12-5).
+
+This summary reflects the existing workbench assessment; reconciliation on 12 November 2026 adds no relationship or confidence event.
+
+## Earlier research summary — historical
 Reviewed 30 October 2026: the existing Isaac father is now **97% confident inference**, superseding the earlier 62% grade below. Other relationships and vital fields remain unchanged.
 
 Current father assessment (29 October 2026): **62% (probable)** for [Glascow-14](https://www.wikitree.com/wiki/Glascow-14). Possible55%; named pedigree and compatible chronology, without DNA or a newly read parent record. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.

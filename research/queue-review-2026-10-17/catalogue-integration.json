@@ -14737,19 +14737,19 @@
       "pending": true,
       "queued_at": "2026-10-22",
       "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-2433/father-confidence-2026-10-22d.wiki",
+      "draft_path": "research/Glasgow-2433/father-summary-reconciled-2026-11-12.wiki",
       "findings_path": "research/Glasgow-2433/findings.md",
-      "summary": "Review existing father at 49% (possible), retaining source and identity limits; no new father attachment.",
+      "summary": "Review existing father at 85% (probable), retaining source and identity limits; no new father attachment.",
       "work_queue_summary": "Review existing father at 49% (possible), retaining source and identity limits; no new father attachment.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-3706",
-          "status": "possible",
+          "status": "probable",
           "previous_status": "unmarked",
           "previous_probability_percent": null,
-          "probability_percent": 49,
+          "probability_percent": 85,
           "assertion_id": "C-coverage-20261022d-glasgow-2433-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
           "scope": "Possible inherited placement; the held account does not quote a record naming Robert as father."
@@ -14760,7 +14760,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation4-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-summary-preservation-2026-11-12.json",
+      "draft_wikitext": "<!-- REVIEWED FULL REPLACEMENT: additive father review fourth batch 2026-10-22 -->\n[[Category:Glasgow Name Study]]\n\n== Biography ==\nJohn was born in 1786.  He passed away in 1864.\n<ref>\nUnsourced family tree handed down to [[Gardiner-5423|Ethan Gardiner]].\n</ref>\n\n== Research Notes ==\n=== Current paternal evidence ===\nThe father relationship to [[Glasgow-3706]] is assessed at 85% (probable). The Ancestry Scotland, Select Births and Baptisms index entry for John Glasgow, 6 July 1786 at Eccles, Berwickshire (https://www.ancestry.co.uk/search/collections/60143/records/27458592), reads the parent fields that the previous review could not see: father Robert and mother Agnes (forenames only). The previous 49% rested only on a handed-down family tree that quotes no record. John's birth date 6 July 1786 is exactly this entry, and the index shows one Robert and Agnes family at Eccles (which includes Leitholm) from 1779 to 1795: James 1779, Thomas 1781, Marion 1782, William 1784, John 1786, Agnes 1789, Thomas 1791 and Isobel 1795 (for example https://www.ancestry.co.uk/search/collections/60143/records/27458082). That is the household of Robert [[Glasgow-3706]] and Agnes Whitehead, who married at Leitholm in 1779. Confidence rises from 49% to 85% probable.\n\nThe Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index already cited, so they verify the indexed parent fields rather than adding an independent source; the original register is uninspected. The index row gives the mother's forename only; Whitehead comes from the couple's 1779 marriage. John's later identity as the Leitholm man who died in 1864 rests on his profile's birth date and residence. Robert-3706's own father link (James-1238, 34%) is separate and unchanged. No mother change follows.\n<ref>[https://www.wikitree.com/wiki/Glasgow-2433 WikiTree profile export for Glasgow-2433].</ref><ref>[https://www.ancestry.co.uk/search/collections/60143/records/27458592 Scotland, Select Births and Baptisms, 1564-1950 — John Glasgow, 6 Jul 1786, Eccles, Berwickshire, Scotland].</ref>\n\nThe dated reviews below describe earlier stages of this research.\n\n\n=== Earlier father review, 22 October 2026 ===\n\nIn this earlier review, the father [[Glasgow-3706]] is assessed at 49% (possible). John’s 6 July 1786 birth is compatible with Robert’s 1745 generation and the handed-down Gardiner family tree. The exact birth detail makes this more specific than an undated surname connection.\n\nPossible inherited placement; the held account does not quote a record naming Robert as father.\n\nEarlier proposed test: Trace the family tree’s John entry to its original register or family record.\n\nSource basis already held: [https://www.wikitree.com/wiki/Glasgow-2433 WikiTree profile export for Glasgow-2433]. No new father attached; cited evidence and any inspected register entry are scoped above.\n\n== Sources ==\n<references />"
     },
     "Glasgow-2439": {
       "profile_id": "Glasgow-2439",
@@ -18520,9 +18521,9 @@
       "pending": true,
       "queued_at": "2026-10-22",
       "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-1335/father-confidence-2026-10-22f.wiki",
+      "draft_path": "research/Glasgow-1335/father-summary-reconciled-2026-11-12.wiki",
       "findings_path": "research/Glasgow-1335/findings.md",
-      "summary": "Review existing father at 81% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Review existing father at 85% (probable), retaining source and identity limits; no new father attachment.",
       "work_queue_summary": "Review existing father at 81% (probable), retaining source and identity limits; no new father attachment.",
       "relationship_changes": [
         {
@@ -18532,7 +18533,7 @@
           "status": "probable",
           "previous_status": "unmarked",
           "previous_probability_percent": null,
-          "probability_percent": 81,
+          "probability_percent": 85,
           "assertion_id": "C-coverage-20261022f-glasgow-1335-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
           "scope": "1707 child’s inherited family link; do not merge the two Mary accounts or infer a death for 1701."
@@ -18543,7 +18544,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation6-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-summary-preservation-2026-11-12.json",
+      "draft_wikitext": "<!-- REVIEWED FULL REPLACEMENT: additive father review sixth batch 2026-10-22 -->\n{{Estimated Date}}\n[[Category:Glasgow Name Study]]\n\n== Biography ==\nMary was born before 1707. She is the daughter of [[Glasgow-1334|Andrew Glasgow]]. \n== Research Notes ==\n=== Current paternal evidence ===\nThe father relationship to [[Glasgow-1546]] is assessed at 85% (probable). The Ancestry Scotland, Select Births and Baptisms index entry for Mary Glasgow, 4 April 1707 at Kirknewton and East Calder (https://www.ancestry.co.uk/search/collections/60143/records/14547591), reads the parent fields that the previous review could not see: father Andrew (forenames only). It sits in the Andrew Glasgow and Christian Cook family of Kirknewton attached as Andrew [[Glasgow-1546]], so the father clause now confirms the inherited placement. Confidence rises to 85%.\n\nThe Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index already cited, so they verify the indexed parent fields rather than adding an independent source; the original register is uninspected. The row names the father only, not the mother. Andrew-1546's own birth (estimated 1685) and upstream father are separate and unchanged. The earlier Mary of 1701 is not merged with her. No mother change follows.\n<ref>[https://familysearch.org/ark:/61903/1:1:VQ4K-8QP https://familysearch.org/ark:/61903/1:1:VQ4K-8QP].</ref><ref>[https://www.ancestry.co.uk/search/collections/60143/records/14547591 Scotland, Select Births and Baptisms, 1564-1950 — Mary Glasgow, 4 Apr 1707, Kirknewton and East Calder, Midlothian, Scotland].</ref>\n\nThe dated reviews below describe earlier stages of this research.\n\n\n=== Earlier father review, 22 October 2026 ===\n\nIn this earlier review, the father [[Glasgow-1546]] is assessed at 81% (probable). Mary 1707 has a specific Kirknewton FamilySearch citation and the same inherited Andrew/Christian Cook pair as the earlier Mary 1701. The ongoing local family fits, while repeated naming and absent published fields prevent a near-certain reading.\n\n1707 child’s inherited family link; do not merge the two Mary accounts or infer a death for 1701.\n\nEarlier proposed test: Inspect VQ4K-8QP and the 1701 entry together for parents and name reuse.\n\nSource basis already held: [https://familysearch.org/ark:/61903/1:1:VQ4K-8QP https://familysearch.org/ark:/61903/1:1:VQ4K-8QP]. No new father attached; cited evidence and any inspected register entry are scoped above.\n\n== Sources ==\n<references />\n* [https://familysearch.org/ark:/61903/1:1:VQ4K-8QP Archived or supplementary source]"
     },
     "Glasgow-1932": {
       "profile_id": "Glasgow-1932",
@@ -18935,9 +18937,9 @@
       "pending": true,
       "queued_at": "2026-10-22",
       "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-1337/father-confidence-2026-10-22f.wiki",
+      "draft_path": "research/Glasgow-1337/father-summary-reconciled-2026-11-12.wiki",
       "findings_path": "research/Glasgow-1337/findings.md",
-      "summary": "Review existing father at 83% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Review existing father at 86% (probable), retaining source and identity limits; no new father attachment.",
       "work_queue_summary": "Review existing father at 83% (probable), retaining source and identity limits; no new father attachment.",
       "relationship_changes": [
         {
@@ -18947,7 +18949,7 @@
           "status": "probable",
           "previous_status": "unmarked",
           "previous_probability_percent": null,
-          "probability_percent": 83,
+          "probability_percent": 86,
           "assertion_id": "C-coverage-20261022f-glasgow-1337-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
           "scope": "Inherited family link, with no verified parent fields in the supplied public summary."
@@ -18958,7 +18960,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation6-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-summary-preservation-2026-11-12.json",
+      "draft_wikitext": "<!-- REVIEWED FULL REPLACEMENT: additive father review sixth batch 2026-10-22 -->\n{{Estimated Date}}\n[[Category:Glasgow Name Study]]\n\n== Biography ==\nChristian was born before 1713. She is the daughter of [[Glasgow-1334|Andrew Glasgow]]. \n== Research Notes ==\n=== Current paternal evidence ===\nThe father relationship to [[Glasgow-1546]] is assessed at 86% (probable). The Ancestry Scotland, Select Births and Baptisms index entry for Christian Glasgow, 24 April 1713 at Kirknewton and East Calder (https://www.ancestry.co.uk/search/collections/60143/records/14547753), reads the parent fields that the previous review could not see: father Andrew (forenames only). It sits in the Andrew Glasgow and Christian Cook family of Kirknewton attached as Andrew [[Glasgow-1546]], so the father clause now confirms the inherited placement. Confidence rises to 86%.\n\nThe Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index already cited, so they verify the indexed parent fields rather than adding an independent source; the original register is uninspected. The row names the father only, not the mother. Andrew-1546's own birth (estimated 1685) and upstream father are separate and unchanged. No mother change follows.\n<ref>[https://familysearch.org/ark:/61903/1:1:VQ4K-H5C https://familysearch.org/ark:/61903/1:1:VQ4K-H5C].</ref><ref>[https://www.ancestry.co.uk/search/collections/60143/records/14547753 Scotland, Select Births and Baptisms, 1564-1950 — Christian Glasgow, 24 Apr 1713, Kirknewton and East Calder, Midlothian, Scotland].</ref>\n\nThe dated reviews below describe earlier stages of this research.\n\n\n=== Earlier father review, 22 October 2026 ===\n\nIn this earlier review, the father [[Glasgow-1546]] is assessed at 83% (probable). Christian 1713 has the same inherited Andrew/Cook couple and a specific Kirknewton record citation; recurrence of the mother’s given name and coherent sibling sequence modestly strengthen placement. Naming is supporting context, not proof.\n\nInherited family link, with no verified parent fields in the supplied public summary.\n\nEarlier proposed test: Read VQ4K-H5C and compare original register witnesses with Grace 1711 and Elizabeth 1717.\n\nSource basis already held: [https://familysearch.org/ark:/61903/1:1:VQ4K-H5C https://familysearch.org/ark:/61903/1:1:VQ4K-H5C]. No new father attached; cited evidence and any inspected register entry are scoped above.\n\n== Sources ==\n<references />\n* [https://familysearch.org/ark:/61903/1:1:VQ4K-H5C Archived or supplementary source]"
     },
     "Glasgow-4102": {
       "profile_id": "Glasgow-4102",
@@ -19258,9 +19261,9 @@
       "pending": true,
       "queued_at": "2026-10-22",
       "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-1338/father-confidence-2026-10-22f.wiki",
+      "draft_path": "research/Glasgow-1338/father-summary-reconciled-2026-11-12.wiki",
       "findings_path": "research/Glasgow-1338/findings.md",
-      "summary": "Review existing father at 81% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Review existing father at 85% (probable), retaining source and identity limits; no new father attachment.",
       "work_queue_summary": "Review existing father at 81% (probable), retaining source and identity limits; no new father attachment.",
       "relationship_changes": [
         {
@@ -19270,7 +19273,7 @@
           "status": "probable",
           "previous_status": "unmarked",
           "previous_probability_percent": null,
-          "probability_percent": 81,
+          "probability_percent": 85,
           "assertion_id": "C-coverage-20261022f-glasgow-1338-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
           "scope": "Inherited 1717 child placement; Andrew’s estimated 1685 birth and 58% upstream father are separate."
@@ -19281,7 +19284,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation6-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-summary-preservation-2026-11-12.json",
+      "draft_wikitext": "<!-- REVIEWED FULL REPLACEMENT: additive father review sixth batch 2026-10-22 -->\n{{Estimated Date}}\n[[Category:Glasgow Name Study]]\n\n== Biography ==\nElizabeth was born before 1717. She is the daughter of [[Glasgow-1334|Andrew Glasgow]]. \n== Research Notes ==\n=== Current paternal evidence ===\nThe father relationship to [[Glasgow-1546]] is assessed at 85% (probable). The Ancestry Scotland, Select Births and Baptisms index entry for Elizabeth Glasgow, 15 September 1717 at Kirknewton and East Calder (https://www.ancestry.co.uk/search/collections/60143/records/22406676), reads the parent fields that the previous review could not see: father Andrew (forenames only). It sits in the Andrew Glasgow and Christian Cook family of Kirknewton attached as Andrew [[Glasgow-1546]], so the father clause now confirms the inherited placement. Confidence rises to 85%.\n\nThe Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index already cited, so they verify the indexed parent fields rather than adding an independent source; the original register is uninspected. The row names the father only, not the mother. Andrew-1546's own birth (estimated 1685) and upstream father are separate and unchanged. No mother change follows.\n<ref>[https://familysearch.org/ark:/61903/1:1:VQ4K-8QF https://familysearch.org/ark:/61903/1:1:VQ4K-8QF].</ref><ref>[https://www.ancestry.co.uk/search/collections/60143/records/22406676 Scotland, Select Births and Baptisms, 1564-1950 — Elizabeth Glasgow, 15 Sep 1717, Kirknewton and East Calder, Midlothian, Scotland].</ref>\n\nThe dated reviews below describe earlier stages of this research.\n\n\n=== Earlier father review, 22 October 2026 ===\n\nIn this earlier review, the father [[Glasgow-1546]] is assessed at 81% (probable). Elizabeth 1717 has an exact indexed-record link within the inherited Andrew/Christian Cook family, whose 1700 banns establish a plausible local adult couple. The seventeen-year span is ordinary, but no held transcript exposes her parents.\n\nInherited 1717 child placement; Andrew’s estimated 1685 birth and 58% upstream father are separate.\n\nEarlier proposed test: Inspect VQ4K-8QF for parents and compare the 1719 Bessie entry for separate events or a duplicated name.\n\nSource basis already held: [https://familysearch.org/ark:/61903/1:1:VQ4K-8QF https://familysearch.org/ark:/61903/1:1:VQ4K-8QF]. No new father attached; cited evidence and any inspected register entry are scoped above.\n\n== Sources ==\n<references />\n* [https://familysearch.org/ark:/61903/1:1:VQ4K-8QF Archived or supplementary source]"
     },
     "Glasgow-1933": {
       "profile_id": "Glasgow-1933",
@@ -19415,9 +19419,9 @@
       "pending": true,
       "queued_at": "2026-10-22",
       "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-1340/father-confidence-2026-10-22f.wiki",
+      "draft_path": "research/Glasgow-1340/father-summary-reconciled-2026-11-12.wiki",
       "findings_path": "research/Glasgow-1340/findings.md",
-      "summary": "Review existing father at 80% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Review existing father at 83% (probable), retaining source and identity limits; no new father attachment.",
       "work_queue_summary": "Review existing father at 80% (probable), retaining source and identity limits; no new father attachment.",
       "relationship_changes": [
         {
@@ -19427,7 +19431,7 @@
           "status": "probable",
           "previous_status": "unmarked",
           "previous_probability_percent": null,
-          "probability_percent": 80,
+          "probability_percent": 83,
           "assertion_id": "C-coverage-20261022f-glasgow-1340-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
           "scope": "Inherited 1719 child-parent edge; neither a literal parent clause nor distinctness from Elizabeth 1717 is verified in the public dossier."
@@ -19438,7 +19442,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation6-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-summary-preservation-2026-11-12.json",
+      "draft_wikitext": "<!-- REVIEWED FULL REPLACEMENT: additive father review sixth batch 2026-10-22 -->\n[[Category:Glasgow Name Study]]\n\n== Biography ==\nBessie was born before 1719. She is the daughter of [[Glasgow-1334|Andrew Glasgow]]. \n== Research Notes ==\n=== Current paternal evidence ===\nThe father relationship to [[Glasgow-1546]] is assessed at 83% (probable). The Ancestry Scotland, Select Births and Baptisms index entry for Bessie Glasgow, 5 April 1719 at Kirknewton and East Calder (https://www.ancestry.co.uk/search/collections/60143/records/13889209), reads the parent fields that the previous review could not see: father Andrew (forenames only). It sits in the Andrew Glasgow and Christian Cook family of Kirknewton attached as Andrew [[Glasgow-1546]], so the father clause now confirms the inherited placement. Confidence rises to 83%.\n\nThe Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index already cited, so they verify the indexed parent fields rather than adding an independent source; the original register is uninspected. The row names the father only, not the mother. Andrew-1546's own birth (estimated 1685) and upstream father are separate and unchanged. Whether Bessie 1719 and Elizabeth 1717 are distinct children is still open. No mother change follows.\n<ref>[https://familysearch.org/ark:/61903/1:1:VQ4K-ZQV https://familysearch.org/ark:/61903/1:1:VQ4K-ZQV].</ref><ref>[https://www.ancestry.co.uk/search/collections/60143/records/13889209 Scotland, Select Births and Baptisms, 1564-1950 — Bessie Glasgow, 5 Apr 1719, Kirknewton and East Calder, Midlothian, Scotland].</ref>\n\nThe dated reviews below describe earlier stages of this research.\n\n\n=== Earlier father review, 22 October 2026 ===\n\nIn this earlier review, the father [[Glasgow-1546]] is assessed at 80% (probable). Bessie 1719 is supported by a specific FamilySearch citation and the same inherited Andrew/Cook Kirknewton family. A nineteen-year family span remains plausible; the prior Elizabeth 1717 makes name reuse or duplicate identity a useful question rather than a father exclusion.\n\nInherited 1719 child-parent edge; neither a literal parent clause nor distinctness from Elizabeth 1717 is verified in the public dossier.\n\nEarlier proposed test: Compare VQ4K-ZQV with Elizabeth’s VQ4K-8QF and original dates before any identity merge.\n\nSource basis already held: [https://familysearch.org/ark:/61903/1:1:VQ4K-ZQV https://familysearch.org/ark:/61903/1:1:VQ4K-ZQV]. No new father attached; cited evidence and any inspected register entry are scoped above.\n\n== Sources ==\n<references />\n* [https://familysearch.org/ark:/61903/1:1:VQ4K-ZQV Archived or supplementary source]"
     },
     "Glasgow-3424": {
       "profile_id": "Glasgow-3424",
@@ -20280,9 +20285,9 @@
       "pending": true,
       "queued_at": "2026-10-22",
       "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-1322/father-confidence-2026-10-22f.wiki",
+      "draft_path": "research/Glasgow-1322/father-summary-reconciled-2026-11-12.wiki",
       "findings_path": "research/Glasgow-1322/findings.md",
-      "summary": "Review existing father at 74% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Review existing father at 78% (probable), retaining source and identity limits; no new father attachment.",
       "work_queue_summary": "Review existing father at 74% (probable), retaining source and identity limits; no new father attachment.",
       "relationship_changes": [
         {
@@ -20292,7 +20297,7 @@
           "status": "probable",
           "previous_status": "unmarked",
           "previous_probability_percent": null,
-          "probability_percent": 74,
+          "probability_percent": 78,
           "assertion_id": "C-coverage-20261022f-glasgow-1322-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
           "scope": "Existing child-to-father link assessed from held public evidence; No published transcript fields bridge the 1714 child Andrew to the 1732–1734 father; retain this open scope."
@@ -20303,7 +20308,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation6-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-summary-preservation-2026-11-12.json",
+      "draft_wikitext": "<!-- REVIEWED FULL REPLACEMENT: additive father review sixth batch 2026-10-22 -->\n{{Estimated Date}}\n[[Category:Glasgow Name Study]]\n\n== Biography ==\nMargaret was baptised on 16 October 1732 at Kirknewton and East Calder, Midlothian. A derivative Findmypast transcript names father Andrew Glasgow and mother Isobel Clerk.<ref name=\"FMP1732Margaret\">Findmypast, ''Scotland, Parish Births & Baptisms 1564–1929'', [https://www.findmypast.co.uk/transcript?id=R_686209996 R_686209996] and [https://www.findmypast.co.uk/transcript?id=R_691904967 R_691904967], companion indexes of Margaret Glasgow baptism, 16 October 1732, Kirknewton and East Calder, parents Andrew Glasgow and Isobel Clerk; derivative transcript inspected 24 October 2026, original register not inspected.</ref> She was born before this baptism; no exact birth date is supplied. Her estimated death about 1733 is unproved. An earlier biography linked Andrew to [[Glasgow-1239|Andrew Glasgow]]; the maintained selected father account is [[Glasgow-1336|Andrew Glasgow]] at 74% probable, while the source names Andrew without identifying which adult profile he represents. The prior profile links [[Clerk-314|Isobel Clerk]] as the mother. The new derivative transcript names Isobel Clerk as the recorded mother, but does not independently establish that the named adult is Clerk-314. A later Margaret in this household, baptised in 1734, is a separate child-event account, not evidence of this child’s death.\n== Research Notes ==\n=== Current paternal evidence ===\nThe father relationship to [[Glasgow-1336]] is assessed at 78% (probable). The Ancestry Scotland, Select Births and Baptisms index entry for Margaret Glasgow, 16 October 1732 at Kirknewton and East Calder (https://www.ancestry.co.uk/search/collections/60143/records/16870555), reads the parent fields that the previous review could not see: father Andrew and mother Isobel (forenames only). It belongs to the Andrew Glasgow and Isobel Clerk family of Kirknewton attached as Andrew [[Glasgow-1336]], so the child's link to that household is now read from the index rather than inherited. Confidence rises to 78%.\n\nThe Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index already cited, so they verify the indexed parent fields rather than adding an independent source; the original register is uninspected. The row gives the mother's forename only. The remaining uncertainty is Andrew-1336's identification with the 1714 Kirknewton child, which this record does not address. A second Margaret was baptised in 1734; this Margaret's early death is still only presumed. No mother change follows.\n<ref>[https://familysearch.org/ark:/61903/1:1:VQ4K-JY1 https://familysearch.org/ark:/61903/1:1:VQ4K-JY1].</ref><ref>[https://www.ancestry.co.uk/search/collections/60143/records/16870555 Scotland, Select Births and Baptisms, 1564-1950 — Margaret Glasgow, 16 Oct 1732, Kirknewton and East Calder, Midlothian, Scotland].</ref>\n\nThe dated reviews below describe earlier stages of this research.\n\n\n=== Earlier father review, 22 October 2026 ===\n\nIn this earlier review, the father [[Glasgow-1336]] is assessed at 74% (probable). Margaret’s 1732 Kirknewton event citation and attached Andrew fit the local family, including another Margaret in 1734. No held published literal parent field establishes this Andrew, and the presumed early death is only estimated.\n\nExisting child-to-father link assessed from held public evidence; No published transcript fields bridge the 1714 child Andrew to the 1732–1734 father; retain this open scope.\n\nEarlier proposed test: Read VQ4K-JY1 parent fields and compare the 1734 entry.\n\nSource basis already held: [https://familysearch.org/ark:/61903/1:1:VQ4K-JY1 https://familysearch.org/ark:/61903/1:1:VQ4K-JY1]. No new father attached; cited evidence and any inspected register entry are scoped above.\n\n\n=== New 1732 derivative transcripts, 24 October 2026 ===\n\n[https://www.findmypast.co.uk/transcript?id=R_686209996 Findmypast R_686209996] indexes Margaret’s 16 October 1732 Kirknewton and East Calder baptism, father Andrew Glasgow, mother Isobel Clerk. The child/event matches this profile and clarifies named parental roles, but the source does not bridge the child Andrew of 1714 to this adult father. The presumed circa-1733 death remains unproved; the 1734 same-name household child is a separate indexed event. Birth remains before baptism, no exact date; selected father Glasgow-1336 stays at 74% probable.\n\n== Sources ==\n<references />\n* [https://familysearch.org/ark:/61903/1:1:VQ4K-JY1 Archived or supplementary source]"
     },
     "Glasgow-3327": {
       "profile_id": "Glasgow-3327",
@@ -20365,9 +20371,9 @@
       "pending": true,
       "queued_at": "2026-10-22",
       "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-3053/father-confidence-2026-10-22f.wiki",
+      "draft_path": "research/Glasgow-3053/father-summary-reconciled-2026-11-12.wiki",
       "findings_path": "research/Glasgow-3053/findings.md",
-      "summary": "Add two companion 1734 Kirknewton baptism transcripts to full proposal; retain the 79% complete father assessment and adult identity limit. Opening separates recorded parents from qualified adult-profile claims.",
+      "summary": "Current father assessment 83% (probable), completed 2026-11-05; retain the existing relationship action and qualifications.",
       "work_queue_summary": "Add two companion 1734 Kirknewton baptism transcripts to full proposal; retain the 79% complete father assessment and adult identity limit. Opening separates recorded parents from qualified adult-profile claims.",
       "relationship_changes": [
         {
@@ -20377,7 +20383,7 @@
           "status": "probable",
           "previous_status": "unmarked",
           "previous_probability_percent": null,
-          "probability_percent": 79,
+          "probability_percent": 83,
           "assertion_id": "C-coverage-20261022f-glasgow-3053-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
           "scope": "Existing child-to-father link assessed from held public evidence; No published transcript fields bridge the 1714 child Andrew to the 1732–1734 father; retain this open scope."
@@ -20388,7 +20394,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation6-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-summary-preservation-2026-11-12.json",
+      "draft_wikitext": "<!-- REVIEWED FULL REPLACEMENT: additive father review sixth batch 2026-10-22 -->\n[[Category:Glasgow Name Study]]\n\n== Biography ==\nThe current profile gives Margaret an exact birth date of 19 March 1734. Two derivative transcripts instead label that day as her baptism at Kirknewton and East Calder, Midlothian, and give only birth year 1734; the inherited exact birth day is unresolved. The entry names father Andrew Glasgow and mother Isobel Clerk. The selected link to [[Glasgow-1336|Andrew Glasgow]] is a 79% probable adult identification, because his asserted 1714-child-to-adult bridge remains unproved; the attached mother [[Clerk-314|Isobel Clerk]] is retained without a separate assessed adult-profile identity.\n== Research Notes ==\n=== Current paternal evidence ===\nThe father relationship to [[Glasgow-1336]] is assessed at 83% (probable). The Ancestry Scotland, Select Births and Baptisms index entry for Margaret Glasgow, 19 March 1734 at Kirknewton and East Calder (https://www.ancestry.co.uk/search/collections/60143/records/2286303), reads the parent fields that the previous review could not see: father Andrew and mother Isobel (forenames only). It belongs to the Andrew Glasgow and Isobel Clerk family of Kirknewton attached as Andrew [[Glasgow-1336]], so the child's link to that household is now read from the index rather than inherited. Confidence rises to 83%.\n\nThe Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index already cited, so they verify the indexed parent fields rather than adding an independent source; the original register is uninspected. The row gives the mother's forename only. The remaining uncertainty is Andrew-1336's identification with the 1714 Kirknewton child, which this record does not address. No mother change follows.\n<ref>[https://familysearch.org/ark:/61903/1:1:VQ4K-NBH \"Scotland Births and Baptisms, 1564-1950\", database, FamilySearch (https://familysearch.org/ark:/61903/1:1:VQ4K-NBH : 12 February 2020), Isobel Clerk in entry for Margaret Glasgow, 1734.].</ref><ref>[https://www.ancestry.co.uk/search/collections/60143/records/2286303 Scotland, Select Births and Baptisms, 1564-1950 — Margaret Glasgow, 19 Mar 1734, Kirknewton and East Calder, Midlothian, Scotland].</ref>\n\nThe dated reviews below describe earlier stages of this research.\n\n\nThe earlier proposal described Margaret without qualification as the daughter of Glasgow-1336 and Clerk-314. That is retained as prior profile history; the transcript establishes the named Andrew/Isobel record roles, while the adult-profile identifications remain separate. The inherited 19 March exact birth field is not validated by these baptism transcripts.\n\n=== Earlier father review, 22 October 2026 ===\n\nIn this earlier review, the father [[Glasgow-1336]] is assessed at 79% (probable). The held 1734 FamilySearch citation identifies Isobel Clerk but does not reproduce the father field. Two saved Findmypast companion transcripts name Andrew Glasgow and Isobel Clerk at Margaret’s 19 March 1734 Kirknewton baptism. That establishes the recorded parent roles for this child event; identifying the adult Andrew with the 1714 child Glasgow-1336 remains unproved.\n\nExisting child-to-father link assessed from held public evidence; the recorded Andrew/Isobel parent roles are now explicit in derivative baptism transcripts; no evidence bridges adult Andrew to the 1714 child Glasgow-1336. Retain this complete-profile identity limit.\n\nThe saved 1734 child event is distinct from the household’s 1732 Margaret account, whose presumed early death remains unproved. Birth year is indexed, while 19 March is explicitly the baptism date. The two Findmypast transcripts are companion derivatives, not independent originals; the register image has not been inspected.\n\nEarlier proposed test: Inspect the original Kirknewton 1732 and 1734 entries and seek evidence linking adult Andrew to the 1714 child Glasgow-1336; the 1732 Margaret’s estimated early death remains unproved.\n\nSource basis already held: [https://familysearch.org/ark:/61903/1:1:VQ4K-NBH \"Scotland Births and Baptisms, 1564-1950\", database, FamilySearch (https://familysearch.org/ark:/61903/1:1:VQ4K-NBH : 12 February 2020), Isobel Clerk in entry for Margaret Glasgow, 1734.]. No new father attached; cited evidence and any inspected register entry are scoped above.\n\n== Sources ==\n<references />\n* \"Scotland Births and Baptisms, 1564-1950\", database, FamilySearch (https://familysearch.org/ark:/61903/1:1:VQ4K-NBH : 12 February 2020), Isobel Clerk in entry for Margaret Glasgow, 1734.\n* Findmypast, ''Scotland, Parish Births & Baptisms 1564–1929'', [https://www.findmypast.co.uk/transcript?id=R_686211643 R_686211643], Margaret Glasgow, baptised 19 March 1734, Kirknewton and East Calder, father Andrew Glasgow, mother Isobel Clerk, residence Kirknewton; derivative transcript, original register not inspected.\n* Findmypast, same collection, [https://www.findmypast.co.uk/transcript?id=R_691904645 R_691904645], companion transcript for the same baptism, parents and parish; no independent original corroboration."
     },
     "Glasgow-3588": {
       "profile_id": "Glasgow-3588",
@@ -20757,9 +20764,9 @@
       "pending": true,
       "queued_at": "2026-11-04",
       "biography_rechecked_at": "2026-11-04",
-      "draft_path": "research/Glasgow-1320/father-confidence-2026-10-22g.wiki",
+      "draft_path": "research/Glasgow-1320/father-summary-reconciled-2026-11-12.wiki",
       "findings_path": "research/Glasgow-1320/findings.md",
-      "summary": "Review existing father at 76% (probable), retaining source and identity limits; no new father attachment. Add recovered provider fields with explicit identity and source-reading limits. Add held-record identity comparison with explicit source and age limits; no event assignment or family change.",
+      "summary": "Review existing father at 80% (probable), retaining source and identity limits; no new father attachment. Add recovered provider fields with explicit identity and source-reading limits. Add held-record identity comparison with explicit source and age limits; no event assignment or family change.",
       "work_queue_summary": "Review existing father at 76% (probable), retaining source and identity limits; no new father attachment. Add held-record identity comparison with explicit source and age limits; no event assignment or family change.",
       "relationship_changes": [
         {
@@ -20769,7 +20776,7 @@
           "status": "probable",
           "previous_status": "unmarked",
           "previous_probability_percent": null,
-          "probability_percent": 76,
+          "probability_percent": 80,
           "assertion_id": "C-coverage-20261022g-glasgow-1320-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
           "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
@@ -20780,8 +20787,9 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/findmypast-glasgow-audit/held-identity-proposal-preservation-2026-11-04.json",
-      "manual_update": true
+      "preservation_review_path": "research/ancestry-connections/father-summary-preservation-2026-11-12.json",
+      "manual_update": true,
+      "draft_wikitext": "<!-- REVIEWED FULL REPLACEMENT: additive father review seventh batch 2026-10-22 -->\n{{Estimated Date}}\n[[Category:Glasgow Name Study]]\n\n== Biography ==\nWilliam was born before his baptism on 6 April 1739 at Kirknewton and East Calder. The baptism transcripts name his parents as Andrew Glasgow and Isobell Clerk.<ref name=\"William1739\">[https://familysearch.org/ark:/61903/1:1:VQ4K-PYX FamilySearch VQ4K-PYX]; Findmypast, Scotland, Parish Births &amp; Baptisms 1564-1929, [https://www.findmypast.co.uk/transcript?id=R_686209953 R_686209953] and [https://www.findmypast.co.uk/transcript?id=R_691906112 R_691906112], baptism 6 April 1739, Kirknewton and East Calder; companion derivative transcripts, original register uninspected.</ref> His father is probably [[Glasgow-1336|Andrew Glasgow]], the selected identification assessed at 76%. The recorded mother is compared with [[Clerk-314|Isobel Clerk]], whose adult identity remains ungraded. The father’s identification with the child baptised in 1714 is not proved.\n== Research Notes ==\n=== Current paternal evidence ===\nThe father relationship to [[Glasgow-1336]] is assessed at 80% (probable). The Ancestry Scotland, Select Births and Baptisms index entry for William Glasgow, 6 April 1739 at Kirknewton and East Calder (https://www.ancestry.co.uk/search/collections/60143/records/15925606), reads the parent fields that the previous review could not see: father Andrew and mother Isobell (forenames only). It belongs to the Andrew Glasgow and Isobel Clerk family of Kirknewton attached as Andrew [[Glasgow-1336]], so the child's link to that household is now read from the index rather than inherited. Confidence rises to 80%.\n\nThe Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index already cited, so they verify the indexed parent fields rather than adding an independent source; the original register is uninspected. The row gives the mother's forename only. The remaining uncertainty is Andrew-1336's identification with the 1714 Kirknewton child, which this record does not address. No mother change follows.\n<ref>[https://familysearch.org/ark:/61903/1:1:VQ4K-PYX https://familysearch.org/ark:/61903/1:1:VQ4K-PYX].</ref><ref>[https://www.ancestry.co.uk/search/collections/60143/records/15925606 Scotland, Select Births and Baptisms, 1564-1950 — William Glasgow, 6 Apr 1739, Kirknewton and East Calder, Midlothian, Scotland].</ref>\n\nThe dated reviews below describe earlier stages of this research.\n\n\n=== Conflicting Andrew Glasgow attribution ===\n\nThe biography associated William’s father with [[Glasgow-1239|Andrew Glasgow]], while the captured family field identifies [[Glasgow-1336|Andrew Glasgow]]. These are distinct people. The cited [https://familysearch.org/ark:/61903/1:1:VQ4K-PYX FamilySearch entry] and the two 1739 baptism transcripts name Andrew Glasgow and Isobell Clerk; they do not supply a modern profile identifier. Andrew Glasgow-1239 is described as born about 1730 at Livingston, whereas Andrew Glasgow-1336 is associated with the 1714 Kirknewton baptism. The former estimate is difficult to reconcile with fatherhood in 1739, but an approximate year alone is not a decisive exclusion. The Kirknewton locality and Clerk family favour Andrew Glasgow-1336 at the retained 76% probable assessment; the earlier Andrew Glasgow-1239 attribution remains a conflicting claim rather than an alias or a proved second father.\n\n=== Penicuik William: unresolved dates and identity ===\n\nThe Findmypast transcript of a Penicuik entry names William Glasgow, father Andrew Glasgow and mother Margaret Linton. It labels his birth 17 April 1745 and his baptism 17 April 1754.<ref name=\"PenicuikWilliam1754\">Findmypast, Scotland, Parish Births &amp; Baptisms 1564-1929, [https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4602994 William Glasgow, SCOT/OPR/BAP/4602994], Penicuik, OPR 697/1, item 1, page 225; provider transcript inspected 30 October 2026; original register uninspected.</ref> Those dates allow a nine-year interval before baptism. The held evidence does not establish whether the interval is correct or whether a year has been transcribed incorrectly; neither date can yet be replaced.\n\nWilliam’s recorded baptism on 6 April 1739 at Kirknewton and East Calder, to Andrew Glasgow and Isobell Clerk, precedes the Penicuik transcript’s literal birth date. His birth is therefore bounded by the 1739 baptism, rather than established as an exact birthday. He cannot be the child born in April 1745 if both readings are correct. This remains a conditional comparison requiring a source discrepancy or a different identity, rather than a positive match. The different maternal names also remain unresolved. The Penicuik entry does not change his parents or the 76% probable assessment of his existing father.\n\nThe useful next check is the wording and dates of the original Penicuik entry, with any traceable companion transcription. Repeated derivative entries would not be independent corroboration.\n\n=== Recovered provider fields, 30 October 2026 ===\nWilliam baptised 6 April 1739 Kirknewton and East Calder, Andrew Glasgow and Isobell Clerk. Exact event and couple match Glasgow-1320. No explicit birthday. Father 76%, mother ungraded; child identification does not prove the adult Andrew childhood. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.\n\n* [https://www.findmypast.co.uk/transcript?id=R_686209953 Findmypast R_686209953] — Recorded child; exact baptism and Andrew/Isobell Clerk parental family\n* [https://www.findmypast.co.uk/transcript?id=R_691906112 Findmypast R_691906112] — Recorded child; exact baptism and Andrew/Isobell Clerk parental family\n\nEarlier no-transcript or search-only statements for these IDs are superseded by this review; dated source history is retained. Family grades and adult identity limits remain unchanged.\n\n\n=== Earlier father review, 22 October 2026 ===\n\nIn this earlier review, the father [[Glasgow-1336]] is assessed at 76% (probable). William’s 1739 Kirknewton index citation belongs to an ordered Andrew/Isobel Clerk family including the explicitly summarized 1747 Alexander. Family place and maternal pairing favour selected Andrew, but his 1714 childhood-to-adult bridge is unproved.\n\nComplete selected father-profile proposition; recorded role and adult identification distinguished below.\n\nEarlier proposed test: Read 1739 entry for Clerk, residence andadult distinguishing details.\n\nSource basis already held: [https://familysearch.org/ark:/61903/1:1:VQ4K-PYX https://familysearch.org/ark:/61903/1:1:VQ4K-PYX]. No new father attached; cited evidence and any inspected register entry are scoped above.\n\n== Sources ==\n<references />\n* [https://familysearch.org/ark:/61903/1:1:VQ4K-PYX Archived or supplementary source]"
     },
     "Glasgow-3305": {
       "profile_id": "Glasgow-3305",
@@ -20838,19 +20846,19 @@
       "pending": true,
       "queued_at": "2026-10-22",
       "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-1607/father-confidence-2026-10-22g.wiki",
+      "draft_path": "research/Glasgow-1607/father-summary-reconciled-2026-11-12.wiki",
       "findings_path": "research/Glasgow-1607/findings.md",
-      "summary": "Review existing father at 91% (proved), retaining source and identity limits; no new father attachment.",
+      "summary": "Reconcile the existing 35% possible father hypothesis, retained as an unselected alternative; no new father attachment.",
       "work_queue_summary": "Review existing father at 91% (proved), retaining source and identity limits; no new father attachment.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-1238",
-          "status": "proved",
+          "status": "possible",
           "previous_status": "unmarked",
           "previous_probability_percent": null,
-          "probability_percent": 91,
+          "probability_percent": 35,
           "assertion_id": "C-coverage-20261022g-glasgow-1607-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
           "scope": "Named child to the specific adult family role represented by the selected father; independent earlier ancestry is outside this assessment."
@@ -20861,7 +20869,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation7-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-summary-preservation-2026-11-12.json",
+      "draft_wikitext": "<!-- REVIEWED FULL REPLACEMENT: additive father review seventh batch 2026-10-22 -->\n{{Estimated Date}}\n[[Category:Glasgow Name Study]]\n\n{{Scotland Sticker}}\n\n== Biography ==\n'''Margaret Glasgow''' was born in 1740 in Edrom parish, Berwickshire,\nScotland. The parish index names her father as James Glasgow.<ref name=\"Edrom1740\">Findmypast, ''Scotland, Parish Births & Baptisms 1564–1929'',\nMargaret Glasgow, birth 1740, Edrom, Berwickshire, father James Glasgow, OPR\n738/4, item 5, p. 24;\n[https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4839749&tab=this\ntranscript SCOT/OPR/BAP/4839749], captured 3 September 2026.</ref>\n\nHer attached father, '''[[Glasgow-1238|James Glasgow]]''', married\n'''[[Tait-2506|Elizabeth Tait]]''' at Stitchel, Roxburghshire, on 25 January\n1740.<ref name=\"ParentsMarriage\">“Scotland Marriages, 1561–1910,” database,\nFamilySearch,\n[https://familysearch.org/ark:/61903/1:1:XYQ1-SPB James Glasgow and Elizabath\nTait], 25 January 1740, Stitchel, Roxburghshire.</ref> Children of that couple\nwere recorded at Stitchel from 1742 onward. The marriage, chronology and nearby\nBorders parishes make them the probable identities of Margaret's parents, but\nThe Edrom entry itself names only her father as James and does not name her\nmother.\n\nMargaret's later life and death have not been identified.\n\n== Research Notes ==\n=== Current paternal evidence ===\nThis father hypothesis remains an unselected alternative; it is not a newly selected father.\nThe father relationship to [[Glasgow-1238]] is assessed at 35% (possible). The Ancestry Scotland, Select Births and Baptisms index entry for Margaret Glasgow, 8 Jun 1740 at Edrom (https://www.ancestry.co.uk/search/collections/60143/records/7380276), names father James Glasgow. The named couple is the catalogue couple: James Glasgow and Elizabath Tait are recorded as spouses, so the entry places the child in the household already attached. The same parents recur in the parish index: John 25 Jul 1738 (https://www.ancestry.co.uk/search/collections/60143/records/10512485), William 4 Aug 1765 (https://www.ancestry.co.uk/search/collections/60143/records/22056487). The existing 35% (possible, assessed 2026-11-01) is kept: this entry confirms the indexed parent field but does not remove the limitation recorded with it. Earlier reasoning retained: Margaret's baptism at Edrom, Berwickshire, 8 Jun 1740, names only father James Glasgow, and the same Edrom register has John christened 25 Jul 1738 to a James, who is already given to a separate Edrom father, [[Glasgow-4177]]. Her baptism falls 4.5 months after the Stitchel James and Tait marriage, in another county, and is missing from the Stitchel series, so the same-parish [[James-4177]] is the stronger candidate.\n\nThe Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcript only; original register uninspected. The entry gives no age, occupation or residence for the parents. Earlier limitation retained: FamilySearch index only; images not viewed; the father attachment is left unchanged pending owner review of re-pointing to Glasgow-4177. Now an unselected alternative: the working father is the Edrom James, Glasgow-4177.\n<ref>[https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4839749&tab=this Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Margaret Glasgow, 1740, record SCOT/OPR/BAP/4839749].</ref><ref>[https://familysearch.org/ark:/61903/1:1:XYQ1-SPB “Scotland Marriages, 1561–1910,” database,\nFamilySearch,\nJames Glasgow and Elizabath\nTait (https://familysearch.org/ark:/61903/1:1:XYQ1-SPB), 25 January 1740, Stitchel, Roxburghshire.].</ref><ref>[https://www.ancestry.co.uk/search/collections/60143/records/7380276 Scotland, Select Births and Baptisms, 1564-1950 — Margaret Glasgow, 8 Jun 1740, Edrom, Berwick, Scotland].</ref><ref>[https://www.ancestry.co.uk/search/collections/60143/records/10512485 Scotland, Select Births and Baptisms, 1564-1950 — John Glasgow, 25 Jul 1738, Edrom, Berwick, Scotland].</ref><ref>[https://www.ancestry.co.uk/search/collections/60143/records/22056487 Scotland, Select Births and Baptisms, 1564-1950 — William Glasgow, 4 Aug 1765, Swinton and Simprin, Berwick, Scotland].</ref>\n\nThe dated reviews below describe earlier stages of this research.\n\n\n=== Earlier father review, 22 October 2026 ===\n\nIn this earlier review, the father [[Glasgow-1238]] is assessed at 91% (proved). Margaret’s 1740 Edrom transcript explicitly names James; the January 1740 James/Tait marriage at nearby Stichill and continuing children make this adult family the preferred specific match. The entry supplies no mother.\n\nNamed child to the specific adult family role represented by the selected father; independent earlier ancestry is outside this assessment.\n\nEarlier proposed test: Compare original Stichill child entries and 1740 marriage, checking the Edrom-to-Stichill adult family.\n\nSource basis already held: [https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4839749&tab=this Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Margaret Glasgow, 1740, record SCOT/OPR/BAP/4839749]; [https://familysearch.org/ark:/61903/1:1:XYQ1-SPB “Scotland Marriages, 1561–1910,” database, FamilySearch, James Glasgow and Elizabath Tait (https://familysearch.org/ark:/61903/1:1:XYQ1-SPB), 25 January 1740, Stitchel, Roxburghshire.]. No new father attached; cited evidence and any inspected register entry are scoped above.\n\n\n=== Current evidence assessment ===\n\n==== Birthplace ====\nThe parish index supports Edrom, Berwickshire, in 1740. The former uncertain\nKelso birthplace was inferred from relatives and should be replaced by the\nmore specific record evidence.\n\n==== Parent identities ====\nThe record directly establishes that Margaret's father was named James\nGlasgow. Identifying him as [[Glasgow-1238|James Glasgow]] is strongly supported\nby that man's January 1740 marriage and subsequent Borders family, but is not\nstated by a unique occupation or residence in Margaret's entry. Elizabeth Tait\nis the probable mother; she is not named in this birth index.\n\nAn online Ancestry tree also identifies this family.<ref>[https://www.ancestry.co.uk/family-tree/person/tree/66808278/person/46161259840/facts\nAncestry family tree 66808278, person 46161259840], accessed 2026. This is a\nderivative tree and should be evaluated against the parish records.</ref>\n\n== Sources ==\n<references />\n* [https://www.ancestry.co.uk/family-tree/person/tree/66808278/person/46161259840/facts Archived or supplementary source]"
     },
     "Glasgow-3328": {
       "profile_id": "Glasgow-3328",
@@ -21103,9 +21112,9 @@
       "pending": true,
       "queued_at": "2026-10-22",
       "biography_rechecked_at": "2026-10-24",
-      "draft_path": "research/Glasgow-1323/father-confidence-2026-10-22g.wiki",
+      "draft_path": "research/Glasgow-1323/father-summary-reconciled-2026-11-12.wiki",
       "findings_path": "research/Glasgow-1323/findings.md",
-      "summary": "Review existing father at 77% (probable), retaining source and identity limits; no new father attachment. Add24October derivative-source review and explicit date/identity conflicts; retain existing vitals and percentages.",
+      "summary": "Review existing father at 81% (probable), retaining source and identity limits; no new father attachment. Add24October derivative-source review and explicit date/identity conflicts; retain existing vitals and percentages.",
       "work_queue_summary": "Review existing father at 77% (probable), retaining source and identity limits; no new father attachment. Add24October derivative-source review and explicit date/identity conflicts; retain existing vitals and percentages.",
       "relationship_changes": [
         {
@@ -21115,7 +21124,7 @@
           "status": "probable",
           "previous_status": "unmarked",
           "previous_probability_percent": null,
-          "probability_percent": 77,
+          "probability_percent": 81,
           "assertion_id": "C-coverage-20261022g-glasgow-1323-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
           "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
@@ -21126,7 +21135,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation7-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-summary-preservation-2026-11-12.json",
+      "draft_wikitext": "<!-- REVIEWED FULL REPLACEMENT: additive father review seventh batch 2026-10-22 -->\n{{Estimated Date}}\n[[Category:Glasgow Name Study]]\n\n== Biography ==\nJean was born about 1743. The reviewed account selects [[Glasgow-1336|Andrew Glasgow]] as her probable father (77%). An earlier draft named Andrew Glasgow-1239; that is not the current selected father profile. The inherited mother reference is [[Clerk-314|Isobel Clerk]], inherited from the tree and not independently assessed.\n\nSimilar to : [[Glasgow-1332|Jean  Glasgow (1745-)]]\n== Research Notes ==\n=== Current paternal evidence ===\nThe father relationship to [[Glasgow-1336]] is assessed at 81% (probable). The Ancestry Scotland, Select Births and Baptisms index entry for Jean Glasgow, 12 July 1743 at Kirknewton and East Calder (https://www.ancestry.co.uk/search/collections/60143/records/2171160), reads the parent fields that the previous review could not see: father Andrew and mother Isobel (forenames only). It belongs to the Andrew Glasgow and Isobel Clerk family of Kirknewton attached as Andrew [[Glasgow-1336]], so the child's link to that household is now read from the index rather than inherited. Confidence rises to 81%.\n\nThe Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index already cited, so they verify the indexed parent fields rather than adding an independent source; the original register is uninspected. The row gives the mother's forename only. The remaining uncertainty is Andrew-1336's identification with the 1714 Kirknewton child, which this record does not address. No mother change follows.\n<ref>[https://familysearch.org/ark:/61903/1:1:VQ4K-NB7 https://familysearch.org/ark:/61903/1:1:VQ4K-NB7].</ref><ref>[https://www.ancestry.co.uk/search/collections/60143/records/2171160 Scotland, Select Births and Baptisms, 1564-1950 — Jean Glasgow, 12 Jul 1743, Kirknewton and East Calder, Midlothian, Scotland].</ref>\n\nThe dated reviews below describe earlier stages of this research.\n\n\n=== Earlier father review, 22 October 2026 ===\n\nIn this earlier review, the father [[Glasgow-1336]] is assessed at 77% (probable). Jean’s 1743 Kirknewton index and same attached Clerk couple fit the 1739–1747 household closely. The 1747 named-couple record supports the family; Jean’s own wording and Andrew’s 1714 adult continuity remain unverified.\n\nComplete selected father-profile proposition; recorded role and adult identification distinguished below.\n\nEarlier proposed test: Read 1743 parental clause and compare 1739/1747 residences.\n\nSource basis already held: [https://familysearch.org/ark:/61903/1:1:VQ4K-NB7 https://familysearch.org/ark:/61903/1:1:VQ4K-NB7]. No new father attached; cited evidence and any inspected register entry are scoped above.\n\n<!-- BEGIN FMP-PAGE18-20261024 -->\n=== Findmypast source review, 24 October 2026 ===\n\nStrong existing child/event match; retained77% probable father assessment, no birth refinement. Companion transcripts name Jean Glasgow, baptism12July1743, Kirknewton and East Calder, father Andrew Glasgow and mother Isobel Clerk. They strongly match existing Glasgow-1323. The maintained current person model retains77% probable for father Glasgow-1336; the worker older summary reporting tree/unknown was stale. The literal parental clause is now available, superseding that specific question; Andrew’s1714child-to-adult bridge and maternal adult identity remain qualified. No vital or relationship grade change.<ref name=\"FMP18Glasgow13230\">Findmypast, Scotland, Parish Births & Baptisms 1564-1929, [https://www.findmypast.co.uk/transcript?id=R_686210587&tab=this R_686210587]; derivative transcript captured24October2026; original image uninspected.</ref><ref name=\"FMP18Glasgow13231\">Findmypast, Scotland, Parish Births & Baptisms 1564-1929, [https://www.findmypast.co.uk/transcript?id=R_691904644&tab=this R_691904644]; derivative transcript captured24October2026; original image uninspected.</ref>\n\nOriginal records remain uninspected; current vital fields and relationship percentages are unchanged.\n<!-- END FMP-PAGE18-20261024 -->\n\n== Sources ==\n<references />\n* [https://familysearch.org/ark:/61903/1:1:VQ4K-NB7 Archived or supplementary source]"
     },
     "Glasgow-4103": {
       "profile_id": "Glasgow-4103",
@@ -21258,19 +21268,19 @@
       "pending": true,
       "queued_at": "2026-10-22",
       "biography_rechecked_at": "2026-10-23",
-      "draft_path": "research/Glasgow-3456/father-confidence-2026-10-22g.wiki",
+      "draft_path": "research/Glasgow-3456/father-summary-reconciled-2026-11-12.wiki",
       "findings_path": "research/Glasgow-3456/findings.md",
-      "summary": "Review existing father at 55% (possible), retaining source and identity limits; no new father attachment.",
+      "summary": "Review existing father at 85% (probable), retaining source and identity limits; no new father attachment.",
       "work_queue_summary": "Review existing father at 55% (possible), retaining source and identity limits; no new father attachment.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-3457",
-          "status": "possible",
+          "status": "probable",
           "previous_status": "unmarked",
           "previous_probability_percent": null,
-          "probability_percent": 55,
+          "probability_percent": 85,
           "assertion_id": "C-coverage-20261022g-glasgow-3456-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
           "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
@@ -21281,7 +21291,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation7-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-summary-preservation-2026-11-12.json",
+      "draft_wikitext": "<!-- REVIEWED FULL REPLACEMENT: additive father review seventh batch 2026-10-22 -->\n[[Category:Glasgow Name Study]]\n\n== Biography ==\nDavid Glasgow's existing profile gives his birth as 20 July 1744. A Findmypast parish transcript indexes his baptism on 29 July 1744 at Ayr, Ayrshire, and names Robert Glasgow and Mary Borland as his parents.<ref name=\"FMP\">\"Scotland, Parish Births & Baptisms 1564–1929,\" Findmypast transcript, [https://www.findmypast.co.uk/transcript?id=R_692915698&tab=this David Glasgow, R_692915698] (reviewed 23 October 2026), baptism 29 July 1744, Ayr; parents Robert Glasgow and Mary Borland. The transcript gives birth year 1744 but no separate birth day. Original register image uninspected.</ref> The transcript does not establish or contradict 20 July as his birth date, which needs a separate source check. The named father may be [[Glasgow-3457|Robert Glasgow]], but identifying that adult profile remains possible rather than proved. Mary Borland's identification and any parent attachment need separate review.\n== Research Notes ==\n=== Current paternal evidence ===\nThe father relationship to [[Glasgow-3457]] is assessed at 85% (probable). David's Ayr baptism of 29 July 1744 names Robert Glasgow and Mary Borland (https://www.ancestry.co.uk/search/collections/60143/records/4400472). Robert [[Glasgow-3457]] is defined only as that father; the earlier 55% was held down by [[Robert-3457]]'s unsupported 1724 birth and the possibility that he duplicated another Robert/Borland family. R1 (5 November) resolved that duplication: [[Robert-3457]] is the Irvine shipmaster [[Robert-2474]]. The full transcripts now add David's elder brother Robert, baptised at Ayr on 16 November 1740 to the same couple (https://www.ancestry.co.uk/search/collections/60143/records/16346646). Robert Glasgow and Mary Borland baptised John at Irvine on 10 October 1736 (https://www.ancestry.co.uk/search/collections/60143/records/2461718) and again on 5 October 1738 (https://www.ancestry.co.uk/search/collections/60143/records/8126993), then Robert at Ayr on 16 November 1740 (https://www.ancestry.co.uk/search/collections/60143/records/16346646) and David at Ayr on 29 July 1744 (https://www.ancestry.co.uk/search/collections/60143/records/4400472). The child-to-father link is the literal parent clause of a record-defined father, raised from 55% to 85% probable.\n\nRobert-3457's 1724 birth remains unsupported and conflicts with the identity with Robert-2474 (baptised 1716); the vital field is not changed. Ayr and Irvine are separate parishes. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.\n<ref>[https://familysearch.org/ark:/61903/1:1:XY88-4FC \"Scotland, Births and Baptisms, 1564-1950\", , FamilySearch (https://familysearch.org/ark:/61903/1:1:XY88-4FC : 11 February 2020), David Glasgow, 1744.].</ref><ref>[https://www.ancestry.co.uk/search/collections/60143/records/4400472 Scotland, Select Births and Baptisms, 1564-1950 — David Glasgow, 29 Jul 1744, Ayr,Ayr,Scotland].</ref><ref>[https://www.ancestry.co.uk/search/collections/60143/records/16346646 Scotland, Select Births and Baptisms, 1564-1950 — Robert Glasgow, 16 Nov 1740, Ayr,Ayr,Scotland].</ref>\n\nThe dated reviews below describe earlier stages of this research.\n\n\n=== Earlier father review, 22 October 2026 ===\n\nIn this earlier review, the father [[Glasgow-3457]] is assessed at 55% (possible). The 29 July 1744 Ayr baptism transcript names Robert Glasgow and Mary Borland, but it does not establish that its Robert is the selected profile.<ref name=\"FMP\" /> A paternal age about twenty is plausible if the inherited 1724 birth is sound; that birth is unsupported, and this account may duplicate another Robert/Borland family.\n\nComplete selected father-profile proposition; recorded role and adult identification distinguished below.\n\nEarlier proposed test: Inspect the original 1744 entry, find the separate basis for 20 July birth, and compare Glasgow-2474 and the Borland profiles.\n\nSource basis already held: [https://familysearch.org/ark:/61903/1:1:XY88-4FC \"Scotland, Births and Baptisms, 1564-1950\", , FamilySearch (https://familysearch.org/ark:/61903/1:1:XY88-4FC : 11 February 2020), David Glasgow, 1744.]. No new father attached; cited evidence and any inspected register entry are scoped above.\n\n== Sources ==\n<references />\n* \"Scotland, Births and Baptisms, 1564-1950\", , FamilySearch (https://familysearch.org/ark:/61903/1:1:XY88-4FC : 11 February 2020), David Glasgow, 1744."
     },
     "Glasgow-3945": {
       "profile_id": "Glasgow-3945",
@@ -21432,9 +21443,9 @@
       "pending": true,
       "queued_at": "2026-10-22",
       "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-1332/father-confidence-2026-10-22g.wiki",
+      "draft_path": "research/Glasgow-1332/father-summary-reconciled-2026-11-12.wiki",
       "findings_path": "research/Glasgow-1332/findings.md",
-      "summary": "Review existing father at 62% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Review existing father at 80% (probable), retaining source and identity limits; no new father attachment.",
       "work_queue_summary": "Review existing father at 62% (probable), retaining source and identity limits; no new father attachment.",
       "relationship_changes": [
         {
@@ -21444,7 +21455,7 @@
           "status": "probable",
           "previous_status": "unmarked",
           "previous_probability_percent": null,
-          "probability_percent": 62,
+          "probability_percent": 80,
           "assertion_id": "C-coverage-20261022g-glasgow-1332-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
           "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
@@ -21455,7 +21466,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation7-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-summary-preservation-2026-11-12.json",
+      "draft_wikitext": "<!-- REVIEWED FULL REPLACEMENT: additive father review seventh batch 2026-10-22 -->\n[[Category:Glasgow Name Study]]\n\n== Biography ==\nJean was born in 1745. She is the daughter of [[Glasgow-81|John Glasgow]] and [[Guthrie-777|Magdalene Guthrie]]. \n\nSimilar to : [[Glasgow-1323|Jean  Glasgow (abt.1743-)]]\n== Research Notes ==\n=== Current paternal evidence ===\nThe father relationship to [[Glasgow-81]] is assessed at 80% (probable). The Ancestry Scotland, Select Births and Baptisms index entry for Jean Glasgow, 3 February 1745 at West Calder (https://www.ancestry.co.uk/search/collections/60143/records/18844768), reads the parent fields that the previous review could not see: father John and mother Magdalen (forenames only). This is the John Glasgow and Magdalene Guthrie household of West Calder already attached as John [[Glasgow-81]]; with the parent clause now read, the child-to-household link is no longer an inherited placement. Confidence rises to 80%.\n\nThe Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index already cited, so they verify the indexed parent fields rather than adding an independent source; the original register is uninspected. The index row gives the mother's forename only. John-81's own identification with the Kirknewton child of about 1709 and his father link (Andrew-1546) are separate and unchanged. No mother change follows.\n<ref>[https://www.familysearch.org/ark:/61903/1:1:VQ4T-CJK https://www.familysearch.org/ark:/61903/1:1:VQ4T-CJK].</ref><ref>[https://www.ancestry.co.uk/search/collections/60143/records/18844768 Scotland, Select Births and Baptisms, 1564-1950 — Jean Glasgow, 3 Feb 1745, West Calder, Midlothian, Scotland].</ref>\n\nThe dated reviews below describe earlier stages of this research.\n\n\n=== Earlier father review, 22 October 2026 ===\n\nIn this earlier review, the father [[Glasgow-81]] is assessed at 62% (probable). Jean’s 1745 West Calder citation fits John/Magdalene Guthrie’s ordered family and a circa-1709 paternal generation, but no held wording establishes the adult parental couple.\n\nComplete selected father-profile proposition; recorded role and adult identification distinguished below.\n\nEarlier proposed test: Read the 1745 entry and Guthrie marriage for the complete couple and residence.\n\nSource basis already held: [https://www.familysearch.org/ark:/61903/1:1:VQ4T-CJK https://www.familysearch.org/ark:/61903/1:1:VQ4T-CJK]. No new father attached; cited evidence and any inspected register entry are scoped above.\n\n== Sources ==\n<references />\n* [https://www.familysearch.org/ark:/61903/1:1:VQ4T-CJK Archived or supplementary source]"
     },
     "Glasgow-1381": {
       "profile_id": "Glasgow-1381",
@@ -21698,9 +21710,9 @@
       "pending": true,
       "queued_at": "2026-10-22",
       "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-1331/father-confidence-2026-10-22g.wiki",
+      "draft_path": "research/Glasgow-1331/father-summary-reconciled-2026-11-12.wiki",
       "findings_path": "research/Glasgow-1331/findings.md",
-      "summary": "Review existing father at 64% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Review existing father at 82% (probable), retaining source and identity limits; no new father attachment.",
       "work_queue_summary": "Review existing father at 64% (probable), retaining source and identity limits; no new father attachment.",
       "relationship_changes": [
         {
@@ -21710,7 +21722,7 @@
           "status": "probable",
           "previous_status": "unmarked",
           "previous_probability_percent": null,
-          "probability_percent": 64,
+          "probability_percent": 82,
           "assertion_id": "C-coverage-20261022g-glasgow-1331-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
           "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
@@ -21721,7 +21733,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation7-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-summary-preservation-2026-11-12.json",
+      "draft_wikitext": "<!-- REVIEWED FULL REPLACEMENT: additive father review seventh batch 2026-10-22 -->\n[[Category:Glasgow Name Study]]\n\n== Biography ==\nMagdalen Glasgow has an imported exact birth field of 29 January 1749 at West Calder; the newly reviewed derivative indexes label 29 January as her baptism and give only birth year 1749, so they do not independently verify that exact birth day. They name John Glasgow and Magdalen Guthrie as parents of the recorded child. The selected adult father [[Glasgow-81|John Glasgow]] is assessed at 64% (probable); the attached adult mother [[Guthrie-777|Magdalene Guthrie]] remains unassessed.\n== Research Notes ==\n=== Current paternal evidence ===\nThe father relationship to [[Glasgow-81]] is assessed at 82% (probable). The Ancestry Scotland, Select Births and Baptisms index entry for Magdalen Glasgow, 29 January 1749 at West Calder (https://www.ancestry.co.uk/search/collections/60143/records/21216254), reads the parent fields that the previous review could not see: father John and mother Magdalen (forenames only). This is the John Glasgow and Magdalene Guthrie household of West Calder already attached as John [[Glasgow-81]]; with the parent clause now read, the child-to-household link is no longer an inherited placement. Confidence rises to 82%.\n\nThe Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index already cited, so they verify the indexed parent fields rather than adding an independent source; the original register is uninspected. The index row gives the mother's forename only. John-81's own identification with the Kirknewton child of about 1709 and his father link (Andrew-1546) are separate and unchanged. No mother change follows.\n<ref>[https://www.familysearch.org/ark:/61903/1:1:VQ4T-CPD https://www.familysearch.org/ark:/61903/1:1:VQ4T-CPD].</ref><ref>[https://www.ancestry.co.uk/search/collections/60143/records/21216254 Scotland, Select Births and Baptisms, 1564-1950 — Magdalen Glasgow, 29 Jan 1749, West Calder, Midlothian, Scotland].</ref>\n\nThe dated reviews below describe earlier stages of this research.\n\n\n=== Earlier father review, 22 October 2026 ===\n\nIn this earlier review, the father [[Glasgow-81]] is assessed at 64% (probable). Magdalen’s 1749 West Calder citation and maternal namesake fit John/Magdalene Guthrie’s ordered family. This is positive context, not a literal reading of the entry.\n\nComplete selected father-profile proposition; recorded role and adult identification distinguished below.\n\nEarlier proposed test: Read the 1749 entry for Guthrie and John’s residence.\n\nSource basis already held: [https://www.familysearch.org/ark:/61903/1:1:VQ4T-CPD https://www.familysearch.org/ark:/61903/1:1:VQ4T-CPD]. No new father attached; cited evidence and any inspected register entry are scoped above.\n\n=== Magdalen documentary group review, 24 October 2026 ===\n\nThe previous proposed opening stated without qualification that Magdalen was born in 1749 and was daughter of the linked John Glasgow and Magdalene Guthrie. That is retained here as an inherited profile attribution, now separated from the indexed child-parent names and the 64%/unassessed adult identifications.\n\nTwo later derivative indexes describe one West Calder baptism on 29 January 1749 to John Glasgow and Magdalen Guthrie; the first also gives West Calder residence. This fits the held FamilySearch child citation and existing profile, but neither index supplies an exact birth day or proves the recorded John is the selected adult Glasgow-81. The attached Guthrie-777 mother remains a separate, unassessed adult identification. The 64% father assessment is unchanged. These derivative companions describe one documentary event, not separate children or independently verified birth dates.<ref name=\"FMP-Magdalen-1331\">[https://www.findmypast.co.uk/transcript?id=R_686353084&tab=this West Calder baptism index with residence]; [https://www.findmypast.co.uk/transcript?id=R_687775557&tab=this companion index]. Provider transcripts inspected; original register images uninspected.</ref> The separate sparse 1782 Magdalen index remains unassigned where previously reviewed.\n\n== Sources ==\n<references />\n* [https://www.familysearch.org/ark:/61903/1:1:VQ4T-CPD Archived or supplementary source]"
     },
     "Glasgow-2980": {
       "profile_id": "Glasgow-2980",
@@ -22100,9 +22113,9 @@
       "pending": true,
       "queued_at": "2026-10-22",
       "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-1329/father-confidence-2026-10-22g.wiki",
+      "draft_path": "research/Glasgow-1329/father-summary-reconciled-2026-11-12.wiki",
       "findings_path": "research/Glasgow-1329/findings.md",
-      "summary": "Review existing father at 61% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Review existing father at 80% (probable), retaining source and identity limits; no new father attachment.",
       "work_queue_summary": "Review existing father at 61% (probable), retaining source and identity limits; no new father attachment.",
       "relationship_changes": [
         {
@@ -22112,7 +22125,7 @@
           "status": "probable",
           "previous_status": "unmarked",
           "previous_probability_percent": null,
-          "probability_percent": 61,
+          "probability_percent": 80,
           "assertion_id": "C-coverage-20261022g-glasgow-1329-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
           "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
@@ -22123,7 +22136,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation7-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-summary-preservation-2026-11-12.json",
+      "draft_wikitext": "<!-- REVIEWED FULL REPLACEMENT: additive father review seventh batch 2026-10-22 -->\n[[Category:Glasgow Name Study]]\n\n== Biography ==\nJanet was born before 1751. She is the daughter of [[Glasgow-81|John Glasgow]] and [[Guthrie-777|Magdalene Guthrie]]. \n== Research Notes ==\n=== Current paternal evidence ===\nThe father relationship to [[Glasgow-81]] is assessed at 80% (probable). The Ancestry Scotland, Select Births and Baptisms index entry for Janet Glasgow, 18 August 1751 at West Calder (https://www.ancestry.co.uk/search/collections/60143/records/12599868), reads the parent fields that the previous review could not see: father John and mother Magdalene (forenames only). This is the John Glasgow and Magdalene Guthrie household of West Calder already attached as John [[Glasgow-81]]; with the parent clause now read, the child-to-household link is no longer an inherited placement. Confidence rises to 80%.\n\nThe Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index already cited, so they verify the indexed parent fields rather than adding an independent source; the original register is uninspected. The index row gives the mother's forename only. John-81's own identification with the Kirknewton child of about 1709 and his father link (Andrew-1546) are separate and unchanged. No mother change follows.\n<ref>[https://www.familysearch.org/ark:/61903/1:1:VQ4T-H5N https://www.familysearch.org/ark:/61903/1:1:VQ4T-H5N].</ref><ref>[https://www.ancestry.co.uk/search/collections/60143/records/12599868 Scotland, Select Births and Baptisms, 1564-1950 — Janet Glasgow, 18 Aug 1751, West Calder, Midlothian, Scotland].</ref>\n\nThe dated reviews below describe earlier stages of this research.\n\n\n=== Earlier father review, 22 October 2026 ===\n\nIn this earlier review, the father [[Glasgow-81]] is assessed at 61% (probable). Janet’s 1751 West Calder citation fills a coherent interval between Magdalen in 1749 and Margaret in 1753, but only inherited parents are held.\n\nComplete selected father-profile proposition; recorded role and adult identification distinguished below.\n\nEarlier proposed test: Read the 1751 entry and compare the parental couple across siblings.\n\nSource basis already held: [https://www.familysearch.org/ark:/61903/1:1:VQ4T-H5N https://www.familysearch.org/ark:/61903/1:1:VQ4T-H5N]. No new father attached; cited evidence and any inspected register entry are scoped above.\n\n== Sources ==\n<references />\n* [https://www.familysearch.org/ark:/61903/1:1:VQ4T-H5N Archived or supplementary source]"
     },
     "Glasgow-1380": {
       "profile_id": "Glasgow-1380",
@@ -22131,9 +22145,9 @@
       "pending": true,
       "queued_at": "2026-10-22",
       "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-1380/father-confidence-2026-10-22g.wiki",
+      "draft_path": "research/Glasgow-1380/father-summary-reconciled-2026-11-12.wiki",
       "findings_path": "research/Glasgow-1380/findings.md",
-      "summary": "Review existing father at 81% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Review existing father at 85% (probable), retaining source and identity limits; no new father attachment.",
       "work_queue_summary": "Review existing father at 81% (probable), retaining source and identity limits; no new father attachment.",
       "relationship_changes": [
         {
@@ -22143,7 +22157,7 @@
           "status": "probable",
           "previous_status": "unmarked",
           "previous_probability_percent": null,
-          "probability_percent": 81,
+          "probability_percent": 85,
           "assertion_id": "C-coverage-20261022g-glasgow-1380-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
           "scope": "Complete selected father-profile proposition, with identity limits below."
@@ -22154,7 +22168,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation7-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-summary-preservation-2026-11-12.json",
+      "draft_wikitext": "<!-- REVIEWED FULL REPLACEMENT: additive father review seventh batch 2026-10-22 -->\n[[Category:Glasgow Name Study]]\n\n== Biography ==\nGrissell was born before 1752. She is the daughter of [[Glasgow-1023|Thomas Glasgow]] and [[Mill-357|Janet Mill]]. \n== Research Notes ==\n=== Current paternal evidence ===\nThe father relationship to [[Glasgow-1023]] is assessed at 85% (probable). The Ancestry Scotland, Select Births and Baptisms index entry for Grissell Glasgow, 18 June 1752 at Livingston (https://www.ancestry.co.uk/search/collections/60143/records/21027715), reads the parent fields that the previous review could not see: father Thomas and mother Janet (forenames only). It belongs to the Thomas Glasgow and Janet Mill family of Livingston attached as Thomas [[Glasgow-1023]], whose other children's transcripts name the full couple. Confidence rises to 85%.\n\nThe Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index already cited, so they verify the indexed parent fields rather than adding an independent source; the original register is uninspected. The row gives the mother's forename only. Thomas-1023's identification with the 1725 Kilwinning child remains inferred and is not addressed by this record. No mother change follows.\n<ref>[https://www.familysearch.org/ark:/61903/1:1:X1R2-KBB https://www.familysearch.org/ark:/61903/1:1:X1R2-KBB].</ref><ref>[https://www.ancestry.co.uk/search/collections/60143/records/21027715 Scotland, Select Births and Baptisms, 1564-1950 — Grissell Glasgow, 18 Jun 1752, Livingston, West Lothian, Scotland].</ref>\n\nThe dated reviews below describe earlier stages of this research.\n\n\n=== Earlier father review, 22 October 2026 ===\n\nIn this earlier review, the father [[Glasgow-1023]] is assessed at 81% (probable). The 1752 Livingston child and citation fit Thomas/Janet’s established local sequence; no literal parent fields for this event survive in the supplied notes, and Thomas’s earlier identity remains inferred.\n\nComplete selected father-profile proposition, with identity limits below.\n\nEarlier proposed test: Compare the 1742 marriage and original child entries for occupation/residence linking the adult Thomas to Kilwinning.\n\nSource basis already held: [https://www.familysearch.org/ark:/61903/1:1:X1R2-KBB https://www.familysearch.org/ark:/61903/1:1:X1R2-KBB]. No new father attached; cited evidence and any inspected register entry are scoped above.\n\n== Sources ==\n<references />\n* [https://www.familysearch.org/ark:/61903/1:1:X1R2-KBB Archived or supplementary source]"
     },
     "Glasgow-3470": {
       "profile_id": "Glasgow-3470",
@@ -22162,19 +22177,19 @@
       "pending": true,
       "queued_at": "2026-10-22",
       "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-3470/father-confidence-2026-10-22g.wiki",
+      "draft_path": "research/Glasgow-3470/father-summary-reconciled-2026-11-12.wiki",
       "findings_path": "research/Glasgow-3470/findings.md",
-      "summary": "Review existing father at 61% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Review existing father at 90% (confident), retaining source and identity limits; no new father attachment.",
       "work_queue_summary": "Review existing father at 61% (probable), retaining source and identity limits; no new father attachment.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-1929",
-          "status": "probable",
+          "status": "proved",
           "previous_status": "unmarked",
           "previous_probability_percent": null,
-          "probability_percent": 61,
+          "probability_percent": 90,
           "assertion_id": "C-coverage-20261022g-glasgow-3470-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
           "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
@@ -22185,7 +22200,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation7-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-summary-preservation-2026-11-12.json",
+      "draft_wikitext": "<!-- REVIEWED FULL REPLACEMENT: additive father review seventh batch 2026-10-22 -->\n[[Category:Glasgow Name Study]]\n\n== Biography ==\nHugh was born in 1752. He was the son of [[Glasgow-1929|Hugh Glasgow]] and [[McCachen-1|Margaret McCachen]]. He passed away in 1831.\n== Research Notes ==\n=== Current paternal evidence ===\nThe father relationship to [[Glasgow-1929]] is assessed at 90% (confident). Hugh's Kilmarnock baptism of 1752 names Hugh Glasgow and Margaret Mcgechen (https://www.ancestry.co.uk/search/collections/60143/records/24646105); the previous 61% rested on a FamilySearch sources page without literal parents. Hugh [[Glasgow-1929]], the Kilmarnock glover who married Margaret McEachin in 1732, has the same couple's children Margaret 1738 (https://www.ancestry.co.uk/search/collections/60143/records/25993043), Hugh 1742 (https://www.ancestry.co.uk/search/collections/60143/records/26465540) and Ann 1749 (https://www.ancestry.co.uk/search/collections/60143/records/11853749), attached at 96-99%. The mother's surname, spelled McGechen, McGeachen and McEachen across the series, separates this household from the Hugh and Margaret Giffen entry of 1744 ([[Mary-4108]]). Raised from 61% to 90%.\n\nA second Hugh born ten years after Hugh-4104 (1742) implies the first died young; no burial is held. The father's own childhood identity (Hugh-1929 as the 1710 Kilwinning child) is a separate link and unchanged. The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.\n<ref>[https://www.familysearch.org/en/tree/person/sources/L2BB-49G https://www.familysearch.org/en/tree/person/sources/L2BB-49G].</ref><ref>[https://www.ancestry.co.uk/search/collections/60143/records/24646105 Scotland, Select Births and Baptisms, 1564-1950 — Hugh Glasgow, 13 Jul 1752, Kilmarnock, Ayr, Scotland].</ref><ref>[https://www.ancestry.co.uk/search/collections/60143/records/25993043 Scotland, Select Births and Baptisms, 1564-1950 — Margaret Glasgow, 31 Aug 1738, Kilmarnock, Ayr, Scotland].</ref><ref>[https://www.ancestry.co.uk/search/collections/60143/records/26465540 Scotland, Select Births and Baptisms, 1564-1950 — Hugh Glasgow, 29 Aug 1742, Kilmarnock, Ayr, Scotland].</ref><ref>[https://www.ancestry.co.uk/search/collections/60143/records/11853749 Scotland, Select Births and Baptisms, 1564-1950 — Ann Glasgow, 3 Sep 1749, Kilmarnock, Ayr, Scotland].</ref>\n\nThe dated reviews below describe earlier stages of this research.\n\n\n=== Earlier father review, 22 October 2026 ===\n\nIn this earlier review, the father [[Glasgow-1929]] is assessed at 61% (probable). Hugh’s 1752 Ayrshire date fits the older Hugh’s child sequence, but the sole FamilySearch sources page is a contributed lead without literal parents.\n\nComplete selected father-profile proposition; recorded role and adult identification distinguished below.\n\nEarlier proposed test: Locate the 1752 entry and compare father’s trade and mother.\n\nSource basis already held: [https://www.familysearch.org/en/tree/person/sources/L2BB-49G https://www.familysearch.org/en/tree/person/sources/L2BB-49G]. No new father attached; cited evidence and any inspected register entry are scoped above.\n\n== Sources ==\n<references />\n* [https://www.familysearch.org/en/tree/person/sources/L2BB-49G Archived or supplementary source]"
     },
     "Glasgow-1231": {
       "profile_id": "Glasgow-1231",
@@ -22255,9 +22271,9 @@
       "pending": true,
       "queued_at": "2026-10-22",
       "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-1330/father-confidence-2026-10-22g.wiki",
+      "draft_path": "research/Glasgow-1330/father-summary-reconciled-2026-11-12.wiki",
       "findings_path": "research/Glasgow-1330/findings.md",
-      "summary": "Review existing father at 60% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Review existing father at 80% (probable), retaining source and identity limits; no new father attachment.",
       "work_queue_summary": "Review existing father at 60% (probable), retaining source and identity limits; no new father attachment.",
       "relationship_changes": [
         {
@@ -22267,7 +22283,7 @@
           "status": "probable",
           "previous_status": "unmarked",
           "previous_probability_percent": null,
-          "probability_percent": 60,
+          "probability_percent": 80,
           "assertion_id": "C-coverage-20261022g-glasgow-1330-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
           "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
@@ -22278,7 +22294,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation7-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-summary-preservation-2026-11-12.json",
+      "draft_wikitext": "<!-- REVIEWED FULL REPLACEMENT: additive father review seventh batch 2026-10-22 -->\n[[Category:Glasgow Name Study]]\n\n== Biography ==\nMargaret was born before 1753. She is the daughter of [[Glasgow-81|John Glasgow]] and [[Guthrie-777|Magdalene Guthrie]]. \n\nPossibly the same person as : \nMrs. Glasgow\n\n    Record Type: Deaths & Burials\n    Data Set: Calton Burials Index\n    Buried: 3 July 1823\n    Location: Britain & Ireland, Calton, Glasgow, Scotland\n    Surnames: Glasgow\n\nAged: 70: Cause of Death: aged.\n\n== Research Notes ==\n=== Current paternal evidence ===\nThe father relationship to [[Glasgow-81]] is assessed at 80% (probable). The Ancestry Scotland, Select Births and Baptisms index entry for Margaret Glasgow, 13 December 1753 at West Calder (https://www.ancestry.co.uk/search/collections/60143/records/12992896), reads the parent fields that the previous review could not see: father John and mother Magdalene (forenames only). This is the John Glasgow and Magdalene Guthrie household of West Calder already attached as John [[Glasgow-81]]; with the parent clause now read, the child-to-household link is no longer an inherited placement. Confidence rises to 80%.\n\nThe Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index already cited, so they verify the indexed parent fields rather than adding an independent source; the original register is uninspected. The index row gives the mother's forename only. John-81's own identification with the Kirknewton child of about 1709 and his father link (Andrew-1546) are separate and unchanged. No mother change follows.\n<ref>[https://www.familysearch.org/ark:/61903/1:1:VQ4T-HR9 https://www.familysearch.org/ark:/61903/1:1:VQ4T-HR9].</ref><ref>[https://www.ancestry.co.uk/search/collections/60143/records/12992896 Scotland, Select Births and Baptisms, 1564-1950 — Margaret Glasgow, 13 Dec 1753, West Calder, Midlothian, Scotland].</ref>\n\nThe dated reviews below describe earlier stages of this research.\n\n\n=== Earlier father review, 22 October 2026 ===\n\nIn this earlier review, the father [[Glasgow-81]] is assessed at 60% (probable). Margaret’s 1753 West Calder citation continues the coherent John/Guthrie sequence, but neither a literal parent clause nor the father’s own adult household is verified here.\n\nComplete selected father-profile proposition; recorded role and adult identification distinguished below.\n\nEarlier proposed test: Read the 1753 entry and compare the 1745–1751 family originals.\n\nSource basis already held: [https://www.familysearch.org/ark:/61903/1:1:VQ4T-HR9 https://www.familysearch.org/ark:/61903/1:1:VQ4T-HR9]. No new father attached; cited evidence and any inspected register entry are scoped above.\n\n== Sources ==\n<references />\n* [https://www.familysearch.org/ark:/61903/1:1:VQ4T-HR9 Archived or supplementary source]"
     },
     "Glasgow-1384": {
       "profile_id": "Glasgow-1384",
@@ -22525,9 +22542,9 @@
       "pending": true,
       "queued_at": "2026-10-30",
       "biography_rechecked_at": "2026-10-30",
-      "draft_path": "research/Glasgow-1385/father-confidence-2026-10-22g.wiki",
+      "draft_path": "research/Glasgow-1385/father-summary-reconciled-2026-11-12.wiki",
       "findings_path": "research/Glasgow-1385/findings.md",
-      "summary": "Review existing father at 80% (probable), retaining source and identity limits; no new father attachment. Add recovered provider fields with explicit identity and source-reading limits.",
+      "summary": "Review existing father at 85% (probable), retaining source and identity limits; no new father attachment. Add recovered provider fields with explicit identity and source-reading limits.",
       "work_queue_summary": "Review existing father at 80% (probable), retaining source and identity limits; no new father attachment.",
       "relationship_changes": [
         {
@@ -22537,7 +22554,7 @@
           "status": "probable",
           "previous_status": "unmarked",
           "previous_probability_percent": null,
-          "probability_percent": 80,
+          "probability_percent": 85,
           "assertion_id": "C-coverage-20261022g-glasgow-1385-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
           "scope": "Complete selected father-profile proposition, with identity limits below."
@@ -22548,7 +22565,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/findmypast-glasgow-audit/detail-recovery-proposal-preservation-2026-10-30.json"
+      "preservation_review_path": "research/ancestry-connections/father-summary-preservation-2026-11-12.json",
+      "draft_wikitext": "<!-- REVIEWED FULL REPLACEMENT: additive father review seventh batch 2026-10-22 -->\n{{Estimated Date}}\n[[Category:Glasgow Name Study]]\n\n== Biography ==\nWilliam was born before 1757. He is the son of [[Glasgow-1023|Thomas Glasgow]] and [[Mill-357|Janet Mill]].<ref>https://familysearch.org/ark:/61903/1:1:X1RG-JPX</ref>\n\n\"There is a Baptism of James, son of William and Mary Glasgow on 21 Aug 1799.\" <ref>https://irelandxo.com/ireland/tyrone/message-board/glasgow-surname</ref>\n* Fact: Christening (26 Jun 1757)  Livingston, West Lothian, Scotland\n\n\n== Research Notes ==\n=== Current paternal evidence ===\nThe father relationship to [[Glasgow-1023]] is assessed at 85% (probable). The Ancestry Scotland, Select Births and Baptisms index entry for William Glasgow, 26 June 1757 at Livingston (https://www.ancestry.co.uk/search/collections/60143/records/12572568), reads the parent fields that the previous review could not see: father Thomas and mother Janet (forenames only). It belongs to the Thomas Glasgow and Janet Mill family of Livingston attached as Thomas [[Glasgow-1023]], whose other children's transcripts name the full couple. Confidence rises to 85%.\n\nThe Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index already cited, so they verify the indexed parent fields rather than adding an independent source; the original register is uninspected. The row gives the mother's forename only. Thomas-1023's identification with the 1725 Kilwinning child remains inferred and is not addressed by this record. No mother change follows.\n<ref>[https://familysearch.org/ark:/61903/1:1:X1RG-JPX https://familysearch.org/ark:/61903/1:1:X1RG-JPX].</ref><ref>[https://www.ancestry.co.uk/search/collections/60143/records/12572568 Scotland, Select Births and Baptisms, 1564-1950 — William Glasgow, 26 Jun 1757, Livingston, West Lothian, Scotland].</ref>\n\nThe dated reviews below describe earlier stages of this research.\n\n\n=== Recovered provider fields, 30 October 2026 ===\nWilliam baptised 26 June 1757 Livingston, Thomas Glasgow and Janet Mill. Exact event and family match Glasgow-1385; no explicit birthday. Father 80% and mother ungraded unchanged. Preserve childhood/adult identity limits for Thomas. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.\n\n* [https://www.findmypast.co.uk/transcript?id=R_685841157 Findmypast R_685841157] — Recorded child; exact 26 June 1757 baptism and Thomas/Janet Mill family\n* [https://www.findmypast.co.uk/transcript?id=R_692406065 Findmypast R_692406065] — Recorded child; exact 26 June 1757 baptism and Thomas/Janet Mill family\n\nEarlier no-transcript or search-only statements for these IDs are superseded by this review; dated source history is retained. Family grades and adult identity limits remain unchanged.\n\n\n=== Earlier father review, 22 October 2026 ===\n\nIn this earlier review, the father [[Glasgow-1023]] is assessed at 80% (probable). William’s 1757 Livingston event fits Thomas/Mill’s preceding children and feasible generation. The bare index and contributed accounts do not themselves verify its parent fields or Thomas’s earlier identity.\n\nComplete selected father-profile proposition, with identity limits below.\n\nEarlier proposed test: Compare the 1742 marriage and original child entries for occupation/residence linking the adult Thomas to Kilwinning.\n\nSource basis already held: [https://familysearch.org/ark:/61903/1:1:X1RG-JPX https://familysearch.org/ark:/61903/1:1:X1RG-JPX]. No new father attached; cited evidence and any inspected register entry are scoped above.\n\n== Sources ==\n<references />\n\n\n* \"Family Tree,\" database, <i>FamilySearch</i> (http://familysearch.org : modified 24 October 2021, 20:10), entry for William Glasgow (PID https://beta.familysearch.org/ark:/61903/4:1:MLBY-Z2X ); contributed by various users.\n* [https://www.genealogy.com/forum/surnames/topics/glasgow/180/ Archived or supplementary source]"
     },
     "Glasgow-1619": {
       "profile_id": "Glasgow-1619",
@@ -22906,9 +22924,9 @@
       "pending": true,
       "queued_at": "2026-10-22",
       "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-3405/father-confidence-2026-10-22g.wiki",
+      "draft_path": "research/Glasgow-3405/father-summary-reconciled-2026-11-12.wiki",
       "findings_path": "research/Glasgow-3405/findings.md",
-      "summary": "Review existing father at 78% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Review existing father at 82% (probable), retaining source and identity limits; no new father attachment.",
       "work_queue_summary": "Review existing father at 78% (probable), retaining source and identity limits; no new father attachment.",
       "relationship_changes": [
         {
@@ -22918,7 +22936,7 @@
           "status": "probable",
           "previous_status": "unmarked",
           "previous_probability_percent": null,
-          "probability_percent": 78,
+          "probability_percent": 82,
           "assertion_id": "C-coverage-20261022g-glasgow-3405-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
           "scope": "Complete selected father-profile proposition, with identity limits below."
@@ -22929,7 +22947,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation7-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-summary-preservation-2026-11-12.json",
+      "draft_wikitext": "<!-- REVIEWED FULL REPLACEMENT: additive father review seventh batch 2026-10-22 -->\n[[Category:Glasgow Name Study]]\n\n== Biography ==\nMargaret was born in 1766. She is the daughter of [[Glasgow-3403|John Glasgow]] and [[Mill-757|Margaret Mill]].\n== Research Notes ==\n=== Current paternal evidence ===\nThe father relationship to [[Glasgow-3314]] is assessed at 82% (probable). The Ancestry Scotland, Select Births and Baptisms index entry for Margaret Glasgow, 28 September 1766 at West Calder (https://www.ancestry.co.uk/search/collections/60143/records/3142391), reads the parent fields that the previous review could not see: father John and mother Margaret (forenames only). It belongs to the John Glasgow and Margaret Mill household of West Calder attached as John [[Glasgow-3314]], whose Agnes of 1770 is transcribed with the full couple. Confidence rises to 82%.\n\nThe Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index already cited, so they verify the indexed parent fields rather than adding an independent source; the original register is uninspected. The row gives the mother's forename only. John-3314's identification with the 1740 Irvine child still needs a bridge and is not addressed here. No mother change follows.\n<ref>[https://familysearch.org/ark:/61903/1:1:VQ4T-CQM \"Scotland, Births and Baptisms, 1564-1950\", database, FamilySearch (https://familysearch.org/ark:/61903/1:1:VQ4T-CQM : 12 February 2020), Margaret Glasgow, 1766.].</ref><ref>[https://www.ancestry.co.uk/search/collections/60143/records/3142391 Scotland, Select Births and Baptisms, 1564-1950 — Margaret Glasgow, 28 Sep 1766, West Calder, Midlothian, Scotland].</ref>\n\nThe dated reviews below describe earlier stages of this research.\n\n\n=== Earlier father review, 22 October 2026 ===\n\nIn this earlier review, the father [[Glasgow-3314]] is assessed at 78% (probable). Margaret’s 1766 West Calder citation indexes John and fits the local Mill family sequence. The complete parent fields are not held; the father’s 1740 Irvine-to-West-Calder adult bridge remains unproved.\n\nComplete selected father-profile proposition, with identity limits below.\n\nEarlier proposed test: Inspect John/Margaret Mill’s marriage or adult probate for birthplace/age or witnesses connecting John to Irvine.\n\nSource basis already held: [https://familysearch.org/ark:/61903/1:1:VQ4T-CQM \"Scotland, Births and Baptisms, 1564-1950\", database, FamilySearch (https://familysearch.org/ark:/61903/1:1:VQ4T-CQM : 12 February 2020), Margaret Glasgow, 1766.]. No new father attached; cited evidence and any inspected register entry are scoped above.\n\n== Sources ==\n<references />\n* \"Scotland, Births and Baptisms, 1564-1950\", database, FamilySearch (https://familysearch.org/ark:/61903/1:1:VQ4T-CQM : 12 February 2020), Margaret Glasgow, 1766."
     },
     "Glasgow-1616": {
       "profile_id": "Glasgow-1616",
@@ -23764,19 +23783,19 @@
       "pending": true,
       "queued_at": "2026-10-22",
       "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-2101/father-confidence-2026-10-22g.wiki",
+      "draft_path": "research/Glasgow-2101/father-summary-reconciled-2026-11-12.wiki",
       "findings_path": "research/Glasgow-2101/findings.md",
-      "summary": "Add Edinburgh 1783 derivative transcript to complete draft, preserving the compatible before-12-April birth bound, mother-profile discrepancy and 59% father assessment. Opening separates recorded parents from qualified adult-profile claims.",
+      "summary": "Current father assessment 63% (probable), completed 2026-11-06; retain the existing relationship action and qualifications.",
       "work_queue_summary": "Add Edinburgh 1783 derivative transcript to complete draft, preserving the compatible before-12-April birth bound, mother-profile discrepancy and 59% father assessment. Opening separates recorded parents from qualified adult-profile claims.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-1321",
-          "status": "possible",
+          "status": "probable",
           "previous_status": "unmarked",
           "previous_probability_percent": null,
-          "probability_percent": 59,
+          "probability_percent": 63,
           "assertion_id": "C-coverage-20261022g-glasgow-2101-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
           "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
@@ -23787,7 +23806,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation7-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-summary-preservation-2026-11-12.json",
+      "draft_wikitext": "<!-- REVIEWED FULL REPLACEMENT: additive father review seventh batch 2026-10-22 -->\n[[Category:Glasgow Name Study]]\n\n== Biography ==\nThe current profile places Margaret’s birth before 12 April 1783, an uncertain bound compatible with a matching Edinburgh child transcript’s 9 April birth and 12 April baptism. The exact transcript date is recorded here while the structured vital remains unchanged pending review of the original register. The transcript names father Alexander Glasgow and mother Agnes Cunningham. Her current working father-profile identification with [[Glasgow-1321|Alexander Glasgow]] remains 59% possible. The catalogue retains attached mother [[Cunningham-20926|Agnes Cunningham]] as unassessed; the earlier draft’s [[Cunninghame-96|Agnes Cunninghame]] link is a separate prior claim, not resolved by the transcript.\n\nMay be the same person as [[Glasgow-518|Margaret Glasgow (abt.1788-1874)]], 5th cousin of M Glasgow.\n== Research Notes ==\n=== Current paternal evidence ===\nThe father relationship to [[Glasgow-1321]] is assessed at 63% (probable). The Findmypast Scotland OPR derivative transcript SCOT/OPR/BAP/0738380 (OPR 685_2/10 p347 item 2; record fmp-record-scot-opr-bap-0738380) gives Margaret Glasgow's birth on 9 Apr 1783 and baptism on 12 Apr 1783 at St Cuthberts, Edinburgh, to father Alexander Glasgow, a brewer's servant living at New Grange, and mother Agnes Cunningham. That is the catalogue couple: Alexander [[Glasgow-1321]] and his tree spouse Agnes (Cunningham) Glasgow, whose other children belong to the same 1774-1777 Edinburgh household. The 22 Oct 2026 assessment (59%, possible) rested on the generic OPR citation and said the absent literal fields left material uncertainty; those fields are now read and name exactly this father and mother. A 5 Jul 1847 St Cuthberts marriage index entry (Margaret Glasgow and James Edgar; ancestry-60144-2039929) also gives the bride's father as Alexander Glasgow. The raise is modest, to 63% (probable, the lower edge), because a child's baptism cannot show that this Edinburgh Alexander is the Kirknewton-born [[Alexander-1321]] (born before 1747) or choose between the two Agnes Cunningham profiles ([[Cunningham-20926]] and the draft [[Cunninghame-96]]).\n\nDerivative transcript and a marriage index row only; the original register images are uninspected. The father is identified by name, trade and residence, not by age or parentage, and Alexander Glasgow is a common Edinburgh name. The 1847 marriage row names the father but nothing else about him. Mother, upstream ancestry and the Agnes Cunningham identity are assessed separately.\n<ref>[https://www.wikitree.com/wiki/Glasgow-2101 Church registers - Old Parish Registers Births and Baptisms].</ref><ref>[https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0738380&tab=this Scotland, Parish Births & Baptisms 1564-1929 — Margaret Glasgow].</ref><ref>[https://www.ancestry.co.uk/search/collections/60144/records/2039929 Scotland, Select Marriages, 1561-1910 — Margaret Glasgow, 5 Jul 1847, Saint Cuthberts, Edinburgh, Midlothian, Scotland].</ref>\n\nThe dated reviews below describe earlier stages of this research.\n\n\nThe previous draft stated Glasgow-1321 and Cunninghame-96 as unqualified parents. Both claims are retained here as attributed prior profile history; the local catalogue actually attaches Cunningham-20926, and no maternal link is changed in this proposal. The record proves named Alexander/Agnes parent roles for the 1783 child event, not either adult-profile ID.\n\n=== Earlier father review, 22 October 2026 ===\n\nIn this earlier review, the father [[Glasgow-1321]] is assessed at 59% (possible). Margaret’s 1783 St Cuthberts date is compatible with Alexander/Agnes’s 1774–1777 household; a newly saved Findmypast derivative gives the 12 April 1783 Edinburgh baptism, 9 April indexed birth, Alexander Glasgow and Agnes Cunningham, New Grange residence and father’s occupation “Brewers Servt”. This identifies the recorded child event, while the adult Alexander/Agnes profile mapping and longer family gap remain qualified.\n\nComplete selected father-profile proposition; recorded role and adult identification distinguished below.\n\nEarlier proposed test: Inspect original Edinburgh OPR 685_2/10 p347 and compare the named adults with the attached mother identities and the earlier household.\n\nSource basis already held: [https://www.wikitree.com/wiki/Glasgow-2101 Church registers - Old Parish Registers Births and Baptisms]. No new father attached; cited evidence and any inspected register entry are scoped above.\n\nThe derivative entry names mother Agnes Cunningham but does not resolve whether the inherited attached mother [[Cunninghame-96]] and local catalogue mother Cunningham-20926 represent the same adult. No relationship or confidence amendment follows from this derivative alone. The entry is distinct from the parent-blank Glasgow, Lanarkshire baptism of 2 November 1782.\n\n== Sources ==\n<references />\n* Church registers - Old Parish Registers Births and Baptisms\n* Findmypast, ''Scotland, Parish Births & Baptisms 1564–1929'', [https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0738380 SCOT/OPR/BAP/0738380], Margaret Glasgow, birth 9 April 1783, baptism 12 April 1783, Edinburgh, OPR 685_2/10 p347 item 2, father Alexander Glasgow, mother Agnes Cunningham, residence New Grange, father “Brewers Servt”; derivative transcript, original register uninspected."
     },
     "Glasgow-368": {
       "profile_id": "Glasgow-368",
@@ -23938,19 +23958,19 @@
       "pending": true,
       "queued_at": "2026-10-22",
       "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-1220/father-confidence-2026-10-22g.wiki",
+      "draft_path": "research/Glasgow-1220/father-summary-reconciled-2026-11-12.wiki",
       "findings_path": "research/Glasgow-1220/findings.md",
-      "summary": "Review existing father at 54% (possible), retaining source and identity limits; no new father attachment.",
+      "summary": "Review existing father at 62% (probable), retaining source and identity limits; no new father attachment.",
       "work_queue_summary": "Review existing father at 54% (possible), retaining source and identity limits; no new father attachment.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-1218",
-          "status": "possible",
+          "status": "probable",
           "previous_status": "unmarked",
           "previous_probability_percent": null,
-          "probability_percent": 54,
+          "probability_percent": 62,
           "assertion_id": "C-coverage-20261022g-glasgow-1220-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
           "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
@@ -23961,7 +23981,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation7-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-summary-preservation-2026-11-12.json",
+      "draft_wikitext": "<!-- REVIEWED FULL REPLACEMENT: additive father review seventh batch 2026-10-22 -->\n[[Category:Glasgow Name Study]]\n\n[[Category:Tristan da Cunha]]\n[[Space:Glasgow_Surname_in_the_Scottish_Borders|Glasgow Surname in the Scottish Borders]]\n== Biography ==\n{{Notables Sticker}}\nFounder of the Remotest Community in the World. \n\nWilliam Glass was a Scottish Corporal and settler. He established the settlement that would become Edinburgh of the Seven Seas, the main settlement on Tristan da Cunha.\n\nBorn in Kelso on 11th May 1786, to David and Janet Glasgow who lived in the Townhead area of the town at the top of Roxburgh Street. In March 1804 he enlisted in the British Army at Berwick-on-Tweed as a gun driver for the Royal Artillery. He gave his name as William Glass not Glasgow, claimed to be 16 years old not 18, and described himself as an ordinary labourer, although later in life he would claim to have been a servant at Floors Castle. Why did he leave home under an assumed name? Was there some dark secret in his past?<ref>http://www.kelsoconnections.co.uk/storyboards/pdfs/20_FromKelso.pdf</ref> \n\nOne likely explanation is given by a news story in the same area on June 22nd, 1679 when James & William Glasgow of Cavers parish survived Crown of London Shipwreck. They were Covenanters who were due to be shipped off for slavery. The Covenanters were a 17th Century Scottish Presbyterian Christian sect. They were evangelical and militaristic, effectively governing Scotland for a time during the War of the Three Kingdoms. They also fought in the English Civil war, where they were defeated by the New Model Army of Oliver Cromwell.\n\n=== Backstory ===\n\nGlass, before enlisting, had worked as a servant to the Duke of Roxburghe and was skilled in horsemanship. In South Africa with the British Forces, he was an officer´s servant and had reached the rank of corporal of artillery.\n\nFive officers and 36 soldiers, sent from South Africa, took possession of the island of Tristan da Cunha on 28th November 1816. The garrison had been sent by the British Government because they were worried that the island might be used for an attempt by the French to rescue Napoleon from St. Helena where he was in exile. The troops were withdrawn in 1817, as the threat had passed, but Corporal William Glass from Kelso in Scotland, with his South African wife, Maria Magdalena Leenders, and two children, asked to stay. Napoleon died on St Helena on 5 May 1821.\n\nWith Glass, there remained on the Island two stonemason companions: John W. Nankiwell & Samuel Burnell, both of Plymouth, England. They began a most remarkable project which they called 'The Firm', underpinned by a signed voluntary agreement of communal living including : equal shares of stock and stores; equally divided profit; equal shares in paying for purchases; no one superior over another. This agreement was signed on 7th November 1817.\n\n\nGlass ruled over the little community from 1817 to 1853 in patriarchal fashion. William Glass set up the rules for the people living on Tristan da Cunha. They are still the basis of the Tristan da Cunha society of today. The council decides how to spend the communal money earned from the crayfish exports, and ensures that a member of the family with the lowest income gets the next job to come up. Everybody works for the common good. Everybody helps each other. Everything is shared; there is no private property.\n\nWilliam Glass died of cancer in 1853 at the age of 66 and his death was the catalyst for an exodus of 25 family members to join relatives in New Bedford, Massachusetts in 1856. The next year a further 45 people left for South Africa with Rev Taylor, many settling in Riversdale, South Cape Province.\n\nAfter they left, there were only four families, totalling 28 people in the world's most isolated community. Peter Green took over from William Glass as the unofficial spokesman, (but never regarded as leader) of the island's people.\n\nWilliam Glass was a deeply religious man, and had a good education, coupled with administrative gifts of no mean order. He was chosen headman, and in the course of a long life governed the growing community with vigour and justice. He regularly held religious service, reading morning and evening prayer daily, and adding one of Dr. Hugh Blair's sermons on Sundays. Of these discourses he remarked, \"They are very good, but no one can understand them much,\" and pleaded for something simpler. The islanders still keep much of the patriarchal way of life instituted by William Glass, who used to assemble all his family in the house on Christmas Day, his own birthday, and other high occasions. Rev. W. F. Taylor, the missionary at the time, was one of the company the year before the old man's death in 1853, and on that occasion thirty-four persons, all his descendants or connections by marriage, sat down to dinner. Glass had the remarkable family of sixteen—eight boys and eight girls. Like Swain, he is buried in the island cemetery. His monument, subscribed for and sent by his sons in America, is a handsome piece of marble. The inscription is rather an interesting one:\n\nWILLIAM GLASS.\nBorn at Kelso, Scotland, the Founder of the Settlement of Tristan da Cunha in which he resided 37 years, and fell asleep in Jesus. November 24, 1853, aged 67 years.\nAsleep in Jesus, far from thee. Thy kindred and their graves may be. But thine is still a blessed sleep. From which none ever wakes to weep.\n\nGlass should be considered as the real founder of the settlement of Tristan da Cunha. All land is still communally owned and stock numbers controlled to conserve grass and avoid some families getting richer than others. No outsiders can buy land on Tristan.\n\nHe established a settlement based on equality, a policy that still stands today.\nWe are however left with the question – what made a man who was obviously a committed Christian and a kind and considerate human being change his name when still a teenager? Did something happen that he wanted to hide? Will we ever know? Probably not, but it does nothing to lessen the legacy he left in Tristan da Cunha.\n\nOn November 19 1817 the \"Eurydice\" sailed from Tristan, but the commander of the ship presented Glass with a bull, a cow, and few sheep, which in time became an extensive flock and herd. The stonemasons did not stay long but examples of their work can still be seen on the island houses.\n\nIn November 1820 William Glass was persuaded by Capt. Todridge, an old friend of his from Plymouth, England, to trust his boy of five and his girl of less than four years old to him. He had reached Tristan in a sealing vessel and took them home with him to England for the purpose of giving them a sound education which was unattainable on Tristan. In 1826 sailor Thomas Swain, from Hastings in Sussex arrived and brought the number of bachelors up to five. These were nearly all men who had fought under Nelson or guarded Napoleon at St. Helena. Swain was reported to be the very sailor who caught the dying Admiral in his arms as he fell mortally wounded on the deck of \"Victory\". He lived to be a centenarian, and was buried in the island cemetery, where the inscription on his grave still remains as follows:\n\nTHOMAS SWAIN\nBorn at Hastings, England.\nDied on 26th April, 1862.\nAged 102 years.\n\n(An article \"An Opaque Glass\" by Audrey Mitchell appeared in the magazine of the Borders Family History Society Issue 60 of March 2006, which gives further, more detailed information about William Glass.)\n\nOnly William Glass had a wife and family, so Simon Amm, captain of the \"Duke of Gloucester\", a regular visitor to Tristan, was commissioned (allegedly for a sack of potatoes per woman) to try to persuade suitable partners from the island of St Helena to try their luck with the lonely men. Amazingly, Amm returned in 1827with five volunteers, and it is reported that Thomas Swain (who had vowed to take the first woman to step ashore), duly took Sarah Jacobs for his wife. By 1832 Tristan had a population of 34 with 6 couples and 22 children! In 1836 a Dutchman, Peter Groen, who anglicised his name to Green, joined them. In 1837 and 1849 Thomas Rogers and Andrew Hagan, both American whalermen, also settled on Tristan. In 1852, there were ten families with 85 people on Tristan, and Captain Denham, the captain of the \"Herald\" noted tersely in his journal that \"the Swains with 15 children, are no less determined antiMalthusians than the Glasses\" (who had 16). By 1856 there were 96 inhabitants.\n\nWilliam was born in 1786. He was the son of [[Glasgow-1218|David Glasgow]] and [[Glasgow-1219|Janet Glasgow]].  He passed away in 1853. \n\nThe Tristan d'Acunha Burial record for William Glass reads:\n* When buried; Nov. 25 1853. William Glass, son of Robert & Elizabeth Glass, born May 25th 1787 in Scotland, baptism date unknown, died of cancer Nov 24th 1853.\n\n== Research Notes ==\n=== Current paternal evidence ===\nThe father relationship to [[Glasgow-1218]] is assessed at 62% (probable). The Ancestry Scotland, Select Births and Baptisms index entry for William (Glasgow) Glass, 11 May 1786 at Kelso (https://www.ancestry.co.uk/search/collections/60143/records/26315521), reads the parent fields that the previous review could not see: father David and mother Janet (forenames only). William's recorded birth date, 11 May 1786 at Kelso, is this entry, so the baptised child is now shown in the David Glasgow and Janet Hood household ([[David-1218]]). The remaining doubt is whether the adult William Glass is this child, which rests on Kelso local history. Confidence rises from 54% to 62% probable.\n\nThe Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index already cited, so they verify the indexed parent fields rather than adding an independent source; the original register is uninspected. The index row gives the mother's forename only. No record yet links the adult surname Glass to this William Glasgow; the father's published account calls the identification possible. No mother change follows.\n<ref>[http://www.kelsoconnections.co.uk/storyboards/pdfs/20_FromKelso.pdf http://www.kelsoconnections.co.uk/storyboards/pdfs/20_FromKelso.pdf].</ref><ref>[https://www.ancestry.co.uk/search/collections/60143/records/26315521 Scotland, Select Births and Baptisms, 1564-1950 — William Glasgow, 11 May 1786, Kelso, Roxburgh, Scotland].</ref>\n\nThe dated reviews below describe earlier stages of this research.\n\n\n=== Earlier father review, 22 October 2026 ===\n\nIn this earlier review, the father [[Glasgow-1218]] is assessed at 54% (possible). Kelso local history links William Glass to David/Janet’s family; compatible 1786 generation and regional sibling context support it, but father’s published account expressly calls identification possible.\n\nComplete selected father-profile proposition; recorded role and adult identification distinguished below.\n\nEarlier proposed test: Compare 1786 Kelso baptism, service record and Glass Bible for named parents.\n\nSource basis already held: [http://www.kelsoconnections.co.uk/storyboards/pdfs/20_FromKelso.pdf http://www.kelsoconnections.co.uk/storyboards/pdfs/20_FromKelso.pdf]. No new father attached; cited evidence and any inspected register entry are scoped above.\n\n== Sources ==\n<references />\n* [http://www.kelsoconnections.co.uk/storyboards/storyboards_cunha.asp Archived or supplementary source]\n* [https://en.wikipedia.org/wiki/William_Glass Archived or supplementary source]\n* [https://www.geni.com/people/William-Glass/6000000017398887134 Archived or supplementary source]\n*https://www.wikitree.com/wiki/Space:Glasgow_Surname_in_the_Scottish_Borders\n* Anglican Church of Southern Africa (ACSA). The Diocese of St Helena Parish Registers and Indices held at University of the Witwatersrand, Johannesburg, South Africa. Historical Papers Research Archive series AB1612: Glass Family Bible: http://www.historicalpapers.wits.ac.za/inventories/inv_pdfo/AB1612/AB1612-Af1-4-03-jpeg.pdf\n* Anglican Church of Southern Africa (ACSA). The Diocese of St Helena Parish Registers and Indices held at University of the Witwatersrand, Johannesburg, South Africa. Historical Papers Research Archive series AB2073:\n** Tristan d'Acunha Baptism Register 1835-1848); http://www.historicalpapers.wits.ac.za/inventories/inv_pdfo/AB2073/AB2073-6-1-2-001-jpeg.pdf\n** Tristan d'Acunha Burial Register 1816-1854 http://researcharchives.wits.ac.za/uploads/r/historical-papers-research-archive-library-university-of-witwatersrand/f/7/c/f7c4a443bdc35c08c35e3f41c7f985d0e381da9984bb916fe5c2e298fed26972/AB2073-6-3-2-001-jpeg.pdf"
     },
     "Glasgow-543": {
       "profile_id": "Glasgow-543",
@@ -27560,19 +27581,19 @@
       "pending": true,
       "queued_at": "2026-10-22",
       "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-3544/father-confidence-2026-10-22h.wiki",
+      "draft_path": "research/Glasgow-3544/father-summary-reconciled-2026-11-12.wiki",
       "findings_path": "research/Glasgow-3544/findings.md",
-      "summary": "Review existing father at 57% (possible), retaining source and identity limits; no new father attachment.",
+      "summary": "Review existing father at 76% (probable), retaining source and identity limits; no new father attachment.",
       "work_queue_summary": "Review existing father at 57% (possible), retaining source and identity limits; no new father attachment.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-3545",
-          "status": "possible",
+          "status": "probable",
           "previous_status": "unmarked",
           "previous_probability_percent": null,
-          "probability_percent": 57,
+          "probability_percent": 76,
           "assertion_id": "C-coverage-20261022h-glasgow-3544-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
           "scope": "Selected father-profile identity and paternal relationship; maternal identity is separate."
@@ -27583,7 +27604,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation8-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-summary-preservation-2026-11-12.json",
+      "draft_wikitext": "<!-- REVIEWED FULL REPLACEMENT: additive father review eighth batch 2026-10-22 -->\n[[Category:Glasgow Name Study]]\n\n== Biography ==\nAgnes was born in 1810. \n== Research Notes ==\n=== Current paternal evidence ===\nThe father relationship to [[Glasgow-3545]] is assessed at 76% (probable). 'Agnus' Glasgow was baptised on 3 January 1812 at Lloyd Street Presbyterian Chapel, Manchester, a daughter of William and Ann Glasgow; William [[Glasgow-3545]] married Ann Denham at Manchester in 1805 and the same chapel baptised Robert (1806) and William (1816) to William and Ann. Agnes [[Glasgow-3544]], who married David Glasgow at Manchester in 1833 and died there in 1846, fits that baptism by name, place and an approximate 1812-13 birth. The father link rises from 57% to 76% probable.\n\nIndex transcripts only; originals uninspected. Ann's surname is not in the baptism, Agnes's 1833 marriage entry does not name her father, and another William and Ann Glasgow in Manchester is not excluded. No mother change follows.\n<ref>[https://www.familysearch.org/ark:/61903/1:1:2331-GJB \"England, Manchester, Parish Registers, 1603-1954\", FamilySearch (https://www.familysearch.org/ark:/61903/1:1:2331-GJB : Tue Jan 07 01:38:49 UTC 2025), Entry for David Glasgow and Agnes Glasgow, 1833.].</ref><ref>[https://www.ancestry.co.uk/search/collections/9841/records/2392597 England, Select Births and Christenings, 1538-1975 — Agnus Glasgow, 3 Jan 1812, Lloyd Street Presbyterian Chapel-NC,Manchester,Lancashire,England].</ref><ref>[https://www.ancestry.co.uk/search/collections/9852/records/10952888 England, Select Marriages, 1538-1973 — William Glasgow, 30 Sep 1805, Manchester, Lancashire, England].</ref>\n\nThe dated reviews below describe earlier stages of this research.\n\n\n=== Earlier father review, 22 October 2026 ===\n\nIn this earlier review, the father [[Glasgow-3545]] is assessed at 57% (possible). Agnes’s 1833 Manchester parish citation names David Glasgow and Agnes Glasgow but does not transcribe William as father. The selected William links only a FamilySearch sources page, leaving this assignment weakly documented.\n\nSelected father-profile identity and paternal relationship; maternal identity is separate.\n\nEarlier proposed test: Read the full 1833 entry for roles/witnesses, then seek Agnes’s baptism.\n\nSource basis already held: [https://www.familysearch.org/ark:/61903/1:1:2331-GJB \"England, Manchester, Parish Registers, 1603-1954\", FamilySearch (https://www.familysearch.org/ark:/61903/1:1:2331-GJB : Tue Jan 07 01:38:49 UTC 2025), Entry for David Glasgow and Agnes Glasgow, 1833.]. No new father attached; cited evidence and any inspected register entry are scoped above.\n\n== Sources ==\n<references />\n* \"England, Manchester, Parish Registers, 1603-1954\", FamilySearch (https://www.familysearch.org/ark:/61903/1:1:2331-GJB : Tue Jan 07 01:38:49 UTC 2025), Entry for David Glasgow and Agnes Glasgow, 1833."
     },
     "Glasgow-1617": {
       "profile_id": "Glasgow-1617",
@@ -30406,19 +30428,19 @@
       "pending": true,
       "queued_at": "2026-10-22",
       "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-2604/father-confidence-2026-10-22i.wiki",
+      "draft_path": "research/Glasgow-2604/father-summary-reconciled-2026-11-12.wiki",
       "findings_path": "research/Glasgow-2604/findings.md",
-      "summary": "Review existing father at 81% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Review existing father at 90% (confident), retaining source and identity limits; no new father attachment.",
       "work_queue_summary": "Review existing father at 81% (probable), retaining source and identity limits; no new father attachment.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-2603",
-          "status": "probable",
+          "status": "proved",
           "previous_status": "unmarked",
           "previous_probability_percent": null,
-          "probability_percent": 81,
+          "probability_percent": 90,
           "assertion_id": "C-coverage-20261022i-glasgow-2604-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
           "scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate."
@@ -30429,7 +30451,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation9-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-summary-preservation-2026-11-12.json",
+      "draft_wikitext": "<!-- REVIEWED FULL REPLACEMENT: additive father review ninth batch 2026-10-22 -->\n{{Estimated Date}}\n[[Category:Glasgow Name Study]]\n\n[[Category:Turakina Cemetery, Turakina, Manawatū-Whanganui]]\n[[Category: Bombay, sailed 1 August 1842]]\n== Biography ==\nJohn was born about 1827. He was the son of [[Glasgow-2603|Robert Glasgow]] and [[Lamb-11245|Mary Lamb]]. He passed away in 1910.\n== Research Notes ==\n=== Current paternal evidence ===\nThe father relationship to [[Glasgow-2603]] is assessed at 90% (confident). John Glasgow's baptism on 8 October 1826 at Manchester Cathedral is indexed to Robert Glasgow and Mary, the couple of Robert [[Glasgow-2603]] and Mary Lamb, whose further children Adam (1829), Isabella (1834), Mary Maria (1836) and Ann (1839) were baptised at Manchester to Robert and Mary. That parent-naming baptism, his 1827 Manchester birth, the 1841 Manchester household and the 1842 Bombay family grouping raise the father link from 81% to 90%.\n\nIndex transcript only; the cathedral register is uninspected and John's 1910 death registration is not transcribed for parents. Robert's own parentage is separate. No mother change follows.\n<ref>[https://www.bdmhistoricalrecords.dia.govt.nz/search/search?path=%2FqueryEntry.m%3Ftype%3Ddeaths NZ death registration 1910/4944 (https://www.bdmhistoricalrecords.dia.govt.nz/search/search?path=%2FqueryEntry.m%3Ftype%3Ddeaths)].</ref><ref>[https://www.ancestry.co.uk/search/collections/9841/records/125802717 England, Select Births and Christenings, 1538-1975 — John Glasgow, 8 Oct 1826, Cathedral,Manchester,Lancashire,England].</ref>\n\nThe dated reviews below describe earlier stages of this research.\n\n\n=== Earlier father review, 22 October 2026 ===\n\nIn this earlier review, the father [[Glasgow-2603]] is assessed at 81% (probable). The held account assigns John Glasgow to Robert Glasgow and Mary Lamb in the Bombay/Turakina family. John’s 1827 Manchester birth and Bombay family grouping fit, but his 1910 death registration is not transcribed for parents.\n\nConfidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate.\n\nEarlier proposed test: Inspect the 1842 Bombay passenger family list and the child’s NZ death certificate parent fields.\n\nSource basis already held: [https://www.bdmhistoricalrecords.dia.govt.nz/search/search?path=%2FqueryEntry.m%3Ftype%3Ddeaths NZ death registration 1910/4944 (https://www.bdmhistoricalrecords.dia.govt.nz/search/search?path=%2FqueryEntry.m%3Ftype%3Ddeaths)]. No new father attached; cited evidence and any inspected register entry are scoped above.\n\n== Sources ==\n<references />\n* [https://www.bdmhistoricalrecords.dia.govt.nz/search/search?path=%2FqueryEntry.m%3Ftype%3Ddeaths  NZ death registration 1910/4944]\n\n*https://www.geni.com/people/John-Glasgow/6000000006181501668\n\n* {{FindAGrave|178881160}}"
     },
     "Glasgow-2973": {
       "profile_id": "Glasgow-2973",
@@ -32960,19 +32983,19 @@
       "pending": true,
       "queued_at": "2026-10-22",
       "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-1674/father-confidence-2026-10-22i.wiki",
+      "draft_path": "research/Glasgow-1674/father-summary-reconciled-2026-11-12.wiki",
       "findings_path": "research/Glasgow-1674/findings.md",
-      "summary": "Review existing father at 83% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Review existing father at 94% (confident), retaining source and identity limits; no new father attachment.",
       "work_queue_summary": "Review existing father at 83% (probable), retaining source and identity limits; no new father attachment.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-2603",
-          "status": "probable",
+          "status": "proved",
           "previous_status": "unmarked",
           "previous_probability_percent": null,
-          "probability_percent": 83,
+          "probability_percent": 94,
           "assertion_id": "C-coverage-20261022i-glasgow-1674-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
           "scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate."
@@ -32983,7 +33006,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation9-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-summary-preservation-2026-11-12.json",
+      "draft_wikitext": "<!-- REVIEWED FULL REPLACEMENT: additive father review ninth batch 2026-10-22 -->\n[[Category:Glasgow Name Study]]\n\n[[Category:Archer Street Cemetery, Masterton, Wellington]]\n[[Category: Bombay, sailed 1 August 1842]]\n== Biography ==\nIsabella was born about 1834. She was the daughter of [[Glasgow-2603|Robert Glasgow]] and [[Lamb-11245|Mary Lamb]].  She arrived in Wellington with her parents in 1841.\n\nShe married Donald Cameron in 1853 in New Zealand. <ref>\"New Zealand, Civil Records Indexes, 1800-1966,\" database, FamilySearch (https://familysearch.org/ark:/61903/1:1:Q24J-JBZB : 4 October 2016), Donald Cameron and Isabella Glasgow, 1853; citing Marriage, New Zealand, registration number 1853/994, Archives of New Zealand, Wellington.</ref>\n\nThey were the parents of six sons.\n\nAfter the death of Donald, she married William Lowes, a widower, and at one time Mayor of Masterton, in 1868.<ref name=\"marriage\">\"Births, Deaths & Marriages Online\", [digital index], New Zealand Department of Internal Affairs (www.bdmhistoricalrecords.dia.govt.nz), Marriage Registration of William Lowes and Isabella Cameron ; citing Marriage Certificate 1868/7268 .</ref> \n\nShe and William had two daughters.\n\nShe was widowed a second time in 1901.\n\nShe passed away in 1920 and is buried in Archer Street cemetery.\n <ref name=\"death\"> \"Births, Deaths & Marriages Online\", [digital index], New Zealand Department of Internal Affairs (www.bdmhistoricalrecords.dia.govt.nz), Death Registration of Isabella Lowes, aged at death 86Y; citing Death Certificate 1920/3195 .</ref> \n\n\n== Research Notes ==\n=== Current paternal evidence ===\nThe father relationship to [[Glasgow-2603]] is assessed at 94% (confident). Isabella Glasgow's baptism on 18 May 1834 at Manchester Cathedral is indexed (two copies of one entry) to Robert Glasgow and Mary, and Robert [[Glasgow-2603]]'s will in the 1876-77 Wellington probate file names his daughter Isabella Lowes. The baptism fits her 1834 birth, raising the father link from 83% to 94% proved.\n\nBaptism index transcript only; register uninspected. The 1841 arrival claim's conflict with the 1842 sailing is unaffected. No mother change follows.\n<ref>[https://familysearch.org/ark:/61903/1:1:Q24J-JBZB \"New Zealand, Civil Records Indexes, 1800-1966,\" database, FamilySearch (https://familysearch.org/ark:/61903/1:1:Q24J-JBZB : 4 October 2016), Donald Cameron and Isabella Glasgow, 1853; citing Marriage, New Zealand, registration number 1853/994, Archives of New Zealand, Wellington.].</ref><ref>[https://www.ancestry.co.uk/search/collections/9841/records/51256545 England, Select Births and Christenings, 1538-1975 — Isabella Glasgow, 18 May 1834, Cathedral,Manchester,Lancashire,England].</ref><ref>[https://www.ancestry.co.uk/search/collections/9841/records/130979184 England, Select Births and Christenings, 1538-1975 — Isabella Glasgow, 18 May 1834, Collegiate, Manchester, Lancaster, England].</ref><ref>[https://www.bdmhistoricalrecords.dia.govt.nz/search/search?path=%2FqueryEntry.m%3Ftype%3Dmarriages NZ marriage registration 1866/6424 (https://www.bdmhistoricalrecords.dia.govt.nz/search/search?path=%2FqueryEntry.m%3Ftype%3Dmarriages) married Mary Stewart].</ref>\n\nThe dated reviews below describe earlier stages of this research.\n\n\n=== Earlier father review, 22 October 2026 ===\n\nIn this earlier review, the father [[Glasgow-2603]] is assessed at 83% (probable). The held account assigns Isabella (Glasgow) Lowes to Robert Glasgow and Mary Lamb in the Bombay/Turakina family. Isabella’s detailed later life and Bombay grouping support the family account; the 1841 arrival claim conflicts with the 1842 sailing category.\n\nConfidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate.\n\nEarlier proposed test: Inspect the 1842 Bombay passenger family list and the child’s NZ death certificate parent fields.\n\nSource basis already held: [https://familysearch.org/ark:/61903/1:1:Q24J-JBZB \"New Zealand, Civil Records Indexes, 1800-1966,\" database, FamilySearch (https://familysearch.org/ark:/61903/1:1:Q24J-JBZB : 4 October 2016), Donald Cameron and Isabella Glasgow, 1853; citing Marriage, New Zealand, registration number 1853/994, Archives of New Zealand, Wellington.]. No new father attached; cited evidence and any inspected register entry are scoped above.\n\n== Sources ==\n<references />\n\n* Find a Grave, database and images (https://www.findagrave.com/memorial/182692403/isabella-lowes: accessed January 6, 2025), memorial page for Isabella Glasgow Lowes (1834–4 Jul 1920), {{FindAGrave|182692403}}, citing Archer Street Cemetery, Masterton, Masterton District, Wellington, New Zealand; Maintained by S. Melton (contributor 48360335).\n\n* NZBDM -  https://www.bdmhistoricalrecords.dia.govt.nz/\n** marriage registration 1853/994 married Duncan Cameron\n** marriage registration 1868/7268 married William Lowes\n** Death registration 1920/3195\n\n*https://www.geni.com/people/Isabella-Cameron-Lowes/6000000065550257932"
     },
     "Glasgow-2691": {
       "profile_id": "Glasgow-2691",
@@ -32991,9 +33015,9 @@
       "pending": true,
       "queued_at": "2026-10-22",
       "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-2691/father-confidence-2026-10-22i.wiki",
+      "draft_path": "research/Glasgow-2691/father-summary-reconciled-2026-11-12.wiki",
       "findings_path": "research/Glasgow-2691/findings.md",
-      "summary": "Review existing father at 79% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Review existing father at 84% (probable), retaining source and identity limits; no new father attachment.",
       "work_queue_summary": "Review existing father at 79% (probable), retaining source and identity limits; no new father attachment.",
       "relationship_changes": [
         {
@@ -33003,7 +33027,7 @@
           "status": "probable",
           "previous_status": "unmarked",
           "previous_probability_percent": null,
-          "probability_percent": 79,
+          "probability_percent": 84,
           "assertion_id": "C-coverage-20261022i-glasgow-2691-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
           "scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate."
@@ -33014,7 +33038,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation9-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-summary-preservation-2026-11-12.json",
+      "draft_wikitext": "<!-- REVIEWED FULL REPLACEMENT: additive father review ninth batch 2026-10-22 -->\n{{Estimated Date}}\n[[Category:Glasgow Name Study]]\n\n[[Category: Bombay, sailed 1 August 1842]]\n== Biography ==\nElizabeth was born about 1834. She was the daughter of [[Glasgow-2603|Robert Glasgow]] and [[Lamb-11245|Mary Lamb]]. She passed away in 1894.\n== Research Notes ==\n=== Current paternal evidence ===\nThe father relationship to [[Glasgow-2603]] is assessed at 84% (probable). An Elizabeth Glasgow was baptised at Manchester Cathedral on 10 July 1842 to Robert Glasgow and Mary, three weeks before the family sailed on the Bombay (1 August 1842). Elizabeth (Glasgow) Hurst is placed in that family by the held account, so the baptism supports her father link modestly, from 79% to 84% probable.\n\nHer birth about 1834 (from later records) fits a late pre-emigration baptism but not a birth in 1842; the baptism index gives no birth date, so it could instead belong to a younger child. Robert's will does not name an Elizabeth. Index transcripts only. No mother change follows.\n<ref>[https://www.bdmhistoricalrecords.dia.govt.nz/search/search?path=%2FqueryEntry.m%3Ftype%3Dmarriages NZ marriage registration 1860/2685 (https://www.bdmhistoricalrecords.dia.govt.nz/search/search?path=%2FqueryEntry.m%3Ftype%3Dmarriages)].</ref><ref>[https://www.ancestry.co.uk/search/collections/9841/records/22695024 England, Select Births and Christenings, 1538-1975 — Elizabeth Glasgow, 10 Jul 1842, Manchester, Lancashire, England].</ref><ref>[https://www.ancestry.co.uk/search/collections/9841/records/135748115 England, Select Births and Christenings, 1538-1975 — Elizabeth Glasgow, 10 Jul 1842, Cathedral,Manchester,Lancashire,England].</ref>\n\nThe dated reviews below describe earlier stages of this research.\n\n\n=== Earlier father review, 22 October 2026 ===\n\nIn this earlier review, the father [[Glasgow-2603]] is assessed at 79% (probable). The held account assigns Elizabeth (Glasgow) Hurst to Robert Glasgow and Mary Lamb in the Bombay/Turakina family. Elizabeth’s approximate 1834 birth fits the reported sibling group, but the 1894 death index supplies no held parent clause.\n\nConfidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate.\n\nEarlier proposed test: Inspect the 1842 Bombay passenger family list and the child’s NZ death certificate parent fields.\n\nSource basis already held: [https://www.bdmhistoricalrecords.dia.govt.nz/search/search?path=%2FqueryEntry.m%3Ftype%3Dmarriages NZ marriage registration 1860/2685 (https://www.bdmhistoricalrecords.dia.govt.nz/search/search?path=%2FqueryEntry.m%3Ftype%3Dmarriages)]. No new father attached; cited evidence and any inspected register entry are scoped above.\n\n== Sources ==\n<references />\n* [https://www.bdmhistoricalrecords.dia.govt.nz/search/search?path=%2FqueryEntry.m%3Ftype%3Dmarriages NZ marriage registration 1860/2685]\n*[https://www.bdmhistoricalrecords.dia.govt.nz/search/search?path=%2FqueryEntry.m%3Ftype%3Ddeaths  NZ death registration 1894/1562]\n\n*https://www.geni.com/people/Elizabeth-Hurst/6000000006183198209"
     },
     "Glasgow-3030": {
       "profile_id": "Glasgow-3030",
@@ -33852,19 +33877,19 @@
       "pending": true,
       "queued_at": "2026-10-22",
       "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-3546/father-confidence-2026-10-22i.wiki",
+      "draft_path": "research/Glasgow-3546/father-summary-reconciled-2026-11-12.wiki",
       "findings_path": "research/Glasgow-3546/findings.md",
-      "summary": "Review existing father at 66% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Review existing father at 90% (confident), retaining source and identity limits; no new father attachment.",
       "work_queue_summary": "Review existing father at 66% (probable), retaining source and identity limits; no new father attachment.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-3543",
-          "status": "probable",
+          "status": "proved",
           "previous_status": "unmarked",
           "previous_probability_percent": null,
-          "probability_percent": 66,
+          "probability_percent": 90,
           "assertion_id": "C-coverage-20261022i-glasgow-3546-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
           "scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate."
@@ -33875,7 +33900,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation9-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-summary-preservation-2026-11-12.json",
+      "draft_wikitext": "<!-- REVIEWED FULL REPLACEMENT: additive father review ninth batch 2026-10-22 -->\n[[Category:Glasgow Name Study]]\n\n== Biography ==\nWilliam was born in 1836. He was the son of [[Glasgow-3543|David Glasgow]] and [[Glasgow-3544|Agnes Glasgow]]. He passed away in 1870.\n== Research Notes ==\n=== Current paternal evidence ===\nThe father relationship to [[Glasgow-3543]] is assessed at 90% (confident). William Robert Glasgow's baptism on 14 December 1835 at Manchester Cathedral is indexed (two copies of one entry) to David Glasgow and Agnes, the couple of David [[Glasgow-3543]] and Agnes [[Glasgow-3544]], who married at Manchester in 1833 and baptised Isabella (1837), Agnes (1839) and David Alfred (1841) there. His exact double forename, 1836 birth estimate and Manchester life fit, and only one David and Agnes Glasgow couple appears in Manchester. The father link rises from 66% to 90% proved.\n\nIndex transcript only; the cathedral register is uninspected and his 1870 Chorlton death is not transcribed for parents. No mother change follows.\n<ref>[https://www.familysearch.org/en/tree/person/sources/MSWL-F9Q https://www.familysearch.org/en/tree/person/sources/MSWL-F9Q].</ref><ref>[https://www.ancestry.co.uk/search/collections/9841/records/125222894 England, Select Births and Christenings, 1538-1975 — William Robert Glasgow, 14 Dec 1835, Cathedral,Manchester,Lancashire,England].</ref><ref>[https://www.ancestry.co.uk/search/collections/9841/records/133649380 England, Select Births and Christenings, 1538-1975 — William Robert Glasgow, 14 Dec 1835, Manchester, Lancashire, England].</ref>\n\nThe dated reviews below describe earlier stages of this research.\n\n\n=== Earlier father review, 22 October 2026 ===\n\nIn this earlier review, the father [[Glasgow-3543]] is assessed at 66% (probable). William Robert’s account assigns David and Agnes and gives a compatible 1836 birth in the Manchester sibling family. The sole held source is a FamilySearch contributed source list, without a parent quotation or household linking him to this David.\n\nConfidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate.\n\nEarlier proposed test: Inspect William’s baptism and 1870 death or marriage for father occupation/residence.\n\nSource basis already held: [https://www.familysearch.org/en/tree/person/sources/MSWL-F9Q https://www.familysearch.org/en/tree/person/sources/MSWL-F9Q]. No new father attached; cited evidence and any inspected register entry are scoped above.\n\n== Sources ==\n<references />\n* [https://www.familysearch.org/en/tree/person/sources/MSWL-F9Q Archived or supplementary source]"
     },
     "Glasco-165": {
       "profile_id": "Glasco-165",
@@ -34128,19 +34154,19 @@
       "pending": true,
       "queued_at": "2026-10-22",
       "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-2607/father-confidence-2026-10-22i.wiki",
+      "draft_path": "research/Glasgow-2607/father-summary-reconciled-2026-11-12.wiki",
       "findings_path": "research/Glasgow-2607/findings.md",
-      "summary": "Review existing father at 82% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Review existing father at 94% (confident), retaining source and identity limits; no new father attachment.",
       "work_queue_summary": "Review existing father at 82% (probable), retaining source and identity limits; no new father attachment.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-2603",
-          "status": "probable",
+          "status": "proved",
           "previous_status": "unmarked",
           "previous_probability_percent": null,
-          "probability_percent": 82,
+          "probability_percent": 94,
           "assertion_id": "C-coverage-20261022i-glasgow-2607-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
           "scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate."
@@ -34151,7 +34177,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation9-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-summary-preservation-2026-11-12.json",
+      "draft_wikitext": "<!-- REVIEWED FULL REPLACEMENT: additive father review ninth batch 2026-10-22 -->\n{{Estimated Date}}\n[[Category:Glasgow Name Study]]\n\n[[Category:Turakina Cemetery, Turakina, Manawatū-Whanganui]]\n[[Category: Bombay, sailed 1 August 1842]]\n== Biography ==\nMary was born about 1837. She was the daughter of [[Glasgow-2603|Robert Glasgow]] and [[Lamb-11245|Mary Lamb]]. She passed away in 1920.\n== Research Notes ==\n=== Current paternal evidence ===\nThe father relationship to [[Glasgow-2603]] is assessed at 94% (confident). Mary Maria Glasgow's baptism on 31 August 1836 at Manchester is indexed to Robert Glasgow and Mary Glasgow, and Robert [[Glasgow-2603]]'s will in the 1876-77 Wellington probate file names his daughter Mary Knox. A parent-naming baptism with her distinctive double forename and a will naming her by married name raise the father link from 82% to 94% proved.\n\nBaptism index transcript only; register uninspected. The will names her as Mary Knox, identified with Mary Maria by the Turakina family account. No mother change follows.\n<ref>[https://www.bdmhistoricalrecords.dia.govt.nz/search/search?path=%2FqueryEntry.m%3Ftype%3Dmarriages NZ marriage registration 1859/2668 (https://www.bdmhistoricalrecords.dia.govt.nz/search/search?path=%2FqueryEntry.m%3Ftype%3Dmarriages)].</ref><ref>[https://www.ancestry.co.uk/search/collections/9841/records/34597737 England, Select Births and Christenings, 1538-1975 — Mary Maria Glasgow, 31 Aug 1836, Manchester, Lancashire, England].</ref><ref>[https://www.bdmhistoricalrecords.dia.govt.nz/search/search?path=%2FqueryEntry.m%3Ftype%3Dmarriages NZ marriage registration 1866/6424 (https://www.bdmhistoricalrecords.dia.govt.nz/search/search?path=%2FqueryEntry.m%3Ftype%3Dmarriages) married Mary Stewart].</ref>\n\nThe dated reviews below describe earlier stages of this research.\n\n\n=== Earlier father review, 22 October 2026 ===\n\nIn this earlier review, the father [[Glasgow-2603]] is assessed at 82% (probable). The held account assigns Mary Maria (Glasgow) Knox to Robert Glasgow and Mary Lamb in the Bombay/Turakina family. Mary Maria’s 1837 Manchester birth and Turakina family placement fit, without a held direct parent field.\n\nConfidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate.\n\nEarlier proposed test: Inspect the 1842 Bombay passenger family list and the child’s NZ death certificate parent fields.\n\nSource basis already held: [https://www.bdmhistoricalrecords.dia.govt.nz/search/search?path=%2FqueryEntry.m%3Ftype%3Dmarriages NZ marriage registration 1859/2668 (https://www.bdmhistoricalrecords.dia.govt.nz/search/search?path=%2FqueryEntry.m%3Ftype%3Dmarriages)]. No new father attached; cited evidence and any inspected register entry are scoped above.\n\n== Sources ==\n<references />\n* [https://www.bdmhistoricalrecords.dia.govt.nz/search/search?path=%2FqueryEntry.m%3Ftype%3Dmarriages NZ marriage registration 1859/2668]\n*[https://www.bdmhistoricalrecords.dia.govt.nz/search/search?path=%2FqueryEntry.m%3Ftype%3Ddeaths  NZ death registration 1920/10746]\n\n* {{FindAGrave|188205047}}\n\n*https://www.geni.com/people/Mary-Knox/6000000028089526250"
     },
     "Glasgow-3464": {
       "profile_id": "Glasgow-3464",
@@ -34530,9 +34557,9 @@
       "pending": true,
       "queued_at": "2026-10-22",
       "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-3502/father-confidence-2026-10-22i.wiki",
+      "draft_path": "research/Glasgow-3502/father-summary-reconciled-2026-11-12.wiki",
       "findings_path": "research/Glasgow-3502/findings.md",
-      "summary": "Review existing father at 75% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Review existing father at 84% (probable), retaining source and identity limits; no new father attachment.",
       "work_queue_summary": "Review existing father at 75% (probable), retaining source and identity limits; no new father attachment.",
       "relationship_changes": [
         {
@@ -34542,7 +34569,7 @@
           "status": "probable",
           "previous_status": "unmarked",
           "previous_probability_percent": null,
-          "probability_percent": 75,
+          "probability_percent": 84,
           "assertion_id": "C-coverage-20261022i-glasgow-3502-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
           "scope": "Held citation and family narrative address this specific father-child link; no original was newly inspected."
@@ -34553,7 +34580,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation9-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-summary-preservation-2026-11-12.json",
+      "draft_wikitext": "<!-- REVIEWED FULL REPLACEMENT: additive father review ninth batch 2026-10-22 -->\n[[Category:Glasgow Name Study]]\n\n== Biography ==\nEdward was born in 1838. He is the son of [[Glasgow-2074|Edward Glasgow]].\n\nSlaveowner in 1860<ref>\"United States, Census (Slave Schedule), 1860\", FamilySearch (https://www.familysearch.org/ark:/61903/1:1:WK5L-2KZM : Thu Jul 18 11:10:48 UTC 2024), Entry for E W Glasgow and , 1860.\n</ref>\n== Research Notes ==\n=== Current paternal evidence ===\nThe father relationship to [[Glasgow-2074]] is assessed at 84% (probable). Edward William's 1838 North Carolina birth fits the male child under five in Edward [[Glasgow-2074]]'s 1840 household, and his 1860 entry with Nancy is compatible with the reconstructed family. The Belfast News-Letter, an Ulster paper, carried a death notice for Edward William Glasgow of Jamesville, North Carolina (5 October 1870) whose index lists one relative, Edward; the same paper had noticed the death of Dr Edward Glasgow of Hamilton, North Carolina, on 8 April 1860. A Belfast notice for a young North Carolina man naming an Edward fits a son of the Cookstown-born doctor whose Irish kin followed the family. The father link rises from 75% to 84% probable.\n\nBelfast News-Letter index rows only: the notice text and image are uninspected, and the index does not state how Edward is related (father is the usual reading but is not quoted). The 1840 household and 1860 entry do not name his father, and slave ownership is not used as kinship evidence. No mother change follows.\n<ref>[https://www.familysearch.org/ark:/61903/1:1:MD64-TTG \"United States, Census, 1860\", FamilySearch (https://www.familysearch.org/ark:/61903/1:1:MD64-TTG : Sun Jan 19 09:09:32 UTC 2025), Entry for E W Glasgo and Nancy Glasgo, 1860.].</ref><ref>[https://www.ancestry.co.uk/search/collections/2193/records/1149319 Belfast, Northern Ireland, The Belfast Newsletter (Birth, Marriage and Death Notices), 1738-1925 — Edward William Glasgow, Jamesville,North Carolina, USA].</ref><ref>[https://www.ancestry.co.uk/search/collections/2193/records/1162440 Belfast, Northern Ireland, The Belfast Newsletter (Birth, Marriage and Death Notices), 1738-1925 — Dr Edward Glasgow, Hamilton, North Carolina].</ref>\n\nThe dated reviews below describe earlier stages of this research.\n\n\n=== Earlier father review, 22 October 2026 ===\n\nIn this earlier review, the father [[Glasgow-2074]] is assessed at 75% (probable). Edward William’s 1838 North Carolina birth fits the male child under five in Edward’s 1840 household, and his 1860 entry with Nancy is compatible with the reconstructed family. The later household and slave schedule do not themselves name his father, so ownership is not used as kinship evidence.\n\nHeld citation and family narrative address this specific father-child link; no original was newly inspected.\n\nEarlier proposed test: Read Edward senior’s probate or Edward William’s death parents.\n\nSource basis already held: [https://www.familysearch.org/ark:/61903/1:1:MD64-TTG \"United States, Census, 1860\", FamilySearch (https://www.familysearch.org/ark:/61903/1:1:MD64-TTG : Sun Jan 19 09:09:32 UTC 2025), Entry for E W Glasgo and Nancy Glasgo, 1860.]. No new father attached; cited evidence and any inspected register entry are scoped above.\n\n== Sources ==\n<references />\n* \"United States, Census, 1860\", FamilySearch (https://www.familysearch.org/ark:/61903/1:1:MD64-TTG : Sun Jan 19 09:09:32 UTC 2025), Entry for E W Glasgo and Nancy Glasgo, 1860."
     },
     "Glasgow-2098": {
       "profile_id": "Glasgow-2098",
@@ -35031,19 +35059,19 @@
       "pending": true,
       "queued_at": "2026-10-22",
       "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-2608/father-confidence-2026-10-22i.wiki",
+      "draft_path": "research/Glasgow-2608/father-summary-reconciled-2026-11-12.wiki",
       "findings_path": "research/Glasgow-2608/findings.md",
-      "summary": "Review existing father at 76% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Review existing father at 93% (confident), retaining source and identity limits; no new father attachment.",
       "work_queue_summary": "Review existing father at 76% (probable), retaining source and identity limits; no new father attachment.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-2603",
-          "status": "probable",
+          "status": "proved",
           "previous_status": "unmarked",
           "previous_probability_percent": null,
-          "probability_percent": 76,
+          "probability_percent": 93,
           "assertion_id": "C-coverage-20261022i-glasgow-2608-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
           "scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate."
@@ -35054,7 +35082,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation9-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-summary-preservation-2026-11-12.json",
+      "draft_wikitext": "<!-- REVIEWED FULL REPLACEMENT: additive father review ninth batch 2026-10-22 -->\n{{Estimated Date}}\n[[Category:Glasgow Name Study]]\n\n[[Category:Turakina Cemetery, Turakina, Manawatū-Whanganui]]\n[[Category: Bombay, sailed 1 August 1842]]\n== Biography ==\nAnn was born about 1839. She was the daughter of [[Glasgow-2603|Robert Glasgow]] and [[Lamb-11245|Mary Lamb]]. She passed away in 1904.\n== Research Notes ==\n=== Current paternal evidence ===\nThe father relationship to [[Glasgow-2603]] is assessed at 93% (confident). Ann Glasgow's baptism on 18 December 1839 at Manchester Cathedral is indexed (two copies of one entry) to Robert Glasgow and Mary, and Robert [[Glasgow-2603]]'s will in the 1876-77 Wellington probate file names his daughter Ann Hogg. The baptism fits her 1839 Lancashire birth, raising the father link from 76% to 93% proved.\n\nBaptism index transcript only; register uninspected. Her cited 1920 death number duplicating Mary Knox's remains an unrelated citation error against her 1904 death. No mother change follows.\n<ref>[https://www.bdmhistoricalrecords.dia.govt.nz/search/search?path=%2FqueryEntry.m%3Ftype%3Dmarriages NZ marriage registration 1859/2665 (https://www.bdmhistoricalrecords.dia.govt.nz/search/search?path=%2FqueryEntry.m%3Ftype%3Dmarriages)].</ref><ref>[https://www.ancestry.co.uk/search/collections/9841/records/189039485 England, Select Births and Christenings, 1538-1975 — Ann Glasgow, 18 Dec 1839, Cathedral,Manchester,Lancashire,England].</ref><ref>[https://www.ancestry.co.uk/search/collections/9841/records/101712439 England, Select Births and Christenings, 1538-1975 — Ann Glasgow, 18 Dec 1839, Manchester, Lancaster, England].</ref><ref>[https://www.bdmhistoricalrecords.dia.govt.nz/search/search?path=%2FqueryEntry.m%3Ftype%3Dmarriages NZ marriage registration 1866/6424 (https://www.bdmhistoricalrecords.dia.govt.nz/search/search?path=%2FqueryEntry.m%3Ftype%3Dmarriages) married Mary Stewart].</ref>\n\nThe dated reviews below describe earlier stages of this research.\n\n\n=== Earlier father review, 22 October 2026 ===\n\nIn this earlier review, the father [[Glasgow-2603]] is assessed at 76% (probable). The held account assigns Ann (Glasgow) Hogg to Robert Glasgow and Mary Lamb in the Bombay/Turakina family. Ann’s 1839 Lancashire birth fits, but her cited 1920/10746 death number duplicates Mary Knox’s and contradicts her 1904 death.\n\nConfidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate.\n\nEarlier proposed test: Inspect the 1842 Bombay passenger family list and the child’s NZ death certificate parent fields.\n\nSource basis already held: [https://www.bdmhistoricalrecords.dia.govt.nz/search/search?path=%2FqueryEntry.m%3Ftype%3Dmarriages NZ marriage registration 1859/2665 (https://www.bdmhistoricalrecords.dia.govt.nz/search/search?path=%2FqueryEntry.m%3Ftype%3Dmarriages)]. No new father attached; cited evidence and any inspected register entry are scoped above.\n\n== Sources ==\n<references />\n* [https://www.bdmhistoricalrecords.dia.govt.nz/search/search?path=%2FqueryEntry.m%3Ftype%3Dmarriages NZ marriage registration 1859/2665]\n*[https://www.bdmhistoricalrecords.dia.govt.nz/search/search?path=%2FqueryEntry.m%3Ftype%3Ddeaths  NZ death registration 1920/10746]\n\n* {{FindAGrave|179045126}}\n\n*https://www.geni.com/people/Annie-Hogg/6000000006182743143"
     },
     "Glasgow-2722": {
       "profile_id": "Glasgow-2722",

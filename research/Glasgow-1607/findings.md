@@ -2,6 +2,23 @@
 
 ## Current conclusion
 
+
+Current unselected father-hypothesis assessment (completed 2026-11-05): **35% (possible)** for [Glasgow-1238](https://www.wikitree.com/wiki/Glasgow-1238).
+
+The Ancestry Scotland, Select Births and Baptisms index entry for Margaret Glasgow, 8 Jun 1740 at Edrom (https://www.ancestry.co.uk/search/collections/60143/records/7380276), names father James Glasgow. The named couple is the catalogue couple: James Glasgow and Elizabath Tait are recorded as spouses, so the entry places the child in the household already attached. The same parents recur in the parish index: John 25 Jul 1738 (https://www.ancestry.co.uk/search/collections/60143/records/10512485), William 4 Aug 1765 (https://www.ancestry.co.uk/search/collections/60143/records/22056487). The existing 35% (possible, assessed 2026-11-01) is kept: this entry confirms the indexed parent field but does not remove the limitation recorded with it. Earlier reasoning retained: Margaret's baptism at Edrom, Berwickshire, 8 Jun 1740, names only father James Glasgow, and the same Edrom register has John christened 25 Jul 1738 to a James, who is already given to a separate Edrom father, Glasgow-4177. Her baptism falls 4.5 months after the Stitchel James and Tait marriage, in another county, and is missing from the Stitchel series, so the same-parish James-4177 is the stronger candidate.
+
+This is an unselected alternative, not the tree’s selected father.
+
+**Limits:** The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcript only; original register uninspected. The entry gives no age, occupation or residence for the parents. Earlier limitation retained: FamilySearch index only; images not viewed; the father attachment is left unchanged pending owner review of re-pointing to Glasgow-4177. Now an unselected alternative: the working father is the Edrom James, Glasgow-4177.
+
+Sources: [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Margaret Glasgow, 1740, record SCOT/OPR/BAP/4839749](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4839749&tab=this); [“Scotland Marriages, 1561–1910,” database,
+FamilySearch,
+James Glasgow and Elizabath
+Tait (https://familysearch.org/ark:/61903/1:1:XYQ1-SPB), 25 January 1740, Stitchel, Roxburghshire.](https://familysearch.org/ark:/61903/1:1:XYQ1-SPB); [Scotland, Select Births and Baptisms, 1564-1950 — Margaret Glasgow, 8 Jun 1740, Edrom, Berwick, Scotland](https://www.ancestry.co.uk/search/collections/60143/records/7380276); [Scotland, Select Births and Baptisms, 1564-1950 — John Glasgow, 25 Jul 1738, Edrom, Berwick, Scotland](https://www.ancestry.co.uk/search/collections/60143/records/10512485); [Scotland, Select Births and Baptisms, 1564-1950 — William Glasgow, 4 Aug 1765, Swinton and Simprin, Berwick, Scotland](https://www.ancestry.co.uk/search/collections/60143/records/22056487).
+
+This summary reflects the existing workbench assessment; reconciliation on 12 November 2026 adds no relationship or confidence event.
+
+## Earlier research summary — historical
 Current father assessment (1 November 2026): **65% (probable)** for [Glasgow-4177](https://www.wikitree.com/wiki/Glasgow-4177), the Edrom James Glasgow who had John christened there in 1738. The former father, [Glasgow-1238](https://www.wikitree.com/wiki/Glasgow-1238), is kept as a possible alternative at 35%. See the reviews below.
 
 The 1740 Edrom birth entry is a high-confidence match to Glasgow-1607. It adds

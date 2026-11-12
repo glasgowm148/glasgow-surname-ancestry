@@ -2,6 +2,18 @@
 
 ## Current conclusion
 
+
+Current father assessment (completed 2026-10-30): **95% (confident)** for [Glascow-14](https://www.wikitree.com/wiki/Glascow-14).
+
+The original 1851 Weakley deed calls its grantors the heirs of deceased Isaac Glasgow and conveys land originally surveyed in his name. Jesse is named in both the opening and acknowledgment. His common given name is identified through the dense matching family group, not the name alone. Numerous other heirs match Isaac’s existing family, including Elijah, William C., Wagstaff K., John G., Joseph D. and Jesse Glasgow, with the Adams couple. This supports confident fatherhood by the combined specific family group, rather than a generic same-name or age match.
+
+**Limits:** The record directly states heirship, not a literal child clause. Husbands are among the grantors and are not treated as biological children. This is a profile-specific confident inference; full middle names, vital dates, mothers and upstream ancestry are not proved by the deed. Jesse is named in both the opening and acknowledgment. His common given name is identified through the dense matching family group, not the name alone.
+
+Sources: [Weakley County Register of Deeds, pp. 410–411, DGS 008151469, image 213](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKJ-RS12-5).
+
+This summary reflects the existing workbench assessment; reconciliation on 12 November 2026 adds no relationship or confidence event.
+
+## Earlier research summary — historical
 Reviewed 30 October 2026: the existing Isaac father is now **95% confident inference**, superseding the earlier 65% grade below. Other relationships and vital fields remain unchanged.
 
 Current father assessment (22 October 2026): **65% (probable)** for [Glascow-14](https://www.wikitree.com/wiki/Glascow-14). Selected father-profile identity and paternal relationship; maternal identity is separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.

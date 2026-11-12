@@ -2,6 +2,18 @@
 
 ## Current conclusion
 
+
+Current father assessment (completed 2026-11-05): **62% (probable)** for [Glasgow-1218](https://www.wikitree.com/wiki/Glasgow-1218).
+
+The Ancestry Scotland, Select Births and Baptisms index entry for William (Glasgow) Glass, 11 May 1786 at Kelso (https://www.ancestry.co.uk/search/collections/60143/records/26315521), reads the parent fields that the previous review could not see: father David and mother Janet (forenames only). William's recorded birth date, 11 May 1786 at Kelso, is this entry, so the baptised child is now shown in the David Glasgow and Janet Hood household (David-1218). The remaining doubt is whether the adult William Glass is this child, which rests on Kelso local history. Confidence rises from 54% to 62% probable.
+
+**Limits:** The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index already cited, so they verify the indexed parent fields rather than adding an independent source; the original register is uninspected. The index row gives the mother's forename only. No record yet links the adult surname Glass to this William Glasgow; the father's published account calls the identification possible. No mother change follows.
+
+Sources: [http://www.kelsoconnections.co.uk/storyboards/pdfs/20_FromKelso.pdf](http://www.kelsoconnections.co.uk/storyboards/pdfs/20_FromKelso.pdf); [Scotland, Select Births and Baptisms, 1564-1950 — William Glasgow, 11 May 1786, Kelso, Roxburgh, Scotland](https://www.ancestry.co.uk/search/collections/60143/records/26315521).
+
+This summary reflects the existing workbench assessment; reconciliation on 12 November 2026 adds no relationship or confidence event.
+
+## Earlier research summary — historical
 Current father assessment (22 October 2026): **54% (possible)** for [Glasgow-1218](https://www.wikitree.com/wiki/Glasgow-1218). Complete selected father-profile proposition; recorded role and adult identification distinguished below. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 Kelso local history links William Glass to David/Janet’s family; compatible 1786 generation and regional sibling context support it, but father’s published account expressly calls identification possible. Complete selected father-profile proposition; recorded role and adult identification distinguished below.

@@ -2,6 +2,18 @@
 
 ## Current conclusion
 
+
+Current father assessment (completed 2026-11-05): **82% (probable)** for [Glasgow-81](https://www.wikitree.com/wiki/Glasgow-81).
+
+The Ancestry Scotland, Select Births and Baptisms index entry for Magdalen Glasgow, 29 January 1749 at West Calder (https://www.ancestry.co.uk/search/collections/60143/records/21216254), reads the parent fields that the previous review could not see: father John and mother Magdalen (forenames only). This is the John Glasgow and Magdalene Guthrie household of West Calder already attached as John Glasgow-81; with the parent clause now read, the child-to-household link is no longer an inherited placement. Confidence rises to 82%.
+
+**Limits:** The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index already cited, so they verify the indexed parent fields rather than adding an independent source; the original register is uninspected. The index row gives the mother's forename only. John-81's own identification with the Kirknewton child of about 1709 and his father link (Andrew-1546) are separate and unchanged. No mother change follows.
+
+Sources: [https://www.familysearch.org/ark:/61903/1:1:VQ4T-CPD](https://www.familysearch.org/ark:/61903/1:1:VQ4T-CPD); [Scotland, Select Births and Baptisms, 1564-1950 — Magdalen Glasgow, 29 Jan 1749, West Calder, Midlothian, Scotland](https://www.ancestry.co.uk/search/collections/60143/records/21216254).
+
+This summary reflects the existing workbench assessment; reconciliation on 12 November 2026 adds no relationship or confidence event.
+
+## Earlier research summary — historical
 Current father assessment (22 October 2026): **64% (probable)** for [Glasgow-81](https://www.wikitree.com/wiki/Glasgow-81). Complete selected father-profile proposition; recorded role and adult identification distinguished below. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 Magdalen’s 1749 West Calder citation and maternal namesake fit John/Magdalene Guthrie’s ordered family. This was the earlier contextual basis, not a literal reading of the then-held entry; later derivative indexes directly name the recorded parents but do not settle their adult-profile identities. Complete selected father-profile proposition; recorded role and adult identification distinguished below.

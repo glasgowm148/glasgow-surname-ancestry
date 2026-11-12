@@ -2,6 +2,18 @@
 
 ## Current conclusion
 
+
+Current father assessment (completed 2026-10-24): **96% (confident)** for [Glasgow-1549](https://www.wikitree.com/wiki/Glasgow-1549).
+
+The original 1825 will explicitly names Matthew among John’s children and gives him a $200 legacy. The existing Matthew account has the same family placement and a compatible circa-1787 Antis generation. The father identification is now supported by an original parent statement rather than a census slot or contributed child list; the will does not verify Matthew’s exact birth or later death.
+
+**Limits:** The exact percentage assesses the complete father–child identification and is subjective. The original establishes the named family roles; identification of later adults, precise vital dates, maternal parentage and earlier Scottish ancestry require their own evidence. No live WikiTree save or vital-field change is made.
+
+Sources: [WikiTree profile export for Glasgow-1549](https://www.wikitree.com/wiki/Glasgow-1549); [Huntingdon County, Pennsylvania, Wills 1822–1847, volumes 3–4, register pp. 139–140; John Glasgow of Antis Township, will 21 January 1825, proved 12 March 1825; FamilySearch, Pennsylvania Probate Records, image 103 of 607. Original full page and both page details inspected 24 October 2026.](https://familysearch.org/ark:/61903/3:1:3QS7-L99B-T8NH?cc=1999196&wc=9PM6-7MN%3A268496101%2C268530601).
+
+This summary reflects the existing workbench assessment; reconciliation on 12 November 2026 adds no relationship or confidence event.
+
+## Earlier research summary — historical
 **Original will review — 24 October 2026:** The original 1825 will explicitly names Matthew among John’s children and gives him a $200 legacy. The existing Matthew account has the same family placement and a compatible circa-1787 Antis generation. The father identification is now supported by an original parent statement rather than a census slot or contributed child list; the will does not verify Matthew’s exact birth or later death. The original will names wife Margaret, sons Richard, William, John, Samuel, Matthew, James and Taylor, and daughters Hannah and Jane. James and Taylor receive the 322-acre, 72-perch home tract jointly, subject to Margaret’s support and the legacies, and are appointed executors. The register records probate and the grant to both executors on 12 March 1825. The will names no mother for the children, no Hunter maiden surname, and no Scottish father for its testator. The widow Margaret is not automatically each child’s mother. The exact percentage assesses the complete father–child identification and is subjective. The original establishes the named family roles; identification of later adults, precise vital dates, maternal parentage and earlier Scottish ancestry require their own evidence. No live WikiTree save or vital-field change is made.
 
 ### Earlier assessment, superseded where stated above

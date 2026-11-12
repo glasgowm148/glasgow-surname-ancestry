@@ -2,6 +2,18 @@
 
 ## Current conclusion
 
+
+Current father assessment (completed 2026-11-05): **81% (probable)** for [Glasgow-1336](https://www.wikitree.com/wiki/Glasgow-1336).
+
+The Ancestry Scotland, Select Births and Baptisms index entry for Jean Glasgow, 12 July 1743 at Kirknewton and East Calder (https://www.ancestry.co.uk/search/collections/60143/records/2171160), reads the parent fields that the previous review could not see: father Andrew and mother Isobel (forenames only). It belongs to the Andrew Glasgow and Isobel Clerk family of Kirknewton attached as Andrew Glasgow-1336, so the child's link to that household is now read from the index rather than inherited. Confidence rises to 81%.
+
+**Limits:** The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index already cited, so they verify the indexed parent fields rather than adding an independent source; the original register is uninspected. The row gives the mother's forename only. The remaining uncertainty is Andrew-1336's identification with the 1714 Kirknewton child, which this record does not address. No mother change follows.
+
+Sources: [https://familysearch.org/ark:/61903/1:1:VQ4K-NB7](https://familysearch.org/ark:/61903/1:1:VQ4K-NB7); [Scotland, Select Births and Baptisms, 1564-1950 — Jean Glasgow, 12 Jul 1743, Kirknewton and East Calder, Midlothian, Scotland](https://www.ancestry.co.uk/search/collections/60143/records/2171160).
+
+This summary reflects the existing workbench assessment; reconciliation on 12 November 2026 adds no relationship or confidence event.
+
+## Earlier research summary — historical
 Reviewed: 2026-10-29. Re-read against the later dated sections below; no change to this conclusion.
 
 Current father assessment (22 October 2026): **77% (probable)** for [Glasgow-1336](https://www.wikitree.com/wiki/Glasgow-1336). Complete selected father-profile proposition; recorded role and adult identification distinguished below. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.

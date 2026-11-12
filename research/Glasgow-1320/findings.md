@@ -2,6 +2,18 @@
 
 ## Current conclusion
 
+
+Current father assessment (completed 2026-11-05): **80% (probable)** for [Glasgow-1336](https://www.wikitree.com/wiki/Glasgow-1336).
+
+The Ancestry Scotland, Select Births and Baptisms index entry for William Glasgow, 6 April 1739 at Kirknewton and East Calder (https://www.ancestry.co.uk/search/collections/60143/records/15925606), reads the parent fields that the previous review could not see: father Andrew and mother Isobell (forenames only). It belongs to the Andrew Glasgow and Isobel Clerk family of Kirknewton attached as Andrew Glasgow-1336, so the child's link to that household is now read from the index rather than inherited. Confidence rises to 80%.
+
+**Limits:** The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index already cited, so they verify the indexed parent fields rather than adding an independent source; the original register is uninspected. The row gives the mother's forename only. The remaining uncertainty is Andrew-1336's identification with the 1714 Kirknewton child, which this record does not address. No mother change follows.
+
+Sources: [https://familysearch.org/ark:/61903/1:1:VQ4K-PYX](https://familysearch.org/ark:/61903/1:1:VQ4K-PYX); [Scotland, Select Births and Baptisms, 1564-1950 — William Glasgow, 6 Apr 1739, Kirknewton and East Calder, Midlothian, Scotland](https://www.ancestry.co.uk/search/collections/60143/records/15925606).
+
+This summary reflects the existing workbench assessment; reconciliation on 12 November 2026 adds no relationship or confidence event.
+
+## Earlier research summary — historical
 Reviewed 4 November 2026: the saved family field points to Andrew Glasgow-1336, while the biography linked Andrew Glasgow-1239. Public UID metadata proves these are distinct profiles. The complete proposal now distinguishes the recorded Andrew/Isobell couple from the retained 76% probable adult identification and preserves the old1239 attribution as a conflicting claim. This is a textual correction, not a new parent attachment.
 
 

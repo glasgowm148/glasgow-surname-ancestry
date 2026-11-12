@@ -2,6 +2,18 @@
 
 ## Current conclusion
 
+
+Current father assessment (completed 2026-11-06): **63% (probable)** for [Glasgow-1321](https://www.wikitree.com/wiki/Glasgow-1321).
+
+The Findmypast Scotland OPR derivative transcript SCOT/OPR/BAP/0738380 (OPR 685_2/10 p347 item 2; record fmp-record-scot-opr-bap-0738380) gives Margaret Glasgow's birth on 9 Apr 1783 and baptism on 12 Apr 1783 at St Cuthberts, Edinburgh, to father Alexander Glasgow, a brewer's servant living at New Grange, and mother Agnes Cunningham. That is the catalogue couple: Alexander Glasgow-1321 and his tree spouse Agnes (Cunningham) Glasgow, whose other children belong to the same 1774-1777 Edinburgh household. The 22 Oct 2026 assessment (59%, possible) rested on the generic OPR citation and said the absent literal fields left material uncertainty; those fields are now read and name exactly this father and mother. A 5 Jul 1847 St Cuthberts marriage index entry (Margaret Glasgow and James Edgar; ancestry-60144-2039929) also gives the bride's father as Alexander Glasgow. The raise is modest, to 63% (probable, the lower edge), because a child's baptism cannot show that this Edinburgh Alexander is the Kirknewton-born Alexander-1321 (born before 1747) or choose between the two Agnes Cunningham profiles (Cunningham-20926 and the draft Cunninghame-96).
+
+**Limits:** Derivative transcript and a marriage index row only; the original register images are uninspected. The father is identified by name, trade and residence, not by age or parentage, and Alexander Glasgow is a common Edinburgh name. The 1847 marriage row names the father but nothing else about him. Mother, upstream ancestry and the Agnes Cunningham identity are assessed separately.
+
+Sources: [Church registers - Old Parish Registers Births and Baptisms](https://www.wikitree.com/wiki/Glasgow-2101); [Scotland, Parish Births & Baptisms 1564-1929 — Margaret Glasgow](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0738380&tab=this); [Scotland, Select Marriages, 1561-1910 — Margaret Glasgow, 5 Jul 1847, Saint Cuthberts, Edinburgh, Midlothian, Scotland](https://www.ancestry.co.uk/search/collections/60144/records/2039929).
+
+This summary reflects the existing workbench assessment; reconciliation on 12 November 2026 adds no relationship or confidence event.
+
+## Earlier research summary — historical
 The 12 April 1783 child event names father Alexander Glasgow and mother Agnes Cunningham. The current father-profile identification with Glasgow-1321 remains 59% possible. The attached mother is Cunningham-20926, while an older draft instead linked Cunninghame-96; both are retained as prior profile claims and neither adult mother identity is proved by this transcript. The public uncertain birth bound “before 1783-04-12” is compatible with the derivative 9 April birth claim.
 
 Current father assessment (22 October 2026): **59% (possible)** for [Glasgow-1321](https://www.wikitree.com/wiki/Glasgow-1321). Complete selected father-profile proposition; recorded role and adult identification distinguished below. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
