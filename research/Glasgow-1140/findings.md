@@ -7,6 +7,8 @@ Last updated: 2026-10-07
 
 ## Current conclusion
 
+**11 November 2026 — verified index and family comparison:** The 1718 Greenock marriage to Margaret Rae is now preferred for the Irvine James-4158 family, 85%, not automatically assigned to this minister. An unsourced Ancestry tree makes the latter attribution; it supplies no independent bridge. The 1766 uncle James is styled shipmaster in Irvine. Neither source proves he was the Castle minister; alternative identities remain open and the minister’s 99% father assessment is unchanged.
+
 Current father assessment (22 October 2026): **99% (proved)** for [Glasgow-1073](https://www.wikitree.com/wiki/Glasgow-1073). Confident for Rev John-1073 as the Castle minister’s father. The stale captured John-child citation and the rejected Crawfurd Irish pedigree do not supersede this combined maintained evidence. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 <!-- site-audit-2026-10-07:overall-conclusion -->
@@ -87,3 +89,9 @@ Next useful test: Use the original OPR and Fasti account if a competing James mi
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: James Glasgow, 17 Mar 1700, record SCOT/OPR/BAP/3585861](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3585861&tab=this); [p. 103 (https://electricscotland.com/bible/fastiecclesiaesc03scot.pdf).](https://electricscotland.com/bible/fastiecclesiaesc03scot.pdf)
+
+## Irvine family records — 11 November 2026
+
+The 1718 Greenock marriage to Margaret Rae is now preferred for the Irvine James-4158 family, 85%, not automatically assigned to this minister. An unsourced Ancestry tree makes the latter attribution; it supplies no independent bridge. The 1766 uncle James is styled shipmaster in Irvine. Neither source proves he was the Castle minister; alternative identities remain open and the minister’s 99% father assessment is unchanged.
+
+[Decennial Indexes, vol.II, 1760–1769, p.15, image97, monthly21](https://www.familysearch.org/library/books/viewer/874324/?offset=0#page=97&viewer=picture&o=info&n=0&q=); [Ancestry60144/1323929, Greenock marriage24July1718](https://www.ancestry.co.uk/search/collections/60144/records/1323929); [Irvine baptism11April1721, SCOT/OPR/BAP/3573667](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3573667&tab=this). The heir-index page was newly inspected; the marriage is a fresh reading of an already held index, not an original register image.

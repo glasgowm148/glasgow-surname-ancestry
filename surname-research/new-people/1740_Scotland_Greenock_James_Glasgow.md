@@ -53,6 +53,15 @@ This is a documentary-person evidence draft on HOLD, not a finding that a new pe
 
 “Irvine” describes the vessel's homeport; “Greenock” is the reporting locality. Neither establishes James's birthplace or residence. “Northcopen” is retained as printed, without an unverified modern-place identification. No parent, spouse or child should be attached from this report.
 
+=== Possible 1766 family record ===
+The printed service-of-heirs index recorded on 9 May 1766 names Isobel Rankine (or Glasgow), wife of John Rankine, wright in Irvine, as heir-portioner-general to her uncle James Glasgow, shipmaster there. The name, trade and locality make that deceased uncle a useful comparison with the 1740 master; the records have not been proved to describe one man. No existing candidate is selected as this uncle.<ref>[https://www.familysearch.org/library/books/viewer/874324/?offset=0#page=97&viewer=picture&o=info&n=0&q= Scotland Chancery Office, Decennial Indexes, vol. II, 1760–1769, p. 15, monthly 21; FamilySearch image 97]. Printed page inspected 11 November 2026; underlying service uninspected.</ref>
+
 == Sources ==
 <references />
 ```
+
+## 1766 Irvine uncle comparison — 11 November 2026
+
+The printed Decennial Indexes, volume II, index 1760–1769, p. 15 (FamilySearch book 874324, image 97), names Isobel Rankine (or Glasgow), wife of John Rankine, wright in Irvine, as heir-portioner-general to her uncle James Glasgow, shipmaster there. The entry is dated 9 May 1766, recorded 9 May 1766, monthly number 21. The full married names, Glasgow surname and Irvine setting identify the existing Isobel Glasgow-1127 account with high confidence. The underlying service has not been read. The uncle’s precise profile identity, his birth and death dates and whether he was the 1740 Prosperity master remain unresolved. The index supplies no parent for Isobel or James and identifies no particular property; it does not support describing this as moveable property. The matching shipmaster name and Irvine setting make this a useful comparison with the 1740 master; no same-person identification is selected and the existing four candidates remain on HOLD.
+
+[Decennial Indexes, vol.II, 1760–1769, p.15, image97, monthly21](https://www.familysearch.org/library/books/viewer/874324/?offset=0#page=97&viewer=picture&o=info&n=0&q=); [Ancestry60144/1323929, Greenock marriage24July1718](https://www.ancestry.co.uk/search/collections/60144/records/1323929); [Irvine baptism11April1721, SCOT/OPR/BAP/3573667](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3573667&tab=this). The heir-index page was newly inspected; the marriage is a fresh reading of an already held index, not an original register image.

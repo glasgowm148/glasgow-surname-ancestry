@@ -83596,6 +83596,82 @@
           "previous_status_provenance": "clm-d1-glasgow-2058-father-20261106 revision 1 selected John-2990 at15%. New clm-cookstown-gortin-john-father-20261111 revision1 selects John-2539 at45%."
         }
       ]
+    },
+    {
+      "id": "irvine-rankine-uncle-index-verified-20261111",
+      "found_on": "2026-11-11",
+      "kind": "record",
+      "status": "confirmed",
+      "detail_url": "/people/glasgow-1127.html#research-findings",
+      "finding": "The printed Decennial Indexes, volume II, index 1760–1769, p. 15 (FamilySearch book 874324, image 97), names Isobel Rankine (or Glasgow), wife of John Rankine, wright in Irvine, as heir-portioner-general to her uncle James Glasgow, shipmaster there. The entry is dated 9 May 1766, recorded 9 May 1766, monthly number 21. The full married names, Glasgow surname and Irvine setting identify the existing Isobel Glasgow-1127 account with high confidence. The underlying service has not been read. The uncle’s precise profile identity, his birth and death dates and whether he was the 1740 Prosperity master remain unresolved. The index supplies no parent for Isobel or James and identifies no particular property; it does not support describing this as moveable property.",
+      "significance": "Turns a copied family note into a visually verified indexed uncle relationship and supplies the exact image, service/registration date and monthly locator. No father-confidence improvement is claimed.",
+      "qualification": "The printed official index was inspected, not the underlying service. James’s profile identity and the link to the1740 shipmaster remain unresolved. Isobel’s79% father and James-4158’s15% father are unchanged. The underlying service is NRS C22/76, 9 May 1766, monthly 21; FamilySearch film 231321, DGS 8462584,Record of services v. 76 (1765–1766),catalogue 273344. The signed-in catalogue explicitly restricts these images to a FamilySearch Centre or affiliate library. A further home login cannot unlock them. The original service has not been read.",
+      "people": [
+        {
+          "id": "Glasgow-1127",
+          "name": "Isobel Glasgow Rankine",
+          "url": "/people/glasgow-1127.html",
+          "role": "Named heir, wife of John Rankine, Irvine"
+        },
+        {
+          "id": "Glasgow-4158",
+          "name": "James Glasgow of the Rae household",
+          "url": "/people/glasgow-4158.html",
+          "role": "Compatible uncle candidate only; not identified by the index"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Scotland Chancery Office, Decennial Indexes to the Services of Heirs, vol.II, 1760–1769 index, p.15; Isobel Rankine (or Glasgow), recorded9May1766, monthly21",
+          "url": "https://www.familysearch.org/library/books/viewer/874324/?offset=0#page=97&viewer=picture&o=info&n=0&q="
+        },
+        {
+          "title": "FamilySearch original-service catalogue: C22/76,film231321,DGS8462584;centre/affiliate restricted",
+          "url": "https://www.familysearch.org/en/search/catalog/koha:273344"
+        }
+      ],
+      "relationship_changes": []
+    },
+    {
+      "id": "greenock-rae-marriage-irvine-identity-20261111",
+      "found_on": "2026-11-11",
+      "kind": "record",
+      "status": "qualified",
+      "detail_url": "/people/glasgow-4158.html#research-findings",
+      "finding": "The Greenock index marriage of James Glasgow and Margaret Rae on 24 July 1718 is now preferred for the Irvine James Glasgow-4158 and Margaret Rae-3513 family, 85% subjective confidence in the combined couple identity. Both full names match the parents in the 11 April 1721 Irvine baptism.",
+      "significance": "Adds a specific earlier marriage comparison to the Irvine family and replaces generic given-name matching with the full parental couple. This is a new record attribution from an already held index, not a newly discovered source or father upgrade.",
+      "qualification": "The original marriage register remains uninspected; the index supplies FHL film 1041063 but no residence, trade, witness or father. Other adult namesakes remain possible. Margaret and Marion Rae are not equated. Hugh Glasgow-3109 remains the 15% uncertain father; no marriage is assigned to the Castle minister from an unsourced tree.",
+      "people": [
+        {
+          "id": "Glasgow-4158",
+          "name": "James Glasgow, Irvine Rae household",
+          "url": "/people/glasgow-4158.html",
+          "role": "Preferred groom identity, 85%"
+        },
+        {
+          "id": "Rae-3513",
+          "name": "Margaret Rae",
+          "url": "https://www.wikitree.com/wiki/Rae-3513",
+          "role": "Preferred bride identity with the same full parental couple"
+        },
+        {
+          "id": "record-ancestry-glasgow-4a0f754772db",
+          "name": "James Glasgow, 1718 Greenock groom",
+          "url": "/people/record-ancestry-glasgow-4a0f754772db.html",
+          "role": "Held documentary account; preferred existing candidate retained, no new person recommended"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ancestry Scotland Select Marriages, James Glasgow and Margaret Rae, 24 July 1718, Greenock,FHL film 1041063",
+          "url": "https://www.ancestry.co.uk/search/collections/60144/records/1323929"
+        },
+        {
+          "title": "Findmypast Irvine baptism 11 April 1721,James Glasgow and Margaret Rae,SCOT/OPR/BAP/3573667",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3573667&tab=this"
+        }
+      ],
+      "relationship_changes": []
     }
   ]
 }
