@@ -15157,15 +15157,21 @@
     "source_title": "\"Scotland Births and Baptisms, 1564-1950\", database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:F318-T2H : 16 September 2021), James Glesgow in entry for Agnes Glesgow, 1658.",
     "source_url": "https://www.familysearch.org/ark:/61903/1:1:F318-T2H",
     "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
-    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "source_status": "FamilySearch indexed record and attached record-defined family reviewed 12 November 2026; original register uninspected; conflicting date readings retained",
     "status": "Relationship and profile-identity scope stated in the individual assessment",
     "profiles": {
       "Glasgow-3092": {
         "role": "Previously cited subject; relationship scope in the father assessment"
+      },
+      "Clerk-460": {
+        "role": "Qualified identification with Hellin Clerk, named mother; no birth-date assertion"
+      },
+      "Glasgow-3077": {
+        "role": "Probable broader adult identity only; distinct FamilySearch father accounts not merged"
       }
     },
-    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
-    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+    "note": "Fresh FamilySearch F318-T2H displays 14 March 1658, Agnes Glesgow, James Glesgow and Hellin Clerk. Maintained local drafts previously attribute 15 August 1658 to that same ARK. Preserve both readings pending original-register comparison: no exact-date overwrite or claim that the two date attributions are proved to be the same event. The rare named couple and exact cited ARK support record-scope identification of Clerk-460 with Hellin Clerk (MQ6H-BKK), mother of Agnes (MQ6H-BK7), in the family of James (MQ6H-BKT). This does not prove that James is the broader 1658–1665 adult represented by Glasgow-3077 / FamilySearch 9W7W-512. No parent reassignment, merge, birth-date amendment or confidence-grade change.",
+    "provenance": "Existing held citation retained; fresh indexed-provider review 2026-11-12, with original-register date comparison outstanding"
   },
   {
     "record_id": "held-e-df7b10a5b13e",
@@ -595456,5 +595462,23 @@
     "publish_to_record_index": true,
     "provenance": "Inspected public source at https://discovery.nationalarchives.gov.uk/details/r/D199415 on12November2026; bounded historical receipt tmp/edward-george-general-20261112/research-receipt.json. No original register or will image read.",
     "assessment": "Exact original target located; no will contents asserted"
+  },
+  {
+    "record_id": "janet-hutcheson-holland-burgh-orders-1679-1684",
+    "association": "Named Janet Hutcheson, Holland pensioner and natural daughter of deceased George Hutcheson",
+    "source_title": "The History of Glasgow, volume II, chapter XX, George Hutcheson, Notary, Banker, and Philanthropist; quoted Glasgow burgh orders of 1679 and 1684, with a cross-reference to 24 July 1680",
+    "source_url": "https://www.electricscotland.com/history/glasgow/glasgow2_20.htm",
+    "date": "1679–1684",
+    "year": 1679,
+    "place": "Holland",
+    "source_type": "Published historical account quoting burgh orders",
+    "status": "Published text inspected; underlying burgh orders not inspected",
+    "note": "The published 1679 order names Janet Hutcheson in Holland as the natural daughter of deceased George Hutchesone. The surrounding narrative identifies the hospital founder and gives his death as 26 December 1639. A quoted 1684 funeral reimbursement names the deceased town pensioner Janet Hutchesoune in Holland. The 1588 kirk-session account describes an unnamed female child by Elspeth Craig; it does not name Janet. Identity between that child and the Holland pensioner remains unproved. This source qualifies the existing named Janet account; it creates no new person and establishes no maternity.",
+    "profile_ids": [
+      "Hutcheson-1650",
+      "Hutcheson-1648"
+    ],
+    "role": "Named daughter; father identified through published narrative context",
+    "publication_status": "approved"
   }
 ]

@@ -2993,6 +2993,97 @@
         "birth": "Born before 1641, allowing posthumous birth in 1640; no identification with the unnamed 1588 child.",
         "death": "Died before 1685, from the 1684 funeral payment; no exact date."
       }
+    },
+    {
+      "schema_version": 3,
+      "id": "glasgow-3538-inherited-birth-estimate-qualified-20261112",
+      "subject": "Glasgow-3538",
+      "status": "approved",
+      "reviewed": "2026-11-12",
+      "basis": "Preserves the existing native captured birth bound before 1650, revision 2, as an inherited uncertain working estimate. The 1665 testament index of Jonet Cowan names Matthew Glasgow of Pyperheugh as her spouse but gives no age, birth details or parents. The transfer source notes explicitly retain this distinction.",
+      "summary": "Birth before 1650 remains an inherited uncertain working estimate, not a date proved by the 1665 testament. No age or new birth date is inferred.",
+      "source_ids": [
+        "pyperheugh-matthew-spouse-testament-1665"
+      ],
+      "vitals": {
+        "birth": {
+          "date": "before 1650",
+          "status": "uncertain",
+          "note": "Inherited working estimate retained from the existing captured profile; no age or proof of this bound is supplied. The 1665 testament index alone establishes Matthew’s existence before 1666, not birth before 1650. No age of 25 or other age is inferred, and the estimate is not adjusted to fit proposed parents.",
+          "source_url": "https://archive.org/details/scottishrecordso07scotuoft/page/110/mode/2up?q=Cowan",
+          "source_level": "Inherited profile estimate, distinguished from published testament-index evidence",
+          "qualifier": "Inherited uncertain working estimate; not record-proved birth."
+        }
+      },
+      "vital_qualifications": {
+        "birth": "Before 1650 is an inherited working estimate. No age or proof is supplied; the 1665 record alone supports existence before 1666."
+      },
+      "provenance": {
+        "review_kind": "qualification_of_existing_estimate",
+        "native_capture_revision": 2,
+        "date_changed": false,
+        "source_newly_inspected": false,
+        "publication_authorization": "Root instruction preserves existing estimate with explicit caveat; no relationship grade change."
+      }
+    },
+    {
+      "schema_version": 3,
+      "id": "cowan-8376-testament-death-bound-20261112",
+      "subject": "Cowan-8376",
+      "status": "approved",
+      "reviewed": "2026-11-12",
+      "basis": "Francis J. Grant, ed., The Commissariot Record of Glasgow: Register of Testaments, 1547–1800 (Edinburgh: Scottish Record Society, 1901), printed p.110, Jonet Cowan, spouse to Matthew Glasgow in Pyperheugh, parish of Stevenston; testament-index entry dated 24 April 1665. Existing FamilySearch source notes explicitly describe death before this date as an inferred upper bound; original testament not inspected.",
+      "summary": "Jonet Cowan died before the indexed testament date of 24 April 1665. This is an inferred upper bound, not an exact death date or new confidence grade.",
+      "source_ids": [
+        "pyperheugh-matthew-spouse-testament-1665"
+      ],
+      "vitals": {
+        "death": {
+          "date": "before 1665-04-24",
+          "status": "uncertain",
+          "note": "Upper bound inferred from the testament-index entry dated 24 April 1665. The exact death date, age and death place are unknown; the original testament has not been inspected. Stevenston is a recorded residence, not proved birthplace or death place.",
+          "source_url": "https://archive.org/details/scottishrecordso07scotuoft/page/110/mode/2up?q=Cowan",
+          "source_level": "Published testament index; original register not inspected",
+          "qualifier": "Testament-derived upper bound; not an exact death date."
+        }
+      },
+      "vital_qualifications": {
+        "death": "Before 24 April 1665 is an inferred bound from the dated testament index, not an exact death date."
+      },
+      "provenance": {
+        "review_kind": "synchronize_existing_record_bound",
+        "new_relationship": false,
+        "date_basis_changed": false
+      }
+    },
+    {
+      "schema_version": 3,
+      "id": "craig-19072-record-birth-upper-bound-1588-20261112",
+      "subject": "Craig-19072",
+      "status": "approved",
+      "reviewed": "2026-11-12",
+      "basis": "The History of Glasgow, volume II, chapter XX, George Hutcheson, Notary, Banker, and Philanthropist; published account of the 1588 Glasgow kirk-session case naming Elizabeth or Elspeth Craig as mother of George Hutcheson’s unnamed female child. Published text inspected; original kirk-session minute not inspected.",
+      "summary": "Elizabeth or Elspeth Craig existed as the named mother in the 1588 account, giving a conservative birth bound before 1589. No age, exact year, birthplace or maternity of named Janet is inferred.",
+      "vitals": {
+        "birth": {
+          "date": "before 1589",
+          "place": null,
+          "status": "uncertain",
+          "note": "Conservative year bound from the published 1588 account naming Elizabeth or Elspeth Craig as the mother of George Hutcheson’s unnamed female child. No age or exact birth year is supplied. The former 1560 profile date is not independently established by this source. Glasgow is the setting of the account, not proof of her birthplace. The unnamed child is not identified as Janet, and no maternity of the Holland pensioner is inferred.",
+          "source_url": "https://www.electricscotland.com/history/glasgow/glasgow2_20.htm",
+          "source_level": "Published historical account; original kirk-session minute not inspected",
+          "qualifier": "Existence-derived upper bound; no age or exact birth year inferred."
+        }
+      },
+      "vital_qualifications": {
+        "birth": "Born before 1589 from named motherhood in the 1588 account; no age or birthplace proved."
+      },
+      "provenance": {
+        "review_kind": "record_bound_replaces_unsupported_profile_estimate",
+        "birth_bound_matches_existing_familysearch_transfer": true,
+        "new_relationship": false,
+        "mother_identity_hold": "Unnamed 1588 daughter is not proved identical with named Holland Janet."
+      }
     }
   ]
 }

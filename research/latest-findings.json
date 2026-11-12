@@ -16099,9 +16099,9 @@
       "id": "certainty-review-hutcheson-1650-hutcheson-1648-2026-09-28",
       "found_on": "2026-09-28",
       "kind": "relationship",
-      "finding": "Janet Hutcheson’s father relationship to George Hutcheson was recorded as Confident in the dated profile review. Biography reports the Glasgow kirk session's 1588 paternity admission by George Hutcheson for Janet; this is a direct father statement.",
-      "status": "confirmed",
-      "qualification": "The previous WikiTree father grade was unmarked, not explicitly uncertain. This is the documented move to Confident; no earlier unknown relationship is invented. Historical confidence review of existing citations; no new source-image inspection is claimed in this backfill. Specific attached father–child pair; later-life identity questions are assessed separately. Confidence rests on the stated supported inference or compiled evidence, rather than a new direct parent clause.",
+      "finding": "The dated 28 September 2026 review recorded Janet Hutcheson’s existing father link to George Hutcheson as Confident. Its biography-based attribution of the unnamed 1588 child to Janet was corrected on 12 November 2026; the qualitative father grade is retained for the named Holland daughter in the published 1679 order.",
+      "status": "qualified",
+      "qualification": "The previous WikiTree father grade was unmarked, not explicitly uncertain. This is the documented move to Confident; no earlier unknown relationship is invented. Historical confidence review of existing citations; no new source-image inspection is claimed in this backfill. Specific attached father–child pair; later-life identity questions are assessed separately. Confidence rests on the stated supported inference or compiled evidence, rather than a new direct parent clause. Source-basis correction, 12 November 2026: the cited published account leaves the 1588 child unnamed. It independently names the Holland pensioner Janet as George’s daughter in a quoted 1679 burgh order. Their childhood identity remains unresolved; no maternity, merge or confidence upgrade is inferred.",
       "people": [
         {
           "id": "Hutcheson-1650",
@@ -16116,8 +16116,12 @@
       ],
       "sources": [
         {
-          "title": "Recorded biography citations and father review: Biography reports the Glasgow kirk session's 1588 paternity admission by George Hutcheson for Janet; this is a direct father statement.",
+          "title": "Historical review of the existing profile, with its source attribution subsequently corrected",
           "url": "https://www.wikitree.com/wiki/Hutcheson-1650"
+        },
+        {
+          "title": "The History of Glasgow, volume II, chapter XX; named Holland daughter in quoted 1679 order",
+          "url": "https://www.electricscotland.com/history/glasgow/glasgow2_20.htm"
         }
       ],
       "detail_url": "/people/hutcheson-1650.html#archive-tools",
@@ -16128,7 +16132,7 @@
           "relative": "Hutcheson-1648",
           "before": "unmarked",
           "after": "certain",
-          "explanation": "Biography reports the Glasgow kirk session's 1588 paternity admission by George Hutcheson for Janet; this is a direct father statement.",
+          "explanation": "Historical September certainty edit based on the biography’s attribution; that source basis is corrected in November because the 1588 child is unnamed. The existing grade is retained for the independently named Holland daughter, without a new confidence transition.",
           "previous_status_provenance": [
             "research/relationship_assessments.json#/63",
             "research/pre-1600-father-status-audit-2026-09-28.json#/live_corrections/35",
@@ -84414,6 +84418,81 @@
           "previous_probability_percent": 10,
           "previous_status_provenance": "Edward Glasgow (record-ancestry-glasgow-d71b0ae3f539) is recorded in UK, British Army and Navy Birth, Marriage and Death Records, 1730-1960, groom, 23 Sep 1823. Samuel Glasgow (record-ancestry-glasgow-d54b26479243, Saint Benet Pauls Wharf,London,London,England; born 1749 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) london; 46 years older; his own records are held (ancestry-9841-148573462, ancestry-9841-159558065). He ranks first on those grounds against 3 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage. None of the cited records names Edward Glasgow's father; the link rests on place and age alone. The child's birth year is itself estimated from a record date. Other candidates of fitting age in the same area: Isaac C Glasko (Glasko-4, b. 1776), Jacob Glasko (Glasko-5, b. 1750), John Glasgow (record-ancestry-glasgow-33381969b4dd, b. 1740). The candidate's own birth year is estimated and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found.",
           "explanation": "General George Glasgow is the preferred possible father of Edward George Glasgow, the 1823 groom of Emily Caroline Medlicott and the father in the Bermondsey/Dover household: 55% subjective confidence in the complete identification. A compiled family explicitly lists Edward George at Quebec in 1794 alongside George Mark in 1795, as children of George Glasgow and Magdalen Green. The unusual combination of the two sons’ full names, Quebec chronology and Green spouse identifies the general’s family more specifically than London locality alone. George Mark’s independently held 1851 obituary calls him a son of the late General Glasgow of the Royal Artillery. Edward’s military marriage context is compatible with this family. This replaces the selected Samuel Glasgow hypothesis, assessed at 10% on 6 November from broad place and estimated age alone; no source then named Samuel as Edward’s father."
+        }
+      ]
+    },
+    {
+      "id": "janet-hutcheson-holland-source-scope-20261112",
+      "found_on": "2026-11-12",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Janet Hutcheson’s existing account is qualified to the named Holland pensioner: the quoted 1679 burgh order names her as George Hutcheson’s natural daughter. The 1588 child is unnamed, so the earlier source attribution is corrected.",
+      "significance": "Retains the existing confident father grade without a new percentage, selection change or second person; separates named parentage from an unresolved childhood identity.",
+      "qualification": "Published historical quotations and narrative reviewed; original council and kirk-session entries were not inspected. Birth before 1641 allows a posthumous birth in 1640 after George’s death on 26 December 1639. The 1684 funeral reimbursement gives death before 1685, not an exact date. No mother or identification with the unnamed 1588 child is established. An existing unsourced FamilySearch candidate, Janet Hucheson KCG1-1V7, is attached to James Ferguson K8BZ-69W and six children dated 1663–1674. Her approximate 1641 birth of Glasgow is not a concrete conflict, but no source links her to Holland or George Hutcheson. Identity remains held: no new person or parent attachment is authorized. Seek an original family or estate record supplying a father, address, relative or Holland connection.",
+      "detail_url": "/people/hutcheson-1650.html#research-findings",
+      "people": [
+        {
+          "id": "Hutcheson-1650",
+          "name": "Janet Hutcheson",
+          "url": "/people/hutcheson-1650.html",
+          "role": "Named Holland daughter; childhood identity unresolved"
+        },
+        {
+          "id": "Hutcheson-1648",
+          "name": "George Hutcheson",
+          "url": "/people/hutcheson-1648.html",
+          "role": "Existing confident father; grade retained"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The History of Glasgow, volume II, chapter XX; quoted Glasgow burgh orders of 1679 and 1684",
+          "url": "https://www.electricscotland.com/history/glasgow/glasgow2_20.htm",
+          "record_id": "janet-hutcheson-holland-burgh-orders-1679-1684"
+        },
+        {
+          "title": "Existing FamilySearch candidate Janet Hucheson KCG1-1V7; unsourced tree, not proof of identity",
+          "url": "https://www.familysearch.org/en/tree/person/details/KCG1-1V7"
+        }
+      ],
+      "source_ids": [
+        "janet-hutcheson-holland-burgh-orders-1679-1684"
+      ],
+      "relationship_changes": []
+    },
+    {
+      "id": "clerk-agnes-1658-index-date-scope-20261112",
+      "found_on": "2026-11-12",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "The fresh FamilySearch F318-T2H index displays 14 March 1658 for Agnes Glesgow and names James Glesgow and Hellin Clerk; earlier local drafts cite the same ARK for 15 August 1658.",
+      "significance": "Recovers the existing record-defined Helen/Agnes family while preserving the conflicting date readings and separating James’s broader adult identity.",
+      "qualification": "Original register uninspected. The exact ARK and rare named couple support a qualified Clerk-460 to Hellin Clerk identification; neither exact-date equivalence nor the identity of James MQ6H-BKT with the broader James 9W7W-512 is proved. No exact-date, parent attachment or confidence change.",
+      "detail_url": "/people/glasgow-3092.html#research-findings",
+      "people": [
+        {
+          "id": "Clerk-460",
+          "name": "Helen Clerk",
+          "url": "/people/clerk-460.html",
+          "role": "Record-defined mother; qualified identity"
+        },
+        {
+          "id": "Glasgow-3092",
+          "name": "Agnes Glasgow",
+          "url": "/people/glasgow-3092.html",
+          "role": "Named child; date conflict retained"
+        },
+        {
+          "id": "Glasgow-3077",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-3077.html",
+          "role": "Broader adult identity remains probable"
+        }
+      ],
+      "sources": [
+        {
+          "title": "FamilySearch, Scotland Births and Baptisms, 1564–1950, Agnes Glesgow, F318-T2H",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:F318-T2H"
         }
       ]
     }
