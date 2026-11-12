@@ -2910,6 +2910,56 @@
           "source_url": "https://www.ancestry.co.uk/search/collections/60143/records/644438"
         }
       }
+    },
+    {
+      "schema_version": 3,
+      "id": "glasgow-4151-birth-upper-bound-1637-testament-20261112",
+      "subject": "Glasgow-4151",
+      "status": "approved",
+      "reviewed": "2026-11-12",
+      "basis": "NRS Glasgow Commissary Court, testament dative and inventory of John Glasgow, sailor in Saltcoats, CC9/7/27, register pp. 478–480, April 1637; canonical record saltcoats-john-testament-1637.",
+      "summary": "Agnes is named as a lawful daughter in April1637; birth before1638 is a safe yearbound, not an estimated birthday or age.",
+      "vitals": {
+        "birth": {
+          "date": "before 1638",
+          "status": "uncertain",
+          "note": "Named as a lawful daughter in the April 1637 testament. Birth before 1638 is a conservative year bound. The record supplies no birthday, age, minority or birthplace.",
+          "source_url": "https://www.scotlandspeople.gov.uk/search-records/legal-records/wills",
+          "source_level": "NRS original testament register CC9/7/27, pp. 478–480",
+          "qualifier": "Year-only upperbound from namedrecordparticipation; not approximatebirthyear."
+        }
+      },
+      "vital_qualifications": {
+        "birth": "Record-bound: born before1638; no age or place proved."
+      },
+      "source_ids": [
+        "saltcoats-john-testament-1637"
+      ]
+    },
+    {
+      "schema_version": 3,
+      "id": "glasgow-4153-birth-upper-bound-1637-testament-20261112",
+      "subject": "Glasgow-4153",
+      "status": "approved",
+      "reviewed": "2026-11-12",
+      "basis": "NRS Glasgow Commissary Court, testament dative and inventory of John Glasgow, sailor in Saltcoats, CC9/7/27, register pp. 478–480, April 1637; canonical record saltcoats-john-testament-1637.",
+      "summary": "Katherine is named as a lawful daughter in April1637; birth before1638 is a safe yearbound, not an estimated birthday or age.",
+      "vitals": {
+        "birth": {
+          "date": "before 1638",
+          "status": "uncertain",
+          "note": "Named as a lawful daughter in the April 1637 testament. Birth before 1638 is a conservative year bound. The record supplies no birthday, age, minority or birthplace.",
+          "source_url": "https://www.scotlandspeople.gov.uk/search-records/legal-records/wills",
+          "source_level": "NRS original testament register CC9/7/27, pp. 478–480",
+          "qualifier": "Year-only upperbound from namedrecordparticipation; not approximatebirthyear."
+        }
+      },
+      "vital_qualifications": {
+        "birth": "Record-bound: born before1638; no age or place proved."
+      },
+      "source_ids": [
+        "saltcoats-john-testament-1637"
+      ]
     }
   ]
 }
