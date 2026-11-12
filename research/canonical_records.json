@@ -48398,17 +48398,28 @@
     "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Robert Glasgow",
     "status": "Inspected derivative transcript; matched_existing",
     "source_quality": "provider_derivative",
-    "note": "Robert Glasgow baptised 12 December 1742 at Covington and Thankerton, George Glasgow and Agnes Williamson. The current Glasgow-1122 and its siblings share this parental family and parish sequence; retain the matched child. The baptism does not supply an exact birthday or independently replace the inherited Kilwinning birth-place. Father Glasgow-1070 remains 77%; mother Williamson-12853 is not newly assessed. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.",
+    "note": "Robert Glasgow baptised 12 December 1742 at Covington and Thankerton, George Glasgow and Agnes Williamson. The current Glasgow-1122 and its siblings share this parental family and parish sequence; retain the matched child. The baptism does not supply an exact birthday or independently replace the inherited Kilwinning birth-place. Father Glasgow-1070 remains 77%; mother Williamson-12853 is not newly assessed. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change. Review 12 November 2026: Select George Glasgow-1070 as the possible father of the Crawford Robert Glasgow/Isabel Porteous household, 55% subjective confidence in the full relationship. The leading childhood comparison is Robert Glasgow-1122, baptised 12 December 1742 at Covington and Thankerton to George Glasgow and Agnes Williamson. He would be about 24 at Mary’s 1767 baptism, 26 at George’s 1769 baptism and 31 in 1774. The nearby upper-Clyde parishes, compatible generation, matching full name and the later son George favour this existing family over an unspecified father. The son’s name is only modest supporting context, not a naming rule. No conflicting adult event is known for Robert-1122. This is a new working father hypothesis for an existing parentless account, not a newly discovered baptism or a demonstrated adult identity. The adult Crawford father has no independently established age, occupation, marriage or parent statement. Locality and chronology support a comparison but do not prove continuity. The 1742 FamilySearch and held Findmypast entries represent one baptism; the original is unavailable on the FamilySearch record page and has not been read. George-1070’s identification as the adult Covington father is itself distinct from his recorded 1719 Kilwinning childhood; the 55% includes both unresolved identity steps. Robert-1122 and the Crawford account may represent one man, not two proved brothers. They remain separate accounts and no merge is selected. No mother, birth/death field or earlier assessment changes. The 1855–1863 Robert/Isabella Reid household remains excluded for its different generation and maternal surname.",
     "profiles": {
       "Glasgow-1122": {
         "role": "Matched documentary subject; adult parent identification and relationship grades unchanged"
+      },
+      "record-ancestry-glasgow-262e36f70575": {
+        "role": "Possible childhood identity for the Crawford adult father; no merger or proved attribution",
+        "identity_status": "possible",
+        "assessment": "possible"
+      },
+      "Glasgow-1070": {
+        "role": "Preferred identity of the father named George; adult Covington and 1719 Kilwinning identity remains qualified"
       }
     },
     "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_685660805",
-    "reviewed_on": "2026-10-30",
+    "reviewed_on": "2026-11-12",
     "publish_to_record_index": true,
     "documentary_group": "covington-robert-williamson-1742",
-    "record_category": "Births and baptisms"
+    "record_category": "Births and baptisms",
+    "additional_source_urls": [
+      "https://www.familysearch.org/ark:/61903/1:1:XTLF-SQ7"
+    ]
   },
   {
     "record_id": "fmp-record-r-688617700",

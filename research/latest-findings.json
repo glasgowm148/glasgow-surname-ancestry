@@ -84250,6 +84250,62 @@
           "explanation": "Select the existing record-defined Mary of the Robert/Mary Birmingham family as Abraham’s probable mother, independently assessed at 86%. The 1803 baptism explicitly names Mary as the child’s mother, and the 1806 David baptism names Mary alongside the same Robert in the same parish. The adult Abraham is identified through the 1851/1861 family and Birmingham birthplace. The maternal identity depends on matching these Robert/Mary households, not merely on the common forename Mary. Her maiden surname remains unknown."
         }
       ]
+    },
+    {
+      "id": "crawford-robert-covington-father-hypothesis-20261112",
+      "found_on": "2026-11-12",
+      "kind": "relationship",
+      "status": "qualified",
+      "detail_url": "/people/record-ancestry-glasgow-262e36f70575.html#research-findings",
+      "finding": "New possible father for the Crawford Robert Glasgow/Isabel Porteous household: George Glasgow-1070, 55%, through Robert’s possible 1742 Covington childhood identity.",
+      "significance": "Connects a previously parentless pre-1850 working branch using an existing childhood candidate. This is a new hypothesis from held evidence, not a new record or confident connection.",
+      "qualification": "The adult Crawford father has no independently established age, occupation, marriage or parent statement. Locality and chronology support a comparison but do not prove continuity. The 1742 FamilySearch and held Findmypast entries represent one baptism; the original is unavailable on the FamilySearch record page and has not been read. George-1070’s identification as the adult Covington father is itself distinct from his recorded 1719 Kilwinning childhood; the 55% includes both unresolved identity steps. Robert-1122 and the Crawford account may represent one man, not two proved brothers. They remain separate accounts and no merge is selected. No mother, birth/death field or earlier assessment changes. The 1855–1863 Robert/Isabella Reid household remains excluded for its different generation and maternal surname.",
+      "people": [
+        {
+          "id": "record-ancestry-glasgow-262e36f70575",
+          "name": "Robert Glasgow, Crawford household",
+          "url": "/people/record-ancestry-glasgow-262e36f70575.html",
+          "role": "Existing adult account; father previously Unknown"
+        },
+        {
+          "id": "Glasgow-1070",
+          "name": "George Glasgow",
+          "url": "/people/glasgow-1070.html",
+          "role": "New Possible father, 55%"
+        },
+        {
+          "id": "Glasgow-1122",
+          "name": "Robert Glasgow, baptised 1742",
+          "url": "/people/glasgow-1122.html",
+          "role": "Possible childhood identity, not a proved separate brother"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Robert Glasgow baptism, 12 December 1742, Covington and Thankerton; derivative index",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:XTLF-SQ7"
+        },
+        {
+          "title": "Mary Glasgow, Crawford 1767, parents Robert Glasgow and Isabel Porteous; held index",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/6989039"
+        },
+        {
+          "title": "George Glasgow, Crawford 1769, same parents; held index",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/9156907"
+        }
+      ],
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "record-ancestry-glasgow-262e36f70575",
+          "relative": "Glasgow-1070",
+          "before": "unknown",
+          "after": "possible",
+          "probability_percent": 55,
+          "previous_status_provenance": "The saved pre-review Crawford Robert public dossier has no parent relationships; the account previously identified him only as father with Isabel Porteous. No prior numeric percentage is invented.",
+          "explanation": "Select George Glasgow-1070 as the possible father of the Crawford Robert Glasgow/Isabel Porteous household, 55% subjective confidence in the full relationship. The leading childhood comparison is Robert Glasgow-1122, baptised 12 December 1742 at Covington and Thankerton to George Glasgow and Agnes Williamson. He would be about 24 at Mary’s 1767 baptism, 26 at George’s 1769 baptism and 31 in 1774. The nearby upper-Clyde parishes, compatible generation, matching full name and the later son George favour this existing family over an unspecified father. The son’s name is only modest supporting context, not a naming rule. No conflicting adult event is known for Robert-1122. This is a new working father hypothesis for an existing parentless account, not a newly discovered baptism or a demonstrated adult identity."
+        }
+      ]
     }
   ]
 }

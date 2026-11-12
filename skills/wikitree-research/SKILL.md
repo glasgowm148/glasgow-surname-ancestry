@@ -11,6 +11,8 @@ description: Research historical WikiTree people, assess exact father–child co
 
 ## Working in this project (read first)
 
+- Mac MCP tab reuse (verified 12 November 2026): `browser_do` with a URL can open a new tab even when `tab_handle` is supplied. For navigation in the owned working tab, explicitly set `new_tab: false`, check the returned handle against the owned handle, and inventory tabs after the first navigation. Do not rely on the handle alone to enforce the owner's one-tab budget; close only demonstrably task-owned extras if they appear.
+
 - FamilySearch parent-parity batches (owner correction, 11 November 2026): prioritise supported missing or replacement parent links and the people needed to connect them. Do not delay the requested parent batch for minor vital-date differences, source wording or biography polishing. Delegate independent local parent comparisons when requested, while retaining one sequential browser owner; distinguish saved-report matches from fresh live verification. Preserve identity holds and assess mothers independently.
 
 - FamilySearch unreviewed imports (owner choice, 12 November 2026): existing imported parent attachments may be copied when requested for parity, with an explicit “unreviewed; not proved” explanation and their actual evidence limits. Do not invent a confidence percentage or upgrade the local assessment. Preserve occupied parent roles and alternatives; use a mother-only addition when only maternity is authorized. An unresolved identity or competing parent remains a separate hold.
