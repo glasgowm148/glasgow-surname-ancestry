@@ -3365,6 +3365,40 @@
         "Inherited birth 1558/circa1560",
         "Blank death field despite the attributed published account"
       ]
+    },
+    {
+      "schema_version": 3,
+      "id": "cunningham-5871-christening-birth-bound-20261113",
+      "subject": "Cunningham-5871",
+      "status": "approved",
+      "reviewed": "2026-11-13",
+      "basis": "FamilySearch XYGX-WXP explicitly labels 2 October 1569 at Dunfermline as Christening. Expanded provider index, saved citation/notes and qualified live vital were verified; original register uninspected.",
+      "source": {
+        "url": "https://www.familysearch.org/ark:/61903/1:1:XYGX-WXP"
+      },
+      "summary": "Christening is not an exact birth date: record birth before 3 October 1569, without asserting a birthplace. Preserve imported exact birth/place observations as legacy; no parent assessment changes.",
+      "vitals": {
+        "birth": {
+          "date": "before 1569-10-03",
+          "place": null,
+          "status": "uncertain",
+          "label": "Birth bound derived from indexed christening",
+          "note": "The index records Christening on 2 October 1569, not birth. Before 3 October 1569 allows birth on that day or earlier without inventing a birthday, age or birthplace. Dunfermline is the christening place. The imported exact 2 October 1569 birth and Dunfermine location/death-place fields remain legacy observations; no populated live or local structured place is blanked by this batch. Original register uninspected.",
+          "source_url": "https://www.familysearch.org/ark:/61903/1:1:XYGX-WXP",
+          "source_level": "Expanded provider index; original register uninspected",
+          "qualifier": "Birth date and birthplace unproved; inclusive upper bound derived from christening."
+        }
+      },
+      "vital_qualifications": {
+        "birth": "Indexed christening date is not an exact birth date; birthplace is not supplied."
+      },
+      "source_ids": [
+        "fs-xygx-wxp-alexander-cuninghame-1569"
+      ],
+      "supersedes": [
+        "Imported exact birth date 1569-10-02 as an asserted birth event; raw capture retained"
+      ],
+      "scope": "Child vital-date interpretation only; existing indexed-parent identifications remain qualified and no relationship claim/grade is revised."
     }
   ]
 }

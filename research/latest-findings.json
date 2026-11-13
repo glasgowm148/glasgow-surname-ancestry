@@ -85024,6 +85024,34 @@
         "research/Hutcheson-1651/findings.md",
         "research/Hutcheson-1647/findings.md"
       ]
+    },
+    {
+      "id": "cunningham-5871-christening-birth-bound-20261113",
+      "found_on": "2026-11-13",
+      "kind": "vital",
+      "status": "qualified",
+      "finding": "Alexander Cuninghame’s 2 October 1569 Dunfermline entry is explicitly a christening, not an exact birth record. His reviewed birth is therefore before 3 October 1569, with no birthplace inferred from the christening parish.",
+      "significance": "Corrects the event role and preserves same-day or earlier birth without inventing an age. The source-defined FamilySearch person PJCC-372 now carries the separate christening and qualified birth bound.",
+      "qualification": "Expanded provider index and saved source WJ68-57H citation/notes were verified; original register uninspected. The index names John Cuninghame and Kaete Wallet. Identification with the existing John Cunningham / Katherine Walwood household remains qualified; wider parent identities, dates and relationships are not proved by this entry. Imported exact birth and places remain legacy observations; no parent confidence upgrade.",
+      "people": [
+        {
+          "id": "Cunningham-5871",
+          "name": "Alexander Cunningham / Cuninghame",
+          "url": "https://www.wikitree.com/wiki/Cunningham-5871"
+        }
+      ],
+      "sources": [
+        {
+          "title": "FamilySearch: Alexander Cuninghame christening, 2 October 1569, Dunfermline, XYGX-WXP",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:XYGX-WXP"
+        }
+      ],
+      "detail_url": "https://www.wikitree.com/wiki/Cunningham-5871",
+      "relationship_changes": [],
+      "provenance": [
+        "Native vital cunningham-5871-christening-birth-bound-20261113",
+        "Canonical record fs-xygx-wxp-alexander-cuninghame-1569"
+      ]
     }
   ]
 }
