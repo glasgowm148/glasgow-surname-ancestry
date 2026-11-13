@@ -156,43 +156,12 @@ def brief_summary(person):
 
 
 def render():
-    data = rows()
-    body_rows = []
-    for p in data:
-        sources = []
-        for cite, urls in p['citations']:
-            for url in urls:
-                if url not in [u for u, _ in sources]:
-                    sources.append((url, 'Source'))
-            if len(sources) >= 2:
-                break
-        source_links = ' · '.join(link(url, label) for url, label in sources[:2]) or link(p['profile'], 'Sources')
-        wiki = link(f'https://www.wikitree.com/wiki/{p["id"]}', 'WikiTree')
-        research = link(p['profile'], 'Research')
-        fs = link('https://www.familysearch.org/tree/person/details/'+p['fs'], 'FamilySearch') if p['fs'] else ''
-        summary = brief_summary(p)
-        fs_search = p['fs'] or 'No FamilySearch profile is linked'
-        search_text = ' '.join([p['name'], p['dates'], p['rationale'], fs_search, summary] +
-                               [f"{r['name']} {r['relationship']} {r['status']} {r['basis']}" for r in p['relationships']] +
-                               [cite for cite, _ in p['citations']])
-        body_rows.append(f'<tr data-search="{escape(search_text.casefold(),quote=True)}"><th scope="row">{link(p["profile"],p["name"])}<br><small>{escape(p["dates"])}</small></th><td>{escape(summary)}</td><td>{wiki} · {research}{(" · "+fs) if fs else ""} · {source_links}</td></tr>')
-    table = ''.join(body_rows)
-    shell = (WEB/'research/index.html').read_text(encoding='utf-8')
-    shell = re.sub(r'<title>.*?</title>', f'<title>{page_title("Notables")}</title>', shell, count=1, flags=re.S)
-    canonical = f'<link rel="canonical" href="{SITE_URL}/notables/">'
-    og_url = f'<meta property="og:url" content="{SITE_URL}/notables/">'
-    shell = re.sub(r'<link rel="canonical" href="[^"]*"\s*/?>', canonical, shell, count=1) if re.search(r'<link rel="canonical"', shell) else shell.replace('</head>', canonical+'\n</head>', 1)
-    shell = re.sub(r'<meta property="og:url" content="[^"]*"\s*/?>', og_url, shell, count=1) if re.search(r'<meta property="og:url"', shell) else shell.replace('</head>', og_url+'\n</head>', 1)
-    shell = re.sub(r'<meta content="The Glasgow surname (?:archive|project):[^\"]*" name="description"\s*/?>', '<meta content="Historical people identified in the Glasgow Name Study, with source and relationship qualifications." name="description">', shell, count=1)
-    shell = shell.replace('data-g-path="/research/index.html"','data-g-path="/notables/index.html"',1).replace('<strong>Research</strong>','<strong>Notables</strong>',1)
-    shell = re.sub(r'<nav class="v3-view-nav" aria-label="Section views">.*?</nav>', '', shell, count=1, flags=re.S)
-    main = f'''<main class="r-main" id="main"><header class="v3-page-head"><span class="r-kicker">People in the Glasgow Name Study</span><h1>Notables</h1><p>This index follows the maintained Notables section in the <a href="/free-space/">Glasgow Name Study</a>. Family and identity qualifications remain in the linked research accounts.</p></header><section aria-labelledby="notables-index"><h2 id="notables-index">Historical people</h2><label for="notables-filter">Filter people</label> <input id="notables-filter" type="search" placeholder="Name, dates, or description"><p id="notables-count" aria-live="polite">{len(data)} entries</p><div class="notables-table-wrap"><table id="notables-table"><thead><tr><th scope="col"><button data-sort="0">Person</button></th><th scope="col"><button data-sort="1">Why notable</button></th><th scope="col">Profiles and sources</th></tr></thead><tbody>{table}</tbody></table></div></section></main>'''
-    shell = re.sub(r'<main class="r-main" id="main">.*?</main>', main, shell, count=1, flags=re.S)
-    script = '''<script>(()=>{const t=document.querySelector('#notables-table'),q=document.querySelector('#notables-filter'),n=document.querySelector('#notables-count'),b=[...t.tBodies[0].rows];function filter(){let s=q.value.trim().toLocaleLowerCase(),v=0;b.forEach(r=>{r.hidden=!r.dataset.search.includes(s);if(!r.hidden)v++});n.textContent=v+' of '+b.length+' entries'}q.addEventListener('input',filter);t.querySelectorAll('[data-sort]').forEach(x=>x.addEventListener('click',()=>{let i=+x.dataset.sort,rows=[...t.tBodies[0].rows],asc=x.dataset.asc!=='true';x.dataset.asc=String(asc);t.querySelectorAll('thead th').forEach((h,j)=>h.setAttribute('aria-sort',j===i?(asc?'ascending':'descending'):'none'));rows.sort((a,b)=>{let A=a.cells[i].innerText.trim(),B=b.cells[i].innerText.trim();return (A.localeCompare(B,undefined,{numeric:true,sensitivity:'base'}))*(asc?1:-1)}).forEach(r=>t.tBodies[0].append(r))}))})();</script>'''
-    shell = shell.replace('</head>', '<style>.notables-table-wrap{overflow-x:auto;max-width:100%}#notables-table{width:100%;border-collapse:collapse}#notables-table th,#notables-table td{border-bottom:1px solid #c8cfc4;padding:.75rem;text-align:left;vertical-align:top}#notables-table thead{background:#eef1e9}#notables-table th button{font:inherit;font-weight:700;color:inherit;background:none;border:0;text-decoration:underline;cursor:pointer}#notables-table ul{padding-left:1.2rem;margin:.25rem 0}#notables-filter{max-width:100%;padding:.6rem;border:1px solid #66745e;border-radius:.3rem}@media(max-width:700px){#notables-table{min-width:760px}}</style></head>',1)
-    shell = shell.replace('</body>', script+'</body>', 1)
-    out = WEB/'notables/index.html'; out.parent.mkdir(parents=True, exist_ok=True); out.write_text(shell, encoding='utf-8')
-    return len(data)
+    try:
+        from tools.notables_cards import render as render_cards
+    except ModuleNotFoundError:
+        from notables_cards import render as render_cards
+    return render_cards(rows(), WEB, page_title, SITE_URL, link, brief_summary)
+
 
 if __name__ == '__main__':
     print({'notables':render()})
