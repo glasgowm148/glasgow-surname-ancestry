@@ -2,39 +2,26 @@
 {{Notables Sticker}}
 [[Category:Scotland, Business Figures]]
 
-'''George Hutcheson''' was born in 1554 near Glasgow, Lanarkshire, Scotland. He was the eldest son of [[Hutcheson-1647|Thomas Hutcheson Sr. (c. 1510–1594)]] and [[Herbertson-132|Helen Herbertson]]. Through his energy, learning, and philanthropy, he became one of Glasgow’s most respected citizens of the late 16th and early 17th centuries.
+George Hutcheson of Lambhill was a Glasgow public writer, notary, landowner and charitable founder. His birth date is not precisely established: the modern Oxford Dictionary of National Biography places it between 1550 and 1560. It identifies his parents as Thomas Hutcheson of Lambhill and Helen Herbertsone, consistent with the maintained confident father assessment. The inherited exact year 1554 and a Glasgow birthplace should not be presented as recorded facts. <ref name="George1">Stuart Handley, ‘Hutcheson, George (1550x60–1639), philanthropist’, Oxford Dictionary of National Biography, published 23 September 2004, version 21 May 2009, DOI 10.1093/ref:odnb/14275. [https://academic.oup.com/oxford-dictionary-of-national-biography/reference/63486/reference-article-abstract/580683688 Online text]. Public publisher extract names Thomas and Helen, birth range, career, 28 August 1588 marriage order and Partick house. Full paywalled article not inspected.</ref>
 
-=== Career and Reputation ===
-George was a notary, procurator, moneylender, and early banker in Glasgow. In 1587, he appears as a notary acting in the infeftment of Walter Stewart, Commendator of Blantyre, helping convert church lands to feu-holdings after the Reformation. He worked with the Duke of Lennox, the Archbishop, the University, and the Town Council.  
+His legal career connected him with Glasgow’s civic, ecclesiastical and university affairs. The published History of Glasgow records him acting as notary in Walter Stewart of Blantyre’s infeftment in 1587 and undertaking legal business for the city and University. He also served as commissary judge-depute. His lending on bonds helped finance borrowers ranging from local landowners to Glasgow’s town council. His property included Lambhill, Barrowfield, Ramshorn and Meadowflat. These interests place his philanthropy within the city’s growing professional and commercial wealth. <ref name="George2">History of Glasgow, volume II, chapter XX, ‘George Hutcheson, Notary, Banker, and Philanthropist’, public HTML transcription. [https://www.electricscotland.com/history/glasgow/glasgow2_20.htm Online text]. Read HTML transcription: career, estates, daughter Janet in Holland, 26 December death and east-side burial. Printed pagination and underlying manuscripts not verified.</ref>
 
-He also handled the city’s legal business against Dutch merchants and local land disputes, showing his central role in Glasgow’s urban development.
+His business premises stood on the north side of Trongate near the tolbooth. In 1611 he built a house at Partick, subsequently known as the Bishop’s Castle. His private life should not be described as childless or unmarried without qualification: the modern biographical account reports a 1588 kirk-session order to marry Elizabeth Craig after the birth of a girl. <ref name="George1">Stuart Handley, ‘Hutcheson, George (1550x60–1639), philanthropist’, Oxford Dictionary of National Biography, published 23 September 2004, version 21 May 2009, DOI 10.1093/ref:odnb/14275. [https://academic.oup.com/oxford-dictionary-of-national-biography/reference/63486/reference-article-abstract/580683688 Online text]. Public publisher extract names Thomas and Helen, birth range, career, 28 August 1588 marriage order and Partick house. Full paywalled article not inspected.</ref>
 
-In 1588 George appeared before the kirk session for fathering an unnamed female child with Elizabeth or Elspeth Craig, whom he subsequently married. The published history separately names Janet Hutcheson, the Holland pensioner, as his natural daughter in a quoted 1679 burgh order. Whether she was the unnamed 1588 child remains unresolved; no identity or distinctness is asserted. See [[Hutcheson-1650|Janet's qualified record account]].
+By a deed dated 16 December 1639, George endowed a hospital with property and bonds worth 20,000 merks for the support of poor elderly men. Here hospital meant a charitable residential foundation, rather than a modern medical hospital. <ref name="George3">T. F. Henderson, ‘Hutcheson, George’, Dictionary of National Biography, volume 28 (1891), public-domain text transcribed on Wikisource. [https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Hutcheson,_George Online text]. Read HTML: 16 December 1639 deed, 20,000 merks, elderly male beneficiaries, 31 December death and south-side burial. Its parent names, tentative birth circa1580 and unmarried claim conflict with later scholarship; do not import them.</ref> His younger brother Thomas continued the work, added endowments and established the associated school. The school’s institutional history dates Thomas’s laying of the foundation stone to 19 March 1641 and the admission of the first pupils to 1643. <ref name="George4">Hutchesons’ Grammar School, ‘Our History’, ‘Our founders’ section. [https://www.hutchesons.org/our-school/our-history/ Online text]. Read current institutional page: George’s provision before death in 1639, Thomas’s further endowments, foundation on 19 March 1641, first pupils in 1643. Old founders URL redirects here.</ref>
 
-George is recognized as one of Glasgow’s first bankers. He lent money on simple bonds secured by guarantees from reputable men, charging about 8% interest — an early form of personal and civic credit that anticipated the Bank of Scotland by decades.
-
-=== Civic and Educational Impact ===
-George supported the University of Glasgow and promoted learning, working closely with city leaders and the burgh court. Ten days before his death, he “mortified” a tenement and 20,000 merks (£1,111 2s 2d sterling) to found an almshouse for elderly, destitute men of good character. 
-
-=== Death and Legacy ===
-George died 26 December 1639 and was buried in the family tomb on the east side of Glasgow Cathedral. His brother and heir, Thomas Hutcheson Jr., expanded the bequest, laying the foundation for Hutchesons’ Hospital and School. Their funds were wisely invested in farmlands near the burgh, creating what is now Hutchesontown, and the trust’s endowment would grow into modern times.
-
-Statues of George and Thomas Hutcheson still stand outside the former hospital building off Trongate, preserving their legacy as two of Glasgow’s greatest early benefactors.
-
-== Family ==
-* Father: [[Hutcheson-1647|Thomas Hutcheson Sr. (c. 1510–1594)]]
-* Mother: [[Herbertson-132|Helen Herbertson]]
-* Brother: [[Hutcheson-1650|Thomas Hutcheson Jr. (c. 1560–1641)]]
-* Sisters: Two or three, unnamed
-* Spouse: [[Craig-19072|Elizabeth (Elspeth) Craig (1560–)]]
-* Child: [[Hutcheson-1650|Janet Hutcheson (1587–1684)]]
+George died in December 1639 and was buried at Glasgow Cathedral. The exact day remains disputed: the History of Glasgow gives 26 December, whereas the older Dictionary of National Biography gives 31 December; they also disagree about the side of the cathedral where he was buried. Those particulars require original-record confirmation. <ref name="George2" /><ref name="George3" />
 
 == Research Notes ==
-George’s approach as banker, property holder, and notary shows how Glasgow’s burgher elite turned church lands into a modern civic economy.
+His father is [[Hutcheson-1647|Thomas Hutcheson of Lambhill]], and published biographies name [[Herbertson-132|Helen Herbertson]] as his mother. His younger brother is [[Hutcheson-1649|Thomas Hutcheson]], not Janet Hutcheson. The existing father confidence grade is retained; no maternal grade is inferred from it.
+
+The published 1679 burgh order names [[Hutcheson-1650|Janet Hutcheson in Holland]] as George's natural daughter. It does not identify her with the unnamed girl in the 1588 account or establish her mother. Elspeth Craig's motherhood of the unnamed child must not be transferred to Janet.<ref name="George2" />
+
+The Glasgow City Archives catalogue describes a charter of 2 September 1639 by George of Lambhill granting Ronnaldis zaird and its ruinous house to his brother Mr Thomas. This is catalogue metadata, not a newly inspected charter.<ref>Glasgow City Archives, D/TC/3/1/207, [https://cityarchives.glasgowlife.org.uk/Record.aspx?id=D%2FTC%2F3%2F1%2F207&src=CalmView.catalog catalogue description]. Original uninspected; access restrictions may apply.</ref>
+
+The original kirk-session entry, mortification deeds, testament and burial evidence have not been inspected in this review. Broad inherited citations to Glasgow Town Clerks' Records and George's 1639 will remain research leads rather than inspected evidence. The prior draft's 8% lending rate, exact birthplace, sterling conversion and later personal land-purchase claims are omitted because the present review does not verify them. Hill's ''Early Records of an Old Glasgow Family'' (1902), pp.36–65 remains an earlier general citation, distinct from his 1881 institutional history.<ref>W.H.Hill, ''Early Records of an Old Glasgow Family'' (1902), [https://deriv.nls.uk/dcn23/9556/95565896.23.pdf NLS copy]. Earlier general citation; not newly inspected here.</ref>
+
+Hill’s institutional history (1881), printed p.37, has now been visually checked. It reports 26 December 1639 and burial on the east side of the Cathedral, footnoting George’s Testament Testamentar. This makes 26 December the better-attributed published claim in the sources reviewed here. Henderson’s DNB (1891) gives 31 December and south-side burial without a date-specific citation. The cited testament remains uninspected, so the discrepancy is unresolved at the original-record level.<ref>W.H.Hill, History of the Hospital and School in Glasgow (1881), [https://archive.org/details/historyofhospita00hutc/page/37/mode/1up printed p.37]. Printed page image visually inspected; the footnoted original testament was not inspected.</ref>
 
 == Sources ==
-* *The History of Glasgow, Volume 2, Chapter XX*: [https://www.electricscotland.com/history/glasgow/glasgow2_20.htm](https://www.electricscotland.com/history/glasgow/glasgow2_20.htm)  
-* *Early Records of an Old Glasgow Family (Hill Family 1520–1901)*, W.H. Hill, 1902, pp. 36–65.  
-* Glasgow Town Clerks’ Records  
-* George Hutcheson’s will, 1639.  
-* [https://deriv.nls.uk/dcn23/9556/95565896.23.pdf NLS Hill Family PDF]
+<references />

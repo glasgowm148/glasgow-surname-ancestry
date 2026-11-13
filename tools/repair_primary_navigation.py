@@ -46,6 +46,7 @@ SECTION_SUBMENU_ITEMS = {
         ('/catalogue/?missingProfile=1#catalogue-filters', 'No WikiTree link'),
         ('/catalogue/?needsUpdate=1#catalogue-filters', 'WikiTree updates'),
         ('/catalogue/#research-queue', 'Held &amp; pending research'),
+        ('/notables/', 'Notables'),
         ('/early-records/', 'Early records'),
     ),
     '/branches/': (
@@ -92,7 +93,7 @@ SECTION_ROOTS = {
     'evidence': '/about/', 'feedback': '/about/', 'privacy': '/about/', 'resources': '/about/',
     'statistics': '/about/', 'status': '/about/', 'sitemap': '/about/',
     'branches': '/branches/',
-    'catalogue': '/catalogue/', 'early-records': '/catalogue/', 'people': '/catalogue/',
+    'catalogue': '/catalogue/', 'early-records': '/catalogue/', 'people': '/catalogue/', 'notables': '/catalogue/',
     'map': '/onetree/', 'onetree': '/onetree/', 'places': '/branches/',
     'dna': '/ydna/', 'timeline': '/ydna/', 'ydna': '/ydna/',
     'candidate-matches': '/research/', 'compare': '/research/', 'connections': '/research/',

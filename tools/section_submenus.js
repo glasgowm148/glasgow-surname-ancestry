@@ -73,7 +73,7 @@
       [/^\/(research|sources|records|events|free-space|compare|connections|candidate-matches)(\/|$)/, '/research/'],
       [/^\/(about|evidence|resources|coverage|statistics|data|changes|privacy|feedback|status|sitemap)(\/|$)/, '/about/'],
       [/^\/(branches|places)(\/|$)/, '/branches/'],
-      [/^\/(catalogue|people|early-records)(\/|\.|$)/, '/catalogue/'],
+      [/^\/(catalogue|people|notables|early-records)(\/|\.|$)/, '/catalogue/'],
       // Timeline is part of the Y-DNA section; Map is part of the Atlas.
       [/^\/(ydna|dna|timeline)(\/|$)/, '/ydna/'],
       [/^\/(onetree|map)(\/|$)/, '/onetree/'],
@@ -176,11 +176,12 @@
         make('/onetree/#view=dna', 'Y-DNA'),
         make('/map/', 'Map'),
       ];
-      if (/^\/(catalogue|people|early-records)(\/|$)/.test(path)) return [
+      if (/^\/(catalogue|people|notables|early-records)(\/|$)/.test(path)) return [
         make('/catalogue/', 'People search'),
         make('/catalogue/?missingProfile=1#catalogue-filters', 'No WikiTree link', 'People with no confirmed WikiTree link'),
         make('/catalogue/?needsUpdate=1#catalogue-filters', 'WikiTree updates', 'People whose WikiTree details need updating'),
         make('/catalogue/#research-queue', 'Held & pending research'),
+        make('/notables/', 'Notables'),
         make('/early-records/', 'Early records'),
       ];
       return [];
@@ -188,7 +189,7 @@
     const owned = ownedLinks();
     function owns(url) {
       const target = clean(url.pathname);
-      if (root === '/catalogue/') return /^\/(catalogue|people|early-records)(\/|$)/.test(target);
+      if (root === '/catalogue/') return /^\/(catalogue|people|notables|early-records)(\/|$)/.test(target);
       if (root === '/research/') return /^\/(research|free-space|events|compare|connections|candidate-matches)(\/|$)/.test(target);
       if (root === '/sources/') return /^\/(sources|records|research\/transcriptions)(\/|$)/.test(target);
       if (root === '/about/') return /^\/(about|evidence|resources|coverage|statistics|data|changes|privacy|feedback|status)(\/|$)/.test(target);

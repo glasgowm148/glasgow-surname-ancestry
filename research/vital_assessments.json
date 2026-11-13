@@ -3295,6 +3295,76 @@
       "vital_qualifications": {
         "birth": "Record-derived upper bound, not birth year; no age or birthplace inferred."
       }
+    },
+    {
+      "schema_version": 3,
+      "id": "hutcheson-1648-reviewed-biography-20261113",
+      "subject": "Hutcheson-1648",
+      "status": "approved",
+      "reviewed": "2026-11-13",
+      "basis": "Published biographical accounts reviewed; modern ODNB public extract supplies a 1550–1560 birth range. History of Glasgow II, ch. XX gives 26 December 1639, while DNB1891 gives 31 December. No original birth or burial record inspected. Hill (1881), printed p.37 was subsequently visually inspected: its 26 December statement footnotes the Testament Testamentar; that original remains uninspected.",
+      "source": {
+        "url": "https://doi.org/10.1093/ref:odnb/14275"
+      },
+      "summary": "George of Lambhill: uncertain birth range and source-qualified December 1639 death; family assessments unchanged.",
+      "vitals": {
+        "birth": {
+          "date": "1550–1560",
+          "place": null,
+          "status": "estimated",
+          "label": "Published birth range",
+          "note": "ODNB public extract gives a 1550–1560 range; inherited 1554 and Glasgow birthplace are not established by a birth record. No exact birthday or birthplace inferred.",
+          "source_url": "https://doi.org/10.1093/ref:odnb/14275"
+        },
+        "death": {
+          "date": "1639-12-26",
+          "place": null,
+          "status": "uncertain",
+          "label": "Published date; conflicting account",
+          "note": "Hill’s institutional history (1881), printed p.37, has now been visually checked. It reports 26 December 1639 and burial on the east side of the Cathedral, footnoting George’s Testament Testamentar. This makes 26 December the better-attributed published claim in the sources reviewed here. Henderson’s DNB (1891) gives 31 December and south-side burial without a date-specific citation. The cited testament remains uninspected, so the discrepancy is unresolved at the original-record level.",
+          "source_url": "https://archive.org/details/historyofhospita00hutc/page/37/mode/1up"
+        }
+      },
+      "question": "Can an original burial, testament or contemporary record resolve the disputed death day and birthplace?",
+      "supersedes": [
+        "Inherited 1554 presented without published range",
+        "Exact death day without source-conflict qualification"
+      ]
+    },
+    {
+      "schema_version": 3,
+      "id": "hutcheson-1649-reviewed-biography-20261113",
+      "subject": "Hutcheson-1649",
+      "status": "approved",
+      "reviewed": "2026-11-13",
+      "basis": "Hill (1881), printed pp.49–50 visually inspected: published account and epitaph transcription, not original documents or monument. Age in his fifty-second year supports birth about 1590; exact birthday and birthplace unproved. ODNB public extract independently gives 1589/90–1641.",
+      "source": {
+        "url": "https://deriv.nls.uk/dcn23/9542/95420646.23.pdf"
+      },
+      "summary": "Thomas’s source-qualified birth estimate and reported death replace conflicting inherited early birth values; existing relationship grades unchanged.",
+      "vitals": {
+        "birth": {
+          "date": "about 1590",
+          "place": null,
+          "status": "estimated",
+          "label": "Estimate from published age",
+          "note": "Hill gives death on 1 September 1641 in his fifty-second year, implying birth about 1589/90. About 1590 is a conservative estimate, not an exact birth year or a verified baptism. Earlier 1558/circa1560 claims are superseded; birthplace remains unproved.",
+          "source_url": "https://deriv.nls.uk/dcn23/9542/95420646.23.pdf"
+        },
+        "death": {
+          "date": "1641-09-01",
+          "place": null,
+          "status": "strongly_supported",
+          "label": "Date reported by Hill",
+          "note": "Hill’s printed pp.49–50 have now been visually inspected. Page 49 reports death on 1 September 1641, widow Marion Stewart and no issue, describing a reported legal information referring to their marriage contract and his testament. Page 50 transcribes the epitaph with death in 1641 and age 52, interpreted by Hill as death in his fifty-second year. These are printed secondary-source statements: the original contract, information, testament and monument were not inspected. Marion is identified in Hill’s accompanying narrative, not in the quoted epitaph wording.",
+          "source_url": "https://archive.org/details/historyofhospita00hutc/page/49/mode/1up"
+        }
+      },
+      "question": "Can the original testament, marriage contract or monument independently confirm the published family and date statements?",
+      "supersedes": [
+        "Inherited birth 1558/circa1560",
+        "Blank death field despite the attributed published account"
+      ]
     }
   ]
 }

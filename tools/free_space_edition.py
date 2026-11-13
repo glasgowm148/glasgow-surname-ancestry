@@ -97,7 +97,7 @@ def slug_for(page):
     return title+'-'+digest(page['wikitreeId'])[:6]
 
 
-def prepare(pages, source, summaries):
+def prepare(pages, source, summaries, page_ids=None):
     policy=from_sources();old=json.loads(EDITION.read_text()) if EDITION.exists() else {'pages':{}}
     studies={s['wikitreeId']:s for s in summaries['studies']};inputs={};variants={}
     for captured in source['pages']:
@@ -106,13 +106,21 @@ def prepare(pages, source, summaries):
         else:inputs[canonical]=captured
     output=[]
     for p in pages:
-        p=dict(p);pid=p['wikitreeId'];meta=inputs.get(key(pid));path=ROOT/meta['localFile'] if meta else ROOT/'surname-research/free-space-pages'/EXTRA_FILES[pid[6:]]
+        p=dict(p);pid=p['wikitreeId']
+        if page_ids and pid not in page_ids:
+            if pid not in old['pages']:
+                raise ValueError(f'Scoped render needs existing edition metadata: {pid}')
+            output.append(old['pages'][pid]);continue
+        meta=inputs.get(key(pid));path=ROOT/meta['localFile'] if meta else ROOT/'surname-research/free-space-pages'/EXTRA_FILES[pid[6:]]
+        maintained_override = pid == 'Space:Glasgow Name Study'
+        if maintained_override:
+            path=ROOT/'surname-research/free-space-pages/Glasgow_Name_Study.md'
         body=path.read_text();body,removed=public_text(body,policy,pid)
         previous=old['pages'].get(pid,{})
         # Local edition edits win on subsequent builds; source refresh needs review.
         local=ROOT/previous.get('editionFile',f'research/free-space-pages/edition/{slug_for(p)}.wiki')
         local_edited=bool(previous.get('localEdited'))
-        if previous and local.exists() and (local_edited or digest(local.read_text())!=previous.get('publicHash')):
+        if not maintained_override and previous and local.exists() and (local_edited or digest(local.read_text())!=previous.get('publicHash')):
             body,_=public_text(local.read_text(),policy,pid);local_edited=True
         local.parent.mkdir(parents=True,exist_ok=True);local.write_text(body)
         p.update(localEdited=local_edited,variantFiles=[v['localFile'] for v in variants.get(key(pid),[])],slug=slug_for(p),url='/free-space/'+slug_for(p)+'/',importance=importance({**p,'summary':pid in studies}),summary=studies.get(pid),editionFile=str(local.relative_to(ROOT)),sourceFile=str(path.relative_to(ROOT)),sourceHash=digest(path.read_text()),publicHash=digest(body),omittedPassages=removed,capturedAt=source['capturedAt'] if meta else '2026-08-29',bodyStatus='Blank source' if not body.strip() else 'Local reading edition')
@@ -359,7 +367,7 @@ def directory_main(pages, cards):
 
 
 def build_site(source,pages,studies,page_ids=None):
-    pages=prepare(pages,source,studies);web=ROOT/'www';shell=(web/'research/index.html').read_text();state=json.loads(STATE.read_text()) if STATE.exists() else {'pages':{}}
+    pages=prepare(pages,source,studies,page_ids=page_ids);web=ROOT/'www';shell=(web/'research/index.html').read_text();state=json.loads(STATE.read_text()) if STATE.exists() else {'pages':{}}
     cards=[];index=[]
     study_index=study_place_links.studies_by_person(study_place_links.load_studies(web))
     for p in pages:
@@ -399,6 +407,8 @@ def build_site(source,pages,studies,page_ids=None):
         main=f'<main class="r-main fsp-main" id="main"><header class="r-page-head"><span class="r-kicker">{escape(p["category"])}</span><h1>{escape(p["title"].replace(chr(39)*2,""))}</h1><p>A maintained local edition of the research, with the original sources and assessments.</p><nav class="r-actions"><a href="/free-space/">← Research library</a><a href="{escape(p["viewUrl"],quote=True)}" rel="noopener">WikiTree edition ↗</a><a href="#wikitree-comparison">Compare editions</a></nav>{study_place_links.render_related_studies(study_place_links.wikitree_ids(source_text), study_index)}</header>{position}{notice}<div class="fsp-reading-layout"><aside class="fsp-contents"><details open><summary>On this page</summary><ol>{contents}</ol></details></aside><article class="fsp-reading">{body}{sync_panel}</article></div></main>'
         meta_description = p['title'].replace(chr(39)*2, '') + ': ' + description
         target=web/p['url'].strip('/')/'index.html';target.parent.mkdir(parents=True,exist_ok=True);target.write_text(shell_page(shell,main,p['title'],p['url']+'index.html',meta_description))
+    if page_ids:
+        return {'captures':len(source['pages']),'pages':len(pages),'rendered_pages':sum(p['wikitreeId'] in page_ids for p in pages)}
     main=directory_main(pages,cards)
     target=web/'free-space/index.html';target.parent.mkdir(parents=True,exist_ok=True);target.write_text(shell_page(shell,main,'WikiTree study pages','/free-space/index.html','Browse Glasgow surname studies by topic: medieval names, Scottish records, Irish families, open questions and Y-DNA, with full local research and source references.'))
     (web/'assets/research/free-space-index.json').write_text(json.dumps(index,ensure_ascii=False,separators=(',',':')))

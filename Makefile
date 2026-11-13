@@ -9,11 +9,15 @@ WORKBENCH_DB ?= data/private/workbench/glasgow.sqlite
 # The checkout whose research files the migration reads (never written).
 WORKBENCH_SOURCE ?= .
 
-.PHONY: test validate validate-strict lint check check-browser check-accessibility check-research check-links build rebuild-local build-ancestry-progress migrate-workbench research-views check-workbench check-workbench-views build-workbench-site backup-workbench
+.PHONY: test validate validate-strict lint check check-browser check-accessibility check-research check-links build rebuild-local build-notables build-ancestry-progress migrate-workbench research-views check-workbench check-workbench-views build-workbench-site backup-workbench
 
 # Recompute branch connectivity from the resolved public person dossiers.
 build-ancestry-progress:
 	$(PYTHON) tools/build_ancestry_progress.py
+
+# Rebuild the public Notables route from the maintained Glasgow Name Study section.
+build-notables:
+	$(PYTHON) tools/build_notables.py
 
 test:
 	$(PYTHON) -m unittest discover -s tests -q

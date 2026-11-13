@@ -84851,6 +84851,65 @@
         "research/Glasgow-2988/Glasgow-2988.md",
         "research/source-library/newspaper-targets.json"
       ]
+    },
+    {
+      "id": "hutcheson-founders-biography-foundation-review-20261113",
+      "found_on": "2026-11-13",
+      "kind": "biographical",
+      "status": "qualified",
+      "finding": "George and Thomas Hutcheson’s accounts now distinguish George’s 1639 hospital endowment, Thomas’s 1641 school foundation and first recorded pupil in 1643. Hill reports Thomas’s widow Marion Stewart and death in his fifty-second year, correcting the inherited unmarried description and early birth estimates.",
+      "significance": "Full sourced biographies and conservative date assessments replace contradictory inherited statements without changing family confidence grades.",
+      "qualification": "Published histories, public extracts, institutional accounts and catalogue metadata were reviewed. Hill’s printed pp.37,49–50 have now been visually inspected; underlying original documents remain uninspected. No original marriage contract, testament, charter, kirk-session entry or monument was inspected. George’s exact death day and burial side remain disputed. Janet in Holland is not proved to be the unnamed 1588 girl; her maternity remains unresolved. Endowment amounts differ between published accounts and are attributed rather than harmonised.",
+      "people": [
+        {
+          "id": "Hutcheson-1648",
+          "name": "George Hutcheson",
+          "url": "/people/hutcheson-1648.html"
+        },
+        {
+          "id": "Hutcheson-1649",
+          "name": "Thomas Hutcheson",
+          "url": "/people/hutcheson-1649.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Hill, institutional history (1881), printed pp. 43, 49–50, 58–63, 203–204 and Appendix 239–252",
+          "url": "https://deriv.nls.uk/dcn23/9542/95420646.23.pdf"
+        },
+        {
+          "title": "History of Glasgow II, chapter XX",
+          "url": "https://www.electricscotland.com/history/glasgow/glasgow2_20.htm"
+        },
+        {
+          "title": "Hutchesons’ Grammar School institutional history",
+          "url": "https://www.hutchesons.org/our-school/our-history/"
+        },
+        {
+          "title": "ODNB George public extract",
+          "url": "https://doi.org/10.1093/ref:odnb/14275"
+        },
+        {
+          "title": "ODNB Thomas public extract",
+          "url": "https://doi.org/10.1093/ref:odnb/14276"
+        },
+        {
+          "title": "Hill, printed p.37: George’s reported death",
+          "url": "https://archive.org/details/historyofhospita00hutc/page/37/mode/1up"
+        },
+        {
+          "title": "Hill, printed pp.49–50: Thomas’s widow and epitaph",
+          "url": "https://archive.org/details/historyofhospita00hutc/page/49/mode/1up"
+        }
+      ],
+      "detail_url": "/people/hutcheson-1649.html#research-findings",
+      "relationship_changes": [],
+      "provenance": [
+        "research/Hutcheson-1648/findings.md",
+        "research/Hutcheson-1649/findings.md",
+        "research/Hutcheson-1648/Hutcheson-1648.md",
+        "research/Hutcheson-1649/Hutcheson-1649.md"
+      ]
     }
   ]
 }

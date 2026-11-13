@@ -19,6 +19,7 @@ MARKER = "/* PUBLIC_SEARCH_ROUTES */[]"
 PUBLIC_ROUTES = (
     ("Home", "/", "home", SITE_NAME, "Overview"),
     ("People", "/catalogue/", "people", "Search people, relatives, dates and places", "People Catalogue Catalogue"),
+    ("Notables", "/notables/", "people", "Historical people listed in the Glasgow Name Study, with source and relationship qualifications", "Notables historical figures people"),
     ("Families & places", "/branches/", "people", "Named family and locality pages", "Families and places Branch cards"),
     ("Family tree", "/onetree/", "tree", "Public profiles, branches and Y-DNA tester markers", "Family Atlas Whole tree"),
     ("Ancestry progress", "/latest-findings/#research-progress", "desk", "Early branches, reviewed connections and remaining work", "Paternal connectivity Programme Research progress charts"),
@@ -145,6 +146,10 @@ def _question_rows(site_root: Path) -> list[list[str]]:
 
 def _research_page_rows(site_root: Path) -> list[list[str]]:
     rows = []
+    if (site_root / "notables/index.html").is_file():
+        rows.append(["notables", "Notables", "/notables/",
+                     "Historical people in the Glasgow Name Study, with source and relationship qualifications",
+                     "notables historical figures people Glasgow Name Study", "People"])
     latest = site_root / "latest-findings/index.html"
     if latest.is_file() and 'id="research-progress"' in latest.read_text(encoding="utf-8", errors="ignore"):
         rows.append(["ancestry-progress", "Glasgow ancestry progress", "/latest-findings/#research-progress",

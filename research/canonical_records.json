@@ -595939,5 +595939,149 @@
       "research/Glasgow-2988/findings.md"
     ],
     "country": "united states"
+  },
+  {
+    "place": "Glasgow, Scotland",
+    "country": "scotland",
+    "publication_status": "approved",
+    "record_id": "glasgow-city-archives-hutcheson-charter-1639-207",
+    "association": "George Hutcheson of Lambhill grants Ronnaldis zaird to his brother Thomas",
+    "source_title": "Glasgow City Archives, D/TC/3/1/207: George Hutcheson of Lambhill grants Ronnaldis zaird to his brother Thomas",
+    "source_url": "https://cityarchives.glasgowlife.org.uk/Record.aspx?id=D%2FTC%2F3%2F1%2F207&src=CalmView.catalog",
+    "date": "2 September 1639",
+    "year": 1639,
+    "source_type": "Archive catalogue description of charter",
+    "status": "Catalogue metadata reviewed; original uninspected",
+    "note": "The catalogue title calls Thomas the brother of George Hutcheson of Lambhill and describes a property conveyance. It is a specific brother/property reference; execution wording and the original charter have not been inspected.",
+    "profile_ids": [
+      "Hutcheson-1648",
+      "Hutcheson-1649"
+    ],
+    "role": "Named grantor and brother",
+    "access_limit": "Original not inspected; catalogue advises that restrictions may apply and readers should contact Glasgow City Archives.",
+    "provenance": "Exact catalogue title, reference and date reviewed in the bounded person-sources audit on 13 November 2026; no original record reading claimed.",
+    "reviewed_on": "2026-11-13",
+    "profiles": {
+      "Hutcheson-1648": {
+        "role": "Named grantor; catalogue description only"
+      },
+      "Hutcheson-1649": {
+        "role": "Named brother and grantee; catalogue description only"
+      }
+    },
+    "publish_to_record_index": true,
+    "source_quality": "archive_catalogue",
+    "record_category": "Land and valuation"
+  },
+  {
+    "place": "Glasgow, Scotland",
+    "country": "scotland",
+    "publication_status": "approved",
+    "record_id": "glasgow-city-archives-hutcheson-charter-1641-209",
+    "association": "Thomas Hutcheson of Lambhill grants Ronnaldis zaird to John Herbertson",
+    "source_title": "Glasgow City Archives, D/TC/3/1/209: Thomas Hutcheson of Lambhill grants Ronnaldis zaird to John Herbertson",
+    "source_url": "https://cityarchives.glasgowlife.org.uk/Record.aspx?id=D%2FTC%2F3%2F1%2F209&src=CalmView.catalog",
+    "date": "2 August 1641",
+    "year": 1641,
+    "source_type": "Archive catalogue description of charter",
+    "status": "Catalogue metadata reviewed; original uninspected",
+    "note": "The catalogue describes a property grant by Thomas to John Herbertson, notary. The date is the catalogue date of the instrument, not independently verified proof Thomas personally acted or remained alive that day. No new kinship with Herbertson is inferred.",
+    "profile_ids": [
+      "Hutcheson-1649"
+    ],
+    "role": "Named grantor",
+    "access_limit": "Original not inspected; catalogue advises that restrictions may apply and readers should contact Glasgow City Archives.",
+    "provenance": "Exact catalogue title, reference and date reviewed in the bounded person-sources audit on 13 November 2026; no original record reading claimed.",
+    "reviewed_on": "2026-11-13",
+    "profiles": {
+      "Hutcheson-1649": {
+        "role": "Named grantor; catalogue description only"
+      }
+    },
+    "publish_to_record_index": true,
+    "source_quality": "archive_catalogue",
+    "record_category": "Land and valuation"
+  },
+  {
+    "place": "Glasgow, Scotland",
+    "country": "scotland",
+    "publication_status": "approved",
+    "record_id": "hutcheson-hospital-school-foundation-published-deeds-1639-1643",
+    "association": "George and Thomas Hutcheson: hospital and school foundation",
+    "source_title": "W.H.Hill, History of the Hospital and School in Glasgow founded by George and Thomas Hutcheson (1881), pp.58–63,203–204 and Appendix239–252; institutional school history",
+    "source_url": "https://archive.org/details/historyofhospita00hutc/page/58/mode/2up",
+    "date": "1639–1643",
+    "year": 1639,
+    "source_type": "Published institutional history and deed transcriptions",
+    "status": "Searchable published text reviewed; originals uninspected",
+    "note": "George's deed of 16 December 1639 endowed a charitable hospital for poor older men with Trongate property and 20,000 merks. Thomas ratified the foundation in 1640 and added adjoining property and 20,200 merks for the lodging and education of twelve poor boys by his deed of 9 March 1641. Hospital here means charitable maintenance and accommodation, not a modern medical hospital. The foundation stone on 19 March 1641 and the first recorded boy's admission on 13 November 1643 are separate stages. Hill's published account says Archibald Edmiston initially attended the existing town schools; it does not show that the new foundation already taught all pupils on its own premises. Later incorporation in 1821 was not the original foundation. Sources: [Hill (1881), pp.58–63 and Appendix pp.239–252](https://archive.org/details/historyofhospita00hutc/page/58/mode/2up), [pp.203–204](https://archive.org/details/historyofhospita00hutc/page/203/mode/2up), and [the school's institutional history](https://www.hutchesons.org/our-school/our-history/). Hill's searchable published text was reviewed; manuscript deeds and admission minutes were not inspected. Conflicting published endowment totals are not silently harmonised; amounts are historical merks, with no modern purchasing-power conversion.",
+    "profile_ids": [
+      "Hutcheson-1648",
+      "Hutcheson-1649"
+    ],
+    "role": "Named charitable founders",
+    "source_links": [
+      {
+        "title": "First recorded boy admission, Hill pp.203–204",
+        "url": "https://archive.org/details/historyofhospita00hutc/page/203/mode/2up"
+      },
+      {
+        "title": "Institutional school history",
+        "url": "https://www.hutchesons.org/our-school/our-history/"
+      }
+    ],
+    "access_limit": "Published searchable text and institutional account; original deeds, minutes and manuscript accounts were not inspected. No page-image verification or original transcription is claimed.",
+    "provenance": "Foundation packet reviewed 13 November 2026 using published text and current institutional history; dates distinguish deed, foundation stone and pupil admission.",
+    "reviewed_on": "2026-11-13",
+    "profiles": {
+      "Hutcheson-1648": {
+        "role": "Named charitable founder; published historical account"
+      },
+      "Hutcheson-1649": {
+        "role": "Named charitable founder; published historical account"
+      }
+    },
+    "publish_to_record_index": true,
+    "source_quality": "secondary",
+    "record_category": "Other records"
+  },
+  {
+    "record_id": "thomas-hutcheson-hill-widow-epitaph-1641",
+    "association": "Thomas Hutcheson: widow Marion Stewart, death and epitaph reported by Hill",
+    "source_title": "W.H.Hill, History of the Hospital and School in Glasgow founded by George and Thomas Hutcheson (1881), printed pp.43,49–50",
+    "source_url": "https://deriv.nls.uk/dcn23/9542/95420646.23.pdf",
+    "date": "1 September 1641 (death as reported by Hill)",
+    "year": 1641,
+    "place": "Glasgow, Scotland",
+    "country": "scotland",
+    "source_type": "Published institutional history quoting legal information and epitaph",
+    "status": "Printed pp.49–50 visually inspected; underlying originals uninspected",
+    "note": "Hill reports Thomas’s death on 1 September 1641, survived by widow Marion Stewart and without issue. He describes an information for his relict referring to their marriage contract and his testament appointing her executrix. His printed epitaph gives death in his fifty-second year; this supports birth about 1590, not an exact birth date. The checked passage does not identify Marion’s parents or prove a Blackhall identification. No original contract, testament or monument reading is claimed.",
+    "profile_ids": [
+      "Hutcheson-1649"
+    ],
+    "role": "Named deceased husband",
+    "publication_status": "approved",
+    "access_limit": "Hill’s printed pp.49–50 have now been visually inspected. Page 49 reports death on 1 September 1641, widow Marion Stewart and no issue, describing a reported legal information referring to their marriage contract and his testament. Page 50 transcribes the epitaph with death in 1641 and age 52, interpreted by Hill as death in his fifty-second year. These are printed secondary-source statements: the original contract, information, testament and monument were not inspected. Marion is identified in Hill’s accompanying narrative, not in the quoted epitaph wording.",
+    "provenance": "Hill’s printed pp.49–50 visually inspected on 13 November 2026; no original contract, information, testament or monument inspection. Stable printed-page links used.",
+    "source_links": [
+      {
+        "title": "Hill, printed p.49",
+        "url": "https://archive.org/details/historyofhospita00hutc/page/49/mode/1up"
+      },
+      {
+        "title": "Hill, printed p.50",
+        "url": "https://archive.org/details/historyofhospita00hutc/page/50/mode/1up"
+      }
+    ],
+    "reviewed_on": "2026-11-13",
+    "profiles": {
+      "Hutcheson-1649": {
+        "role": "Named deceased husband; Hill’s published account, originals uninspected"
+      }
+    },
+    "publish_to_record_index": true,
+    "source_quality": "secondary",
+    "record_category": "Wills and probate"
   }
 ]

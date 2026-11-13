@@ -52,6 +52,7 @@ step 0 research-queue      $PY tools/build_research_queue.py
 # 2. People. The sync exits 1 when findings exist for people with no page yet
 #    (it lists them); that is reported, not a reason to stop.
 step 1 sync-research       $PY tools/sync_catalogue_research.py --write
+step 0 notables            $PY tools/build_notables.py
 step 0 person-pages        $PY tools/repair_person_hierarchy.py
 # Study pages link only people whose page exists, and family pages keep the study
 # links their region had when first written: refresh both now every page exists.
