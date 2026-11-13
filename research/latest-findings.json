@@ -84938,6 +84938,38 @@
         "research/Glasgow-1075/father-confidence-2026-10-22.wiki",
         "research/Glasgow-1075/findings.md"
       ]
+    },
+    {
+      "id": "stewart-62608-source-event-type-marriage-20261113",
+      "found_on": "2026-11-13",
+      "kind": "biographical",
+      "status": "qualified",
+      "finding": "James Stewart’s own expanded FamilySearch source XTBC-H9V labels the Glasgow event of 4 July 1632 as Marriage and names the source-defined couple James Stewart and Margaret Glasgow. This supports the July date over the transposed 7 April date in inherited profile material.",
+      "significance": "Resolves the prior packet question about the index event type and supports the exact source-defined person mapping; no birth date or relationship confidence changes.",
+      "qualification": "Expanded attached-source fields were freshly checked in the saved live-review receipt. The original parish register was not inspected, so the inherited April/July conflict remains an original-image question. FamilySearch birth 1610 and copied parents are not endorsed.",
+      "people": [
+        {
+          "id": "Stewart-62608",
+          "name": "James Stewart",
+          "url": "https://www.wikitree.com/wiki/Stewart-62608"
+        },
+        {
+          "id": "Glasgow-1100",
+          "name": "Margaret Glasgow",
+          "url": "/people/glasgow-1100.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "FamilySearch attached-source details: James Stewart and Margaret Glasgow, 4 July 1632, Glasgow, Event Type Marriage",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:XTBC-H9V"
+        }
+      ],
+      "detail_url": "/people/glasgow-1100.html#research-findings",
+      "relationship_changes": [],
+      "provenance": [
+        "research/Glasgow-1100/findings.md"
+      ]
     }
   ]
 }

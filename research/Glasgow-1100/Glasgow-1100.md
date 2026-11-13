@@ -37,7 +37,7 @@ The profile material gives two transposed dates for Margaret's marriage: 7
 April 1632 in the structured field and 4 July 1632 in the cited biography. The
 associated source is Glasgow OPR 644/1, reference 230/109. Neither date should
 be presented as settled until the original entry is checked; the 1633 burgess
-record independently establishes the marriage itself.
+record independently establishes the marriage itself. The expanded attached FamilySearch source [https://www.familysearch.org/ark:/61903/1:1:XTBC-H9V XTBC-H9V], freshly checked on 13 November 2026, explicitly labels the event Marriage, 4 July 1632, Glasgow. This supports the July reading and resolves the index event-type question; it is not a new inspection of the original register. James’s FamilySearch birth estimate and copied parents are not endorsed.
 
 Because the record documents baptism rather than birth, it does not prove an
 exact birth date.

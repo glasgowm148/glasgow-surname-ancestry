@@ -1,6 +1,6 @@
 # Findings: [Glasgow-1100](https://www.wikitree.com/wiki/Glasgow-1100)
 
-Last updated: 2026-10-07
+Last updated: 2026-11-13
 
 
 <!-- opr-birth-review-row-13 -->
@@ -10,7 +10,7 @@ Last updated: 2026-10-07
 Current father assessment (22 October 2026): **99% (proved)** for [Glasgow-1099](https://www.wikitree.com/wiki/Glasgow-1099). Confident for the recorded daughter; witness names do not alone establish additional kin. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 <!-- site-audit-2026-10-07:overall-conclusion -->
-Margaret Glasgow was baptised at Glasgow High Kirk on 6 May 1610, a daughter of George Glasgow and Margaret Steuart, and married James Stewart (Stewart-62608), merchant. Her father, George Glasgow (Glasgow-1099), merchant and burgess, is proved by the baptism together with the Glasgow burgess register, which admitted James Stewart on 18 July 1633 by right of his wife Margaret, lawful daughter of George Glasgow; her mother rests on the baptism alone. The burgess entry proves the marriage; the profile dates it both 7 April and 4 July 1632, and neither is settled. A 1636 testament index entry for a Margaret in Byris of Kilwinning is only a possible match.
+Margaret Glasgow was baptised at Glasgow High Kirk on 6 May 1610, a daughter of George Glasgow and Margaret Steuart, and married James Stewart (Stewart-62608), merchant. Her father, George Glasgow (Glasgow-1099), merchant and burgess, is proved by the baptism together with the Glasgow burgess register, which admitted James Stewart on 18 July 1633 by right of his wife Margaret, lawful daughter of George Glasgow; her mother rests on the baptism alone. The burgess entry proves the marriage; the profile dates it both 7 April and 4 July 1632. The freshly checked FamilySearch attached-source fields explicitly label 4 July 1632 as Marriage, supporting the July date; the original register remains uninspected. A 1636 testament index entry for a Margaret in Byris of Kilwinning is only a possible match.
 
 ## Source findings
 
@@ -84,3 +84,7 @@ Next useful test: Use the original OPR 1/233 entry if a reading conflict appears
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [Scotland's People, Glasgow High Kirk baptisms 1609–1777, entry for Margaret Glasgow, 6 May 1610, reference 1/233.](https://www.wikitree.com/wiki/Glasgow-1100)
+
+## Source findings — James Stewart’s marriage event type, 13 November 2026
+
+James Stewart’s own expanded attached [FamilySearch source XTBC-H9V](https://www.familysearch.org/ark:/61903/1:1:XTBC-H9V) explicitly labels the event **Marriage**, dated **4 July 1632**, at Glasgow, with Margaret Glasgow. The fresh saved review supports the source-defined couple James Stewart (Stewart-62608; FamilySearch 9Q65-R62) and Margaret Glasgow (Glasgow-1100; 9Q65-RXM). It resolves the earlier packet question about whether the indexed event was a marriage and supports the July date over the inherited transposed 7 April date. The original parish register was not inspected; the underlying image remains the test for that conflict. No 1610 birth estimate or FamilySearch parent attachments for James are endorsed, and no vital date, parent role or confidence grade was changed.
