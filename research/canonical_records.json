@@ -596194,5 +596194,34 @@
     "publication_status": "approved",
     "provenance": "Root direct visual verification of public leaf498, Lanark206 bottom-left; image /tmp/fs-pre1600-active/retours-lanark205-leaf498.jpg.",
     "publication_year": 1811
+  },
+  {
+    "record_id": "retours-lanark-205-elizabeth-hutchesone-1642",
+    "association": "Elizabeth Hutchesone, widow of James Pollok, served heir-portioner to her brother Thomas Hutchesoun of Lambhill",
+    "source_title": "Great Britain, Record Commission, Inquisitionum ad capellam domini regis retornatarum, quae in publicis archivis Scotiae adhuc servantur, abbreviatio, vol. I (London, 1811), Lanark no. 205; register xvi, 232",
+    "source_url": "https://archive.org/details/inquisitionumadc00grea/page/n498/mode/1up",
+    "source_type": "Published abstract of a contemporary retour",
+    "status": "Printed abstract visually verified by root on 13 November 2026; original retour/register uninspected",
+    "date": "24 May 1642",
+    "year": 1642,
+    "date_status": "recorded",
+    "place": "Auchingray and Caldercruikis, parish of Monkland, Lanarkshire, Scotland (property context)",
+    "note": "Lanark no.205 styles Elizabetha Hutchesone as relicta Jacobi Pollok civis Glasguensis (widow of James Pollok, citizen of Glasgow), and heir-portioner of Magistri Thomae Hutchesoun de Lambhill, fratris (her brother, Mr Thomas Hutchesoun of Lambhill), in the four-pound lands of Auchingray and forty-shilling lands of Caldercruikis with mill, parish of Monkland. James was deceased by the 24 May 1642 service; before 25 May 1642 is a conservative database death boundary, not an exact death date. This abstract calls him a citizen, not a cooper. It supplies no James parentage, birth, or proof of identity with Flemington, Ardmillan or Polquhirter men. The James cooper testament confirmations of 5 February and 12 August 1644 are separate unassigned entries and are not death dates. Adjacent no.206 is a separate record handled in another proposal.",
+    "profiles": {
+      "Pollok-99": {
+        "role": "James Pollok, deceased husband, styled Glasgow citizen",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Hutcheson-1655": {
+        "role": "Elizabeth/Bessie Hutchesone, widow and heir-portioner",
+        "timeline_group": "Family and estate"
+      },
+      "Hutcheson-1649": {
+        "role": "Mr Thomas Hutchesoun of Lambhill, deceased brother of Elizabeth and subject of service",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "publication_status": "approved",
+    "provenance": "Root visually verified public printed Lanark no.205, leaf498, on13November2026; vol.I1811 title-page metadata verified. Original retour/register uninspected. FS source WJ62-V4Y is a qualified candidate attachment to MXZX-ZY6; L414-4YJ remains a compatible unresolved alternative, not excluded or merged."
   }
 ]

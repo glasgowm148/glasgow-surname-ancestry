@@ -3479,6 +3479,25 @@
         "lanark-retour-206-hutcheson-coheirs-1642",
         "hill1881-hutcheson-sisters-duncan-p8"
       ]
+    },
+    {
+      "id": "pollok-99-retour-death-bound-20261113",
+      "subject": "Pollok-99",
+      "status": "approved",
+      "reviewed": "2026-11-13",
+      "basis": "Printed Lanark retour205, 24 May 1642, directly styles Elizabeth Hutchesone widow of James Pollok, citizen of Glasgow. Original retour uninspected; exact FS candidate identification remains qualified.",
+      "vitals": {
+        "death": {
+          "date": "before 1642-05-25",
+          "display_date": "Deceased by 24 May 1642",
+          "place": null,
+          "status": "before",
+          "qualifier": "Inclusive boundary from widow wording in the printed abstract, not exact death date/place; property places do not establish death place."
+        }
+      },
+      "source_ids": [
+        "retours-lanark-205-elizabeth-hutchesone-1642"
+      ]
     }
   ]
 }

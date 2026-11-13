@@ -85127,6 +85127,44 @@
         "Canonical records lanark-retour-206-hutcheson-coheirs-1642 and hill1881-hutcheson-sisters-duncan-p8",
         "research/Hutcheson-1654/findings.md"
       ]
+    },
+    {
+      "id": "pollok-elizabeth-retour205-source-scope-20261113",
+      "found_on": "2026-11-13",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "The inspected printed Lanark retour205 of 24 May 1642 names Elizabeth Hutchesone as widow of James Pollok, citizen of Glasgow, and heir-portioner of her brother Thomas Hutchesoun of Lambhill. James was deceased by that date.",
+      "significance": "Supplies a source-defined deceased-by boundary and replaces the draft’s placeholder with the existing James profile; no relationship confidence upgrade.",
+      "qualification": "Printed abstract verified; original retour/register uninspected. Citizen is explicit; cooper, parentage, Pollok-of-that-Ilk descent and Flemington/Ardmillan/Polquhirter identities are not proved. The two 1644 cooper testament confirmations remain unassigned, not exact death dates. FS MXZX-ZY6 remains a qualified medium candidate and L414-4YJ a compatible unresolved alternative; no merge, new relative or live WikiTree edit.",
+      "people": [
+        {
+          "id": "Pollok-99",
+          "name": "James Pollok",
+          "url": "https://www.wikitree.com/wiki/Pollok-99"
+        },
+        {
+          "id": "Hutcheson-1655",
+          "name": "Elizabeth Hutcheson",
+          "url": "/people/hutcheson-1655.html"
+        },
+        {
+          "id": "Hutcheson-1649",
+          "name": "Thomas Hutcheson of Lambhill",
+          "url": "/people/hutcheson-1649.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Great Britain, Record Commission, Inquisitionum ad capellam domini regis retornatarum, quae in publicis archivis Scotiae adhuc servantur, abbreviatio, vol. I (London, 1811), Lanark no. 205; register xvi, 232",
+          "url": "https://archive.org/details/inquisitionumadc00grea/page/n498/mode/1up"
+        }
+      ],
+      "detail_url": "/people/hutcheson-1655.html#research-findings",
+      "relationship_changes": [],
+      "provenance": [
+        "Canonical record retours-lanark-205-elizabeth-hutchesone-1642",
+        "research/Hutcheson-1655/findings.md"
+      ]
     }
   ]
 }
