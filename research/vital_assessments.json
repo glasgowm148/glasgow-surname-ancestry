@@ -3399,6 +3399,37 @@
         "Imported exact birth date 1569-10-02 as an asserted birth event; raw capture retained"
       ],
       "scope": "Child vital-date interpretation only; existing indexed-parent identifications remain qualified and no relationship claim/grade is revised."
+    },
+    {
+      "schema_version": 3,
+      "id": "edstoun-3-testament-appearance-birth-bound-20261113",
+      "subject": "Edstoun-3",
+      "status": "approved",
+      "reviewed": "2026-11-13",
+      "basis": "The held Margaret Glasgow testament account, NRS CC8/8/8 images 355–356, and its printed/index entry dated 8 November 1580 name John Edstoun as spouse/sometime husband in Croftmalloch. FMP SCOT/WILLS/057454 and Ancestry 1610/1285143 reproduce this same underlying index entry, not independent corroboration. No new original-image inspection.",
+      "source": {
+        "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FWILLS%2F057454&tab=this"
+      },
+      "summary": "Record a conservative birth upper bound before 1581 from the dated appearance of the named spouse, without a birth-place or death-date inference. Imported raw death-before 1580 remains an unproved legacy observation.",
+      "vitals": {
+        "birth": {
+          "date": "before 1581",
+          "place": null,
+          "status": "uncertain",
+          "label": "Conservative bound from dated documentary appearance",
+          "note": "John is named as Margaret Glasgow’s spouse/sometime husband in the testament account indexed 8 November 1580. Birth before 1581 is a conservative existence bound, not a birth year, age, birthplace, proof he was alive on the index date or a death date. The raw WikiTree death-before 1580 and Whitburn location remain legacy observations, not conclusions established by this source.",
+          "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FWILLS%2F057454&tab=this",
+          "source_level": "Held testament transcription and derivative printed/provider index; original not newly inspected",
+          "qualifier": "Record-derived upper bound only; no precise birth, birthplace or death established."
+        }
+      },
+      "vital_qualifications": {
+        "death": "The 8 November 1580 index/confirmation date is not John’s death date and does not prove the imported death-before 1580 claim. Retain raw import as unreviewed legacy, without inferring a replacement death or place."
+      },
+      "source_ids": [
+        "ancestry-1610-1285143"
+      ],
+      "scope": "John’s record-derived birth bound only. Margaret’s maternity, John’s spouse role and the private unreviewed father hypothesis remain distinct; no relationship assessment or percentage changes."
     }
   ]
 }
