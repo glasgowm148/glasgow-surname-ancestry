@@ -33,7 +33,7 @@ def notables_lines():
     match = re.search(r'^== Notables ==\s*$([\s\S]*?)(?=^== |\Z)', text, re.M)
     if not match:
         raise RuntimeError('Notables section missing from maintained Glasgow Name Study')
-    return [line for line in match.group(1).splitlines() if line.lstrip().startswith('*')]
+    return [line for line in match.group(1).splitlines() if line.lstrip().startswith('*') and not line.lstrip().startswith('**')]
 
 
 def useful_date(value):
@@ -129,24 +129,53 @@ def link(url, label):
     return f'<a href="{escape(url, quote=True)}"{external}>{escape(label)}</a>'
 
 
+def brief_summary(person):
+    """Short, source-maintained-fact summaries for the public index."""
+    summaries = {
+        'Glasgow-1030': 'Jhone Glasgow completed a master’s degree; reviewed records do not identify him as Kilbirnie minister, and no family connection is established.',
+        'Glasgow-1101': 'The 1635 Glasgow graduate is probably the Donegal cleric appointed in 1661; this identification does not prove migration or birthplace.',
+        'Glasgow-1073': 'Rev. John Glasgow served Kilbirnie; Jean Cunningham is named as his wife, while his parents remain uncertain.',
+        'Glasgow-1077': 'Ayrshire records identify a merchant namesake; the reported Irvine provost identity remains unverified and is not linked to the minister’s household.',
+        'Glasgow-1136': 'A Glasgow M.A. identified in the maintained study; its current entry gives dates but no further biography or family connection.',
+        'Glasgow-1075': 'Surgeon Robert Glasgow was Rev. John’s son and Jean Cunningham’s son; Paterson names Margaret Allan as his wife.',
+        'Glasgow-3410': 'A Glasgow M.A. identified in the maintained study; its current entry gives dates but no further biography or family connection.',
+        'Glasgow-634': 'James Glasgow served as North Carolina Secretary of State; published biography names Maryland minister James Patrick Glasgow as his father.',
+        'Glasgow-1076': 'Robert Glasgow owned plantations and enslaved people on St Vincent and commissioned Montgreenan; his assessed father link remains unselected.',
+        'Glasgow-1220': 'William Glass founded the British settlement on Tristan da Cunha; the catalogue’s birth year differs from the inherited date.',
+        'Glasgow-971': 'Alexander Glasgow was a Scottish merchant and Cork landowner; his proposed ancestry through John remains possible, not established.',
+        'Glasgow-473': 'Ellen Glasgow was an American novelist who won the 1942 Pulitzer Prize; no family connection to earlier Scottish branches is stated.',
+        'Glasgow-773': 'Sir Thomas Glasgow was an Australian soldier, politician and diplomat; his career does not establish an early Scottish family connection.',
+        'Hutcheson-1648': 'George Hutcheson co-founded Glasgow’s hospital and school with his brother Thomas; both were sons of Thomas Hutcheson of Lambhill.',
+        'Hutcheson-1649': 'Thomas Hutcheson continued the hospital endowment and school; his maintained father assessment names Thomas Hutcheson of Lambhill.',
+        'Glasgow-3958': 'Jemima Glasgow was the mother of novelist Baroness von Tautphoeus; her proposed father James Glasgow remains unselected.',
+        'Montgomery-24362': 'Jemima Montgomery, Baroness von Tautphoeus, was an Irish novelist and daughter of Jemima Glasgow and James Montgomery.',
+        'Boyle-1708': 'David Boyle was a Scottish politician and University of Glasgow rector; Earl of Glasgow is a title, not his surname.',
+        'Glasgow-635': 'Patrick Glasgow ministered at Manokin and All Hallows; identifying him as politician James Glasgow’s father remains unverified.',
+    }
+    return summaries.get(person['id'], person['rationale'])
+
+
 def render():
     data = rows()
     body_rows = []
     for p in data:
-        citations = '<ul>' + ''.join('<li>' + (link(urls[0], cite) if urls else escape(cite)) + '</li>' for cite, urls in p['citations']) + '</ul>' if p['citations'] else '<span>Sources are listed on the profile.</span>'
-        relations = '<ul>' + ''.join('<li>' + escape(r['relationship'].title()) + ': ' + link(r['url'], r['name']) + ' — ' + escape(r['status']) + (f' ({r["percent"]}%)' if r['percent'] is not None else '') + (f' — {"selected working connection" if r["selection"] == 1 or r["selection"] is True else "not selected" if r["selection"] == 0 or r["selection"] is False else "alternative" if r["lifecycle"] == "alternative" else r["lifecycle"]}' if r['selection'] is not None or r['lifecycle'] else '') + ((': '+escape(r['basis'])) if r['basis'] else '') + ((' Limits: '+escape(r['scope'])) if r['scope'] else '') + '</li>' for r in p['relationships']) + '</ul>' if p['relationships'] else '<span>No reviewed family connection listed.</span>'
-        fs = link('https://www.familysearch.org/tree/person/details/'+p['fs'], 'FamilySearch profile') if p['fs'] else 'No FamilySearch profile is linked'
-        portrait_text = p['rationale'].lower()
-        portrait = ('Portrait selected' if 'selected as the portrait by the owner' in portrait_text else
-                    'Portrait saved; image and title checked; profile selection pending' if 'saved on familysearch' in portrait_text and 'single memory and title have been verified' in portrait_text else
-                    'Portrait source listed for a relative; no portrait claimed for this person' if 'portrait source for the daughter' in portrait_text else
-                    'Portrait source available; verification and selection pending' if 'portrait' in portrait_text else
-                    'No verified portrait source listed')
+        sources = []
+        for cite, urls in p['citations']:
+            for url in urls:
+                if url not in [u for u, _ in sources]:
+                    sources.append((url, 'Source'))
+            if len(sources) >= 2:
+                break
+        source_links = ' · '.join(link(url, label) for url, label in sources[:2]) or link(p['profile'], 'Sources')
+        wiki = link(f'https://www.wikitree.com/wiki/{p["id"]}', 'WikiTree')
+        research = link(p['profile'], 'Research')
+        fs = link('https://www.familysearch.org/tree/person/details/'+p['fs'], 'FamilySearch') if p['fs'] else ''
+        summary = brief_summary(p)
         fs_search = p['fs'] or 'No FamilySearch profile is linked'
-        search_text = ' '.join([p['name'], p['dates'], p['rationale'], fs_search, portrait] +
+        search_text = ' '.join([p['name'], p['dates'], p['rationale'], fs_search, summary] +
                                [f"{r['name']} {r['relationship']} {r['status']} {r['basis']}" for r in p['relationships']] +
                                [cite for cite, _ in p['citations']])
-        body_rows.append(f'<tr data-search="{escape(search_text.casefold(),quote=True)}"><th scope="row">{link(p["profile"],p["name"])}<br><small>{escape(p["dates"])}</small></th><td>{escape(p["rationale"])}</td><td>{relations}</td><td>{citations}<p>{fs}</p></td><td>{escape(portrait)}</td></tr>')
+        body_rows.append(f'<tr data-search="{escape(search_text.casefold(),quote=True)}"><th scope="row">{link(p["profile"],p["name"])}<br><small>{escape(p["dates"])}</small></th><td>{escape(summary)}</td><td>{wiki} · {research}{(" · "+fs) if fs else ""} · {source_links}</td></tr>')
     table = ''.join(body_rows)
     shell = (WEB/'research/index.html').read_text(encoding='utf-8')
     shell = re.sub(r'<title>.*?</title>', f'<title>{page_title("Notables")}</title>', shell, count=1, flags=re.S)
@@ -157,9 +186,9 @@ def render():
     shell = re.sub(r'<meta content="The Glasgow surname (?:archive|project):[^\"]*" name="description"\s*/?>', '<meta content="Historical people identified in the Glasgow Name Study, with source and relationship qualifications." name="description">', shell, count=1)
     shell = shell.replace('data-g-path="/research/index.html"','data-g-path="/notables/index.html"',1).replace('<strong>Research</strong>','<strong>Notables</strong>',1)
     shell = re.sub(r'<nav class="v3-view-nav" aria-label="Section views">.*?</nav>', '', shell, count=1, flags=re.S)
-    main = f'''<main class="r-main" id="main"><header class="v3-page-head"><span class="r-kicker">People in the Glasgow Name Study</span><h1>Notables</h1><p>This index follows the maintained Notables section in the <a href="/free-space/">Glasgow Name Study</a>. The historical list is a discovery aid: a shared surname or profile label alone does not prove a family connection.</p></header><section aria-labelledby="notables-index"><h2 id="notables-index">Historical people and their evidence</h2><label for="notables-filter">Filter people</label> <input id="notables-filter" type="search" placeholder="Name, dates, or description"><p id="notables-count" aria-live="polite">{len(data)} entries</p><div class="notables-table-wrap"><table id="notables-table"><thead><tr><th scope="col"><button data-sort="0">Person</button></th><th scope="col"><button data-sort="1">Why notable</button></th><th scope="col"><button data-sort="2">Family connections</button></th><th scope="col"><button data-sort="3">Profile and sources</button></th><th scope="col">Portrait status</th></tr></thead><tbody>{table}</tbody></table></div></section><p class="notables-method">Family connections reproduce current reviewed assessments, including alternatives and unselected links. An absent connection is not evidence against kinship. Follow the cited sources and person accounts for identity limits.</p></main>'''
+    main = f'''<main class="r-main" id="main"><header class="v3-page-head"><span class="r-kicker">People in the Glasgow Name Study</span><h1>Notables</h1><p>This index follows the maintained Notables section in the <a href="/free-space/">Glasgow Name Study</a>. Family and identity qualifications remain in the linked research accounts.</p></header><section aria-labelledby="notables-index"><h2 id="notables-index">Historical people</h2><label for="notables-filter">Filter people</label> <input id="notables-filter" type="search" placeholder="Name, dates, or description"><p id="notables-count" aria-live="polite">{len(data)} entries</p><div class="notables-table-wrap"><table id="notables-table"><thead><tr><th scope="col"><button data-sort="0">Person</button></th><th scope="col"><button data-sort="1">Why notable</button></th><th scope="col">Profiles and sources</th></tr></thead><tbody>{table}</tbody></table></div></section></main>'''
     shell = re.sub(r'<main class="r-main" id="main">.*?</main>', main, shell, count=1, flags=re.S)
-    script = '''<script>(()=>{const t=document.querySelector('#notables-table'),q=document.querySelector('#notables-filter'),n=document.querySelector('#notables-count'),b=[...t.tBodies[0].rows];function filter(){let s=q.value.trim().toLocaleLowerCase(),v=0;b.forEach(r=>{r.hidden=!r.dataset.search.includes(s);if(!r.hidden)v++});n.textContent=v+' of '+b.length+' entries'}q.addEventListener('input',filter);t.querySelectorAll('[data-sort]').forEach(x=>x.addEventListener('click',()=>{let i=+x.dataset.sort,rows=[...t.tBodies[0].rows],asc=x.dataset.asc!=='true';x.dataset.asc=String(asc);rows.sort((a,b)=>{let A=a.cells[i].innerText.trim(),B=b.cells[i].innerText.trim();return (A.localeCompare(B,undefined,{numeric:true,sensitivity:'base'}))*(asc?1:-1)}).forEach(r=>t.tBodies[0].append(r))}))})();</script>'''
+    script = '''<script>(()=>{const t=document.querySelector('#notables-table'),q=document.querySelector('#notables-filter'),n=document.querySelector('#notables-count'),b=[...t.tBodies[0].rows];function filter(){let s=q.value.trim().toLocaleLowerCase(),v=0;b.forEach(r=>{r.hidden=!r.dataset.search.includes(s);if(!r.hidden)v++});n.textContent=v+' of '+b.length+' entries'}q.addEventListener('input',filter);t.querySelectorAll('[data-sort]').forEach(x=>x.addEventListener('click',()=>{let i=+x.dataset.sort,rows=[...t.tBodies[0].rows],asc=x.dataset.asc!=='true';x.dataset.asc=String(asc);t.querySelectorAll('thead th').forEach((h,j)=>h.setAttribute('aria-sort',j===i?(asc?'ascending':'descending'):'none'));rows.sort((a,b)=>{let A=a.cells[i].innerText.trim(),B=b.cells[i].innerText.trim();return (A.localeCompare(B,undefined,{numeric:true,sensitivity:'base'}))*(asc?1:-1)}).forEach(r=>t.tBodies[0].append(r))}))})();</script>'''
     shell = shell.replace('</head>', '<style>.notables-table-wrap{overflow-x:auto;max-width:100%}#notables-table{width:100%;border-collapse:collapse}#notables-table th,#notables-table td{border-bottom:1px solid #c8cfc4;padding:.75rem;text-align:left;vertical-align:top}#notables-table thead{background:#eef1e9}#notables-table th button{font:inherit;font-weight:700;color:inherit;background:none;border:0;text-decoration:underline;cursor:pointer}#notables-table ul{padding-left:1.2rem;margin:.25rem 0}#notables-filter{max-width:100%;padding:.6rem;border:1px solid #66745e;border-radius:.3rem}@media(max-width:700px){#notables-table{min-width:760px}}</style></head>',1)
     shell = shell.replace('</body>', script+'</body>', 1)
     out = WEB/'notables/index.html'; out.parent.mkdir(parents=True, exist_ok=True); out.write_text(shell, encoding='utf-8')

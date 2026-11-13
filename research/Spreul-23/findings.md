@@ -4,6 +4,12 @@
 
 The father relationship with [Unknown Spreull](https://www.wikitree.com/wiki/Spreull-17) is assessed as **confident**. Metcalfe p.104's specific succession statement identifies the Cambuslang vicar's son and heir as father of the Provost of Renfrew; Spreull-17 is the record-defined vicar/heir-generation placeholder used for that father.
 
+## Draft reconciliation — 13 November 2026
+
+The complete maintained draft now follows the existing conclusion: the Provost was the Cambuslang vicar’s grandson through the unnamed son and heir represented by Spreull-17. Its earlier sentence calling him the vicar’s son has been corrected. Metcalfe does not name the Provost; identifying the named John Sprewle of the 1649 printed report with the 1630 commissioner remains an office/surname/chronology inference. The report describes apprehension on allegations of witchcraft, not proved witchcraft.
+
+FamilySearch candidates PQ6D-BXP and PW7S-HWX remain unresolved alternatives; the town-clerk account KZYG-RDF does not automatically prove its attached father to be this Provost. No merge, live parent change, new relationship assessment or percentage follows from this draft maintenance. The inherited circa-1590 birth remains an estimate; before 1631 is only a conservative existence bound from the reported 1630 office. Original burgh and kinship instruments remain uninspected.
+
 ## Source findings
 
 ## Father relationship assessment — 28 September 2026
