@@ -40,7 +40,7 @@ Thomas’s careful property acquisition and family strategy laid the groundwork 
 
 == Research Notes ==
 
-The currently attached father [[Hutcheson-1651|John Hutcheson]] is marked uncertain. Only local tradition says John had Thomas as child; no inspected charter, baptism, testament, or other record names Thomas as John's son.
+The currently attached father [[Hutcheson-1651|John Hutcheson]] remains marked uncertain. Hill’s visually inspected printed p. 53 explicitly identifies Thomas as the younger son of John Hutcheson in Gairbraid and Marion Wilson or Jarden. This is explicit compiled parentage evidence, but the existing John profile mixes the senior identity with the eldest son John’s wife, Agnes Anderson. The exact attached profile-ID relationship therefore remains uncertain without a percentage; the underlying charter and manuscript originals have not been inspected.
 
 * ''Spelling:'' Early charters show the spelling “Hutchesoune.”
 * ''Chronology:'' Conflicting guardianship anecdotes can be reconciled by noting that George was managing family affairs well before their father’s official death.
@@ -53,3 +53,7 @@ The currently attached father [[Hutcheson-1651|John Hutcheson]] is marked uncert
 * [https://books.google.com/books?id=D9MMAwAAQBAJ&pg=PA78 Early Records of an Old Glasgow Family, by W.H. Hill]
 * [https://www.theglasgowstory.com/image/?inum=TGSA02080 The Glasgow Story]
 * Glasgow Town Clerks’ Records and charter sasines (1579–1606)
+
+
+== Parentage source correction — 13 November 2026 ==
+Hill’s [https://archive.org/download/earlyrecordsofol00hill/page/n78.jpg inspected printed p. 53] names Thomas as younger son of John in Gairbraid and Marion Wilson or Jarden. Agnes Anderson belongs to Thomas’s elder brother John. The attached John profile mixes those generations; its father link stays uncertain without a percentage, and Agnes’s imported maternal role must not be transferred as proved. Original charters remain uninspected; no parent attachment or merge is made.

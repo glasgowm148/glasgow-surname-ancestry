@@ -596083,5 +596083,32 @@
     "publish_to_record_index": true,
     "source_quality": "secondary",
     "record_category": "Wills and probate"
+  },
+  {
+    "record_id": "hill1902-hutcheson-gairbraid-parentage-p53",
+    "association": "Hill’s compiled Gairbraid parentage distinguishes senior John and Marion from eldest John and Agnes",
+    "source_title": "W.H. Hill, The Early Records of an Old Glasgow Family (1902), printed p.53",
+    "source_url": "https://archive.org/download/earlyrecordsofol00hill/page/n78.jpg",
+    "date": "1582 charter reported; compiled account published 1902",
+    "year": 1582,
+    "place": "Gairbraid, Barony Parish of Glasgow, Scotland",
+    "country": "scotland",
+    "source_type": "Compiled family history reporting charter evidence",
+    "status": "Printed page visually inspected; underlying charter uninspected",
+    "note": "Hill explicitly names Thomas Hutcheson, father of the founders, as younger son of John Hutcheson in Gairbraid and Marion Wilson or Jarden. A19November1582 confirmation favoured that couple and their eldest son John; Hill assigns Agnes Anderson, daughter of William Anderson and Janet Maxwell, to the eldest son. The eldest John or his son John, husband of Janet Johnstone, apparently conveyed Gairbraid or its reversion to nephew/cousin George on5August1600; the alternative actor and tentative wording remain. The preceding traditional Thomas of1555/1563 is a different passage. Captured Hutcheson1651 mixes senior identity with eldest son’s wife; exact profile-ID reconciliation remains held.",
+    "profiles": {
+      "Hutcheson-1651": {
+        "role": "Existing Gairbraid John profile under senior/eldest-son identity review"
+      },
+      "Hutcheson-1647": {
+        "role": "Thomas, founders’ father, explicitly named younger son"
+      },
+      "Anderson-95451": {
+        "role": "Agnes assigned to Thomas’s elder brother, not his mother"
+      }
+    },
+    "publication_status": "approved",
+    "access_limit": "Public-domain printed image inspected; cited1582 charter and manuscript originals not inspected. Printed p53 checked directly; no guessed PDF page offset.",
+    "provenance": "Visual source review13November2026; no live platform edit or new person/parent created."
   }
 ]

@@ -2345,19 +2345,19 @@
       "Hutcheson-1647"
     ],
     "status": "uncertain",
-    "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "basis": "Hill (1902), printed p.53, visually inspected, explicitly identifies Thomas the founders’ father as younger son of John Hutcheson in Gairbraid and Marion Wilson or Jarden. The attached father profile Hutcheson-1651 combines this senior identity with Agnes Anderson, assigned by Hill to the senior John’s eldest son John. The historical parent clause is explicit compiled evidence, but the exact attached profile identity still requires reconciliation; retain uncertain without a percentage.",
     "source_ids": [],
-    "source_summary": "Only local tradition says John had Thomas as child; no inspected charter, baptism, testament, or other record names Thomas as John's son.",
-    "assessment_date": "2026-09-28",
-    "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
+    "source_summary": "Hill (1902), printed p.53, visually inspected, explicitly identifies Thomas the founders’ father as younger son of John Hutcheson in Gairbraid and Marion Wilson or Jarden. The attached father profile Hutcheson-1651 combines this senior identity with Agnes Anderson, assigned by Hill to the senior John’s eldest son John. The historical parent clause is explicit compiled evidence, but the exact attached profile identity still requires reconciliation; retain uncertain without a percentage.",
+    "assessment_date": "2026-11-13",
+    "identity_scope": "Exact attached profile-ID pair remains uncertain because Hutcheson-1651 conflates senior John with eldest son’s wife; compiled parent clause explicit; original charter uninspected.",
     "perspectives": {
       "Hutcheson-1647": {
         "relationship": "father",
-        "reason": "Only local tradition says John had Thomas as child; no inspected charter, baptism, testament, or other record names Thomas as John's son."
+        "reason": "Hill (1902), printed p.53, visually inspected, explicitly identifies Thomas the founders’ father as younger son of John Hutcheson in Gairbraid and Marion Wilson or Jarden. The attached father profile Hutcheson-1651 combines this senior identity with Agnes Anderson, assigned by Hill to the senior John’s eldest son John. The historical parent clause is explicit compiled evidence, but the exact attached profile identity still requires reconciliation; retain uncertain without a percentage."
       },
       "Hutcheson-1651": {
         "relationship": "son",
-        "reason": "Only local tradition says John had Thomas as child; no inspected charter, baptism, testament, or other record names Thomas as John's son."
+        "reason": "Hill (1902), printed p.53, visually inspected, explicitly identifies Thomas the founders’ father as younger son of John Hutcheson in Gairbraid and Marion Wilson or Jarden. The attached father profile Hutcheson-1651 combines this senior identity with Agnes Anderson, assigned by Hill to the senior John’s eldest son John. The historical parent clause is explicit compiled evidence, but the exact attached profile identity still requires reconciliation; retain uncertain without a percentage."
       }
     },
     "analysis_links": [
@@ -2372,7 +2372,18 @@
       "reviewed_at": "2026-09-28",
       "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
       "live_wikitree_status": "uncertain"
-    }
+    },
+    "assessment_history": [
+      {
+        "status": "uncertain",
+        "probability_percent": null,
+        "assessment_date": "2026-11-13",
+        "source_basis": "Hill (1902), printed p.53, visually inspected, explicitly identifies Thomas the founders’ father as younger son of John Hutcheson in Gairbraid and Marion Wilson or Jarden. The attached father profile Hutcheson-1651 combines this senior identity with Agnes Anderson, assigned by Hill to the senior John’s eldest son John. The historical parent clause is explicit compiled evidence, but the exact attached profile identity still requires reconciliation; retain uncertain without a percentage."
+      }
+    ],
+    "reason": "Hill (1902), printed p.53, visually inspected, explicitly identifies Thomas the founders’ father as younger son of John Hutcheson in Gairbraid and Marion Wilson or Jarden. The attached father profile Hutcheson-1651 combines this senior identity with Agnes Anderson, assigned by Hill to the senior John’s eldest son John. The historical parent clause is explicit compiled evidence, but the exact attached profile identity still requires reconciliation; retain uncertain without a percentage.",
+    "limitations": "Underlying1582 charter and cited manuscript not inspected. Senior John, eldest son John (Agnes Anderson), and grandson John (Janet Johnstone) must remain distinct. No replacement parent attachment, new person, merge or endorsement of Agnes as Thomas’s mother.",
+    "probability": null
   },
   {
     "assertion_id": "C-father-audit-20260928-johnstoun-29-johnstoun-30",

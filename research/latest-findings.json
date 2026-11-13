@@ -84970,6 +84970,60 @@
       "provenance": [
         "research/Glasgow-1100/findings.md"
       ]
+    },
+    {
+      "id": "hutcheson-gairbraid-generations-source-conflict-20261113",
+      "found_on": "2026-11-13",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Hill’s inspected printed p.53 names Thomas Hutcheson, the founders’ father, as younger son of John in Gairbraid and Marion Wilson or Jarden. Agnes Anderson married their eldest son John. The captured senior John profile and imported Agnes-as-Thomas’s-mother role conflate these generations.",
+      "significance": "Corrects the prior only-local-tradition explanation and places the exact imported mother/spouse roles on a source-conflict hold. The attached father relationship remains uncertain without a percentage; no replacement attachment, duplicate person or merge.",
+      "qualification": "Compiled printed page visually inspected; underlying charter and manuscripts uninspected. Hutcheson-1651 mixes senior identity with eldest son’s wife. Native mother/spouse assertions were absent; snapshot/import roles are held explicitly, not assigned invented grades. The eldest John or his son John apparently made the1600 disposition; neither actor is selected.",
+      "people": [
+        {
+          "id": "Hutcheson-1651",
+          "name": "John Hutcheson in Gairbraid",
+          "url": "https://www.wikitree.com/wiki/Hutcheson-1651"
+        },
+        {
+          "id": "Hutcheson-1647",
+          "name": "Thomas Hutcheson",
+          "url": "/people/hutcheson-1647.html"
+        },
+        {
+          "id": "Anderson-95451",
+          "name": "Agnes Anderson",
+          "url": "https://www.wikitree.com/wiki/Anderson-95451"
+        }
+      ],
+      "sources": [
+        {
+          "title": "W.H. Hill, The Early Records of an Old Glasgow Family (1902), inspected printed p.53",
+          "url": "https://archive.org/download/earlyrecordsofol00hill/page/n78.jpg"
+        }
+      ],
+      "detail_url": "/people/hutcheson-1647.html#research-findings",
+      "relationship_changes": [],
+      "source_conflict_holds": [
+        {
+          "subject": "Hutcheson-1647",
+          "role": "mother",
+          "relative": "Anderson-95451",
+          "basis": "Hill assigns Agnes to Thomas’s elder brother John, not his father; do not transfer imported maternity as proved."
+        },
+        {
+          "subject": "Hutcheson-1651",
+          "role": "spouse",
+          "relative": "Anderson-95451",
+          "basis": "Current profile mixes senior John identity and eldest son John’s wife; do not transfer as verified senior couple."
+        }
+      ],
+      "retained_father_assertion": "C-father-audit-20260928-hutcheson-1651-hutcheson-1647",
+      "retained_father_status": "uncertain",
+      "provenance": [
+        "research/Hutcheson-1651/findings.md",
+        "research/Hutcheson-1647/findings.md"
+      ]
     }
   ]
 }

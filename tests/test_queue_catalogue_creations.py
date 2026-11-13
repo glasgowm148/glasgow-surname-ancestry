@@ -237,6 +237,10 @@ The deed does not give her birth date. No compatible profile survived the docume
             cases.resolve_relative_urls(dossier,{})
             self.assertEqual(row['wikitree_url'],row['url'])
             self.assertEqual('Example-2',row['id'])
+            # Imported external relatives can explicitly have no local URL.
+            missing={'id':'Example-3','url':None}
+            cases.resolve_relative_urls({'relationships':{'parents':[missing]}},{})
+            self.assertIsNone(missing['url'])
             account=self.root/'research/ancestry-connections/documentary-people.json'
             account.parent.mkdir(parents=True,exist_ok=True)
             account.write_text(json.dumps({'people':[{'id':'record-parent-1600','name':'Parent',

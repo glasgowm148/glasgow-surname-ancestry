@@ -103,7 +103,7 @@ def resolve_relative_urls(dossier, links):
     accounts = None
     for relatives in dossier.get('relationships', {}).values():
         for relative in relatives:
-            ident, href = relative.get('id', ''), relative.get('url', '')
+            ident, href = relative.get('id', ''), relative.get('url') or ''
             if ident in links or not href.startswith('/people/') or (WEB / href.lstrip('/')).is_file():
                 continue
             if ident.startswith('record-'):

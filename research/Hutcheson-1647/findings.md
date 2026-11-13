@@ -2,7 +2,7 @@
 
 ## Current conclusion
 
-The father relationship with [John Hutcheson](https://www.wikitree.com/wiki/Hutcheson-1651) is assessed as **uncertain**. Only local tradition says John had Thomas as child; no inspected charter, baptism, testament, or other record names Thomas as John's son.
+The father relationship with [John Hutcheson](https://www.wikitree.com/wiki/Hutcheson-1651) is assessed as **uncertain**. Hill’s visually inspected printed p. 53 explicitly names Thomas as younger son of John in Gairbraid and Marion Wilson or Jarden. The existing John profile mixes senior and eldest-son identities, so the attached profile-ID father link remains uncertain; no original charter has been inspected.
 
 ## Source findings
 
@@ -45,3 +45,7 @@ The captured WikiTree biography gives the following title sequence, citing W. H.
 The charters name Helen Herbertson as Thomas's wife and show him alive in the 1580s. His death about 1594 is an inference from George's infeftment of April 1596, in which Thomas is described as deceased. Before 1600 the Scottish year began on 25 March, so the January 1587 novodamus may be 1587/88 unless Hill modernised the date.
 
 Recorded in `research/Hutcheson-1647/Hutcheson-1647.md` (28 September 2026); carried into this file on 7 October 2026.
+
+## Source findings — parentage source correction and maternal import hold, 13 November 2026
+
+Hill (1902), [printed p. 53, visually checked](https://archive.org/download/earlyrecordsofol00hill/page/n78.jpg), explicitly names Thomas as younger son of John in Gairbraid and Marion Wilson or Jarden. Agnes Anderson is assigned to Thomas’s elder brother John, not his father; the imported Agnes-as-mother role is held from transfer. See the [John identity account](/people/hutcheson-1651.html) and maintained proposed biography for the senior/eldest-son conflation. The exact attached father link remains uncertain without a percentage; original 1582 charter and 1881 pp. 5–6 remain next tests. No new parent or profile was created. The dated September assessment above is retained as historical reasoning, superseded on the “only local tradition” point by the inspected printed page.
