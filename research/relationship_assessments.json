@@ -113745,6 +113745,74 @@
     }
   },
   {
+    "assertion_id": "clm-29d323af0e0b043e",
+    "people": [
+      "Hutcheson-1647",
+      "record-marion-wilson-jarden-gairbraid"
+    ],
+    "claim": "Hill (1902) printed p. 53 explicitly calls Thomas Hutcheson, father of the founders, the younger son of senior John in Gairbraid and Marion Wilson or Jarden; maternal attribution retained with compiled-source and identity-review limitations.",
+    "relation_type": "unknown",
+    "perspectives": {
+      "Hutcheson-1647": {
+        "relationship": "mother"
+      },
+      "record-marion-wilson-jarden-gairbraid": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "hill1902-hutcheson-gairbraid-parentage-p53"
+    ],
+    "provenance": {
+      "source": "genealogy-research-workbench database",
+      "claim_id": "clm-29d323af0e0b043e"
+    },
+    "status": "uncertain",
+    "assessment_date": "2026-11-13",
+    "basis": "The inspected printed page explicitly names Marion as Thomas’s mother and distinguishes the senior couple from eldest John and Agnes. Record-level attribution is direct in a compiled source. The charter/manuscripts remain uninspected and external profile identification is not finalized; preserve an explicit qualitative uncertainty rather than inventing an exact percentage.",
+    "assessment_history": [
+      {
+        "status": "uncertain",
+        "probability_percent": null,
+        "assessment_date": "2026-11-13",
+        "source_basis": "The inspected printed page explicitly names Marion as Thomas’s mother and distinguishes the senior couple from eldest John and Agnes. Record-level attribution is direct in a compiled source. The charter/manuscripts remain uninspected and external profile identification is not finalized; preserve an explicit qualitative uncertainty rather than inventing an exact percentage."
+      },
+      {
+        "status": null,
+        "probability_percent": null,
+        "assessment_date": null,
+        "source_basis": null
+      }
+    ],
+    "reason": "The inspected printed page explicitly names Marion as Thomas’s mother and distinguishes the senior couple from eldest John and Agnes. Record-level attribution is direct in a compiled source. The charter/manuscripts remain uninspected and external profile identification is not finalized; preserve an explicit qualitative uncertainty rather than inventing an exact percentage.",
+    "limitations": "Compiled secondary account explicitly names the mother; original1582 charter/manuscripts remain uninspected. Wilson/Jarden are recorded names, not a proved maiden surname. No birth place, survival in1582 or death date inferred. FS GPYT-31C identity remains separate and unconfirmed; no live mother copy authorized. Father revision3 and Agnes source-conflict hold remain unchanged.",
+    "probability": null,
+    "source_summary": "Hill (1902) printed p. 53 explicitly names Marion Wilson or Jarden as mother of Thomas the founders’ father; original uninspected.",
+    "identity_scope": "Named record-defined mother; pending exact external-profile identity review, not an absence of a maternal clause.",
+    "working_selection": true,
+    "attachment_status": "proposed",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "tree_parent_replacement": {
+      "child": "Hutcheson-1647",
+      "mother": "record-marion-wilson-jarden-gairbraid",
+      "previous_parent": "Anderson-95451",
+      "reason": "Proposed maternal correction from inspected Hill p53; requires separate WikiTree identity/create review before a live change.",
+      "reviewed": "2026-11-13"
+    },
+    "working_parent_replacement": {
+      "previous_parent": "Anderson-95451",
+      "reason": "Hill assigns Agnes to Thomas’s eldest brother John; preserve the imported Agnes role on source-conflict hold while selecting the named Marion in the local working account."
+    },
+    "model_note": "Current working mother from the explicit compiled maternal clause; FS GPYT-31C identity is separate/unconfirmed and does not control local selection.",
+    "profile_names": {
+      "Hutcheson-1647": "Thomas Hutcheson",
+      "record-marion-wilson-jarden-gairbraid": "Marion Wilson or Jarden"
+    }
+  },
+  {
     "assertion_id": "clm-3503b4a169ed79f6",
     "people": [
       "Glasgow-3163",

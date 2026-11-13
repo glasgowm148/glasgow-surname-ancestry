@@ -84976,9 +84976,9 @@
       "found_on": "2026-11-13",
       "kind": "relationship",
       "status": "qualified",
-      "finding": "Hill’s inspected printed p.53 names Thomas Hutcheson, the founders’ father, as younger son of John in Gairbraid and Marion Wilson or Jarden. Agnes Anderson married their eldest son John. The captured senior John profile and imported Agnes-as-Thomas’s-mother role conflate these generations.",
-      "significance": "Corrects the prior only-local-tradition explanation and places the exact imported mother/spouse roles on a source-conflict hold. The attached father relationship remains uncertain without a percentage; no replacement attachment, duplicate person or merge.",
-      "qualification": "Compiled printed page visually inspected; underlying charter and manuscripts uninspected. Hutcheson-1651 mixes senior identity with eldest son’s wife. Native mother/spouse assertions were absent; snapshot/import roles are held explicitly, not assigned invented grades. The eldest John or his son John apparently made the1600 disposition; neither actor is selected.",
+      "finding": "Hill’s inspected printed p. 53 names Thomas Hutcheson, the founders’ father, as younger son of senior John in Gairbraid and Marion Wilson or Jarden. Marion now has a complete source-defined account and is the selected working mother, uncertain without a percentage. Agnes Anderson belongs to the eldest son John’s family.",
+      "significance": "Integrates the already-reviewed compiled maternal clause into the current working account and complete Marion draft. Existing father uncertainty and Agnes import hold remain; this is not a new source discovery or live mother replacement.",
+      "qualification": "Compiled printed page visually inspected; charter/manuscripts uninspected. Mother is selected locally with qualitative uncertainty, not an invented percentage; separate FS candidate GPYT-31C has a compatible medium own-family match, while its displayed dates and extra ancestry remain unproved. Wilson/Jarden are recorded aliases, maiden surname and parents unproved. The before 1583 bound does not establish birthplace, survival in 1582 or death. Senior John, eldest John and grandson John remain distinct; father assessment revision 3 unchanged. FamilySearch GPYT-31C is now linked to Thomas PJ3T-SGD as a qualified uncertain working mother, verified after saving; the original charter remains uninspected and no percentage is assigned. This does not endorse the inherited dates, parents or extra children. No live WikiTree edit has been performed.",
       "people": [
         {
           "id": "Hutcheson-1651",
@@ -84994,11 +84994,16 @@
           "id": "Anderson-95451",
           "name": "Agnes Anderson",
           "url": "https://www.wikitree.com/wiki/Anderson-95451"
+        },
+        {
+          "id": "record-marion-wilson-jarden-gairbraid",
+          "name": "Marion Wilson or Jarden",
+          "url": "/people/record-marion-wilson-jarden-gairbraid.html"
         }
       ],
       "sources": [
         {
-          "title": "W.H. Hill, The Early Records of an Old Glasgow Family (1902), inspected printed p.53",
+          "title": "W.H. Hill, The Early Records of an Old Glasgow Family (1902), inspected printed p. 53",
           "url": "https://archive.org/download/earlyrecordsofol00hill/page/n78.jpg"
         }
       ],
@@ -85022,7 +85027,8 @@
       "retained_father_status": "uncertain",
       "provenance": [
         "research/Hutcheson-1651/findings.md",
-        "research/Hutcheson-1647/findings.md"
+        "research/Hutcheson-1647/findings.md",
+        "research/record-marion-wilson-jarden-gairbraid/findings.md"
       ]
     },
     {

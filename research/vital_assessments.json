@@ -3430,6 +3430,32 @@
         "ancestry-1610-1285143"
       ],
       "scope": "John’s record-derived birth bound only. Margaret’s maternity, John’s spouse role and the private unreviewed father hypothesis remain distinct; no relationship assessment or percentage changes."
+    },
+    {
+      "schema_version": 3,
+      "id": "marion-wilson-jarden-gairbraid-birth-bound-20261113",
+      "subject": "record-marion-wilson-jarden-gairbraid",
+      "status": "approved",
+      "reviewed": "2026-11-13",
+      "basis": "Hill (1902) inspected printed p. 53 names Marion in the reported 19 November 1582 confirmation; original charter/manuscripts uninspected.",
+      "source": {
+        "url": "https://archive.org/download/earlyrecordsofol00hill/page/n78.jpg"
+      },
+      "summary": "Conservative birth upper bound before 1583 from naming in the reported confirmation; no birthday, age, birthplace, survival in 1582 or death inferred.",
+      "vitals": {
+        "birth": {
+          "date": "before 1583",
+          "place": null,
+          "status": "uncertain",
+          "label": "Upper bound from named recipient in a reported charter",
+          "note": "Marion is named in the reported 1582 confirmation. Birth before 1583 is a conservative record-derived upper bound; a legal confirmation may name a person posthumously. No age, exact birth, birthplace, survival in 1582 or death is established. Wilson/Jarden are recorded names, not a proved maiden surname.",
+          "source_url": "https://archive.org/download/earlyrecordsofol00hill/page/n78.jpg"
+        }
+      },
+      "source_ids": [
+        "hill1902-hutcheson-gairbraid-parentage-p53"
+      ],
+      "scope": "Record-defined Marion’s date bound only; no FS identity or extra ancestry adopted."
     }
   ]
 }

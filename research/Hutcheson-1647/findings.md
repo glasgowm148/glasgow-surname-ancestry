@@ -4,6 +4,8 @@
 
 The father relationship with [John Hutcheson](https://www.wikitree.com/wiki/Hutcheson-1651) is assessed as **uncertain**. Hill’s visually inspected printed p. 53 explicitly names Thomas as younger son of John in Gairbraid and Marion Wilson or Jarden. The existing John profile mixes senior and eldest-son identities, so the attached profile-ID father link remains uncertain; no original charter has been inspected.
 
+Mother in the current working account: [Marion Wilson or Jarden](/people/record-marion-wilson-jarden-gairbraid.html), selected with qualitative **uncertain** status and no individual percentage on Hill’s explicit compiled clause. The original charter remains uninspected, the compatible FS identity remains a qualified working match, and the imported Agnes role is held.
+
 ## Source findings
 
 ## Father relationship assessment — 28 September 2026
@@ -49,3 +51,7 @@ Recorded in `research/Hutcheson-1647/Hutcheson-1647.md` (28 September 2026); car
 ## Source findings — parentage source correction and maternal import hold, 13 November 2026
 
 Hill (1902), [printed p. 53, visually checked](https://archive.org/download/earlyrecordsofol00hill/page/n78.jpg), explicitly names Thomas as younger son of John in Gairbraid and Marion Wilson or Jarden. Agnes Anderson is assigned to Thomas’s elder brother John, not his father; the imported Agnes-as-mother role is held from transfer. See the [John identity account](/people/hutcheson-1651.html) and maintained proposed biography for the senior/eldest-son conflation. The exact attached father link remains uncertain without a percentage; original 1582 charter and 1881 pp. 5–6 remain next tests. No new parent or profile was created. The dated September assessment above is retained as historical reasoning, superseded on the “only local tradition” point by the inspected printed page.
+
+## Source findings — Marion’s current working maternal account, 13 November 2026
+
+[Marion Wilson or Jarden](/people/record-marion-wilson-jarden-gairbraid.html) now has a complete source-defined account and draft. The explicit compiled maternal clause is selected locally with qualitative **uncertain** status and no individual percentage; the original charter remains uninspected. The separate FS candidate GPYT-31C has a compatible medium own-family match; its displayed dates/extra ancestry are unproved and are not used as the reason for local selection. Agnes’s imported maternity stays on hold, the father assessment remains revision 3/uncertain without a percentage, and FamilySearch GPYT-31C is now linked to Thomas PJ3T-SGD as a qualified uncertain working mother, verified after saving; the original charter remains uninspected and no percentage is assigned. This does not endorse the inherited dates, parents or extra children. No live WikiTree edit has been performed.

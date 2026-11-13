@@ -43170,6 +43170,33 @@
       "preserve_captured_detail": false,
       "preservation_review_path": "research/ancestry-connections/hutcheson-notables-preservation-2026-11-13.json",
       "relationship_changes": []
+    },
+    "Hutcheson-1647": {
+      "status": "OPEN",
+      "queued_at": "2026-11-13",
+      "significance": 90,
+      "summary": "Review complete Thomas biography and explicit Hill p53 maternal clause. Marion Wilson/Jarden is the uncertain current working mother; old Agnes import remains held. Identify/create the reviewed mother profile before a separately authorized live replacement. Father uncertainty/grades unchanged.",
+      "draft_path": "research/Hutcheson-1647/maternal-source-review-2026-11-13.wiki",
+      "manual_update": false,
+      "reviewed_narrative_reduction": true,
+      "preserve_captured_detail": false,
+      "preservation_review_path": "research/ancestry-connections/hutcheson-notables-preservation-2026-11-13.json",
+      "relationship_changes": [
+        {
+          "relationship": "mother",
+          "action": "replace",
+          "relative_id": "record-marion-wilson-jarden-gairbraid",
+          "previous_relative_id": "Anderson-95451",
+          "status": "uncertain",
+          "assessment_after": "uncertain",
+          "scope": "Local current working mother from explicit compiled maternal clause. No exact percentage; identify/create reviewed WikiTree destination before any live replacement.",
+          "source_ids": [
+            "hill1902-hutcheson-gairbraid-parentage-p53"
+          ],
+          "assertion_id": "clm-29d323af0e0b043e",
+          "previous_status_provenance": "Current WikiTree capture imports Anderson-95451 as mother with no native maternal assessment; existing source-conflict hold retained. No prior percentage is invented."
+        }
+      ]
     }
   },
   "reviewed_on": "2026-10-22",
@@ -414274,6 +414301,72 @@
       ],
       "birth_note": "The first held policy entry names John Glasgow as an insured manufacturer at Anderston on 1 October 1788. Before 1789 is a conservative record-derived upper bound, not a birth year, exact birthday or inferred age. No birthplace is established; same-man continuity with the 1792 policy remains tentative.",
       "birth_location": ""
+    },
+    {
+      "catalogue_id": "record-marion-wilson-jarden-gairbraid",
+      "subject_id": "hill1902-marion-wilson-jarden-gairbraid",
+      "name": "Marion Wilson or Jarden",
+      "first_names": [
+        "Marion"
+      ],
+      "last_names_at_birth": [],
+      "last_names_current": [
+        "Wilson",
+        "Jarden"
+      ],
+      "gender": "Female",
+      "birth": "before 1583",
+      "birth_note": "Record-derived upper bound from naming in the reported 1582 confirmation; not a birth year or age.",
+      "birth_location": "",
+      "birth_location_note": "No birthplace inferred.",
+      "death": "",
+      "death_location": "",
+      "death_location_note": "No death date or survival in 1582 inferred.",
+      "occupations": [],
+      "historical_basis": {
+        "latest_birth_year": 1582,
+        "source_url": "https://archive.org/download/earlyrecordsofol00hill/page/n78.jpg",
+        "note": "Named recipient in reported 1582 confirmation; chronological upper bound only."
+      },
+      "source_subject_url": "https://archive.org/download/earlyrecordsofol00hill/page/n78.jpg",
+      "research_subject_url": "/people/record-marion-wilson-jarden-gairbraid.html",
+      "draft_path": "research/record-marion-wilson-jarden-gairbraid/profile-draft.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n{{Estimated Date}}\n\n== Biography ==\n'''Marion Wilson, also called Jarden''', is named by W.H. Hill as the wife of the senior John Hutcheson in Gairbraid and mother of Thomas Hutcheson, father of George and Thomas, the charitable founders.<ref name=\"Hill (1902)p53\">W.H. Hill, ''The Early Records of an Old Glasgow Family'' (1902), [https://archive.org/download/earlyrecordsofol00hill/page/n78.jpg printed p. 53]. Printed page visually inspected13 November 2026; underlying charter and genealogical manuscripts uninspected.</ref>\n\nHill reports a charter of confirmation dated19 November 1582 favouring John, Marion Wilson aliter Jarden and their eldest son John. This supplies a conservative record-derived birth upper bound before 1583 for Marion. It does not provide an exact birthday, age, birthplace, evidence she was still alive in 1582, or a death date.<ref name=\"Hill (1902)p53\" />\n\nHill explicitly calls [[Hutcheson-1647|Thomas Hutcheson]], the founders’ father, the younger son of John and Marion. Their eldest son John married Agnes, daughter of William Anderson of Stobcross and Janet Maxwell. Agnes belongs to that eldest son John’s family; she is not the mother assigned to Thomas in this account.<ref name=\"Hill (1902)p53\" />\n\n== Research Notes ==\nWilson and Jarden are recorded name forms. Neither is independently proved here to be a maiden surname, and no parents are assigned to Marion. This is one source-defined woman, not two women created from the alias.\n\nThe existing John profile has combined senior identity and eldest son’s wife. Its father assessment remains uncertain without a percentage. The imported Agnes-as-Thomas’s-mother role remains on hold. This draft does not perform a live parent replacement or merge. The local working account selects Marion as Thomas’s mother with an uncertain qualitative assessment and no individual percentage, on this explicit compiled statement. The charter original remains uninspected.\n\nThe original 1582 confirmation cited by Hill (Genealogical MSS. of Hills etc., No.5), the 1881 Hospital history pp. 5–6, and compatible existing profile identities are the next checks. The compatible GPYT-31C household is used as a qualified working identification; its additional dates and ancestors are not established.\n\nA public mention of Marion Wilson with William Maxwell has no own checkable person ID or identity bridge. It remains an unresolved lead and is not excluded as necessarily a different woman. Three bounded official WikiTree queries and the project QMD search found no compatible person profile ID; that is not an exhaustive proof of absence.\n\nThe fresh own-family readback for FamilySearch GPYT-31C is a compatible medium person match: wife of GPYR-JMS with eldest John GPYR-GNX. Its displayed dates, parents and extra Sir Knight James are unproved and are not copied; FamilySearch GPYT-31C is now linked to Thomas PJ3T-SGD as a qualified uncertain working mother, verified after saving; the original charter remains uninspected and no percentage is assigned. This does not endorse the inherited dates, parents or extra children. No live WikiTree edit has been performed.\n\n== Sources ==\n<references />\n",
+      "assessment": "Hill’s inspected printed p. 53 explicitly names Marion Wilson or Jarden as mother of Thomas Hutcheson, the founders’ father. This source-defined woman is the current working mother, assessed uncertain without a percentage because the account is compiled and the original charter remains uninspected. The external FamilySearch household is a compatible medium person match; its dates and extra ancestry remain unproved and do not determine the local maternal selection.",
+      "current_conclusion": "Hill’s inspected printed p. 53 explicitly names Marion Wilson or Jarden as mother of Thomas Hutcheson, the founders’ father. This source-defined woman is the current working mother, assessed uncertain without a percentage because the account is compiled and the original charter remains uninspected. The external FamilySearch household is a compatible medium person match; its dates and extra ancestry remain unproved and do not determine the local maternal selection. FamilySearch GPYT-31C is now linked to Thomas PJ3T-SGD as a qualified uncertain working mother, verified after saving; the original charter remains uninspected and no percentage is assigned. This does not endorse the inherited dates, parents or extra children. No live WikiTree edit has been performed.",
+      "current_questions": [
+        "Can the original 1582 confirmation verify the compiled parentage and name forms?",
+        "Does the unresolved Marion Wilson/William Maxwell mention identify this same woman?",
+        "Can a documentary bridge confirm the compatible FS GPYT-31C identity beyond the named household?"
+      ],
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-11-13",
+      "candidates": [],
+      "duplicate_audit": {
+        "reviewed_on": "2026-11-13",
+        "scope": "Native labels/name aliases, three official WikiTree queries and project QMD.",
+        "result": "No compatible checkable person ID found; not exhaustive proof of absence.",
+        "unresolved_mention": "Marion Wilson with William Maxwell has no own ID or identity bridge; retained unresolved, not excluded as different."
+      },
+      "records": [
+        {
+          "year": "1582 confirmation reported by Hill",
+          "filter_year": 1582,
+          "family_group": "Hutcheson Gairbraid",
+          "region": "Glasgow, Scotland",
+          "record_location": "Gairbraid, Barony Parish of Glasgow, Scotland",
+          "association": "Named Marion recipient and explicit mother of Thomas in Hill’s compiled Gairbraid account",
+          "note": "Inspected printed p.53; reported confirmation dated 19 November 1582. Property/source context, not birthplace or proof of survival; charter original uninspected. Wilson/Jarden are recorded aliases, not a proved maiden surname.",
+          "source_title": "W.H. Hill, The Early Records of an Old Glasgow Family (1902), printed p. 53",
+          "source_url": "https://archive.org/download/earlyrecordsofol00hill/page/n78.jpg",
+          "source_type": "Compiled family history reporting charter evidence",
+          "source_quality": "secondary",
+          "source_status": "Printed page inspected; charter original uninspected",
+          "supplement_id": "hill1902-marion-wilson-jarden-gairbraid",
+          "canonical_record_id": "hill1902-hutcheson-gairbraid-parentage-p53",
+          "independence_group": "hill1902-gairbraid-p53"
+        }
+      ]
     }
   ]
 }
