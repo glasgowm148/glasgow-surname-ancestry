@@ -596136,5 +596136,63 @@
     "publication_status": "approved",
     "access_limit": "Provider index fields and saved citation/notes verified in the live source readback; original parish-register image not inspected.",
     "provenance": "13 November 2026: saved source WJ68-57H on FamilySearch person PJCC-372 verified with exact record URL and event fields. Raw imported exact birth and place fields remain legacy observations."
+  },
+  {
+    "record_id": "hill1881-hutcheson-sisters-duncan-p8",
+    "association": "Janet Hutcheson, wife/relict of David Duncan",
+    "source_title": "W.H. Hill, History of the Hospital and School in Glasgow (1881), printed p. 8 and footnote 2",
+    "source_url": "https://archive.org/details/historyofhospita00hutc/page/8/mode/1up",
+    "source_type": "Compiled historical account",
+    "status": "Printed page visually inspected; original precept, contract and testament uninspected",
+    "date": "15 June 1642 (reported precept)",
+    "year": 1642,
+    "date_status": "reported_document_date",
+    "note": "Hill names David as Janet’s husband and calls her the founders’ eldest sister. The division contract leaves Duncan’s given name blank; footnote 2 cites the Gairbraid precept of clare constat, 15 June 1642, naming David and calling Janet his relict. David deceased by that date is a derived boundary, not exact death. Apparent only son George Duncan of Barrowfield is qualified compiled narrative, not a new attachment. No birth/place/parentage or burgess status established.",
+    "profiles": {
+      "Duncan-27082": {
+        "role": "Named husband, reported deceased by 15 June 1642",
+        "timeline_group": "Family and estate"
+      },
+      "Hutcheson-1654": {
+        "role": "Named wife/relict",
+        "timeline_group": "Family and estate"
+      }
+    },
+    "publication_status": "approved",
+    "provenance": "Root visually inspected Hill1881 printed p8; saved FS source WJ6N-T64 fresh verified; same compiled passage, not independent evidence."
+  },
+  {
+    "record_id": "lanark-retour-206-hutcheson-coheirs-1642",
+    "association": "Helen Hutcheson, widow of Ninian Hill, and Janet Hutcheson, widow of unnamed Duncan, portionary heirs of their brother Mr Thomas Hutcheson of Lambhill",
+    "source_title": "Great Britain, Record Commission, Inquisitionum ad capellam domini regis retornatarum, quae in publicis archivis Scotiae adhuc servantur, abbreviatio, vol. I (London, 1811), Lanark no.206, 24 May 1642",
+    "source_url": "https://archive.org/details/inquisitionumadc00grea/page/n498/mode/1up",
+    "date": "24 May 1642",
+    "year": 1642,
+    "place": "Lanarkshire, Scotland",
+    "source_type": "Printed retour abstract",
+    "status": "Public printed entry visually inspected by root; underlying original inquest uninspected",
+    "transcription": "HELENA HUTCHESOUNE relicta Niniani Hill civis Glasguensis, et JONETA HUTCHESONE relicta ..... Duncan civis Glasguensis, haeredes portionariae Magistri Thomae Hutchesoune de Lambhill, fratris,—in terris praedictis. (Vide Renfrew.) xvi.233.",
+    "note": "Lanark206,24May1642. Entry explicitly names Helen, widow of Ninian Hill, and Janet, widow of an unnamed Duncan; calls their husbands citizens of Glasgow and the women portionary heirs of brother Mr Thomas Hutcheson of Lambhill. Does NOT supply Duncan’s given name. Combining the same named sibling/estate family with Hill1881p8 identifies the husband provisionally as David and supports an earlier inclusive deceased-by24May1642 boundary. Original inquest not inspected; no exact death/place or relationship assessment upgrade.",
+    "profiles": {
+      "Hutcheson-1654": {
+        "role": "Named Janet, widow of unnamed Duncan; portionary heir of her brother",
+        "timeline_group": "Family and estate"
+      },
+      "Hutcheson-1652": {
+        "role": "Named Helen, widow of Ninian Hill; portionary heir of her brother",
+        "timeline_group": "Family and estate"
+      },
+      "Hutcheson-1649": {
+        "role": "Named brother Mr Thomas Hutcheson of Lambhill, whose heirs are returned",
+        "timeline_group": "Family and estate"
+      },
+      "Duncan-27082": {
+        "role": "Conditional identity of unnamed deceased Duncan; David’s given name supplied separately by Hill1881p8",
+        "timeline_group": "Family and estate"
+      }
+    },
+    "publication_status": "approved",
+    "provenance": "Root direct visual verification of public leaf498, Lanark206 bottom-left; image /tmp/fs-pre1600-active/retours-lanark205-leaf498.jpg.",
+    "publication_year": 1811
   }
 ]

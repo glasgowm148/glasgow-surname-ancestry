@@ -85090,6 +85090,43 @@
         "Existing canonical record ancestry-1610-1285143",
         "Native vital edstoun-3-testament-appearance-birth-bound-20261113"
       ]
+    },
+    {
+      "id": "david-duncan-hill-precept-source-scope-20261113",
+      "found_on": "2026-11-13",
+      "kind": "vital",
+      "status": "qualified",
+      "finding": "Hill’s account names David Duncan as Janet Hutcheson’s husband. A printed retour dated 24 May 1642 already calls Janet widow of an unnamed Duncan in the same named sibling/estate group, supporting an earlier conditional deceased-by boundary than Hill’s cited 15 June precept.",
+      "significance": "Replaces the placeholder with the existing checked David profile and records the source-defined death boundary without exact death date or parent confidence change.",
+      "qualification": "The printed retour names no Duncan forename; David comes from Hill’s compiled account. Matching Janet, Helen / Ninian Hill and brother Thomas of Lambhill supports the combined identity. Retour calls unnamed husband a Glasgow citizen; David attribution depends on that match. Original inquest, precept, contract/testament uninspected. No exact death date/place, parentage, new child attachment or confidence change. About 1565 birth unproved. No live WikiTree edit.",
+      "people": [
+        {
+          "id": "Duncan-27082",
+          "name": "David Duncan",
+          "url": "https://www.wikitree.com/wiki/Duncan-27082"
+        },
+        {
+          "id": "Hutcheson-1654",
+          "name": "Janet Hutcheson",
+          "url": "/people/hutcheson-1654.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "W.H. Hill, History of the Hospital and School in Glasgow (1881), printed p. 8 and footnote 2",
+          "url": "https://archive.org/details/historyofhospita00hutc/page/8/mode/1up"
+        },
+        {
+          "title": "Inquisitionum ad Capellam Domini Regis Retornatarum Abbreviatio, Lanark no.206, 24 May 1642",
+          "url": "https://archive.org/details/inquisitionumadc00grea/page/n498/mode/1up"
+        }
+      ],
+      "detail_url": "/people/hutcheson-1654.html#research-findings",
+      "relationship_changes": [],
+      "provenance": [
+        "Canonical records lanark-retour-206-hutcheson-coheirs-1642 and hill1881-hutcheson-sisters-duncan-p8",
+        "research/Hutcheson-1654/findings.md"
+      ]
     }
   ]
 }

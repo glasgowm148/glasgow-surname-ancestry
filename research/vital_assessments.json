@@ -3456,6 +3456,29 @@
         "hill1902-hutcheson-gairbraid-parentage-p53"
       ],
       "scope": "Record-defined Marion’s date bound only; no FS identity or extra ancestry adopted."
+    },
+    {
+      "id": "duncan-27082-hill-relict-bound-20261113",
+      "subject": "Duncan-27082",
+      "status": "approved",
+      "reviewed": "2026-11-13",
+      "basis": "Printed Lanark retour 206 dated 24 May 1642 calls Janet widow of unnamed Duncan within the exact Helen/Ninian and brother Thomas Lambhill group; David given name supplied by Hill (1881), p. 8. Original inquest/precept uninspected.",
+      "vitals": {
+        "death": {
+          "date": "before 1642-05-25",
+          "display_date": "Deceased by 24 May 1642, conditional on the same Janet identification",
+          "place": null,
+          "status": "before",
+          "qualifier": "Inclusive boundary from printed retour naming Janet widow of unnamed Duncan; David given name comes from Hill. Named sibling/estate match supports identity; no exact death date/place."
+        }
+      },
+      "vital_qualifications": {
+        "birth": "About 1565 is an inherited unreviewed estimate, not established by Hill; no birthplace inferred."
+      },
+      "source_ids": [
+        "lanark-retour-206-hutcheson-coheirs-1642",
+        "hill1881-hutcheson-sisters-duncan-p8"
+      ]
     }
   ]
 }
