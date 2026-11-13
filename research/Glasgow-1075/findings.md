@@ -1,6 +1,6 @@
 # Findings: Robert Glasgow (Glasgow-1075), Paddockholm
 
-Last updated: 2026-10-07
+Last updated: 2026-11-13
 
 ## Current conclusion
 
@@ -20,6 +20,8 @@ glassworks servant of 1694 or connect Robert of Paddockholm to Robert Glaskow of
 Larne.
 
 Daughter Anna-3005’s existing father relationship is now 95% confident from 58%, after checking Paterson’s original printed p.252 and the exact Hugh Allan marriage identity. Other family assessments retain their own scopes.
+
+The proposed biography’s inherited 1736 marriage statement is corrected on 13 November 2026 to **15 December 1726**, as printed in the already visually checked Paterson p.252. The old OPR 596, 10/74 citation remains in Research Notes as an unresolved source conflict; no fresh parish-image inspection or relationship reassessment follows. Margaret Allan is the wife, and Jean Cunningham the mother.
 
 ## Source findings
 - [National Records of Scotland, RH15/120/178](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=RH15%2F120%2F178), letter from Robert Glasgow, Paddockholm, to his brother James Glasgow, student of divinity at Glasgow, 22 November 1722.
@@ -101,3 +103,10 @@ Next question: Compare the original Kilbirnie register, family account and exist
 
 Birth, baptism, death and burial retain their distinct source roles. Comparison roles do not assign an event or parents to this profile. The approved birth refinements for Isabel-3482 and James-1573 are separate from unchanged relationship assessments; an additional index does not increase a percentage. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
 <!-- END FMP-BIRTH-SCOPE-PAGES12-16-20261023 -->
+
+
+## Source findings — proposed marriage-year correction, 13 November 2026
+
+The full proposed biography now uses Paterson’s printed **15 December 1726** marriage to Margaret Allan of Ladesyde. Its older **1736** wording and inherited Kilbirnie OPR marriage citation (parish 596, 10/74; claimed image access 13 May 2026) remain in the replacement’s Research Notes for comparison. This corrects an internal inconsistency with the maintained 23 October printed-page review; it is not a new original-record discovery. No structured vital, spouse attachment, mother assessment or percentage is changed.
+
+Source: [James Paterson, History of the County of Ayr, vol.II (1852), printed p.252, IA leaf268](https://archive.org/details/historyofcountyo02pateuoft/page/n268/mode/1up). Underlying parish register was not newly inspected.
