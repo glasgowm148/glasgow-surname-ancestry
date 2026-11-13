@@ -51,3 +51,11 @@ as confident mother, and mark John as uncertain father.
 
 Search Croftmalloch property, court, kirk and testament records for Cuthbert
 Keddell and for a direct statement of his father.
+
+## WikiTree import hand-off — 13 November 2026
+
+Operational data repair only: native claim `C-59451d0e9ea6`, revision 1, now materializes the already-held uncertain external-tree father role for **Cuthbert Keddell** (`Edstoun-4`) and John Edstoun (`Edstoun-3`). Change set: `cs-c27800ebecc7470b`. The claim is private, `external_tree`, `unreviewed`, relation type `unknown`; there is no assessment, percentage or new confidence grade. This is not a new father discovery.
+
+The held Open60 child observation `obs-7bc2ab8d95cb944a` records child UID 50994977 and Father UID 47271334; the latter equals the held Edstoun-3 profile UID. The observed Father status code `10` and public unknown/uncertain snapshot remain unchanged. Observation SHA-256: `1412e74d89df898d19ca879b131bd0faf3ef71d13c2b9327cedd74157b05589a`.
+
+The testament `CC8/8/8`, images 355–356, proves Margaret’s maternity and identifies John as her spouse/sometime husband; it does not prove John’s paternity of Cuthbert. Kaddell/Keddell versus Edstoun remains an unresolved surname/relationship limit. The owner authorized a qualified unreviewed FamilySearch copy of the imported role as a separate action; this native receipt does not claim that live copy has been completed.
