@@ -20,6 +20,28 @@ EVIDENCE = ROOT / 'data/wikitree/profile-evidence.json'
 FS_LINKS = ROOT / 'data/familysearch/person-links.json'
 ASSESSMENTS = ROOT / 'research/relationship_assessments.json'
 
+# Public, deceased catalogue subjects selected after comparing the Name Study
+# (including its American Settlers section) and Wikipedia's surname index.
+# These are editorial summaries, not new identity or relationship assessments.
+CATALOGUE_NOTABLES = {
+    'Glasgow-2265': (
+        'Maude Glasgow was a public-health physician and advocate for women’s suffrage. She graduated in medicine from Cornell in 1901.',
+        'American Medical Women’s Association, Glasgow–Rubin award history',
+        'https://amwa-doc.org/wp-content/uploads/2025/10/AMWA-Glasgow-Rubin-Award-information.pdf'),
+    'Glasgow-2873': (
+        'Hugh Glasgow represented Pennsylvania in the United States Congress from 1813 to 1817, after serving as a York County judge.',
+        'U.S. House of Representatives, Hugh Glasgow biography',
+        'https://history.house.gov/People/Detail/13856'),
+    'Glasgow-2075': (
+        'Tyneside singer and songwriter associated with Close the Coalhouse Door and When the Boat Comes In.',
+        'Alex Glasgow: biography and references',
+        'https://en.wikipedia.org/wiki/Alex_Glasgow'),
+    'Glasgow-1780': (
+        'James McClure Glasgow was a Presbyterian missionary in Gujarat, a Gujarati translator, and professor at Magee and Assembly’s colleges.',
+        'Dictionary of Ulster Biography, James McClure Glasgow',
+        'https://www.newulsterbiography.co.uk/index.php/home/viewPerson/2198'),
+}
+
 
 def load(path, default):
     try:
@@ -57,7 +79,12 @@ def rows():
     assessments = load(ASSESSMENTS, [])
     estimates = load(ROOT / 'research/relationship_probability_estimates.json', {}).get('estimates', [])
     out, seen = [], set()
-    for line in notables_lines():
+    catalogue_lines = []
+    for pid, (summary, title, url) in CATALOGUE_NOTABLES.items():
+        person = people.get(pid.casefold())
+        if person and person.get('likely_living') is False and person.get('death'):
+            catalogue_lines.append(f'* [[{pid}|{person["name"]}]] {summary}<ref>[{url} {title}]</ref>')
+    for line in notables_lines() + catalogue_lines:
         ids = re.findall(r'\[\[([A-Za-z]+-\d+)(?:\|[^]]*)?\]\]', line)
         if not ids:
             continue
@@ -152,6 +179,8 @@ def brief_summary(person):
         'Boyle-1708': 'David Boyle was a Scottish politician and University of Glasgow rector; Earl of Glasgow is a title, not his surname.',
         'Glasgow-635': 'Patrick Glasgow ministered at Manokin and All Hallows; identifying him as politician James Glasgow’s father remains unverified.',
     }
+    if person['id'] in CATALOGUE_NOTABLES:
+        return CATALOGUE_NOTABLES[person['id']][0]
     return summaries.get(person['id'], person['rationale'])
 
 
