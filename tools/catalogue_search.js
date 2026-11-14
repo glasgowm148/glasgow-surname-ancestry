@@ -66,7 +66,7 @@
     return `<a class="catalogue-profile-button catalogue-profile-${state}${isWiki?'':' catalogue-familysearch'}" href="${url}" target="_blank" rel="noopener noreferrer" title="${esc(title)}" aria-label="${esc(name+': '+id+' — '+status)}"><img src="/people/link-icons/${site}.${isWiki?'ico':'png'}" width="16" height="16" alt="" loading="lazy"><span><b>${esc(id)}</b><span class="catalogue-profile-status">${esc(status)}</span></span></a>`;
   };
   const familysearchLinks=person=>(person.familysearch_links||[]).map(match=>profileButton('familysearch',match.id,'unknown','Sync unverified',`${match.confidence==='high'?'Matched FamilySearch profile':'Probable FamilySearch match'}. Sync has not been verified.`)).join('');
-  const wikiLinks=person=>(person.profile_ids||[]).map(id=>profileButton('wikitree',id,person.needs_wikitree_update?'pending':'unknown',person.needs_wikitree_update?'Needs update':'No update queued',person.needs_wikitree_update?'Local research has a pending WikiTree update.':'No WikiTree update is queued; sync has not been verified.')).join('')+(person.profile_ids?.length?'':'No profile yet')+familysearchLinks(person);
+  const wikiLinks=person=>(person.profile_ids||[]).map(id=>profileButton('wikitree',id,person.needs_wikitree_update?'pending':'unknown',person.needs_wikitree_update?`Needs update (${Number(person.wikitree_update_significance)||0})`:'No update queued',person.needs_wikitree_update?'Local research has a pending WikiTree update.':'No WikiTree update is queued; sync has not been verified.')).join('')+(person.profile_ids?.length?'':'No profile yet')+familysearchLinks(person);
   const relationConfidence=relation=>{
     const treeFallback={'5':'non_biological','10':'uncertain','20':'confident','30':'dna_confirmed'};
     const allowed=new Set(['proved','strongly_supported','probable','possible','disputed','contradicted','dna_confirmed','confident','uncertain','non_biological','unmarked']);
@@ -123,6 +123,7 @@
   let groupFamilies=false;
   let groupOneTree=false;
   let resultView='table';
+  let showProfiles=false;
   let birthSurnameOnly='',marriageSurnameOnly='';
   let locationGroupSort='geography';
   let familyGroupSort='name:asc';
@@ -611,9 +612,9 @@
     const title=others.map(([,group])=>[group.country,locationLevel!=='1'&&group.area,locationLevel==='3'&&group.locality].filter(Boolean).join(' · ')).join(' / ');
     return `<small class="catalogue-location-repeat" title="${esc(title)}">Also recorded in ${others.length} other ${label}${others.length===1?'':'s'}</small>`;
   }
-  function relationshipUpdateTags(person){
+  function relationshipUpdateTags(person,relationships=null){
     const tags=new Map();
-    relationshipChanges(person).sort((a,b)=>changePriority(b)-changePriority(a)).forEach(change=>{
+    relationshipChanges(person).filter(change=>!relationships||relationships.includes(change.relationship)).sort((a,b)=>changePriority(b)-changePriority(a)).forEach(change=>{
       const relationship=change.relationship,band=change.confidence_band;
       const grade={confident:'confident',probable:'probable',possible:'possible',uncertain:'uncertain',unrated:'unrated'}[band]||'unrated';
       const label=change.action==='add'?`new ${grade} ${relationship}`:change.action==='replace'?`replacement ${grade} ${relationship}`:`${relationship} now ${grade}`;
@@ -647,8 +648,8 @@
   function resultRow(person,currentKey='',groupKind='',familyKey='',collapsed=false){
     const rowClass=groupKind?` class="catalogue-${groupKind}-child"`:'';
     const familyAttributes=familyKey?` data-family-member="${esc(familyKey)}"${collapsed?' hidden':''}`:'';
-    const update=updateBadge(person);
-    return `<tr${rowClass}${familyAttributes}><td><a href="${esc(personUrl(person))}"><strong>${esc(person.name)}</strong></a>${locationRepeat(person,currentKey)}</td><td class="catalogue-profiles-cell"><small class="catalogue-wikitree-id catalogue-profile-links">${wikiLinks(person)}</small>${update}</td><td${fieldAttributes(person,'birth')}>${fieldHtml(person,'birth')}</td><td${fieldAttributes(person,'birth_location')}>${fieldHtml(person,'birth_location')}</td><td${fieldAttributes(person,'death')}>${fieldHtml(person,'death')}</td><td${fieldAttributes(person,'death_location')}>${fieldHtml(person,'death_location')}</td><td class="catalogue-family-cell${relationshipCellClass(person.spouses)}">${relationHtml(person.spouses,true)}</td><td class="catalogue-family-cell${relationshipCellClass(person.father)}">${relationHtml(person.father,true)}</td><td class="catalogue-family-cell${relationshipCellClass(person.mother)}">${relationHtml(person.mother,true)}</td></tr>`;
+    const amendments=relationships=>{const tags=relationshipUpdateTags(person,relationships);return tags?`<div class="catalogue-update-badge">${tags}</div>`:'';};
+    return `<tr${rowClass}${familyAttributes}><td><a href="${esc(personUrl(person))}"><strong>${esc(person.name)}</strong></a>${locationRepeat(person,currentKey)}</td><td class="catalogue-profiles-cell"${showProfiles?'':' hidden'}><small class="catalogue-wikitree-id catalogue-profile-links">${wikiLinks(person)}</small>${amendments(['child','sibling'])}</td><td${fieldAttributes(person,'birth')}>${fieldHtml(person,'birth')}</td><td${fieldAttributes(person,'birth_location')}>${fieldHtml(person,'birth_location')}</td><td${fieldAttributes(person,'death')}>${fieldHtml(person,'death')}</td><td${fieldAttributes(person,'death_location')}>${fieldHtml(person,'death_location')}</td><td class="catalogue-family-cell${relationshipCellClass(person.spouses)}">${relationHtml(person.spouses,true)}${amendments(['spouse'])}</td><td class="catalogue-family-cell${relationshipCellClass(person.father)}">${relationHtml(person.father,true)}${amendments(['father'])}</td><td class="catalogue-family-cell${relationshipCellClass(person.mother)}">${relationHtml(person.mother,true)}${amendments(['mother'])}</td></tr>`;
   }
   function relationshipCellClass(relations){
     const statuses=[...new Set((relations||[]).map(relation=>relationConfidence(relation).key))];
@@ -686,7 +687,7 @@
     const path=parts.map((part,index)=>`${index?'<i aria-hidden="true">›</i>':''}<b>${esc(part)}</b>`).join('');
     const level=locationLevel==='1'?'Country / region':locationLevel==='2'?'County / area':'Townland / locality';
     const count=bucket.people.size;
-    if(kind==='table') return `<tr class="catalogue-location-group catalogue-location-path-group"><th colspan="9"><span>${level}</span><div class="catalogue-location-path"><strong>${path}</strong><small>${count} individual${count===1?'':'s'}</small></div></th></tr>`;
+    if(kind==='table') return `<tr class="catalogue-location-group catalogue-location-path-group"><th colspan="${showProfiles?9:8}"><span>${level}</span><div class="catalogue-location-path"><strong>${path}</strong><small>${count} individual${count===1?'':'s'}</small></div></th></tr>`;
     return `<h3 class="catalogue-location-card-heading catalogue-location-path-group catalogue-location-path"><span>${level}</span><strong>${path}</strong><small>${count} individual${count===1?'':'s'}</small></h3>`;
   }
   function groupedResults(source){
@@ -710,7 +711,7 @@
     if(!root.id){
       const note=`<small>${count} individual${count===1?'':'s'} · no shared exported ancestor; not a family branch</small>`;
       const copy=`<div class="catalogue-family-heading-copy"><span>Unconnected profiles</span>No shared exported parent chain ${note}</div>`;
-      if(kind==='table') return `<tr class="catalogue-location-group catalogue-family-group catalogue-family-unconnected" data-family-heading="${esc(key)}"><th colspan="9">${toggle}${copy}</th></tr>`;
+      if(kind==='table') return `<tr class="catalogue-location-group catalogue-family-group catalogue-family-unconnected" data-family-heading="${esc(key)}"><th colspan="${showProfiles?9:8}">${toggle}${copy}</th></tr>`;
       return `<section class="catalogue-location-card-heading catalogue-family-group catalogue-family-unconnected" data-family-heading="${esc(key)}">${toggle}${copy}</section>`;
     }
     const name=root.catalogue_id?`<a href="${esc(personUrl({id:root.catalogue_id}))}">${esc(root.name)}</a>`:esc(root.name);
@@ -718,7 +719,7 @@
     const birth=[root.birth?`Born ${esc(root.birth)}`:'Birth year not recorded',root.birth_location?esc(root.birth_location):'Birthplace not recorded'].join(' · ');
     const vitals=`<small class="catalogue-family-root-vitals">${birth}</small>`;
     const copy=`<div class="catalogue-family-heading-copy"><span>Earliest exported ancestor</span>${name}${id}${vitals}</div>`;
-    if(kind==='table') return `<tr class="catalogue-location-group catalogue-family-group" data-family-heading="${esc(key)}"><th colspan="9">${toggle}${copy}</th></tr>`;
+    if(kind==='table') return `<tr class="catalogue-location-group catalogue-family-group" data-family-heading="${esc(key)}"><th colspan="${showProfiles?9:8}">${toggle}${copy}</th></tr>`;
     return `<section class="catalogue-location-card-heading catalogue-family-group" data-family-heading="${esc(key)}">${toggle}${copy}</section>`;
   }
   function familyRootYear(root){
@@ -1126,10 +1127,10 @@
     const rows=grouped?grouped.rows:shown.map(person=>resultRow(person)).join('');
     const groupSortLabel=groupLocations?'Sort locations':'Sort branches';
     const groupSortChoices=groupLocations?locationSortOptions():familySortOptions();
-    const resultViews=resultView==='map'?catalogueMapMarkup(mapModel):(groupOneTree?grouped.tree:`<div class="table-wrap catalogue-result-table-wrap"><table class="catalogue-results-table"><thead><tr>${sortHeader('name','Individual')}<th scope="col">Profiles &amp; updates</th>${sortHeader('birth','Birth')}${sortHeader('birthLocation','Birth location')}${sortHeader('death','Death')}${sortHeader('deathLocation','Death location')}${sortHeader('spouse','Spouse(s)')}${sortHeader('father','Father')}${sortHeader('mother','Mother')}</tr></thead><tbody>${rows}</tbody></table></div>`);
+    const resultViews=resultView==='map'?catalogueMapMarkup(mapModel):(groupOneTree?grouped.tree:`<div class="table-wrap catalogue-result-table-wrap"><table class="catalogue-results-table${showProfiles?'':' catalogue-profiles-collapsed'}"><thead><tr>${sortHeader('name','Individual')}<th scope="col" class="catalogue-profiles-heading"${showProfiles?'':' hidden'}>Profiles &amp; updates</th>${sortHeader('birth','Birth')}${sortHeader('birthLocation','Birth location')}${sortHeader('death','Death')}${sortHeader('deathLocation','Death location')}${sortHeader('spouse','Spouse(s)')}${sortHeader('father','Father')}${sortHeader('mother','Mother')}</tr></thead><tbody>${rows}</tbody></table></div>`);
     const treeContextControls=groupOneTree?`<div class="catalogue-tree-context-controls"><label>Ancestors <select id="catalogue-tree-ancestors"${treePathMode?' disabled':''}>${treeDepthOptions(treeAncestorDepth)}</select></label><label>Descendants <select id="catalogue-tree-descendants"${treePathMode?' disabled':''}>${treeDepthOptions(treeDescendantDepth)}</select></label><label>Evidence <select id="catalogue-tree-evidence">${treeEvidenceOptions()}</select></label><details class="catalogue-tree-display-options"><summary>Display options</summary><div><label>Primary parent <select id="catalogue-tree-parent"><option value="strongest"${treeParentPreference==='strongest'?' selected':''}>Strongest evidence</option><option value="father"${treeParentPreference==='father'?' selected':''}>Father first</option><option value="mother"${treeParentPreference==='mother'?' selected':''}>Mother first</option></select></label><label>Research overlay <select id="catalogue-tree-overlay"><option value="none"${treeOverlay==='none'?' selected':''}>None</option><option value="sourced"${treeOverlay==='sourced'?' selected':''}>Sourced</option><option value="unsourced"${treeOverlay==='unsourced'?' selected':''}>No original source</option><option value="questions"${treeOverlay==='questions'?' selected':''}>Open questions</option><option value="missing-parent"${treeOverlay==='missing-parent'?' selected':''}>Missing parents</option><option value="uncertain"${treeOverlay==='uncertain'?' selected':''}>Uncertain identity</option><option value="update"${treeOverlay==='update'?' selected':''}>WikiTree update</option></select></label><label class="catalogue-group-toggle"><input id="catalogue-tree-paths" type="checkbox"${treePathMode?' checked':''}> Connecting paths</label><label class="catalogue-group-toggle"><input id="catalogue-tree-timeline" type="checkbox"${treeTimeline?' checked':''}> Timeline</label></div></details></div>`:'';
     const pagination=resultView==='map'||groupedMode?'':paginationHtml(found.length,start,shown.length,pageCount);
-    out.innerHTML=`<div class="catalogue-result-toolbar"><strong>${browsing?`All ${found.length.toLocaleString()} people`:`${found.length.toLocaleString()} result${found.length===1?'':'s'}`}</strong><div class="catalogue-result-view-tabs" role="tablist" aria-label="Catalogue result view"><button type="button" data-catalogue-view="table" role="tab" aria-selected="${resultView==='table'}">Table</button><button type="button" data-catalogue-view="map" role="tab" aria-selected="${resultView==='map'}">Map</button></div><div class="catalogue-result-options"><div class="catalogue-group-controls" role="group" aria-label="Group results"><span>Group</span><label class="catalogue-group-toggle"><input id="catalogue-group-locations" type="checkbox"${groupLocations?' checked':''}> Location</label><label class="catalogue-group-toggle"><input id="catalogue-group-families" type="checkbox"${groupFamilies?' checked':''}> Family branch</label><label class="catalogue-group-toggle"><input id="catalogue-group-tree" type="checkbox"${groupOneTree?' checked':''}> One tree</label></div>${treeContextControls}<label${groupLocations?'':' hidden'}>Location detail <select id="catalogue-location-level"${groupLocations?'':' disabled'}><option value="1"${locationLevel==='1'?' selected':''}>Country</option><option value="2"${locationLevel==='2'?' selected':''}>County / area</option><option value="3"${locationLevel==='3'?' selected':''}>Townland / locality</option></select></label><label${groupedMode&&!groupOneTree?'':' hidden'}>${groupSortLabel} <select id="catalogue-group-sort"${groupedMode&&!groupOneTree?'':' disabled'}>${groupSortChoices}</select></label><label>${groupOneTree?'Sort each generation':groupedMode?'Sort within groups':'Sort results'} <select id="catalogue-result-sort">${sortOptions()}</select></label></div></div>${fatherWorkSummary(source)}${resultViews}${pagination}`;
+    out.innerHTML=`<div class="catalogue-result-toolbar"><strong>${browsing?`All ${found.length.toLocaleString()} people`:`${found.length.toLocaleString()} result${found.length===1?'':'s'}`}</strong><div class="catalogue-result-view-tabs" role="tablist" aria-label="Catalogue result view"><button type="button" data-catalogue-view="table" role="tab" aria-selected="${resultView==='table'}">Table</button><button type="button" data-catalogue-view="map" role="tab" aria-selected="${resultView==='map'}">Map</button></div><div class="catalogue-result-options">${resultView==='table'&&!groupOneTree?`<button type="button" class="catalogue-profiles-toggle" data-toggle-profiles aria-expanded="${showProfiles}">${showProfiles?'Hide':'Show'} profiles &amp; updates</button>`:''}<div class="catalogue-group-controls" role="group" aria-label="Group results"><span>Group</span><label class="catalogue-group-toggle"><input id="catalogue-group-locations" type="checkbox"${groupLocations?' checked':''}> Location</label><label class="catalogue-group-toggle"><input id="catalogue-group-families" type="checkbox"${groupFamilies?' checked':''}> Family branch</label><label class="catalogue-group-toggle"><input id="catalogue-group-tree" type="checkbox"${groupOneTree?' checked':''}> One tree</label></div>${treeContextControls}<label${groupLocations?'':' hidden'}>Location detail <select id="catalogue-location-level"${groupLocations?'':' disabled'}><option value="1"${locationLevel==='1'?' selected':''}>Country</option><option value="2"${locationLevel==='2'?' selected':''}>County / area</option><option value="3"${locationLevel==='3'?' selected':''}>Townland / locality</option></select></label><label${groupedMode&&!groupOneTree?'':' hidden'}>${groupSortLabel} <select id="catalogue-group-sort"${groupedMode&&!groupOneTree?'':' disabled'}>${groupSortChoices}</select></label><label>${groupOneTree?'Sort each generation':groupedMode?'Sort within groups':'Sort results'} <select id="catalogue-result-sort">${sortOptions()}</select></label></div></div>${fatherWorkSummary(source)}${resultViews}${pagination}`;
     if(resultView==='map') installCatalogueMap(mapModel);
     if(restoreResultsAnchor){restoreResultsAnchor=false;requestAnimationFrame(()=>out.scrollIntoView({block:'start'}));}
     if(options.scroll&&window.matchMedia('(max-width: 800px)').matches){
@@ -1204,6 +1205,7 @@
     render();
   });
   out.addEventListener('click',event=>{
+    if(event.target.closest('[data-toggle-profiles]')){showProfiles=!showProfiles;render().then(()=>out.querySelector('[data-toggle-profiles]')?.focus({preventScroll:true}));return;}
     const viewButton=event.target.closest('button[data-catalogue-view]');
     if(viewButton){
       const nextView=viewButton.dataset.catalogueView==='map'?'map':'table';

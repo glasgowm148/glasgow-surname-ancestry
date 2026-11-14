@@ -237,8 +237,13 @@ def main() -> None:
 
         # Table, sorting, grouping, refresh and history.
         load(page, "q=Alexander")
-        headers = [text.rstrip("↕↑↓ \n") for text in page.locator(".catalogue-results-table th").all_inner_texts()]
-        assert headers == HEADERS, headers
+        headers = [text.rstrip("↕↑↓ \n") for text in page.locator(".catalogue-results-table thead th:visible").all_inner_texts()]
+        assert headers == [h for h in HEADERS if h != "Profiles & updates"], headers
+        page.locator("[data-toggle-profiles]").click()
+        assert page.locator(".catalogue-profiles-heading").is_visible()
+        assert page.locator(".catalogue-results-table thead th:visible").count() == len(HEADERS)
+        page.locator("[data-toggle-profiles]").click()
+        assert not page.locator(".catalogue-profiles-heading").is_visible()
         assert page.locator("#catalogue-results img:not(.catalogue-profile-button img)").count() == 0
         assert page.locator(".catalogue-results-table tbody tr:has(td)").first.locator("td").count() == len(HEADERS)
         assert page.locator(".catalogue-results-table td:first-child .catalogue-profile-button, .catalogue-results-table td:first-child .catalogue-update-badge").count() == 0
