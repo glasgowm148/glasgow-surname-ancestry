@@ -113,6 +113,32 @@ console.log(JSON.stringify([
         self.assertIn('96%', badges[9])
         self.assertIn('https://www.wikitree.com/wiki/Glasgow-2', badges[9])
 
+    def test_compact_amendments_name_children_and_omit_missing_ratings(self):
+        source = (ROOT / 'tools/catalogue_search.js').read_text()
+        helper = source[source.index('  const changeBand='):source.index('  const esc=')]
+        helper += source[source.index('  function relationshipUpdateTags('):source.index('  function fatherWorkSummary(')]
+        helper += source[source.index('  function otherRelationshipUpdates('):source.index('  function relationshipCellClass(')]
+        helper += source[source.index('  const relationConfidence='):source.index('  const fieldConfidence=')]
+        script = "const esc=s=>String(s);const normalise=s=>String(s).toLowerCase();\n" + helper + """
+const person={needs_wikitree_update:true,children:[{id:'Glasgow-1151',name:'John Glasgow'},{id:'Glasgow-1155',name:'Bessie Glasgow'}],wikitree_update_relationship_changes:[
+ {action:'regrade',relationship:'father',status:'probable',relative_id:'Glasgow-991',probability:{value:.84}},
+ {action:'regrade',relationship:'child',status:'proved',relative_id:'Glasgow-1151',probability:{value:null}},
+ {action:'regrade',relationship:'child',status:'proved',relative_id:'Glasgow-1155',probability:{value:null}}
+]};
+console.log(JSON.stringify([relationshipUpdateTags(person,['father'],true),otherRelationshipUpdates(person),relationHtml([{id:'Clerk-296',name:'Jannet Clerk'}],true,['Clerk-296'])]));
+"""
+        father, children, spouse = json.loads(subprocess.check_output(['node', '-e', script], text=True))
+        self.assertIn('Update: probable', father)
+        self.assertIn('84%', father)
+        self.assertIn('<summary>2 child updates</summary>', children)
+        self.assertNotIn('<details open', children)
+        self.assertIn('John Glasgow · confident', children)
+        self.assertIn('Bessie Glasgow · confident', children)
+        self.assertNotIn('Not individually rated', children)
+        self.assertIn('https://www.wikitree.com/wiki/Glasgow-1151', children)
+        self.assertIn('Jannet Clerk', spouse)
+        self.assertNotIn('Unassessed', spouse)
+
     def test_generated_worker_preserves_filters_and_sorting(self):
         rows=[]
         for i,(name,gender,place,bio) in enumerate([

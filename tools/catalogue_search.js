@@ -76,7 +76,7 @@
     const labels={proved:'Documented',strongly_supported:'Strongly supported',probable:'Probable',possible:'Possible',disputed:'Disputed',contradicted:'Contradicted',dna_confirmed:'Tree-marked DNA confirmed',confident:'Tree-marked confident',uncertain:'Uncertain',non_biological:'Tree-marked non-biological',unmarked:'Unassessed'};
     return {key,label:labels[key],title:relation.certainty_label||labels[key]};
   };
-  const relationHtml=(relations,showConfidence=false)=>{
+  const relationHtml=(relations,showConfidence=false,pendingIds=[])=>{
     const values=(relations||[]).filter(relation=>relation.name||relation.id);
     if(!values.length) return '—';
     return values.map(relation=>{
@@ -86,7 +86,7 @@
       const compact=confidence.key==='confident';
       // The label links to its entry in the evidence guide (/evidence/#state-<key>).
       const guideUrl=`/evidence/#state-${confidence.key.replaceAll('_','-')}`;
-      const confidenceHtml=showConfidence?`<span class="catalogue-relation-status confidence-${confidence.key}" title="${esc(confidence.title)}" > <a class="ev-label-link" href="${guideUrl}">${compact?'<span aria-hidden="true">✓</span><span class="sr-only">'+esc(confidence.label)+'</span>':esc(confidence.label)}</a>${relation.probability?` <small class="catalogue-probability" title="Individual probability estimate; see the evidence guide">${esc(probabilityText(relation.probability))}</small>`:''}</span>`:'';
+      const confidenceHtml=showConfidence&&!pendingIds.some(p=>String(p).toLowerCase()===String(id).toLowerCase())?`<span class="catalogue-relation-status confidence-${confidence.key}" title="${esc(confidence.title)}" > <a class="ev-label-link" href="${guideUrl}">${compact?'<span aria-hidden="true">✓</span><span class="sr-only">'+esc(confidence.label)+'</span>':esc(confidence.label)}</a>${relation.probability?` <small class="catalogue-probability" title="Individual probability estimate; see the evidence guide">${esc(probabilityText(relation.probability))}</small>`:''}</span>`:'';
       const classes=`catalogue-relation${showConfidence?` catalogue-parent confidence-${confidence.key}`:''}`;
       if(!id) return `<span class="${classes}">${esc(name)} ${confidenceHtml}</span>`;
       if(id.startsWith('record-')){
@@ -612,7 +612,7 @@
     const title=others.map(([,group])=>[group.country,locationLevel!=='1'&&group.area,locationLevel==='3'&&group.locality].filter(Boolean).join(' · ')).join(' / ');
     return `<small class="catalogue-location-repeat" title="${esc(title)}">Also recorded in ${others.length} other ${label}${others.length===1?'':'s'}</small>`;
   }
-  function relationshipUpdateTags(person,relationships=null){
+  function relationshipUpdateTags(person,relationships=null,compact=false){
     const tags=new Map();
     relationshipChanges(person).filter(change=>!relationships||relationships.includes(change.relationship)).sort((a,b)=>changePriority(b)-changePriority(a)).forEach(change=>{
       const relationship=change.relationship,band=change.confidence_band;
@@ -622,7 +622,10 @@
       const isWikiTree=relative&&!relative.startsWith('record-')&&/^[\p{L}][\p{L}\p{N}_'-]*-\d+$/u.test(relative);
       const account=String(change.relative_wikitree_url||'');
       const href=isWikiTree?`https://www.wikitree.com/wiki/${encodeURIComponent(relative)}`:(/^https:\/\/www\.wikitree\.com\/wiki\/Space:[^\s<>"']+$/.test(account)?account:'');
-      const range=probabilityText(change.probability),text=esc(label)+(range?` <small>${esc(range)}</small>`:'');
+      const range=compact&&change.probability?.value==null?'':probabilityText(change.probability);
+      const namedRelative=[...(person.children||[]),...(person.siblings||[])].find(r=>String(r.id).toLowerCase()===relative.toLowerCase());
+      const display=compact&&['child','sibling'].includes(relationship)?`${namedRelative?.name||relative||relationship} · ${grade}`:compact&&change.action==='regrade'?`Update: ${grade}`:label;
+      const text=esc(display)+(range?` <small>${esc(range)}</small>`:'');
       const attrs=`class="catalogue-relationship-badge change-${esc(band)}" data-change-action="${esc(change.action)}" data-change-confidence="${esc(band)}"`;
       const tag=href
         ?`<a ${attrs} href="${esc(href)}" target="_blank" rel="noopener noreferrer" title="View proposed ${esc(relationship)}: ${esc(relative)}${change.scope?' · '+esc(change.scope):''}" aria-label="${esc(label)}: ${esc(relative)} on WikiTree${range?' · '+esc(range):''}">${text}</a>`
@@ -648,8 +651,16 @@
   function resultRow(person,currentKey='',groupKind='',familyKey='',collapsed=false){
     const rowClass=groupKind?` class="catalogue-${groupKind}-child"`:'';
     const familyAttributes=familyKey?` data-family-member="${esc(familyKey)}"${collapsed?' hidden':''}`:'';
-    const amendments=relationships=>{const tags=relationshipUpdateTags(person,relationships);return tags?`<div class="catalogue-update-badge">${tags}</div>`:'';};
-    return `<tr${rowClass}${familyAttributes}><td><a href="${esc(personUrl(person))}"><strong>${esc(person.name)}</strong></a>${locationRepeat(person,currentKey)}</td><td class="catalogue-profiles-cell"${showProfiles?'':' hidden'}><small class="catalogue-wikitree-id catalogue-profile-links">${wikiLinks(person)}</small>${amendments(['child','sibling'])}</td><td${fieldAttributes(person,'birth')}>${fieldHtml(person,'birth')}</td><td${fieldAttributes(person,'birth_location')}>${fieldHtml(person,'birth_location')}</td><td${fieldAttributes(person,'death')}>${fieldHtml(person,'death')}</td><td${fieldAttributes(person,'death_location')}>${fieldHtml(person,'death_location')}</td><td class="catalogue-family-cell${relationshipCellClass(person.spouses)}">${relationHtml(person.spouses,true)}${amendments(['spouse'])}</td><td class="catalogue-family-cell${relationshipCellClass(person.father)}">${relationHtml(person.father,true)}${amendments(['father'])}</td><td class="catalogue-family-cell${relationshipCellClass(person.mother)}">${relationHtml(person.mother,true)}${amendments(['mother'])}</td></tr>`;
+    const family=(relations,kind)=>relationHtml(relations,true,relationshipChanges(person).filter(c=>c.relationship===kind&&c.action==='regrade').map(c=>c.relative_id));
+    const amendments=relationships=>{const tags=relationshipUpdateTags(person,relationships,true);return tags?`<div class="catalogue-update-badge">${tags}</div>`:'';};
+    return `<tr${rowClass}${familyAttributes}><td><a href="${esc(personUrl(person))}"><strong>${esc(person.name)}</strong></a>${locationRepeat(person,currentKey)}</td><td class="catalogue-profiles-cell"${showProfiles?'':' hidden'}><small class="catalogue-wikitree-id catalogue-profile-links">${wikiLinks(person)}</small>${otherRelationshipUpdates(person)}</td><td${fieldAttributes(person,'birth')}>${fieldHtml(person,'birth')}</td><td${fieldAttributes(person,'birth_location')}>${fieldHtml(person,'birth_location')}</td><td${fieldAttributes(person,'death')}>${fieldHtml(person,'death')}</td><td${fieldAttributes(person,'death_location')}>${fieldHtml(person,'death_location')}</td><td class="catalogue-family-cell${relationshipCellClass(person.spouses)}">${family(person.spouses,'spouse')}${amendments(['spouse'])}</td><td class="catalogue-family-cell${relationshipCellClass(person.father)}">${family(person.father,'father')}${amendments(['father'])}</td><td class="catalogue-family-cell${relationshipCellClass(person.mother)}">${family(person.mother,'mother')}${amendments(['mother'])}</td></tr>`;
+  }
+  function otherRelationshipUpdates(person){
+    const changes=relationshipChanges(person).filter(c=>['child','sibling'].includes(c.relationship));
+    if(!changes.length)return '';
+    const kinds=[...new Set(changes.map(c=>c.relationship))];
+    const label=kinds.length===1?`${changes.length} ${kinds[0]} update${changes.length===1?'':'s'}`:`${changes.length} family updates`;
+    return `<details class="catalogue-other-updates"><summary>${esc(label)}</summary><div class="catalogue-update-badge">${relationshipUpdateTags(person,['child','sibling'],true)}</div></details>`;
   }
   function relationshipCellClass(relations){
     const statuses=[...new Set((relations||[]).map(relation=>relationConfidence(relation).key))];

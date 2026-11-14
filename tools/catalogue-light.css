@@ -376,3 +376,13 @@ html.catalogue-sheet-open{overflow:hidden}
 .catalogue-profiles-toggle{padding:7px 10px;border:1px solid #b7c5bb;border-radius:6px;background:#f5f6ef;color:#315342;font:650 .75rem/1.3 var(--g-sans,Arial,sans-serif);cursor:pointer}
 .catalogue-profiles-toggle:hover{background:#e6ece5}.catalogue-profiles-toggle:focus-visible{outline:3px solid #315f49;outline-offset:2px}
 @media(max-width:960px){.catalogue-results .catalogue-results-table.catalogue-profiles-collapsed{min-width:1080px}}
+
+/* Amendment notes must fit their cells, including long names and missing ratings. */
+#catalogue-results .catalogue-results-table .catalogue-relationship-badge{display:block;box-sizing:border-box;width:fit-content;max-width:100%;margin:5px 0 0;padding:4px 6px;border:0;border-left:2px solid #718179;border-radius:3px;background:#edf1ed;color:#30483b!important;font-size:.68rem;font-weight:650;line-height:1.35;letter-spacing:normal;white-space:normal;overflow-wrap:anywhere}
+#catalogue-results .catalogue-results-table .catalogue-relationship-badge small{white-space:normal;font:inherit}
+#catalogue-results .catalogue-results-table .catalogue-relationship-badge.change-confident{border-left-color:#39815a;background:#edf4ed}
+#catalogue-results .catalogue-results-table .catalogue-relationship-badge.change-probable{border-left-color:#3e719b;background:#edf2f7}
+#catalogue-results .catalogue-results-table .catalogue-relationship-badge.change-uncertain{border-left-color:#bd8d28;background:#faf2de}
+#catalogue-results .catalogue-results-table a.catalogue-relationship-badge:hover{text-decoration:underline;filter:brightness(.97)}
+.catalogue-other-updates{margin-top:7px;font-size:.7rem;line-height:1.4}
+.catalogue-other-updates>summary{cursor:pointer;color:#405d4c;font-weight:650}
