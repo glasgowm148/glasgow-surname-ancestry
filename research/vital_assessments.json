@@ -3498,6 +3498,39 @@
       "source_ids": [
         "retours-lanark-205-elizabeth-hutchesone-1642"
       ]
+    },
+    {
+      "schema_version": 3,
+      "id": "alexander-glasgow-1720-birth-upper-bound-20261114",
+      "subject": "record-ancestry-glasgow-2556392df247",
+      "status": "approved",
+      "reviewed": "2026-11-14",
+      "scope": "Conservative birth upper bound from the held dated marriage-index appearance; no inferred age or birthplace.",
+      "basis": "Held Ancestry Scotland, Select Marriages, 1561–1910 index entry, record1726053, inspected in the existing catalogue; original parish entry uninspected. Alexander Glasgow is indexed as marrying a spouse not indexed on 23 July 1720 at Mid Calder, Midlothian, Scotland.",
+      "source": {
+        "url": "https://www.ancestry.co.uk/search/collections/60144/records/1726053"
+      },
+      "summary": "Birth before 1721; conservative record-derived upper bound, not an exact birth date or inferred age. This bound is conditional on the current attribution of the held 1720 marriage-index entry to this documentary account.",
+      "vitals": {
+        "birth": {
+          "date": "before 1721",
+          "place": null,
+          "status": "uncertain",
+          "label": "Conservative record-derived birth upper bound",
+          "note": "Alexander Glasgow is indexed as marrying a spouse not indexed on 23 July 1720 at Mid Calder, Midlothian, Scotland. Birth before 1721 is a conservative record-derived upper bound from that existing dated appearance, not a birth year or an age estimate. No exact birth date or birthplace is established. No age at marriage or baptism is assumed. No new record inspection, identity merge, parent assessment or relationship change. This bound is conditional on the current attribution of the held 1720 marriage-index entry to this documentary account.",
+          "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/1726053",
+          "source_level": "Held Ancestry Scotland, Select Marriages, 1561–1910 index entry, record1726053, inspected in the existing catalogue; original parish entry uninspected.",
+          "qualifier": "Before the year following the held dated appearance; no age or birthplace inferred."
+        }
+      },
+      "vital_qualifications": {
+        "birth": "Alexander Glasgow is indexed as marrying a spouse not indexed on 23 July 1720 at Mid Calder, Midlothian, Scotland. Birth before 1721 is a conservative record-derived upper bound from that existing dated appearance, not a birth year or an age estimate. No exact birth date or birthplace is established. No age at marriage or baptism is assumed. No new record inspection, identity merge, parent assessment or relationship change. This bound is conditional on the current attribution of the held 1720 marriage-index entry to this documentary account."
+      },
+      "catalogue_projection": {
+        "birth": "before 1721",
+        "birth_note": "Alexander Glasgow is indexed as marrying a spouse not indexed on 23 July 1720 at Mid Calder, Midlothian, Scotland. Birth before 1721 is a conservative record-derived upper bound from that existing dated appearance, not a birth year or an age estimate. No exact birth date or birthplace is established. No age at marriage or baptism is assumed. No new record inspection, identity merge, parent assessment or relationship change. This bound is conditional on the current attribution of the held 1720 marriage-index entry to this documentary account."
+      },
+      "project_tree_vitals": true
     }
   ]
 }
