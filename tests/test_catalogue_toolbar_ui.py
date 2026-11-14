@@ -17,7 +17,7 @@ BASE = os.environ.get("CATALOGUE_TEST_BASE", "http://127.0.0.1:8765")
 ROOT = Path(__file__).resolve().parents[1]
 LOCAL_CHROME = Path("/Applications/Google Chrome.app/Contents/MacOS/Google Chrome")
 PANELS = ("name", "relatives", "dates", "places", "evidence", "filters", "wikitree")
-HEADERS = ["Individual", "Birth", "Birth location", "Death", "Death location", "Spouse(s)", "Father", "Mother"]
+HEADERS = ["Individual", "Profiles & updates", "Birth", "Birth location", "Death", "Death location", "Spouse(s)", "Father", "Mother"]
 
 ROWS_JS = """() => [...document.querySelectorAll('#catalogue-results .catalogue-results-table tbody tr td:first-child > a')]
   .map(link => new URL(link.href).pathname.split('/').pop())"""
@@ -239,7 +239,9 @@ def main() -> None:
         load(page, "q=Alexander")
         headers = [text.rstrip("↕↑↓ \n") for text in page.locator(".catalogue-results-table th").all_inner_texts()]
         assert headers == HEADERS, headers
-        assert page.locator("#catalogue-results img").count() == 0
+        assert page.locator("#catalogue-results img:not(.catalogue-profile-button img)").count() == 0
+        assert page.locator(".catalogue-results-table tbody tr:has(td)").first.locator("td").count() == len(HEADERS)
+        assert page.locator(".catalogue-results-table td:first-child .catalogue-profile-button, .catalogue-results-table td:first-child .catalogue-update-badge").count() == 0
         # WikiTree IDs and relatives open in a new tab and never replace the search.
         targets = page.evaluate("[...document.querySelectorAll('#catalogue-results a[href*=wikitree]')].map(a => a.target + ' ' + a.rel)")
         assert targets and set(targets) == {"_blank noopener noreferrer"}, set(targets)
