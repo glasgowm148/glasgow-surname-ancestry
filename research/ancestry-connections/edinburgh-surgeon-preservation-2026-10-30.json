@@ -3,11 +3,12 @@
   "profiles": {
     "Glasgow-4124": {
       "current_sha256": "051a34fa0d11725c3e1075f59aafd983e3aa0e80fcf31184178098f660f02992",
-      "proposed_sha256": "922db60124bf63b6903e2be0a2c3be8df22e997d46fa2de1d8a9d8a2ca0cab6b",
+      "proposed_sha256": "abae473e0a4501074c61b3a30bcce487fb728b744a10eee2b3a9abaf06189d88",
       "all_substantive_passages_accounted_for": true,
       "all_prior_proposal_and_capture_passages_preserved": true,
       "draft_path": "research/Glasgow-4124/queue-review-2026-10-17.wiki",
-      "preservation_basis": "Reviewed 12 November 2026: all distinct prior proposal/capture sources and newspaper passages retained. The original 1716 will and 1719 probate correct the current chronology and add explicit mother/sister clauses; earlier 1733 activity and later newspaper candidacies are explicitly superseded. The prior index argument is retained as dated history; no parent score change or apprentice/child merger."
+      "preservation_basis": "Reviewed 12 November 2026: all distinct prior proposal/capture sources and newspaper passages retained. The original 1716 will and 1719 probate correct the current chronology and add explicit mother/sister clauses; earlier 1733 activity and later newspaper candidacies are explicitly superseded. The prior index argument is retained as dated history; no parent score change or apprentice/child merger.",
+      "maintenance_note": "14 November 2026: refreshed proposed hash after a comment-only wording cleanup; substantive passages and source accounting are unchanged."
     },
     "Glasgow-2682": {
       "current_sha256": "eacf235d0b97be47dc44b1885a5be9f0ef93ca37ce00930dec557934a32f2da0",
