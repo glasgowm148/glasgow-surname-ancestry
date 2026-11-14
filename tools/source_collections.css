@@ -146,7 +146,7 @@ details.sc-coverage>summary{cursor:pointer;list-style-position:inside}details.sc
 .sc-c-src{width:6.5rem;white-space:nowrap}
 .sc-src{display:inline-block;padding:.12rem .5rem;border-radius:999px;font-size:.74rem;font-weight:600;text-decoration:none;border:1px solid}
 .sc-src-original{background:#e8f0df;border-color:#bcd2a8;color:#2f5124}.sc-src-profile{background:#fbf5e7;border-color:#e4d6b5;color:#6b5728}.sc-src-none{background:#f3f3ef;border-color:#dcddd5;color:#596050;font-weight:400}
-.sc-dim{color:#a3a99a}
+.sc-dim{color:#596050}
 .sc-page-size{flex:0 0 6rem!important}
 /* Sidebar source links each occupy a row, including the mobile drawer. */
 :is(.g-nav,.g-mobile-nav-extras) .sc-nav{flex-direction:column;align-items:stretch}
