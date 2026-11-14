@@ -129,6 +129,7 @@ def _census_metadata(doc: dict) -> tuple[list[int], list[str]]:
 # URLs, archive references (OP/A/1018, T71/1266), GEDCOM objects (@M1059@),
 # Ancestry APIDs, source numbers (S142) and labelled page, roll or box numbers.
 _NOT_YEAR = [
+    r"\b(?:ADM|RG|HO|WO|PROB|IR|PIN|BT|MH|ASSI)\s+\d+(?:/[A-Za-z0-9]+)+\b",
     r"https?://\S+|\bwww\.\S+|\S+\.(?:json|html?|php|dll|pdf|jpe?g|ged)\b",
     r"\b[A-Za-z][A-Za-z'-]*-\d+\b",
     r"@[A-Za-z]*\d+@",
@@ -176,6 +177,17 @@ def _years(doc: dict, text: str, categories: list[str]) -> tuple[int | None, str
         recorded = _recorded_years(doc)
         if recorded:
             return (recorded[0], "record year") if len(recorded) == 1 else (None, "multiple record years")
+    # ADM references contain piece numbers, not medieval dates. These
+    # individual Navy register citations hold a birth date, not a service year.
+    if re.search(r"\bADM\s+188/", str(doc.get("title") or ""), re.I):
+        birth_years = set()
+        for citation in doc.get("citations") or []:
+            assertion = str(citation.get("assertion") or "")
+            match = re.search(r"\bborn\s+\d{1,2}\s+[A-Za-z]+\s+(\d{4})\b", assertion, re.I)
+            if match and str(citation.get("date")) == match[1]:
+                birth_years.add(int(match[1]))
+        if len(birth_years) == 1:
+            return birth_years.pop(), "recorded birth year"
     title = re.sub(r"\b[A-Za-z][A-Za-z'-]*-\d+\b", "", str(doc.get("title") or ""))
     title_years = [] if "census" in categories else [int(x) for x in _YEAR.findall(title)]
     # A lone title number that is really an ID, page, reference or URL part

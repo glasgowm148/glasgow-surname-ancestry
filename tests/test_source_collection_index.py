@@ -166,6 +166,16 @@ class TitleYearTest(unittest.TestCase):
                       'Glasgow Branches in Early Ireland, accessed 19 August 2026.'):
             self.assertIsNone(self.year(title), title)
 
+    def test_navy_piece_numbers_use_cited_birth_year(self):
+        from tools.source_collection_index import _years
+        for ref, date, name in (("1102/8725", "4 June 1900", "George Edwin Glasgow"),
+                                ("1119/113241", "25 April 1892", "William Sim Glasgow")):
+            title = f"The National Archives, ADM 188/{ref}: Royal Navy register entry for {name}"
+            doc = {"title": title, "citations": [{"date": int(date[-4:]),
+                   "assertion": f"The register lists {name}, born {date} at Burnley."}]}
+            self.assertEqual(_years(doc, title, ["military"]), (int(date[-4:]), "recorded birth year"))
+            self.assertIsNone(self.year(title))
+
     def test_real_title_years_remain(self):
         self.assertEqual(self.year('Glasgow University Archives GUA BL/204, instrument of 28 Apr 1506'), 1506)
         self.assertEqual(self.year('Cookstown SR District https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1889/06144/475'), 1889)

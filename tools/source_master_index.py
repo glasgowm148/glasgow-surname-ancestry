@@ -42,6 +42,7 @@ REFERENCE_PATTERNS = [
 ]
 
 DATE_STATUS = {
+    'recorded birth year': 'Recorded birth year',
     'record year': 'Record date', 'record dates': 'Record date', 'source title': 'Year from title',
     'reviewed citation title': 'Year from title', 'multiple census years': 'Several years',
     'multiple record years': 'Several years', 'reviewed undated': 'Undated (reviewed)', 'unknown': 'Unresolved',
