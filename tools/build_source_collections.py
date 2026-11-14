@@ -164,7 +164,7 @@ def browser(rows, category, country='', year='', period='', prefix='', static_in
             '<p class="sc-m-intro">Reference items in this project, not the total surviving archive. One reference can belong to several record types or countries, and several references can describe the same record. Countries come from source descriptions and recorded places; undated and ambiguous items stay in the list. Select a row for its details.' + scope + '</p>'
             '<div class="sc-np-timeline sc-m-timeline" hidden></div>'
             '<form class="sc-m-search" role="search"><label class="sc-m-q">Search names, places and references<input type="search" name="q" placeholder="Name, parish, townland, collection, RG 14…" autocomplete="off"></label>'
-            '<label>Sort<select name="sort"><option value="date">Date, earliest first</option><option value="-date">Date, latest first</option><option value="name">Person named, A–Z</option><option value="collection">Collection, A–Z</option></select></label>'
+            '<label>Sort<select name="sort"><option value="date">Date, earliest first</option><option value="-date">Date, latest first</option><option value="name">Person named, A–Z</option><option value="-name">Person named, Z–A</option><option value="collection">Collection, A–Z</option><option value="-collection">Collection, Z–A</option></select></label>'
             '<button type="reset">Clear filters</button></form>'
             '<details class="sc-m-filters" open><summary class="sc-m-filters-summary">Filters</summary><div class="sc-m-facets"></div></details>'
             '<div class="sc-m-active" aria-live="polite"></div>'

@@ -30,7 +30,8 @@ def publish() -> int:
             "<!doctype html><html lang=\"en\"><head><meta charset=\"utf-8\">"
             f"<title>{escape(old)} merged into {escape(new)}</title>"
             f"<link rel=\"canonical\" href=\"{escape(canonical, quote=True)}\">"
-            f"<meta http-equiv=\"refresh\" content=\"0; url={escape(href, quote=True)}\">"
+            f'<script>location.replace({json.dumps(href)}+location.search+location.hash)</script>'
+        f"<meta http-equiv=\"refresh\" content=\"0; url={escape(href, quote=True)}\">"
             "</head><body><main>"
             f"<h1>{escape(old)} was merged</h1><p>The current research dossier is "
             f"<a href=\"{escape(href, quote=True)}\">{escape(new)}</a>.</p>"

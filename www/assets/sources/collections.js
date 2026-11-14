@@ -11,7 +11,7 @@ const LEVELS=['Original','Image','Transcript','Index','Published account','Famil
 const LINKED=[['yes','Linked profile'],['pending','Profile pending'],['no','No profile']];
 let EVIDENCE={i:'Image',t:'Transcription',r:'Record entry',m:'Matching record found',c:'Citation only — no transcription yet'};
 const PERIODS={'before-1800':'Before 1800','1800-1849':'1800–1849','1850-1899':'1850–1899','1900-1949':'1900–1949','1950-onwards':'1950 onwards'};
-const SORTS={date:'Date, earliest first','-date':'Date, latest first',name:'Person named, A–Z',collection:'Collection, A–Z'};
+const SORTS={date:'Date, earliest first','-date':'Date, latest first',name:'Person named, A–Z','-name':'Person named, Z–A',collection:'Collection, A–Z','-collection':'Collection, Z–A'};
 const form=root.querySelector('.sc-m-search'),facetBox=root.querySelector('.sc-m-facets'),activeBox=root.querySelector('.sc-m-active'),filterBox=root.querySelector('.sc-m-filters'),filterSummary=root.querySelector('.sc-m-filters-summary'),timeline=root.querySelector('.sc-m-timeline'),count=root.querySelector('.sc-m-count'),out=root.querySelector('.sc-m-results'),more=root.querySelector('.sc-m-more');
 let notesBox=root.querySelector('.sc-m-notes');if(!notesBox){notesBox=document.createElement('div');notesBox.className='sc-m-notes';notesBox.hidden=true;activeBox.after(notesBox)}
 const KEYS=['q','cat','coll','country','provider','century','decade','year','period','linked','level','ev','id','sort'];
@@ -176,7 +176,7 @@ function appendChunk(){const t=out.querySelector('table');if(!t)return;const htm
 function toggle(body,open){const btn=body.querySelector('.sc-m-toggle');btn.setAttribute('aria-expanded',String(open));body.classList.toggle('is-open',open);const det=body.querySelector('.sc-m-detail');if(open&&!det){body.insertAdjacentHTML('beforeend',detail(filtered[Number(body.dataset.i)]));const box=body.querySelector('.sc-m-text');if(box)loadText(box)}else if(det)det.hidden=!open}
 function render(){
  state.terms=state.q.toLowerCase().trim().split(/\s+/).filter(Boolean);
- filtered=base.filter(r=>hit(r));const key=state.sort.replace('-',''),dir=state.sort.startsWith('-')?-1:1;filtered.sort((a,b)=>dir*sorters[key](a,b)||a.i.localeCompare(b.i));
+ filtered=base.filter(r=>hit(r));const key=state.sort.replace('-',''),dir=state.sort.startsWith('-')?-1:1;filtered.sort((a,b)=>{if(key==='date'&&(a.y==null)!==(b.y==null))return a.y==null?1:-1;return dir*sorters[key](a,b)||a.i.localeCompare(b.i)});
  renderFacets();renderTimeline();renderNotes();
  const total=filtered.length;shown=0;
  out.scrollTop=0;out.innerHTML=total?`<table class="sc-m-table">${HEAD}</table>`:'<p class="sc-m-empty">No references match these filters. Try a spelling variant or clear the filters; a missing match is not evidence of absence.</p>';

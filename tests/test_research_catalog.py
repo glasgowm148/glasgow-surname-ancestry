@@ -96,6 +96,7 @@ class CompactResolverTest(unittest.TestCase):
     def test_compact_resolver_keeps_states_without_duplicate_narratives(self):
         from copy import deepcopy
         row = {"id": "Person-1", "name": "Example", "imported": {"birth_year": 1600},
+               "_dated_records": [1600], "_structural_placeholder": True,
                "reviewed_vitals": {"birth": {"date": "before 1601"}},
                "reviewed_relationships": {"parents": [{
                    "id": "Parent-1", "status": "possible", "assertion_id": "A-1",
@@ -110,6 +111,8 @@ class CompactResolverTest(unittest.TestCase):
             "id": "Parent-1", "status": "possible", "assertion_id": "A-1",
             "working_selection": True, "probability": {"value": 40, "band": "possible"}}])
         self.assertNotIn("reviewed_vitals", compact)
+        self.assertNotIn("_dated_records", compact)
+        self.assertNotIn("_structural_placeholder", compact)
         self.assertEqual(compact_resolver_row(compact), compact)
         self.assertEqual(compact_resolver_row({"id": "Person-2", "reviewed_relationships": {"parents": []}}),
                          {"id": "Person-2"})
@@ -1069,7 +1072,7 @@ Corrected assessment.
             "Catalogue statistics", "View all statistics",
         ):
             self.assertIn(text, catalogue_html)
-        for title in ("Most frequent given names", "Surnames joined by marriage to Glasgow", "Largest family groups from WikiTree"):
+        for title in ("Most frequent given names", "Surnames joined by marriage to Glasgow", "Largest exported family branches"):
             self.assertIn(title, statistics_html)
         self.assertLess(
             catalogue_html.index("Profiles with strong candidate matches"),
@@ -1148,7 +1151,8 @@ Corrected assessment.
         self.assertIn("not a family branch", search_js)
         self.assertIn("catalogue-location-path-group", search_js)
         self.assertIn("catalogue-relation-status", search_js)
-        self.assertIn("relationHtml(person.father,true)", search_js)
+        self.assertIn("family(person.father,'father')", search_js)
+        self.assertIn("=>relationHtml(relations,true,", search_js)
         self.assertIn("filters.dateType==='birth'?[person.birth_year]", search_js)
         self.assertIn("marriage:person._marriageLocation,bio:person._biography,record:person._recordLocation", search_js)
         self.assertNotIn("Family branch / earliest ancestor", search_js)
@@ -1475,7 +1479,7 @@ Corrected assessment.
         catalogue_html = (WEB / "catalogue.html").read_text(encoding="utf-8")
         self.assertIn("Creation-ready profiles", catalogue_html)
         candidate_holds = expected_work_statuses["existing_profile_candidate"]
-        self.assertIn(f"{candidate_holds} possible existing-profile matches on HOLD", catalogue_html)
+        self.assertIn(f"{candidate_holds:,} possible existing-profile matches on HOLD", catalogue_html)
         self.assertNotIn("Unlinked WikiTree entries", catalogue_html)
 
         holkham = json.loads((WEB / "people" / "glasgow-4063.json").read_text(encoding="utf-8"))

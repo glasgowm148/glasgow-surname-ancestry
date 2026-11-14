@@ -19,7 +19,7 @@ import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import build_research_catalog as catalogue
-from catalogue_machine_data import build_machine_models, build_network, compact_resolver_row
+from catalogue_machine_data import build_machine_models, build_network, compact_resolver_row, _wikitree_profile_url
 try:
     from relationship_update_changes import catalogue_changes, normalise_change
 except ModuleNotFoundError:
@@ -352,13 +352,27 @@ def creation_panel(update):
     """Full creation text without a fictitious captured/current biography."""
     draft = update.get("proposed_wikitext") or update.get("draft_wikitext") or ""
     title = "Create a new WikiTree profile" if update.get("creation_ready", True) else _hold_title(update.get("creation_status"))
-    candidates = update.get("candidates") or []
+    self_ids = {str(update[key]).casefold() for key in ("catalogue_id", "profile_id") if update.get(key)}
+    candidates = [item for item in (update.get("candidates") or [])
+                  if str(item.get("profile_id") or "").casefold() not in self_ids]
     candidate_note = ""
     if candidates:
-        links = ", ".join(
-            f'<a href="{escape(item.get("url") or "https://www.wikitree.com/wiki/" + item["profile_id"], quote=True)}">{escape(item.get("name") or item["profile_id"])}</a>'
-            for item in candidates
-        )
+        rendered = []
+        for item in candidates:
+            profile_id = str(item.get("profile_id") or "")
+            label = escape(item.get("name") or profile_id)
+            url = str(item.get("url") or "")
+            local = ROOT / "www" / "people" / f"{profile_id.lower()}.html"
+            if profile_id and local.is_file():
+                rendered.append(f'<a href="/people/{escape(profile_id.lower(), quote=True)}.html">{label}</a>')
+            else:
+                if url.startswith("https://www.wikitree.com/wiki/"):
+                    target_id = url.removeprefix("https://www.wikitree.com/wiki/")
+                    if target_id.casefold().startswith(("record-", "ancestry-")):
+                        url = ""
+                url = url or _wikitree_profile_url(profile_id) or ""
+                rendered.append(f'<a href="{escape(url, quote=True)}">{label}</a>' if url else label)
+        links = ", ".join(rendered)
         candidate_note = f'<p>Reviewed possible existing-profile matches ({len(candidates)}): {links}. Identity remains unresolved.</p>'
     return f'''<section id="wikitree-update" class="profile-update-panel profile-creation-panel">
 <div class="candidate-section-heading"><div><p class="kicker">Needs updated on WikiTree</p><h2>{escape(title)}</h2></div><p>Significance {int(update.get('significance') or 0)}/100</p></div>

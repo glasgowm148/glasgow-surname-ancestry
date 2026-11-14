@@ -33,6 +33,14 @@ SKIP = ("gray-backup", "/backups/", "/before/")
 DRAFT = re.compile(r"BEGIN FMP-GLASGOW-fmp-glasgow-([0-9a-f]{12})")
 PERSON = re.compile(r"[A-Z][A-Za-z'_-]+-\d+")
 
+# These two legacy Ancestry slugs were public redirect URLs before the
+# catalogue IDs gained their ``record-`` prefix.  Keep them through the same
+# retired-record resolver; they are aliases only, not new identity decisions.
+LEGACY_ROUTE_ALIASES = {
+    "ancestry-glasgow-f6955358d5e4": "record-ancestry-glasgow-f6955358d5e4",
+    "ancestry-glasgow-17b6fc36789d": "record-ancestry-glasgow-17b6fc36789d",
+}
+
 
 def _decisions(value):
     if isinstance(value, dict):
@@ -87,6 +95,7 @@ def redirect_page(old: str, new: str) -> str:
         "<!doctype html><html lang=\"en\"><head><meta charset=\"utf-8\">"
         f"<title>{escape(old)} is now part of {escape(new)}</title>"
         f"<link rel=\"canonical\" href=\"{escape(canonical, quote=True)}\">"
+        f'<script>location.replace({json.dumps(href)}+location.search+location.hash)</script>'
         f"<meta http-equiv=\"refresh\" content=\"0; url={escape(href, quote=True)}\">"
         "</head><body><main>"
         f"<h1>This record subject is now part of {escape(new)}</h1><p>The research on this record is in "
@@ -106,13 +115,18 @@ def publish(root: Path = ROOT) -> int:
     for old, new in sorted(retired_subjects(root).items()):
         if old in current or not (site / f"{new.lower()}.html").is_file():
             continue
-        if old not in published and not (site / f"{old}.html").is_file():
-            continue   # never had a public URL: nothing to keep
-        page = redirect_page(old, new)
-        alias = site / f"{old}.html"
-        if not alias.exists() or alias.read_text(encoding="utf-8") != page:
-            alias.write_text(page, encoding="utf-8")
-            written += 1
+        aliases = [old]
+        aliases.extend(alias for alias, target in LEGACY_ROUTE_ALIASES.items() if target == old)
+        for alias_name in aliases:
+            if alias_name != old and alias_name not in LEGACY_ROUTE_ALIASES:
+                continue
+            if alias_name == old and old not in published and not (site / f"{old}.html").is_file():
+                continue   # never had a public URL: nothing to keep
+            page = redirect_page(alias_name, new)
+            alias = site / f"{alias_name}.html"
+            if not alias.exists() or alias.read_text(encoding="utf-8") != page:
+                alias.write_text(page, encoding="utf-8")
+                written += 1
     return written
 
 

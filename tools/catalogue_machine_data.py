@@ -41,7 +41,7 @@ def compact_resolver_row(row: dict) -> dict:
     required = {"schema_version", "id", "alternate_ids", "catalogue_id", "name",
                 "html_url", "json_url", "network_url"}
     compact = {key: value for key, value in row.items()
-               if key != "reviewed_vitals" and
+               if key != "reviewed_vitals" and not key.startswith("_") and
                (key in required or value not in (None, "", [], {}))}
     # A reviewed row needs relationship states for matching, not a second copy
     # of every source argument and previous assessment. Those remain available
@@ -68,7 +68,8 @@ def compact_resolver_row(row: dict) -> dict:
 
 def _wikitree_profile_url(profile_id: str | None) -> str | None:
     """Return a WikiTree URL only for a syntactically valid profile ID."""
-    if profile_id and WT_ID.fullmatch(profile_id):
+    if (profile_id and not profile_id.casefold().startswith(('record-', 'ancestry-'))
+            and WT_ID.fullmatch(profile_id)):
         return WIKITREE_URL + profile_id
     return None
 

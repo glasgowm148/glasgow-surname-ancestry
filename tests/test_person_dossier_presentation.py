@@ -334,7 +334,10 @@ class PersonDossierPresentationTests(unittest.TestCase):
         historical = main.select("#timeline .timeline-row")
         source_rows = json.loads((ROOT / "www/people/glasgow-951.json").read_text())["presentation"]["record_associations"]
         historical_ids = {row["record_id"] for row in source_rows if not row["record_id"].startswith("correspondence")}
-        self.assertTrue(historical_ids.issubset({row.get("id", "").removeprefix("timeline-") for row in historical}))
+        # Timeline anchors use URL-safe lowercase slugs; source IDs retain
+        # their canonical uppercase ``SRC-`` prefix in the data model.
+        timeline_ids = {row.get("id", "").removeprefix("timeline-").casefold() for row in historical}
+        self.assertTrue({record_id.casefold() for record_id in historical_ids}.issubset(timeline_ids))
         self.assertNotIn("Y-DNA", records.get_text() + collateral.get_text())
         self.assertIn("reported autosomal connection", main.get_text())
         self.assertIn("Unnamed Glasgow child baptism", records.get_text())

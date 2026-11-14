@@ -162,6 +162,19 @@ class RenderedPageTests(unittest.TestCase):
 
 
 class LegacyAnchorTests(unittest.TestCase):
+    def test_local_documentary_ids_never_fall_back_to_wikitree(self):
+        from pathlib import Path
+        from tempfile import TemporaryDirectory
+        from unittest.mock import patch
+        ident = 'record-george-mureistoun-1586'
+        with TemporaryDirectory() as directory, patch.object(renderer, 'WEB', Path(directory)):
+            self.assertEqual('', renderer.person_href(None, ident))
+            self.assertEqual('', renderer.person_href('https://www.wikitree.com/wiki/' + ident, ident))
+            self.assertEqual('https://www.wikitree.com/wiki/Example-2', renderer.person_href(None, 'Example-2'))
+            target = Path(directory) / 'people' / (ident + '.html')
+            target.parent.mkdir(); target.write_text('<main>Documentary account</main>')
+            self.assertEqual('/people/' + ident + '.html', renderer.person_href(None, ident))
+
     def test_alias_goes_inside_the_successor_and_after_a_summary(self):
         html = ('<section id="overview"></section><section id="research-findings"><h2>R</h2></section>'
                 '<details id="family" class="supporting-register"><summary>Family</summary><div>x</div></details>')
@@ -176,6 +189,31 @@ class LegacyAnchorTests(unittest.TestCase):
         out = renderer._with_legacy_anchors(html)
         self.assertEqual(1, out.count('id="research"'))
         self.assertEqual("overview", BeautifulSoup(out, "html.parser").find(id="imported-identity").parent["id"])
+
+    def test_research_aliases_land_in_current_sections_idempotently(self):
+        html = ('<section id="full-research"><h2>Research</h2></section>'
+                '<details id="wikitree-update"><summary>Update</summary></details>'
+                '<details id="archive-tools"><summary>Archive</summary></details>')
+        out = renderer._with_legacy_anchors(html)
+        soup = BeautifulSoup(out, "html.parser")
+        self.assertEqual("full-research", soup.find(id="research-findings").parent["id"])
+        self.assertEqual("wikitree-update", soup.find(id="research-update").parent["id"])
+        self.assertEqual("archive-tools", soup.find(id="review-provenance").parent["id"])
+        self.assertEqual(out, renderer._with_legacy_anchors(out))
+
+    def test_redirected_duplicate_note_alias_lands_in_resolution(self):
+        html = '<details id="research-note-e4a13437edcf"><summary>Duplicate resolution</summary></details>'
+        soup = BeautifulSoup(renderer._with_legacy_anchors(html), "html.parser")
+        self.assertEqual("research-note-e4a13437edcf", soup.find(id="research-note-eff163296b61").parent["id"])
+
+    def test_serialized_alias_is_not_used_as_a_successor(self):
+        html = ('<section id="overview"><span class="anchor-alias" id="research"></span></section>'
+                '<details id="full-research"><summary>Research</summary></details>')
+        out = renderer._with_legacy_anchors(html)
+        soup = BeautifulSoup(out, "html.parser")
+        self.assertEqual("full-research", soup.find(id="research-findings").parent["id"])
+        self.assertFalse(soup.find(id="research").find(class_="anchor-alias"))
+        self.assertEqual(out, renderer._with_legacy_anchors(out))
 
 
 class FindingLabelTests(unittest.TestCase):

@@ -215,6 +215,36 @@ def resolve(dossier, assessments, shared_assessments=()):
         aid = assessment['assertion_id']
         claims = result.setdefault('claims', [])
         previous_ids = []
+        # A superseded approved assessment can refer to a claim that was
+        # introduced during an earlier publication pass and is absent from a
+        # refreshed imported snapshot. Retain a compact historical claim so
+        # every approved assertion remains auditable in the full dossier.
+        if (assessment.get('lifecycle') == 'superseded'
+                and assessment.get('display') == 'historical'
+                and not any(c.get('id') == aid for c in claims)):
+            perspective = next((row for profile, row in (assessment.get('perspectives') or {}).items()
+                                if profile.casefold() == dossier['id'].casefold()), {})
+            claims.append({
+                'id': aid,
+                'type': 'relationship_hypothesis' if assessment.get('hypothesis_status') else 'assessed_relationship',
+                'subject_ids': assessment.get('people', []),
+                'relationship': perspective.get('relationship') or assessment.get('relation_type'),
+                'status': assessment.get('status'),
+                'status_label': assessment.get('status_label', assessment.get('status')),
+                'reason': perspective.get('reason') or assessment.get('reason') or assessment.get('basis', ''),
+                'basis': assessment.get('basis', ''),
+                'source_ids': assessment.get('source_ids', []),
+                'claim': assessment.get('claim') or assessment.get('reason') or assessment.get('basis', ''),
+                'notes': perspective.get('reason') or assessment.get('reason') or assessment.get('basis', ''),
+                'assessment_date': assessment.get('assessment_date'),
+                'assessment_history': assessment.get('assessment_history', []),
+                'provenance': assessment.get('provenance', {}),
+                'perspective_id': dossier['id'],
+                'evidence_ids': [],
+                'lifecycle': 'historical',
+                'display': 'historical',
+                'historical_claim_ids': [],
+            })
         for previous in assessment.get('historical_assertions', []):
             if previous['profile_id'].casefold() != dossier['id'].casefold():
                 continue
@@ -374,7 +404,8 @@ def project_catalogue_vitals(rows, assessments):
         for key, original in prior.get('original_fields', {}).items():
             if original['present']: row[key] = deepcopy(original['value'])
             else: row.pop(key, None)
-        ids = {str(i).casefold() for i in row.get('profile_ids', []) or [row.get('id', '')]}
+        ids = {str(i).casefold() for i in
+               [row.get('id'), row.get('catalogue_id'), *(row.get('profile_ids') or [])] if i}
         reviews = [a for a in assessments if a.get('status') == 'approved'
                    and str(a.get('subject', '')).casefold() in ids and a.get('catalogue_projection')]
         originals = {}

@@ -326,7 +326,7 @@ def _relation_birth_surnames(relation: dict, people_by_profile: dict[str, dict])
     return {_canonical_marriage_surname(name.split()[-1])} if name else set()
 
 
-def _marriage_surname_values(people: list[dict], catalogue_href: str = "/catalogue.html") -> list[tuple[str, int, str]]:
+def _marriage_surname_values(people: list[dict], catalogue_href: str = "/catalogue/") -> list[tuple[str, int, str]]:
     people_by_profile = {
         profile_id.casefold(): person
         for person in people
@@ -357,7 +357,7 @@ def _marriage_surname_values(people: list[dict], catalogue_href: str = "/catalog
     ]
 
 
-def _marriage_statistics_panel(people: list[dict], catalogue_href: str = "/catalogue.html") -> str:
+def _marriage_statistics_panel(people: list[dict], catalogue_href: str = "/catalogue/") -> str:
     return _stat_bars(
         "Surnames joined by marriage to Glasgow",
         "Glasgow-at-birth people by their spouses' recorded birth surnames, including Glasgow; recognised spelling variants are grouped. Shared surnames do not by themselves prove cousinship.",

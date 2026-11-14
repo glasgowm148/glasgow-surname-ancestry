@@ -45,6 +45,18 @@ class RetiredRecordRedirects(unittest.TestCase):
         self.assertFalse((people / 'record-fmp-glasgow-dddddddddddd.html').exists())   # never published
         self.assertEqual(retired.publish(self.root), 0)
 
+    def test_legacy_ancestry_routes_follow_existing_retired_mapping(self):
+        self.put('research/reviews/ancestry.json', {'decisions': [
+            {'retired_catalogue_id': target, 'canonical_profile_id': 'Harrow-1'}
+            for target in retired.LEGACY_ROUTE_ALIASES.values()]})
+        self.put('www/data/people.json', {'people': []})
+        for target in retired.LEGACY_ROUTE_ALIASES.values():
+            self.put(f'www/people/{target}.html', '<html>retired dossier</html>')
+        retired.publish(self.root)
+        for alias, target in retired.LEGACY_ROUTE_ALIASES.items():
+            text = (self.root / 'www/people' / f'{alias}.html').read_text()
+            self.assertIn('url=harrow-1.html', text)
+
 
 if __name__ == '__main__':
     unittest.main()

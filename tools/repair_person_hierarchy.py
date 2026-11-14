@@ -15,7 +15,7 @@ import hashlib
 import json
 from pathlib import Path
 import re
-from urllib.parse import unquote, urljoin
+from urllib.parse import unquote, urljoin, urlsplit
 
 from bs4 import BeautifulSoup
 from markdown_it import MarkdownIt
@@ -414,6 +414,11 @@ def person_href(value: str | None, profile_id: str | None = None) -> str:
     """Normalise internal links, especially from nested /people/ pages."""
     value = str(value or "").strip()
     if value.startswith(("http://", "https://")):
+        parsed = urlsplit(value)
+        if parsed.hostname in {'wikitree.com', 'www.wikitree.com'} and parsed.path.startswith('/wiki/'):
+            target_id = unquote(parsed.path.removeprefix('/wiki/'))
+            if target_id.casefold().startswith(('record-', 'ancestry-')):
+                return person_href(None, target_id)
         return value
     if value.startswith("/"):
         path = value
@@ -427,6 +432,9 @@ def person_href(value: str | None, profile_id: str | None = None) -> str:
         path = "/" + value
     path = re.sub(r"^/people/(?:people/)+", "/people/", path)
     local_path = path.split("#", 1)[0].split("?", 1)[0]
+    if (local_path.startswith('/people/') and not (WEB / local_path.lstrip('/')).is_file()
+            and profile_id and profile_id.casefold().startswith(('record-', 'ancestry-'))):
+        return ''
     if (local_path.startswith("/people/") and local_path.endswith(".html")
             and not (WEB / local_path.lstrip("/")).exists()
             and profile_id and re.fullmatch(r"[A-Za-z][A-Za-z_'’.\-]*-\d+", profile_id)):
@@ -2223,6 +2231,11 @@ _LEGACY_ANCHORS = (
     # "full relationship record" to #imported-identity; keep both landing.
     ("research", ("research-findings", "overview")),
     ("imported-identity", ("family", "overview")),
+    # Older connected pages linked these named sections before research was
+    # moved into the archive/update disclosures.
+    ("research-findings", ("research", "full-research", "overview")),
+    ("research-update", ("wikitree-update", "archive-tools", "overview")),
+    ("review-provenance", ("archive-tools", "overview")),
     # Andrew-1319 still links to William-1026's former recommendation heading.
     # Keep that incoming link beside the current overall conclusion.
     ("research-note-5be72571720e", ("research-note-518d31385e87",)),
@@ -2234,6 +2247,9 @@ _LEGACY_ANCHORS = (
     ("research-note-bc1eb7d92ddb", ("research-note-ed922f7cb83d",)),
     # James Glasco's page links to Manasses's retained dated newspaper assessment.
     ("research-note-cbc08206b895", ("research-note-dce96e4439cf",)),
+    # Glasgow-1024/1970 linked the pre-redirect Glasgow-3137 duplicate note;
+    # the retained Glasgow-2988 resolution records that 3137 was merged.
+    ("research-note-eff163296b61", ("research-note-e4a13437edcf",)),
 )
 
 
@@ -2243,11 +2259,15 @@ def _with_legacy_anchors(html: str) -> str:
         if f'id="{alias}"' in html:
             continue
         for target in targets:
+            # A successor may itself be a legacy alias added earlier in this
+            # pass; never nest aliases on a second invocation.
             start = html.find(f'id="{target}"')
             if start < 0:
                 continue
             tag_start = html.rfind("<", 0, start)
             tag_end = html.find(">", start) + 1
+            if re.search(r'\bclass=["\'][^"\']*\banchor-alias\b', html[tag_start:tag_end]):
+                continue
             insert_at = tag_end
             if html.startswith("<details", tag_start):
                 summary_end = html.find("</summary>", tag_end)

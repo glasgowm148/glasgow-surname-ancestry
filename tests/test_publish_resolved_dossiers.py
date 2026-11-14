@@ -105,6 +105,9 @@ class ResolvedDossierTests(unittest.TestCase):
         history, = resolved['relationship_history']
         self.assertEqual((history['id'], history['source_ids']), (old, ['baptism']))
         self.assertNotIn('url', history)
+        claim = next(c for c in resolved['claims'] if c['id'] == 'retired-link')
+        self.assertEqual(('historical', 'child'), (claim['lifecycle'], claim['relationship']))
+        self.assertFalse(any(r.get('claim_id') == 'retired-link' for rows in resolved['relationships'].values() for r in rows))
         self.assertEqual(resolved, module.resolve(resolved, [], [retired]))
 
     def test_stepmother_correction_preserves_history_and_catalogue_biological_mother(self):
@@ -141,6 +144,17 @@ class ResolvedDossierTests(unittest.TestCase):
         self.assertEqual('Recorded Person', rows[0]['name'])
         module.project_catalogue_vitals(rows, [])
         self.assertEqual(original['name'], rows[0]['name'])
+
+    def test_reviewed_vital_projects_to_raw_catalogue_id_and_restores(self):
+        original = {'catalogue_id': 'record-bound', 'birth': ''}
+        rows = [deepcopy(original)]
+        review = {'id': 'record-bound-birth', 'subject': 'record-bound', 'status': 'approved',
+                  'catalogue_projection': {'birth': 'before 1721', 'birth_year': None}}
+        module.project_catalogue_vitals(rows, [review])
+        self.assertEqual('before 1721', rows[0]['birth'])
+        self.assertIsNone(rows[0]['birth_year'])
+        module.project_catalogue_vitals(rows, [])
+        self.assertEqual(original, rows[0])
 
     def test_shared_review_skips_incomplete_retired_redirect(self):
         with tempfile.TemporaryDirectory() as temp:

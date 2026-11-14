@@ -28,4 +28,5 @@ class RedirectAliasTests(unittest.TestCase):
             page = BeautifulSoup((people / "old-1.html").read_text(), "html.parser")
             self.assertEqual("https://glasgow.phenotype.dev/people/current-2.html", page.select_one('link[rel="canonical"]')["href"])
             self.assertEqual("0; url=current-2.html", page.select_one('meta[http-equiv="refresh"]')["content"])
+            self.assertIn('location.replace("current-2.html"+location.search+location.hash)', str(page))
             self.assertEqual('{"original_evidence":"preserved"}', old_evidence.read_text())

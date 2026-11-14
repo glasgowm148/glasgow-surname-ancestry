@@ -629,6 +629,27 @@ The deed does not give her birth date. No compatible profile survived the docume
                 audit = {"recommended_action": "hold", "candidates": reviewed_candidates}
                 self.assertEqual(module.catalogue._profile_work_status(person, audit), expected)
 
+    def test_creation_panel_omits_self_candidate_and_keeps_local_candidate_link(self):
+        local_id = "Glasgow-1521"
+        candidates = [
+            {"profile_id": self.slug, "name": "John Glasgow"},
+            {"profile_id": local_id, "name": "William Glasgow", "url": "https://www.wikitree.com/wiki/" + local_id},
+            {"profile_id": "record-other", "name": "Other documentary subject"},
+            {"profile_id": "Glasgow-9999", "name": "External profile"},
+            {"name": "Named candidate without a profile ID"},
+        ]
+        update = {"catalogue_id": self.slug, "profile_id": self.slug, "candidates": candidates,
+                  "summary": "Review identity", "assessment": "Held", "draft_wikitext": ""}
+        with patch.object(module, "ROOT", self.root):
+            panel = BeautifulSoup(module.creation_panel(update), "html.parser")
+        text = panel.get_text(" ", strip=True)
+        self.assertIn("Reviewed possible existing-profile matches (4)", text)
+        self.assertNotIn("record-ancestry-glasgow", text)
+        self.assertIsNotNone(panel.select_one('a[href="/people/glasgow-1521.html"]'))
+        self.assertIn("Other documentary subject", text)
+        self.assertIn("Named candidate without a profile ID", text)
+        self.assertIsNotNone(panel.select_one('a[href="https://www.wikitree.com/wiki/Glasgow-9999"]'))
+
     def test_age_supported_later_record_does_not_fabricate_birth(self):
         self.entry["records"][0].update(year="1911", filter_year=1911)
         self.entry["historical_basis"] = {"earliest_birth_year": 1840, "latest_birth_year": 1841, "source_url": self.url}

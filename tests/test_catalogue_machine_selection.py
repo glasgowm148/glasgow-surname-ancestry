@@ -6,12 +6,14 @@ from tools import catalogue_machine_data as machine
 
 class SelectedDossierTests(unittest.TestCase):
     def test_unlinked_record_identity_is_not_a_wikitree_profile_url(self):
-        person = dict(
-            profile_ids=['Glasgow-1'], father=[{'id': 'record-ancestry-glasgow-6c9f95c319c0'}],
-            mother=[], spouses=[], children=[], wikitree_evidence=[],
-        )
-        relation = machine._tree_relations(person, {'Glasgow-1': person}, {'Glasgow-1'})[0]
-        self.assertIsNone(relation['wikitree_url'])
+        for ident in ('record-ancestry-glasgow-6c9f95c319c0', 'record-george-mureistoun-1586'):
+            with self.subTest(ident=ident):
+                person = dict(
+                    profile_ids=['Glasgow-1'], father=[{'id': ident}],
+                    mother=[], spouses=[], children=[], wikitree_evidence=[],
+                )
+                relation = machine._tree_relations(person, {'Glasgow-1': person}, {'Glasgow-1'})[0]
+                self.assertIsNone(relation['wikitree_url'])
 
     def test_valid_unlinked_wikitree_profile_keeps_its_profile_url(self):
         person = dict(

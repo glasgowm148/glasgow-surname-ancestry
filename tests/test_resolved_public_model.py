@@ -46,13 +46,22 @@ class ResolvedPublicModelTests(unittest.TestCase):
                         # An external WikiTree relative need not have a local dossier.
                         other = next(p for p in assessment['people'] if p != profile)
                         related = load(WEB / f'people/{other.lower()}.json')
+                        if assessment.get('lifecycle') == 'superseded' and assessment.get('display') == 'historical':
+                            archived = next(r for r in related['relationship_history']
+                                            if r.get('claim_id') == aid and r['id'] == profile)
+                            self.assertEqual('superseded', archived['status'])
+                            self.assertFalse(any(r.get('claim_id') == aid
+                                                 for rows in related['relationships'].values() for r in rows))
+                            continue
                         external = next(r for rows in related['relationships'].values() for r in rows if r['id'] == profile)
                         account = assessment.get('profile_urls', {}).get(profile)
                         if account:
                             self.assertEqual(account['url'], external['url'])
                             self.assertIsNone(external['wikitree_url'])
-                        else:
+                        elif not profile.startswith('record-'):
                             self.assertEqual(f'https://www.wikitree.com/wiki/{profile}', external['wikitree_url'])
+                        else:
+                            self.assertIsNone(external['wikitree_url'])
                         continue
                     dossier = load(WEB / f'people/{profile.lower()}.json')
                     network = load(WEB / f'people/{profile.lower()}.network.json')
@@ -69,7 +78,9 @@ class ResolvedPublicModelTests(unittest.TestCase):
                         if 'superseded_by' not in claim:
                             # The assessment itself was retired; it stays only as a
                             # superseded row, never a current relationship.
-                            self.assertEqual('historical', assessment['lifecycle'])
+                            self.assertIn((assessment['lifecycle'], assessment['display']),
+                                          (('historical', 'superseded'), ('superseded', 'historical')))
+                            self.assertEqual('superseded', claim['status'])
                             rows = [r for rows in dossier['relationships'].values() for r in rows if r.get('claim_id') == aid]
                             self.assertTrue(all(r['status'] == 'superseded' for r in rows), aid)
                             continue
