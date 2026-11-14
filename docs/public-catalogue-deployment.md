@@ -8,7 +8,15 @@ The catalogue's maintained stylesheet is `tools/catalogue-light.css`. Both the c
 
 `tools/deploy_site.py --bundle` now writes `dist/glasgow-site-YYYYMMDD-HHMMSS.tar.gz` beside `www/`, never inside it. Keep only the latest bundle there. The bundle paths recorded in the release notes below (`www/glasgow-site-…`) describe where those older bundles were written at the time. The deploy and bundle exclude lists also leave out the root build reports `dossier-release.json` and `integration-report.json`, temporary `*.tmp` files and any stray `glasgow-site-*.tar.gz`, so none of them is published even while an old copy still sits in `www/`. `www/health.json` stays public: the status page links it. Legacy `x.html` copies of clean pages (`catalogue.html`, `feedback.html` and the others in `tools/publish_clean_urls.py`) carry `rel="canonical"` to their clean `/x/` URL.
 
-## Current live release — integrated research and catalogue repair, 12 November 2026
+## Current live release — public launch sweep, 14 November 2026
+
+The complete site was rebuilt and the launch fixes were committed in `09efd5bc05f0`: corrected source dates, functioning reverse source sorts, improved contrast, repaired legacy section links and redirects, and valid candidate links. Current totals are **8,027 people, 16,987 record entries and 27,442 source references**. Existing source evidence and complete drafts were preserved; record ID changes were reconciled by their original provider URLs.
+
+Validation passed: 1,375 tests (seven skips), three final redirect tests, 888 experience checks, publication privacy, release totals, asset versions and all 346 generated workbench views. The link scan found no broken page targets; all 17 redirect-related section warnings were checked against expanded destination pages. Desktop and mobile checks covered the main reader flows. Full standalone performance measurements were not repeated; accessibility automation omitted the two chart-heavy pages. The research publication check retains its existing 22-item baseline with no new failures.
+
+Deployment and byte verification are recorded in `output/public-launch-20261114-verification.json`. The private pre-upload server backup is `/var/backups/glasgow/20261114-public-launch/site-before.tar.gz`. The release bundle is `dist/glasgow-site-20261114-185117.tar.gz` (577,004,768 bytes; SHA-256 `3d836f19a11d8b2d0c05d75bea3dbd7199191fd9578d66b91e189b053ef22e9c`); every one of its 140,181 payload members matches the embedded manifest and local release.
+
+## Previous live release — integrated research and catalogue repair, 12 November 2026
 
 Research remains paused. All completed public-safe work is integrated on `main`; payload commit `73cf5d838e03` is pushed and verified remotely. The complete local site was rebuilt and deployed: catalogue, complete drafts, records and source collections, studies, both tree models, Latest Findings, progress charts, navigation, search and sitemap. Current totals are **8,022 people and 16,979 record entries**. The additional indexed coverage is publication backfill, not a new confidence gain.
 

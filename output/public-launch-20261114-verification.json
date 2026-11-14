@@ -1,0 +1,102 @@
+{
+  "date": "2026-11-14",
+  "status": "deployed and verified",
+  "site": "https://glasgow.phenotype.dev",
+  "payload_commit": "09efd5bc05f0",
+  "tests": {
+    "total": 1375,
+    "skipped": 7,
+    "failures": 0,
+    "final_redirect_tests": 3
+  },
+  "checks": {
+    "build": "passed",
+    "privacy": "passed",
+    "internal_broken_page_links": 0,
+    "redirect_section_warnings_verified": 17,
+    "experience_checks": 888,
+    "workbench_generated_files_matching": 346
+  },
+  "preservation": {
+    "baseline_people": 8027,
+    "current_people": 8027,
+    "missing_people": [],
+    "added_people": [],
+    "baseline_records": 16989,
+    "current_records": 16987,
+    "rekeyed_records_preserved_by_source_url": 17,
+    "unresolved_missing_records": [],
+    "baseline_sources": 27436,
+    "current_sources": 27442,
+    "source_ids_absent_primary_index": [],
+    "source_ids_without_preserved_routes": []
+  },
+  "limitations": [
+    "Research publication retains its existing 22-item baseline; no new failures.",
+    "Full standalone performance benchmark was not repeated.",
+    "Accessibility automation omitted chart-heavy Latest Findings and Tree pages; their layout and JavaScript were checked."
+  ],
+  "backup": {
+    "remote_path": "/var/backups/glasgow/20261114-public-launch/site-before.tar.gz",
+    "sha256": "b2b0a18415a9f0dcdf9ea9de9173a26113f72f0637e1d1fe1e5e2df18b78f0f2"
+  },
+  "native_backup": {
+    "asset_count": 3754,
+    "logical_digest": "e4a7d1247d0936a478d7e8cf3078fe3cfb9d7c47a92bfe5c785bd08236818ef7",
+    "path": "data/private/workbench/backups/launch-20261114-final",
+    "referenced_only": 87310,
+    "schema_version": 2
+  },
+  "bundle": {
+    "path": "dist/glasgow-site-20261114-185117.tar.gz",
+    "bytes": 577004768,
+    "sha256": "3d836f19a11d8b2d0c05d75bea3dbd7199191fd9578d66b91e189b053ef22e9c",
+    "verified_payload_files": 140181,
+    "payload_bytes": 3771735748
+  },
+  "section_links": {
+    "static_reported": 17,
+    "verified": 17,
+    "unresolved": []
+  },
+  "local_browser": {
+    "widths": [
+      390,
+      1440
+    ],
+    "routes": [
+      "/",
+      "/catalogue/",
+      "/sources/",
+      "/notables/",
+      "/latest-findings/",
+      "/onetree/",
+      "/people/glasgow-951.html",
+      "/records/",
+      "/about/"
+    ],
+    "overflow_failures": 0,
+    "runtime_errors": 0,
+    "accessibility": "No serious or critical findings on the seven checked routes; chart-heavy routes excluded."
+  },
+  "verified_at": "2026-11-14T19:02:40.175012+00:00",
+  "origin": {
+    "checked": 140181,
+    "expected": 140181,
+    "failures": []
+  },
+  "https": {
+    "checked": 325,
+    "exact": 259,
+    "normalized": 66,
+    "failures": []
+  },
+  "post_upload_rsync_changes": 0,
+  "live_browser": {
+    "merged_profile_section_preserved": true,
+    "section_target_exists": true,
+    "source_reverse_name_sort": "Person named, Z\u2013A",
+    "horizontal_overflow": false
+  },
+  "github_payload_commit": "09efd5bc05f0c0b8edad3d6213dabce6e3e54169"
+}
