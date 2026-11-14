@@ -60,8 +60,119 @@ PORTRAITS = {
         'https://commons.wikimedia.org/wiki/File:CB40-2009-Jemima.jpg'),
 }
 
+# Context images checked 14 November 2026. Modern buildings, regional views
+# and emblems illustrate an association; they are never presented as portraits.
+# The owner supplied the Kilbirnie illustration for use on this site.
+COLLEGE_CONTEXT = ('old-college-glasgow.jpg',
+ 706,
+ 481,
+ 'Context: Glasgow’s Old College · John Slezer, 1693 · institutional context',
+ 'Glasgow’s Old College · John Slezer, 1693 · institutional context',
+ 'https://www.gla.ac.uk/myglasgow/library/files/special/exhibns/timeline/index.html',
+ 'Public-domain engraving',
+ 'https://creativecommons.org/publicdomain/mark/1.0/')
+
+CONTEXT_IMAGES = {'Glasgow-2265': ('cornell-medical-college-1901.jpg',
+                  760,
+                  583,
+                  'Context: Cornell University Medical College, 1901 · Wurts Bros. / NYPL',
+                  'Cornell University Medical College, 1901 · Wurts Bros. / NYPL',
+                  'https://old-digitalcollections.nypl.org/items/510d47e2-eed8-a3d9-e040-e00a18064a99',
+                  'NYPL rights statement',
+                  'https://old-digitalcollections.nypl.org/items/510d47e2-eed8-a3d9-e040-e00a18064a99#item-data'),
+ 'Glasgow-634': ('north-carolina-flag.svg',
+                 750,
+                 500,
+                 'Context: modern flag of North Carolina',
+                 'North Carolina’s modern state flag · emblem of the state James served',
+                 'https://commons.wikimedia.org/wiki/File:Flag_of_North_Carolina.svg',
+                 'Public domain',
+                 'https://creativecommons.org/publicdomain/mark/1.0/'),
+ 'Glasgow-2075': ('gateshead.jpg',
+                  960,
+                  593,
+                  'Context: Gateshead Millennium Bridge · modern view of Alex’s home region',
+                  'Gateshead Millennium Bridge · modern view of Alex’s home region · Benjamin Smith',
+                  'https://commons.wikimedia.org/wiki/File:Newcastle_upon_Tyne_-_Gateshead_Millennium_Bridge_-_2.jpg',
+                  'CC BY-SA 4.0',
+                  'https://creativecommons.org/licenses/by-sa/4.0'),
+ 'Glasgow-2873': ('us-capitol-1814.jpg',
+                  960,
+                  563,
+                  'Context: U.S. Capitol after the 1814 fire · Hugh’s congressional years',
+                  'U.S. Capitol after the 1814 fire · Hugh’s congressional years · George Munger',
+                  'https://commons.wikimedia.org/wiki/File:US_Capitol_1814c.jpg',
+                  'Public domain',
+                  'https://creativecommons.org/publicdomain/mark/1.0/'),
+ 'Glasgow-1780': ('assemblys-college.jpg',
+                  960,
+                  586,
+                  'Context: Assembly’s College, Belfast · James’s professorial institution',
+                  'Assembly’s College, Belfast · James’s professorial institution · Slowtech2000',
+                  'https://commons.wikimedia.org/wiki/File:Assembly%27s_College.jpg',
+                  'CC BY-SA 4.0',
+                  'https://creativecommons.org/licenses/by-sa/4.0'),
+ 'Glasgow-1076': ('montgreenan-house.jpg',
+                  960,
+                  718,
+                  'Context: Montgreenan House · commissioned by Sir Robert Glasgow',
+                  'Montgreenan House · commissioned by Sir Robert Glasgow · Roger Griffith',
+                  'https://commons.wikimedia.org/wiki/File:Montgreenan_House.JPG',
+                  'Public domain',
+                  'https://creativecommons.org/publicdomain/mark/1.0/'),
+ 'Glasgow-1073': ('kilbirnie-church-owner.png',
+                  1400,
+                  1400,
+                  'Context: Kilbirnie church illustration supplied by the owner',
+                  'Kilbirnie church · owner-supplied illustration',
+                  '',
+                  'Supplied for this site',
+                  ''),
+ 'Glasgow-1075': ('glengarnock-castle.jpg',
+                  960,
+                  605,
+                  'Context: Glengarnock Castle · estate context, engraving c. 1854',
+                  'Glengarnock Castle · estate context, engraving c. 1854 · William Dobie',
+                  'https://commons.wikimedia.org/wiki/File:Glengarnock_Castle%2C_Ayrshire%2C_Curca_1854_001.jpg',
+                  'Public domain',
+                  'https://creativecommons.org/publicdomain/mark/1.0/'),
+ 'Glasgow-635': ('manokin-church.jpg',
+                 960,
+                 606,
+                 'Context: Manokin Presbyterian Church · later building of Patrick’s congregation',
+                 'Manokin Presbyterian Church · later building of Patrick’s congregation · unknown '
+                 'photographer',
+                 'https://commons.wikimedia.org/wiki/File:Princess_Anne_MD_Manokin_Presby_PHS687.jpg',
+                 'Public domain',
+                 'https://creativecommons.org/publicdomain/mark/1.0/'),
+ 'Glasgow-971': ('kilmanahan-castle.jpg',
+                 960,
+                 646,
+                 'Context: Kilmanahan Castle · Alexander Glasgow’s estate',
+                 'Kilmanahan Castle · Alexander Glasgow’s estate · Mike Searle',
+                 'https://commons.wikimedia.org/wiki/File:Castles_of_Munster%2C_Kilmanahan%2C_Waterford_-_geograph.org.uk_-_3038263.jpg',
+                 'CC BY-SA 2.0',
+                 'https://creativecommons.org/licenses/by-sa/2.0'),
+ 'Glasgow-1077': ('irvine-harbour.jpg',
+                  960,
+                  718,
+                  'Context: Irvine harbour · town context for John Glasgow',
+                  'Irvine harbour · town context for John Glasgow · Roger Griffith / Rosser1954',
+                  'https://commons.wikimedia.org/wiki/File:Riverirvineharbour.JPG',
+                  'Public domain',
+                  'https://creativecommons.org/publicdomain/mark/1.0/'),
+ 'Glasgow-3958': ('donegal-coast.jpg',
+                  960,
+                  633,
+                  'Context: Lough Swilly, County Donegal · regional context for the Seaview family',
+                  'Lough Swilly, County Donegal · regional context for the Seaview family · P L Chadwick',
+                  'https://commons.wikimedia.org/wiki/File:Lough_Swilly%2C_near_Ray%2C_Co._Donegal_-_geograph.org.uk_-_7024266.jpg',
+                  'CC BY-SA 2.0',
+                  'https://creativecommons.org/licenses/by-sa/2.0')}
+CONTEXT_IMAGES.update(dict.fromkeys(('Glasgow-1030', 'Glasgow-1136', 'Glasgow-3410', 'Glasgow-1101'), COLLEGE_CONTEXT))
+
 CSS = '''
-.notables-section{margin:1.7rem 0 2.7rem;scroll-margin-top:5rem}.notables-section[hidden]{display:none}.notables-section>h2{margin-bottom:1rem}.notables-jumps{font-size:.85rem;line-height:1.7}.notables-intro{max-width:65ch}.notable-portrait{margin:0 0 1.25rem}.notable-portrait>div{height:240px;border-radius:6px;background:#e8e5dc;overflow:hidden}.notable-portrait img{display:block;width:100%;height:100%;object-fit:contain}.notable-portrait figcaption{font-size:.7rem;line-height:1.5;color:#606757;padding:.5rem .1rem 0}.notables-reset{font:inherit;align-self:end;min-height:44px;padding:.6rem .8rem;border:1px solid #87927e;border-radius:5px;background:transparent;color:#29452f;cursor:pointer}.notables-toolbar{display:flex;flex-wrap:wrap;align-items:end;gap:1rem;padding:1.2rem;background:#f0eee7;border:1px solid #d6d9ce;border-radius:10px;margin:1.7rem 0 1rem}.notables-control{display:grid;gap:.35rem;flex:1 1 16rem}.notables-control label{font-size:.8rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase}.notables-control input,.notables-control select{font:inherit;width:100%;min-height:44px;box-sizing:border-box;padding:.65rem .75rem;border:1px solid #87927e;border-radius:5px;background:#fff;color:#23382b}.notables-control input:focus-visible,.notables-control select:focus-visible,.notable-card a:focus-visible,.notable-card summary:focus-visible{outline:3px solid #b06430;outline-offset:3px}.notables-results{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;font-size:.85rem;color:#53604e;margin-bottom:1.2rem}.notables-results p{margin:0}.notables-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.2rem;list-style:none;padding:0;margin:0}.notable-card{display:flex;flex-direction:column;border:1px solid #d5d9cd;border-top:4px solid #778b6c;border-radius:10px;background:#fffef9;padding:1.4rem;min-width:0;box-shadow:0 3px 14px #25371e08}.notable-card[hidden]{display:none}.notable-card:first-child{border-top-color:#ac733e;background:#fcf7ec}.notable-card .notable-meta{display:flex;justify-content:space-between;gap:.75rem;align-items:center;margin:0 0 1rem;font-size:.75rem;color:#57664d;letter-spacing:.06em;text-transform:uppercase}.notable-rank{font-variant-numeric:tabular-nums;color:#796f5b}#main .notable-card>h3{font-size:1.4rem;line-height:1.22;margin:0 0 .8rem;color:#233b2d;font-weight:800;letter-spacing:-.015em}.notable-name{font-size:1.05rem;font-weight:700;margin:0 0 .25rem}.notable-dates{font-size:.85rem;color:#626a5b;margin:0 0 1rem}.notable-summary{font-size:.95rem;line-height:1.6;margin:0 0 1rem}.notable-connection{padding:.9rem 1rem;background:#f0f3eb;border-radius:6px;font-size:.88rem;line-height:1.6;margin:auto 0 1rem}.notable-connection h4{font-family:inherit;font-size:.75rem;letter-spacing:.05em;text-transform:uppercase;margin:0 0 .4rem;color:#3e563a}.notable-connection p{margin:0}.notable-links{display:flex;flex-wrap:wrap;gap:.55rem 1rem;font-size:.85rem;font-weight:600}.notable-card details{font-size:.85rem;margin-top:1rem;border-top:1px solid #e0e3da;padding-top:.75rem}.notable-card summary{cursor:pointer;color:#465b3e}.notable-card details ul{padding-left:1.2rem;line-height:1.55}.notable-card details li+li{margin-top:.6rem}.notable-card a{overflow-wrap:anywhere}.notables-note{font-size:.85rem;line-height:1.6;color:#5a6353;max-width:75ch;margin-top:1.8rem}.notables-empty{padding:2rem;border:1px dashed #87927e;border-radius:8px;text-align:center}@media(min-width:1500px){.notables-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}@media(max-width:760px){.notables-grid{grid-template-columns:minmax(0,1fr)}.notable-card{padding:1.1rem}.notables-toolbar{padding:1rem}#main .notable-card>h3{font-size:1.3rem}}
+.notables-section{margin:1.7rem 0 2.7rem;scroll-margin-top:5rem}.notables-section[hidden]{display:none}.notables-section>h2{margin-bottom:1rem}.notables-jumps{font-size:.85rem;line-height:1.7}.notables-intro{max-width:65ch}.notable-image-kind{display:block;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:#6a512d;margin-bottom:.15rem}.notable-portrait{margin:0 0 1.25rem}.notable-portrait>div{height:240px;border-radius:6px;background:#e8e5dc;overflow:hidden}.notable-portrait img{display:block;width:100%;height:100%;object-fit:contain}.notable-portrait figcaption{font-size:.7rem;line-height:1.5;color:#606757;padding:.5rem .1rem 0}.notables-reset{font:inherit;align-self:end;min-height:44px;padding:.6rem .8rem;border:1px solid #87927e;border-radius:5px;background:transparent;color:#29452f;cursor:pointer}.notables-toolbar{display:flex;flex-wrap:wrap;align-items:end;gap:1rem;padding:1.2rem;background:#f0eee7;border:1px solid #d6d9ce;border-radius:10px;margin:1.7rem 0 1rem}.notables-control{display:grid;gap:.35rem;flex:1 1 16rem}.notables-control label{font-size:.8rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase}.notables-control input,.notables-control select{font:inherit;width:100%;min-height:44px;box-sizing:border-box;padding:.65rem .75rem;border:1px solid #87927e;border-radius:5px;background:#fff;color:#23382b}.notables-control input:focus-visible,.notables-control select:focus-visible,.notable-card a:focus-visible,.notable-card summary:focus-visible{outline:3px solid #b06430;outline-offset:3px}.notables-results{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;font-size:.85rem;color:#53604e;margin-bottom:1.2rem}.notables-results p{margin:0}.notables-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.2rem;list-style:none;padding:0;margin:0}.notable-card{display:flex;flex-direction:column;border:1px solid #d5d9cd;border-top:4px solid #778b6c;border-radius:10px;background:#fffef9;padding:1.4rem;min-width:0;box-shadow:0 3px 14px #25371e08}.notable-card[hidden]{display:none}.notable-card:first-child{border-top-color:#ac733e;background:#fcf7ec}.notable-card .notable-meta{display:flex;justify-content:space-between;gap:.75rem;align-items:center;margin:0 0 1rem;font-size:.75rem;color:#57664d;letter-spacing:.06em;text-transform:uppercase}.notable-rank{font-variant-numeric:tabular-nums;color:#796f5b}#main .notable-card>h3{font-size:1.4rem;line-height:1.22;margin:0 0 .8rem;color:#233b2d;font-weight:800;letter-spacing:-.015em}.notable-name{font-size:1.05rem;font-weight:700;margin:0 0 .25rem}.notable-dates{font-size:.85rem;color:#626a5b;margin:0 0 1rem}.notable-summary{font-size:.95rem;line-height:1.6;margin:0 0 1rem}.notable-connection{padding:.9rem 1rem;background:#f0f3eb;border-radius:6px;font-size:.88rem;line-height:1.6;margin:auto 0 1rem}.notable-connection h4{font-family:inherit;font-size:.75rem;letter-spacing:.05em;text-transform:uppercase;margin:0 0 .4rem;color:#3e563a}.notable-connection p{margin:0}.notable-links{display:flex;flex-wrap:wrap;gap:.55rem 1rem;font-size:.85rem;font-weight:600}.notable-card details{font-size:.85rem;margin-top:1rem;border-top:1px solid #e0e3da;padding-top:.75rem}.notable-card summary{cursor:pointer;color:#465b3e}.notable-card details ul{padding-left:1.2rem;line-height:1.55}.notable-card details li+li{margin-top:.6rem}.notable-card a{overflow-wrap:anywhere}.notables-note{font-size:.85rem;line-height:1.6;color:#5a6353;max-width:75ch;margin-top:1.8rem}.notables-empty{padding:2rem;border:1px dashed #87927e;border-radius:8px;text-align:center}@media(min-width:1500px){.notables-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}@media(max-width:760px){.notables-grid{grid-template-columns:minmax(0,1fr)}.notable-card{padding:1.1rem}.notables-toolbar{padding:1rem}#main .notable-card>h3{font-size:1.3rem}}
 '''
 
 SCRIPT = r'''<script>(()=>{
@@ -123,13 +234,17 @@ def render(data, web, page_title, site_url, link, brief_summary):
         group = 'connections' if p['id'] in CONNECTIONS else 'surname'
         search = ' '.join([name, p['id'], p['fs'], title, field, dates, summary, re.sub('<[^>]*>', ' ', conn_html), p['rationale']] + [cite for cite, _ in p['citations']])
         portrait = ''
-        if p['id'] in PORTRAITS:
-            filename, width, height, alt, credit, source = PORTRAITS[p['id']]
+        image = PORTRAITS.get(p['id']) or CONTEXT_IMAGES.get(p['id'])
+        if image:
+            filename, width, height, alt, credit, source = image[:6]
+            license_label, license_url = image[6:] if len(image) == 8 else ('Public domain', 'https://creativecommons.org/publicdomain/mark/1.0/')
+            image_kind = '<span class="notable-image-kind">Context image</span>' if p['id'] in CONTEXT_IMAGES else ''
+            search += ' ' + alt + ' ' + credit
             asset = web/'assets/notables'/filename
             asset.parent.mkdir(parents=True, exist_ok=True)
             shutil.copyfile(web.parent/'data/site/notables-images'/filename, asset)
             loading = 'eager' if rank == 1 else 'lazy'
-            portrait = f'<figure class="notable-portrait"><div><img src="/assets/notables/{filename}" width="{width}" height="{height}" alt="{escape(alt,quote=True)}" loading="{loading}" decoding="async"></div><figcaption>{link(source,credit)} · Public domain</figcaption></figure>'
+            portrait = f'<figure class="notable-portrait"><div><img src="/assets/notables/{filename}" width="{width}" height="{height}" alt="{escape(alt,quote=True)}" loading="{loading}" decoding="async"></div><figcaption>{image_kind}{link(source,credit)} · {link(license_url,license_label)}</figcaption></figure>'
         links = [link(p['profile'], 'Research account'), link('https://www.wikitree.com/wiki/'+p['id'], 'WikiTree')]
         if p['fs']: links.append(link('https://www.familysearch.org/tree/person/details/'+p['fs'], 'FamilySearch'))
         citations, seen = [], set()
@@ -142,7 +257,7 @@ def render(data, web, page_title, site_url, link, brief_summary):
         grouped_cards[group].append(cards[-1])
     fields = sorted({field for _, _, field, _ in ordered})
     options = ''.join(f'<option value="{escape(field,quote=True)}">{escape(field)}</option>' for field in fields)
-    main = f'''<main class="r-main" id="main"><header class="v3-page-head"><span class="r-kicker">The Glasgow Name Study</span><h1>Notables</h1><p class="notables-intro">Writers, pioneers, public figures and benefactors: the people behind the name, and the families connected to it.</p><p class="notables-jumps"><a href="#glasgow-notables">Glasgow surname bearers</a> · <a href="#family-connections">Connections through marriage &amp; maternal lines</a></p></header><div class="notables-toolbar"><div class="notables-control"><label for="notables-filter">Find a person</label><input id="notables-filter" type="search" placeholder="Name, achievement or family connection…" aria-controls="notables-grid notables-connections-grid"></div><div class="notables-control"><label for="notables-field">Explore a field</label><select id="notables-field" aria-controls="notables-grid notables-connections-grid"><option value="">All fields</option>{options}</select></div><div class="notables-control"><label for="notables-sort">Sort people</label><select id="notables-sort" aria-controls="notables-grid notables-connections-grid"><option value="notability">Most notable first</option><option value="name">Name A–Z</option></select></div><button class="notables-reset" id="notables-reset" type="button">Reset</button></div><div class="notables-results"><p id="notables-count" role="status" aria-live="polite">{len(cards)} people</p><p>{sum(p['id'] in PORTRAITS for p, _, _, _ in ordered)} historical images · two sections</p></div><section class="notables-section" id="glasgow-notables" data-notables-section="surname" aria-labelledby="surname-heading"><h2 id="surname-heading">Glasgow surname bearers</h2><ol class="notables-grid" id="notables-grid" aria-label="Glasgow surname bearers">{''.join(grouped_cards['surname'])}</ol></section><section class="notables-section" id="family-connections" data-notables-section="connections" aria-labelledby="connections-heading"><h2 id="connections-heading">Connections through marriage &amp; maternal lines</h2><p class="notables-intro">Notable relatives from other surnames. Each card names the Glasgow person and the exact recorded relationship, with qualifications where the degree remains proposed.</p><ol class="notables-grid" id="notables-connections-grid" aria-label="Connections through marriage and maternal lines">{''.join(grouped_cards['connections'])}</ol></section><p class="notables-empty" id="notables-empty" hidden>No people match your search. Try a surname, place or achievement.</p><p class="notables-note">People are ordered by public prominence within each section. Relatives from other surnames appear separately, with their named Glasgow connections. Some entries are retained for their historical research interest. Selected from our <a href="/catalogue/">people catalogue</a> and <a href="/free-space/">Glasgow Name Study</a>, with <a href="https://en.wikipedia.org/wiki/Glasgow_(surname)" target="_blank" rel="noopener">Wikipedia’s Glasgow surname list</a> checked for omissions. Modern names without a checked public catalogue match are not included. Images reproduce credited historical depictions, not verified photographs of every subject.</p></main>'''
+    main = f'''<main class="r-main" id="main"><header class="v3-page-head"><span class="r-kicker">The Glasgow Name Study</span><h1>Notables</h1><p class="notables-intro">Writers, pioneers, public figures and benefactors: the people behind the name, and the families connected to it.</p><p class="notables-jumps"><a href="#glasgow-notables">Glasgow surname bearers</a> · <a href="#family-connections">Connections through marriage &amp; maternal lines</a></p></header><div class="notables-toolbar"><div class="notables-control"><label for="notables-filter">Find a person</label><input id="notables-filter" type="search" placeholder="Name, achievement or family connection…" aria-controls="notables-grid notables-connections-grid"></div><div class="notables-control"><label for="notables-field">Explore a field</label><select id="notables-field" aria-controls="notables-grid notables-connections-grid"><option value="">All fields</option>{options}</select></div><div class="notables-control"><label for="notables-sort">Sort people</label><select id="notables-sort" aria-controls="notables-grid notables-connections-grid"><option value="notability">Most notable first</option><option value="name">Name A–Z</option></select></div><button class="notables-reset" id="notables-reset" type="button">Reset</button></div><div class="notables-results"><p id="notables-count" role="status" aria-live="polite">{len(cards)} people</p><p>{sum(p['id'] in PORTRAITS or p['id'] in CONTEXT_IMAGES for p, _, _, _ in ordered)} illustrated cards · two sections</p></div><section class="notables-section" id="glasgow-notables" data-notables-section="surname" aria-labelledby="surname-heading"><h2 id="surname-heading">Glasgow surname bearers</h2><ol class="notables-grid" id="notables-grid" aria-label="Glasgow surname bearers">{''.join(grouped_cards['surname'])}</ol></section><section class="notables-section" id="family-connections" data-notables-section="connections" aria-labelledby="connections-heading"><h2 id="connections-heading">Connections through marriage &amp; maternal lines</h2><p class="notables-intro">Notable relatives from other surnames. Each card names the Glasgow person and the exact recorded relationship, with qualifications where the degree remains proposed.</p><ol class="notables-grid" id="notables-connections-grid" aria-label="Connections through marriage and maternal lines">{''.join(grouped_cards['connections'])}</ol></section><p class="notables-empty" id="notables-empty" hidden>No people match your search. Try a surname, place or achievement.</p><p class="notables-note">People are ordered by public prominence within each section. Relatives from other surnames appear separately, with their named Glasgow connections. Some entries are retained for their historical research interest. Selected from our <a href="/catalogue/">people catalogue</a> and <a href="/free-space/">Glasgow Name Study</a>, with <a href="https://en.wikipedia.org/wiki/Glasgow_(surname)" target="_blank" rel="noopener">Wikipedia’s Glasgow surname list</a> checked for omissions. Modern names without a checked public catalogue match are not included. Images are credited historical depictions or labelled context: associated places, buildings and emblems. Captions distinguish later buildings and modern views from the subject’s own lifetime.</p></main>'''
     shell = (web/'research/index.html').read_text(encoding='utf-8')
     shell = re.sub(r'<title>.*?</title>', '<title>'+escape(page_title('Notables'))+'</title>', shell, count=1, flags=re.S)
     shell = re.sub(r'<link rel="canonical" href="[^"]*"\s*/?>', f'<link rel="canonical" href="{site_url}/notables/">', shell, count=1)
