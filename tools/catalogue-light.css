@@ -348,3 +348,13 @@ html.catalogue-sheet-open{overflow:hidden}
 .catalogue-relationship-badge small{font:inherit;white-space:nowrap}.catalogue-probability{display:inline-block;max-width:100%;font-size:.72rem;font-weight:700;white-space:normal;overflow-wrap:anywhere}
 
 .catalogue-father-work{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 18px;margin:10px 0 16px;padding:12px 14px;border:1px solid #b9cbb9;border-left:4px solid #175c3a;border-radius:6px;background:#f2f6ed;color:#203e2e;font-size:.8rem;line-height:1.5}.catalogue-father-work strong{flex-basis:100%}.catalogue-father-work a{color:#175c3a;text-decoration:underline;text-underline-offset:2px}.catalogue-father-work a:hover,.catalogue-father-work a:focus-visible{color:#102c20;text-decoration-thickness:2px}
+
+/* External profile buttons: amber means pending work; neutral is unverified. */
+.catalogue-wikitree-id{display:flex;flex-direction:column;align-items:flex-start;gap:6px}
+#catalogue-results .catalogue-wikitree-id .catalogue-profile-button{display:inline-flex;align-items:center;gap:7px;box-sizing:border-box;max-width:100%;padding:6px 8px;border:1px solid #c7cfcb;border-radius:7px;background:#f0f3f1;color:#354a40;text-decoration:none;line-height:1.25;font-size:.72rem;box-shadow:0 1px 2px #203e3008}
+.catalogue-profile-button img{flex:0 0 16px;object-fit:contain}
+.catalogue-profile-button>span{min-width:0}.catalogue-profile-button b{font-weight:750}
+.catalogue-profile-button .catalogue-profile-status{display:block;margin-top:3px;font-size:.61rem;font-weight:600;color:inherit}
+#catalogue-results .catalogue-wikitree-id .catalogue-profile-pending{background:#fff3d9;border-color:#c69b49;color:#70501b}
+#catalogue-results .catalogue-wikitree-id .catalogue-profile-button:hover{filter:brightness(.96);text-decoration:none;border-color:#718779}
+#catalogue-results .catalogue-wikitree-id .catalogue-profile-button:focus-visible{outline:3px solid #315f49;outline-offset:2px}

@@ -60,8 +60,13 @@
   };
   const esc=value=>String(value==null?'':value).replace(/[&<>"]/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[char]));
   const personUrl=person=>new URL(`${encodeURIComponent(person.id)}.html`,scriptUrl||window.location.href).href;
-  const familysearchLinks=person=>(person.familysearch_links||[]).map(match=>`<br><a class="catalogue-familysearch" href="https://www.familysearch.org/tree/person/details/${encodeURIComponent(match.id)}" target="_blank" rel="noopener noreferrer" title="${match.confidence==='high'?'Matched FamilySearch profile':'Probable FamilySearch match'}">FS: ${esc(match.id)}</a>`).join('');
-  const wikiLinks=person=>((person.profile_ids||[]).map(id=>`<a href="https://www.wikitree.com/wiki/${encodeURIComponent(id)}" target="_blank" rel="noopener noreferrer">${esc(id)}</a>`).join(' · ')||'No profile yet')+familysearchLinks(person);
+  const profileButton=(site,id,state,status,title)=>{
+    const isWiki=site==='wikitree',name=isWiki?'WikiTree':'FamilySearch';
+    const url=isWiki?`https://www.wikitree.com/wiki/${encodeURIComponent(id)}`:`https://www.familysearch.org/tree/person/details/${encodeURIComponent(id)}`;
+    return `<a class="catalogue-profile-button catalogue-profile-${state}${isWiki?'':' catalogue-familysearch'}" href="${url}" target="_blank" rel="noopener noreferrer" title="${esc(title)}" aria-label="${esc(name+': '+id+' — '+status)}"><img src="/people/link-icons/${site}.${isWiki?'ico':'png'}" width="16" height="16" alt="" loading="lazy"><span><b>${esc(id)}</b><span class="catalogue-profile-status">${esc(status)}</span></span></a>`;
+  };
+  const familysearchLinks=person=>(person.familysearch_links||[]).map(match=>profileButton('familysearch',match.id,'unknown','Sync unverified',`${match.confidence==='high'?'Matched FamilySearch profile':'Probable FamilySearch match'}. Sync has not been verified.`)).join('');
+  const wikiLinks=person=>(person.profile_ids||[]).map(id=>profileButton('wikitree',id,person.needs_wikitree_update?'pending':'unknown',person.needs_wikitree_update?'Needs update':'No update queued',person.needs_wikitree_update?'Local research has a pending WikiTree update.':'No WikiTree update is queued; sync has not been verified.')).join('')+(person.profile_ids?.length?'':'No profile yet')+familysearchLinks(person);
   const relationConfidence=relation=>{
     const treeFallback={'5':'non_biological','10':'uncertain','20':'confident','30':'dna_confirmed'};
     const allowed=new Set(['proved','strongly_supported','probable','possible','disputed','contradicted','dna_confirmed','confident','uncertain','non_biological','unmarked']);

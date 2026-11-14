@@ -17,6 +17,14 @@ def load_catalogue_css() -> str:
 def write_catalogue_css(destination: Path) -> None:
     """Restore the maintained stylesheet during both builds and site repairs."""
     destination.write_text(load_catalogue_css() + "\n", encoding="utf-8")
+    # Official favicons, fetched from wikitree.com/favicon.ico and
+    # familysearch.org/tree/favicon.ico; serve locally without third-party requests.
+    from shutil import copyfile
+    icons = destination.parent / "link-icons"
+    icons.mkdir(parents=True, exist_ok=True)
+    for source in (CSS_SOURCE.parent / "site_sources/catalogue-link-icons").iterdir():
+        copyfile(source, icons / source.name)
+
 
 
 def ensure_catalogue_stylesheet(page: str) -> str:
