@@ -130,7 +130,8 @@ def _census_metadata(doc: dict) -> tuple[list[int], list[str]]:
 # Ancestry APIDs, source numbers (S142) and labelled page, roll or box numbers.
 _NOT_YEAR = [
     r"\b(?:ADM|RG|HO|WO|PROB|IR|PIN|BT|MH|ASSI)\s+\d+(?:/[A-Za-z0-9]+)+\b",
-    r"https?://\S+|\bwww\.\S+|\S+\.(?:json|html?|php|dll|pdf|jpe?g|ged)\b",
+    r"https?://\S+|\bwww\.\S+",
+    r"\S+\.(?:json|html?|php|dll|pdf|jpe?g|ged)\b",
     r"\b[A-Za-z][A-Za-z'-]*-\d+\b",
     r"@[A-Za-z]*\d+@",
     r"\bAPID:?\s*[\d,:]+",
@@ -150,8 +151,10 @@ def _title_year_text(title: str) -> str:
     second year in the same title still leaves the item unresolved.
     """
     # File and path names can carry the record year itself (births_1867,
-    # 1927_00009043, cavers_1694_transcription); keep those, not upload dates.
-    kept = re.findall(r"(?<![\d])(1[5-9]\d{2}|20[0-2]\d)(?=[_-][A-Za-z0-9])|(?<=[A-Za-z]_)(1[5-9]\d{2}|20[0-2]\d)(?!\d)", title)
+    # 1927_00009043, cavers_1694_transcription); keep those, not archive
+    # codes such as AB1612-Af1. Strip URLs before filename fragments so a
+    # parenthesized index.php URL cannot leave a trailing numeric page ID.
+    kept = re.findall(r"(?<![A-Za-z\d])(1[5-9]\d{2}|20[0-2]\d)(?=[_-][A-Za-z0-9])|(?<=[A-Za-z]_)(1[5-9]\d{2}|20[0-2]\d)(?!\d)", title)
     for pattern in _NOT_YEAR:
         title = re.sub(pattern, " ", title, flags=re.I)
     return title + " " + " ".join(a or b for a, b in kept)

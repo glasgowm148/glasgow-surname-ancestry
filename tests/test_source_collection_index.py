@@ -166,6 +166,19 @@ class TitleYearTest(unittest.TestCase):
                       'Glasgow Branches in Early Ireland, accessed 19 August 2026.'):
             self.assertIsNone(self.year(title), title)
 
+    def test_archive_series_and_url_ids_are_not_years(self):
+        for title in (
+            "Historical Papers Research Archive series AB1612: Glass Family Bible: "
+            "http://www.historicalpapers.wits.ac.za/inventories/AB1612/AB1612-Af1-4-03-jpeg.pdf",
+            "Tristan Da Cunha Records - Glass Family Bible "
+            "http://researcharchives.wits.ac.za/uploads/AB1612-Af1-4-03-jpeg.pdf",
+            'Dictionary of Ulster Biography, "Montgomery, Jemima". '
+            '(https://www.newulsterbiography.co.uk/index.php/home/viewPerson/1924)',
+            "Archive reference AB1612-Af1-4-03",
+        ):
+            with self.subTest(title=title):
+                self.assertIsNone(self.year(title))
+
     def test_navy_piece_numbers_use_cited_birth_year(self):
         from tools.source_collection_index import _years
         for ref, date, name in (("1102/8725", "4 June 1900", "George Edwin Glasgow"),
