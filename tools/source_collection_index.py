@@ -8,7 +8,7 @@ import re
 from pathlib import Path
 from urllib.parse import urlparse
 
-_YEAR = re.compile(r"(?<!\d)(1[0-9]{3}|20[0-9]{2})(?!\d)")
+_YEAR = re.compile(r"(?<!\d)(1[0-9]{3}|20[0-9]{2})(?!\d|['’]?s\b)")
 _URL = re.compile(r"^https?://", re.I)
 _SIGNED = re.compile(r"(?:token|signature|sig|expires|secur|download|auth|credential|jwt)=", re.I)
 

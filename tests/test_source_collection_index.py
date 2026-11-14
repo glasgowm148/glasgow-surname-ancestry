@@ -166,6 +166,12 @@ class TitleYearTest(unittest.TestCase):
                       'Glasgow Branches in Early Ireland, accessed 19 August 2026.'):
             self.assertIsNone(self.year(title), title)
 
+    def test_collection_centuries_and_decades_are_not_exact_years(self):
+        for title in ("U.S., Find A Grave Index, 1600s-Current", "Family records, 1700's onward", "Parish records, 1890s"):
+            self.assertIsNone(self.year(title))
+        self.assertEqual(self.year("Find A Grave Index, 1600s-Current; burial 4 May 1890"), 1890)
+        self.assertEqual(self.year("Burial register, 1600"), 1600)
+
     def test_archive_series_and_url_ids_are_not_years(self):
         for title in (
             "Historical Papers Research Archive series AB1612: Glass Family Bible: "

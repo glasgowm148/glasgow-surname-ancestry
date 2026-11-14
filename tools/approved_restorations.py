@@ -55,6 +55,12 @@ def reference_html(page):
     # The supplied pages moved into /reference/; their shared icon lives at root.
     page = re.sub(r'(href=["\'])(?:\.\./)*assets/favicon\.svg(["\'])',
                   r'\1/assets/favicon.svg\2', page)
+    # The supplied navigation was relative to its former root-level location.
+    # Keep its labels and fragment targets while linking the maintained routes.
+    page = re.sub(r'(href=["\'])(?:\.\./)?timeline\.html(?=[#?"\'])',
+                  r'\1/timeline/', page)
+    page = re.sub(r'(href=["\'])(?:\.\./)?map/(?=[#?"\'])',
+                  r'\1/map/', page)
     return with_analytics(page)
 
 

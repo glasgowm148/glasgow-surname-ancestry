@@ -145,7 +145,7 @@ details.sc-coverage>summary{cursor:pointer;list-style-position:inside}details.sc
 .sc-c-place{width:8.5rem;color:#4f5948;overflow-wrap:anywhere}.sc-c-place small{color:#7a8670}
 .sc-c-src{width:6.5rem;white-space:nowrap}
 .sc-src{display:inline-block;padding:.12rem .5rem;border-radius:999px;font-size:.74rem;font-weight:600;text-decoration:none;border:1px solid}
-.sc-src-original{background:#e8f0df;border-color:#bcd2a8;color:#2f5124}.sc-src-profile{background:#fbf5e7;border-color:#e4d6b5;color:#6b5728}.sc-src-none{background:#f3f3ef;border-color:#dcddd5;color:#7a7d72;font-weight:400}
+.sc-src-original{background:#e8f0df;border-color:#bcd2a8;color:#2f5124}.sc-src-profile{background:#fbf5e7;border-color:#e4d6b5;color:#6b5728}.sc-src-none{background:#f3f3ef;border-color:#dcddd5;color:#596050;font-weight:400}
 .sc-dim{color:#a3a99a}
 .sc-page-size{flex:0 0 6rem!important}
 /* Sidebar source links each occupy a row, including the mobile drawer. */
@@ -194,7 +194,7 @@ td.sc-m-c-ref,td.sc-m-c-level{display:block!important}td.sc-m-c-links{grid-colum
 .sc-m-field.is-locked select{background:#eef3e8!important;color:#33452b;opacity:1}
 .sc-m-all{font-size:.76rem}
 .sc-m-active{display:flex;flex-wrap:wrap;align-items:center;gap:.35rem .5rem;min-height:2rem;margin:.2rem 0 .6rem}
-.sc-m-active-label{font-size:.72rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:#6a7760;margin-right:.2rem}
+.sc-m-active-label{font-size:.72rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:#4c5b43;margin-right:.2rem}
 .sc-m-active-chip{display:inline-flex;align-items:center;gap:.35rem;height:1.9rem;padding:0 .7rem;border:1px solid #3e5a31;border-radius:999px;background:#3e5a31;color:#fff;font:inherit;font-size:.8rem;cursor:pointer}
 .sc-m-active-chip.is-fixed{background:#eef3e8;color:#33452b;border-color:#c6d2bb;cursor:default}
 .sc-m-active-chip span[aria-hidden]{font-size:1rem;line-height:1}

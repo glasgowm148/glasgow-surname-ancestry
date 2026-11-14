@@ -5,6 +5,22 @@ from tools import catalogue_machine_data as machine
 
 
 class SelectedDossierTests(unittest.TestCase):
+    def test_unlinked_record_identity_is_not_a_wikitree_profile_url(self):
+        person = dict(
+            profile_ids=['Glasgow-1'], father=[{'id': 'record-ancestry-glasgow-6c9f95c319c0'}],
+            mother=[], spouses=[], children=[], wikitree_evidence=[],
+        )
+        relation = machine._tree_relations(person, {'Glasgow-1': person}, {'Glasgow-1'})[0]
+        self.assertIsNone(relation['wikitree_url'])
+
+    def test_valid_unlinked_wikitree_profile_keeps_its_profile_url(self):
+        person = dict(
+            profile_ids=['Glasgow-1'], father=[{'id': 'Glasgow-2'}],
+            mother=[], spouses=[], children=[], wikitree_evidence=[],
+        )
+        relation = machine._tree_relations(person, {'Glasgow-1': person}, {'Glasgow-1'})[0]
+        self.assertEqual('https://www.wikitree.com/wiki/Glasgow-2', relation['wikitree_url'])
+
     def test_reviewed_on_and_reopen_when_keep_the_recorded_date_and_condition(self):
         plans = {'Fable-1': {'research_state': {
             'reviewed_on': '2026-10-31', 'next_test': 'Find a parent record.',

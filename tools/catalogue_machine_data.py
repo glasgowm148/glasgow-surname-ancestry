@@ -66,6 +66,13 @@ def compact_resolver_row(row: dict) -> dict:
     return compact
 
 
+def _wikitree_profile_url(profile_id: str | None) -> str | None:
+    """Return a WikiTree URL only for a syntactically valid profile ID."""
+    if profile_id and WT_ID.fullmatch(profile_id):
+        return WIKITREE_URL + profile_id
+    return None
+
+
 # Labels that only restate the relationship source or an unmarked tree link.
 _IMPLIED_LABELS = {
     "status_label": {"WikiTree relationship snapshot", "WikiTree tree relationship"},
@@ -558,7 +565,7 @@ def _tree_relations(person: dict, people_by_id: dict[str, dict], public_ids: set
                 "url": f"/people/{related['catalogue_id']}.html" if local else None,
                 "json_url": f"/people/{related['catalogue_id']}.json" if local else None,
                 "network_url": f"/people/{related['catalogue_id']}.network.json" if local else None,
-                "wikitree_url": WIKITREE_URL + relation_id,
+                "wikitree_url": _wikitree_profile_url(relation_id),
             })
     # WikiTree relationship captures provide siblings without an expensive tree walk.
     for capture in person.get("wikitree_evidence", []):
@@ -572,7 +579,7 @@ def _tree_relations(person: dict, people_by_id: dict[str, dict], public_ids: set
                 "status": "unknown", "status_label": "WikiTree relationship snapshot", "basis": "tree",
                 "evidence_ids": [], "tree_relationship": True, "relationship_source": "wikitree_relation_snapshot",
                 "url": f"/people/{related['catalogue_id']}.html", "json_url": f"/people/{related['catalogue_id']}.json",
-                "network_url": f"/people/{related['catalogue_id']}.network.json", "wikitree_url": WIKITREE_URL + relation_id,
+                "network_url": f"/people/{related['catalogue_id']}.network.json", "wikitree_url": _wikitree_profile_url(relation_id),
             })
     return list({(item.get("id"), item["relationship"]): item for item in relations}.values())
 
@@ -719,7 +726,7 @@ def build_machine_models(public_people: list[dict], *, catalogue_ids=None) -> tu
                     "id": other_id, "name": other["name"], "relationship": role,
                     "tree_relationship": False, "relationship_source": "research_assessment",
                     "url": f"/people/{other['catalogue_id']}.html", "json_url": f"/people/{other['catalogue_id']}.json",
-                    "network_url": f"/people/{other['catalogue_id']}.network.json", "wikitree_url": WIKITREE_URL + other_id,
+                    "network_url": f"/people/{other['catalogue_id']}.network.json", "wikitree_url": _wikitree_profile_url(other_id),
                 }
                 relations.append(edge)
             edge.update({"status": assessment["status"], "status_label": assessment["status_label"],

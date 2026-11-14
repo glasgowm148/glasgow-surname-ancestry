@@ -109,6 +109,12 @@ def render_followups():
             label = ('<span class="tx-evidence-label tx-evidence-unresolved">'
                      'Does not establish the proposed connection</span>') if finding.get("status") == "excluded" else badge(finding.get("status"))
             source = finding.get("source_url")
+            # Repository research files are not public routes. Link the matching
+            # published account while retaining the original citation label.
+            local = re.fullmatch(r"research/(Glasgow-\d+)/(findings|Glasgow-\d+)\.md", source or "")
+            if local and (ROOT / "www/people" / f"{local[1].lower()}.html").is_file():
+                anchor = "research" if local[2] == "findings" else "wikitree-update"
+                source = f"/people/{local[1].lower()}.html#{anchor}"
             citation = (f'<a href="{e(source)}">{e(finding.get("source_reference", "Record or catalogue"))}</a>'
                         if source else e(finding.get("source_reference", "See the maintained case evidence")))
             kind = "Result of this search" if finding.get("new_this_pass") else "Established evidence rechecked"

@@ -76,8 +76,14 @@ class RobertHypothesisExportsTests(unittest.TestCase):
         dossier = load(WEB / 'people/glasgow-951.json')
         parents = dossier['relationships']['parents']
         catherine = next(r for r in parents if r['id'] == 'Unknown-540856')
-        self.assertEqual('unknown', catherine['status'])
-        self.assertEqual('alternative', catherine['display'])
+        # The separate 6 November mother review is current; retiring the old
+        # Robert father hypothesis must not erase this later tentative claim.
+        self.assertEqual('clm-c2-glasgow-951-mother-20261106', catherine['claim_id'])
+        self.assertEqual('possible', catherine['status'])
+        self.assertEqual('current', catherine['display'])
+        self.assertTrue(catherine['working_selection'])
+        self.assertEqual(0.48, catherine['probability']['value'])
+        self.assertEqual('2026-11-06', catherine['probability']['reviewed'])
         self.assertNotIn('hypothesis_status', catherine)
         candidates = {c['id']: c for c in dossier['presentation']['parent_candidates']}
         active = candidates['unidentified-lisnagaver-robert']

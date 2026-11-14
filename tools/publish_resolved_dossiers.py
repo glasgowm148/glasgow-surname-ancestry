@@ -13,11 +13,13 @@ try:
     from relationship_probability import probability_for_relationship
     from catalogue_machine_data import compact_resolver_row, imported_changes, imported_row
     from documentary_ancestry import valid_account_url
+    from project_paths import atomic_write_text
 except ModuleNotFoundError:  # imported as tools.publish_resolved_dossiers
     from tools import evidence_labels
     from tools.relationship_probability import probability_for_relationship
     from tools.catalogue_machine_data import compact_resolver_row, imported_changes, imported_row
     from tools.documentary_ancestry import valid_account_url
+    from tools.project_paths import atomic_write_text
 
 ROOT = Path(__file__).resolve().parents[1]
 HISTORY_SEED = ROOT / 'research/relationship_history_seed.json'
@@ -481,6 +483,35 @@ def project_catalogue_spouses(rows, reviewed):
     return rows
 
 
+def _export_projection(dossier):
+    """Keep only dossier fields consumed by downstream export projections."""
+    projection = {
+        key: dossier[key] for key in (
+            'id', 'name', 'identity_review', 'relationships', 'vitals',
+            'shared_relationship_assertions', 'relationship_history',
+        ) if key in dossier
+    }
+    # Index and atlas projections need only these assessment fields; the full
+    # basis, evidence and imported snapshots remain in the on-disk dossier.
+    if 'research_assessments' in dossier:
+        projection['research_assessments'] = [
+            {key: assessment[key] for key in ('id', 'status', 'vitals', 'relationships') if key in assessment}
+            for assessment in dossier['research_assessments']
+        ]
+    # Network export keeps only claims it actually emits: assertions named by
+    # the shared relationship list/history, plus claims explicitly superseded
+    # by one of those assertions.
+    assertion_ids = set(dossier.get('shared_relationship_assertions', []))
+    history = dossier.get('relationship_history', [])
+    assertion_ids.update(row.get('claim_id') for row in history if row.get('claim_id'))
+    if assertion_ids:
+        projection['claims'] = [
+            claim for claim in dossier.get('claims', [])
+            if claim.get('id') in assertion_ids or claim.get('superseded_by') in assertion_ids
+        ]
+    return projection
+
+
 def merge_maintained_assessments(registry, maintained):
     """Replace the durable register's own rows; retain unrelated publications."""
     source = {row['id']: deepcopy(row) for row in maintained}
@@ -605,12 +636,13 @@ def publish(root=ROOT / 'www', profile_ids=None):
         resolved = resolve(original, assessments, shared)
         repair_external_family_links(resolved, root)
         keys = aliases(original, path.stem) if requested is not None else {resolved['id'].casefold()}
-        resolved_dossiers.update({key: resolved for key in keys})
+        projected = _export_projection(resolved)
+        resolved_dossiers.update({key: projected for key in keys})
         # A superseded record subject's redirect stub carries the id of the
         # person it now points to; only that person's own dossier feeds the
         # network and index projections.
         if resolved.get('data_view') == 'reviewed' and not resolved.get('redirect_to'):
-            reviewed.update({key: resolved for key in keys})
+            reviewed.update({key: projected for key in keys})
         if resolved != original:
             path.write_text(json.dumps(resolved, ensure_ascii=False, separators=(',', ':')) + '\n')
             changed += 1
@@ -661,7 +693,7 @@ def publish(root=ROOT / 'www', profile_ids=None):
             payload['candidates'] = [resolve_index_row(row, reviewed) if requested is None or selected_rows(row) else row
                                      for row in payload['candidates']]
         if payload != before:
-            path.write_text(prefix + json.dumps(payload, ensure_ascii=False, separators=(',', ':')) + (';\n' if prefix else '\n'))
+            atomic_write_text(path, prefix + json.dumps(payload, ensure_ascii=False, separators=(',', ':')) + (';\n' if prefix else '\n'))
     # Retained exports may use alias or unrelated filenames. A single bounded
     # scan preserves identity-based selection for every network representation.
     for path in sorted((root / 'people').glob('*.network.json')):

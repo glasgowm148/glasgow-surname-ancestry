@@ -1,4 +1,5 @@
 import importlib.util
+from copy import deepcopy
 from pathlib import Path
 import unittest
 import json
@@ -11,6 +12,63 @@ spec.loader.exec_module(module)
 
 
 class ResolvedDossierTests(unittest.TestCase):
+    def test_export_projection_keeps_only_fields_used_by_downstream_writers(self):
+        relationships = {
+            'parents': [{'id': 'Father-1', 'name': 'Father', 'relationship': 'father',
+                         'status': 'proved', 'display': 'current', 'lifecycle': 'current'}],
+            'spouses': [{'id': 'Spouse-1', 'name': 'Spouse', 'relationship': 'spouse',
+                         'relationship_source': 'shared_research_assertion',
+                         'allow_new_relationship': True, 'status': 'probable'}],
+        }
+        vitals = {'birth': {'date': '1700', 'status': 'exact'}}
+        history = [{'claim_id': 'old-claim', 'superseded_by': 'shared-1'}]
+        claims = [
+            {'id': 'shared-1', 'type': 'assessed_relationship'},
+            {'id': 'old-claim', 'type': 'tree_relationship'},
+            {'id': 'unrelated-claim', 'large_evidence_payload': 'discard'},
+            {'id': 'other-old', 'superseded_by': 'shared-1'},
+        ]
+        dossier = {
+            'id': 'Child-1', 'name': 'Child', 'identity_review': {'original_name': 'Old Child'},
+            'relationships': relationships, 'vitals': vitals,
+            'research_assessments': [
+                {'id': 'assessment-1', 'status': 'approved', 'vitals': {'birth': {}},
+                 'relationships': [{'group': 'parents', 'target': 'Father-1'}],
+                 'basis': 'large research text', 'imported': {'claims': ['large']}},
+            ],
+            'shared_relationship_assertions': ['shared-1'], 'relationship_history': history,
+            'claims': claims, 'evidence': ['large evidence payload'], 'imported': {'large': True},
+        }
+
+        projection = module._export_projection(dossier)
+
+        self.assertEqual(projection['relationships'], relationships)
+        self.assertEqual(projection['vitals'], vitals)
+        self.assertEqual(projection['identity_review'], dossier['identity_review'])
+        self.assertEqual(projection['research_assessments'], [
+            {'id': 'assessment-1', 'status': 'approved', 'vitals': {'birth': {}},
+             'relationships': [{'group': 'parents', 'target': 'Father-1'}]},
+        ])
+        self.assertEqual([claim['id'] for claim in projection['claims']],
+                         ['shared-1', 'old-claim', 'other-old'])
+        self.assertNotIn('evidence', projection)
+        self.assertNotIn('imported', projection)
+        self.assertNotIn('basis', projection['research_assessments'][0])
+
+        row = {'id': 'Child-1', 'name': 'Old Child', 'father_id': 'Old-Father',
+               'father': [{'id': 'Old-Father'}], 'spouses': [{'id': 'Old-Spouse'}]}
+        full_review = {'child-1': dossier}
+        projected_review = {'child-1': projection}
+        self.assertEqual(module.resolve_index_row(row, full_review),
+                         module.resolve_index_row(row, projected_review))
+        full_search = [deepcopy(row)]
+        projected_search = [deepcopy(row)]
+        module.project_catalogue_parents(full_search, full_review)
+        module.project_catalogue_parents(projected_search, projected_review)
+        module.project_catalogue_spouses(full_search, full_review)
+        module.project_catalogue_spouses(projected_search, projected_review)
+        self.assertEqual(full_search, projected_search)
+
     def test_unnamed_relative_keeps_its_details_without_a_profile_link(self):
         relative = {'id': None, 'name': 'Unnamed father', 'relationship': 'father',
                     'status': 'unknown'}
