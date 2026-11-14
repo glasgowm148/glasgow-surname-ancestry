@@ -1,3 +1,5 @@
+/* Preserve header button colours against the shared reader link rule. */
+.person-hierarchy #profile-tree-links a{color:var(--ptl-fg)}
 /* Visible, sourced arguments. Only the complete source notebook is folded. */
 .person-hierarchy [data-reading-layout="compact"] .study-admin .dossier-meta{color:#526345!important;font-size:.7rem;margin:20px 0 0}
 .person-hierarchy [data-reading-layout="compact"] .account-locator{max-width:560px}
