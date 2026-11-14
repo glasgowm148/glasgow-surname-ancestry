@@ -444,6 +444,13 @@ def apply_reviewed_parent_replacements(people: list[dict], assessments: list[dic
         replacement = assessment.get('tree_parent_replacement')
         if not replacement:
             continue
+        # Pending working replacements also carry tree-update metadata for the
+        # catalogue. They belong to the tentative-parent validators below,
+        # not this path for proved corrections of a previously mistaken role.
+        if (assessment.get('status') in {'uncertain', 'possible', 'probable'}
+                and selects_working_parent(assessment)
+                and assessment.get('working_parent_replacement')):
+            continue
         role = replacement.get('role', 'father')
         parent_key = 'mother' if role == 'mother' else 'father'
         child, parent, previous = (replacement.get(k) for k in ('child', parent_key, 'previous_parent'))

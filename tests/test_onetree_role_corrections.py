@@ -27,6 +27,19 @@ class ReviewedParentCorrectionTests(unittest.TestCase):
         self.assertEqual(people[1]['childrenRecorded'],[{'id':'OtherChild-1'}])
         self.assertEqual(people[2]['childrenRecorded'][0]['id'],'Child-1')
 
+    def test_tentative_replacement_is_left_to_working_parent_validation(self):
+        people, reviews = self.fixture()
+        reviews[1].update(status='uncertain', working_selection=True,
+                          allow_new_relationship=True, working_parent_replacement={
+                              'previous_parent': 'Sibling-1', 'reason': 'Pending sourced proposal'})
+        before = deepcopy(people)
+        self.assertEqual(apply_reviewed_parent_replacements(people, reviews), [])
+        self.assertEqual(people, before)
+        # Merely lowering a proved correction's grade cannot bypass validation.
+        reviews[1].pop('working_parent_replacement')
+        with self.assertRaisesRegex(ValueError, 'requires an approved father'):
+            apply_reviewed_parent_replacements(people, reviews)
+
     def test_missing_sibling_evidence_is_rejected(self):
         people,reviews=self.fixture();reviews[0]['source_ids']=[]
         with self.assertRaisesRegex(ValueError,'requires an approved father'):
