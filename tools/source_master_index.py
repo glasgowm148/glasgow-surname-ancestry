@@ -42,6 +42,8 @@ REFERENCE_PATTERNS = [
 ]
 
 DATE_STATUS = {
+    'biographical life dates': 'Biographical life dates',
+    'attested extract date': 'Attested extract date',
     'recorded birth year': 'Recorded birth year',
     'record year': 'Record date', 'record dates': 'Record date', 'source title': 'Year from title',
     'reviewed citation title': 'Year from title', 'multiple census years': 'Several years',
@@ -166,6 +168,7 @@ def build_rows(web: Path, rows: list[dict], root: Path) -> dict:
         if first and first.get('date_status') == 'undated':
             status = 'Undated (reviewed)'
         date = clean(first.get('year')) if first and first.get('date_status') != 'undated' else ''
+        date = row.get('date_label') or date
         if date and re.fullmatch(r'\d{4}', date):
             date = ''
         members = {p['id'].casefold(): p for p in row.get('people') or []}

@@ -85165,6 +85165,29 @@
         "Canonical record retours-lanark-205-elizabeth-hutchesone-1642",
         "research/Hutcheson-1655/findings.md"
       ]
+    },
+    {
+      "id": "sources-original-date-review-20261114",
+      "found_on": "2026-11-14",
+      "kind": "record",
+      "finding": "The Glass Family Bible extract’s first page states that Ernest F. Gates attested its entries on 20 May 1933: both AB1612 citations now use 1933 as the attested-extract date. The original Dictionary of Ulster Biography entry gives Jemima Montgomery’s life dates as 23 October 1807–12 November 1893; URL identifier 1924 is not a year.",
+      "status": "qualified",
+      "qualification": "Bible extract printed page 1 / PDF page 1 visually inspected after normal archive browser verification completed. The ten-page scan’s first page is a typed derivative, not the Bible manuscript. Its recorded events span 1787–1885; 1933 dates the attestation, not the original Bible or those events. Jemima’s 1807–1893 range dates her life, not the undated biography’s publication. This source-date review does not alter disputed personal vital dates.",
+      "people": [],
+      "sources": [
+        {
+          "title": "Dictionary of Ulster Biography: Jemima Montgomery (1807–1893)",
+          "url": "https://www.newulsterbiography.co.uk/index.php/home/viewPerson/1924"
+        },
+        {
+          "title": "Wits Historical Papers, AB1612-Af1-4-03, The Glass Family Bible, printed page 1 / PDF page 1, attestation 20 May 1933",
+          "url": "https://researcharchives.wits.ac.za/uploads/r/historical-papers-research-archive-library-university-of-witwatersrand/e/6/2/e62291f8683a58abd90b3530d91d67508f39183c6c52e1d50ef18a2ad03f3375/AB1612-Af1-4-03-jpeg.pdf"
+        }
+      ],
+      "detail_url": "/sources/s-2352665db782d871/",
+      "provenance": [
+        "research/source-library/census-reference-overrides.json"
+      ]
     }
   ]
 }

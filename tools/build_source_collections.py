@@ -100,7 +100,7 @@ def display_title(row):
 def card(row):
     """One reference as a table row (stacks into a card on narrow screens)."""
     years = row.get('years') or []
-    year = ', '.join(map(str, years)) or '—'
+    year = row.get('date_label') or ', '.join(map(str, years)) or '—'
     basis = '' if row.get('year_basis') in ('', 'unknown', None) else row['year_basis']
     detail = f'/sources/{row["id"]}/'
     original = row.get('original_url')

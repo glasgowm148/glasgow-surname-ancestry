@@ -54,6 +54,22 @@ def identified_records() -> dict:
     return {row["id"]: row["identified"] for row in json.loads(IDENTIFIED.read_text(encoding="utf-8")).get("sources", []) if row.get("identified")}
 
 
+@lru_cache(maxsize=1)
+def date_reviews() -> dict:
+    if not IDENTIFIED.exists():
+        return {}
+    return {row["id"]: row["date_review"] for row in json.loads(IDENTIFIED.read_text(encoding="utf-8")).get("sources", []) if row.get("date_review")}
+
+
+def date_review_block(doc: dict) -> str:
+    review = date_reviews().get(doc.get("id"))
+    if not review:
+        return ""
+    return ('<section class="static-source-date-review"><h3>Source date review</h3>'
+            f'<p>{esc(review.get("note"))}</p><p class="r-caption">Checked {esc(review.get("checked_on"))}. '
+            f'<a href="{esc(review.get("source_url"))}">Original source</a></p></section>')
+
+
 def availability(doc: dict) -> str:
     image = doc.get("image")
     extract = has_extract(doc)
@@ -142,7 +158,7 @@ def block(doc: dict, found: dict | None = None, pages: dict | None = None) -> st
     archive = f'<p><a href="{esc(url)}" target="_blank" rel="noopener noreferrer">Open cited archive ↗</a></p>' if url else ""
     return f'''{START}
 <section class="v3-reader-bottom static-source-evidence" aria-label="Published source evidence">
-<section><h2>Published source evidence</h2><p{' class="static-source-citation-only"' if citation_only(doc) and not found else ''}>{esc(CITATION_ONLY + " The record it cites has been found and is linked below." if found and citation_only(doc) else availability(doc))}</p>{identified_block(found, pages or {})}{archive}<h3>Linked people</h3><ul>{people_html}</ul><h3>Citation entries</h3><ul>{citation_html}</ul><h3>Record associations</h3><ul>{record_html}</ul></section>
+<section><h2>Published source evidence</h2><p{' class="static-source-citation-only"' if citation_only(doc) and not found else ''}>{esc(CITATION_ONLY + " The record it cites has been found and is linked below." if found and citation_only(doc) else availability(doc))}</p>{identified_block(found, pages or {})}{date_review_block(doc)}{archive}<h3>Linked people</h3><ul>{people_html}</ul><h3>Citation entries</h3><ul>{citation_html}</ul><h3>Record associations</h3><ul>{record_html}</ul></section>
 <section><h2>Assertions and assessments</h2>{assertion_html}{reviewed_html}<p class="r-caption">These are published catalogue assertions and linked claims, not a transcription of the original record. Assessment labels and provenance retain their published status.</p></section>
 </section>
 {END}'''

@@ -1,6 +1,6 @@
 {
   "reviewed": "2026-10-04",
-  "scope": "Classification checked against already-public citation titles and named record links. No new original-image reading, surname census total or identity upgrade is asserted. Changed citation titles require renewed review.",
+  "scope": "Classification checked against already-public citation titles and named record links. No new original-image reading, surname census total or identity upgrade is asserted. Changed citation titles require renewed review. Source-date reviews also distinguish verified biographical life dates from undated publications and inaccessible originals.",
   "sources": [
     {
       "id": "s-35a4a7abf12bea10",
@@ -129,6 +129,65 @@
         "basis": "This citation points at the former census.nationalarchives.ie page for Coltrim house 2, which no longer loads. The same entry is NAI index record 164161 on the current census site, read 5 November 2026: Robt Glasgow, one family of six males and five females, eleven Presbyterians.",
         "reviewed": "2026-11-05"
       }
+    },
+    {
+      "id": "s-2352665db782d871",
+      "years": [
+        1807,
+        1893
+      ],
+      "countries": [],
+      "year_basis": "biographical life dates",
+      "basis": "The original Dictionary of Ulster Biography article gives Jemima Montgomery’s birth as 23 October 1807 and death as 12 November 1893. These are the subject’s life dates; the article supplies no publication date. URL component 1924 is a page identifier.",
+      "title_sha256": "435b0c4452d75e8b834acd2a4ffbc59f4c04844d2db6a4c108f122d1b55ceb8b",
+      "date_review": {
+        "checked_on": "2026-11-14",
+        "note": "The original Dictionary of Ulster Biography article gives Jemima Montgomery’s birth as 23 October 1807 and death as 12 November 1893. These are the subject’s life dates; the article supplies no publication date. URL component 1924 is a page identifier.",
+        "source_url": "https://www.newulsterbiography.co.uk/index.php/home/viewPerson/1924"
+      },
+      "date_label": "1807–1893"
+    },
+    {
+      "id": "s-e6be0140c1a9265e",
+      "years": [
+        1933
+      ],
+      "countries": [],
+      "year_basis": "attested extract date",
+      "basis": "The Glass Family Bible, printed page 1 (PDF page 1): the typed extract states that its entries were attested by Ernest F. Gates, Notary Public, New London, Connecticut, on 20 May 1933. Use 1933 as the attested-extract date, not the Bible’s printing year or a family-event year. The page records events from William Glass’s stated birth in 1787 to Isabella’s death in 1885. Both archive URLs identify the same named ten-page scan. This is a typed derivative of the Bible, not an inspection of its original handwriting.",
+      "title_sha256": "9af23e73c64623eab6efa76a4e44195750c4b0809a85580c57de595b10561694",
+      "date_review": {
+        "checked_on": "2026-11-14",
+        "note": "The Glass Family Bible, printed page 1 (PDF page 1): the typed extract states that its entries were attested by Ernest F. Gates, Notary Public, New London, Connecticut, on 20 May 1933. Use 1933 as the attested-extract date, not the Bible’s printing year or a family-event year. The page records events from William Glass’s stated birth in 1787 to Isabella’s death in 1885. Both archive URLs identify the same named ten-page scan. This is a typed derivative of the Bible, not an inspection of its original handwriting.",
+        "source_url": "http://researcharchives.wits.ac.za/uploads/r/historical-papers-research-archive-library-university-of-witwatersrand/e/6/2/e62291f8683a58abd90b3530d91d67508f39183c6c52e1d50ef18a2ad03f3375/AB1612-Af1-4-03-jpeg.pdf",
+        "printed_page": "1",
+        "pdf_page": 1,
+        "capture_path": ".cache/source-date-reviews/glass-bible-page1-20261114.png",
+        "capture_sha256": "6e0ee2141ec6a7e46de7694215fb98246d2e475acd5dfd23cfba5f95bb30f36c",
+        "inspection": "Full first-page scan image extracted from browser-viewer PDF after normal archive verification completed."
+      },
+      "date_label": "1933"
+    },
+    {
+      "id": "s-d21f03179a1cbfe5",
+      "years": [
+        1933
+      ],
+      "countries": [],
+      "year_basis": "attested extract date",
+      "basis": "The Glass Family Bible, printed page 1 (PDF page 1): the typed extract states that its entries were attested by Ernest F. Gates, Notary Public, New London, Connecticut, on 20 May 1933. Use 1933 as the attested-extract date, not the Bible’s printing year or a family-event year. The page records events from William Glass’s stated birth in 1787 to Isabella’s death in 1885. Both archive URLs identify the same named ten-page scan. This is a typed derivative of the Bible, not an inspection of its original handwriting.",
+      "title_sha256": "7efd00236e3fe0dd6112f0af9956a8334bc9256f1e53755cdcd9e3bc149bc330",
+      "date_review": {
+        "checked_on": "2026-11-14",
+        "note": "The Glass Family Bible, printed page 1 (PDF page 1): the typed extract states that its entries were attested by Ernest F. Gates, Notary Public, New London, Connecticut, on 20 May 1933. Use 1933 as the attested-extract date, not the Bible’s printing year or a family-event year. The page records events from William Glass’s stated birth in 1787 to Isabella’s death in 1885. Both archive URLs identify the same named ten-page scan. This is a typed derivative of the Bible, not an inspection of its original handwriting.",
+        "source_url": "http://researcharchives.wits.ac.za/uploads/r/historical-papers-research-archive-library-university-of-witwatersrand/e/6/2/e62291f8683a58abd90b3530d91d67508f39183c6c52e1d50ef18a2ad03f3375/AB1612-Af1-4-03-jpeg.pdf",
+        "printed_page": "1",
+        "pdf_page": 1,
+        "capture_path": ".cache/source-date-reviews/glass-bible-page1-20261114.png",
+        "capture_sha256": "6e0ee2141ec6a7e46de7694215fb98246d2e475acd5dfd23cfba5f95bb30f36c",
+        "inspection": "Full first-page scan image extracted from browser-viewer PDF after normal archive verification completed."
+      },
+      "date_label": "1933"
     }
   ]
 }

@@ -287,10 +287,10 @@ def build_index(web: Path, *, source_ids: set[str] | None = None) -> list[dict]:
         if row['id'] in overrides and not reviewed_undated:
             override = overrides[row['id']]
             if sha256(str(doc.get('title') or '').encode()).hexdigest() != override['title_sha256']:
-                raise ValueError('Census citation override needs review: ' + row['id'])
+                raise ValueError('Source citation override needs review: ' + row['id'])
             census_years, census_countries = override['years'], override['countries']
             year = census_years[0] if len(census_years) == 1 else None
-            year_basis = 'reviewed citation title'
+            year_basis = override.get('year_basis', 'reviewed citation title')
             recorded_years = []
             countries = list(census_countries)
         if census_countries:
@@ -302,6 +302,7 @@ def build_index(web: Path, *, source_ids: set[str] | None = None) -> list[dict]:
                 if isinstance(entry, dict) and entry.get("person") and entry.get("name"):
                     people[str(entry["person"]).lower()] = str(entry["name"])
         identified = (overrides.get(row['id']) or {}).get('identified') if not reviewed_undated else None
+        date_label = (overrides.get(row['id']) or {}).get('date_label') if not reviewed_undated else None
         members = list(row.get("members") or [])
         if identified:
             for ident, info in (identified.get('profiles') or {}).items():
@@ -312,6 +313,7 @@ def build_index(web: Path, *, source_ids: set[str] | None = None) -> list[dict]:
             "id": row["id"], "title": row.get("title") or doc.get("title") or "",
             "categories": categories, "year": year, "year_basis": year_basis,
             "years": census_years or recorded_years or ([year] if year else []),
+            **({"date_label": date_label} if date_label else {}),
             "countries": countries, "places": places, "members": members,
             "people": [{"id": ident, "name": people.get(ident.lower(), ident)} for ident in members],
             "records": row.get("records") or 0, "citations": row.get("citations") or 0,
