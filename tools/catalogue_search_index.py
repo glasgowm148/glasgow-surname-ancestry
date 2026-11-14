@@ -33,6 +33,17 @@ process.stdout.write(JSON.stringify(rows));
 '''
     full_path = site_root / 'data/catalogue-search-index.json'
     rows = json.loads(subprocess.run(['node', '-e', script, str(full_path)], check=True, capture_output=True, text=True).stdout)
+    # Reuse the same curated matches as the person-page FamilySearch buttons.
+    links_path = ROOT / 'data/familysearch/person-links.json'
+    links = json.loads(links_path.read_text()).get('people', {}) if links_path.exists() else {}
+    for person in rows:
+        matches = {}
+        for profile_id in [person['id'], *person.get('profile_ids', [])]:
+            match = links.get(profile_id.lower())
+            if match:
+                matches.setdefault(match['id'], match)
+        if matches:
+            person['familysearch_links'] = list(matches.values())
     # Detail shards follow display-name order, keeping ordinary first-page hydration small.
     details = site_root / 'data/catalogue-details'
     details.mkdir(parents=True, exist_ok=True)
@@ -47,7 +58,7 @@ process.stdout.write(JSON.stringify(rows));
             target.write_text(content)
         for p in chunk:
             p['_detailShard'] = '/data/catalogue-details/' + name
-    keep = {'id','name','profile_ids','birth','death','date_years','birth_year','death_year','gender','record_count','has_original_record','has_profile','wikitree_update_significance','wikitree_update_relationship_changes','missing_father','missing_mother','missing_profile','needs_wikitree_update','descendants','woman_married_glasgow','has_suffix'}
+    keep = {'id','name','profile_ids','familysearch_links','birth','death','date_years','birth_year','death_year','gender','record_count','has_original_record','has_profile','wikitree_update_significance','wikitree_update_relationship_changes','missing_father','missing_mother','missing_profile','needs_wikitree_update','descendants','woman_married_glasgow','has_suffix'}
     compact = [{k:v for k,v in p.items() if k.startswith('_') or k in keep} for p in rows]
     search, location_search = {}, {}
     advanced = []

@@ -60,7 +60,8 @@
   };
   const esc=value=>String(value==null?'':value).replace(/[&<>"]/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[char]));
   const personUrl=person=>new URL(`${encodeURIComponent(person.id)}.html`,scriptUrl||window.location.href).href;
-  const wikiLinks=person=>(person.profile_ids||[]).map(id=>`<a href="https://www.wikitree.com/wiki/${encodeURIComponent(id)}" target="_blank" rel="noopener noreferrer">${esc(id)}</a>`).join(' · ')||'No profile yet';
+  const familysearchLinks=person=>(person.familysearch_links||[]).map(match=>`<br><a class="catalogue-familysearch" href="https://www.familysearch.org/tree/person/details/${encodeURIComponent(match.id)}" target="_blank" rel="noopener noreferrer" title="${match.confidence==='high'?'Matched FamilySearch profile':'Probable FamilySearch match'}">FS: ${esc(match.id)}</a>`).join('');
+  const wikiLinks=person=>((person.profile_ids||[]).map(id=>`<a href="https://www.wikitree.com/wiki/${encodeURIComponent(id)}" target="_blank" rel="noopener noreferrer">${esc(id)}</a>`).join(' · ')||'No profile yet')+familysearchLinks(person);
   const relationConfidence=relation=>{
     const treeFallback={'5':'non_biological','10':'uncertain','20':'confident','30':'dna_confirmed'};
     const allowed=new Set(['proved','strongly_supported','probable','possible','disputed','contradicted','dna_confirmed','confident','uncertain','non_biological','unmarked']);
