@@ -105,8 +105,33 @@ class SectionIndexTests(unittest.TestCase):
             target = WEB / (path.strip("/") + "/index.html" if path.endswith("/") else path.lstrip("/"))
             self.assertTrue(target.exists(), row[2])
         size = len(json.dumps({"rows": rows}, ensure_ascii=False, separators=(",", ":")).encode())
-        self.assertLess(size, 600_000)
+        # Coverage findings retain every distinct public subject/ID.  The
+        # section index grows with reviewed coverage; keep a modest 625 KB
+        # ceiling rather than dropping searchable identifiers.
+        self.assertLess(size, 625_000)
         self.assertEqual(len(json.loads((WEB / "data/places-index.json").read_text())), len(site_search.place_rows(WEB)))
+
+    def test_finding_search_deduplicates_tokens_without_losing_late_subjects(self):
+        with tempfile.TemporaryDirectory() as directory:
+            site = Path(directory)
+            write(site, "data/latest-findings-index.json", [{"id": "finding-repeat", "url": "/latest-findings/"}])
+            findings = site / "findings.json"
+            write(site, "findings.json", {"findings": [{
+                "id": "repeat", "found_on": "2026-11-14",
+                "finding": "Repeated names",
+                "people": [
+                    {"id": "Glasgow-1", "name": "Alex Glasgow"},
+                    {"id": "Glasgow-2", "name": "alex GLASGOW"},
+                    {"id": "Glasgow-9999", "name": "Unique Late Subject"},
+                    {"id": "Glasgow-4", "name": "Alex Glasgow"},
+                    {"id": "Glasgow-5", "name": "alex GLASGOW"},
+                    {"id": "Glasgow-6", "name": "Distinct Last Person"},
+                ],
+            }]})
+            row = site_search._finding_rows(site, findings)[0]
+            self.assertEqual("Glasgow-1 Glasgow-2 Glasgow-9999 Glasgow-4 Glasgow-5 Glasgow-6 Alex Glasgow Distinct Last Person", row[4])
+            self.assertIn("Alex Glasgow", row[3])
+            self.assertIn("Unique Late Subject", row[3])
 
 
 class WorkerSearchTests(unittest.TestCase):

@@ -188,7 +188,20 @@ def _finding_rows(site_root: Path, findings_path: Path) -> list[list[str]]:
         names = ", ".join(_text(p["name"]) for p in people[:3]) + (" and others" if len(people) > 3 else "")
         sub = " · ".join(x for x in (f"Latest finding · {_long_date(finding.get('found_on'))}", names) if x)
         # Names already appear in ``sub``; the search field adds IDs and any further names.
-        search = " ".join([*(str(p.get("id") or "") for p in people), *(_text(p["name"]) for p in people[3:])]).strip()
+        # Keep every profile ID and name searchable, but remove repeated
+        # case-insensitive tokens from large coverage findings.  Search is
+        # token based, so stable first occurrence preserves every distinct
+        # query term while keeping the worker index compact.
+        raw_search = " ".join([*(str(p.get("id") or "") for p in people), *(_text(p["name"]) for p in people[3:])]).strip()
+        seen_tokens = set()
+        search_tokens = []
+        for token in raw_search.split():
+            key = token.casefold()
+            if key in seen_tokens:
+                continue
+            seen_tokens.add(key)
+            search_tokens.append(token)
+        search = " ".join(search_tokens)
         rows.append([anchor, _snippet(finding.get("finding"), 120), f"{page}#{anchor}", sub, search, "Latest finding"])
     return rows
 
