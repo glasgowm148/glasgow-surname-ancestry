@@ -105,3 +105,35 @@ class PanelChartDataTests(unittest.TestCase):
             self.assertEqual(soup.select_one('#family-branches')['data-total'], '1')
             self.assertEqual(json.loads(soup.select_one('.statistics-migration-data').string),
                              [['Ireland', 'United States', 1]])
+
+
+class StatisticsLayoutTests(unittest.TestCase):
+    def test_overview_keeps_all_totals_with_four_primary(self):
+        from bs4 import BeautifulSoup
+        labels = ['Historical people', 'Mapped records', 'Mapped places', 'Cross-region life courses',
+                  'Exported family roots', 'People linked to a root']
+        summary = '<div class="statistics-summary">' + ''.join(
+            '<div><strong>' + str(index + 1) + '</strong><span>' + label + '</span></div>'
+            for index, label in enumerate(labels)) + '</div>'
+        soup = BeautifulSoup(statistics.overview_markup(summary), 'html.parser')
+        self.assertEqual(len(soup.select('.statistics-metric-grid > div')), 4)
+        self.assertEqual(len(soup.select('.statistics-extra-grid > div')), 2)
+        self.assertEqual([node.text for node in soup.select('strong')], ['1', '2', '3', '4', '5', '6'])
+        self.assertFalse(soup.select_one('.statistics-extra-totals').has_attr('open'))
+
+    def test_views_group_all_charts_and_keep_details(self):
+        from bs4 import BeautifulSoup
+        ids = ['given-names', 'birth-centuries', 'regions', 'family-branches',
+               'mapped-places', 'married-surnames', 'migration']
+        panels = ''.join('<section class="statistics-panel" id="' + ident +
+                         '"><h3>' + ident + '</h3><p>Scope</p><ol class="statistics-bars"><li>Counts</li></ol></section>'
+                         for ident in ids)
+        with patch.object(statistics, 'first_names_panel', return_value='<section id="first-names">Names</section>'):
+            soup = BeautifulSoup(statistics.chart_views(panels), 'html.parser')
+        self.assertEqual(len(soup.select('[data-statistics-pane]')), 4)
+        self.assertEqual(len(soup.select('.statistics-panel')), 7)
+        self.assertTrue(soup.select_one('#statistics-view-time #birth-centuries'))
+        self.assertTrue(soup.select_one('#statistics-view-journeys #migration'))
+        self.assertEqual(len(soup.select('#statistics-view-places .statistics-panel')), 4)
+        self.assertFalse(soup.select_one('.statistics-comparison').has_attr('open'))
+        self.assertEqual(len(soup.select('.statistics-panel-method')), 7)

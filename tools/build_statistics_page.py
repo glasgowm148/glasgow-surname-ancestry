@@ -94,26 +94,30 @@ def first_names_panel():
     payload = json.dumps(rows, ensure_ascii=True).replace('<', '\\u003c')
     return (
         '<section class="statistics-names" id="first-names" aria-labelledby="first-names-title">'
-        '<span class="r-kicker">Given names through time</span>'
-        '<h2 id="first-names-title">First names of people born Glasgow</h2>'
-        '<p>People whose recorded surname at birth was Glasgow, wherever they were born. '
-        'Each catalogue person counts once, using the first word of their first given name; spelling variants stay separate.</p>'
+        '<div class="statistics-feature-head"><div><span class="r-kicker">The names we share</span>'
+        '<h2 id="first-names-title">First names</h2>'
+        '<p>People born with the Glasgow surname, worldwide.</p></div>'
         '<div class="statistics-name-filters">'
-        '<label for="names-century">Born before<select id="names-century">'
+        '<label for="names-century">Birth period<select id="names-century">'
         '<option value="">All years</option>' +
-        ''.join(f'<option value="{year}">Before {year} (&lt;{year})</option>' for year in range(1500, 2100, 100)) +
+        ''.join(f'<option value="{year}">Before {year}</option>' for year in range(1500, 2100, 100)) +
         '</select></label><label for="names-gender">Gender<select id="names-gender">'
         '<option value="">All genders</option><option>Female</option><option>Male</option>'
-        '<option>Unknown</option></select></label><button type="button" id="names-reset">Reset filters</button></div>'
+        '<option>Unknown</option></select></label><button type="button" id="names-reset">Reset</button></div></div>'
         '<p id="names-summary" role="status" aria-live="polite"></p>'
-        '<div class="statistics-name-layout"><div class="statistics-name-chart"><div id="names-pie"></div><p class="statistics-pie-hint">Hover, tap or focus a slice to explore a name.</p></div>'
-        '<div class="statistics-name-table"><table><caption>First-name counts and percentages</caption>'
+        '<div class="statistics-name-layout"><div class="statistics-name-chart"><div id="names-pie"></div>'
+        '<p class="statistics-pie-hint">Hover or tap a name to explore.</p></div>'
+        '<div class="statistics-name-ranking"><h3>The leading names</h3>'
+        '<ol id="names-leaders"></ol></div></div>'
+        '<details class="statistics-name-counts"><summary id="names-count-title">View all name counts</summary>'
+        '<div class="statistics-name-table" tabindex="0" aria-label="All first-name counts"><table><caption>First-name counts and percentages</caption>'
         '<thead><tr><th scope="col">First name</th><th scope="col">People</th><th scope="col">Share</th></tr></thead>'
-        '<tbody id="names-rows"></tbody></table></div></div>'
-        '<p class="statistics-name-note">Year filters are cumulative: before 1800 includes all dated births earlier than 1800. '
-        'Approximate single years are included; missing years, date ranges and before/after dates are excluded when a year filter is selected. '
-        'Gender uses the maintained catalogue classifications. Clear historical given names are classified in the underlying workbench; initials and ambiguous names remain Unknown. The pie shows the 12 most common names and groups the rest as Other names; the table lists every name. '
-        'These are catalogue patterns, not population statistics.</p>'
+        '<tbody id="names-rows"></tbody></table></div></details>'
+        '<details class="statistics-method"><summary>How these names are counted</summary>'
+        '<p>Each person counts once, using the first word of their first given name; spelling variants stay separate. '
+        'Birth-period filters are cumulative. Approximate single years are included; missing years, ranges and before/after dates are excluded when a period is selected. '
+        'Gender uses the maintained catalogue classifications; initials and ambiguous names may remain Unknown. '
+        'The pie labels the 12 most common names and groups the rest as Other names. These are catalogue patterns, not population statistics.</p></details>'
         '<noscript>Enable JavaScript to explore the chart and filters.</noscript>'
         '<script type="application/json" id="names-data">' + payload + '</script></section>'
     )
@@ -166,6 +170,74 @@ def enrich_panels(markup):
     return str(soup)
 
 
+
+def overview_markup(summary):
+    from bs4 import BeautifulSoup
+    soup = BeautifulSoup(summary, 'html.parser')
+    cards = soup.select('.statistics-summary > div')
+    selected_labels = ('Historical people', 'Mapped records', 'Mapped places', 'Cross-region life courses')
+    selected, extra = [], []
+    icons = (
+        '<circle cx="9" cy="7" r="3"/><path d="M3 21v-4a6 6 0 0 1 12 0v4M17 4a3 3 0 0 1 0 6m1 4a5 5 0 0 1 3 5v2"/>',
+        '<path d="M5 3h10l4 4v14H5zM14 3v5h5M8 12h8M8 16h8"/>',
+        '<path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/>',
+        '<path d="M3 7h14m-4-4 4 4-4 4M21 17H7m4-4-4 4 4 4"/>',
+    )
+    for card in cards:
+        label = card.find('span')
+        if label and label.get_text() in selected_labels:
+            index = selected_labels.index(label.get_text())
+            if index == 3:
+                label.string = 'Recorded journeys'
+            icon = '<svg class="statistics-metric-icon" viewBox="0 0 24 24" aria-hidden="true">' + icons[index] + '</svg>'
+            selected.append((index, '<div class="statistics-metric">' + icon + card.decode_contents() + '</div>'))
+        else:
+            extra.append(str(card))
+    if not selected and cards:
+        selected = [(i, str(card)) for i, card in enumerate(cards[:4])]
+        extra = [str(card) for card in cards[4:]]
+    result = '<section class="statistics-overview" aria-label="Catalogue summary"><div class="statistics-summary statistics-metric-grid">' + ''.join(card for _, card in sorted(selected)) + '</div>'
+    if extra:
+        result += '<details class="statistics-extra-totals"><summary>More collection totals</summary><div class="statistics-summary statistics-extra-grid">' + ''.join(extra) + '</div></details>'
+    return result + '</section>'
+
+
+def chart_views(panels):
+    """Separate visual stories instead of presenting every table at once."""
+    from bs4 import BeautifulSoup
+    soup = BeautifulSoup(panels, 'html.parser')
+    all_panels = soup.select('.statistics-panel')
+    by_id = {panel.get('id'): panel for panel in all_panels if panel.get('id')}
+    for panel in all_panels:
+        description = panel.find('p', recursive=False)
+        if description:
+            method = soup.new_tag('details', attrs={'class': 'statistics-panel-method'})
+            heading = soup.new_tag('summary')
+            heading.string = 'About this chart'
+            method.append(heading)
+            method.append(description.extract())
+            panel.append(method)
+    def panel(ident):
+        return str(by_id[ident]) if ident in by_id else ''
+    comparison = panel('given-names')
+    if comparison:
+        comparison = '<details class="statistics-comparison"><summary>Compare first names across all surnames<span>Entire catalogue</span></summary>' + comparison + '</details>'
+    views = {
+        'names': first_names_panel() + comparison,
+        'time': '<header class="statistics-view-head"><span class="r-kicker">Across generations</span><h2>When they were born</h2><p>Recorded birth years across the whole catalogue, including approximate dates.</p></header>' + panel('birth-centuries'),
+        'places': '<header class="statistics-view-head"><span class="r-kicker">Roots and connections</span><h2>Places &amp; families</h2><p>Explore the communities, branches and marriage connections in the collection.</p></header><div class="statistics-grid">' + ''.join(panel(ident) for ident in ('regions', 'family-branches', 'mapped-places', 'married-surnames')) + '</div>',
+        'journeys': '<header class="statistics-view-head"><span class="r-kicker">Across borders</span><h2>Recorded journeys</h2><p>These links compare birth and death regions; they do not reconstruct travel routes.</p></header>' + panel('migration'),
+    }
+    # Preserve unusual legacy panels rather than dropping their source counts.
+    known = {'given-names', 'birth-centuries', 'regions', 'family-branches', 'mapped-places', 'married-surnames', 'migration'}
+    views['places'] += ''.join(str(item) for item in all_panels if item.get('id') not in known)
+    tabs = [('names', 'Names', 'first-names'), ('time', 'Time', 'birth-centuries'),
+            ('places', 'Places &amp; families', 'regions'), ('journeys', 'Journeys', 'migration')]
+    nav = '<nav class="statistics-view-tabs" id="statistics-detail-title" aria-label="Explore statistics">' + ''.join(
+        '<a id="statistics-tab-' + key + '" href="#' + anchor + '" data-statistics-view="' + key + '">' + label + '</a>'
+        for key, label, anchor in tabs) + '</nav>'
+    return nav + ''.join('<section id="statistics-view-' + key + '" class="statistics-view" data-statistics-pane="' + key + '" aria-labelledby="statistics-tab-' + key + '">' + views[key] + '</section>' for key, _, _ in tabs)
+
 def install_chart_assets(shell):
     """Version only this page's maintained assets, without global cache stamping."""
     assets = {
@@ -173,6 +245,7 @@ def install_chart_assets(shell):
         'statistics_names.css': 'statistics-names.css',
         'statistics_names.js': 'statistics-names.js',
         'statistics_panels.js': 'statistics-panels.js',
+        'statistics_layout.js': 'statistics-layout.js',
     }
     for source_name, target_name in assets.items():
         content = (ROOT / 'tools' / source_name).read_bytes()
@@ -213,8 +286,17 @@ def repair():
         'This panel does not follow the pie-chart filters; the pie includes only people whose surname at birth was Glasgow.')
     panels = enrich_panels(panels)
     current_summary = rebase_catalogue_links(_current_catalogue_summary() or summary.group(0))
-    main = '''<main class="r-main statistics-page" id="main"><header class="v3-page-head statistics-page-head"><span class="r-kicker">The collection, at a glance</span><h1>The Glasgow catalogue,<br>by the numbers.</h1><p>Explore the names, places and journeys in the public historical catalogue. Counts describe the collection and its documented associations. <a href="/coverage/">About the data</a> · <a href="/status/">Catalogue status</a></p><nav class="statistics-page-jumps" aria-label="Statistics sections"><a href="#first-names">First names</a><a href="#statistics-detail-title">Comparisons</a><a href="#migration">Recorded journeys</a></nav></header><section class="statistics-page-summary" aria-label="Catalogue summary">''' + current_summary + '''</section><section class="statistics-page-panels" aria-labelledby="statistics-detail-title"><div class="statistics-page-intro"><span class="r-kicker">Patterns in the collection</span><h2 id="statistics-detail-title">Places, names, branches and movement</h2><p>Switch between bars and pies where categories form a meaningful whole. Open linked counts to explore the people behind each chart.</p></div><div class="statistics-grid">''' + panels + '''</div><p class="statistics-caution">''' + caution + '''</p></section></main>'''
-    main = main.replace('<section class="statistics-page-panels"', first_names_panel() + '<section class="statistics-page-panels"', 1)
+    main = (
+        '<main class="r-main statistics-page" id="main"><header class="statistics-page-head">'
+        '<span class="r-kicker">Explore the collection</span><h1>Statistics</h1>'
+        '<p>Names, generations and journeys in the Glasgow catalogue.</p></header>'
+        + overview_markup(current_summary) + chart_views(panels) +
+        '<details class="statistics-method statistics-page-method"><summary>About these statistics</summary>'
+        '<p>Counts describe the public historical catalogue and its documented associations. '
+        'A person can appear in more than one place or marriage-surname category, so those charts are not parts of a single whole. '
+        '<a href="/coverage/">About the data</a> · <a href="/status/">Catalogue status</a></p><p>' +
+        caution + '</p></details></main>'
+    )
     shell = re.sub(r'<title>.*?</title>', lambda _: f'<title>{page_title("Statistics")}</title>', shell, count=1, flags=re.S)
     shell = re.sub(r'<meta content="The Glasgow surname (?:archive|project):[^"]*" name="description"\s*/?>', '<meta content="Statistics from the public historical catalogue: places, names, branches and recorded movement." name="description">', shell, count=1)
     shell = re.sub(r'<link\b(?=[^>]*\brel=["\']canonical["\'])[^>]*>',

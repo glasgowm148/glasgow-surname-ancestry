@@ -9,8 +9,10 @@
   const summary = document.getElementById('names-summary');
   const pie = document.getElementById('names-pie');
   const body = document.getElementById('names-rows');
-  const colors = ['#375840','#6b7340','#b17a43','#607f94','#957085','#8eaa7b',
-    '#c8a44e','#637c72','#b96854','#7984a4','#a99678','#447b78','#c1c6b5'];
+  const leaders = document.getElementById('names-leaders');
+  const countTitle = document.getElementById('names-count-title');
+  const colors = ['#426f58','#b78049','#58889b','#8b7397','#8e9c62','#bd766d',
+    '#c2a04a','#527c7b','#a66a43','#7e8da9','#9e967e','#6b8c64','#d3d6c9'];
   const fmt = new Intl.NumberFormat('en-GB');
   const ns = 'http://www.w3.org/2000/svg';
   function svgElement(tag, attributes = {}) {
@@ -50,10 +52,12 @@
       ? fmt.format(total) + ' people · ' + fmt.format(names.length) + ' first names'
       : 'No people match these filters.';
     summary.textContent += ' · ' + (century.value ? 'Born before ' + century.value : 'All birth years') +
-      ' · ' + (gender.value || 'All genders') + ' · Surname at birth: Glasgow';
+      ' · ' + (gender.value || 'All genders');
     if (century.value) summary.textContent += ' · ' + fmt.format(omitted) + ' excluded without a single birth year.';
     pie.replaceChildren();
     body.replaceChildren();
+    if (leaders) leaders.replaceChildren();
+    if (countTitle) countTitle.textContent = 'View all ' + fmt.format(names.length) + ' name counts';
     if (!total) {
       const empty = document.createElement('p');
       empty.className = 'statistics-name-empty';
@@ -76,6 +80,7 @@
     const tipDetail = document.createElement('span');
     tooltip.append(tipName, tipDetail);
     const tableRows = [];
+    const leaderButtons = [];
     const paths = [];
     function clear() {
       tooltip.hidden = true;
@@ -83,6 +88,7 @@
       centerLabel.textContent = 'people';
       paths.forEach(path => path.classList.remove('is-active'));
       tableRows.forEach(row => row.classList.remove('is-highlighted'));
+      leaderButtons.forEach(button => button.classList.remove('is-highlighted'));
     }
     function show(index) {
       clear();
@@ -90,6 +96,7 @@
       paths[index].classList.add('is-active');
       // The Other names slice represents every table row beyond the first 12.
       tableRows.forEach((row, i) => row.classList.toggle('is-highlighted', index === 12 ? i >= 12 : i === index));
+      leaderButtons.forEach((button, i) => button.classList.toggle('is-highlighted', i === index));
       centerCount.textContent = share(count);
       centerLabel.textContent = 'of people';
       tipName.textContent = name;
@@ -153,6 +160,37 @@
     });
     chart.append(centerCount, centerLabel);
     pie.append(chart, tooltip);
+    if (leaders) names.slice(0, 7).forEach(([name, count], i) => {
+      const item = document.createElement('li');
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.setAttribute('aria-label', name + ': ' + fmt.format(count) + ' people (' + share(count) + ')');
+      const label = document.createElement('span');
+      label.className = 'statistics-leader-name';
+      label.textContent = name;
+      const value = document.createElement('span');
+      value.className = 'statistics-leader-value';
+      value.textContent = fmt.format(count);
+      const track = document.createElement('span');
+      track.className = 'statistics-leader-track';
+      track.setAttribute('aria-hidden', 'true');
+      const bar = document.createElement('i');
+      bar.style.width = (count / names[0][1] * 100) + '%';
+      bar.style.backgroundColor = colors[i];
+      track.append(bar);
+      button.append(label, value, track);
+      button.addEventListener('pointerenter', () => show(i));
+      button.addEventListener('pointerleave', () => {
+        if (document.activeElement === button) show(i);
+        else clear();
+      });
+      button.addEventListener('focus', () => show(i));
+      button.addEventListener('blur', clear);
+      button.addEventListener('click', () => show(i));
+      leaderButtons.push(button);
+      item.append(button);
+      leaders.append(item);
+    });
     names.forEach(([name, count], i) => {
       const tr = document.createElement('tr');
       const label = document.createElement('th');

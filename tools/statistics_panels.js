@@ -2,7 +2,7 @@
 (() => {
   'use strict';
   const NS = 'http://www.w3.org/2000/svg';
-  const palette = ['#267783', '#ad643f', '#8771a2', '#8b852b', '#427f58', '#bb657e', '#5176a9', '#9a7131', '#697b82', '#a65045', '#7473ba', '#588d84'];
+  const palette = ['#426f58', '#b78049', '#58889b', '#8b7397', '#8e9c62', '#bd766d', '#c2a04a', '#527c7b', '#a66a43', '#7e8da9', '#9e967e', '#6b8c64', '#d3d6c9'];
   const number = value => value.toLocaleString('en-GB');
   const element = (tag, text, className) => {
     const node = document.createElement(tag);
@@ -159,14 +159,69 @@
     const note = element('p', number(total) + ' recorded migrations. ' + (data.complete ? 'All recorded broad-region flows are included.' : 'Only the flows in the displayed list are included; other recorded migrations are outside this diagram.') + ' Widths and node heights use the same count scale. Birth and death columns are separate even when a region appears in both. These endpoints do not establish a direct move or travel route. Hover, tap or focus a flow for its count and share.', 'statistics-chart-note');
     return [svg, note];
   }
+  function horizontalBars(rows, title, tooltip) {
+    const shown = rows.slice(0, 10);
+    const width = 480, rowHeight = 32, height = shown.length * rowHeight + 16;
+    const maximum = Math.max(...rows.map(row => row.count));
+    const svg = svgElement('svg', {viewBox: '0 0 ' + width + ' ' + height, role: 'group', 'aria-label': title + ' bar chart', class: 'statistics-horizontal-svg'});
+    shown.forEach((row, index) => {
+      const y = 8 + index * rowHeight;
+      const name = row.name.length > 24 ? row.name.slice(0, 23).trimEnd() + '…' : row.name;
+      const label = svgElement('text', {x: 178, y: y + 15, 'text-anchor': 'end', class: 'statistics-horizontal-label'}, name);
+      label.append(svgElement('title', {}, row.name));
+      svg.append(label);
+      svg.append(svgElement('rect', {x: 190, y, width: 230, height: 20, rx: 3, class: 'statistics-horizontal-track', 'aria-hidden': 'true'}));
+      const bar = svgElement('rect', {x: 190, y, width: row.count / maximum * 230, height: 20, rx: 3, fill: palette[0], class: 'statistics-horizontal-bar'});
+      svg.append(interactive(bar, row.name + ': ' + number(row.count), tooltip));
+      svg.append(svgElement('text', {x: 470, y: y + 15, 'text-anchor': 'end', class: 'statistics-horizontal-count'}, number(row.count)));
+    });
+    const subset = shown.length < rows.length ? 'The leading ' + shown.length + ' categories are shown; select Counts for all ' + rows.length + '. ' : '';
+    return [svg, element('p', subset + 'Counts match the linked source list. Each bar uses the same scale; categories may overlap where a person has several documented associations.', 'statistics-chart-note')];
+  }
+  function columns(rows, total, title, tooltip) {
+    const numbered = rows.map(row => [Number((row.name.match(/^\d+/) || [])[0]), row]);
+    if (numbered.every(([century]) => Number.isInteger(century))) {
+      const first = Math.min(...numbered.map(([century]) => century));
+      const last = Math.max(...numbered.map(([century]) => century));
+      if (last - first <= 30) {
+        const known = new Map(numbered);
+        const ordinal = value => value + ([11, 12, 13].includes(value % 100) ? 'th' : ({1: 'st', 2: 'nd', 3: 'rd'}[value % 10] || 'th'));
+        rows = Array.from({length: last - first + 1}, (_, index) => {
+          const century = first + index;
+          return known.get(century) || {name: ordinal(century) + ' century', count: 0};
+        });
+      }
+    }
+    const svg = svgElement('svg', {viewBox: '0 0 580 310', role: 'group', 'aria-label': title + ' column chart', class: 'statistics-columns-svg'});
+    const maximum = Math.max(...rows.map(row => row.count)), baseline = 257, plotHeight = 205;
+    [...new Set([0, Math.round(maximum / 2), maximum])].forEach(value => {
+      const y = baseline - value / maximum * plotHeight;
+      svg.append(svgElement('line', {x1: 45, x2: 570, y1: y, y2: y, stroke: '#ccd8d5', class: 'statistics-chart-gridline', 'aria-hidden': 'true'}));
+      svg.append(svgElement('text', {x: 37, y, dy: '.35em', 'text-anchor': 'end', 'font-size': 10, class: 'statistics-chart-axis'}, number(value)));
+    });
+    const step = 525 / rows.length, barWidth = Math.min(42, step * 0.64);
+    rows.forEach((row, index) => {
+      const x = 45 + step * (index + 0.5), barHeight = row.count / maximum * plotHeight;
+      const bar = svgElement('rect', {x: x - barWidth / 2, y: baseline - barHeight, width: barWidth, height: barHeight, rx: 3, fill: palette[0], class: 'statistics-column'});
+      svg.append(interactive(bar, readable(row.name, row.count, total), tooltip));
+      svg.append(svgElement('text', {x, y: baseline - barHeight - 8, 'text-anchor': 'middle', 'font-size': 11, class: 'statistics-column-count'}, number(row.count)));
+      const label = svgElement('text', {x, y: baseline + 24, 'text-anchor': 'middle', 'font-size': 11, class: 'statistics-column-label'}, row.name.replace(/\s+century$/i, ''));
+      label.append(svgElement('title', {}, row.name));
+      svg.append(label);
+    });
+    svg.append(svgElement('text', {x: 305, y: 304, 'text-anchor': 'middle', 'font-size': 10, class: 'statistics-chart-axis'}, 'Birth century'));
+    return [svg, element('p', number(total) + ' people have a usable birth year. Columns show recorded century counts, including zero for empty intervening centuries; estimated birth years remain estimates.', 'statistics-chart-note')];
+  }
   document.querySelectorAll('.statistics-panel').forEach(panel => {
     if (panel.dataset.chartEnhanced) return;
     const heading = panel.querySelector('h3'), list = panel.querySelector('ol.statistics-bars');
     if (!heading || !list) return;
     const title = heading.textContent.trim();
     const isFlow = title === 'Most common recorded migrations';
-    const isPie = ['Most frequent given names', 'Largest exported family branches', 'Birth centuries'].includes(title);
-    if (!isPie && !isFlow) return;
+    const isCentury = title === 'Birth centuries';
+    const isPie = ['Most frequent given names', 'Largest exported family branches'].includes(title);
+    const isOverlap = ['People by region', 'Most frequent mapped places', 'Surnames joined by marriage to Glasgow'].includes(title);
+    if (!isPie && !isFlow && !isCentury && !isOverlap) return;
     const rows = [...list.children].map(item => ({
       name: item.querySelector('.statistics-label')?.textContent.trim() || '',
       count: Number((item.querySelector('strong')?.textContent || '').replace(/[^0-9]/g, ''))
@@ -176,12 +231,23 @@
     if (!Number.isSafeInteger(total) || total < sum(rows)) return;
     const data = isFlow ? migrations(panel, rows) : null;
     if (isFlow && !data.rows.length) return;
+    const modes = isFlow ? [['flows', 'Flows']] : isCentury ? [['columns', 'Columns'], ['pie', 'Pie']] : isPie ? [['pie', 'Pie'], ['bars', 'Bars']] : [['bars', 'Bars']];
     const chart = element('div', undefined, 'statistics-panel-chart');
     const tooltip = element('p', 'Hover, tap or focus the chart to inspect a count.', 'statistics-chart-tooltip');
     tooltip.setAttribute('role', 'status');
     tooltip.hidden = true;
-    const rendered = isFlow ? flows(data, tooltip) : pie(rows, total, title, tooltip);
-    chart.append(...rendered, tooltip);
+    const views = [];
+    modes.forEach(([mode]) => {
+      const view = element('div', undefined, 'statistics-chart-view');
+      view.dataset.mode = mode;
+      const rendered = mode === 'flows' ? flows(data, tooltip) : mode === 'columns' ? columns(rows, total, title, tooltip) : mode === 'bars' ? horizontalBars(rows, title, tooltip) : pie(rows, total, title, tooltip);
+      const method = element('details', undefined, 'statistics-chart-method');
+      method.append(element('summary', 'Chart details'), rendered[1]);
+      view.append(rendered[0], method);
+      chart.append(view);
+      views.push(view);
+    });
+    chart.append(tooltip);
     const controls = element('div', undefined, 'statistics-chart-controls');
     controls.setAttribute('role', 'group');
     controls.setAttribute('aria-label', title + ' chart view');
@@ -192,20 +258,22 @@
     table.append(list);
     const buttons = [];
     function select(mode) {
-      chart.hidden = mode === 'bars';
-      table.open = mode === 'bars';
-      summary.hidden = mode === 'bars';
+      chart.hidden = mode === 'counts';
+      tooltip.hidden = true;
+      views.forEach(view => { view.hidden = view.dataset.mode !== mode; });
+      table.open = mode === 'counts';
+      summary.hidden = mode === 'counts';
       buttons.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.mode === mode)));
       panel.dataset.chartView = mode;
     }
-    (isFlow ? [['flows', 'Flows'], ['bars', 'Bars']] : [['bars', 'Bars'], ['pie', 'Pie']]).forEach(([mode, label]) => {
+    [...modes, ['counts', 'Counts']].forEach(([mode, label]) => {
       const button = element('button', label);
       button.type = 'button';
       button.dataset.mode = mode;
       button.addEventListener('click', () => select(mode));
       buttons.push(button); controls.append(button);
     });
-    select(isFlow ? 'flows' : 'bars');
+    select(modes[0][0]);
     panel.dataset.chartEnhanced = 'true';
   });
 })();
