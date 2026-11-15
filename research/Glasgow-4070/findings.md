@@ -1,6 +1,6 @@
 # Findings: Glasgow-4070
 
-Last updated: 2026-10-07
+Last updated: 2026-11-15
 
 ## Current conclusion
 
@@ -203,3 +203,16 @@ No inspected record directly names Jane’s father. The citation is incomplete a
 This subjective percentage assesses Jane’s father as the record-defined John Glasgow, farmer, named in John-867’s 1846 marriage. It does not identify the 1796 Desertoghill flax grower or establish John’s proposed Larne ancestry. Rosanna Unknown-761034 remains Jane’s separately unproved maternal attachment; this replacement does not identify John’s wife or prove a John–Rosanna marriage. Jane’s life dates and all existing relatives apart from the selected father are preserved. No live WikiTree edit is made.
 
 The complete source chain and prior parent state are maintained in Jane’s account. No other relationship percentage changes in this review.
+
+
+## Nancy Glasgow probate retrieval — 15 November 2026
+
+**The petition and heir schedule have not yet been recovered. No new parent statement was found, and Alexander’s father assessment remains John Glasgow, farmer (Glasgow-4090), at 90% confident inference.** The present test is whether Nancy’s estate papers explicitly describe Alexander and John as her brothers, identify their children as her nieces/nephews, or name a parent. A sibling statement would strengthen the existing argument when combined with John-867’s 1846 marriage; it would not by itself identify the older John’s birthplace, wife or ancestry.
+
+The signed-in [FamilySearch catalogue 223236](https://www.familysearch.org/en/search/catalog/223236), *Probate records, 1790–1969*, was read on 15 November. It describes courthouse originals filmed in 1971. Its relevant series include letters testamentary/administration (DGS **005115634**, 1856–1899; **005115444**, 1890–1908), the letters index (**005115651**, item 2), and minutes volumes 5 (**005115623**, 1888–1892) and 6–7 (**005115656**, 1892–1898). It lists no separate loose probate-petition packet or inheritance-tax report series. This describes the catalogue, not proof that the missing papers were never filmed or do not survive. The letters/index films were identified as further targets, not searched image by image in this review.
+
+The [Nancy docket, DGS 005115656, image 34, volume 6, p.6](https://www.familysearch.org/ark:/61903/3:1:33SQ-GYCZ-X98?view=fullText), was reopened. Its displayed AI transcript repeats the petition of Hiram Walworth, citation and service, probate/letters, guardian, inventory and Cabell McLean appraisal sequence already read from the original on 29 September. The maintained original-image reading gives **14 January 1892** for the petition, **9 May 1892** for probate and **28 April 1894** for filing the appraisal report. This review did not make a new visual reading of the manuscript or resolve the uncertain March day/guardian name. Neither the displayed transcript nor the held docket reading reproduces the petition, heir schedule or appraisal contents. **Page 6 is not an estate file number.**
+
+The official [WebSurrogate portal](https://websurrogates.nycourts.gov/Home/Welcome/) offers Old Index Search and Index Book Pages, with a warning that not every court has historical coverage. It states that ordinary document-image links cover filings from 19 February 2014 onward, while earlier unrestricted documents may be viewed at court public-access computers. Its separate historical-index option should still be checked rather than assuming that date warning proves every old image unavailable. The historical search encountered an hCaptcha verification step; no completed Nancy name/index search or negative result is claimed.
+
+**Next retrieval:** identify Nancy’s estate file number and request the executor’s petition and attachments, next-of-kin affidavit/schedule, due-diligence and service papers, special guardian’s report, and Cabell McLean’s report filed 28 April 1894, including any separately filed transfer-tax proceeding. The [Clinton County Surrogate’s Court](https://www.nycourts.gov/courts/4th-judicial-district/clinton-county-surrogates-court) is at 137 Margaret Street, Plattsburgh, telephone 518-536-3830; its current contact page was checked. A copying quotation is needed before chargeable work. The missing papers must be read before treating their hoped-for contents as evidence.
