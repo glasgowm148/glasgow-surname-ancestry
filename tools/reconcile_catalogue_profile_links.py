@@ -82,6 +82,38 @@ def genealogy_references(value, old):
     return False
 
 
+def native_identity_proof(root, old, profile, link):
+    """Verify the exact reversible identity merge independently of parent claims."""
+    merge_id=link.get('native_merge_id')
+    if not merge_id:return False
+    from genealogy.store import open_project
+    from tools.workbench_legacy_views import Views
+    with open_project(root,readonly=True) as project:
+        store=project.store
+        merge=store.get('entity_merge',merge_id)
+        if not merge or merge['kind']!='merge':
+            raise ValueError(f'{old}: native merge proof is missing')
+        if any(str(row.get('reason') or '').startswith(f'undo {merge_id}:')
+               for row in store.all("SELECT reason FROM entity_merge WHERE kind='split'")):
+            raise ValueError(f'{old}: native merge was undone')
+        views=Views(store)
+        survivor=views._merged_entities.get(merge['survivor_id'],merge['survivor_id'])
+        if views.person(survivor)!=profile:
+            raise ValueError(f'{old}: native merge survivor differs from reviewed profile')
+        moved=json.loads(merge['moved_json'])['rows']
+        aliases=[store.get('external_id',row['key']['id']) for row in moved if row['table']=='external_id']
+        exact_alias=any(row and row['value']==old and row['entity_id']==survivor
+                        and row['system']=='glasgow-local' for row in aliases)
+        # Legacy local IDs can omit the public record- prefix. The exact moved
+        # route is the authoritative catalogue identity in that case.
+        route='people/'+old+'.html'
+        moved_route=any(row['table']=='route_alias' and row['key'].get('path')==route for row in moved)
+        exact_route=moved_route and store.one('SELECT path FROM route_alias WHERE path=? AND entity_id=?',(route,survivor))
+        if not exact_alias and not exact_route:
+            raise ValueError(f'{old}: merge did not move this catalogue identity')
+        return True
+
+
 def retired_parent_proof(root, old, profile, link):
     """Authorize only explicitly retired claims of this exact native merge."""
     merge_id = link.get('native_merge_id')
@@ -248,6 +280,7 @@ def plan(root: Path, catalogue_ids: list[str]) -> dict[str, bytes]:
         if target.get('id') != profile or target.get('status') == 'superseded':
             raise ValueError(f'{old}: invalid canonical target identity')
         previous = json.loads((web / f'people/{old}.json').read_text())
+        native_identity = native_identity_proof(root, old, profile, link)
         retired_parents = retired_parent_proof(root, old, profile, link)
         if previous.get('status') == 'superseded':
             if previous.get('id') != profile:
@@ -258,7 +291,7 @@ def plan(root: Path, catalogue_ids: list[str]) -> dict[str, bytes]:
             # A native merge may therefore have a reviewed record anchor before
             # the target dossier has been rendered with that source.
             records_path = root / 'research/canonical_records.json'
-            if retired_parents and records_path.is_file():
+            if native_identity and records_path.is_file():
                 records = json.loads(records_path.read_text())
                 anchors |= provider_keys([row for row in records
                     if row.get('retired_catalogue_id') == old

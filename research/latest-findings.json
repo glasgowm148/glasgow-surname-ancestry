@@ -85431,6 +85431,58 @@
         "research/Hutcheson-1650/findings.md",
         "research/Hutcheson-1650/Hutcheson-1650.md"
       ]
+    },
+    {
+      "id": "local-queue-death-notice-identities-20261115",
+      "found_on": "2026-11-15",
+      "kind": "record",
+      "status": "confirmed",
+      "finding": "Three death-notice creation drafts are identified with existing profiles: the malformed ??Es Glasgow Dd entry with James McClure Glasgow, Edgar Cathcart Glasgow with Edgart Cathcart Glasgow, and Margret Jane Glasgow with Margaret Jane Glasgow. Exact death dates and matching address, age or father distinguish the subjects; separate new profiles are unnecessary.",
+      "significance": "Resolves three duplicate-person recommendations using held records and captured profile evidence; existing family assessments are unchanged.",
+      "qualification": "Local evidence only. The original newspaper images were not newly inspected, the raw indexed names are preserved, and the child notices do not establish their mothers. No live WikiTree profiles were edited or merged.",
+      "detail_url": "/people/glasgow-1780.html#research-findings",
+      "people": [
+        {
+          "id": "Glasgow-1780",
+          "name": "James McClure Glasgow",
+          "url": "/people/glasgow-1780.html",
+          "role": "Existing profile identified with held death-notice entry"
+        },
+        {
+          "id": "Glasgow-2527",
+          "name": "Edgar Cathcart Glasgow",
+          "url": "/people/glasgow-2527.html",
+          "role": "Existing profile identified with held death-notice entry"
+        },
+        {
+          "id": "Glasgow-2531",
+          "name": "Margret Jane Glasgow",
+          "url": "/people/glasgow-2531.html",
+          "role": "Existing profile identified with held death-notice entry"
+        }
+      ],
+      "sources": [
+        {
+          "title": "ancestry-2193-1183710 — held death-notice index",
+          "url": "https://www.ancestry.co.uk/search/collections/2193/records/1183710",
+          "record_id": "ancestry-2193-1183710"
+        },
+        {
+          "title": "ancestry-2193-1156784 — held death-notice index",
+          "url": "https://www.ancestry.co.uk/search/collections/2193/records/1156784",
+          "record_id": "ancestry-2193-1156784"
+        },
+        {
+          "title": "ancestry-2193-1143034 — held death-notice index",
+          "url": "https://www.ancestry.co.uk/search/collections/2193/records/1143034",
+          "record_id": "ancestry-2193-1143034"
+        }
+      ],
+      "source_ids": [
+        "ancestry-2193-1183710",
+        "ancestry-2193-1156784",
+        "ancestry-2193-1143034"
+      ]
     }
   ]
 }

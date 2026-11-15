@@ -59598,7 +59598,7 @@
     "source_type": "Provider index transcript",
     "record_type": "Index entry",
     "record_category": "Newspapers",
-    "status": "Ancestry search-result index row; catalogue person is a new-person draft (record-anc-margret-jane-glasgow-1870-43034)",
+    "status": "Matched to existing catalogue profile from held evidence; no separate person to create.",
     "source_quality": "provider_derivative",
     "source_status": "Inspected Ancestry newspaper index",
     "source_level": "inspected transcript",
@@ -59617,8 +59617,14 @@
       "Father": "Samuel Glasgow",
       "Publication Date": "20 Oct 1869"
     },
-    "note": "The newspaper index records Margret Jane Glasgow: death on 19 Oct 1869 at Belfast, Northern Ireland; issue dated 20 Oct 1869. Father: Samuel Glasgow. Death Age: 5. New-person draft record-anc-margret-jane-glasgow-1870-43034: No catalogue person is compatible with Margret Jane Glasgow once explicit conflicts are applied; a new sourced draft is proposed. Ruled out: Dunseeth-1 (recorded death c. 1886-06-16 differs from the record's death in 1869); Glasgow-1399 (recorded death c. 1899-10-02 differs from the record's death in 1869).",
-    "profiles": {},
+    "note": "Local identity review, 15 November 2026: Margret/Margaret Jane, exact death 19 October 1869 in Belfast, death age five, father Samuel Glasgow. Existing Glasgow-2531 has the same exact death and a held citation explicitly transcribing the identical newspaper record facts. Record omits the mother. Prior rejection cited Dunseeth-1 and Glasgow-1399 but did not assess Glasgow-2531. No contradictory date/age/father/place found.",
+    "profiles": {
+      "Glasgow-2531": {
+        "role": "Identified death-notice subject",
+        "assessment": "confirmed",
+        "timeline_group": "Life events"
+      }
+    },
     "historical_basis": {
       "latest_birth_year": 1869,
       "source_url": "https://www.ancestry.co.uk/search/collections/2193/records/1143034",
@@ -59626,11 +59632,21 @@
       "explanation": "Death notice dated 19 Oct 1869: born no later than the death"
     },
     "provenance": "private Ancestry results capture glasgow-records/belfast-northern-ireland-the-belfast-newsletter-birth-marria-2193/results-AH.csv row sha256:bf0fa8a0a5c2c21f",
-    "reviewed_on": "2026-11-04",
+    "reviewed_on": "2026-11-15",
     "publish_to_record_index": true,
     "documentary_group": "ancestry-2193-margret-jane-glasgow-death-19-oct-1869",
-    "subject_draft_url": "/people/record-anc-margret-jane-glasgow-1870-43034.html",
-    "reference": "Belfast News-Letter birth, marriage and death notices"
+    "subject_draft_url": "/people/glasgow-2531.html",
+    "reference": "Belfast News-Letter birth, marriage and death notices",
+    "identity_review_history": [
+      {
+        "reviewed_on": "2026-11-04",
+        "status": "Ancestry search-result index row; catalogue person is a new-person draft (record-anc-margret-jane-glasgow-1870-43034)",
+        "note": "The newspaper index records Margret Jane Glasgow: death on 19 Oct 1869 at Belfast, Northern Ireland; issue dated 20 Oct 1869. Father: Samuel Glasgow. Death Age: 5. New-person draft record-anc-margret-jane-glasgow-1870-43034: No catalogue person is compatible with Margret Jane Glasgow once explicit conflicts are applied; a new sourced draft is proposed. Ruled out: Dunseeth-1 (recorded death c. 1886-06-16 differs from the record's death in 1869); Glasgow-1399 (recorded death c. 1899-10-02 differs from the record's death in 1869).",
+        "profiles": {}
+      }
+    ],
+    "retired_catalogue_id": "record-anc-margret-jane-glasgow-1870-43034",
+    "canonical_profile_id": "Glasgow-2531"
   },
   {
     "record_id": "ancestry-2193-1145039",
@@ -59813,7 +59829,7 @@
     "source_type": "Provider index transcript",
     "record_type": "Index entry",
     "record_category": "Newspapers",
-    "status": "Ancestry search-result index row; catalogue person is a new-person draft (record-anc-edgar-cathcart-glasgow-1860-56784)",
+    "status": "Matched to existing catalogue profile from held evidence; no separate person to create.",
     "source_quality": "provider_derivative",
     "source_status": "Inspected Ancestry newspaper index",
     "source_level": "inspected transcript",
@@ -59831,8 +59847,14 @@
       "Father": "Samuel Glasgow",
       "Publication Date": "11 Feb 1859"
     },
-    "note": "The newspaper index records Edgar Cathcart Glasgow: death on 7 Feb 1859; issue dated 11 Feb 1859. Father: Samuel Glasgow. Residence Place: Cookstown. Death Age: 7/12. The 1855 notice for Samuel Glasgow and Fanny Cathcart also gives Cookstown as Samuel’s residence. The death index does not name Edgar’s mother. New-person draft record-anc-edgar-cathcart-glasgow-1860-56784: No catalogue person is compatible with Edgar Cathcart Glasgow once explicit conflicts are applied; a new sourced draft is proposed. Ruled out: Glasgow-598 (recorded death 1928 differs from the record's death in 1859).",
-    "profiles": {},
+    "note": "Local identity review, 15 November 2026: Rare full name Edgar Cathcart (profile Edgart Cathcart), exact death 7 February 1859, infant age 7/12 matching profile birth circa July 1858, father Samuel Glasgow, and Cookstown residence all converge. The profile holds an Armagh Guardian 18 February 1859 death-notice citation. The index does not name Edgar’s mother; do not treat Cathcart middle name alone as proof of Fanny’s motherhood. Minor Edgar/Edgart spelling discrepancy. No exact-event/place/age/father conflict found.",
+    "profiles": {
+      "Glasgow-2527": {
+        "role": "Identified death-notice subject",
+        "assessment": "confirmed",
+        "timeline_group": "Life events"
+      }
+    },
     "historical_basis": {
       "latest_birth_year": 1859,
       "source_url": "https://www.ancestry.co.uk/search/collections/2193/records/1156784",
@@ -59840,14 +59862,24 @@
       "explanation": "Death notice dated 7 Feb 1859: born no later than the death"
     },
     "provenance": "private Ancestry results capture glasgow-records/belfast-northern-ireland-the-belfast-newsletter-birth-marria-2193/results-AH.csv row sha256:c7d364b9e5f0dcaa",
-    "reviewed_on": "2026-11-04",
+    "reviewed_on": "2026-11-15",
     "publish_to_record_index": true,
     "documentary_group": "ancestry-2193-edgar-cathcart-glasgow-death-7-feb-1859",
-    "subject_draft_url": "/people/record-anc-edgar-cathcart-glasgow-1860-56784.html",
+    "subject_draft_url": "/people/glasgow-2527.html",
     "reference": "Belfast News-Letter birth, marriage and death notices",
     "related_evidence_ids": [
       "ancestry-2193-22603"
-    ]
+    ],
+    "identity_review_history": [
+      {
+        "reviewed_on": "2026-11-04",
+        "status": "Ancestry search-result index row; catalogue person is a new-person draft (record-anc-edgar-cathcart-glasgow-1860-56784)",
+        "note": "The newspaper index records Edgar Cathcart Glasgow: death on 7 Feb 1859; issue dated 11 Feb 1859. Father: Samuel Glasgow. Residence Place: Cookstown. Death Age: 7/12. The 1855 notice for Samuel Glasgow and Fanny Cathcart also gives Cookstown as Samuel’s residence. The death index does not name Edgar’s mother. New-person draft record-anc-edgar-cathcart-glasgow-1860-56784: No catalogue person is compatible with Edgar Cathcart Glasgow once explicit conflicts are applied; a new sourced draft is proposed. Ruled out: Glasgow-598 (recorded death 1928 differs from the record's death in 1859).",
+        "profiles": {}
+      }
+    ],
+    "retired_catalogue_id": "record-anc-edgar-cathcart-glasgow-1860-56784",
+    "canonical_profile_id": "Glasgow-2527"
   },
   {
     "record_id": "ancestry-2193-1162440",
@@ -60283,7 +60315,7 @@
     "source_type": "Provider search-result index",
     "record_type": "Index entry",
     "record_category": "Newspapers",
-    "status": "Ancestry search-result index row; catalogue person is a new-person draft (record-anc-es-glasgow-dd-1891-83710)",
+    "status": "Matched to existing catalogue profile from held evidence; no separate person to create.",
     "source_quality": "provider_derivative",
     "source_status": "Ancestry search-result row saved 4 November 2026; transcript and original uninspected",
     "source_level": "index",
@@ -60293,8 +60325,14 @@
       "Event Date": "30 Jun 1890",
       "Event Place": "Dunavon, Portadown"
     },
-    "note": "Ancestry search-result row for ??Es Glasgow Dd. Event Type: Death. Event Date: 30 Jun 1890. Event Place: Dunavon, Portadown. New-person draft record-anc-es-glasgow-dd-1891-83710: No catalogue person is compatible with ??Es Glasgow Dd; a new sourced draft is proposed. Source level: Ancestry search-result index row only; neither the full transcript nor the original image was inspected.",
-    "profiles": {},
+    "note": "Local identity review, 15 November 2026: Exact death date 30 June 1890, precise Dunavon/Portadown address and Doctor of Divinity title agree with the held civil-death account for James McClure Glasgow-1780. The index name ??Es is malformed; it does not define a distinct person. The original newspaper and civil image were not newly inspected. The raw indexed name is preserved. No family assessment or vital field is changed.",
+    "profiles": {
+      "Glasgow-1780": {
+        "role": "Identified death-notice subject",
+        "assessment": "confirmed",
+        "timeline_group": "Life events"
+      }
+    },
     "historical_basis": {
       "latest_birth_year": 1890,
       "source_url": "https://www.ancestry.co.uk/search/collections/2193/records/1183710",
@@ -60302,11 +60340,21 @@
       "explanation": "Death notice dated 30 Jun 1890: born no later than the death"
     },
     "provenance": "private Ancestry results capture glasgow-records/belfast-northern-ireland-the-belfast-newsletter-birth-marria-2193/results-AH.csv row sha256:0cc2eda77ea12e57",
-    "reviewed_on": "2026-11-04",
+    "reviewed_on": "2026-11-15",
     "publish_to_record_index": true,
     "documentary_group": "ancestry-2193-es-glasgow-dd-death-30-jun-1890",
-    "subject_draft_url": "/people/record-anc-es-glasgow-dd-1891-83710.html",
-    "reference": "Belfast News-Letter birth, marriage and death notices"
+    "subject_draft_url": "/people/glasgow-1780.html",
+    "reference": "Belfast News-Letter birth, marriage and death notices",
+    "identity_review_history": [
+      {
+        "reviewed_on": "2026-11-04",
+        "status": "Ancestry search-result index row; catalogue person is a new-person draft (record-anc-es-glasgow-dd-1891-83710)",
+        "note": "Ancestry search-result row for ??Es Glasgow Dd. Event Type: Death. Event Date: 30 Jun 1890. Event Place: Dunavon, Portadown. New-person draft record-anc-es-glasgow-dd-1891-83710: No catalogue person is compatible with ??Es Glasgow Dd; a new sourced draft is proposed. Source level: Ancestry search-result index row only; neither the full transcript nor the original image was inspected.",
+        "profiles": {}
+      }
+    ],
+    "retired_catalogue_id": "record-anc-es-glasgow-dd-1891-83710",
+    "canonical_profile_id": "Glasgow-1780"
   },
   {
     "record_id": "ancestry-2193-1184644",

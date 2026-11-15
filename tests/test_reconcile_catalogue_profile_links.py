@@ -68,7 +68,7 @@ class ProjectionTests(unittest.TestCase):
     def read(self,path):return json.loads((self.root/path).read_text())
     def snapshot(self):return {str(p.relative_to(self.root)):p.read_bytes() for p in self.root.rglob('*') if p.is_file()}
 
-    def native_retirement(self, *, retire=True, undo=False, extra_parent=False):
+    def native_retirement(self, *, retire=True, undo=False, extra_parent=False, without_parents=False, route_only=False):
         from genealogy.cli import initialize_project
         from genealogy.store import Research, open_project
         native = self.root / 'native'
@@ -78,10 +78,11 @@ class ProjectionTests(unittest.TestCase):
             with project.store.write(actor='test') as tx:
                 for ident in ('person-old', 'person-current', 'person-parent'):
                     research.create_person(tx, id=ident)
-                research.map_external(tx, 'person-old', 'glasgow-local', self.ids[0])
+                research.map_external(tx, 'person-old', 'glasgow-local', self.ids[0].removeprefix('record-') if route_only else self.ids[0])
+                if route_only:research.add_route(tx,'people/'+self.ids[0]+'.html','person-old')
                 research.map_external(tx, 'person-current', 'wikitree', 'Glasgow-1')
                 research.map_external(tx, 'person-parent', 'wikitree', 'Glasgow-99')
-                for claim, child, percent in (('retired-parent', 'person-old', 12), ('current-parent', 'person-current', 23)):
+                for claim, child, percent in (() if without_parents else (('retired-parent', 'person-old', 12), ('current-parent', 'person-current', 23))):
                     research.relationship_claim(tx, id=claim, child_id=child, relative_id='person-parent',
                                                 role='father', publication_status='approved')
                     research.assess(tx, claim, status='uncertain', estimate_percent=percent, estimate_kind='subjective')
@@ -91,7 +92,7 @@ class ProjectionTests(unittest.TestCase):
                     research.assess(tx, 'unreviewed-pair', status='uncertain', estimate_percent=12,
                                     estimate_kind='subjective')
                 merge = research.merge_people(tx, survivor_id='person-current', retired_id='person-old', reason='same record')
-                if retire:
+                if retire and not without_parents:
                     research.assess(tx, 'retired-parent', expected_revision=1, status='uncertain',
                                     estimate_percent=12, estimate_kind='subjective', working_selection=False,
                                     extra={'lifecycle': 'superseded', 'display': 'historical'})
@@ -104,8 +105,9 @@ class ProjectionTests(unittest.TestCase):
         target.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(database, target)
         links = self.read('data/wikitree/catalogue-profile-links.json')
-        links['entries'][self.ids[0]].update(native_merge_id=merge, retired_assertion_ids=['retired-parent'])
+        links['entries'][self.ids[0]].update(native_merge_id=merge, retired_assertion_ids=[] if without_parents else ['retired-parent'])
         self.put('data/wikitree/catalogue-profile-links.json', links)
+        if without_parents:return
         edge = {'id': 'Glasgow-99', 'relationship': 'father', 'claim_id': 'retired-parent'}
         prior = self.read(f'www/people/{self.ids[0]}.json')
         prior['relationships']['parents'] = [edge]
@@ -118,6 +120,30 @@ class ProjectionTests(unittest.TestCase):
             {'id': 'Glasgow-99', 'childrenRecorded': [
                 {'id': 'Glasgow-1', 'role': 'child', 'claim_id': 'current-parent'},
                 {'id': self.ids[0], 'role': 'child', 'claim_id': 'retired-parent'}]}]})
+
+
+    def test_native_identity_without_parent_claims_uses_exact_record_binding(self):
+        self.native_retirement(without_parents=True,route_only=True)
+        target=self.read('www/people/glasgow-1.json')
+        target['evidence']=[]
+        self.put('www/people/glasgow-1.json',target)
+        binding=dict(source_url='https://www.findmypast.co.uk/transcript?id=RECORD0',
+                     retired_catalogue_id=self.ids[0],canonical_profile_id='Glasgow-1',
+                     profiles={'Glasgow-1': {'assessment':'confirmed'}})
+        self.put('research/canonical_records.json',[binding])
+        changes=plan(self.root,[self.ids[0]])
+        self.assertIn('www/data/people.json',changes)
+        before=self.snapshot()
+        binding['canonical_profile_id']='Glasgow-2'
+        self.put('research/canonical_records.json',[binding])
+        with self.assertRaisesRegex(ValueError,'missing shared provider-record proof'):
+            apply(self.root,[self.ids[0]],refresh=False)
+        self.assertEqual(before['www/people/glasgow-1.json'],self.snapshot()['www/people/glasgow-1.json'])
+
+    def test_undone_native_identity_without_parent_claims_is_rejected(self):
+        self.native_retirement(without_parents=True,undo=True)
+        with self.assertRaisesRegex(ValueError,'undone'):
+            plan(self.root,[self.ids[0]])
 
     def test_native_merge_retires_only_explicit_historical_parent(self):
         self.native_retirement()
