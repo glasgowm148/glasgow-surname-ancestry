@@ -29,6 +29,8 @@
     summary.textContent = total
       ? fmt.format(total) + ' people · ' + fmt.format(names.length) + ' first names'
       : 'No people match these filters.';
+    summary.textContent += ' · ' + (century.value ? 'Born before ' + century.value : 'All birth years') +
+      ' · ' + (gender.value || 'All genders') + ' · Surname at birth: Glasgow';
     if (century.value) summary.textContent += ' · ' + fmt.format(omitted) + ' excluded without a single birth year.';
     pie.replaceChildren();
     body.replaceChildren();
@@ -63,6 +65,11 @@
       body.append(tr);
     });
   }
+  document.getElementById('names-reset').addEventListener('click', () => {
+    century.value = '';
+    gender.value = '';
+    render();
+  });
   century.addEventListener('change', render);
   gender.addEventListener('change', render);
   render();

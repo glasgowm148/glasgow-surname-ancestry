@@ -573,7 +573,7 @@ def _catalogue_statistics(
     migration_values = [(label, count, "") for label, count in migrations.most_common()]
     panels = "".join((
         _stat_bars("People by region", "A person is counted once in every mapped region where a record places them.", region_values),
-        _stat_bars("Most frequent given names", "First recorded given name across the public historical catalogue.", name_values),
+        _stat_bars("Most frequent given names", "All surnames, all years and all genders across the public historical catalogue. This panel does not follow the pie-chart filters; the pie includes only people whose surname at birth was Glasgow.", name_values),
         _marriage_statistics_panel(people),
         _stat_bars("Largest exported family branches", "Primary earliest-ancestor groups from exported WikiTree parent links.", family_values),
         _stat_bars("Most frequent mapped places", "Unique catalogued people associated with each townland or locality.", locality_values),

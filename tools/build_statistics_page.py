@@ -103,7 +103,7 @@ def first_names_panel():
         ''.join(f'<option value="{year}">Before {year} (&lt;{year})</option>' for year in range(1500, 2100, 100)) +
         '</select></label><label for="names-gender">Gender<select id="names-gender">'
         '<option value="">All genders</option><option>Female</option><option>Male</option>'
-        '<option>Unknown</option></select></label></div>'
+        '<option>Unknown</option></select></label><button type="button" id="names-reset">Reset filters</button></div>'
         '<p id="names-summary" role="status" aria-live="polite"></p>'
         '<div class="statistics-name-layout"><div id="names-pie" role="img" aria-label="First-name proportions"></div>'
         '<div class="statistics-name-table"><table><caption>First-name counts and percentages</caption>'
@@ -137,6 +137,10 @@ def repair():
         raise RuntimeError('Could not locate the maintained statistics summary or detail panels')
     panels, caution = detail.groups()
     panels = rebase_catalogue_links(panels)
+    panels = panels.replace(
+        'First recorded given name across the public historical catalogue.',
+        'All surnames, all years and all genders across the public historical catalogue. '
+        'This panel does not follow the pie-chart filters; the pie includes only people whose surname at birth was Glasgow.')
     current_summary = rebase_catalogue_links(_current_catalogue_summary() or summary.group(0))
     main = '''<main class="r-main statistics-page" id="main"><header class="v3-page-head statistics-page-head"><span class="r-kicker">The collection, at a glance</span><h1>Statistics from the<br>public historical catalogue.</h1><p>Counts are drawn from the maintained catalogue snapshot. They describe records and documented associations, not a proved single family tree. The headline totals are the same as on <a href="/about/">About</a> and <a href="/status/">Catalogue status</a>.</p></header><section class="statistics-page-summary" aria-label="Catalogue summary">''' + current_summary + '''</section><section class="statistics-page-panels" aria-labelledby="statistics-detail-title"><div class="statistics-page-intro"><span class="r-kicker">Patterns in the collection</span><h2 id="statistics-detail-title">Places, names, branches and movement</h2><p>Each panel remains linked back to the relevant catalogue or place view.</p></div><div class="statistics-grid">''' + panels + '''</div><p class="statistics-caution">''' + caution + '''</p></section></main>'''
     main = main.replace('<section class="statistics-page-panels"', first_names_panel() + '<section class="statistics-page-panels"', 1)
@@ -158,8 +162,8 @@ def repair():
         target = WEB / 'assets/repair' / f'statistics-names.{extension}'
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_text(source.read_text(encoding='utf-8'), encoding='utf-8')
-    shell = shell.replace('</head>', '<link rel="stylesheet" href="/assets/repair/statistics-names.css?v=1"></head>', 1)
-    shell = shell.replace('</body>', '<script src="/assets/repair/statistics-names.js?v=1" defer></script></body>', 1)
+    shell = shell.replace('</head>', '<link rel="stylesheet" href="/assets/repair/statistics-names.css?v=2"></head>', 1)
+    shell = shell.replace('</body>', '<script src="/assets/repair/statistics-names.js?v=2" defer></script></body>', 1)
     output = WEB / 'statistics/index.html'
     output.parent.mkdir(parents=True, exist_ok=True)
     before = output.read_text(encoding='utf-8') if output.exists() else None
