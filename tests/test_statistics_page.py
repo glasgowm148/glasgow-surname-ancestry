@@ -79,3 +79,29 @@ class FirstNameCohortTests(unittest.TestCase):
         base = {'last_names_at_birth': ['GLASGOW'], 'first_names': ['John'], 'gender': ''}
         people = [dict(base, birth=birth) for birth in ('before 1700', 'after 1690', '1690–1710', '')]
         self.assertEqual(statistics.first_name_rows(people), [['John', None, 'Unknown', 4]])
+
+
+class PanelChartDataTests(unittest.TestCase):
+    def test_complete_denominators_and_migration_endpoints(self):
+        from bs4 import BeautifulSoup
+        with TemporaryDirectory() as temporary:
+            web = Path(temporary)
+            (web / 'data').mkdir()
+            (web / 'data/people.json').write_text(json.dumps({'people': [
+                {'birth_location': 'Ireland', 'death_location': 'United States'},
+                {'birth_location': 'Scotland', 'death_location': 'Scotland'},
+            ]}))
+            (web / 'data/catalogue-search-index.json').write_text(json.dumps([
+                {'family_root': {'id': 'root'}}, {'family_root': None},
+            ]))
+            panels = ''.join('<section class="statistics-panel"><h3>' + title +
+                             '</h3></section>' for title in [
+                                 'Most frequent given names',
+                                 'Largest exported family branches',
+                                 'Most common recorded migrations'])
+            with patch.object(statistics, 'WEB', web):
+                soup = BeautifulSoup(statistics.enrich_panels(panels), 'html.parser')
+            self.assertEqual(soup.select_one('#given-names')['data-total'], '2')
+            self.assertEqual(soup.select_one('#family-branches')['data-total'], '1')
+            self.assertEqual(json.loads(soup.select_one('.statistics-migration-data').string),
+                             [['Ireland', 'United States', 1]])

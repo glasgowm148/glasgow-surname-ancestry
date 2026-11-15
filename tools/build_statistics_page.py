@@ -3,6 +3,7 @@
 from pathlib import Path
 import json
 import re
+import hashlib
 from collections import Counter
 try:
     from tools.site_identity import SITE_NAME, page_title
@@ -117,6 +118,75 @@ def first_names_panel():
         '<script type="application/json" id="names-data">' + payload + '</script></section>'
     )
 
+
+def enrich_panels(markup):
+    """Supply complete denominators and full migration flows to reader charts."""
+    from bs4 import BeautifulSoup
+    soup = BeautifulSoup(markup, 'html.parser')
+    people_path = WEB / 'data/people.json'
+    people = json.loads(people_path.read_text())['people'] if people_path.exists() else []
+    index_path = WEB / 'data/catalogue-search-index.json'
+    index = json.loads(index_path.read_text()) if index_path.exists() else []
+    ids = {
+        'People by region': 'regions', 'Most frequent given names': 'given-names',
+        'Surnames joined by marriage to Glasgow': 'married-surnames',
+        'Largest exported family branches': 'family-branches',
+        'Most frequent mapped places': 'mapped-places', 'Birth centuries': 'birth-centuries',
+        'Most common recorded migrations': 'migration',
+    }
+    for panel in soup.select('.statistics-panel'):
+        title = panel.find('h3')
+        if not title:
+            continue
+        name = title.get_text()
+        if name in ids:
+            panel['id'] = ids[name]
+        if name == 'Most frequent given names' and people:
+            panel['data-total'] = str(len(people))
+        if name == 'Largest exported family branches' and index:
+            panel['data-total'] = str(sum(bool(row.get('family_root')) for row in index))
+        if name == 'Most common recorded migrations':
+            panel['class'].append('statistics-migration-panel')
+            if people:
+                try:
+                    from tools.build_research_catalog import _broad_place
+                except ModuleNotFoundError:
+                    from build_research_catalog import _broad_place
+                flows = Counter()
+                for person in people:
+                    origin = _broad_place(person.get('birth_location', ''))
+                    destination = _broad_place(person.get('death_location', ''))
+                    if origin and destination and origin != destination:
+                        flows[(origin, destination)] += 1
+                data = soup.new_tag('script', type='application/json')
+                data['class'] = 'statistics-migration-data'
+                data.string = json.dumps([[a, b, count] for (a, b), count in
+                                          sorted(flows.items(), key=lambda row: (-row[1], row[0]))])
+                panel.append(data)
+    return str(soup)
+
+
+def install_chart_assets(shell):
+    """Version only this page's maintained assets, without global cache stamping."""
+    assets = {
+        'statistics_page.css': 'statistics.css',
+        'statistics_names.css': 'statistics-names.css',
+        'statistics_names.js': 'statistics-names.js',
+        'statistics_panels.js': 'statistics-panels.js',
+    }
+    for source_name, target_name in assets.items():
+        content = (ROOT / 'tools' / source_name).read_bytes()
+        target = WEB / 'assets/repair' / target_name
+        target.parent.mkdir(parents=True, exist_ok=True)
+        if not target.exists() or target.read_bytes() != content:
+            target.write_bytes(content)
+        url = '/assets/repair/' + target_name + '?v=' + hashlib.sha256(content).hexdigest()[:10]
+        if target_name.endswith('.css'):
+            shell = shell.replace('</head>', '<link rel="stylesheet" href="' + url + '"></head>', 1)
+        else:
+            shell = shell.replace('</body>', '<script src="' + url + '" defer></script></body>', 1)
+    return shell
+
 def repair():
     statistics_source = _statistics_markup()
     shell = (WEB / 'research/index.html').read_text(encoding='utf-8')
@@ -141,29 +211,25 @@ def repair():
         'First recorded given name across the public historical catalogue.',
         'All surnames, all years and all genders across the public historical catalogue. '
         'This panel does not follow the pie-chart filters; the pie includes only people whose surname at birth was Glasgow.')
+    panels = enrich_panels(panels)
     current_summary = rebase_catalogue_links(_current_catalogue_summary() or summary.group(0))
-    main = '''<main class="r-main statistics-page" id="main"><header class="v3-page-head statistics-page-head"><span class="r-kicker">The collection, at a glance</span><h1>Statistics from the<br>public historical catalogue.</h1><p>Counts are drawn from the maintained catalogue snapshot. They describe records and documented associations, not a proved single family tree. The headline totals are the same as on <a href="/about/">About</a> and <a href="/status/">Catalogue status</a>.</p></header><section class="statistics-page-summary" aria-label="Catalogue summary">''' + current_summary + '''</section><section class="statistics-page-panels" aria-labelledby="statistics-detail-title"><div class="statistics-page-intro"><span class="r-kicker">Patterns in the collection</span><h2 id="statistics-detail-title">Places, names, branches and movement</h2><p>Each panel remains linked back to the relevant catalogue or place view.</p></div><div class="statistics-grid">''' + panels + '''</div><p class="statistics-caution">''' + caution + '''</p></section></main>'''
+    main = '''<main class="r-main statistics-page" id="main"><header class="v3-page-head statistics-page-head"><span class="r-kicker">The collection, at a glance</span><h1>The Glasgow catalogue,<br>by the numbers.</h1><p>Explore the names, places and journeys in the public historical catalogue. Counts describe the collection and its documented associations. <a href="/coverage/">About the data</a> · <a href="/status/">Catalogue status</a></p><nav class="statistics-page-jumps" aria-label="Statistics sections"><a href="#first-names">First names</a><a href="#statistics-detail-title">Comparisons</a><a href="#migration">Recorded journeys</a></nav></header><section class="statistics-page-summary" aria-label="Catalogue summary">''' + current_summary + '''</section><section class="statistics-page-panels" aria-labelledby="statistics-detail-title"><div class="statistics-page-intro"><span class="r-kicker">Patterns in the collection</span><h2 id="statistics-detail-title">Places, names, branches and movement</h2><p>Switch between bars and pies where categories form a meaningful whole. Open linked counts to explore the people behind each chart.</p></div><div class="statistics-grid">''' + panels + '''</div><p class="statistics-caution">''' + caution + '''</p></section></main>'''
     main = main.replace('<section class="statistics-page-panels"', first_names_panel() + '<section class="statistics-page-panels"', 1)
     shell = re.sub(r'<title>.*?</title>', lambda _: f'<title>{page_title("Statistics")}</title>', shell, count=1, flags=re.S)
     shell = re.sub(r'<meta content="The Glasgow surname (?:archive|project):[^"]*" name="description"\s*/?>', '<meta content="Statistics from the public historical catalogue: places, names, branches and recorded movement." name="description">', shell, count=1)
+    shell = re.sub(r'<link\b(?=[^>]*\brel=["\']canonical["\'])[^>]*>',
+                   '<link rel="canonical" href="https://glasgow.phenotype.dev/statistics/">', shell, count=1)
     shell = shell.replace('data-g-path="/research/index.html"', 'data-g-path="/statistics/index.html"')
     shell = shell.replace('<strong>Research</strong>', '<strong>Statistics</strong>', 1).replace('data-g-path="/research/index.html"', 'data-g-path="/statistics/index.html"')
     shell = re.sub(r'<nav class="v3-view-nav" aria-label="Section views">.*?</nav>', '', shell, count=1, flags=re.S)
     shell = re.sub(r'<main class="r-main" id="main">.*?</main>', main, shell, count=1, flags=re.S)
-    shell = shell.replace('</head>', '<link rel="stylesheet" href="/assets/repair/statistics.css?v=2"></head>', 1)
     try:
         from tools.repair_primary_navigation import repair_nav_only_page, repair_site_identity_page
     except ModuleNotFoundError:
         from repair_primary_navigation import repair_nav_only_page, repair_site_identity_page
     shell = shell.replace('g-kind-research', 'g-kind-catalogue')
     shell = repair_site_identity_page(repair_nav_only_page(shell, Path('statistics/index.html')), Path('statistics/index.html'))
-    for extension in ('css', 'js'):
-        source = ROOT / 'tools' / f'statistics_names.{extension}'
-        target = WEB / 'assets/repair' / f'statistics-names.{extension}'
-        target.parent.mkdir(parents=True, exist_ok=True)
-        target.write_text(source.read_text(encoding='utf-8'), encoding='utf-8')
-    shell = shell.replace('</head>', '<link rel="stylesheet" href="/assets/repair/statistics-names.css?v=6"></head>', 1)
-    shell = shell.replace('</body>', '<script src="/assets/repair/statistics-names.js?v=6" defer></script></body>', 1)
+    shell = install_chart_assets(shell)
     output = WEB / 'statistics/index.html'
     output.parent.mkdir(parents=True, exist_ok=True)
     before = output.read_text(encoding='utf-8') if output.exists() else None

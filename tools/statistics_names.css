@@ -37,3 +37,7 @@
 
 
 .statistics-pie-slice-label{font:600 12px var(--g-sans);text-anchor:middle;dominant-baseline:central;pointer-events:none;letter-spacing:.01em}
+
+.statistics-pie-slice-label.is-radial{font-size:10.5px;letter-spacing:0}
+
+.statistics-pie-slice-label.is-tight{font-size:9px}

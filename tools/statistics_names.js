@@ -132,10 +132,15 @@
       const middle = labelAngle + span / 2;
       labelAngle += span;
       // Reserve enough arc length for the full name; smaller slices keep tooltips.
-      if (span < 12 || 142 * span * Math.PI / 180 < name.length * 6.3 + 10) return;
+      const tangential = span >= 12 && 142 * span * Math.PI / 180 >= name.length * 6.3 + 10;
+      const radial = !tangential && span >= 4.5 && name.length * 5.6 <= 66;
+      if (!tangential && !radial) return;
+      let rotation = tangential ? middle : middle - 90;
+      if (tangential && middle > 90 && middle < 270) rotation += 180;
+      if (radial && middle > 180) rotation += 180;
       const [x, y] = point(142, middle);
-      const label = svgElement('text', {x, y, class: 'statistics-pie-slice-label',
-        transform: 'rotate(' + (middle > 90 && middle < 270 ? middle + 180 : middle) + ' ' + x + ' ' + y + ')',
+      const label = svgElement('text', {x, y, class: 'statistics-pie-slice-label' + (radial ? ' is-radial' : '') + (span < 6 ? ' is-tight' : ''),
+        transform: 'rotate(' + rotation + ' ' + x + ' ' + y + ')',
         'aria-hidden': 'true'});
       const rgb = colors[i].slice(1).match(/../g).map(value => {
         const channel = parseInt(value, 16) / 255;
