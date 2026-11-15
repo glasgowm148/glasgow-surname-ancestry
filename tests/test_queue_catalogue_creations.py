@@ -55,6 +55,33 @@ The deed does not give her birth date. No compatible profile survived the docume
     def read(self, relative):
         return json.loads((self.root / "www" / relative).read_text())
 
+
+    def test_comparison_source_is_retained_without_becoming_a_personal_event(self):
+        comparison=deepcopy(self.entry["records"][0])
+        comparison.update(year="1600",filter_year=1600,attribution_scope="comparison",
+                          association="Unassigned same-name record; not this subject")
+        self.entry["records"].append(comparison)
+        self.save()
+        records=module.reviewed_records(self.root)
+        self.assertEqual(["1775"],[r["year"] for r in records])
+        result=module.apply_creations(self.root)
+        self.assertEqual(1,result["count"])
+        person=self.read("data/people.json")["people"][0]
+        self.assertEqual(["1775"],[r["year"] for r in person["records"]])
+        self.assertEqual("1600",person["record_comparisons"][0]["year"])
+        dossier=self.read("people/"+self.slug+".json")
+        self.assertEqual("1600",dossier["record_comparisons"][0]["year"])
+        self.assertFalse(any("1600" in str(event) for event in dossier.get("events",[])))
+
+    def test_comparison_cannot_establish_historical_publication(self):
+        self.entry["records"][0].update(year="2020",filter_year=2020)
+        comparison=deepcopy(self.entry["records"][0])
+        comparison.update(year="1600",attribution_scope="comparison")
+        self.entry["records"].append(comparison)
+        self.save()
+        with self.assertRaisesRegex(ValueError,"historical status"):
+            module.reviewed_people(self.root)
+
     def test_native_merge_into_existing_profile_does_not_recreate_duplicate(self):
         web = self.root / 'www'
         target = 'Example-2'

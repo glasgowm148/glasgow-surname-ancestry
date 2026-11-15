@@ -162527,19 +162527,27 @@
       "source_subject_url": "https://www.ancestry.co.uk/search/collections/62497/records/370985",
       "research_subject_url": "/people/record-ancestry-glasgow-bb7cb63f9cc1.html",
       "draft_path": "research/ancestry-glasgow-audit/drafts/scotland-burial-monument-inscriptions-62497.wiki",
-      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nGeorge Glasgow died in 1816 aged 7 and is commemorated at Leadhills Cemetery, Lanarkshire, Scotland.<ref name=\"anc370985\">[https://www.ancestry.co.uk/search/collections/62497/records/370985 Ancestry, Scotland, Burial Monument Inscriptions, 1507-2024, George Glasgow, 1816, Leadhills Cemetery, Lanarkshire, Scotland]. Ancestry index transcript inspected 2026-11-04; original images uninspected.</ref>\n\nGeorge Kirkland Glasgow was christened on 19 Jan 1834 at New Monkland, Lanark, Scotland; parents John Glasgow and Elisabeth. This entry is attributed to the same person as a consolidated, compatible record (child christened).<ref name=\"anc9625912\">[https://www.ancestry.co.uk/search/collections/60143/records/9625912 Ancestry, Scotland, Select Births and Baptisms, 1564-1950, George Glasgow, 19 Jan 1834, New Monkland, Lanark, Scotland]. Index entry read 2026-11-05; original uninspected.</ref>\n\n== Research Notes ==\nIdentity review, 2026-11-04: Glasgow-1307 (George Glasgow of Kirknewton, son of John Glasgow and Margaret Muckle) was removed: the monument makes this George, died 21 July 1816 aged 7, one of the children of Janet Thomson and William Glasgow, gamekeeper to the Earl of Hopetoun. Those parents are Thomson-14488 and Glasgow-2715 of Crawford parish, which includes Leadhills; George is held as a new draft. Son of William Glasgow (Glasgow-2715), gamekeeper to the Earl of Hopetoun, and Janet Thomson (Thomson-14488), on their Leadhills monument. The later George (Glasgow-638, born 1818) is a younger brother of the same name, not this child. No catalogue profile represents this child.\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
-      "assessment": "George Glasgow is known here from the Ancestry Scotland, Burial Monument Inscriptions, 1507-2024 entry (commemorated person). The parents are identified on the same monument.",
-      "current_conclusion": "George Glasgow is known here from the Ancestry Scotland, Burial Monument Inscriptions, 1507-2024 entry (commemorated person). The parents are identified on the same monument.",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nGeorge Glasgow died in 1816 aged 7 and is commemorated at Leadhills Cemetery, Lanarkshire, Scotland.<ref name=\"anc370985\">[https://www.ancestry.co.uk/search/collections/62497/records/370985 Ancestry, Scotland, Burial Monument Inscriptions, 1507-2024, George Glasgow, 1816, Leadhills Cemetery, Lanarkshire, Scotland]. Ancestry index transcript inspected 2026-11-04; original images uninspected.</ref>\n\n\n== Research Notes ==\n\n=== Record attribution review —15 November 2026 ===\nThe primary monument records George dying on 21 July 1816 aged seven, with parents William Glasgow and Janet Thomson. The comparison index records George Kirkland Glasgow born 2 January 1834 and baptised 19 January 1834, with parents John Glasgow and Elisabeth McCallum. Its birth is after the primary subject’s death and the named parents differ. These entries are retained as unassigned comparisons, not personal life events. The primary subject’s wider profile identity and any existing family hypotheses remain separately qualified.\n\nAn unassigned comparison index records Name: George Kirkland Glasgow; Birth Date: 2 Jan 1834; Baptism Date: 19 Jan 1834; Baptism Place: , New Monkland, Lanark, Scotland; Father: John Glasgow; Mother: Elisabeth Mccallum.<ref name=\"anc9625912\">[https://www.ancestry.co.uk/search/collections/60143/records/9625912 Ancestry, Scotland, Select Births and Baptisms, 1564-1950, George Glasgow, 19 Jan 1834, New Monkland, Lanark, Scotland]. Index entry read 2026-11-05; original uninspected.</ref> It is not attributed to the subject of this biography.\n\nIdentity review, 2026-11-04: Glasgow-1307 (George Glasgow of Kirknewton, son of John Glasgow and Margaret Muckle) was removed: the monument makes this George, died 21 July 1816 aged 7, one of the children of Janet Thomson and William Glasgow, gamekeeper to the Earl of Hopetoun. Those parents are Thomson-14488 and Glasgow-2715 of Crawford parish, which includes Leadhills; George is held as a new draft. Son of William Glasgow (Glasgow-2715), gamekeeper to the Earl of Hopetoun, and Janet Thomson (Thomson-14488), on their Leadhills monument. The later George (Glasgow-638, born 1818) is a younger brother of the same name, not this child. No catalogue profile represents this child.\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
+      "assessment": "George Glasgow is known here from the Ancestry Scotland, Burial Monument Inscriptions, 1507-2024 entry (commemorated person). The parents are identified on the same monument. Record attribution review, 15 November 2026: The primary monument records George dying on 21 July 1816 aged seven, with parents William Glasgow and Janet Thomson. The comparison index records George Kirkland Glasgow born 2 January 1834 and baptised 19 January 1834, with parents John Glasgow and Elisabeth McCallum. Its birth is after the primary subject’s death and the named parents differ. The incompatible entries are retained only as comparison records.",
+      "current_conclusion": "George Glasgow is known here from the Ancestry Scotland, Burial Monument Inscriptions, 1507-2024 entry (commemorated person). The parents are identified on the same monument. Record attribution review, 15 November 2026: The primary monument records George dying on 21 July 1816 aged seven, with parents William Glasgow and Janet Thomson. The comparison index records George Kirkland Glasgow born 2 January 1834 and baptised 19 January 1834, with parents John Glasgow and Elisabeth McCallum. Its birth is after the primary subject’s death and the named parents differ. The incompatible entries are retained only as comparison records.",
       "current_questions": [
         "Inspect the original register entry for fuller names, residences and relatives."
       ],
       "creation_status": "creation_ready",
-      "reviewed_at": "2026-11-04",
+      "reviewed_at": "2026-11-15",
       "candidates": [],
       "duplicate_audit": {
         "scope": "Corrected catalogue link (RF, 2026-11-04); the withdrawn profile is excluded in the research note",
         "candidates": [],
-        "conclusion": "creation_ready"
+        "conclusion": "creation_ready",
+        "record_attribution_review": {
+          "reviewed_on": "2026-11-15",
+          "record_ids": [
+            "ancestry-60143-9625912"
+          ],
+          "conclusion": "No same-person attribution",
+          "basis": "The primary monument records George dying on 21 July 1816 aged seven, with parents William Glasgow and Janet Thomson. The comparison index records George Kirkland Glasgow born 2 January 1834 and baptised 19 January 1834, with parents John Glasgow and Elisabeth McCallum. Its birth is after the primary subject’s death and the named parents differ."
+        }
       },
       "records": [
         {
@@ -162564,8 +162572,10 @@
           "filter_year": 1834,
           "record_location": "New Monkland, Lanark, Scotland",
           "association": "George Kirkland Glasgow was christened on 19 Jan 1834 at New Monkland, Lanark, Scotland; parents John Glasgow and Elisabeth.",
-          "note": "Consolidated onto this documentary person (SJ, 5 November 2026): no recorded conflict of dates, spouse, parents or place.",
-          "evidence": "Provider index entry"
+          "note": "Attribution review, 15 November 2026: The primary monument records George dying on 21 July 1816 aged seven, with parents William Glasgow and Janet Thomson. The comparison index records George Kirkland Glasgow born 2 January 1834 and baptised 19 January 1834, with parents John Glasgow and Elisabeth McCallum. Its birth is after the primary subject’s death and the named parents differ. The earlier compatible-same-person consolidation is superseded; retain this source only for comparison.",
+          "evidence": "Provider index entry",
+          "attribution_scope": "comparison",
+          "canonical_record_id": "ancestry-60143-9625912"
         }
       ]
     },
@@ -162653,19 +162663,27 @@
       "source_subject_url": "https://www.ancestry.co.uk/search/collections/62497/records/370623",
       "research_subject_url": "/people/record-ancestry-glasgow-c893b177e7e3.html",
       "draft_path": "research/ancestry-glasgow-audit/drafts/scotland-burial-monument-inscriptions-62497.wiki",
-      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nAnnie Glasgow died in 1911 aged 27 and is commemorated at Leadhills Cemetery, Lanarkshire, Scotland.<ref name=\"anc370623\">[https://www.ancestry.co.uk/search/collections/62497/records/370623 Ancestry, Scotland, Burial Monument Inscriptions, 1507-2024, Annie Glasgow, 1911, Leadhills Cemetery, Lanarkshire, Scotland]. Ancestry index transcript inspected 2026-11-04; original images uninspected.</ref>\n\nAnn Glasgow was christened on 11 Nov 1848 at Barony,Lanark,Scotland; parents John Glasgow and Jean. This entry is attributed to the same person as a consolidated, compatible record (child christened).<ref name=\"anc12412092\">[https://www.ancestry.co.uk/search/collections/60143/records/12412092 Ancestry, Scotland, Select Births and Baptisms, 1564-1950, Annie Glasgow, 11 Nov 1848, Barony,Lanark,Scotland]. Index entry read 2026-11-05; original uninspected.</ref>\n\n== Research Notes ==\nIdentity review, 2026-11-04: Glasgow-900 (Anna Greiner, of a County Tyrone family) was removed: nothing places her at Leadhills, and the monument groups this Annie with James Glasgow of the Hopetoun service. She is held as a new draft. Commemorated on the monument of James Glasgow of the Hopetoun service at Leadhills. No catalogue person is preferred on the indexed facts, so this entry is held for identity review.\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
-      "assessment": "Annie Glasgow is known here from the Ancestry Scotland, Burial Monument Inscriptions, 1507-2024 entry (commemorated person). The earlier catalogue link was withdrawn; identity held.",
-      "current_conclusion": "Annie Glasgow is known here from the Ancestry Scotland, Burial Monument Inscriptions, 1507-2024 entry (commemorated person). The earlier catalogue link was withdrawn; identity held.",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nAnnie Glasgow died in 1911 aged 27 and is commemorated at Leadhills Cemetery, Lanarkshire, Scotland.<ref name=\"anc370623\">[https://www.ancestry.co.uk/search/collections/62497/records/370623 Ancestry, Scotland, Burial Monument Inscriptions, 1507-2024, Annie Glasgow, 1911, Leadhills Cemetery, Lanarkshire, Scotland]. Ancestry index transcript inspected 2026-11-04; original images uninspected.</ref>\n\n\n== Research Notes ==\n\n=== Record attribution review —15 November 2026 ===\nThe monument records Annie dying in 1911 aged 27, implying birth about 1884. The comparison index explicitly records Ann born 11 November 1848. Those ages are incompatible without a material source error; the same-person attribution is unsupported. These entries are retained as unassigned comparisons, not personal life events. The primary subject’s wider profile identity and any existing family hypotheses remain separately qualified.\n\nAn unassigned comparison index records Name: Ann Glasgow; Birth Date: 11 Nov 1848; Birth Place: Barony,Lanark,Scotland; Father: John Glasgow; Mother: Jean Watson.<ref name=\"anc12412092\">[https://www.ancestry.co.uk/search/collections/60143/records/12412092 Ancestry, Scotland, Select Births and Baptisms, 1564-1950, Annie Glasgow, 11 Nov 1848, Barony,Lanark,Scotland]. Index entry read 2026-11-05; original uninspected.</ref> It is not attributed to the subject of this biography.\n\nIdentity review, 2026-11-04: Glasgow-900 (Anna Greiner, of a County Tyrone family) was removed: nothing places her at Leadhills, and the monument groups this Annie with James Glasgow of the Hopetoun service. She is held as a new draft. Commemorated on the monument of James Glasgow of the Hopetoun service at Leadhills. No catalogue person is preferred on the indexed facts, so this entry is held for identity review.\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
+      "assessment": "Annie Glasgow is known here from the Ancestry Scotland, Burial Monument Inscriptions, 1507-2024 entry (commemorated person). The earlier catalogue link was withdrawn; identity held. Record attribution review, 15 November 2026: The monument records Annie dying in 1911 aged 27, implying birth about 1884. The comparison index explicitly records Ann born 11 November 1848. Those ages are incompatible without a material source error; the same-person attribution is unsupported. The incompatible entries are retained only as comparison records.",
+      "current_conclusion": "Annie Glasgow is known here from the Ancestry Scotland, Burial Monument Inscriptions, 1507-2024 entry (commemorated person). The earlier catalogue link was withdrawn; identity held. Record attribution review, 15 November 2026: The monument records Annie dying in 1911 aged 27, implying birth about 1884. The comparison index explicitly records Ann born 11 November 1848. Those ages are incompatible without a material source error; the same-person attribution is unsupported. The incompatible entries are retained only as comparison records.",
       "current_questions": [
         "Inspect the original register entry for fuller names, residences and relatives."
       ],
       "creation_status": "identity_hold",
-      "reviewed_at": "2026-11-04",
+      "reviewed_at": "2026-11-15",
       "candidates": [],
       "duplicate_audit": {
         "scope": "Corrected catalogue link (RF, 2026-11-04); the withdrawn profile is excluded in the research note",
         "candidates": [],
-        "conclusion": "identity_hold"
+        "conclusion": "identity_hold",
+        "record_attribution_review": {
+          "reviewed_on": "2026-11-15",
+          "record_ids": [
+            "ancestry-60143-12412092"
+          ],
+          "conclusion": "No same-person attribution",
+          "basis": "The monument records Annie dying in 1911 aged 27, implying birth about 1884. The comparison index explicitly records Ann born 11 November 1848. Those ages are incompatible without a material source error; the same-person attribution is unsupported."
+        }
       },
       "records": [
         {
@@ -162690,8 +162708,10 @@
           "filter_year": 1848,
           "record_location": "Barony,Lanark,Scotland",
           "association": "Ann Glasgow was christened on 11 Nov 1848 at Barony,Lanark,Scotland; parents John Glasgow and Jean.",
-          "note": "Consolidated onto this documentary person (SJ, 5 November 2026): no recorded conflict of dates, spouse, parents or place.",
-          "evidence": "Provider index entry"
+          "note": "Attribution review, 15 November 2026: The monument records Annie dying in 1911 aged 27, implying birth about 1884. The comparison index explicitly records Ann born 11 November 1848. Those ages are incompatible without a material source error; the same-person attribution is unsupported. The earlier compatible-same-person consolidation is superseded; retain this source only for comparison.",
+          "evidence": "Provider index entry",
+          "attribution_scope": "comparison",
+          "canonical_record_id": "ancestry-60143-12412092"
         }
       ]
     },
@@ -163388,19 +163408,28 @@
       "source_subject_url": "https://www.ancestry.co.uk/search/collections/62497/records/348011",
       "research_subject_url": "/people/record-ancestry-glasgow-98605ded7d74.html",
       "draft_path": "research/ancestry-glasgow-audit/drafts/scotland-burial-monument-inscriptions-62497.wiki",
-      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nJames Glasgow died in 1903 aged 62 and is commemorated at Kirknewton Churchyard, West Lothian, Scotland.<ref name=\"anc348011\">[https://www.ancestry.co.uk/search/collections/62497/records/348011 Ancestry, Scotland, Burial Monument Inscriptions, 1507-2024, James Glasgow, 1903, Kirknewton Churchyard, West Lothian, Scotland]. Ancestry index transcript inspected 2026-11-04; original images uninspected.</ref>\n\nJames Glasgow was christened on 10 Jan 1812 at Newton, Midlothian, Scotland; parents George Glasgow and Lillias. This entry is attributed to the same person as a consolidated, compatible record (child christened).<ref name=\"anc17131896\">[https://www.ancestry.co.uk/search/collections/60143/records/17131896 Ancestry, Scotland, Select Births and Baptisms, 1564-1950, James Glasgow, 10 Jan 1812, Newton, Midlothian, Scotland]. Index entry read 2026-11-05; original uninspected.</ref>\n\nJames Glasgow was christened on 10 Jan 1812 at Newton, Midlothian, Scotland; parents George Glasgow and Lillias. This entry is attributed to the same person as a consolidated, compatible record (child christened).<ref name=\"anc2894770\">[https://www.ancestry.co.uk/search/collections/60143/records/2894770 Ancestry, Scotland, Select Births and Baptisms, 1564-1950, James Glasgow, 10 Jan 1812, Newton, Midlothian, Scotland]. Index entry read 2026-11-05; original uninspected.</ref>\n\n== Research Notes ==\nIdentity review, 2026-11-04: Glasgow-3673 (James Glasgow, born about 1840 in Virginia) was removed: his recorded life is in the United States, and the same profile had also been linked to a different James buried at Coylton. This James is held as a new draft. Compare the Kirknewton Glasgow family. No catalogue person is preferred on the indexed facts, so this entry is held for identity review.\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
-      "assessment": "James Glasgow is known here from the Ancestry Scotland, Burial Monument Inscriptions, 1507-2024 entry (commemorated person). The earlier catalogue link was withdrawn; identity held.",
-      "current_conclusion": "James Glasgow is known here from the Ancestry Scotland, Burial Monument Inscriptions, 1507-2024 entry (commemorated person). The earlier catalogue link was withdrawn; identity held.",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nJames Glasgow died in 1903 aged 62 and is commemorated at Kirknewton Churchyard, West Lothian, Scotland.<ref name=\"anc348011\">[https://www.ancestry.co.uk/search/collections/62497/records/348011 Ancestry, Scotland, Burial Monument Inscriptions, 1507-2024, James Glasgow, 1903, Kirknewton Churchyard, West Lothian, Scotland]. Ancestry index transcript inspected 2026-11-04; original images uninspected.</ref>\n\n\n== Research Notes ==\n\n=== Record attribution review —15 November 2026 ===\nThe monument records James dying in 1903 aged 62, implying birth about 1841. The comparison entry records birth on 18 December 1811 and baptism on 10 January 1812, with parents George Glasgow and Lillias Henry. The duplicate baptism indexes describe the same event, not independent corroboration. The dates conflict with the reported death age. These entries are retained as unassigned comparisons, not personal life events. The primary subject’s wider profile identity and any existing family hypotheses remain separately qualified.\n\nAn unassigned comparison index records Name: James Glasgow; Birth Date: 18 Dec 1811; Baptism Date: 10 Jan 1812; Baptism Place: , Newton, Midlothian, Scotland; Father: George Glasgow; Mother: Lillias Henry.<ref name=\"anc17131896\">[https://www.ancestry.co.uk/search/collections/60143/records/17131896 Ancestry, Scotland, Select Births and Baptisms, 1564-1950, James Glasgow, 10 Jan 1812, Newton, Midlothian, Scotland]. Index entry read 2026-11-05; original uninspected.</ref> It is not attributed to the subject of this biography.\n\nAn unassigned comparison index records Name: James Glasgow; Baptism Date: 10 Jan 1812; Baptism Place: , Newton, Midlothian, Scotland; Father: George Glasgow; Mother: Lillias Henry.<ref name=\"anc2894770\">[https://www.ancestry.co.uk/search/collections/60143/records/2894770 Ancestry, Scotland, Select Births and Baptisms, 1564-1950, James Glasgow, 10 Jan 1812, Newton, Midlothian, Scotland]. Index entry read 2026-11-05; original uninspected.</ref> It is not attributed to the subject of this biography.\n\nIdentity review, 2026-11-04: Glasgow-3673 (James Glasgow, born about 1840 in Virginia) was removed: his recorded life is in the United States, and the same profile had also been linked to a different James buried at Coylton. This James is held as a new draft. Compare the Kirknewton Glasgow family. No catalogue person is preferred on the indexed facts, so this entry is held for identity review.\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
+      "assessment": "James Glasgow is known here from the Ancestry Scotland, Burial Monument Inscriptions, 1507-2024 entry (commemorated person). The earlier catalogue link was withdrawn; identity held. Record attribution review, 15 November 2026: The monument records James dying in 1903 aged 62, implying birth about 1841. The comparison entry records birth on 18 December 1811 and baptism on 10 January 1812, with parents George Glasgow and Lillias Henry. The duplicate baptism indexes describe the same event, not independent corroboration. The dates conflict with the reported death age. The incompatible entries are retained only as comparison records.",
+      "current_conclusion": "James Glasgow is known here from the Ancestry Scotland, Burial Monument Inscriptions, 1507-2024 entry (commemorated person). The earlier catalogue link was withdrawn; identity held. Record attribution review, 15 November 2026: The monument records James dying in 1903 aged 62, implying birth about 1841. The comparison entry records birth on 18 December 1811 and baptism on 10 January 1812, with parents George Glasgow and Lillias Henry. The duplicate baptism indexes describe the same event, not independent corroboration. The dates conflict with the reported death age. The incompatible entries are retained only as comparison records.",
       "current_questions": [
         "Inspect the original register entry for fuller names, residences and relatives."
       ],
       "creation_status": "identity_hold",
-      "reviewed_at": "2026-11-04",
+      "reviewed_at": "2026-11-15",
       "candidates": [],
       "duplicate_audit": {
         "scope": "Corrected catalogue link (RF, 2026-11-04); the withdrawn profile is excluded in the research note",
         "candidates": [],
-        "conclusion": "identity_hold"
+        "conclusion": "identity_hold",
+        "record_attribution_review": {
+          "reviewed_on": "2026-11-15",
+          "record_ids": [
+            "ancestry-60143-17131896",
+            "ancestry-60143-2894770"
+          ],
+          "conclusion": "No same-person attribution",
+          "basis": "The monument records James dying in 1903 aged 62, implying birth about 1841. The comparison entry records birth on 18 December 1811 and baptism on 10 January 1812, with parents George Glasgow and Lillias Henry. The duplicate baptism indexes describe the same event, not independent corroboration. The dates conflict with the reported death age."
+        }
       },
       "records": [
         {
@@ -163425,8 +163454,10 @@
           "filter_year": 1812,
           "record_location": "Newton, Midlothian, Scotland",
           "association": "James Glasgow was christened on 10 Jan 1812 at Newton, Midlothian, Scotland; parents George Glasgow and Lillias.",
-          "note": "Consolidated onto this documentary person (SJ, 5 November 2026): no recorded conflict of dates, spouse, parents or place.",
-          "evidence": "Provider index entry"
+          "note": "Attribution review, 15 November 2026: The monument records James dying in 1903 aged 62, implying birth about 1841. The comparison entry records birth on 18 December 1811 and baptism on 10 January 1812, with parents George Glasgow and Lillias Henry. The duplicate baptism indexes describe the same event, not independent corroboration. The dates conflict with the reported death age. The earlier compatible-same-person consolidation is superseded; retain this source only for comparison.",
+          "evidence": "Provider index entry",
+          "attribution_scope": "comparison",
+          "canonical_record_id": "ancestry-60143-17131896"
         },
         {
           "source_title": "Ancestry, Scotland, Select Births and Baptisms, 1564-1950: James Glasgow, 10 Jan 1812",
@@ -163437,8 +163468,10 @@
           "filter_year": 1812,
           "record_location": "Newton, Midlothian, Scotland",
           "association": "James Glasgow was christened on 10 Jan 1812 at Newton, Midlothian, Scotland; parents George Glasgow and Lillias.",
-          "note": "Consolidated onto this documentary person (SJ, 5 November 2026): no recorded conflict of dates, spouse, parents or place.",
-          "evidence": "Provider index entry"
+          "note": "Attribution review, 15 November 2026: The monument records James dying in 1903 aged 62, implying birth about 1841. The comparison entry records birth on 18 December 1811 and baptism on 10 January 1812, with parents George Glasgow and Lillias Henry. The duplicate baptism indexes describe the same event, not independent corroboration. The dates conflict with the reported death age. The earlier compatible-same-person consolidation is superseded; retain this source only for comparison.",
+          "evidence": "Provider index entry",
+          "attribution_scope": "comparison",
+          "canonical_record_id": "ancestry-60143-2894770"
         }
       ]
     },
@@ -181491,12 +181524,21 @@
       "research_subject_url": "/people/record-ancestry-glasgow-5fd1740ecf83.html",
       "draft_path": "research/ancestry-glasgow-audit/drafts/scotland-select-marriages-60144.wiki",
       "creation_status": "identity_hold",
-      "reviewed_at": "2026-11-05",
+      "reviewed_at": "2026-11-15",
       "candidates": [],
       "duplicate_audit": {
         "scope": "Integration audit (IA, 2026-11-05): corrected catalogue link; the withdrawn profile is excluded in the research note",
         "candidates": [],
-        "conclusion": "identity_hold"
+        "conclusion": "identity_hold",
+        "record_attribution_review": {
+          "reviewed_on": "2026-11-15",
+          "record_ids": [
+            "ancestry-60143-12255781",
+            "ancestry-60143-18684411"
+          ],
+          "conclusion": "No same-person attribution",
+          "basis": "The primary subject is the James who married Janet in September 1840. The comparison indexes explicitly record a child James born 2 June 1845 to James Glasgow and Janet Robertson, not merely an adult baptism in 1845. That child cannot be the 1840 groom; a possible father-and-son association is a separate untested identity question."
+        }
       },
       "records": [
         {
@@ -181534,8 +181576,10 @@
           "filter_year": 1845,
           "record_location": "Saint Cuthberts, Edinburgh, Midlothian, Scotland",
           "association": "James Glasgow was christened on 2 Jun 1845 at Saint Cuthberts, Edinburgh, Midlothian, Scotland; parents James Glasgow and Janet.",
-          "note": "Consolidated onto this documentary person (SJ, 5 November 2026): no recorded conflict of dates, spouse, parents or place.",
-          "evidence": "Provider index entry"
+          "note": "Attribution review, 15 November 2026: The primary subject is the James who married Janet in September 1840. The comparison indexes explicitly record a child James born 2 June 1845 to James Glasgow and Janet Robertson, not merely an adult baptism in 1845. That child cannot be the 1840 groom; a possible father-and-son association is a separate untested identity question. The earlier compatible-same-person consolidation is superseded; retain this source only for comparison.",
+          "evidence": "Provider index entry",
+          "attribution_scope": "comparison",
+          "canonical_record_id": "ancestry-60143-12255781"
         },
         {
           "source_title": "Ancestry, Scotland, Select Births and Baptisms, 1564-1950: James Glasgow, 2 Jun 1845",
@@ -181546,8 +181590,10 @@
           "filter_year": 1845,
           "record_location": "Saint Cuthberts, Edinburgh, Midlothian, Scotland",
           "association": "James Glasgow was christened on 2 Jun 1845 at Saint Cuthberts, Edinburgh, Midlothian, Scotland; parents James Glasgow and Janet.",
-          "note": "Consolidated onto this documentary person (SJ, 5 November 2026): no recorded conflict of dates, spouse, parents or place.",
-          "evidence": "Provider index entry"
+          "note": "Attribution review, 15 November 2026: The primary subject is the James who married Janet in September 1840. The comparison indexes explicitly record a child James born 2 June 1845 to James Glasgow and Janet Robertson, not merely an adult baptism in 1845. That child cannot be the 1840 groom; a possible father-and-son association is a separate untested identity question. The earlier compatible-same-person consolidation is superseded; retain this source only for comparison.",
+          "evidence": "Provider index entry",
+          "attribution_scope": "comparison",
+          "canonical_record_id": "ancestry-60143-18684411"
         }
       ],
       "historical_basis": {
@@ -181556,9 +181602,9 @@
         "basis_kind": "record",
         "explanation": "Marriage 4 Sep 1840"
       },
-      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nJames Glasgow married Janet on 4 Sep 1840 at Alloa, Clackmannan, Scotland.<ref name=\"anc1917855\">[https://www.ancestry.co.uk/search/collections/60144/records/1917855 Ancestry, Scotland, Select Marriages, 1561-1910, James Glasgow, 4 Sep 1840, Alloa, Clackmannan, Scotland]. Ancestry search-result row read 2026-11-04; original register uninspected.</ref>\n\nJames Glasgow married Janet on 4 Sep 1840 at Saint Cuthberts, Edinburgh, Midlothian, Scotland.<ref name=\"anc3692222\">[https://www.ancestry.co.uk/search/collections/60144/records/3692222 Ancestry, Scotland, Select Marriages, 1561-1910, James Glasgow, 4 Sep 1840, Saint Cuthberts, Edinburgh, Midlothian, Scotland]. Ancestry search-result row read 2026-11-04; original register uninspected.</ref>\n\nJames Glasgow was christened on 2 Jun 1845 at Saint Cuthberts, Edinburgh, Midlothian, Scotland; parents James Glasgow and Janet. This entry is attributed to the same person as a consolidated, compatible record (child christened).<ref name=\"anc12255781\">[https://www.ancestry.co.uk/search/collections/60143/records/12255781 Ancestry, Scotland, Select Births and Baptisms, 1564-1950, James Glasgow, 2 Jun 1845, Saint Cuthberts, Edinburgh, Midlothian, Scotland]. Index entry read 2026-11-05; original uninspected.</ref>\n\nJames Glasgow was christened on 2 Jun 1845 at Saint Cuthberts, Edinburgh, Midlothian, Scotland; parents James Glasgow and Janet. This entry is attributed to the same person as a consolidated, compatible record (child christened).<ref name=\"anc18684411\">[https://www.ancestry.co.uk/search/collections/60143/records/18684411 Ancestry, Scotland, Select Births and Baptisms, 1564-1950, James Glasgow, 2 Jun 1845, Saint Cuthberts, Edinburgh, Midlothian, Scotland]. Index entry read 2026-11-05; original uninspected.</ref>\n\n== Research Notes ==\nIdentity review, 2026-11-05: Glasgow-212 (James Robert Glasgow of Gortin, Cookstown, born 1823) was removed: the match rested on his wife Jane McGowan, who was born about 1837 and cannot be the Janet of this 1840 marriage, and he would have been 17. The groom is held as a new draft; the same marriage is indexed at Alloa and at St Cuthberts, Edinburgh. No catalogue person is preferred on the indexed facts, so this entry is held for identity review.\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
-      "assessment": "James Glasgow is known here from Ancestry index entries (2). The earlier catalogue link was withdrawn; identity held.",
-      "current_conclusion": "James Glasgow is known here from Ancestry index entries (2). The earlier catalogue link was withdrawn; identity held.",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nJames Glasgow married Janet on 4 Sep 1840 at Alloa, Clackmannan, Scotland.<ref name=\"anc1917855\">[https://www.ancestry.co.uk/search/collections/60144/records/1917855 Ancestry, Scotland, Select Marriages, 1561-1910, James Glasgow, 4 Sep 1840, Alloa, Clackmannan, Scotland]. Ancestry search-result row read 2026-11-04; original register uninspected.</ref>\n\nJames Glasgow married Janet on 4 Sep 1840 at Saint Cuthberts, Edinburgh, Midlothian, Scotland.<ref name=\"anc3692222\">[https://www.ancestry.co.uk/search/collections/60144/records/3692222 Ancestry, Scotland, Select Marriages, 1561-1910, James Glasgow, 4 Sep 1840, Saint Cuthberts, Edinburgh, Midlothian, Scotland]. Ancestry search-result row read 2026-11-04; original register uninspected.</ref>\n\n\n== Research Notes ==\n\n=== Record attribution review —15 November 2026 ===\nThe primary subject is the James who married Janet in September 1840. The comparison indexes explicitly record a child James born 2 June 1845 to James Glasgow and Janet Robertson, not merely an adult baptism in 1845. That child cannot be the 1840 groom; a possible father-and-son association is a separate untested identity question. These entries are retained as unassigned comparisons, not personal life events. The primary subject’s wider profile identity and any existing family hypotheses remain separately qualified.\n\nAn unassigned comparison index records Name: James Glasgow; Birth Date: 2 Jun 1845; Birth Place: Saint Cuthberts, Edinburgh, Midlothian, Scotland; Father: James Glasgow; Mother: Janet Robertson.<ref name=\"anc12255781\">[https://www.ancestry.co.uk/search/collections/60143/records/12255781 Ancestry, Scotland, Select Births and Baptisms, 1564-1950, James Glasgow, 2 Jun 1845, Saint Cuthberts, Edinburgh, Midlothian, Scotland]. Index entry read 2026-11-05; original uninspected.</ref> It is not attributed to the subject of this biography.\n\nAn unassigned comparison index records Name: James Glasgow; Birth Date: 2 Jun 1845; Birth Place: Saint Cuthberts, Edinburgh, Midlothian, Scotland; Baptism Place: Saint Cuthberts, Edinburgh, Midlothian, Scotland; Father: James Glasgow; Mother: Janet Robertson.<ref name=\"anc18684411\">[https://www.ancestry.co.uk/search/collections/60143/records/18684411 Ancestry, Scotland, Select Births and Baptisms, 1564-1950, James Glasgow, 2 Jun 1845, Saint Cuthberts, Edinburgh, Midlothian, Scotland]. Index entry read 2026-11-05; original uninspected.</ref> It is not attributed to the subject of this biography.\n\nIdentity review, 2026-11-05: Glasgow-212 (James Robert Glasgow of Gortin, Cookstown, born 1823) was removed: the match rested on his wife Jane McGowan, who was born about 1837 and cannot be the Janet of this 1840 marriage, and he would have been 17. The groom is held as a new draft; the same marriage is indexed at Alloa and at St Cuthberts, Edinburgh. No catalogue person is preferred on the indexed facts, so this entry is held for identity review.\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
+      "assessment": "James Glasgow is known here from Ancestry index entries (2). The earlier catalogue link was withdrawn; identity held. Record attribution review, 15 November 2026: The primary subject is the James who married Janet in September 1840. The comparison indexes explicitly record a child James born 2 June 1845 to James Glasgow and Janet Robertson, not merely an adult baptism in 1845. That child cannot be the 1840 groom; a possible father-and-son association is a separate untested identity question. The incompatible entries are retained only as comparison records.",
+      "current_conclusion": "James Glasgow is known here from Ancestry index entries (2). The earlier catalogue link was withdrawn; identity held. Record attribution review, 15 November 2026: The primary subject is the James who married Janet in September 1840. The comparison indexes explicitly record a child James born 2 June 1845 to James Glasgow and Janet Robertson, not merely an adult baptism in 1845. That child cannot be the 1840 groom; a possible father-and-son association is a separate untested identity question. The incompatible entries are retained only as comparison records.",
       "current_questions": [
         "Inspect the original register entry for fuller names, residences and relatives."
       ]
@@ -181642,12 +181688,20 @@
       "research_subject_url": "/people/record-ancestry-glasgow-36ab68d693b1.html",
       "draft_path": "research/ancestry-glasgow-audit/drafts/scotland-select-marriages-60144.wiki",
       "creation_status": "identity_hold",
-      "reviewed_at": "2026-11-05",
+      "reviewed_at": "2026-11-15",
       "candidates": [],
       "duplicate_audit": {
         "scope": "Integration audit (IA, 2026-11-05): corrected catalogue link; the withdrawn profile is excluded in the research note",
         "candidates": [],
-        "conclusion": "identity_hold"
+        "conclusion": "identity_hold",
+        "record_attribution_review": {
+          "reviewed_on": "2026-11-15",
+          "record_ids": [
+            "ancestry-60143-13963823"
+          ],
+          "conclusion": "No same-person attribution",
+          "basis": "The primary subject married in October 1875. The comparison baptism was in September 1740, at least 135 years earlier, and is already assigned in the held canonical review to Charles Glasgow-1515. It is not a supported life event of the 1875 groom."
+        }
       },
       "records": [
         {
@@ -181672,8 +181726,10 @@
           "filter_year": 1740,
           "record_location": "Kilbirnie,Ayr,Scotland",
           "association": "Charles Glasgow was christened on 28 Sep 1740 at Kilbirnie,Ayr,Scotland; parents Robert Glasgow and Margarat Allan.",
-          "note": "Consolidated onto this documentary person (SJ, 5 November 2026): no recorded conflict of dates, spouse, parents or place.",
-          "evidence": "Provider index entry"
+          "note": "Attribution review, 15 November 2026: The primary subject married in October 1875. The comparison baptism was in September 1740, at least 135 years earlier, and is already assigned in the held canonical review to Charles Glasgow-1515. It is not a supported life event of the 1875 groom. The earlier compatible-same-person consolidation is superseded; retain this source only for comparison.",
+          "evidence": "Provider index entry",
+          "attribution_scope": "comparison",
+          "canonical_record_id": "ancestry-60143-13963823"
         }
       ],
       "historical_basis": {
@@ -181682,9 +181738,9 @@
         "basis_kind": "record",
         "explanation": "Marriage 27 Oct 1875"
       },
-      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nCharles Glasgow married Mary Ann on 27 Oct 1875 at Edinburgh Parish, Edinburgh, Midlothian, Scotland.<ref name=\"anc3574319\">[https://www.ancestry.co.uk/search/collections/60144/records/3574319 Ancestry, Scotland, Select Marriages, 1561-1910, Charles Glasgow, 27 Oct 1875, Edinburgh Parish, Edinburgh, Midlothian, Scotland]. Ancestry search-result row read 2026-11-04; original register uninspected.</ref>\n\nCharles Glasgow was christened on 28 Sep 1740 at Kilbirnie,Ayr,Scotland; parents Robert Glasgow and Margarat Allan. This entry is attributed to the same person as a consolidated, compatible record (child christened).<ref name=\"anc13963823\">[https://www.ancestry.co.uk/search/collections/60143/records/13963823 Ancestry, Scotland, Select Births and Baptisms, 1564-1950, Charles Glasgow, 28 Sep 1740, Kilbirnie,Ayr,Scotland]. Index entry read 2026-11-05; original uninspected.</ref>\n\n== Research Notes ==\nIdentity review, 2026-11-05: Glasgow-3786 (Charles Francis McPherson Glasgow, born 1839 in England, died 1916 in Oregon) was removed: the match rested on his wife Mary Caroline Smith, who died in February 1874, before this 1875 marriage to Mary Ann, and nothing places him in Scotland. The groom is held as a new draft. No catalogue person is preferred on the indexed facts, so this entry is held for identity review.\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
-      "assessment": "Charles Glasgow is known here from Ancestry index entries (1). The earlier catalogue link was withdrawn; identity held.",
-      "current_conclusion": "Charles Glasgow is known here from Ancestry index entries (1). The earlier catalogue link was withdrawn; identity held.",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nCharles Glasgow married Mary Ann on 27 Oct 1875 at Edinburgh Parish, Edinburgh, Midlothian, Scotland.<ref name=\"anc3574319\">[https://www.ancestry.co.uk/search/collections/60144/records/3574319 Ancestry, Scotland, Select Marriages, 1561-1910, Charles Glasgow, 27 Oct 1875, Edinburgh Parish, Edinburgh, Midlothian, Scotland]. Ancestry search-result row read 2026-11-04; original register uninspected.</ref>\n\n\n== Research Notes ==\n\n=== Record attribution review —15 November 2026 ===\nThe primary subject married in October 1875. The comparison baptism was in September 1740, at least 135 years earlier, and is already assigned in the held canonical review to Charles Glasgow-1515. It is not a supported life event of the 1875 groom. These entries are retained as unassigned comparisons, not personal life events. The primary subject’s wider profile identity and any existing family hypotheses remain separately qualified.\n\nAn unassigned comparison index records Name: Charles Glasgow; Baptism Date: 28 Sep 1740; Baptism Place: Kilbirnie,Ayr,Scotland; Father: Robert Glasgow; Mother: Margarat Allan.<ref name=\"anc13963823\">[https://www.ancestry.co.uk/search/collections/60143/records/13963823 Ancestry, Scotland, Select Births and Baptisms, 1564-1950, Charles Glasgow, 28 Sep 1740, Kilbirnie,Ayr,Scotland]. Index entry read 2026-11-05; original uninspected.</ref> It is not attributed to the subject of this biography.\n\nIdentity review, 2026-11-05: Glasgow-3786 (Charles Francis McPherson Glasgow, born 1839 in England, died 1916 in Oregon) was removed: the match rested on his wife Mary Caroline Smith, who died in February 1874, before this 1875 marriage to Mary Ann, and nothing places him in Scotland. The groom is held as a new draft. No catalogue person is preferred on the indexed facts, so this entry is held for identity review.\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
+      "assessment": "Charles Glasgow is known here from Ancestry index entries (1). The earlier catalogue link was withdrawn; identity held. Record attribution review, 15 November 2026: The primary subject married in October 1875. The comparison baptism was in September 1740, at least 135 years earlier, and is already assigned in the held canonical review to Charles Glasgow-1515. It is not a supported life event of the 1875 groom. The incompatible entries are retained only as comparison records.",
+      "current_conclusion": "Charles Glasgow is known here from Ancestry index entries (1). The earlier catalogue link was withdrawn; identity held. Record attribution review, 15 November 2026: The primary subject married in October 1875. The comparison baptism was in September 1740, at least 135 years earlier, and is already assigned in the held canonical review to Charles Glasgow-1515. It is not a supported life event of the 1875 groom. The incompatible entries are retained only as comparison records.",
       "current_questions": [
         "Inspect the original register entry for fuller names, residences and relatives."
       ]
@@ -181711,12 +181767,20 @@
       "research_subject_url": "/people/record-ancestry-glasgow-c5bdb2f655e9.html",
       "draft_path": "research/ancestry-glasgow-audit/drafts/scotland-select-marriages-60144.wiki",
       "creation_status": "identity_hold",
-      "reviewed_at": "2026-11-05",
+      "reviewed_at": "2026-11-15",
       "candidates": [],
       "duplicate_audit": {
         "scope": "Integration audit (IA, 2026-11-05): corrected catalogue link; the withdrawn profile is excluded in the research note",
         "candidates": [],
-        "conclusion": "identity_hold"
+        "conclusion": "identity_hold",
+        "record_attribution_review": {
+          "reviewed_on": "2026-11-15",
+          "record_ids": [
+            "ancestry-60143-20497669"
+          ],
+          "conclusion": "No same-person attribution",
+          "basis": "The primary subject married in July 1814. The comparison index explicitly records Alexander born 30 September 1859 to Joseph Glasgow and Jane Aberdein, not merely a late adult baptism. That birth cannot belong to the 1814 groom."
+        }
       },
       "records": [
         {
@@ -181741,8 +181805,10 @@
           "filter_year": 1859,
           "record_location": "Montrose,Angus,Scotland",
           "association": "Alexander Glasgow was christened on 30 Sep 1859 at Montrose,Angus,Scotland; parents Joseph Glasgow and Jane.",
-          "note": "Consolidated onto this documentary person (SJ, 5 November 2026): no recorded conflict of dates, spouse, parents or place.",
-          "evidence": "Provider index entry"
+          "note": "Attribution review, 15 November 2026: The primary subject married in July 1814. The comparison index explicitly records Alexander born 30 September 1859 to Joseph Glasgow and Jane Aberdein, not merely a late adult baptism. That birth cannot belong to the 1814 groom. The earlier compatible-same-person consolidation is superseded; retain this source only for comparison.",
+          "evidence": "Provider index entry",
+          "attribution_scope": "comparison",
+          "canonical_record_id": "ancestry-60143-20497669"
         }
       ],
       "historical_basis": {
@@ -181751,9 +181817,9 @@
         "basis_kind": "record",
         "explanation": "Marriage 11 Jul 1814"
       },
-      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nAlexander Glasgow married Margt. on 11 Jul 1814 at Dundee, Angus, Scotland.<ref name=\"anc3784755\">[https://www.ancestry.co.uk/search/collections/60144/records/3784755 Ancestry, Scotland, Select Marriages, 1561-1910, Alexander Glasgow, 11 Jul 1814, Dundee, Angus, Scotland]. Ancestry search-result row read 2026-11-04; original register uninspected.</ref>\n\nAlexander Glasgow was christened on 30 Sep 1859 at Montrose,Angus,Scotland; parents Joseph Glasgow and Jane. This entry is attributed to the same person as a consolidated, compatible record (child christened).<ref name=\"anc20497669\">[https://www.ancestry.co.uk/search/collections/60143/records/20497669 Ancestry, Scotland, Select Births and Baptisms, 1564-1950, Alexander Glasgow, 30 Sep 1859, Montrose,Angus,Scotland]. Index entry read 2026-11-05; original uninspected.</ref>\n\n== Research Notes ==\nIdentity review, 2026-11-05: Glasgow-2824 (Alexander Glasgow of Wayne County, Ohio, died about 1865) was removed: the match rested on his wife Margaret Eve Markel, who was born in 1800 in Wayne County, Ohio, and would have been 14 at this Dundee marriage. The groom is held as a new draft. No catalogue person is preferred on the indexed facts, so this entry is held for identity review.\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
-      "assessment": "Alexander Glasgow is known here from Ancestry index entries (1). The earlier catalogue link was withdrawn; identity held.",
-      "current_conclusion": "Alexander Glasgow is known here from Ancestry index entries (1). The earlier catalogue link was withdrawn; identity held.",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nAlexander Glasgow married Margt. on 11 Jul 1814 at Dundee, Angus, Scotland.<ref name=\"anc3784755\">[https://www.ancestry.co.uk/search/collections/60144/records/3784755 Ancestry, Scotland, Select Marriages, 1561-1910, Alexander Glasgow, 11 Jul 1814, Dundee, Angus, Scotland]. Ancestry search-result row read 2026-11-04; original register uninspected.</ref>\n\n\n== Research Notes ==\n\n=== Record attribution review —15 November 2026 ===\nThe primary subject married in July 1814. The comparison index explicitly records Alexander born 30 September 1859 to Joseph Glasgow and Jane Aberdein, not merely a late adult baptism. That birth cannot belong to the 1814 groom. These entries are retained as unassigned comparisons, not personal life events. The primary subject’s wider profile identity and any existing family hypotheses remain separately qualified.\n\nAn unassigned comparison index records Name: Alexander Glasgow; Birth Date: 30 Sep 1859; Birth Place: Montrose,Angus,Scotland; Father: Joseph Glasgow; Mother: Jane Aberdein.<ref name=\"anc20497669\">[https://www.ancestry.co.uk/search/collections/60143/records/20497669 Ancestry, Scotland, Select Births and Baptisms, 1564-1950, Alexander Glasgow, 30 Sep 1859, Montrose,Angus,Scotland]. Index entry read 2026-11-05; original uninspected.</ref> It is not attributed to the subject of this biography.\n\nIdentity review, 2026-11-05: Glasgow-2824 (Alexander Glasgow of Wayne County, Ohio, died about 1865) was removed: the match rested on his wife Margaret Eve Markel, who was born in 1800 in Wayne County, Ohio, and would have been 14 at this Dundee marriage. The groom is held as a new draft. No catalogue person is preferred on the indexed facts, so this entry is held for identity review.\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
+      "assessment": "Alexander Glasgow is known here from Ancestry index entries (1). The earlier catalogue link was withdrawn; identity held. Record attribution review, 15 November 2026: The primary subject married in July 1814. The comparison index explicitly records Alexander born 30 September 1859 to Joseph Glasgow and Jane Aberdein, not merely a late adult baptism. That birth cannot belong to the 1814 groom. The incompatible entries are retained only as comparison records.",
+      "current_conclusion": "Alexander Glasgow is known here from Ancestry index entries (1). The earlier catalogue link was withdrawn; identity held. Record attribution review, 15 November 2026: The primary subject married in July 1814. The comparison index explicitly records Alexander born 30 September 1859 to Joseph Glasgow and Jane Aberdein, not merely a late adult baptism. That birth cannot belong to the 1814 groom. The incompatible entries are retained only as comparison records.",
       "current_questions": [
         "Inspect the original register entry for fuller names, residences and relatives."
       ]
@@ -181850,12 +181916,20 @@
       "research_subject_url": "/people/record-ancestry-glasgow-a62ea2fa462e.html",
       "draft_path": "research/ancestry-glasgow-audit/drafts/scotland-select-marriages-60144.wiki",
       "creation_status": "identity_hold",
-      "reviewed_at": "2026-11-05",
+      "reviewed_at": "2026-11-15",
       "candidates": [],
       "duplicate_audit": {
         "scope": "Integration audit (IA, 2026-11-05): corrected catalogue link; the withdrawn profile is excluded in the research note",
         "candidates": [],
-        "conclusion": "identity_hold"
+        "conclusion": "identity_hold",
+        "record_attribution_review": {
+          "reviewed_on": "2026-11-15",
+          "record_ids": [
+            "ancestry-60143-9215419"
+          ],
+          "conclusion": "No same-person attribution",
+          "basis": "The primary subject married in February 1832 and the marriage names her father George. The comparison index explicitly records Lillias born 4 April 1866 to George Glasgow and Jane Forrest. That birth cannot belong to the 1832 bride; the common father given name does not identify the two women."
+        }
       },
       "records": [
         {
@@ -181880,8 +181954,10 @@
           "filter_year": 1866,
           "record_location": "Anderston,Glasgow,Lanark,Scotland",
           "association": "Lillias Glasgow was christened on 4 Apr 1866 at Anderston,Glasgow,Lanark,Scotland; parents George Glasgow and Jane.",
-          "note": "Consolidated onto this documentary person (SJ, 5 November 2026): no recorded conflict of dates, spouse, parents or place.",
-          "evidence": "Provider index entry"
+          "note": "Attribution review, 15 November 2026: The primary subject married in February 1832 and the marriage names her father George. The comparison index explicitly records Lillias born 4 April 1866 to George Glasgow and Jane Forrest. That birth cannot belong to the 1832 bride; the common father given name does not identify the two women. The earlier compatible-same-person consolidation is superseded; retain this source only for comparison.",
+          "evidence": "Provider index entry",
+          "attribution_scope": "comparison",
+          "canonical_record_id": "ancestry-60143-9215419"
         }
       ],
       "historical_basis": {
@@ -181890,9 +181966,9 @@
         "basis_kind": "record",
         "explanation": "Marriage 2 Feb 1832"
       },
-      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nLillias Glasgow married Alexander on 2 Feb 1832 at Saint Cuthberts, Edinburgh, Midlothian, Scotland; father George Glasgow.<ref name=\"anc1665921\">[https://www.ancestry.co.uk/search/collections/60144/records/1665921 Ancestry, Scotland, Select Marriages, 1561-1910, Lillias Glasgow, 2 Feb 1832, Saint Cuthberts, Edinburgh, Midlothian, Scotland]. Ancestry search-result row read 2026-11-04; original register uninspected.</ref>\n\nLillias Glasgow was christened on 4 Apr 1866 at Anderston,Glasgow,Lanark,Scotland; parents George Glasgow and Jane. This entry is attributed to the same person as a consolidated, compatible record (child christened).<ref name=\"anc9215419\">[https://www.ancestry.co.uk/search/collections/60143/records/9215419 Ancestry, Scotland, Select Births and Baptisms, 1564-1950, Lillias Glasgow, 4 Apr 1866, Anderston,Glasgow,Lanark,Scotland]. Index entry read 2026-11-05; original uninspected.</ref>\n\n== Research Notes ==\nIdentity review, 2026-11-05: Glasgow-3644 (Lillias Glasgow, born 1777, died 1858 at Newton) was removed: she would have been about 55 at this marriage, and her dates match Lilias (Robertson) Glasgow (Robertson-20324), wife of George Glasgow (Glasgow-1529) of Newton, born about 1777. The bride is held as a new draft, possibly their daughter; the father George is linked as a possible identity to Glasgow-1529. Possibly a daughter of George Glasgow (Glasgow-1529) and Lilias Robertson (Robertson-20324) of Newton; not tested. No catalogue person is preferred on the indexed facts, so this entry is held for identity review.\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
-      "assessment": "Lillias Glasgow is known here from Ancestry index entries (1). The earlier catalogue link was withdrawn; identity held.",
-      "current_conclusion": "Lillias Glasgow is known here from Ancestry index entries (1). The earlier catalogue link was withdrawn; identity held.",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nLillias Glasgow married Alexander on 2 Feb 1832 at Saint Cuthberts, Edinburgh, Midlothian, Scotland; father George Glasgow.<ref name=\"anc1665921\">[https://www.ancestry.co.uk/search/collections/60144/records/1665921 Ancestry, Scotland, Select Marriages, 1561-1910, Lillias Glasgow, 2 Feb 1832, Saint Cuthberts, Edinburgh, Midlothian, Scotland]. Ancestry search-result row read 2026-11-04; original register uninspected.</ref>\n\n\n== Research Notes ==\n\n=== Record attribution review —15 November 2026 ===\nThe primary subject married in February 1832 and the marriage names her father George. The comparison index explicitly records Lillias born 4 April 1866 to George Glasgow and Jane Forrest. That birth cannot belong to the 1832 bride; the common father given name does not identify the two women. These entries are retained as unassigned comparisons, not personal life events. The primary subject’s wider profile identity and any existing family hypotheses remain separately qualified.\n\nAn unassigned comparison index records Name: Lillias Glasgow; Birth Date: 4 Apr 1866; Birth Place: Anderston,Glasgow,Lanark,Scotland; Father: George Glasgow; Mother: Jane Forrest.<ref name=\"anc9215419\">[https://www.ancestry.co.uk/search/collections/60143/records/9215419 Ancestry, Scotland, Select Births and Baptisms, 1564-1950, Lillias Glasgow, 4 Apr 1866, Anderston,Glasgow,Lanark,Scotland]. Index entry read 2026-11-05; original uninspected.</ref> It is not attributed to the subject of this biography.\n\nIdentity review, 2026-11-05: Glasgow-3644 (Lillias Glasgow, born 1777, died 1858 at Newton) was removed: she would have been about 55 at this marriage, and her dates match Lilias (Robertson) Glasgow (Robertson-20324), wife of George Glasgow (Glasgow-1529) of Newton, born about 1777. The bride is held as a new draft, possibly their daughter; the father George is linked as a possible identity to Glasgow-1529. Possibly a daughter of George Glasgow (Glasgow-1529) and Lilias Robertson (Robertson-20324) of Newton; not tested. No catalogue person is preferred on the indexed facts, so this entry is held for identity review.\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
+      "assessment": "Lillias Glasgow is known here from Ancestry index entries (1). The earlier catalogue link was withdrawn; identity held. Record attribution review, 15 November 2026: The primary subject married in February 1832 and the marriage names her father George. The comparison index explicitly records Lillias born 4 April 1866 to George Glasgow and Jane Forrest. That birth cannot belong to the 1832 bride; the common father given name does not identify the two women. The incompatible entries are retained only as comparison records.",
+      "current_conclusion": "Lillias Glasgow is known here from Ancestry index entries (1). The earlier catalogue link was withdrawn; identity held. Record attribution review, 15 November 2026: The primary subject married in February 1832 and the marriage names her father George. The comparison index explicitly records Lillias born 4 April 1866 to George Glasgow and Jane Forrest. That birth cannot belong to the 1832 bride; the common father given name does not identify the two women. The incompatible entries are retained only as comparison records.",
       "current_questions": [
         "Inspect the original register entry for fuller names, residences and relatives."
       ]

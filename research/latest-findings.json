@@ -85483,6 +85483,122 @@
         "ancestry-2193-1156784",
         "ancestry-2193-1143034"
       ]
+    },
+    {
+      "id": "local-queue-record-scope-corrections-20261115",
+      "found_on": "2026-11-15",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "Seven Scottish draft biographies contained unsupported same-person consolidations. Nine baptism index entries are retained as cited comparisons and removed from those subjects’ life events: four record births after the subject’s marriage or death; two conflict with monument ages; one predates the marriage by 135 years.",
+      "significance": "Corrects seven research accounts and their source and location attributions. The primary people remain separate research items; this does not close their outstanding identity questions.",
+      "qualification": "Local held indexed fields only; original images were not newly inspected. Comparison records remain recoverable and cited. Existing family hypotheses and live WikiTree profiles are unchanged.",
+      "detail_url": "/people/record-ancestry-glasgow-bb7cb63f9cc1.html#research-tools",
+      "people": [
+        {
+          "id": "record-ancestry-glasgow-bb7cb63f9cc1",
+          "name": "George Glasgow",
+          "url": "/people/record-ancestry-glasgow-bb7cb63f9cc1.html",
+          "role": "Primary subject; incompatible comparison records withdrawn"
+        },
+        {
+          "id": "record-ancestry-glasgow-c893b177e7e3",
+          "name": "Annie Glasgow",
+          "url": "/people/record-ancestry-glasgow-c893b177e7e3.html",
+          "role": "Primary subject; incompatible comparison records withdrawn"
+        },
+        {
+          "id": "record-ancestry-glasgow-98605ded7d74",
+          "name": "James Glasgow",
+          "url": "/people/record-ancestry-glasgow-98605ded7d74.html",
+          "role": "Primary subject; incompatible comparison records withdrawn"
+        },
+        {
+          "id": "record-ancestry-glasgow-5fd1740ecf83",
+          "name": "James Glasgow",
+          "url": "/people/record-ancestry-glasgow-5fd1740ecf83.html",
+          "role": "Primary subject; incompatible comparison records withdrawn"
+        },
+        {
+          "id": "record-ancestry-glasgow-36ab68d693b1",
+          "name": "Charles Glasgow",
+          "url": "/people/record-ancestry-glasgow-36ab68d693b1.html",
+          "role": "Primary subject; incompatible comparison records withdrawn"
+        },
+        {
+          "id": "record-ancestry-glasgow-c5bdb2f655e9",
+          "name": "Alexander Glasgow",
+          "url": "/people/record-ancestry-glasgow-c5bdb2f655e9.html",
+          "role": "Primary subject; incompatible comparison records withdrawn"
+        },
+        {
+          "id": "record-ancestry-glasgow-a62ea2fa462e",
+          "name": "Lillias Glasgow",
+          "url": "/people/record-ancestry-glasgow-a62ea2fa462e.html",
+          "role": "Primary subject; incompatible comparison records withdrawn"
+        }
+      ],
+      "sources": [
+        {
+          "title": "ancestry-60143-9625912 — held Scottish baptism index",
+          "record_id": "ancestry-60143-9625912",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/9625912"
+        },
+        {
+          "title": "ancestry-60143-12412092 — held Scottish baptism index",
+          "record_id": "ancestry-60143-12412092",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/12412092"
+        },
+        {
+          "title": "ancestry-60143-17131896 — held Scottish baptism index",
+          "record_id": "ancestry-60143-17131896",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/17131896"
+        },
+        {
+          "title": "ancestry-60143-2894770 — held Scottish baptism index",
+          "record_id": "ancestry-60143-2894770",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/2894770"
+        },
+        {
+          "title": "ancestry-60143-12255781 — held Scottish baptism index",
+          "record_id": "ancestry-60143-12255781",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/12255781"
+        },
+        {
+          "title": "ancestry-60143-18684411 — held Scottish baptism index",
+          "record_id": "ancestry-60143-18684411",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/18684411"
+        },
+        {
+          "title": "ancestry-60143-13963823 — held Scottish baptism index",
+          "record_id": "ancestry-60143-13963823",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/13963823"
+        },
+        {
+          "title": "ancestry-60143-20497669 — held Scottish baptism index",
+          "record_id": "ancestry-60143-20497669",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/20497669"
+        },
+        {
+          "title": "ancestry-60143-9215419 — held Scottish baptism index",
+          "record_id": "ancestry-60143-9215419",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/9215419"
+        }
+      ],
+      "source_ids": [
+        "ancestry-60143-9625912",
+        "ancestry-60143-12412092",
+        "ancestry-60143-17131896",
+        "ancestry-60143-2894770",
+        "ancestry-60143-12255781",
+        "ancestry-60143-18684411",
+        "ancestry-60143-13963823",
+        "ancestry-60143-20497669",
+        "ancestry-60143-9215419"
+      ],
+      "provenance": [
+        "research/queue-review-2026-10-17/catalogue-integration.json",
+        "research/canonical_records.json"
+      ]
     }
   ]
 }

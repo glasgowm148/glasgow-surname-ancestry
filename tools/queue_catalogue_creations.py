@@ -232,6 +232,11 @@ def reviewed_people(root=ROOT, catalogue_ids=None, *, merge_state=None):
         records = entry.get("records") or []
         if not records:
             raise ValueError(f"{slug}: reviewed source records required")
+        if any(record.get("attribution_scope","subject") not in {"subject","comparison"} for record in records):
+            raise ValueError(f"{slug}: unsupported record attribution scope")
+        subject_records=[record for record in records if record.get("attribution_scope")!="comparison"]
+        if not subject_records:
+            raise ValueError(f"{slug}: a comparison is not a subject-defining record")
         for record in records:
             if not record.get("source_title") or not catalogue._is_external_public_url(record.get("source_url", "")):
                 raise ValueError(f"{slug}: every record needs a public source citation")
@@ -243,7 +248,7 @@ def reviewed_people(root=ROOT, catalogue_ids=None, *, merge_state=None):
         if status not in {"creation_ready", "hold_source_verification", "identity_hold"}:
             raise ValueError(f"{slug}: unsupported creation status {status}")
         historical = " ".join(str(entry.get(key) or "") for key in ("birth", "death"))
-        historical += " " + " ".join(str(r.get("year") or "") for r in records)
+        historical += " " + " ".join(str(r.get("year") or "") for r in subject_records)
         basis = entry.get("historical_basis") or {}
         latest_birth = basis.get("latest_birth_year")
         age_proven = (isinstance(latest_birth, int) and latest_birth < date.today().year - 120
@@ -259,6 +264,8 @@ def reviewed_records(root=ROOT, catalogue_ids=None):
     rows = []
     for entry in reviewed_people(root, catalogue_ids):
         for source in entry["records"]:
+            if source.get("attribution_scope")=="comparison":
+                continue
             row = deepcopy(source)
             # The catalogue's canonical supplement convention is record-<id>.
             row.update(person=entry["name"], profile_id="",
@@ -303,6 +310,8 @@ def decorate_person(person, entry):
                   creation_relationship_changes=[normalise_change(change, entry["catalogue_id"])
                                                  for change in entry.get("relationship_changes", [])])
     person["creation_relationship_changes"] = [c for c in person["creation_relationship_changes"] if c]
+    person["record_comparisons"] = [deepcopy(record) for record in entry["records"]
+                                    if record.get("attribution_scope")=="comparison"]
     for key in ("first_names", "last_names_at_birth", "last_names_current"):
         person[key] = deepcopy(entry[key])
     for key in ("gender", "birth", "birth_note", "birth_location", "birth_location_note", "death", "death_location"):
