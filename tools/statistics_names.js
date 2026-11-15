@@ -148,6 +148,26 @@
       paths.push(path);
       chart.append(path);
     });
+    let labelAngle = 0;
+    slices.forEach(([name, count], i) => {
+      const span = count / total * 360;
+      const middle = labelAngle + span / 2;
+      labelAngle += span;
+      // Reserve enough arc length for the full name; smaller slices keep tooltips.
+      if (span < 12 || 142 * span * Math.PI / 180 < name.length * 6.3 + 10) return;
+      const [x, y] = point(142, middle);
+      const label = svgElement('text', {x, y, class: 'statistics-pie-slice-label',
+        transform: 'rotate(' + (middle > 90 && middle < 270 ? middle + 180 : middle) + ' ' + x + ' ' + y + ')',
+        'aria-hidden': 'true'});
+      const rgb = colors[i].slice(1).match(/../g).map(value => {
+        const channel = parseInt(value, 16) / 255;
+        return channel <= 0.04045 ? channel / 12.92 : Math.pow((channel + 0.055) / 1.055, 2.4);
+      });
+      const luminance = rgb[0] * 0.2126 + rgb[1] * 0.7152 + rgb[2] * 0.0722;
+      label.setAttribute('fill', luminance > 0.24 ? '#20301c' : '#ffffff');
+      label.textContent = name;
+      chart.append(label);
+    });
     chart.append(centerCount, centerLabel);
     pie.append(chart, tooltip);
     names.forEach(([name, count], i) => {

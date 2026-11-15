@@ -36,3 +36,5 @@
 .statistics-name-filters button:focus-visible{outline:3px solid #b17a43;outline-offset:3px}
 
 .statistics-name-filters .statistics-name-inference{display:flex;align-items:center;align-self:end;gap:8px;max-width:250px;min-height:42px;font-weight:400;line-height:1.4;text-align:left}.statistics-name-inference input{accent-color:#375840;width:17px;height:17px;flex:none}
+
+.statistics-pie-slice-label{font:600 12px var(--g-sans);text-anchor:middle;dominant-baseline:central;pointer-events:none;letter-spacing:.01em}

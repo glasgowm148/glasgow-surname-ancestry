@@ -162,8 +162,8 @@ def repair():
         target = WEB / 'assets/repair' / f'statistics-names.{extension}'
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_text(source.read_text(encoding='utf-8'), encoding='utf-8')
-    shell = shell.replace('</head>', '<link rel="stylesheet" href="/assets/repair/statistics-names.css?v=4"></head>', 1)
-    shell = shell.replace('</body>', '<script src="/assets/repair/statistics-names.js?v=4" defer></script></body>', 1)
+    shell = shell.replace('</head>', '<link rel="stylesheet" href="/assets/repair/statistics-names.css?v=5"></head>', 1)
+    shell = shell.replace('</body>', '<script src="/assets/repair/statistics-names.js?v=5" defer></script></body>', 1)
     output = WEB / 'statistics/index.html'
     output.parent.mkdir(parents=True, exist_ok=True)
     before = output.read_text(encoding='utf-8') if output.exists() else None
