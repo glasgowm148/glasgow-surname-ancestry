@@ -85599,6 +85599,75 @@
         "research/queue-review-2026-10-17/catalogue-integration.json",
         "research/canonical_records.json"
       ]
+    },
+    {
+      "id": "local-queue-habergham-baptism-identities-20261115",
+      "found_on": "2026-11-15",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "The held Edwin and George Alexander Glasgow baptism entries are probably Glasgow-1000 and Glasgow-1002. Exact birth dates and compatible baptism places, father and mother names support the existing identities. Their duplicate creation recommendations are retired, propagating the held 5 November audit.",
+      "qualification": "Uses held index fields and captured profiles only; no fresh original inspection. The indexed mother Margaret remains compatible with Eleanor Margaret Thexton, without a new family assessment. Habergham Eaves is a baptism place and does not replace George Alexander’s Kendal birthplace. Probable identity is retained.",
+      "significance": "Resolves two stale creation worklist items and withdraws sixteen superseded native record attributions, including the Ontario mother assignment; no live WikiTree edit.",
+      "detail_url": "/people/glasgow-1000.html#research-findings",
+      "people": [
+        {
+          "id": "Glasgow-1000",
+          "name": "Edwin Glasgow",
+          "url": "/people/glasgow-1000.html",
+          "role": "Probable baptism subject; duplicate creation suggestion retired"
+        },
+        {
+          "id": "Glasgow-1002",
+          "name": "George Alexander Glasgow",
+          "url": "/people/glasgow-1002.html",
+          "role": "Probable baptism subject; duplicate creation suggestion retired"
+        }
+      ],
+      "sources": [
+        {
+          "title": "ancestry-1351-1131452 — held baptism index",
+          "url": "https://www.ancestry.co.uk/search/collections/1351/records/1131452",
+          "record_id": "ancestry-1351-1131452"
+        },
+        {
+          "title": "ancestry-9841-161746683 — held baptism index",
+          "url": "https://www.ancestry.co.uk/search/collections/9841/records/161746683",
+          "record_id": "ancestry-9841-161746683"
+        },
+        {
+          "title": "ancestry-9841-175811693 — held baptism index",
+          "url": "https://www.ancestry.co.uk/search/collections/9841/records/175811693",
+          "record_id": "ancestry-9841-175811693"
+        },
+        {
+          "title": "ancestry-1351-1131794 — held baptism index",
+          "url": "https://www.ancestry.co.uk/search/collections/1351/records/1131794",
+          "record_id": "ancestry-1351-1131794"
+        },
+        {
+          "title": "ancestry-9841-143129024 — held baptism index",
+          "url": "https://www.ancestry.co.uk/search/collections/9841/records/143129024",
+          "record_id": "ancestry-9841-143129024"
+        },
+        {
+          "title": "ancestry-9841-175811777 — held baptism index",
+          "url": "https://www.ancestry.co.uk/search/collections/9841/records/175811777",
+          "record_id": "ancestry-9841-175811777"
+        }
+      ],
+      "source_ids": [
+        "ancestry-1351-1131452",
+        "ancestry-9841-161746683",
+        "ancestry-9841-175811693",
+        "ancestry-1351-1131794",
+        "ancestry-9841-143129024",
+        "ancestry-9841-175811777"
+      ],
+      "provenance": [
+        "research/Glasgow-1000/findings.md",
+        "research/Glasgow-1002/findings.md",
+        "research/canonical_records.json"
+      ]
     }
   ]
 }

@@ -64873,14 +64873,30 @@
       ],
       "reviewed_on": "2026-11-15",
       "assessment": "Margret/Margaret Jane, exact death 19 October 1869 in Belfast, death age five, father Samuel Glasgow. Existing Glasgow-2531 has the same exact death and a held citation explicitly transcribing the identical newspaper record facts. Record omits the mother. Prior rejection cited Dunseeth-1 and Glasgow-1399 but did not assess Glasgow-2531. No contradictory date/age/father/place found."
+    },
+    "update-record-ancestry-glasgow-2ce0a105489c": {
+      "status": "matched",
+      "profile_ids": [
+        "Glasgow-1000"
+      ],
+      "reviewed_on": "2026-11-15",
+      "assessment": "Probable identity retained. Exact birth 28 May 1872, same Edwin Glasgow, Habergham Eaves, father George. Canonical records explicitly record the 5 November integration audit withdrawing this draft and associating it with Glasgow-1000. Earlier automated rejection treated record mother Margaret as conflicting with Eleanor Margaret Thexton; held integration audit explicitly resolves that familiar/second given-name issue. No new mother decision needed; preserve probable assessment."
+    },
+    "update-record-ancestry-glasgow-ad0c2c05e05b": {
+      "status": "matched",
+      "profile_ids": [
+        "Glasgow-1002"
+      ],
+      "reviewed_on": "2026-11-15",
+      "assessment": "Probable identity retained. Exact birth 4 February 1874, full George Alexander name and father George. The 3 June 1874 Habergham Eaves baptism is compatible with a Kendal birthplace. Canonical records explicitly record the 5 November withdrawal and association with Glasgow-1002. Habergham Eaves is baptism place, not necessarily birthplace; existing Kendal birthplace must not be overwritten. Earlier mother Margaret/Eleanor Margaret mismatch was already resolved in the held integration audit. Preserve probable assessment."
     }
   },
   "summary": {
     "already_linked": 272,
     "research_question": 18,
-    "compatible_candidate": 220,
-    "superseded": 21,
-    "matched": 11,
+    "compatible_candidate": 219,
+    "superseded": 22,
+    "matched": 16,
     "no_compatible_profile": 33,
     "partly_matched": 17,
     "unnamed_record": 8,
