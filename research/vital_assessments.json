@@ -3532,6 +3532,35 @@
         "birth_note": "Alexander Glasgow is indexed as marrying a spouse not indexed on 23 July 1720 at Mid Calder, Midlothian, Scotland. Birth before 1721 is a conservative record-derived upper bound from that existing dated appearance, not a birth year or an age estimate. No exact birth date or birthplace is established. No age at marriage or baptism is assumed. No new record inspection, identity merge, parent assessment or relationship change. This bound is conditional on the current attribution of the held 1720 marriage-index entry to this documentary account."
       },
       "project_tree_vitals": true
+    },
+    {
+      "schema_version": 3,
+      "id": "glasgow-3110-flixton-burial-vitals-20261115",
+      "subject": "Glasgow-3110",
+      "status": "approved",
+      "reviewed": "2026-11-15",
+      "scope": "vitals",
+      "basis": "FamilySearch burial index FMBY-3L9 freshly checked and attached by root to record-defined subject PJZS-DJR on 15 November 2026; burial 1 October 1704 at Flixton, recorded age 59. Birth about 1645 is calculated from the index age. Register image not re-inspected in this task.",
+      "source": {
+        "url": "https://www.familysearch.org/ark:/61903/1:1:FMBY-3L9",
+        "section": "Burial 1 October 1704, Flixton, Lancashire; age 59"
+      },
+      "summary": "A Glasgow with no established given name or sex was buried at St Michael, Flixton, on 1 October 1704, aged 59. Birth about 1645 is calculated from that age, with no birthplace established. FamilySearch’s newly entered death boundary before 1705 is explicitly conservative: it records death by the 1704 burial, not an exact death year. The existing local death fields are not reassessed by this birth-only entry.",
+      "vitals": {
+        "birth": {
+          "date": "c. 1645",
+          "place": null,
+          "status": "estimated",
+          "label": "Calculated from burial age",
+          "note": "Age 59 at burial on 1 October 1704 implies birth about 1644–1645 if the age is accurate; c. 1645 is approximate, not a recorded birth year. Birthplace is not supplied.",
+          "source_url": "https://www.familysearch.org/ark:/61903/1:1:FMBY-3L9"
+        }
+      },
+      "question": "Can the parish register establish a given name, sex, exact birth or death date, or birthplace? None is inferred from the surname alone.",
+      "catalogue_projection": {
+        "birth": "c. 1645",
+        "birth_note": "Estimated from the recorded age 59 at burial on 1 October 1704; no exact birth date or birthplace established."
+      }
     }
   ]
 }
