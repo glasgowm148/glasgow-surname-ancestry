@@ -64889,14 +64889,40 @@
       ],
       "reviewed_on": "2026-11-15",
       "assessment": "Probable identity retained. Exact birth 4 February 1874, full George Alexander name and father George. The 3 June 1874 Habergham Eaves baptism is compatible with a Kendal birthplace. Canonical records explicitly record the 5 November withdrawal and association with Glasgow-1002. Habergham Eaves is baptism place, not necessarily birthplace; existing Kendal birthplace must not be overwritten. Earlier mother Margaret/Eleanor Margaret mismatch was already resolved in the held integration audit. Preserve probable assessment."
+    },
+    "update-record-ancestry-glasgow-8a037bd10a8d": {
+      "status": "matched",
+      "profile_ids": [
+        "Glasgow-562"
+      ],
+      "reviewed_on": "2026-11-15",
+      "assessment": "Probable record identity retained. Both draft events repeat George Glasgow christened 27 February1848 at Kendal, father William Brown Glasgow and mother Dinah. Existing562 already cites the1848 Kendal baptism naming the same parents (held-e-c25049378b58); canonical5November notes explicitly withdraw this draft in favour of562. This is a child baptism, not a groom event. Transcript birth14December1847 versus current562 birth1848 must remain explicit; no vital overwrite. Existing wife Eleanor Margaret Thexton35 and their1872/1874 Habergham Eaves children belong to562; no new marriage or parent certainty follows. Same underlying indexed event; companion indexes are not independent corroboration."
+    },
+    "update-record-ancestry-glasgow-e942bcec6bb7": {
+      "status": "superseded",
+      "profile_ids": [],
+      "reviewed_on": "2026-11-15",
+      "assessment": "Duplicate documentary father account consolidated into record-ancestry-glasgow-be2339f5f3b7. Existing WikiTree identity remains on hold. Exact same Great Amwell marriage: groom George Frederick Glasgow,28, to Catherine Simmonds,26July1884, father George Frederick Glasgow. The two draft entries are solely parent-role projections of the1884 Great Amwell marriage; the retained target explicitly contains their identical provider entries and six companion references. No other event/person scope appears in any of these three father biographies. Canonical5November notes explicitly consolidate this source draft into the retained father account.",
+      "canonical_groups": [
+        "record-ancestry-glasgow-be2339f5f3b7"
+      ]
+    },
+    "update-record-ancestry-glasgow-69fc79242c9a": {
+      "status": "superseded",
+      "profile_ids": [],
+      "reviewed_on": "2026-11-15",
+      "assessment": "Duplicate documentary father account consolidated into record-ancestry-glasgow-be2339f5f3b7. Existing WikiTree identity remains on hold. Exact same Great Amwell marriage: groom George Frederick Glasgow,28, to Catherine Simmonds,26July1884, father George Frederick Glasgow. The two draft entries are solely parent-role projections of the1884 Great Amwell marriage; the retained target explicitly contains their identical provider entries and six companion references. No other event/person scope appears in any of these three father biographies. Canonical5November notes explicitly consolidate this source draft into the retained father account.",
+      "canonical_groups": [
+        "record-ancestry-glasgow-be2339f5f3b7"
+      ]
     }
   },
   "summary": {
     "already_linked": 272,
     "research_question": 18,
     "compatible_candidate": 219,
-    "superseded": 22,
-    "matched": 16,
+    "superseded": 24,
+    "matched": 17,
     "no_compatible_profile": 33,
     "partly_matched": 17,
     "unnamed_record": 8,

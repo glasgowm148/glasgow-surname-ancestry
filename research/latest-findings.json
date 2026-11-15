@@ -85668,6 +85668,106 @@
         "research/Glasgow-1002/findings.md",
         "research/canonical_records.json"
       ]
+    },
+    {
+      "id": "local-queue-kendal-amwell-duplicates-20261115",
+      "found_on": "2026-11-15",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "Three further duplicate creation suggestions are retired locally: the Kendal George Glasgow baptism draft is probably Glasgow-562, while two Great Amwell marriage father drafts repeat the retained documentary father account. The father remains distinct from the groom and his WikiTree identity stays on hold.",
+      "qualification": "Held local records and captured profiles only; original images were not newly inspected. George’s indexed birth on 14 December 1847 differs from the catalogue’s 1848 and is retained as a discrepancy without overwriting the vital field. Eight Great Amwell provider references describe one marriage, not independent events. No family certainty or live WikiTree change is adopted.",
+      "significance": "Resolves three duplicate worklist entries while preserving probable record identity, the documentary father identity hold, and full retired source accounts.",
+      "detail_url": "/people/glasgow-562.html#research-findings",
+      "people": [
+        {
+          "id": "Glasgow-562",
+          "name": "George Glasgow",
+          "url": "/people/glasgow-562.html",
+          "role": "Probable Kendal baptism subject"
+        },
+        {
+          "id": "record-ancestry-glasgow-be2339f5f3b7",
+          "name": "George Frederick Glasgow",
+          "url": "/people/record-ancestry-glasgow-be2339f5f3b7.html",
+          "role": "Retained documentary father; existing-profile identity on hold"
+        }
+      ],
+      "sources": [
+        {
+          "title": "ancestry-1351-920387 — held index entry",
+          "url": "https://www.ancestry.co.uk/search/collections/1351/records/920387",
+          "record_id": "ancestry-1351-920387"
+        },
+        {
+          "title": "ancestry-9841-110778256 — held index entry",
+          "url": "https://www.ancestry.co.uk/search/collections/9841/records/110778256",
+          "record_id": "ancestry-9841-110778256"
+        },
+        {
+          "title": "ancestry-9841-175164357 — held index entry",
+          "url": "https://www.ancestry.co.uk/search/collections/9841/records/175164357",
+          "record_id": "ancestry-9841-175164357"
+        },
+        {
+          "title": "ancestry-1352-287723 — held index entry",
+          "url": "https://www.ancestry.co.uk/search/collections/1352/records/287723",
+          "record_id": "ancestry-1352-287723"
+        },
+        {
+          "title": "ancestry-1352-1050287723 — held index entry",
+          "url": "https://www.ancestry.co.uk/search/collections/1352/records/1050287723",
+          "record_id": "ancestry-1352-1050287723"
+        },
+        {
+          "title": "ancestry-1352-1050288215 — held index entry",
+          "url": "https://www.ancestry.co.uk/search/collections/1352/records/1050288215",
+          "record_id": "ancestry-1352-1050288215"
+        },
+        {
+          "title": "ancestry-1352-288215 — held index entry",
+          "url": "https://www.ancestry.co.uk/search/collections/1352/records/288215",
+          "record_id": "ancestry-1352-288215"
+        },
+        {
+          "title": "ancestry-9852-34202112 — held index entry",
+          "url": "https://www.ancestry.co.uk/search/collections/9852/records/34202112",
+          "record_id": "ancestry-9852-34202112"
+        },
+        {
+          "title": "ancestry-9852-34202114 — held index entry",
+          "url": "https://www.ancestry.co.uk/search/collections/9852/records/34202114",
+          "record_id": "ancestry-9852-34202114"
+        },
+        {
+          "title": "ancestry-9852-22264613 — held index entry",
+          "url": "https://www.ancestry.co.uk/search/collections/9852/records/22264613",
+          "record_id": "ancestry-9852-22264613"
+        },
+        {
+          "title": "ancestry-9852-22264614 — held index entry",
+          "url": "https://www.ancestry.co.uk/search/collections/9852/records/22264614",
+          "record_id": "ancestry-9852-22264614"
+        }
+      ],
+      "source_ids": [
+        "ancestry-1351-920387",
+        "ancestry-9841-110778256",
+        "ancestry-9841-175164357",
+        "ancestry-1352-287723",
+        "ancestry-1352-1050287723",
+        "ancestry-1352-1050288215",
+        "ancestry-1352-288215",
+        "ancestry-9852-34202112",
+        "ancestry-9852-34202114",
+        "ancestry-9852-22264613",
+        "ancestry-9852-22264614"
+      ],
+      "provenance": [
+        "research/Glasgow-562/findings.md",
+        "research/record-ancestry-glasgow-be2339f5f3b7/findings.md",
+        "research/canonical_records.json",
+        "research/queue-review-2026-10-17/catalogue-integration.json"
+      ]
     }
   ]
 }

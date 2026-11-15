@@ -181,6 +181,80 @@ The deed does not give her birth date. No compatible profile survived the docume
         with self.assertRaisesRegex(ValueError, 'conflicting gender'):
             module._project_creation_merges([self.entry, other], {'record-other': self.slug}, {})
 
+    def test_same_provider_record_keeps_canonical_role_and_retired_originals(self):
+        other = deepcopy(self.entry)
+        other.update(catalogue_id="record-jane-duplicate", subject_id="jane-duplicate",
+                     draft_path="research/drafts/duplicate.wiki")
+        other["records"][0].update(attribution_scope="subject", association="Parent named in same deed",
+                                    note="Retired role interpretation, retained for review.")
+        (self.root / other["draft_path"]).write_text(other["draft_wikitext"])
+        (self.root / module.MANIFEST).write_text(json.dumps({"new_people": [other, self.entry]}))
+        merges = {other["catalogue_id"]: self.slug}
+        with patch.object(module, "native_creation_merges", return_value=(merges, {})):
+            projected = module.reviewed_people(self.root, [self.slug])[0]
+            personal_records = module.reviewed_records(self.root, [self.slug])
+        self.assertEqual([self.entry["records"][0]], projected["records"])
+        self.assertEqual(1, len(personal_records))
+        self.assertEqual(self.entry["records"][0]["association"], personal_records[0]["association"])
+        retired = projected["merged_source_accounts"][1]
+        self.assertEqual(other["records"], retired["records"])
+        self.assertEqual(other["draft_wikitext"], retired["draft_wikitext"])
+        self.assertIn("Retired role interpretation", retired["records"][0]["note"])
+        self.assertEqual(1, len(other["records"]))  # Input accounts remain unchanged.
+
+    def test_same_url_comparison_stays_separate_without_extra_personal_record(self):
+        other = deepcopy(self.entry)
+        other.update(catalogue_id="record-jane-duplicate", subject_id="jane-duplicate",
+                     draft_path="research/drafts/duplicate.wiki")
+        comparison = deepcopy(other["records"][0])
+        comparison.update(attribution_scope="comparison", year="1600", filter_year=1600,
+                          association="Same URL, unassigned comparison reading")
+        other["records"].append(comparison)
+        (self.root / other["draft_path"]).write_text(other["draft_wikitext"])
+        (self.root / module.MANIFEST).write_text(json.dumps({"new_people": [self.entry, other]}))
+        with patch.object(module, "native_creation_merges", return_value=({other["catalogue_id"]: self.slug}, {})):
+            projected = module.reviewed_people(self.root, [self.slug])[0]
+            personal_records = module.reviewed_records(self.root, [self.slug])
+        self.assertEqual(["subject", "comparison"],
+                         [record.get("attribution_scope", "subject") for record in projected["records"]])
+        self.assertEqual(["1775"], [record["year"] for record in personal_records])
+        self.assertEqual(comparison, projected["records"][1])
+        self.assertEqual(other["records"], projected["merged_source_accounts"][1]["records"])
+
+    def test_repeated_record_conflicting_event_scalars_require_review(self):
+        for field, first, second in [("year", "1775", "1776"),
+                                     ("filter_year", 1775, 1776),
+                                     ("record_location", "Edinburgh, Scotland", "Glasgow, Scotland"),
+                                     ("region", "Scotland", "Ireland")]:
+            with self.subTest(field=field):
+                canonical = deepcopy(self.entry)
+                canonical["records"][0][field] = first
+                other = deepcopy(canonical)
+                other["catalogue_id"] = "record-other"
+                other["records"][0][field] = second
+                with self.assertRaisesRegex(ValueError, "conflicting record " + field):
+                    module._project_creation_merges([canonical, other], {"record-other": self.slug}, {})
+        # An empty canonical value must not hide disagreement among retired accounts.
+        canonical = deepcopy(self.entry)
+        canonical["records"][0]["record_location"] = ""
+        sources = [canonical]
+        for ident, locality in [("record-one", "Edinburgh"), ("record-two", "Glasgow")]:
+            other = deepcopy(canonical)
+            other["catalogue_id"] = ident
+            other["records"][0]["record_location"] = locality
+            sources.append(other)
+        with self.assertRaisesRegex(ValueError, "conflicting record record_location"):
+            module._project_creation_merges(sources, {"record-one": self.slug, "record-two": self.slug}, {})
+
+    def test_repeated_record_equivalent_numeric_scalars_preserve_preferred_row(self):
+        other = deepcopy(self.entry)
+        other["catalogue_id"] = "record-other"
+        other["records"][0].update(year=1775, filter_year=1775.0, region="Scotland")
+        projected = module._project_creation_merges([other, self.entry], {"record-other": self.slug}, {})[0]
+        self.assertEqual([self.entry["records"][0]], projected["records"])
+        self.assertIsInstance(projected["records"][0]["year"], str)
+        self.assertEqual("Scotland", projected["merged_source_accounts"][1]["records"][0]["region"])
+
     def test_native_merge_projects_all_sources_preserves_hold_and_undo(self):
         from genealogy.cli import initialize_project
         from genealogy.store import Research, open_project

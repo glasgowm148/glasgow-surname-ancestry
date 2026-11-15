@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+**Local identity reconciliation reviewed 2026-11-15:** Both draft events repeat George Glasgow christened 27 February1848 at Kendal, father William Brown Glasgow and mother Dinah. Existing562 already cites the1848 Kendal baptism naming the same parents (held-e-c25049378b58); canonical5November notes explicitly withdraw this draft in favour of562. This is a child baptism, not a groom event. Transcript birth14December1847 versus current562 birth1848 must remain explicit; no vital overwrite. Existing wife Eleanor Margaret Thexton35 and their1872/1874 Habergham Eaves children belong to562; no new marriage or parent certainty follows. Same underlying indexed event; companion indexes are not independent corroboration. The separate creation recommendation is retired locally. No family assessment, birth field or live WikiTree profile is changed.
+
 Current father assessment (22 October 2026): **99% (proved)** for [Glasgow-1001](https://www.wikitree.com/wiki/Glasgow-1001). Selected Glasgow-1001 fatherhood of Glasgow-562; maternal identity and upstream ancestry are separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 The held 1848 Kendal baptism explicitly names William Brown Glasgow and Dinah. The GRO Bell maiden-name entry and William's 1845 Dinah Bell marriage identify the same couple. Selected Glasgow-1001 fatherhood of Glasgow-562; maternal identity and upstream ancestry are separate.
@@ -23,3 +25,12 @@ Held source basis: [Baptism:
 Original data: England, Births and Christenings, 1538-1975. Salt Lake City, Utah: FamilySearch, 2013; FHL Film Number: 1471686 
  (accessed 22 December 2023) 
 George Glasgow baptism in 1848, son of William Brown Glasgow & Dinah, in Kendal, Westmoreland, England.](https://www.wikitree.com/wiki/Glasgow-562)
+
+
+## Kendal baptism duplicate reconciled —15 November 2026
+
+**Local identity reconciliation reviewed 2026-11-15:** Both draft events repeat George Glasgow christened 27 February1848 at Kendal, father William Brown Glasgow and mother Dinah. Existing562 already cites the1848 Kendal baptism naming the same parents (held-e-c25049378b58); canonical5November notes explicitly withdraw this draft in favour of562. This is a child baptism, not a groom event. Transcript birth14December1847 versus current562 birth1848 must remain explicit; no vital overwrite. Existing wife Eleanor Margaret Thexton35 and their1872/1874 Habergham Eaves children belong to562; no new marriage or parent certainty follows. Same underlying indexed event; companion indexes are not independent corroboration. The separate creation recommendation is retired locally. No family assessment, birth field or live WikiTree profile is changed. The held 5 November resolution is propagated to native attribution and the creation worklist; this is not a new original-source inspection.
+
+- [ancestry-1351-920387](https://www.ancestry.co.uk/search/collections/1351/records/920387)
+- [ancestry-9841-110778256](https://www.ancestry.co.uk/search/collections/9841/records/110778256)
+- [ancestry-9841-175164357](https://www.ancestry.co.uk/search/collections/9841/records/175164357)

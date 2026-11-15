@@ -143,11 +143,35 @@ def _project_creation_merges(entries, merges, reasons):
         survivor["retired_catalogue_ids"] = [entry["catalogue_id"] for entry in sources if entry["catalogue_id"] != target]
         survivor["records"] = []
         survivor["candidates"] = []
+        record_keys = set()
+        concrete_values = {}
         for entry in sources:
-            for field in ("records", "candidates"):
-                for row in entry.get(field, []):
-                    if row not in survivor[field]:
-                        survivor[field].append(deepcopy(row))
+            for row in entry.get("records", []):
+                # The retained account is first: its interpretation wins, while
+                # every original role/note stays in merged_source_accounts.
+                key = (row.get("source_url"), row.get("attribution_scope", "subject"))
+                if not key[0]:
+                    raise ValueError(f"{target}: native merge record needs source_url")
+                values = concrete_values.setdefault(key, {})
+                for field in ("year", "filter_year", "record_location", "region"):
+                    value = row.get(field)
+                    if value is None or isinstance(value, str) and not value.strip():
+                        continue
+                    normal = value.strip() if isinstance(value, str) else value
+                    # Numeric year strings and JSON numbers express the same
+                    # scalar; other wording differences require review.
+                    if field in ("year", "filter_year") and re.fullmatch(r"-?\d+(?:\.\d+)?", str(normal)):
+                        normal = float(normal)
+                    if field in values and values[field] != normal:
+                        raise ValueError(f"{target}: native merge has conflicting record {field} "
+                                         f"for {key[0]} ({key[1]})")
+                    values[field] = normal
+                if key not in record_keys:
+                    survivor["records"].append(deepcopy(row))
+                    record_keys.add(key)
+            for row in entry.get("candidates", []):
+                if row not in survivor["candidates"]:
+                    survivor["candidates"].append(deepcopy(row))
         for field in ("birth", "death", "birth_location", "death_location", "gender"):
             values = {entry[field] for entry in sources if entry.get(field)}
             if len(values) > 1:
