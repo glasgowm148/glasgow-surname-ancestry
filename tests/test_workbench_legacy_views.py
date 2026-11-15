@@ -191,6 +191,66 @@ class LegacyViewPersonTests(unittest.TestCase):
         self.assertEqual("Glasgow-1406", out[0]["subject_id"])
         self.assertEqual("record-old", out[0]["assessment_history"][0]["subject_id"])
 
+    def test_public_merge_snapshots_are_read_and_decoded_once(self):
+        rows = []
+        count = 100
+        for index in range(count):
+            rows.extend([
+                {"id": f"merge-{index}", "kind": "merge", "survivor_id": f"new-{index}",
+                 "retired_ids": json.dumps([f"old-{index}"]), "reason": "same event",
+                 "moved_json": json.dumps({"rows": [{"table": "external_id", "key": {"id": f"alias-{index}"}}]})},
+                {"id": f"alias-{index}", "entity_id": f"new-{index}", "system": "glasgow-local",
+                 "value": f"record-{index}", "status": "former"},
+                {"id": f"canonical-{index}", "entity_id": f"new-{index}", "system": "wikitree",
+                 "value": f"Fable-{index}", "status": "current"},
+            ])
+        store = Store(rows)
+        with patch("tools.workbench_legacy_views.Research"), \
+                patch.object(store, "all", wraps=store.all) as read, \
+                patch("tools.workbench_legacy_views.json.loads", wraps=json.loads) as decode:
+            view = Views(store)
+        self.assertEqual({f"record-{i}": f"Fable-{i}" for i in range(count)}, view._merged_public)
+        snapshot_queries = [call for call in read.call_args_list if "SELECT moved_json" in call.args[0]]
+        self.assertEqual(1, len(snapshot_queries))
+        # One retired_ids and one moved_json decode per merge, not count squared.
+        self.assertEqual(2 * count, decode.call_count)
+
+    def test_public_merge_uses_current_alias_owner_after_chain_and_undo(self):
+        def merge(id, retired, survivor, alias):
+            return {"id": id, "kind": "merge", "survivor_id": survivor,
+                    "retired_ids": json.dumps([retired]), "reason": "same event",
+                    "moved_json": json.dumps({"rows": [{"table": "external_id", "key": {"id": alias}},
+                                                         {"table": "person", "key": {"id": "ignored"}}]})}
+        rows = [merge("m1", "old", "middle", "old-alias"),
+                merge("m2", "middle", "final", "middle-alias"),
+                merge("m3", "other", "final", "other-alias"),
+                {"id": "s1", "kind": "split", "reason": "undo m3: wrong person"},
+                {"id": "old-alias", "entity_id": "final", "system": "glasgow-local",
+                 "value": "record-old", "status": "former"},
+                {"id": "middle-alias", "entity_id": "final", "system": "glasgow-local",
+                 "value": "record-middle", "status": "former"},
+                {"id": "other-alias", "entity_id": "other", "system": "glasgow-local",
+                 "value": "record-other", "status": "current"},
+                {"id": "final-alias", "entity_id": "final", "system": "wikitree",
+                 "value": "Fable-1", "status": "current"}]
+        view = self.view(rows)
+        self.assertEqual({"old": "final", "middle": "final"}, view._merged_entities)
+        self.assertEqual({"record-old": "Fable-1", "record-middle": "Fable-1"}, view._merged_public)
+        self.assertEqual("record-other", view.person("other"))
+
+    def test_merged_survivor_requires_unique_canonical_alias_even_without_moved_aliases(self):
+        merge = {"id": "m1", "kind": "merge", "survivor_id": "new", "retired_ids": '["old"]',
+                 "reason": "same event", "moved_json": '{"rows":[]}'}
+        with self.assertRaisesRegex(ValueError, "merged survivor new has no canonical alias"):
+            self.view([merge])
+        aliases = [{"entity_id": "new", "system": "glasgow-local", "value": value, "status": "current"}
+                   for value in ["record-one", "record-two"]]
+        with self.assertRaisesRegex(ValueError, "merged survivor new has no canonical alias"):
+            self.view([merge, *aliases])
+        view = self.view([merge, aliases[0], aliases[0]])
+        self.assertEqual("record-one", view.person("old"))
+        self.assertEqual({}, view._merged_public)
+
     def test_undo_merge_and_no_merge_leave_output_unchanged(self):
         rows = [
             {"id": "m1", "kind": "merge", "survivor_id": "per-new", "retired_ids": '["per-old"]', "reason": "duplicate"},

@@ -148,21 +148,29 @@ class Views:
         aliases = self.store.all("SELECT id,entity_id,system,value,status FROM external_id")
         by_id = {row.get("id"): row for row in aliases}
         result = {}
+        moved_by_survivor = None
         for retired, survivor in self._merged_entities.items():
             target = self.wikitree.get(survivor)
             if not target:
                 target = self.local.get(survivor)
             if not target:
                 raise ValueError(f"merged survivor {survivor} has no canonical alias")
-            moved_aliases = []
-            for merge in self.store.all("SELECT moved_json FROM entity_merge WHERE kind='merge'"):
-                for item in json.loads(merge.get("moved_json") or "{}").get("rows", []):
-                    if item.get("table") != "external_id":
-                        continue
-                    key = item.get("key", {})
-                    alias = by_id.get(key.get("id"))
-                    if alias and alias.get("entity_id") == survivor and alias.get("value"):
-                        moved_aliases.append(alias["value"])
+            if moved_by_survivor is None:
+                # Merge snapshots record historical ownership. Resolve each
+                # moved alias against its CURRENT row, so chains and undone
+                # moves retain the same projection without rescanning every
+                # snapshot for each retired entity. Initialize after the first
+                # canonical check to preserve the existing error ordering.
+                moved_by_survivor = {}
+                for merge in self.store.all("SELECT moved_json FROM entity_merge WHERE kind='merge'"):
+                    for item in json.loads(merge.get("moved_json") or "{}").get("rows", []):
+                        if item.get("table") != "external_id":
+                            continue
+                        key = item.get("key", {})
+                        alias = by_id.get(key.get("id"))
+                        if alias and alias.get("value"):
+                            moved_by_survivor.setdefault(alias.get("entity_id"), []).append(alias["value"])
+            moved_aliases = moved_by_survivor.get(survivor, [])
             if not moved_aliases:
                 continue
             for old in moved_aliases:
