@@ -155,6 +155,28 @@ class GlasgowMigrationFixture(unittest.TestCase):
             question = stable_id("qst", "research/Harrow-14/presentation.json", 0)
             self.assertEqual(project.store.get("question", question)["resolves"], "The 1786 Currituck Isaac.")
 
+    def test_profile_filter_registers_only_selected_case_then_default_registers_all(self) -> None:
+        for name in ("Harrow-14", "record-other"):
+            write(self.source, f"research/{name}/findings.md", f"Notes for {name}")
+        with open_project(self.project, create=True) as project:
+            migration = workbench_migrate.Migration(project, self.source, ["Harrow-14", "Harrow-14"])
+            migration.run(["profiles"])
+            paths = {r["path"] for r in project.store.all("SELECT path FROM asset")}
+            self.assertEqual(paths, {"research/Harrow-14/findings.md"})
+            workbench_migrate.Migration(project, self.source).run(["profiles"])
+            paths = {r["path"] for r in project.store.all("SELECT path FROM asset")}
+            self.assertEqual(paths, {"research/Harrow-14/findings.md", "research/record-other/findings.md"})
+
+    def test_profile_filter_rejects_missing_or_outside_cases_before_writes(self) -> None:
+        write(self.source, "research/Harrow-14/findings.md", "Notes")
+        with open_project(self.project, create=True) as project:
+            for name in ("missing-case", "../research", "."):
+                with self.subTest(name=name), self.assertRaises(ValueError):
+                    workbench_migrate.Migration(project, self.source, ["Harrow-14", name]).run(["profiles"])
+            with self.assertRaises(ValueError):
+                workbench_migrate.Migration(project, self.source, ["Harrow-14"]).run(["profiles", "records"])
+            self.assertEqual(project.store.all("SELECT path FROM asset"), [])
+
     def test_a_changed_file_is_registered_as_a_new_version_of_the_old(self) -> None:
         write(self.source, "research/Harrow-14/presentation.json", {"evidence_questions": []})
         self.migrate()

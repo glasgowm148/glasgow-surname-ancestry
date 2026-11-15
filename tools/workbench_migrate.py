@@ -109,12 +109,28 @@ def as_percent(probability: Any) -> tuple[int | None, Any]:
     return int(round(exact)), probability["value"]
 
 
+def profile_directories(source: Path, profile_ids: list[str] | None = None) -> list[Path]:
+    """Select complete case directories, validating all requested cases before writes."""
+    research = source / "research"
+    if not profile_ids:
+        return sorted(p for p in research.iterdir() if p.is_dir())
+    directories = []
+    for name in sorted(set(profile_ids)):
+        directory = research / name
+        if (name in (".", "..") or Path(name).name != name or not directory.is_dir()
+                or directory.resolve().parent != research.resolve()):
+            raise ValueError(f"unknown or invalid research profile directory: {name}")
+        directories.append(directory)
+    return directories
+
+
 class Migration:
-    def __init__(self, project, source: Path):
+    def __init__(self, project, source: Path, profile_ids: list[str] | None = None):
         self.project = project
         self.store = project.store
         self.research = Research(self.store)
         self.source = source
+        self.profile_ids = profile_ids
         self.commit = subprocess.run(["git", "-C", str(source), "rev-parse", "HEAD"], capture_output=True, text=True,
                                      check=True).stdout.strip()
         self.report: dict[str, Any] = {"source_commit": self.commit, "steps": {}, "conflicts": [], "unresolved": []}
@@ -824,7 +840,7 @@ class Migration:
     # ---------------------------------------------------------------- per-profile research
     def step_profiles(self) -> dict:
         counts = Counter()
-        directories = sorted(p for p in (self.source / "research").iterdir() if p.is_dir())
+        directories = profile_directories(self.source, self.profile_ids)
         for directory in directories:
             name = directory.name
             files = sorted(p for p in directory.rglob("*") if p.is_file() and p.name != ".DS_Store")
@@ -1221,6 +1237,10 @@ class Migration:
              "publication")
 
     def run(self, only: list[str] | None = None) -> dict:
+        if self.profile_ids:
+            if only != ["profiles"]:
+                raise ValueError("--profile-id requires --only profiles")
+            profile_directories(self.source, self.profile_ids)
         for name in self.STEPS:
             if only and name not in only:
                 continue
@@ -1234,10 +1254,18 @@ def main(argv=None) -> int:
     parser.add_argument("--source-root", type=Path, default=ROOT, help="Glasgow checkout to read (never written)")
     parser.add_argument("--project", type=Path, default=ROOT, help="project directory holding genealogy.toml")
     parser.add_argument("--only", nargs="+", choices=Migration.STEPS)
+    parser.add_argument("--profile-id", action="append", help="Research directory to refresh; repeat with --only profiles")
     parser.add_argument("--report", type=Path, default=ROOT / "data/private/workbench/migration-report.json")
     args = parser.parse_args(argv)
+    if args.profile_id:
+        if args.only != ["profiles"]:
+            parser.error("--profile-id requires --only profiles")
+        try:
+            profile_directories(args.source_root, args.profile_id)
+        except ValueError as exc:
+            parser.error(str(exc))
     with open_project(args.project, create=True) as project:
-        report = Migration(project, args.source_root.resolve()).run(args.only)
+        report = Migration(project, args.source_root.resolve(), args.profile_id).run(args.only)
     args.report.parent.mkdir(parents=True, exist_ok=True)
     args.report.write_text(json.dumps(report, indent=1, sort_keys=True, ensure_ascii=False) + "\n", encoding="utf-8")
     print(json.dumps(report["steps"], indent=1))
