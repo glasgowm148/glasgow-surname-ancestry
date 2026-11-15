@@ -2,20 +2,23 @@
 
 Local-only review of 2,172 distinct people appearing in the Unspecified region or missing-place groups. No external research or live profile edits.
 
-1,968 people (90.6%) received audited workbench person-place assessments. 204 remain unresolved.
+1,977 people (91.0%) received audited workbench person-place assessments. 195 remain unresolved.
 
-The local statistics now show 172 Unspecified people (formerly 2,136), and 200 people without a usable associated place (formerly 485 across the two missing-place groups). Empty individual event fields no longer put a known-location person into Unspecified.
+The local statistics now show 163 Unspecified people (formerly 2,136), and 191 people without a usable associated place (formerly 485 across the two missing-place groups). Empty individual event fields no longer put a known-location person into Unspecified.
 
 All assessments preserve original birth/death and record-location fields. Record regions are filled only for the same explicitly located record. Shared-entry and kin associations remain uncertain; three weak three-step kin associations retain their exact paths. No estimate is propagated through the pedigree.
 
 The authority is the configured research workbench, predicate `associated_place`, with current assessment revisions. Catalogue, person JSON/HTML, full and compact search, regional pages, statistics and sitemap are synchronized locally. This document is an audit receipt, not another classification registry.
+
+## Captured-relative correction
+
+The initial audit missed relatives embedded in saved profile captures when those relatives were outside the main export. Rechecking that data resolved nine more people. Jennifer (Carswell) Glasgow (Carswell-813) has both parents recorded at Cleveland, Cuyahoga County, Ohio, and her child there too. Her uncertain association now retains that locality, citing the exact saved relative fields. No birth/death or record location has been filled, and no external research was performed. Original captured-relative fields also supply bounded family routes; inferred locations are never reused as evidence.
 
 ## Unresolved subjects
 
 | Catalogue person | Reason |
 | --- | --- |
 | [Matilda Carr](http://localhost:8765/people/carr-20349.html) | Held Cornwall entry is only a likely identity match, conflicts with the current birth estimate and exposes no parents/image; spouse mentioned without a definite linked profile. No independent own location selected. |
-| [Jennifer (Carswell) Glasgow](http://localhost:8765/people/carswell-813.html) | No original-region anchor within three public captured-kin edges |
 | [Johnathan Glasco](http://localhost:8765/people/glasco-113.html) | No original-region anchor within three public captured-kin edges |
 | [Georgina  Glasco](http://localhost:8765/people/glasco-156.html) | No original-region anchor within three public captured-kin edges |
 | [Derrick Glasco](http://localhost:8765/people/glasco-163.html) | No original-region anchor within three public captured-kin edges |
@@ -27,12 +30,10 @@ The authority is the configured research workbench, predicate `associated_place`
 | [Samuel Glasgow](http://localhost:8765/people/glasgow-1013.html) | No original-region anchor within three public captured-kin edges |
 | [Nora Cappo](http://localhost:8765/people/glasgow-1042.html) | No original-region anchor within three public captured-kin edges |
 | [Florence Maud (Glasgow) Roberts](http://localhost:8765/people/glasgow-106.html) | No original-region anchor within three public captured-kin edges |
-| [Howard G. Glasgow](http://localhost:8765/people/glasgow-1182.html) | No original-region anchor within three public captured-kin edges |
 | [W A Glasgow](http://localhost:8765/people/glasgow-1195.html) | No original-region anchor within three public captured-kin edges |
 | [David Glasgow](http://localhost:8765/people/glasgow-145.html) | No original-region anchor within three public captured-kin edges |
 | [Joseph Glasgow](http://localhost:8765/people/glasgow-166.html) | No original-region anchor within three public captured-kin edges |
 | [Aerich Glasgow](http://localhost:8765/people/glasgow-167.html) | No original-region anchor within three public captured-kin edges |
-| [Susan Glasgow](http://localhost:8765/people/glasgow-168.html) | No original-region anchor within three public captured-kin edges |
 | [Heather Glasgow](http://localhost:8765/people/glasgow-1925.html) | No original-region anchor within three public captured-kin edges |
 | [Lois Glasgow](http://localhost:8765/people/glasgow-206.html) | No original-region anchor within three public captured-kin edges |
 | [Carol Glasgow](http://localhost:8765/people/glasgow-2077.html) | No original-region anchor within three public captured-kin edges |
@@ -46,7 +47,6 @@ The authority is the configured research workbench, predicate `associated_place`
 | [Todd Glasgow](http://localhost:8765/people/glasgow-2296.html) | No original-region anchor within three public captured-kin edges |
 | [M Glasgow](http://localhost:8765/people/glasgow-2455.html) | No original-region anchor within three public captured-kin edges |
 | [Maggie Glasgow](http://localhost:8765/people/glasgow-2525.html) | No original-region anchor within three public captured-kin edges |
-| [Herbert G. Glasgow](http://localhost:8765/people/glasgow-258.html) | No original-region anchor within three public captured-kin edges |
 | [Karl Glasgow](http://localhost:8765/people/glasgow-2728.html) | No original-region anchor within three public captured-kin edges |
 | [Carol Glasgow](http://localhost:8765/people/glasgow-2766.html) | No original-region anchor within three public captured-kin edges |
 | [Cora Levicia (Glasgow) Mavis](http://localhost:8765/people/glasgow-2799.html) | No original-region anchor within three public captured-kin edges |
@@ -61,7 +61,6 @@ The authority is the configured research workbench, predicate `associated_place`
 | [Mrs Appa Smith](http://localhost:8765/people/glasgow-3136.html) | No original-region anchor within three public captured-kin edges |
 | [Julie Glasgow](http://localhost:8765/people/glasgow-3170.html) | No original-region anchor within three public captured-kin edges |
 | [Jennifer Glasgow](http://localhost:8765/people/glasgow-3258.html) | No original-region anchor within three public captured-kin edges |
-| [Virginia M. Glasgow](http://localhost:8765/people/glasgow-349.html) | No original-region anchor within three public captured-kin edges |
 | [William Glasgow](http://localhost:8765/people/glasgow-3555.html) | No original-region anchor within three public captured-kin edges |
 | [Elizabeth Glasgow](http://localhost:8765/people/glasgow-3566.html) | No original-region anchor within three public captured-kin edges |
 | [Anonymous Glasgow](http://localhost:8765/people/glasgow-3614.html) | No original-region anchor within three public captured-kin edges |
@@ -94,14 +93,11 @@ The authority is the configured research workbench, predicate `associated_place`
 | [Justin Glasgow](http://localhost:8765/people/glasgow-94.html) | No original-region anchor within three public captured-kin edges |
 | [David Glasgow](http://localhost:8765/people/glasgow-981.html) | No original-region anchor within three public captured-kin edges |
 | [Frances Florella Glasgow](http://localhost:8765/people/glasgow-982.html) | No original-region anchor within three public captured-kin edges |
-| [Ruby (Hosterman) Glasgow](http://localhost:8765/people/hosterman-86.html) | No original-region anchor within three public captured-kin edges |
 | [Ella Glasgow](http://localhost:8765/people/kellaway-87.html) | No original-region anchor within three public captured-kin edges |
 | [Edith Glasgow](http://localhost:8765/people/knepper-156.html) | No original-region anchor within three public captured-kin edges |
 | [Geneva Glasgow](http://localhost:8765/people/lewis-37545.html) | No original-region anchor within three public captured-kin edges |
 | [Elizabeth (New) Glasco](http://localhost:8765/people/new-1848.html) | No original-region anchor within three public captured-kin edges |
 | [Arline Glasgow](http://localhost:8765/people/o-connor-1332.html) | No original-region anchor within three public captured-kin edges |
-| [Margaret (Patton) Glasgow](http://localhost:8765/people/patton-6453.html) | No original-region anchor within three public captured-kin edges |
-| [Tula (Ragland) Glasgow](http://localhost:8765/people/ragland-681.html) | No original-region anchor within three public captured-kin edges |
 | [A E Glasgow](http://localhost:8765/people/record-anc-a-e-glasgow-1905-64773.html) | Military Place is a generic multi-country default; regiment names alone do not locate the individual. Identity HOLD and no own locality/direct located kin. |
 | [Albert E Glasgow](http://localhost:8765/people/record-anc-albert-e-glasgow-1905-76996.html) | Military Place is a generic multi-country default; regiment names alone do not locate the individual. Identity HOLD and no own locality/direct located kin. |
 | [Albert Glasgow](http://localhost:8765/people/record-anc-albert-glasgow-1905-76984.html) | Military Place is a generic multi-country default; regiment names alone do not locate the individual. Identity HOLD and no own locality/direct located kin. |
@@ -212,7 +208,6 @@ The authority is the configured research workbench, predicate `associated_place`
 | [Agnes Glasgow (malformed burial-index entry)](http://localhost:8765/people/record-fmp-glasgow-11443ace3ea2.html) | Malformed source anomaly explicitly asserts no coherent person, burial or parish; conflicting Kirknewton/Inveresk metadata cannot support a location. |
 | [George Glasgow (unidentified 1724 court-file subject)](http://localhost:8765/people/record-fmp-glasgow-7a66001e8cd6.html) | Court-file abstracts explicitly lack designation, residence, family/property context; archive/repository Scotland alone is not personal geography. |
 | [Toby Glasgow](http://localhost:8765/people/rose-24335.html) | No original-region anchor within three public captured-kin edges |
-| [Ida E (Smalldridge) Glasgow](http://localhost:8765/people/smalldridge-37.html) | No original-region anchor within three public captured-kin edges |
 | [Mrs Arlene Glasgow](http://localhost:8765/people/smith-85439.html) | No original-region anchor within three public captured-kin edges |
 | [June Glasgow](http://localhost:8765/people/snowdon-532.html) | No original-region anchor within three public captured-kin edges |
 | [Charlotte Glasgow](http://localhost:8765/people/stoltz-1145.html) | No original-region anchor within three public captured-kin edges |
@@ -221,4 +216,4 @@ The authority is the configured research workbench, predicate `associated_place`
 
 ## Verification
 
-The location authority, inference and projection fixtures pass; full and compact search agree on all 1,968 assessed people; the 8,027-person catalogue is preserved; the internal-link check reports zero broken targets. The broad catalogue suite exposed two existing presentation assertions (the pending significance wording and the redesigned marriage-panel markup) outside this classification batch. Global workbench validation also reports existing undefined grades, missing retired artifacts and changed hashes on unrelated assets; none of its reported claim IDs is a location assessment. These broader checks are not reported as passing.
+The location authority, inference and projection fixtures pass; full and compact search agree on all 1,977 assessed people; the 8,027-person catalogue is preserved; the internal-link check reports zero broken targets. The broad catalogue suite exposed two existing presentation assertions (the pending significance wording and the redesigned marriage-panel markup) outside this classification batch. Global workbench validation also reports existing undefined grades, missing retired artifacts and changed hashes on unrelated assets; none of its reported claim IDs is a location assessment. These broader checks are not reported as passing.

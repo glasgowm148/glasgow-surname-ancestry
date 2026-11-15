@@ -28,13 +28,54 @@ class LocationClassificationTests(unittest.TestCase):
         self.assertNotIn('Unspecified',p['regions'])
         self.assertEqual({r['record_location'] for r in memberships(p)},{'Leith, Scotland'})
 
-    def test_kin_uses_common_region_without_propagating(self):
+    def test_kin_routes_use_original_fields_without_propagating_estimates(self):
         parent=person('parent',[dict(record_id='r',record_location='Leith, Scotland',region='Scotland')])
         child=person('child',[dict(record_location='',region='')],father=[dict(id='parent')])
         grandchild=person('grandchild',[dict(record_location='',region='')],father=[dict(id='child')])
         rows,unresolved=prepare([parent,child,grandchild],{'child','grandchild'},region)
-        self.assertEqual([(r['catalogue_id'],r['place'],r['basis_kind']) for r in rows],[('child','Scotland','kin')])
-        self.assertEqual(unresolved[0]['catalogue_id'],'grandchild')
+        self.assertEqual([(r['catalogue_id'],r['place'],r['basis_kind']) for r in rows],[('child','Scotland','kin'),('grandchild','Scotland','kin')])
+        self.assertFalse(unresolved)
+        self.assertIn('2 relationship steps',rows[1]['basis'])
+        original_evidence=[e for e in rows[1]['evidence'] if e['field']!='held_kin_route']
+        self.assertEqual({e['catalogue_id'] for e in original_evidence},{'parent'})
+        # A saved estimate alone is not an original geographic anchor.
+        parent['records']=[]
+        child['location_associations']=[dict(place='Scotland',region='Scotland',basis_kind='kin')]
+        rows,unresolved=prepare([parent,child,grandchild],{'grandchild'},region)
+        self.assertFalse(rows)
+        self.assertEqual(len(unresolved),1)
+
+
+    def test_capture_parents_outside_export_supply_shared_ohio_locality(self):
+        from tools.catalogue_location_regions import region_for_location
+        p=person('daughter',[dict(record_location='',region='')],
+                 father=[dict(id='',numeric_id='123',outside_export=True)],
+                 mother=[dict(id='',numeric_id='456',outside_export=True)],
+                 wikitree_evidence=[dict(profile_url='https://example.test/daughter',relations={
+                    'parents':[
+                        dict(id='Parent-1',birth_location='Cleveland, Cuyahoga County, Ohio'),
+                        dict(id='Parent-2',birth_location='Cleveland, Cuyahoga County, Ohio')],
+                    'siblings':[dict(id='Sibling-1',birth_location='Ohio',death_location='USA')]} )])
+        rows,unresolved=prepare([p],{'daughter'},region_for_location)
+        self.assertFalse(unresolved)
+        self.assertEqual(rows[0]['place'],'Cleveland, Cuyahoga County, Ohio')
+        self.assertEqual(rows[0]['region'],'United States')
+        self.assertEqual(rows[0]['basis_kind'],'kin')
+        self.assertTrue(any('Parent-1' in e['field'] for e in rows[0]['evidence']))
+        self.assertTrue(any('Parent-2' in e['field'] for e in rows[0]['evidence']))
+        project([p],{'daughter':rows})
+        self.assertEqual(p['birth_location'],'')
+        self.assertEqual(p['records'][0]['record_location'],'')
+
+    def test_single_relative_multiple_fields_do_not_fabricate_locality_consensus(self):
+        p=person('p',[dict(record_location='',region='')],wikitree_evidence=[dict(relations={
+            'parents':[dict(id='one-parent',birth_location='Leith, Scotland',death_location='Leith, Scotland')]}
+        )])
+        rows,_=prepare([p],{'p'},region)
+        self.assertEqual(rows[0]['place'],'Scotland')
+        p['wikitree_evidence'][0]['relations']['parents'][0]['withheld']=True
+        rows,_=prepare([p],{'p'},region)
+        self.assertFalse(rows)
 
     def test_conflicting_kin_do_not_produce_a_location(self):
         a=person('a',[dict(record_location='Leith, Scotland',region='Scotland')])

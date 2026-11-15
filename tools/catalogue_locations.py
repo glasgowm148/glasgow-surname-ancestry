@@ -37,8 +37,60 @@ def memberships(person):
     return [dict(region='Unspecified', record_location='Location not specified')]
 
 
+def captured_kin_anchors(person, region_for_location):
+    """Original relative fields retained in the already public profile capture."""
+    anchors=[]
+    for ci,capture in enumerate(person.get('wikitree_evidence',[])):
+        for role,relatives in capture.get('relations',{}).items():
+            for ri,relative in enumerate(relatives):
+                if relative.get('withheld') or relative.get('living') is True:
+                    continue
+                rid=str(relative.get('id') or f'{ci}:{role}:{ri}')
+                for field in ('birth_location','death_location','marriage_location'):
+                    place=relative.get(field)
+                    reg=region_for_location(place) if not unknown(place) else ''
+                    if not reg:continue
+                    anchors.append(dict(relative_id=rid,role=role,place=place,region=reg,
+                        evidence=dict(catalogue_id=person['catalogue_id'],
+                            field=f'wikitree_evidence[{ci}].relations.{role}[{ri}].{field} ({rid})',
+                            value=place,url=capture.get('profile_url',''))))
+    return anchors
+
+
+def captured_kin_association(person, region_for_location):
+    """Use relatives embedded in held public captures, even outside the export."""
+    anchors=captured_kin_anchors(person,region_for_location)
+    if not anchors:return []
+    # A shared parent locality is more informative than country-only grouping.
+    parent_places=defaultdict(set)
+    all_places=defaultdict(set)
+    for a in anchors:
+        all_places[(a['place'],a['region'])].add(a['relative_id'])
+        if a['role']=='parents':
+            parent_places[(a['place'],a['region'])].add(a['relative_id'])
+    agreed=[key for key,ids in parent_places.items() if len(ids)>=2]
+    if not agreed:
+        regions={a['region'] for a in anchors}
+        if len(regions)!=1:return []
+        agreed=[key for key,ids in all_places.items() if len(ids)>=2]
+        if not agreed:agreed=[(next(iter(regions)),next(iter(regions)))]
+    # Prefer a shared locality over its broader country/state suffix.
+    agreed=[key for key in agreed if not any(
+        key!=other and other[1]==key[1] and other[0].casefold().endswith(', '+key[0].casefold())
+        for other in agreed)]
+    result=[]
+    for place,reg in agreed:
+        supporting=[a for a in anchors if a['region']==reg]
+        refs=sorted({a['role']+' '+a['relative_id'] for a in supporting})
+        result.append(dict(place=place,region=reg,basis_kind='kin',
+            basis='Uncertain family-place association from relatives embedded in the saved public profile capture: '+
+                '; '.join(refs)+'. Their held locations support this association even when the relatives are outside the catalogue export. No birthplace, residence or event location is asserted for this subject.',
+            evidence=[a['evidence'] for a in supporting],record_regions={}))
+    return result
+
+
 def prepare(people, baseline_ids, region_for_location):
-    """One-hop inference only: never bootstrap estimates through a pedigree."""
+    """Read original locations and bounded held-kin routes; never reuse estimates."""
     aliases = {}
     for p in people:
         for key in [p['catalogue_id'], *p.get('profile_ids', [])]:
@@ -100,12 +152,61 @@ def prepare(people, baseline_ids, region_for_location):
                 if target and not rel.get('withheld'):
                     kin[p['catalogue_id']][target['catalogue_id']]=role
                     kin[target['catalogue_id']][p['catalogue_id']]='recorded '+role+' counterpart'
+    # Captured relatives can carry fields and graph edges missing from the export.
+    # These are original held fields, never previously inferred associations.
+    captured_places=defaultdict(list)
+    for p in people:
+        key=p['catalogue_id']
+        for capture in p.get('wikitree_evidence',[]):
+            for role,relatives in capture.get('relations',{}).items():
+                for relative in relatives:
+                    rid=str(relative.get('id') or '')
+                    if not rid or relative.get('withheld') or relative.get('living') is True:continue
+                    target=aliases.get(rid.casefold())
+                    node=target['catalogue_id'] if target else 'captured:'+rid.casefold()
+                    kin[key][node]=role
+                    kin[node][key]='recorded '+role+' counterpart'
+        for a in captured_kin_anchors(p,region_for_location):
+            target=aliases.get(a['relative_id'].casefold())
+            node=target['catalogue_id'] if target else 'captured:'+a['relative_id'].casefold()
+            kin[key][node]=a['role']
+            kin[node][key]='recorded '+a['role']+' counterpart'
+            captured_places[node].append(dict(place=a['place'],region=a['region'],
+                basis_kind='own_profile',
+                basis='Original profile field for this subject retained as a relative in the saved capture for '+key+'. This is a held profile lead, not newly verified evidence.',
+                evidence=[a['evidence']],record_regions={}))
+    def original_places(node):
+        return own[node]+captured_places[node]
+    def farther_kin(key):
+        visited={key};frontier=[(key,[key])]
+        for depth in range(1,4):
+            following=[];anchors=[]
+            for node,route in frontier:
+                for other in kin[node]:
+                    if other in visited:continue
+                    visited.add(other)
+                    path=route+[other]
+                    following.append((other,path))
+                    for a in original_places(other):anchors.append((path,a))
+            if anchors:
+                # Conflicting nearest original anchors stay unresolved.
+                regions={a['region'] for _,a in anchors}
+                if len(regions)!=1:return []
+                reg=next(iter(regions))
+                routes=sorted({' → '.join(n.removeprefix('captured:') for n in route) for route,_ in anchors})
+                return [dict(place=reg,region=reg,basis_kind='kin',
+                    basis='Uncertain broad family-region association from original held fields along '+str(depth)+' relationship steps: '+'; '.join(routes)+'. Captured relatives outside the main export are included. No inferred location is reused and no birthplace, residence or event location is asserted.',
+                    evidence=[a_e for _,a in anchors for a_e in a['evidence']]+[
+                        dict(catalogue_id=key,field='held_kin_route',value=route) for route in routes],
+                    record_regions={})]
+            frontier=following
+        return []
     decisions=[];unresolved=[]
     for p in people:
         key=p['catalogue_id']
         if key not in baseline_ids or p.get('likely_living'):
             continue
-        candidates=own[key]
+        candidates=original_places(key)
         if not candidates:
             connected=[]
             for row in p.get('records',[]):
@@ -116,9 +217,11 @@ def prepare(people, baseline_ids, region_for_location):
                             'record_regions':{},'evidence':a['evidence']+[evidence(p,'shared_entry',row.get('source_url',''),row)]})
             candidates=connected
         if not candidates:
+            candidates=captured_kin_association(p,region_for_location)
+        if not candidates:
             context=[]
             for other_id,role in kin[key].items():
-                for a in own[other_id]:
+                for a in original_places(other_id):
                     context.append((other_id,role,a))
             # Keep the broadest defensible common country, not a relative's exact street.
             countries={a['region'] for _,_,a in context}
@@ -128,7 +231,9 @@ def prepare(people, baseline_ids, region_for_location):
                     basis='Uncertain family-location association from directly attached kin: '+ '; '.join(sorted({role+' '+other for other,role,_ in context}))+'. Only their common region is assigned; no birthplace, residence or event location is asserted.',
                     evidence=[e for _,role,a in context for e in a['evidence']],record_regions={})]
         if not candidates:
-            unresolved.append(dict(catalogue_id=key,name=p['name'],reason='No usable own, exact shared-entry or unambiguous direct-kin location in held structured evidence.'))
+            candidates=farther_kin(key)
+        if not candidates:
+            unresolved.append(dict(catalogue_id=key,name=p['name'],reason='No usable original subject, shared-entry or consistent kin location within three held relationship steps, including saved capture relatives. No external lookup performed.'))
             continue
         merged={}
         for a in candidates:
