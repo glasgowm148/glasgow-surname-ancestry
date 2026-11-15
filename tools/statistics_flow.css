@@ -1,0 +1,23 @@
+/* Sankey selection changes emphasis, never the geometry of a ribbon or node. */
+.statistics-flow-toolbar{display:flex;align-items:center;justify-content:space-between;gap:16px;margin:0 0 13px}
+.statistics-flow-status{margin:0;color:#74846b;font:11px/1.6 var(--g-sans)}
+.statistics-flow-clear{appearance:none;flex:none;cursor:pointer;padding:6px 10px;border:1px solid #dbe3d2;border-radius:5px;background:#f1f5e9;color:#637c55;font:11px var(--g-sans)}
+.statistics-flow-clear:disabled{opacity:.4;cursor:default}
+.statistics-flow-clear:focus-visible{outline:2px solid #b68d4f;outline-offset:3px}
+.statistics-flow-stage .statistics-flow-link,.statistics-flow-stage .statistics-flow-node,.statistics-flow-stage .statistics-flow-label{stroke:none!important;filter:none!important;transition:opacity .12s,fill-opacity .12s}
+.statistics-flow-stage .statistics-flow-label{cursor:pointer}
+.statistics-flow-stage .statistics-flow-link{fill-opacity:.46}
+.statistics-flow-svg.has-selection .statistics-flow-link.is-connected{fill-opacity:.88}
+.statistics-flow-svg.has-selection .statistics-flow-link.is-muted{fill-opacity:.055}
+.statistics-flow-svg.has-selection .statistics-flow-node.is-muted{opacity:.2}
+.statistics-flow-svg.has-selection .statistics-flow-label.is-muted{opacity:.3}
+.statistics-flow-svg.has-selection .statistics-flow-label.is-selected{fill:#2c5135;font-weight:650}
+.statistics-flow-stage .statistics-flow-node:focus-visible,.statistics-flow-stage .statistics-flow-label:focus-visible,.statistics-flow-stage .statistics-flow-link:focus-visible{outline:2px solid #b68d4f;outline-offset:3px}
+@media(max-width:500px){.statistics-flow-toolbar{align-items:flex-start;gap:10px}.statistics-flow-status{font-size:10px}.statistics-flow-clear{font-size:10px}}
+
+.statistics-flow-toolbar{min-height:42px;align-items:flex-start}
+.statistics-panel[data-chart-view="flows"] .statistics-chart-tooltip{display:none!important}
+@media(max-width:500px){.statistics-flow-toolbar{min-height:96px}}
+
+.statistics-flow-stage .statistics-flow-svg{min-width:600px}
+.statistics-flow-stage .statistics-flow-label,.statistics-flow-stage .statistics-flow-heading{font-size:14px}

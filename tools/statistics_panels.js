@@ -125,18 +125,104 @@
       origins.set(row.origin, (origins.get(row.origin) || 0) + row.count);
       destinations.set(row.destination, (destinations.get(row.destination) || 0) + row.count);
     });
+    const countryColors = new Map([...new Set([...origins.keys(), ...destinations.keys()])].sort().map((name, index) => [name, palette[index % palette.length]]));
     const count = Math.max(origins.size, destinations.size), gap = 15;
     const height = Math.max(390, count * 34 + 65), available = height - 75;
     const scale = (available - gap * Math.max(0, count - 1)) / total;
+    const stage = element('div', undefined, 'statistics-flow-stage');
+    const toolbar = element('div', undefined, 'statistics-flow-toolbar');
+    const status = element('p', 'Hover or focus a country to explore its routes. Select to keep it highlighted.', 'statistics-flow-status');
+    status.setAttribute('role', 'status');
+    status.setAttribute('aria-live', 'polite');
+    const clear = element('button', 'Clear selection', 'statistics-flow-clear');
+    clear.type = 'button';
+    clear.disabled = true;
+    toolbar.append(status, clear);
     const svg = svgElement('svg', {viewBox: '0 0 900 ' + height, role: 'group', 'aria-label': 'Recorded migrations from birth region to death region', class: 'statistics-flow-svg'});
     svg.append(svgElement('text', {x: 240, y: 22, 'text-anchor': 'end', class: 'statistics-flow-heading'}, 'Birth region'));
     svg.append(svgElement('text', {x: 660, y: 22, class: 'statistics-flow-heading'}, 'Death region'));
+    stage.append(toolbar, svg);
+    const links = [], nodeElements = [];
+    let pinned = null, pointer = null, focused = null;
+    const sameSelection = (first, second) => !!first && !!second && first.kind === second.kind && (first.kind === 'country' ? first.region === second.region : first.origin === second.origin && first.destination === second.destination);
+    const incident = (row, selection) => selection.kind === 'country' ? row.origin === selection.region || row.destination === selection.region : row.origin === selection.origin && row.destination === selection.destination;
+    function style(item, connected, selected, active) {
+      item.node.setAttribute('class', item.base + (active ? connected ? ' is-connected' : ' is-muted' : '') + (selected ? ' is-selected' : ''));
+      item.node.setAttribute('aria-pressed', String(!!pinned && sameSelection(item.selection, pinned)));
+    }
+    function update() {
+      const selection = pinned || pointer?.selection || focused?.selection;
+      svg.setAttribute('class', 'statistics-flow-svg' + (selection ? ' has-selection' : ''));
+      stage.setAttribute('class', 'statistics-flow-stage' + (selection ? ' has-selection' : ''));
+      clear.disabled = !pinned;
+      const related = selection ? rows.filter(row => incident(row, selection)) : [];
+      const neighbors = new Set();
+      related.forEach(row => { neighbors.add(row.origin); neighbors.add(row.destination); });
+      links.forEach(item => {
+        const connected = !!selection && incident(item.row, selection);
+        style(item, connected, connected && selection.kind === 'route', !!selection);
+      });
+      nodeElements.forEach(item => {
+        const connected = !!selection && (selection.kind === 'country' ? neighbors.has(item.region) : item.side === 'birth' ? item.region === selection.origin : item.region === selection.destination);
+        const selected = !!selection && (selection.kind === 'country' ? item.region === selection.region : connected);
+        style(item, connected, selected, !!selection);
+      });
+      if (!selection) {
+        status.textContent = 'Hover or focus a country to explore its routes. Select to keep it highlighted.';
+      } else {
+        const label = selection.kind === 'country' ? selection.region : selection.origin + ' → ' + selection.destination;
+        status.textContent = label + ': ' + number(sum(related)) + ' recorded migrations across ' + related.length + (related.length === 1 ? ' route.' : ' routes.') + (' Share: ' + percentage(sum(related), total) + '.') + (pinned ? ' Selection pinned.' : ' Select to keep highlighted.');
+      }
+    }
+    function reset() {
+      pinned = pointer = focused = null;
+      tooltip.hidden = true;
+      update();
+    }
+    function bind(node, selection, label) {
+      node.setAttribute('tabindex', '0');
+      node.setAttribute('role', 'button');
+      node.setAttribute('aria-pressed', 'false');
+      node.setAttribute('aria-label', label);
+      node.append(svgElement('title', {}, label));
+      const control = {node, selection, label};
+      const show = () => { tooltip.textContent = label; tooltip.hidden = false; };
+      node.addEventListener('pointerenter', () => { pointer = control; show(); update(); });
+      node.addEventListener('pointerleave', () => {
+        if (pointer === control) pointer = null;
+        if (focused) { tooltip.textContent = focused.label; tooltip.hidden = false; } else tooltip.hidden = true;
+        update();
+      });
+      node.addEventListener('focus', () => { focused = control; show(); update(); });
+      node.addEventListener('blur', () => {
+        if (focused === control) focused = null;
+        if (pointer) { tooltip.textContent = pointer.label; tooltip.hidden = false; } else tooltip.hidden = true;
+        update();
+      });
+      function activate(event) {
+        if (event) event.stopPropagation();
+        if (sameSelection(pinned, selection)) reset();
+        else { pinned = selection; show(); update(); }
+      }
+      node.addEventListener('click', activate);
+      node.addEventListener('keydown', event => {
+        if (event.key === 'Enter' || event.key === ' ' || event.key === 'Spacebar') {
+          event.preventDefault();
+          activate(event);
+        }
+      });
+    }
+    clear.addEventListener('click', reset);
+    stage.addEventListener('keydown', event => {
+      if (event.key === 'Escape') { event.preventDefault(); event.stopPropagation(); reset(); }
+    });
+    svg.addEventListener('click', event => { if (event.target === svg) reset(); });
     function layout(totals) {
       const nodes = new Map();
       const sorted = [...totals].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
       let y = 45 + (available - total * scale - gap * (sorted.length - 1)) / 2;
-      sorted.forEach(([name, value], index) => {
-        nodes.set(name, {name, count: value, y, offset: 0, height: value * scale, color: palette[index % palette.length]});
+      sorted.forEach(([name, value]) => {
+        nodes.set(name, {name, count: value, y, offset: 0, height: value * scale, color: countryColors.get(name)});
         y += value * scale + gap;
       });
       return nodes;
@@ -145,19 +231,32 @@
     rows.slice().sort((a, b) => left.get(a.origin).y - left.get(b.origin).y || right.get(a.destination).y - right.get(b.destination).y).forEach(row => {
       const origin = left.get(row.origin), destination = right.get(row.destination);
       const y1 = origin.y + origin.offset, y2 = destination.y + destination.offset, thickness = row.count * scale;
-      const path = svgElement('path', {d: 'M260,' + y1 + ' C445,' + y1 + ' 455,' + y2 + ' 640,' + y2 + ' L640,' + (y2 + thickness) + ' C455,' + (y2 + thickness) + ' 445,' + (y1 + thickness) + ' 260,' + (y1 + thickness) + ' Z', fill: origin.color, 'fill-opacity': '.48', class: 'statistics-flow-link'});
-      svg.append(interactive(path, readable(row.origin + ' → ' + row.destination, row.count, total), tooltip));
+      // Ribbons underlap each opaque node by exactly one SVG unit. Drawing
+      // nodes afterwards conceals antialias seams without changing count scale.
+      const path = svgElement('path', {d: 'M259,' + y1 + ' C445,' + y1 + ' 455,' + y2 + ' 641,' + y2 + ' L641,' + (y2 + thickness) + ' C455,' + (y2 + thickness) + ' 445,' + (y1 + thickness) + ' 259,' + (y1 + thickness) + ' Z', fill: origin.color, 'fill-opacity': '.48', class: 'statistics-flow-link', 'data-flow-origin': row.origin, 'data-flow-destination': row.destination, 'data-flow-count': row.count});
+      const selection = {kind: 'route', origin: row.origin, destination: row.destination};
+      bind(path, selection, readable(row.origin + ' → ' + row.destination, row.count, total));
+      links.push({node: path, base: 'statistics-flow-link', selection, row});
+      svg.append(path);
       origin.offset += thickness; destination.offset += thickness;
     });
-    [left, right].forEach((nodes, side) => {
+    [left, right].forEach((nodes, sideIndex) => {
+      const side = sideIndex ? 'death' : 'birth';
       nodes.forEach(node => {
-        const rectangle = svgElement('rect', {x: side ? 640 : 246, y: node.y, width: 14, height: node.height, fill: node.color, class: 'statistics-flow-node'});
-        svg.append(interactive(rectangle, (side ? 'Death' : 'Birth') + ' region — ' + readable(node.name, node.count, total), tooltip));
-        svg.append(svgElement('text', {x: side ? 660 : 236, y: node.y + node.height / 2, dy: '.35em', 'text-anchor': side ? 'start' : 'end', class: 'statistics-flow-label'}, node.name + ' (' + number(node.count) + ')'));
+        const attributes = {'data-flow-region': node.name, 'data-flow-side': side};
+        const rectangle = svgElement('rect', {...attributes, x: sideIndex ? 640 : 246, y: node.y, width: 14, height: node.height, fill: node.color, class: 'statistics-flow-node'});
+        const label = svgElement('text', {...attributes, x: sideIndex ? 660 : 236, y: node.y + node.height / 2, dy: '.35em', 'text-anchor': sideIndex ? 'start' : 'end', class: 'statistics-flow-label'}, node.name + ' (' + number(node.count) + ')');
+        [rectangle, label].forEach((shape, index) => {
+          const selection = {kind: 'country', region: node.name};
+          bind(shape, selection, (sideIndex ? 'Death' : 'Birth') + ' region — ' + readable(node.name, node.count, total));
+          nodeElements.push({node: shape, base: index ? 'statistics-flow-label' : 'statistics-flow-node', region: node.name, side, selection});
+          svg.append(shape);
+        });
       });
     });
-    const note = element('p', number(total) + ' recorded migrations. ' + (data.complete ? 'All recorded broad-region flows are included.' : 'Only the flows in the displayed list are included; other recorded migrations are outside this diagram.') + ' Widths and node heights use the same count scale. Birth and death columns are separate even when a region appears in both. These endpoints do not establish a direct move or travel route. Hover, tap or focus a flow for its count and share.', 'statistics-chart-note');
-    return [svg, note];
+    const note = element('p', number(total) + ' recorded migrations. ' + (data.complete ? 'All recorded broad-region flows are included.' : 'Only the flows in the displayed list are included; other recorded migrations are outside this diagram.') + ' Widths and node heights use the same count scale. Birth and death columns are separate even when a region appears in both. These endpoints do not establish a direct move or travel route. Hover or focus a country to highlight all its incoming and outgoing routes. Click, Enter or Space pins a country or route; Escape, Clear selection or the empty chart clears it.', 'statistics-chart-note');
+    update();
+    return [stage, note];
   }
   function horizontalBars(rows, title, tooltip) {
     const shown = rows.slice(0, 10);

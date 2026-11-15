@@ -243,6 +243,7 @@ def install_chart_assets(shell):
         'statistics_page.css': 'statistics.css',
         'statistics_names.css': 'statistics-names.css',
         'statistics_stories.css': 'statistics-stories.css',
+        'statistics_flow.css': 'statistics-flow.css',
         'statistics_names.js': 'statistics-names.js',
         'statistics_panels.js': 'statistics-panels.js',
         'statistics_layout.js': 'statistics-layout.js',
