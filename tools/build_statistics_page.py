@@ -103,7 +103,7 @@ def first_names_panel():
         ''.join(f'<option value="{year}">Before {year} (&lt;{year})</option>' for year in range(1500, 2100, 100)) +
         '</select></label><label for="names-gender">Gender<select id="names-gender">'
         '<option value="">All genders</option><option>Female</option><option>Male</option>'
-        '<option>Unknown</option></select></label><label class="statistics-name-inference" for="names-infer"><input type="checkbox" id="names-infer" checked> Include gender suggested by names</label><button type="button" id="names-reset">Reset filters</button></div>'
+        '<option>Unknown</option></select></label><button type="button" id="names-reset">Reset filters</button></div>'
         '<p id="names-summary" role="status" aria-live="polite"></p>'
         '<div class="statistics-name-layout"><div class="statistics-name-chart"><div id="names-pie"></div><p class="statistics-pie-hint">Hover, tap or focus a slice to explore a name.</p></div>'
         '<div class="statistics-name-table"><table><caption>First-name counts and percentages</caption>'
@@ -111,7 +111,7 @@ def first_names_panel():
         '<tbody id="names-rows"></tbody></table></div></div>'
         '<p class="statistics-name-note">Year filters are cumulative: before 1800 includes all dated births earlier than 1800. '
         'Approximate single years are included; missing years, date ranges and before/after dates are excluded when a year filter is selected. '
-        'With name suggestions enabled, missing genders use the majority gender for that first name only when at least five catalogue people support it and agreement is at least 98%. These are chart-only suggestions, not changes to catalogue facts. Initials and ambiguous names remain Unknown. The pie shows the 12 most common names and groups the rest as Other names; the table lists every name. '
+        'Gender uses the maintained catalogue classifications. Clear historical given names are classified in the underlying workbench; initials and ambiguous names remain Unknown. The pie shows the 12 most common names and groups the rest as Other names; the table lists every name. '
         'These are catalogue patterns, not population statistics.</p>'
         '<noscript>Enable JavaScript to explore the chart and filters.</noscript>'
         '<script type="application/json" id="names-data">' + payload + '</script></section>'
@@ -162,8 +162,8 @@ def repair():
         target = WEB / 'assets/repair' / f'statistics-names.{extension}'
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_text(source.read_text(encoding='utf-8'), encoding='utf-8')
-    shell = shell.replace('</head>', '<link rel="stylesheet" href="/assets/repair/statistics-names.css?v=5"></head>', 1)
-    shell = shell.replace('</body>', '<script src="/assets/repair/statistics-names.js?v=5" defer></script></body>', 1)
+    shell = shell.replace('</head>', '<link rel="stylesheet" href="/assets/repair/statistics-names.css?v=6"></head>', 1)
+    shell = shell.replace('</body>', '<script src="/assets/repair/statistics-names.js?v=6" defer></script></body>', 1)
     output = WEB / 'statistics/index.html'
     output.parent.mkdir(parents=True, exist_ok=True)
     before = output.read_text(encoding='utf-8') if output.exists() else None

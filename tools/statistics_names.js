@@ -6,7 +6,6 @@
   const rows = JSON.parse(data.textContent);
   const century = document.getElementById('names-century');
   const gender = document.getElementById('names-gender');
-  const infer = document.getElementById('names-infer');
   const summary = document.getElementById('names-summary');
   const pie = document.getElementById('names-pie');
   const body = document.getElementById('names-rows');
@@ -33,31 +32,13 @@
       ' A 106 106 0 0 0 ' + point(106, middle).join(' ') +
       ' A 106 106 0 0 0 ' + point(106, start).join(' ') + ' Z';
   }
-  const knownGenders = new Map();
-  for (const [name, , sex, count] of rows) {
-    if (sex === 'Unknown') continue;
-    const known = knownGenders.get(name) || {Male: 0, Female: 0};
-    known[sex] += count;
-    knownGenders.set(name, known);
-  }
-  function suggestedGender(name) {
-    if (name.length < 3) return '';
-    const known = knownGenders.get(name);
-    if (!known) return '';
-    const majority = known.Male >= known.Female ? 'Male' : 'Female';
-    return known[majority] >= 5 && known[majority] / (known.Male + known.Female) >= 0.98 ? majority : '';
-  }
   function render() {
     const counts = new Map();
     let omitted = 0;
-    let suggested = 0;
     for (const [name, year, sex, count] of rows) {
-      const suggestion = infer.checked && sex === 'Unknown' ? suggestedGender(name) : '';
-      const effectiveGender = suggestion || sex;
-      if (gender.value && effectiveGender !== gender.value) continue;
+      if (gender.value && sex !== gender.value) continue;
       if (century.value && year === null) { omitted += count; continue; }
       if (century.value && year >= Number(century.value)) continue;
-      if (suggestion) suggested += count;
       counts.set(name, (counts.get(name) || 0) + count);
     }
     const names = [...counts].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
@@ -70,9 +51,6 @@
       : 'No people match these filters.';
     summary.textContent += ' · ' + (century.value ? 'Born before ' + century.value : 'All birth years') +
       ' · ' + (gender.value || 'All genders') + ' · Surname at birth: Glasgow';
-    summary.textContent += infer.checked
-      ? ' · ' + fmt.format(suggested) + ' genders suggested from names'
-      : ' · Catalogue genders only';
     if (century.value) summary.textContent += ' · ' + fmt.format(omitted) + ' excluded without a single birth year.';
     pie.replaceChildren();
     body.replaceChildren();
@@ -201,6 +179,5 @@
   });
   century.addEventListener('change', render);
   gender.addEventListener('change', render);
-  infer.addEventListener('change', render);
   render();
 })();

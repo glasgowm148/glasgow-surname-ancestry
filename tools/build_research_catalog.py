@@ -3779,6 +3779,11 @@ def _build_people(records: list[dict], profiles: dict[str, dict], edges: list[li
             ],
         }
         people.append(privacy.project(person))
+    try:
+        from tools.catalogue_gender import project_genders
+    except ModuleNotFoundError:
+        from catalogue_gender import project_genders
+    project_genders(people)
     _add_captured_children(people, captured_links)
     return sorted(people, key=lambda person: (person["name"].casefold(), person["birth"], person["catalogue_id"]))
 
