@@ -195,11 +195,31 @@ def chart_views(panels, summary=None, people=None, index=None):
     comparison = panel('given-names')
     if comparison:
         comparison = '<details class="statistics-comparison"><summary>Compare first names across all surnames<span>Entire catalogue</span></summary>' + comparison + '</details>'
+    try:
+        from tools.statistics_generations import render_generations_story
+        from tools.statistics_places import render_places_story
+        from tools.statistics_journeys import render_journeys_story
+    except ModuleNotFoundError:
+        from statistics_generations import render_generations_story
+        from statistics_places import render_places_story
+        from statistics_journeys import render_journeys_story
+    migration_script = soup.select_one('.statistics-migration-data')
+    flows = json.loads(migration_script.string) if migration_script and migration_script.string else []
+    branch_detail = panel('family-branches')
+    if branch_detail:
+        branch_detail = '<details class="statistics-story-details"><summary>Compare all exported family branches</summary>' + branch_detail + '</details>'
+    places_details = (
+        '<section class="statistics-places-detail-section"><div class="statistics-story-section-head"><div>'
+        '<span class="statistics-story-eyebrow">Places and marriage connections</span>'
+        '<h3>Inside the regional records</h3><p>Compare mapped associations and recorded spouse surnames.</p></div></div>'
+        '<div class="statistics-grid">' + ''.join(panel(ident) for ident in ('regions', 'mapped-places', 'married-surnames')) +
+        '</div>' + branch_detail + '</section>'
+    )
     views = {
         'names': first_names_panel(people) + comparison,
-        'time': '<header class="statistics-view-head"><span class="r-kicker">Across generations</span><h2>When they were born</h2><p>Recorded birth years across the whole catalogue, including approximate dates.</p></header>' + panel('birth-centuries'),
-        'places': '<header class="statistics-view-head"><span class="r-kicker">Roots and connections</span><h2>Places &amp; families</h2><p>Explore the communities, branches and marriage connections in the collection.</p></header><div class="statistics-grid">' + ''.join(panel(ident) for ident in ('regions', 'family-branches', 'mapped-places', 'married-surnames')) + '</div>',
-        'journeys': '<header class="statistics-view-head"><span class="r-kicker">Across borders</span><h2>Recorded journeys</h2><p>These links compare birth and death regions; they do not reconstruct travel routes.</p></header>' + panel('migration'),
+        'time': render_generations_story(people or [], panel('birth-centuries')),
+        'places': render_places_story(people or [], index or [], summary or '', web_root=WEB) + places_details,
+        'journeys': render_journeys_story(flows, panel('migration'), web_root=WEB),
     }
     if summary is not None:
         try:
@@ -210,8 +230,8 @@ def chart_views(panels, summary=None, people=None, index=None):
     # Preserve unusual legacy panels rather than dropping their source counts.
     known = {'given-names', 'birth-centuries', 'regions', 'family-branches', 'mapped-places', 'married-surnames', 'migration'}
     views['places'] += ''.join(str(item) for item in all_panels if item.get('id') not in known)
-    tabs = [('names', 'Overview', 'statistics-view-names'), ('time', 'Generations', 'birth-centuries'),
-            ('places', 'Places &amp; families', 'regions'), ('journeys', 'Journeys', 'migration')]
+    tabs = [('names', 'Overview', 'statistics-view-names'), ('time', 'Generations', 'statistics-view-time'),
+            ('places', 'Places &amp; families', 'statistics-view-places'), ('journeys', 'Journeys', 'statistics-view-journeys')]
     nav = '<nav class="statistics-view-tabs" id="statistics-detail-title" aria-label="Explore statistics">' + ''.join(
         '<a id="statistics-tab-' + key + '" href="#' + anchor + '" data-statistics-view="' + key + '">' + label + '</a>'
         for key, label, anchor in tabs) + '</nav>'
@@ -222,6 +242,7 @@ def install_chart_assets(shell):
     assets = {
         'statistics_page.css': 'statistics.css',
         'statistics_names.css': 'statistics-names.css',
+        'statistics_stories.css': 'statistics-stories.css',
         'statistics_names.js': 'statistics-names.js',
         'statistics_panels.js': 'statistics-panels.js',
         'statistics_layout.js': 'statistics-layout.js',

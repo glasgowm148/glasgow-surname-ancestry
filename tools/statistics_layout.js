@@ -40,6 +40,7 @@
       pane.setAttribute('role', 'tabpanel');
       pane.tabIndex = 0;
     });
+    selected.scrollIntoView?.({block: 'nearest', inline: 'nearest'});
     if (updateHistory && location.hash !== selected.hash) history.pushState(null, '', selected.hash);
   }
   function fromHash(scroll = false) {

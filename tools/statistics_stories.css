@@ -1,0 +1,141 @@
+/* Bespoke visual stories for the remaining Statistics explorer tabs. */
+.statistics-story-hero{--story-ink:#f5efdf;--story-muted:#a7c0b0;--story-accent:#e0bf82;display:grid;grid-template-columns:minmax(230px,.8fr) minmax(0,1.2fr);gap:27px;align-items:center;padding:31px;border-radius:14px;background:#193e33;color:var(--story-ink);overflow:hidden}
+.statistics-story-eyebrow{display:block;color:#a99268;font:600 9px/1.5 var(--g-sans);letter-spacing:.15em;text-transform:uppercase}
+.statistics-story-hero .statistics-story-eyebrow{color:var(--story-muted)}
+.statistics-page .statistics-story-copy h2{margin:11px 0 15px;color:var(--story-ink);font:400 clamp(34px,4vw,50px)/1.07 var(--g-serif);letter-spacing:-.03em}
+.statistics-story-copy>p{margin:0;color:var(--story-muted);font:12px/1.75 var(--g-sans)}
+.statistics-story-metrics{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:19px 22px;margin-top:25px}
+.statistics-story-metrics strong{display:block;color:var(--story-accent);font:400 31px/1.08 var(--g-serif);font-variant-numeric:tabular-nums}
+.statistics-story-metrics span{display:block;margin-top:5px;max-width:180px;color:var(--story-muted);font:10px/1.5 var(--g-sans)}
+.statistics-story-caption{color:#8b977e;font:10px/1.7 var(--g-sans);margin:13px 0 0}
+.statistics-story-hero .statistics-story-caption{font-size:9px;color:var(--story-muted);opacity:.8;margin-top:20px}
+.statistics-story-section-head{display:flex;justify-content:space-between;align-items:center;gap:20px;margin:29px 0 19px}
+.statistics-page .statistics-story-section-head h3,.statistics-page .statistics-places-branch-head h3{margin:6px 0 7px;color:#3b593e;font:500 29px/1.2 var(--g-serif);letter-spacing:-.025em}
+.statistics-story-section-head p{margin:0;color:#87947a;font:12px/1.7 var(--g-sans)}
+.statistics-story-badge{flex:none;padding:7px 12px;border-radius:99px;background:#eaf0e3;color:#738268;font:10px var(--g-sans)}
+.statistics-story-details{margin-top:20px;padding:17px 20px;border:1px solid #dfe5d6;border-radius:9px;background:#f4f7ed}
+.statistics-story-details>summary{cursor:pointer;color:#677b57;font:600 12px var(--g-sans)}
+.statistics-story-details>.statistics-panel{margin-top:20px}
+
+/* Generations: a warm, panoramic chart stage, then a closer view of the data. */
+.statistics-generations-hero{--story-muted:#c4b69a;--story-accent:#e9c982;display:block;background:#4b402e;background-image:radial-gradient(ellipse at 80% 10%,#8e74452e,transparent 75%)}
+.statistics-generations-copy{display:grid;grid-template-columns:1.15fr 1fr;gap:0 34px;align-items:start}
+.statistics-generations-copy>.statistics-story-eyebrow{grid-column:1/-1}
+.statistics-page .statistics-generations-copy h2{font-size:clamp(34px,3.6vw,47px)}
+.statistics-generations-copy>p{grid-column:1}
+.statistics-generations-metrics{grid-column:2;grid-row:2/5;margin-top:14px;gap:19px 20px}
+.statistics-generations-copy>.statistics-story-caption{grid-column:1;margin-top:14px!important;font-size:10px}
+.statistics-generations-chart{margin-top:24px;min-width:0}
+.statistics-page .statistics-generations-hero #birth-centuries{background:none;border:0;border-radius:0;padding:0}
+.statistics-generations-hero .statistics-chart-controls{background:#ffffff0b;border-color:#d8c89833;margin:0 0 6px}
+.statistics-generations-hero .statistics-chart-controls button{color:#bcaf91}
+.statistics-generations-hero .statistics-chart-controls button[aria-pressed="true"]{background:#f3e7cc;color:#4b422f}
+.statistics-generations-hero .statistics-columns-svg{max-width:none;max-height:330px}
+.statistics-generations-hero .statistics-column{fill:#d6b874}
+.statistics-generations-hero .statistics-column-count{fill:#f0dbab;font-size:14px}
+.statistics-generations-hero .statistics-column-label{fill:#cdbf9e;font-size:14px}
+.statistics-generations-hero .statistics-chart-axis{fill:#b6a584;font-size:12px}
+.statistics-generations-hero .statistics-chart-gridline{stroke:#fff5d7;stroke-opacity:.12}
+.statistics-generations-hero .statistics-panel-method{border-color:#e6d9b825}
+.statistics-generations-hero .statistics-panel-method>summary,.statistics-generations-hero .statistics-panel-method p,.statistics-generations-hero .statistics-chart-note{color:#b9ac8f}
+.statistics-generations-hero .statistics-label,.statistics-generations-hero .statistics-label a,.statistics-generations-hero .statistics-bars strong{color:#e2cfaa}
+.statistics-generations-hero .statistics-bar{background:#ffffff17}
+.statistics-generations-hero .statistics-chart-tooltip{background:#f4e8cf;color:#574830}
+.statistics-generations-composition,.statistics-generations-coverage{margin-top:22px;border:1px solid #dfe5d7;border-radius:12px;padding:26px;background:#fffdf7;min-width:0}
+.statistics-generations-section-head{display:flex;align-items:center;justify-content:space-between;gap:25px;margin-bottom:23px}
+.statistics-page .statistics-generations-section-head h3{margin:6px 0 8px;color:#3c593f;font:500 28px/1.2 var(--g-serif);letter-spacing:-.02em}
+.statistics-generations-section-head p{margin:0;color:#8b967f;font:12px/1.6 var(--g-sans)}
+.statistics-generations-legend{display:flex;flex-wrap:wrap;gap:14px;flex:none;color:#74866a;font:11px var(--g-sans)}
+.statistics-generations-legend span{display:flex;align-items:center;gap:6px}
+.statistics-generations-legend i{display:block;width:8px;height:8px;border-radius:2px}
+.statistics-generations-gender-chart{display:block;width:100%;height:auto;min-width:570px;color:#7c8d70}
+.statistics-generations-gender-scroll{overflow-x:auto}
+.statistics-generations-century-label{font:13px var(--g-sans);fill:#667d5b}.statistics-generations-century-total{font:600 13px var(--g-sans);fill:#5d7655}
+.statistics-generations-values,.statistics-generations-method{margin-top:17px;border-top:1px solid #e3e8dc;padding-top:11px}
+.statistics-generations-values>summary,.statistics-generations-method>summary{cursor:pointer;color:#829075;font:11px var(--g-sans)}
+.statistics-generations-table-wrap{overflow:auto;margin-top:15px}.statistics-generations-table-wrap table{width:100%;border-collapse:collapse;font:12px var(--g-sans);color:#718266}
+.statistics-generations-table-wrap th,.statistics-generations-table-wrap td{padding:9px;border-bottom:1px solid #e7ebdf;text-align:right;font-variant-numeric:tabular-nums}.statistics-generations-table-wrap th:first-child{text-align:left}
+.statistics-generations-coverage{background:#eef3e6}
+.statistics-generations-coverage-percent{display:block;flex:none;color:#587650;font:400 36px/1 var(--g-serif)}
+.statistics-generations-coverage-percent span{display:block;margin-top:6px;color:#8b9b7a;font:10px var(--g-sans)}
+.statistics-generations-rail{display:flex;gap:0;overflow:hidden;height:15px;border-radius:99px;background:#dde5d2}
+.statistics-generations-rail span{display:block;height:100%}.statistics-generations-dated{background:#66845b}.statistics-generations-undated{background:#d9dfc9}
+.statistics-generations-coverage-labels{display:flex;justify-content:space-between;gap:14px;margin-top:12px;font:11px var(--g-sans);color:#8c9c7b}
+.statistics-generations-coverage-labels strong{color:#6b825c;font-weight:600}
+.statistics-generations-method p{font:12px/1.8 var(--g-sans);color:#87967b}
+.statistics-generations-empty{font:12px var(--g-sans);color:#8b967e}
+
+/* Places: geography and proportional family-group symbols. */
+.statistics-places-hero{background:#1f4438}
+.statistics-places-atlas{min-width:0}
+.statistics-places-hero .statistics-map-heading{color:#bfd0ba}
+.statistics-places-hero .statistics-map-caption{color:#8da68f}
+.statistics-places-branches{margin-top:22px;padding:25px 27px 19px;border:1px solid #dfe5d6;border-radius:12px;background:#fffdf7}
+.statistics-places-branch-head{display:flex;align-items:center;justify-content:space-between;gap:24px}
+.statistics-places-branch-head>p{font:10px/1.5 var(--g-sans);color:#929e85;max-width:190px;text-align:right}
+.statistics-places-constellation{display:block;width:100%;height:auto;margin-top:21px;min-width:600px}
+.statistics-places-constellation-wrap{overflow-x:auto}
+.statistics-places-root{cursor:pointer;transition:filter .15s}
+.statistics-places-root:hover,.statistics-places-root:focus-visible{filter:brightness(1.13);outline:none;stroke:#e3bc75;stroke-width:3}
+.statistics-places-root-count{font:500 23px var(--g-serif);fill:#fff}
+.statistics-places-root-name{font:12px var(--g-sans);fill:#637a58}.statistics-places-root-id{font:10px var(--g-sans);fill:#96a48b}
+.statistics-places-detail-section>.statistics-story-section-head{margin-top:32px}
+
+/* Journeys: a geographic overture and a full-width, conserved flow diagram. */
+.statistics-journeys-hero{--story-muted:#a1bec0;--story-accent:#e1c58c;background:#203f46;background-image:radial-gradient(ellipse at 80% 10%,#507a792c,transparent 70%)}
+.statistics-journeys-geography{min-width:0;margin:0}
+.statistics-journeys-geography>figcaption{font:10px var(--g-sans);letter-spacing:.05em;color:#b6cdca}
+.statistics-journeys-map{display:block;width:100%;height:auto;margin:14px 0}
+.statistics-journeys-land{fill:#4b7372;fill-opacity:.62;stroke:#a4c1b3;stroke-opacity:.2;stroke-width:.5}
+.statistics-journeys-arc{stroke:#e5c58a;stroke-opacity:.7;cursor:pointer;transition:stroke-opacity .15s}
+.statistics-journeys-arc:hover,.statistics-journeys-arc:focus-visible{stroke-opacity:1;outline:none}
+.statistics-journeys-node{fill:#f1d398;stroke:#2b565b;stroke-width:1.3}
+.statistics-journeys-map-label{fill:#a5c2bb;font:11px var(--g-sans)}
+.statistics-journeys-flow-section{margin-top:28px}
+.statistics-page .statistics-journeys-flow-section #migration{background:#fffdf7;border-radius:12px}
+.statistics-journeys-flow-section .statistics-flow-svg{max-width:1100px}
+.statistics-journeys-detail-grid{display:grid;grid-template-columns:1.4fr 1fr;gap:20px;margin-top:22px}
+.statistics-journeys-leading,.statistics-journeys-endpoints{min-width:0;border:1px solid #dfe5d7;border-radius:12px;padding:25px;background:#fffdf7}
+.statistics-page .statistics-journeys-leading h3{margin:7px 0 22px;color:#405e43;font:500 27px/1.2 var(--g-serif)}
+.statistics-journeys-corridors{list-style:none;margin:0;padding:0;display:grid;gap:19px}
+.statistics-journeys-corridor-label{display:grid;grid-template-columns:1fr auto;gap:5px 15px;color:#597650;font:12px var(--g-sans)}
+.statistics-journeys-corridor-label i{font-style:normal;color:#adbb9b;margin-inline:4px}
+.statistics-journeys-corridor-label strong{font:500 19px var(--g-serif);color:#496947}
+.statistics-journeys-corridor-label small{grid-column:1/-1;font:10px var(--g-sans);color:#a0ac90}
+.statistics-journeys-track{height:5px;margin-top:8px;border-radius:99px;background:#edf1e4;overflow:hidden}.statistics-journeys-track i{display:block;height:100%;background:#719486;border-radius:99px}
+.statistics-journeys-endpoints{background:#edf3e8}.statistics-journeys-endpoints>div{padding:28px 0;border-bottom:1px solid #dce5d1}
+.statistics-journeys-endpoint-label{display:block;color:#9aa88c;font:10px var(--g-sans)}
+.statistics-journeys-endpoints strong{display:block;margin:8px 0;color:#50724f;font:500 29px var(--g-serif)}
+.statistics-journeys-endpoints>div>span:last-child{display:block;color:#8b9e7b;font:12px var(--g-sans)}
+@media(max-width:900px){.statistics-story-hero{padding:27px;gap:22px}.statistics-page .statistics-story-copy h2{font-size:38px}.statistics-generations-copy{gap:0 25px}.statistics-story-metrics strong{font-size:28px}}
+@media(max-width:700px){
+ .statistics-story-hero{grid-template-columns:1fr;padding:25px;gap:24px}.statistics-page .statistics-story-copy h2{font-size:37px}
+ .statistics-story-metrics{grid-template-columns:repeat(2,minmax(0,1fr));gap:17px;margin-top:22px}
+ .statistics-generations-copy{display:block}.statistics-generations-metrics{grid-template-columns:repeat(3,minmax(0,1fr))}.statistics-generations-metrics strong{font-size:26px}
+ .statistics-generations-chart{margin-top:22px}.statistics-generations-hero .statistics-columns-svg{max-height:280px}
+ .statistics-generations-composition,.statistics-generations-coverage,.statistics-places-branches{padding:22px 18px}
+ .statistics-generations-section-head,.statistics-places-branch-head,.statistics-story-section-head{display:block}
+ .statistics-generations-legend{margin-top:15px}.statistics-generations-coverage-percent{margin-top:15px}
+ .statistics-generations-coverage-labels{font-size:10px}.statistics-generations-coverage-labels>span{max-width:47%}
+ .statistics-places-branch-head>p{text-align:left;max-width:none;margin:11px 0}
+ .statistics-story-badge{display:inline-block;margin-top:10px}.statistics-journeys-detail-grid{grid-template-columns:1fr}
+ .statistics-journeys-leading,.statistics-journeys-endpoints{padding:22px 19px}
+ .statistics-places-atlas,.statistics-journeys-geography{padding-top:18px;border-top:1px solid #ffffff1c}
+}
+@media(max-width:420px){.statistics-generations-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}.statistics-story-hero{padding:23px}}
+
+.statistics-generations-hero .statistics-chart-legend{color:#c5b79b}.statistics-generations-hero .statistics-chart-data{border-color:#e6d9b825}
+
+/* Keep the full century distribution readable at phone width. */
+.statistics-view-tabs{position:sticky;top:var(--g-bar,66px);z-index:40;background:#f5f4edf2;backdrop-filter:blur(10px)}
+.statistics-view,.statistics-page .statistics-panel{scroll-margin-top:124px}
+@media(max-width:700px){
+ .statistics-generations-hero .statistics-columns-svg{min-width:0;max-height:none}
+ .statistics-generations-hero .statistics-column-count,.statistics-generations-hero .statistics-column-label{font-size:24px}
+ .statistics-generations-hero .statistics-chart-axis{display:none}
+ .statistics-generations-copy>.statistics-story-caption{display:none}
+}
+@media(max-width:420px){
+ body.stats-dashboard .statistics-page-head h1{font-size:22px!important}
+ .statistics-page-head .r-kicker{font-size:8px;letter-spacing:.1em}
+}
