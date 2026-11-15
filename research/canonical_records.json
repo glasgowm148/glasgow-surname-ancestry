@@ -114006,9 +114006,9 @@
     },
     "note": "The marriage index names Jas. Glasgow and Mary Ann Sutton on 28 Jun 1867 at Edinburgh Parish, Edinburgh, Midlothian, Scotland. groom Jas. Glasgow: new catalogue draft record-ancestry-glasgow-b91cb9056033, held for identity review; compatible catalogue people remain (Glasgow-3837 James Glasgow b. 1839 (chronology fits, spouse Mary Anne (Leitch) Glasgow matches indexed spouse given name Mary); Glasgow-3307 James Glasgow b. 1832 (spouse Mary Ann (Leitch) Glasgow matches indexed spouse given name Mary); Glasgow-2738 James J Glasgow b. c. 1810 (spouse Mary Caroline (Thompson) Glasgow matches indexed spouse given name Mary); Glasgow-193 James M Glasgow b. 1799-05-31 d. 1875-01-11 (spouse Mary (McNeil) Glasgow matches indexed spouse given name Mary); Glasgow-1780 James McClure Glasgow b. 1805-05-27 d. 1890-06-30 (spouse Mary (Wightman) Glasgow matches indexed spouse given name Mary); Glasgow-2089 James W Glasgow b. c. 1821 d. 1894 (spouse Mary Ann (Unknown) Glasgow matches indexed spouse given name Mary); record-ancestry-glasgow-f400b19e50da James Glasgow (spouse Mary matches indexed spouse given name Mary); record-ancestry-glasgow-90c84d84cff4 James Glasgow (spouse Mary matches indexed spouse given name Mary)). Ruled out: Glasgow-113 James A Glasgow b. 1884-08: dates conflict: catalogue birth 1884-08 too late for a marriage in 1867; place cannot fit: catalogue life recorded only outside the British Isles (Arkansas, United States); Glasgow-2756 James A Glasgow b. 1893-12: dates conflict: catalogue birth 1893-12 too late for a marriage in 1867; place cannot fit: catalogue life recorded only outside the British Isles (Alabama, United States); Glasko-22 James A Glasko b. 1860: dates conflict: catalogue birth 1860 too late for a marriage in 1867; place cannot fit: catalogue life recorded only outside the British Isles (Connecticut, United States); Glasgow-3420 James Adam Glasgow b. 1874 d. 1945-08-27: dates conflict: catalogue birth 1874 too late for a marriage in 1867; place cannot fit: catalogue life recorded only outside the British Isles (Westland, New Zealand); different named spouse (Ethel Marion (Redward) Glasgow; record names Mary); Glasgow-45 James Albert Glasgow b. c. 1796 d. c. 1878-03: different named spouse (Elizabeth (Groff) Glasgow; record names Mary); Glasgow-3265 James Alexander Glasgow b. 1835: different named spouse (Ann (Andrews) Glasgow; record names Mary); unlikely without further evidence: already linked to the 1851 marriage to Ann (ancestry-60144-2930118); Glasgow-1673 James Alexander Glasgow b. 1867-01-11 d. 1949: dates conflict: catalogue birth 1867-01-11 too late for a marriage in 1867; place cannot fit: catalogue life recorded only outside the British Isles (Halifax, Halifax, Nova Scotia, Canada); different named spouse (Genette Mae (Grant) Glasgow; record names Mary); Glasgow-1724 James Alexander Glasgow b. c. 1863 d. 1935-05-24: dates conflict: catalogue birth c. 1863 too late for a marriage in 1867.",
     "profiles": {
-      "record-ancestry-glasgow-b91cb9056033": {
-        "role": "Documentary subject: groom",
-        "assessment": "identity_hold",
+      "record-ancestry-glasgow-98605ded7d74": {
+        "role": "Documentary subject: groom; probable identity within the James Glasgow/Mary Ann Sutton family",
+        "assessment": "probable",
         "timeline_group": "Life events"
       }
     },
@@ -114021,7 +114021,14 @@
     "provenance": "private Ancestry capture glasgow-records/scotland-select-marriages-1561-1910-60144/results-AH.csv",
     "reviewed_on": "2026-11-04",
     "publish_to_record_index": true,
-    "reference": "Original data: Scotland, Marriages, 1561-1910 (FamilySearch index of Scottish parish registers)"
+    "reference": "Original data: Scotland, Marriages, 1561-1910 (FamilySearch index of Scottish parish registers)",
+    "identity_review_history": [
+      {
+        "reviewed_on": "2026-11-15",
+        "conclusion": "Probable source-coherent documentary consolidation; named child and parent roles retained separately.",
+        "basis": "Held derivative indexes correlate James Glasgow and Mary Ann Sutton across the 1867 Edinburgh marriage, five children born during 1868–1881 at Kirknewton and East Calder, and the shared Kirknewton inscription naming wife Mary Ann Sutton and parents James Glasgow and Agnes Hunter. These are probable documentary adult identities, not a proved existing WikiTree match. Original registers and stone remain uninspected; repeated indexes are not independent evidence. Fred in the inscription is not automatically equated with Frederick Dunford. The 1841 child and older father remain different generations. The Limekilns probate candidate remains separate: an exact 1903 death date alone does not establish identity."
+      }
+    ]
   },
   {
     "record_id": "ancestry-60144-2079362",
@@ -259623,9 +259630,9 @@
         "assessment": "documentary",
         "timeline_group": "Life events"
       },
-      "record-ancestry-glasgow-c6e0a4eb3b66": {
-        "role": "Documentary subject: father of Frederick Dunford Glasgow",
-        "assessment": "identity_hold",
+      "record-ancestry-glasgow-98605ded7d74": {
+        "role": "Documentary subject: father of Frederick Dunford Glasgow; probable identity within the James Glasgow/Mary Ann Sutton family",
+        "assessment": "probable",
         "timeline_group": "Family records"
       }
     },
@@ -259638,7 +259645,14 @@
     "provenance": "private Ancestry capture glasgow-records/scotland-select-births-and-baptisms-1564-1950-60143/1217-Frederick_Dunford_Glasgow-1874.txt",
     "reviewed_on": "2026-11-05",
     "publish_to_record_index": true,
-    "reference": "Original data: Scotland, Births and Baptisms, 1564-1950 (FamilySearch index of Scottish parish registers)"
+    "reference": "Original data: Scotland, Births and Baptisms, 1564-1950 (FamilySearch index of Scottish parish registers)",
+    "identity_review_history": [
+      {
+        "reviewed_on": "2026-11-15",
+        "conclusion": "Probable source-coherent documentary consolidation; named child and parent roles retained separately.",
+        "basis": "Held derivative indexes correlate James Glasgow and Mary Ann Sutton across the 1867 Edinburgh marriage, five children born during 1868–1881 at Kirknewton and East Calder, and the shared Kirknewton inscription naming wife Mary Ann Sutton and parents James Glasgow and Agnes Hunter. These are probable documentary adult identities, not a proved existing WikiTree match. Original registers and stone remain uninspected; repeated indexes are not independent evidence. Fred in the inscription is not automatically equated with Frederick Dunford. The 1841 child and older father remain different generations. The Limekilns probate candidate remains separate: an exact 1903 death date alone does not establish identity."
+      }
+    ]
   },
   {
     "record_id": "ancestry-60143-17848022",
@@ -259669,8 +259683,8 @@
     },
     "note": "Ancestry Scotland, Select Births and Baptisms, 1564-1950 parent entry: James Glasgow, parent of Frederick Dunford Glasgow, other parent Mary Ann Sutton (the child's baptism record is Ancestry record 17848021, 5 Aug 1874, Kirknewton and East Calder,Midlothian,Scotland). [Transcript read after the first integration; identity links unchanged.] Ancestry Scotland, Select Births and Baptisms, 1564-1950 search-result parent entry: James Glasgow, parent of Frederick Dunford Glasgow, other parent Mary Ann (the child's baptism record is Ancestry record 17848021, 5 Aug 1874, Kirknewton and East Calder,Midlothian,Scotland). Search-result row only: relatives are given names, surnames are not indexed in the row. father of Frederick Dunford Glasgow James Glasgow linked to record-ancestry-glasgow-c6e0a4eb3b66 (James Glasgow) as a probable identity: same index entry as the father in the linked marriage record. Same-name candidates ruled out: Glasgow-113 James A Glasgow b. 1884-08: dates conflict: catalogue birth 1884-08 too late for a parent in 1874; place cannot fit: catalogue birth place Arkansas, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Arkansas, United States); Glasgow-2756 James A Glasgow b. 1893-12: dates conflict: catalogue birth 1893-12 too late for a parent in 1874; place cannot fit: catalogue birth place Alabama, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Alabama, United States); Glasko-22 James A Glasko b. 1860: dates conflict: catalogue birth 1860 too late for a parent in 1874; place cannot fit: catalogue birth place Connecticut, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Connecticut, United States); Glasgow-3420 James Adam Glasgow b. 1874 d. 1945-08-27: dates conflict: catalogue birth 1874 too late for a parent in 1874; place cannot fit: catalogue birth place Westland, New Zealand is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Westland, New Zealand); different named spouse (Ethel Marion (Redward) Glasgow; record names Mary); Glasgow-45 James Albert Glasgow b. c. 1796 d. c. 1878-03: dates conflict: catalogue birth c. 1796 too early for a parent in 1874; place cannot fit: catalogue birth place Pennsylvania, United States is outside the British Isles; different named spouse (Elizabeth (Groff) Glasgow; record names Mary); Glasgow-3265 James Alexander Glasgow b. 1835: different named spouse (Ann (Andrews) Glasgow; record names Mary); Glasgow-1673 James Alexander Glasgow b. 1867-01-11 d. 1949: dates conflict: catalogue birth 1867-01-11 too late for a parent in 1874; place cannot fit: catalogue birth place Halifax, Halifax, Nova Scotia, Canada is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Halifax, Halifax, Nova Scotia, Canada); different named spouse (Genette Mae (Grant) Glasgow; record names Mary); Glasgow-1724 James Alexander Glasgow b. c. 1863 d. 1935-05-24: dates conflict: catalogue birth c. 1863 too late for a parent in 1874.",
     "profiles": {
-      "record-ancestry-glasgow-c6e0a4eb3b66": {
-        "role": "Probable identity: father of Frederick Dunford Glasgow; same index entry as the father in the linked marriage record",
+      "record-ancestry-glasgow-98605ded7d74": {
+        "role": "Probable identity: father of Frederick Dunford Glasgow; same index entry as the father in the linked marriage record; probable identity within the James Glasgow/Mary Ann Sutton family",
         "assessment": "probable",
         "timeline_group": "Family records"
       }
@@ -259684,7 +259698,14 @@
     "provenance": "private Ancestry capture glasgow-records/scotland-select-births-and-baptisms-1564-1950-60143/1218-James_Glasgow-nd.txt",
     "reviewed_on": "2026-11-05",
     "publish_to_record_index": true,
-    "reference": "Original data: Scotland, Births and Baptisms, 1564-1950 (FamilySearch index of Scottish parish registers)"
+    "reference": "Original data: Scotland, Births and Baptisms, 1564-1950 (FamilySearch index of Scottish parish registers)",
+    "identity_review_history": [
+      {
+        "reviewed_on": "2026-11-15",
+        "conclusion": "Probable source-coherent documentary consolidation; named child and parent roles retained separately.",
+        "basis": "Held derivative indexes correlate James Glasgow and Mary Ann Sutton across the 1867 Edinburgh marriage, five children born during 1868–1881 at Kirknewton and East Calder, and the shared Kirknewton inscription naming wife Mary Ann Sutton and parents James Glasgow and Agnes Hunter. These are probable documentary adult identities, not a proved existing WikiTree match. Original registers and stone remain uninspected; repeated indexes are not independent evidence. Fred in the inscription is not automatically equated with Frederick Dunford. The 1841 child and older father remain different generations. The Limekilns probate candidate remains separate: an exact 1903 death date alone does not establish identity."
+      }
+    ]
   },
   {
     "record_id": "ancestry-60143-17857709",
@@ -297499,9 +297520,9 @@
         "assessment": "documentary",
         "timeline_group": "Life events"
       },
-      "record-ancestry-glasgow-e7172318b5c3": {
-        "role": "Documentary subject: father of Edward Sutton Glasgow",
-        "assessment": "identity_hold",
+      "record-ancestry-glasgow-98605ded7d74": {
+        "role": "Documentary subject: father of Edward Sutton Glasgow; probable identity within the James Glasgow/Mary Ann Sutton family",
+        "assessment": "probable",
         "timeline_group": "Family records"
       }
     },
@@ -297514,7 +297535,14 @@
     "provenance": "private Ancestry capture glasgow-records/scotland-select-births-and-baptisms-1564-1950-60143/1867-Edward_Sutton_Glasgow-1870.txt",
     "reviewed_on": "2026-11-05",
     "publish_to_record_index": true,
-    "reference": "Original data: Scotland, Births and Baptisms, 1564-1950 (FamilySearch index of Scottish parish registers)"
+    "reference": "Original data: Scotland, Births and Baptisms, 1564-1950 (FamilySearch index of Scottish parish registers)",
+    "identity_review_history": [
+      {
+        "reviewed_on": "2026-11-15",
+        "conclusion": "Probable source-coherent documentary consolidation; named child and parent roles retained separately.",
+        "basis": "Held derivative indexes correlate James Glasgow and Mary Ann Sutton across the 1867 Edinburgh marriage, five children born during 1868–1881 at Kirknewton and East Calder, and the shared Kirknewton inscription naming wife Mary Ann Sutton and parents James Glasgow and Agnes Hunter. These are probable documentary adult identities, not a proved existing WikiTree match. Original registers and stone remain uninspected; repeated indexes are not independent evidence. Fred in the inscription is not automatically equated with Frederick Dunford. The 1841 child and older father remain different generations. The Limekilns probate candidate remains separate: an exact 1903 death date alone does not establish identity."
+      }
+    ]
   },
   {
     "record_id": "ancestry-60143-21528417",
@@ -297545,8 +297573,8 @@
     },
     "note": "Ancestry Scotland, Select Births and Baptisms, 1564-1950 parent entry: James Glasgow, parent of Edward Sutton Glasgow, other parent Mary Ann Sutton (the child's baptism record is Ancestry record 21528416, 13 Feb 1870, Kirknewton and East Calder,Midlothian,Scotland). [Transcript read after the first integration; identity links unchanged.] Ancestry Scotland, Select Births and Baptisms, 1564-1950 search-result parent entry: James Glasgow, parent of Edward Sutton Glasgow, other parent Mary Ann (the child's baptism record is Ancestry record 21528416, 13 Feb 1870, Kirknewton and East Calder,Midlothian,Scotland). Search-result row only: relatives are given names, surnames are not indexed in the row. father of Edward Sutton Glasgow James Glasgow linked to record-ancestry-glasgow-e7172318b5c3 (James Glasgow) as a probable identity: same index entry as the father in the linked marriage record. Same-name candidates ruled out: Glasgow-113 James A Glasgow b. 1884-08: dates conflict: catalogue birth 1884-08 too late for a parent in 1870; place cannot fit: catalogue birth place Arkansas, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Arkansas, United States); Glasgow-2756 James A Glasgow b. 1893-12: dates conflict: catalogue birth 1893-12 too late for a parent in 1870; place cannot fit: catalogue birth place Alabama, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Alabama, United States); Glasko-22 James A Glasko b. 1860: dates conflict: catalogue birth 1860 too late for a parent in 1870; place cannot fit: catalogue birth place Connecticut, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Connecticut, United States); Glasgow-3420 James Adam Glasgow b. 1874 d. 1945-08-27: dates conflict: catalogue birth 1874 too late for a parent in 1870; place cannot fit: catalogue birth place Westland, New Zealand is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Westland, New Zealand); different named spouse (Ethel Marion (Redward) Glasgow; record names Mary); Glasgow-45 James Albert Glasgow b. c. 1796 d. c. 1878-03: dates conflict: catalogue birth c. 1796 too early for a parent in 1870; place cannot fit: catalogue birth place Pennsylvania, United States is outside the British Isles; different named spouse (Elizabeth (Groff) Glasgow; record names Mary); Glasgow-3265 James Alexander Glasgow b. 1835: different named spouse (Ann (Andrews) Glasgow; record names Mary); Glasgow-1673 James Alexander Glasgow b. 1867-01-11 d. 1949: dates conflict: catalogue birth 1867-01-11 too late for a parent in 1870; place cannot fit: catalogue birth place Halifax, Halifax, Nova Scotia, Canada is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Halifax, Halifax, Nova Scotia, Canada); different named spouse (Genette Mae (Grant) Glasgow; record names Mary); Glasgow-1724 James Alexander Glasgow b. c. 1863 d. 1935-05-24: dates conflict: catalogue birth c. 1863 too late for a parent in 1870.",
     "profiles": {
-      "record-ancestry-glasgow-e7172318b5c3": {
-        "role": "Probable identity: father of Edward Sutton Glasgow; same index entry as the father in the linked marriage record",
+      "record-ancestry-glasgow-98605ded7d74": {
+        "role": "Probable identity: father of Edward Sutton Glasgow; same index entry as the father in the linked marriage record; probable identity within the James Glasgow/Mary Ann Sutton family",
         "assessment": "probable",
         "timeline_group": "Family records"
       }
@@ -297560,7 +297588,14 @@
     "provenance": "private Ancestry capture glasgow-records/scotland-select-births-and-baptisms-1564-1950-60143/1868-James_Glasgow-nd.txt",
     "reviewed_on": "2026-11-05",
     "publish_to_record_index": true,
-    "reference": "Original data: Scotland, Births and Baptisms, 1564-1950 (FamilySearch index of Scottish parish registers)"
+    "reference": "Original data: Scotland, Births and Baptisms, 1564-1950 (FamilySearch index of Scottish parish registers)",
+    "identity_review_history": [
+      {
+        "reviewed_on": "2026-11-15",
+        "conclusion": "Probable source-coherent documentary consolidation; named child and parent roles retained separately.",
+        "basis": "Held derivative indexes correlate James Glasgow and Mary Ann Sutton across the 1867 Edinburgh marriage, five children born during 1868–1881 at Kirknewton and East Calder, and the shared Kirknewton inscription naming wife Mary Ann Sutton and parents James Glasgow and Agnes Hunter. These are probable documentary adult identities, not a proved existing WikiTree match. Original registers and stone remain uninspected; repeated indexes are not independent evidence. Fred in the inscription is not automatically equated with Frederick Dunford. The 1841 child and older father remain different generations. The Limekilns probate candidate remains separate: an exact 1903 death date alone does not establish identity."
+      }
+    ]
   },
   {
     "record_id": "ancestry-60143-21531573",
@@ -336456,9 +336491,9 @@
     },
     "note": "Ancestry Scotland, Select Births and Baptisms, 1564-1950 parent entry: Mary Ann Sutton Glasgow, parent of Agnes Hunter Glasgow, other parent James Glasgow (the child's baptism record is Ancestry record 26511817, 16 Dec 1881, Kirknewton & East Calder, Midlothian, Scotland). [Transcript read after the first integration; identity links unchanged.] Ancestry Scotland, Select Births and Baptisms, 1564-1950 search-result parent entry: Mary Ann Sutton Glasgow, parent of Agnes Hunter Glasgow, other parent James (the child's baptism record is Ancestry record 26511817, 16 Dec 1881, Kirknewton & East Calder, Midlothian, Scotland). Search-result row only: relatives are given names, surnames are not indexed in the row. mother of Agnes Hunter Glasgow Mary Ann Sutton Glasgow: new catalogue draft record-ancestry-glasgow-e7d8a847dc58, held for identity review; compatible catalogue people remain (Leitch-1493 Mary Ann (Leitch) Glasgow b. 1832 d. 1895 (Scottish life events, spouse James Glasgow matches indexed spouse given name James); Leitch-1634 Mary Anne (Leitch) Glasgow b. 1839 (Scottish life events, spouse James Glasgow matches indexed spouse given name James); record-ancestry-glasgow-deaa02a49835 Mary Glasgow (Scottish life events, spouse James matches indexed spouse given name James); record-ancestry-glasgow-41540b964e46 Mary Glasgow (Scottish life events, spouse James matches indexed spouse given name James); Glasgow-1585 Mary Glasgow b. 1847 (chronology fits, Scottish life events); record-ancestry-glasgow-0b71482626a0 Mary Ann Glasgow b. c. 1859 d. 1898 (chronology fits, Scottish life events); record-ancestry-glasgow-66ed84c5f79b Mary Ann Glasgow b. c. 1851 d. 1907 (chronology fits, Scottish life events); record-ancestry-glasgow-df6a3ad4643f Mary Glasgow b. c. 1859 (chronology fits, Scottish life events)). Ruled out: Glasgow-3090 Marie Glasgow b. 1688-07-29: dates conflict: catalogue birth 1688-07-29 too early for a parent in 1881; chronology conflict: catalogue events are dated 1688-1688; Glasgow-1310 Marie Glasgow b. before 1674-10-11: dates conflict: catalogue birth before 1674-10-11 too early for a parent in 1881; chronology conflict: catalogue events are dated 1674-1674; Glasgow-568 Marie Louise (Glasgow) Beckles b. 1901-02-14 d. 1990-07-12: dates conflict: catalogue birth 1901-02-14 too late for a parent in 1881; place cannot fit: catalogue birth place Georgetown, Demerara, Guyana is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Georgetown, Demerara, Guyana); different named spouse (Edward Beckles; record names James); different middle name (Louise vs Ann Sutton); Glasgow-2270 Marie M (Glasgow) Spindell b. 1903-05-27 d. 1991-12-08: dates conflict: catalogue birth 1903-05-27 too late for a parent in 1881; place cannot fit: catalogue birth place Oklahoma, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Oklahoma, United States); different named spouse (William Spindell; record names James); Brunner-2343 Marie Veronica (Brunner) Glasgow b. 1910-03-25 d. 2004-02-15: dates conflict: catalogue birth 1910-03-25 too late for a parent in 1881; place cannot fit: catalogue birth place Chicago, Cook, Illinois, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Chicago, Cook, Illinois, United States); different named spouse (Arthur Joseph Glasgow; record names James); different middle name (Veronica vs Ann Sutton); Glasgow-2512 Marie Warden Glasgow b. c. 1896: dates conflict: catalogue birth c. 1896 too late for a parent in 1881; place cannot fit: catalogue birth place Rutherglen, Victoria, Australia is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Rutherglen, Victoria, Australia); different middle name (Warden vs Ann Sutton); Arnold-23449 Mary (Arnold) Glasgow b. 1860-05-05 d. 1914-06-19: place cannot fit: catalogue life recorded only outside the British Isles (Tullahoma, Coffee, Tennessee, United States); Auld-1724 Mary (Auld) Glasgow b. before 1728: dates conflict: catalogue birth before 1728 too early for a parent in 1881; chronology conflict: catalogue events are dated 1728-1728; different named spouse (John Glasgow; record names James).",
     "profiles": {
-      "record-ancestry-glasgow-e7d8a847dc58": {
-        "role": "Documentary subject: mother of Agnes Hunter Glasgow",
-        "assessment": "identity_hold",
+      "record-ancestry-glasgow-0b71482626a0": {
+        "role": "Documentary subject: mother of Agnes Hunter Glasgow; probable identity within the James Glasgow/Mary Ann Sutton family",
+        "assessment": "probable",
         "timeline_group": "Family records"
       }
     },
@@ -336471,7 +336506,14 @@
     "provenance": "private Ancestry capture glasgow-records/scotland-select-births-and-baptisms-1564-1950-60143/2695-Mary_Ann_Sutton_Glasgow-nd.txt",
     "reviewed_on": "2026-11-05",
     "publish_to_record_index": true,
-    "reference": "Original data: Scotland, Births and Baptisms, 1564-1950 (FamilySearch index of Scottish parish registers)"
+    "reference": "Original data: Scotland, Births and Baptisms, 1564-1950 (FamilySearch index of Scottish parish registers)",
+    "identity_review_history": [
+      {
+        "reviewed_on": "2026-11-15",
+        "conclusion": "Probable source-coherent documentary consolidation; named child and parent roles retained separately.",
+        "basis": "Held derivative indexes correlate James Glasgow and Mary Ann Sutton across the 1867 Edinburgh marriage, five children born during 1868–1881 at Kirknewton and East Calder, and the shared Kirknewton inscription naming wife Mary Ann Sutton and parents James Glasgow and Agnes Hunter. These are probable documentary adult identities, not a proved existing WikiTree match. Original registers and stone remain uninspected; repeated indexes are not independent evidence. Fred in the inscription is not automatically equated with Frederick Dunford. The 1841 child and older father remain different generations. The Limekilns probate candidate remains separate: an exact 1903 death date alone does not establish identity."
+      }
+    ]
   },
   {
     "record_id": "ancestry-60143-26511817",
@@ -336510,9 +336552,9 @@
         "assessment": "documentary",
         "timeline_group": "Life events"
       },
-      "record-ancestry-glasgow-1c97ca08acf5": {
-        "role": "Documentary subject: father of Agnes Hunter Glasgow",
-        "assessment": "identity_hold",
+      "record-ancestry-glasgow-98605ded7d74": {
+        "role": "Documentary subject: father of Agnes Hunter Glasgow; probable identity within the James Glasgow/Mary Ann Sutton family",
+        "assessment": "probable",
         "timeline_group": "Family records"
       }
     },
@@ -336525,7 +336567,14 @@
     "provenance": "private Ancestry capture glasgow-records/scotland-select-births-and-baptisms-1564-1950-60143/2696-Agnes_Hunter_Glasgow-1881.txt",
     "reviewed_on": "2026-11-05",
     "publish_to_record_index": true,
-    "reference": "Original data: Scotland, Births and Baptisms, 1564-1950 (FamilySearch index of Scottish parish registers)"
+    "reference": "Original data: Scotland, Births and Baptisms, 1564-1950 (FamilySearch index of Scottish parish registers)",
+    "identity_review_history": [
+      {
+        "reviewed_on": "2026-11-15",
+        "conclusion": "Probable source-coherent documentary consolidation; named child and parent roles retained separately.",
+        "basis": "Held derivative indexes correlate James Glasgow and Mary Ann Sutton across the 1867 Edinburgh marriage, five children born during 1868–1881 at Kirknewton and East Calder, and the shared Kirknewton inscription naming wife Mary Ann Sutton and parents James Glasgow and Agnes Hunter. These are probable documentary adult identities, not a proved existing WikiTree match. Original registers and stone remain uninspected; repeated indexes are not independent evidence. Fred in the inscription is not automatically equated with Frederick Dunford. The 1841 child and older father remain different generations. The Limekilns probate candidate remains separate: an exact 1903 death date alone does not establish identity."
+      }
+    ]
   },
   {
     "record_id": "ancestry-60143-26511818",
@@ -336556,8 +336605,8 @@
     },
     "note": "Ancestry Scotland, Select Births and Baptisms, 1564-1950 parent entry: James Glasgow, parent of Agnes Hunter Glasgow, other parent Mary Ann Sutton Glasgow (the child's baptism record is Ancestry record 26511817, 16 Dec 1881, Kirknewton & East Calder, Midlothian, Scotland). [Transcript read after the first integration; identity links unchanged.] Ancestry Scotland, Select Births and Baptisms, 1564-1950 search-result parent entry: James Glasgow, parent of Agnes Hunter Glasgow, other parent Mary Ann (the child's baptism record is Ancestry record 26511817, 16 Dec 1881, Kirknewton & East Calder, Midlothian, Scotland). Search-result row only: relatives are given names, surnames are not indexed in the row. father of Agnes Hunter Glasgow James Glasgow linked to record-ancestry-glasgow-1c97ca08acf5 (James Glasgow) as a probable identity: same index entry as the father in the linked marriage record. Same-name candidates ruled out: Glasgow-113 James A Glasgow b. 1884-08: dates conflict: catalogue birth 1884-08 too late for a parent in 1881; place cannot fit: catalogue birth place Arkansas, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Arkansas, United States); Glasgow-2756 James A Glasgow b. 1893-12: dates conflict: catalogue birth 1893-12 too late for a parent in 1881; place cannot fit: catalogue birth place Alabama, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Alabama, United States); Glasko-22 James A Glasko b. 1860: place cannot fit: catalogue birth place Connecticut, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Connecticut, United States); Glasgow-3420 James Adam Glasgow b. 1874 d. 1945-08-27: dates conflict: catalogue birth 1874 too late for a parent in 1881; place cannot fit: catalogue birth place Westland, New Zealand is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Westland, New Zealand); different named spouse (Ethel Marion (Redward) Glasgow; record names Mary); Glasgow-45 James Albert Glasgow b. c. 1796 d. c. 1878-03: dates conflict: catalogue birth c. 1796 too early for a parent in 1881; died c. 1878-03, before the 1881 parent; place cannot fit: catalogue birth place Pennsylvania, United States is outside the British Isles; different named spouse (Elizabeth (Groff) Glasgow; record names Mary); Glasgow-3265 James Alexander Glasgow b. 1835: different named spouse (Ann (Andrews) Glasgow; record names Mary); Glasgow-1673 James Alexander Glasgow b. 1867-01-11 d. 1949: dates conflict: catalogue birth 1867-01-11 too late for a parent in 1881; place cannot fit: catalogue birth place Halifax, Halifax, Nova Scotia, Canada is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Halifax, Halifax, Nova Scotia, Canada); different named spouse (Genette Mae (Grant) Glasgow; record names Mary); Glasgow-1043 James Archie Glasgow b. 1926-05-16 d. 2020-07-16: dates conflict: catalogue birth 1926-05-16 too late for a parent in 1881; place cannot fit: catalogue birth place Franklin, Alabama, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Franklin, Alabama, United States); different named spouse (Ruby (Britton) Glasgow; record names Mary).",
     "profiles": {
-      "record-ancestry-glasgow-1c97ca08acf5": {
-        "role": "Probable identity: father of Agnes Hunter Glasgow; same index entry as the father in the linked marriage record",
+      "record-ancestry-glasgow-98605ded7d74": {
+        "role": "Probable identity: father of Agnes Hunter Glasgow; same index entry as the father in the linked marriage record; probable identity within the James Glasgow/Mary Ann Sutton family",
         "assessment": "probable",
         "timeline_group": "Family records"
       }
@@ -336571,7 +336620,14 @@
     "provenance": "private Ancestry capture glasgow-records/scotland-select-births-and-baptisms-1564-1950-60143/2697-James_Glasgow-nd.txt",
     "reviewed_on": "2026-11-05",
     "publish_to_record_index": true,
-    "reference": "Original data: Scotland, Births and Baptisms, 1564-1950 (FamilySearch index of Scottish parish registers)"
+    "reference": "Original data: Scotland, Births and Baptisms, 1564-1950 (FamilySearch index of Scottish parish registers)",
+    "identity_review_history": [
+      {
+        "reviewed_on": "2026-11-15",
+        "conclusion": "Probable source-coherent documentary consolidation; named child and parent roles retained separately.",
+        "basis": "Held derivative indexes correlate James Glasgow and Mary Ann Sutton across the 1867 Edinburgh marriage, five children born during 1868–1881 at Kirknewton and East Calder, and the shared Kirknewton inscription naming wife Mary Ann Sutton and parents James Glasgow and Agnes Hunter. These are probable documentary adult identities, not a proved existing WikiTree match. Original registers and stone remain uninspected; repeated indexes are not independent evidence. Fred in the inscription is not automatically equated with Frederick Dunford. The 1841 child and older father remain different generations. The Limekilns probate candidate remains separate: an exact 1903 death date alone does not establish identity."
+      }
+    ]
   },
   {
     "record_id": "ancestry-60143-2653703",
@@ -349515,9 +349571,9 @@
     "note": "Ancestry Scotland, Select Births and Baptisms, 1564-1950 transcript: Mary Glasgow christened at Beith,Ayr,Scotland, born 26 May 1859; father William Glasgow; mother Mary Boyd. [Transcript read after the first integration; identity links unchanged.] Ancestry Scotland, Select Births and Baptisms, 1564-1950 search-result row: Mary Glasgow christened 26 May 1859 at Beith,Ayr,Scotland; father William Glasgow; mother Mary. Search-result row only: relatives are given names, surnames are not indexed in the row. child christened Mary Glasgow linked to record-ancestry-glasgow-0b71482626a0 (Mary Ann Glasgow) as a possible identity: Scottish life events. Same-name candidates ruled out: Glasgow-3090 Marie Glasgow b. 1688-07-29: dates conflict: catalogue birth 1688-07-29 too early for a baptism in 1859; dates conflict: catalogue birth 1688-07-29 vs recorded birth 1859; chronology conflict: catalogue events are dated 1688-1688; dates conflict: birth about 1859 is after the latest birth 1688 implied by attributed records; different named father (George Glasgow; record names William); different named mother (Jannet (Willie) Glasgow; record names Mary); Glasgow-1310 Marie Glasgow b. before 1674-10-11: dates conflict: catalogue birth before 1674-10-11 too early for a baptism in 1859; dates conflict: catalogue birth before 1674-10-11 vs recorded birth 1859; chronology conflict: catalogue events are dated 1674-1674; different named father (Allexander Glasgow; record names William); different named mother (Issobell Glasgow Anderson; record names Mary); Glasgow-568 Marie Louise (Glasgow) Beckles b. 1901-02-14 d. 1990-07-12: dates conflict: catalogue birth 1901-02-14 too late for a baptism in 1859; dates conflict: catalogue birth 1901-02-14 vs recorded birth 1859; place cannot fit: catalogue birth place Georgetown, Demerara, Guyana (outside) vs a Scotland baptism; place cannot fit: catalogue birth place Georgetown, Demerara, Guyana is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Georgetown, Demerara, Guyana); different named father (Isaac Glasgow; record names William); different named mother (Lena (DeCarmo) Glasgow; record names Mary); Glasgow-2270 Marie M (Glasgow) Spindell b. 1903-05-27 d. 1991-12-08: dates conflict: catalogue birth 1903-05-27 too late for a baptism in 1859; dates conflict: catalogue birth 1903-05-27 vs recorded birth 1859; place cannot fit: catalogue birth place Oklahoma, United States (outside) vs a Scotland baptism; place cannot fit: catalogue birth place Oklahoma, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Oklahoma, United States); different named father (Edwin Lyle Glasgow; record names William); different named mother (Amanda Phyllis (Cline) Glasgow; record names Mary); Brunner-2343 Marie Veronica (Brunner) Glasgow b. 1910-03-25 d. 2004-02-15: dates conflict: catalogue birth 1910-03-25 too late for a baptism in 1859; dates conflict: catalogue birth 1910-03-25 vs recorded birth 1859; place cannot fit: catalogue birth place Chicago, Cook, Illinois, United States (outside) vs a Scotland baptism; unlikely: the catalogue woman is Glasgow by marriage, while this child is baptised a Glasgow; place cannot fit: catalogue birth place Chicago, Cook, Illinois, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Chicago, Cook, Illinois, United States); different named father (Louis Anthony Brunner; record names William); different named mother (Katherine Elizabeth Brunner Franz; record names Mary); Glasgow-2512 Marie Warden Glasgow b. c. 1896: dates conflict: catalogue birth c. 1896 too late for a baptism in 1859; dates conflict: catalogue birth c. 1896 vs recorded birth 1859; place cannot fit: catalogue birth place Rutherglen, Victoria, Australia (outside) vs a Scotland baptism; place cannot fit: catalogue birth place Rutherglen, Victoria, Australia is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Rutherglen, Victoria, Australia); different named father (Charles Glasgow; record names William); Arnold-23449 Mary (Arnold) Glasgow b. 1860-05-05 d. 1914-06-19: dates conflict: catalogue birth 1860-05-05 too late for a baptism in 1859; unlikely: the catalogue woman is Glasgow by marriage, while this child is baptised a Glasgow; place cannot fit: catalogue life recorded only outside the British Isles (Tullahoma, Coffee, Tennessee, United States); different named father (Isaac; record names William); Auld-1724 Mary (Auld) Glasgow b. before 1728: dates conflict: catalogue birth before 1728 too early for a baptism in 1859; dates conflict: catalogue birth before 1728 vs recorded birth 1859; chronology conflict: catalogue events are dated 1728-1728; unlikely: the catalogue woman is Glasgow by marriage, while this child is baptised a Glasgow. father of Mary Glasgow William Glasgow: new catalogue draft record-ancestry-glasgow-221c346a6619, held for identity review; compatible catalogue people remain (record-ancestry-glasgow-f09d69001c6e William Glasgow (Scottish life events, spouse Mary matches indexed spouse given name Mary, place Beith recorded); record-ancestry-glasgow-f0fb5296bfc4 William Glasgow (Scottish life events, spouse Mary matches indexed spouse given name Mary, place Beith recorded); Glasgow-1737 William Glasgow b. c. 1824 (chronology fits, spouse Mary Henry matches indexed spouse given name Mary); Glasgow-3872 William James Glasgow b. before 1827 d. c. 1881-09-21 (chronology fits, spouse Mary (Bones) Glasgow matches indexed spouse given name Mary); record-ancestry-glasgow-563fc4856d8b William Glasgow (Scottish life events, spouse Mary matches indexed spouse given name Mary); record-ancestry-glasgow-cceda133af2e William Glasgow (Scottish life events, spouse Mary matches indexed spouse given name Mary); Glasgow-585 William Glasgow b. c. 1804 d. 1898-04-09 (spouse Mary Anne (Henry) Glasgow matches indexed spouse given name Mary); record-ancestry-glasgow-9bfe719b7211 William Glasgow (spouse Mary matches indexed spouse given name Mary)). Ruled out: Glasgow-3156 Unknown Glasgow b. before 1860: dates conflict: catalogue birth before 1860 too late for a parent in 1859; different named spouse (Helen Glasgow Hewitt; record names Mary); Glasgow-3962 Unknown Glasgow b. c. 1725: dates conflict: catalogue birth c. 1725 too early for a parent in 1859; Glasgow-3408 Will Glasgow b. 1706-04-16: dates conflict: catalogue birth 1706-04-16 too early for a parent in 1859; chronology conflict: catalogue events are dated 1706-1706; different named spouse (Jane (Love) Glasgow; record names Mary); Glasgow-2060 William (glasgow) Glasgow b. 1893-11-23 d. 1958: dates conflict: catalogue birth 1893-11-23 too late for a parent in 1859; different named spouse (Constance Victoria Lester; record names Mary); Glasgow-1220 William (Glasgow) Glass b. 1786-05-11 d. 1853-11-24: dates conflict: catalogue birth 1786-05-11 too early for a parent in 1859; died 1853-11-24, before the 1859 parent; different named spouse (Maria Magdalena Leenders; record names Mary); Glasgow-3455 William A Glasgow b. 1875 d. 1965: dates conflict: catalogue birth 1875 too late for a parent in 1859; place cannot fit: catalogue birth place Illinois, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Illinois, United States); different named spouse (Emma Bluhm; record names Mary); Glasgow-899 William Adams Glasgow b. 1878-11-07 d. 1956-05-15: dates conflict: catalogue birth 1878-11-07 too late for a parent in 1859; place cannot fit: catalogue birth place Clinton, Huron, Ontario, Canada is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Clinton, Huron, Ontario, Canada); different named spouse (Maud Ironside; record names Mary); Glasgow-2182 William Allen Glasgow b. 1824-09-20 d. 1909-09-17: place cannot fit: catalogue birth place Tranquility, Scott Township, Adams, Ohio, United S is outside the British Isles; different named spouse (Nancy Ann (Campbell) Glasgow; record names Mary).",
     "profiles": {
       "record-ancestry-glasgow-0b71482626a0": {
-        "role": "Possible identity: child christened; Scottish life events",
+        "role": "Unselected child comparison: Mary Glasgow born26May1859 at Beith, parents William Glasgow and Mary Boyd; not an accepted life event of the Mary Ann Sutton wife.",
         "assessment": "possible",
-        "timeline_group": "Life events"
+        "timeline_group": "Research comparisons"
       },
       "record-ancestry-glasgow-221c346a6619": {
         "role": "Documentary subject: father of Mary Glasgow",
@@ -349534,7 +349590,14 @@
     "provenance": "private Ancestry capture glasgow-records/scotland-select-births-and-baptisms-1564-1950-60143/2979-Mary_Glasgow-1859.txt",
     "reviewed_on": "2026-11-05",
     "publish_to_record_index": true,
-    "reference": "Original data: Scotland, Births and Baptisms, 1564-1950 (FamilySearch index of Scottish parish registers)"
+    "reference": "Original data: Scotland, Births and Baptisms, 1564-1950 (FamilySearch index of Scottish parish registers)",
+    "identity_review_history": [
+      {
+        "reviewed_on": "2026-11-15",
+        "catalogue_id": "record-ancestry-glasgow-0b71482626a0",
+        "conclusion": "Withdraw the selected wife/child conflation; retain literal1859child as an unselected comparison, not a discarded source."
+      }
+    ]
   },
   {
     "record_id": "ancestry-60143-2959478",
@@ -354062,8 +354125,8 @@
     },
     "note": "Ancestry Scotland, Select Births and Baptisms, 1564-1950 parent entry: James Glasgow, parent of Marion Glasgow, other parent Mary Ann Sutton (the child's baptism record is Ancestry record 3648596, 16 Sep 1872, Kirknewton and East Calder,Midlothian,Scotland). [Transcript read after the first integration; identity links unchanged.] Ancestry Scotland, Select Births and Baptisms, 1564-1950 search-result parent entry: James Glasgow, parent of Marion Glasgow, other parent Mary Ann (the child's baptism record is Ancestry record 3648596, 16 Sep 1872, Kirknewton and East Calder,Midlothian,Scotland). Search-result row only: relatives are given names, surnames are not indexed in the row. father of Marion Glasgow James Glasgow linked to record-ancestry-glasgow-0f35ce7d509c (James Glasgow) as a probable identity: same index entry as the father in the linked marriage record. Same-name candidates ruled out: Glasgow-113 James A Glasgow b. 1884-08: dates conflict: catalogue birth 1884-08 too late for a parent in 1872; place cannot fit: catalogue birth place Arkansas, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Arkansas, United States); Glasgow-2756 James A Glasgow b. 1893-12: dates conflict: catalogue birth 1893-12 too late for a parent in 1872; place cannot fit: catalogue birth place Alabama, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Alabama, United States); Glasko-22 James A Glasko b. 1860: dates conflict: catalogue birth 1860 too late for a parent in 1872; place cannot fit: catalogue birth place Connecticut, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Connecticut, United States); Glasgow-3420 James Adam Glasgow b. 1874 d. 1945-08-27: dates conflict: catalogue birth 1874 too late for a parent in 1872; place cannot fit: catalogue birth place Westland, New Zealand is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Westland, New Zealand); different named spouse (Ethel Marion (Redward) Glasgow; record names Mary); Glasgow-45 James Albert Glasgow b. c. 1796 d. c. 1878-03: dates conflict: catalogue birth c. 1796 too early for a parent in 1872; place cannot fit: catalogue birth place Pennsylvania, United States is outside the British Isles; different named spouse (Elizabeth (Groff) Glasgow; record names Mary); Glasgow-3265 James Alexander Glasgow b. 1835: different named spouse (Ann (Andrews) Glasgow; record names Mary); Glasgow-1673 James Alexander Glasgow b. 1867-01-11 d. 1949: dates conflict: catalogue birth 1867-01-11 too late for a parent in 1872; place cannot fit: catalogue birth place Halifax, Halifax, Nova Scotia, Canada is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Halifax, Halifax, Nova Scotia, Canada); different named spouse (Genette Mae (Grant) Glasgow; record names Mary); Glasgow-1724 James Alexander Glasgow b. c. 1863 d. 1935-05-24: dates conflict: catalogue birth c. 1863 too late for a parent in 1872.",
     "profiles": {
-      "record-ancestry-glasgow-0f35ce7d509c": {
-        "role": "Probable identity: father of Marion Glasgow; same index entry as the father in the linked marriage record",
+      "record-ancestry-glasgow-98605ded7d74": {
+        "role": "Probable identity: father of Marion Glasgow; same index entry as the father in the linked marriage record; probable identity within the James Glasgow/Mary Ann Sutton family",
         "assessment": "probable",
         "timeline_group": "Family records"
       }
@@ -354077,7 +354140,14 @@
     "provenance": "private Ancestry capture glasgow-records/scotland-select-births-and-baptisms-1564-1950-60143/3075-James_Glasgow-nd.txt",
     "reviewed_on": "2026-11-05",
     "publish_to_record_index": true,
-    "reference": "Original data: Scotland, Births and Baptisms, 1564-1950 (FamilySearch index of Scottish parish registers)"
+    "reference": "Original data: Scotland, Births and Baptisms, 1564-1950 (FamilySearch index of Scottish parish registers)",
+    "identity_review_history": [
+      {
+        "reviewed_on": "2026-11-15",
+        "conclusion": "Probable source-coherent documentary consolidation; named child and parent roles retained separately.",
+        "basis": "Held derivative indexes correlate James Glasgow and Mary Ann Sutton across the 1867 Edinburgh marriage, five children born during 1868–1881 at Kirknewton and East Calder, and the shared Kirknewton inscription naming wife Mary Ann Sutton and parents James Glasgow and Agnes Hunter. These are probable documentary adult identities, not a proved existing WikiTree match. Original registers and stone remain uninspected; repeated indexes are not independent evidence. Fred in the inscription is not automatically equated with Frederick Dunford. The 1841 child and older father remain different generations. The Limekilns probate candidate remains separate: an exact 1903 death date alone does not establish identity."
+      }
+    ]
   },
   {
     "record_id": "ancestry-60143-3648596",
@@ -354115,9 +354185,9 @@
         "assessment": "documentary",
         "timeline_group": "Life events"
       },
-      "record-ancestry-glasgow-0f35ce7d509c": {
-        "role": "Documentary subject: father of Marion Glasgow",
-        "assessment": "identity_hold",
+      "record-ancestry-glasgow-98605ded7d74": {
+        "role": "Documentary subject: father of Marion Glasgow; probable identity within the James Glasgow/Mary Ann Sutton family",
+        "assessment": "probable",
         "timeline_group": "Family records"
       }
     },
@@ -354130,7 +354200,14 @@
     "provenance": "private Ancestry capture glasgow-records/scotland-select-births-and-baptisms-1564-1950-60143/3076-Marion_Glasgow-1872.txt",
     "reviewed_on": "2026-11-05",
     "publish_to_record_index": true,
-    "reference": "Original data: Scotland, Births and Baptisms, 1564-1950 (FamilySearch index of Scottish parish registers)"
+    "reference": "Original data: Scotland, Births and Baptisms, 1564-1950 (FamilySearch index of Scottish parish registers)",
+    "identity_review_history": [
+      {
+        "reviewed_on": "2026-11-15",
+        "conclusion": "Probable source-coherent documentary consolidation; named child and parent roles retained separately.",
+        "basis": "Held derivative indexes correlate James Glasgow and Mary Ann Sutton across the 1867 Edinburgh marriage, five children born during 1868–1881 at Kirknewton and East Calder, and the shared Kirknewton inscription naming wife Mary Ann Sutton and parents James Glasgow and Agnes Hunter. These are probable documentary adult identities, not a proved existing WikiTree match. Original registers and stone remain uninspected; repeated indexes are not independent evidence. Fred in the inscription is not automatically equated with Frederick Dunford. The 1841 child and older father remain different generations. The Limekilns probate candidate remains separate: an exact 1903 death date alone does not establish identity."
+      }
+    ]
   },
   {
     "record_id": "ancestry-60143-3653044",
@@ -355128,8 +355205,8 @@
     },
     "note": "Ancestry Scotland, Select Births and Baptisms, 1564-1950 parent entry: James Glasgow, parent of William Glasgow, other parent Mary Ann Sutton (the child's baptism record is Ancestry record 3881043, 23 Mar 1868, Kirknewton and East Calder,Midlothian,Scotland). [Transcript read after the first integration; identity links unchanged.] Ancestry Scotland, Select Births and Baptisms, 1564-1950 search-result parent entry: James Glasgow, parent of William Glasgow, other parent Mary Ann (the child's baptism record is Ancestry record 3881043, 23 Mar 1868, Kirknewton and East Calder,Midlothian,Scotland). Search-result row only: relatives are given names, surnames are not indexed in the row. father of William Glasgow James Glasgow linked to record-ancestry-glasgow-00c30228190e (James Glasgow) as a probable identity: same index entry as the father in the linked marriage record. Same-name candidates ruled out: Glasgow-113 James A Glasgow b. 1884-08: dates conflict: catalogue birth 1884-08 too late for a parent in 1868; place cannot fit: catalogue birth place Arkansas, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Arkansas, United States); Glasgow-2756 James A Glasgow b. 1893-12: dates conflict: catalogue birth 1893-12 too late for a parent in 1868; place cannot fit: catalogue birth place Alabama, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Alabama, United States); Glasko-22 James A Glasko b. 1860: dates conflict: catalogue birth 1860 too late for a parent in 1868; place cannot fit: catalogue birth place Connecticut, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Connecticut, United States); Glasgow-3420 James Adam Glasgow b. 1874 d. 1945-08-27: dates conflict: catalogue birth 1874 too late for a parent in 1868; place cannot fit: catalogue birth place Westland, New Zealand is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Westland, New Zealand); different named spouse (Ethel Marion (Redward) Glasgow; record names Mary); Glasgow-45 James Albert Glasgow b. c. 1796 d. c. 1878-03: dates conflict: catalogue birth c. 1796 too early for a parent in 1868; place cannot fit: catalogue birth place Pennsylvania, United States is outside the British Isles; different named spouse (Elizabeth (Groff) Glasgow; record names Mary); Glasgow-3265 James Alexander Glasgow b. 1835: different named spouse (Ann (Andrews) Glasgow; record names Mary); Glasgow-1673 James Alexander Glasgow b. 1867-01-11 d. 1949: dates conflict: catalogue birth 1867-01-11 too late for a parent in 1868; place cannot fit: catalogue birth place Halifax, Halifax, Nova Scotia, Canada is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Halifax, Halifax, Nova Scotia, Canada); different named spouse (Genette Mae (Grant) Glasgow; record names Mary); Glasgow-1724 James Alexander Glasgow b. c. 1863 d. 1935-05-24: dates conflict: catalogue birth c. 1863 too late for a parent in 1868.",
     "profiles": {
-      "record-ancestry-glasgow-00c30228190e": {
-        "role": "Probable identity: father of William Glasgow; same index entry as the father in the linked marriage record",
+      "record-ancestry-glasgow-98605ded7d74": {
+        "role": "Probable identity: father of William Glasgow; same index entry as the father in the linked marriage record; probable identity within the James Glasgow/Mary Ann Sutton family",
         "assessment": "probable",
         "timeline_group": "Family records"
       }
@@ -355143,7 +355220,14 @@
     "provenance": "private Ancestry capture glasgow-records/scotland-select-births-and-baptisms-1564-1950-60143/3098-James_Glasgow-nd.txt",
     "reviewed_on": "2026-11-05",
     "publish_to_record_index": true,
-    "reference": "Original data: Scotland, Births and Baptisms, 1564-1950 (FamilySearch index of Scottish parish registers)"
+    "reference": "Original data: Scotland, Births and Baptisms, 1564-1950 (FamilySearch index of Scottish parish registers)",
+    "identity_review_history": [
+      {
+        "reviewed_on": "2026-11-15",
+        "conclusion": "Probable source-coherent documentary consolidation; named child and parent roles retained separately.",
+        "basis": "Held derivative indexes correlate James Glasgow and Mary Ann Sutton across the 1867 Edinburgh marriage, five children born during 1868–1881 at Kirknewton and East Calder, and the shared Kirknewton inscription naming wife Mary Ann Sutton and parents James Glasgow and Agnes Hunter. These are probable documentary adult identities, not a proved existing WikiTree match. Original registers and stone remain uninspected; repeated indexes are not independent evidence. Fred in the inscription is not automatically equated with Frederick Dunford. The 1841 child and older father remain different generations. The Limekilns probate candidate remains separate: an exact 1903 death date alone does not establish identity."
+      }
+    ]
   },
   {
     "record_id": "ancestry-60143-3881043",
@@ -355181,9 +355265,9 @@
         "assessment": "identity_hold",
         "timeline_group": "Life events"
       },
-      "record-ancestry-glasgow-00c30228190e": {
-        "role": "Documentary subject: father of William Glasgow",
-        "assessment": "identity_hold",
+      "record-ancestry-glasgow-98605ded7d74": {
+        "role": "Documentary subject: father of William Glasgow; probable identity within the James Glasgow/Mary Ann Sutton family",
+        "assessment": "probable",
         "timeline_group": "Family records"
       }
     },
@@ -355196,7 +355280,14 @@
     "provenance": "private Ancestry capture glasgow-records/scotland-select-births-and-baptisms-1564-1950-60143/3099-William_Glasgow-1868.txt",
     "reviewed_on": "2026-11-05",
     "publish_to_record_index": true,
-    "reference": "Original data: Scotland, Births and Baptisms, 1564-1950 (FamilySearch index of Scottish parish registers)"
+    "reference": "Original data: Scotland, Births and Baptisms, 1564-1950 (FamilySearch index of Scottish parish registers)",
+    "identity_review_history": [
+      {
+        "reviewed_on": "2026-11-15",
+        "conclusion": "Probable source-coherent documentary consolidation; named child and parent roles retained separately.",
+        "basis": "Held derivative indexes correlate James Glasgow and Mary Ann Sutton across the 1867 Edinburgh marriage, five children born during 1868–1881 at Kirknewton and East Calder, and the shared Kirknewton inscription naming wife Mary Ann Sutton and parents James Glasgow and Agnes Hunter. These are probable documentary adult identities, not a proved existing WikiTree match. Original registers and stone remain uninspected; repeated indexes are not independent evidence. Fred in the inscription is not automatically equated with Frederick Dunford. The 1841 child and older father remain different generations. The Limekilns probate candidate remains separate: an exact 1903 death date alone does not establish identity."
+      }
+    ]
   },
   {
     "record_id": "ancestry-60143-3883534",

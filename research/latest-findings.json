@@ -85905,6 +85905,47 @@
         "research/Glasgow-4269/civil-birth-update-2026-09-30.wiki",
         "research/vital_assessments.json"
       ]
+    },
+    {
+      "id": "kirknewton-sutton-family-correlation-20261115",
+      "found_on": "2026-11-15",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "Seven redundant adult documentary accounts are consolidated into the existing James Glasgow and Mary Ann Sutton accounts. The 1867 marriage, five indexed children and shared Kirknewton monument support one probable family correlation. Mary Ann’s supposed 1859 childhood event is separated and her maiden surname corrected to Sutton.",
+      "qualification": "Held derivative indexes only; no new original inspection. Repeated indexes are not independent witnesses. Older father and younger James remain separate, the Limekilns probate identity remains unselected, and Fred is not automatically Frederick Dunford. No new WikiTree identity or selected parent hypothesis.",
+      "detail_url": "/people/record-ancestry-glasgow-98605ded7d74.html#research-findings",
+      "people": [
+        {
+          "id": "record-ancestry-glasgow-98605ded7d74",
+          "name": "James Glasgow",
+          "url": "/people/record-ancestry-glasgow-98605ded7d74.html",
+          "role": "Surviving probable documentary adult account"
+        },
+        {
+          "id": "record-ancestry-glasgow-0b71482626a0",
+          "name": "Mary Ann (Sutton) Glasgow",
+          "url": "/people/record-ancestry-glasgow-0b71482626a0.html",
+          "role": "Surviving probable wife/mother account; maiden surname and record scope corrected"
+        }
+      ],
+      "sources": [
+        {
+          "title": "James Glasgow monument transcript; original uninspected",
+          "url": "https://www.ancestry.co.uk/search/collections/62497/records/348011",
+          "record_id": "ancestry-62497-348011"
+        },
+        {
+          "title": "Jas. Glasgow and Mary Ann Sutton marriage index,28June1867",
+          "url": "https://www.ancestry.co.uk/search/collections/60144/records/2075836",
+          "record_id": "ancestry-60144-2075836"
+        }
+      ],
+      "provenance": [
+        "research/record-ancestry-glasgow-98605ded7d74/findings.md",
+        "research/record-ancestry-glasgow-0b71482626a0/findings.md",
+        "research/queue-review-2026-10-17/catalogue-integration.json",
+        "research/canonical_records.json"
+      ]
     }
   ]
 }
