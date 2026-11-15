@@ -3570,6 +3570,44 @@
         "birth": "c. 1645",
         "birth_note": "Estimated from the recorded age 59 at burial on 1 October 1704; no exact birth date or birthplace established."
       }
+    },
+    {
+      "schema_version": 3,
+      "id": "glasgow-1001-baptism-not-birthday-20261115",
+      "subject": "Glasgow-1001",
+      "status": "approved",
+      "reviewed": "2026-11-15",
+      "scope": "Birth-date precision and birthplace uncertainty only; no parentage or death change.",
+      "basis": "The held index explicitly labels 23 July 1815 as baptism, not birth, at Berwick-upon-Tweed, with parents William Alexander and Elizabeth Rachel. If the selected child/adult identification is correct, birth was on or before that date; before 24 July encodes an inclusive upper bound. Original register uninspected; the selected identity and existing 85% parent assessments are not upgraded. Berwick is retained only as an uncertain locality from the baptism parish, not a proved birthplace.",
+      "source": {
+        "url": "/people/glasgow-1001.json",
+        "section": "research_findings / Adult identity and competing child indexes —15 November 2026"
+      },
+      "summary": "The 1815 exact birthday was a baptism field. Use a conditional on-or-before birth bound and an uncertain baptism-parish locality.",
+      "vitals": {
+        "birth": {
+          "date": "before 1815-07-24",
+          "place": "Berwick-upon-tweed, Northumberland, England, United Kingdom",
+          "place_status": "uncertain",
+          "status": "uncertain",
+          "country": "england",
+          "note": "The held index explicitly labels 23 July 1815 as baptism, not birth, at Berwick-upon-Tweed, with parents William Alexander and Elizabeth Rachel. If the selected child/adult identification is correct, birth was on or before that date; before 24 July encodes an inclusive upper bound. Original register uninspected; the selected identity and existing 85% parent assessments are not upgraded. Berwick is retained only as an uncertain locality from the baptism parish, not a proved birthplace.",
+          "qualifier": "Conditional baptism-derived upper bound; exact birthday and birthplace unproved.",
+          "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/114661706",
+          "source_level": "Held derivative index; original register uninspected"
+        }
+      },
+      "catalogue_projection": {
+        "birth": "before 1815-07-24",
+        "birth_year": 1815,
+        "birth_note": "The held index explicitly labels 23 July 1815 as baptism, not birth, at Berwick-upon-Tweed, with parents William Alexander and Elizabeth Rachel. If the selected child/adult identification is correct, birth was on or before that date; before 24 July encodes an inclusive upper bound. Original register uninspected; the selected identity and existing 85% parent assessments are not upgraded. Berwick is retained only as an uncertain locality from the baptism parish, not a proved birthplace.",
+        "birth_location_note": "Uncertain locality inferred from the selected baptism parish; not a proved birthplace.",
+        "field_statuses": {
+          "birth": "before",
+          "birth_location": "uncertain"
+        }
+      },
+      "project_tree_vitals": true
     }
   ]
 }

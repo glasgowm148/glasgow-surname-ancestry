@@ -9,6 +9,155 @@ from tools.sync_ancestry_atlas import overlay_model
 
 
 class AtlasWorkingTests(unittest.TestCase):
+    def _routine_scope_models(self):
+        old = {
+            'meta': {'publicFamilyScopeIds': ['Routine-1'],
+                     'publicFamilySyncIds': ['Routine-1'],
+                     'publicFamilyNewIds': ['Routine-1']},
+            'people': [
+                {'id': '@group', 'kind': 'group'},
+                {'id': 'Keep-1', 'kind': 'person', 'name': 'Approved account'},
+                {'id': 'Routine-1', 'kind': 'person', 'name': 'Routine person',
+                 'year': 1740, 'parents': [], 'partners': [], 'childrenRecorded': [],
+                 'edge': {'parent': '@group', 'type': 'group', 'semantic': 'collection'}}],
+            'landmarks': ['Routine-1', 'Keep-1'],
+            'sections': [{'id': 'Routine-1'}, {'id': 'Keep-1'}],
+            'dna': [{'id': 'Keep-1', 'approved': True}],
+        }
+        fresh = deepcopy(old)
+        fresh['people'] = [p for p in fresh['people'] if p['id'] != 'Routine-1']
+        fresh['landmarks'] = ['Keep-1']
+        fresh['sections'] = [{'id': 'Keep-1'}]
+        fresh['meta'].update(date='2026-11-15', publicFamilyScopeIds=[],
+                             publicFamilySyncIds=[], publicFamilyNewIds=[],
+                             publicFamilyCutoff=1850)
+        return old, fresh
+
+    def _write_routine_dossier(self, directory, latest=1862, birth=None):
+        root = Path(directory)
+        (root / 'people').mkdir(exist_ok=True)
+        (root / 'people/routine-1.json').write_text(json.dumps({
+            'id': 'Routine-1', 'historical_basis': {'latest_birth_year': latest},
+            'vitals': {'birth': {'date': birth}}}))
+        return root
+
+    def test_obsolete_auto_cohort_retires_only_node_and_navigation(self):
+        old, fresh = self._routine_scope_models()
+        before = deepcopy(old)
+        with TemporaryDirectory() as directory:
+            root = self._write_routine_dossier(directory)
+            result = overlay_model(old, fresh, site_root=root)
+            self.assertEqual({p['id'] for p in result['people']}, {'@group', 'Keep-1'})
+            for key in ('publicFamilyScopeIds', 'publicFamilySyncIds', 'publicFamilyNewIds'):
+                self.assertEqual(result['meta'][key], [])
+            self.assertEqual(result['landmarks'], ['Keep-1'])
+            self.assertEqual(result['sections'], [{'id': 'Keep-1'}])
+            self.assertEqual(result['dna'], before['dna'])
+            self.assertEqual(result['people'][1], before['people'][1])
+            self.assertEqual(old, before)
+            self.assertEqual(overlay_model(result, fresh, site_root=root), result)
+
+    def test_missing_auto_member_with_qualifying_or_unknown_chronology_fails(self):
+        old, fresh = self._routine_scope_models()
+        # Death-age-derived 1841 is still a valid routine cutoff anchor.
+        for latest, birth in [(1841, None), (None, None), (True, None),
+                              (1862, 'before 1840')]:
+            with self.subTest(latest=latest, birth=birth), TemporaryDirectory() as directory:
+                root = self._write_routine_dossier(directory, latest, birth)
+                with self.assertRaisesRegex(ValueError, 'Published family subject absent'):
+                    overlay_model(old, fresh, site_root=root)
+        with self.assertRaisesRegex(ValueError, 'Published family subject absent'):
+            overlay_model(old, fresh)
+        with TemporaryDirectory() as directory:
+            with self.assertRaisesRegex(ValueError, 'Published family subject absent'):
+                overlay_model(old, fresh, site_root=Path(directory))
+
+    def test_missing_selected_reviewed_or_approved_member_is_never_retired(self):
+        old, fresh = self._routine_scope_models()
+        protections = [
+            ('workingOverlayIds', ['Routine-1']),
+            ('reviewedParentReplacementIds', ['Routine-1']),
+            ('reviewedFamilyRestorationIds', ['Routine-1']),
+            ('reviewedVitalDisplay', {'Routine-1': {'born': 1740}}),
+            ('approvedRetainedIds', ['Routine-1']),
+            ('publicFamilyRelatedIds', ['Routine-1']),
+        ]
+        with TemporaryDirectory() as directory:
+            root = self._write_routine_dossier(directory)
+            for key, value in protections:
+                with self.subTest(key=key):
+                    retained = deepcopy(old)
+                    retained['meta'][key] = value
+                    with self.assertRaises(ValueError):
+                        overlay_model(retained, fresh, site_root=root)
+            for field, value in [('note', 'Retained historical annotation'),
+                                  ('approved', True), ('documentary', True)]:
+                with self.subTest(field=field):
+                    retained = deepcopy(old)
+                    retained['people'][-1][field] = value
+                    with self.assertRaisesRegex(ValueError, 'Published family subject absent'):
+                        overlay_model(retained, fresh, site_root=root)
+            retained = deepcopy(old)
+            retained['dna'].append({'id': 'Routine-1', 'approved': True})
+            with self.assertRaisesRegex(ValueError, 'Published family subject absent'):
+                overlay_model(retained, fresh, site_root=root)
+
+    def test_connected_missing_auto_member_remains_a_hard_error(self):
+        old, fresh = self._routine_scope_models()
+        with TemporaryDirectory() as directory:
+            root = self._write_routine_dossier(directory)
+            for source in ('retained', 'fresh'):
+                for field in ('parents', 'partners', 'childrenRecorded', 'siblings',
+                              'priorWorkingChildren'):
+                    with self.subTest(source=source, field=field):
+                        retained, current = deepcopy(old), deepcopy(fresh)
+                        model = retained if source == 'retained' else current
+                        model['people'][1][field] = [{'id': 'Routine-1'}]
+                        with self.assertRaisesRegex(ValueError, 'Published family subject absent'):
+                            overlay_model(retained, current, site_root=root)
+            retained = deepcopy(old)
+            retained['people'][-1]['parents'] = [{'id': 'Keep-1', 'role': 'father'}]
+            with self.assertRaisesRegex(ValueError, 'Published family subject absent'):
+                overlay_model(retained, fresh, site_root=root)
+            retained = deepcopy(old)
+            retained['people'][1]['edge'] = {
+                'parent': 'Routine-1', 'type': 'recorded', 'semantic': 'parent'}
+            with self.assertRaisesRegex(ValueError, 'Published family subject absent'):
+                overlay_model(retained, fresh, site_root=root)
+
+    def test_missing_auto_with_current_dossier_family_is_protected(self):
+        old, fresh = self._routine_scope_models()
+        with TemporaryDirectory() as directory:
+            root = self._write_routine_dossier(directory)
+            path = root / 'people/routine-1.json'
+            dossier = json.loads(path.read_text())
+            dossier['relationships'] = {'parents': [{'id': 'Keep-1'}]}
+            path.write_text(json.dumps(dossier))
+            with self.assertRaisesRegex(ValueError, 'Published family subject absent'):
+                overlay_model(old, fresh, site_root=root)
+
+    def test_missing_non_auto_or_still_scoped_member_cannot_retire(self):
+        old, fresh = self._routine_scope_models()
+        with TemporaryDirectory() as directory:
+            root = self._write_routine_dossier(directory)
+            retained = deepcopy(old)
+            retained['meta']['publicFamilyNewIds'] = []
+            with self.assertRaisesRegex(ValueError, 'Published family subject absent'):
+                overlay_model(retained, fresh, site_root=root)
+            for key, value in [('landmarks', ['Routine-1']),
+                               ('sections', [{'id': 'Routine-1'}])]:
+                with self.subTest(navigation=key):
+                    current = deepcopy(fresh)
+                    current[key] = value
+                    with self.assertRaisesRegex(ValueError, 'Published family subject absent'):
+                        overlay_model(old, current, site_root=root)
+            for key in ('publicFamilyScopeIds', 'publicFamilySyncIds', 'publicFamilyNewIds'):
+                with self.subTest(key=key):
+                    current = deepcopy(fresh)
+                    current['meta'][key] = ['Routine-1']
+                    with self.assertRaisesRegex(ValueError, 'Published family subject absent'):
+                        overlay_model(old, current, site_root=root)
+
     def test_new_public_people_and_catalogue_date_keep_approved_dna(self):
         old = {'meta': {'date': '2026-09-07', 'dnaCoverage': 'Approved September snapshot'},
                'landmarks': ['Old-1'], 'sections': [], 'dna': [{'id': 'Old-1'}],

@@ -3,6 +3,7 @@ from __future__ import annotations
 
 from copy import deepcopy
 import json
+import re
 from pathlib import Path
 
 from tools.captured_parent_aliases import apply_parent_identity_repairs, repairable_parent
@@ -86,6 +87,104 @@ def _restore_recorded_mother_placeholders(existing: dict, incoming: dict,
                                   role='mother', status=row.get('status', 'unmarked'))
 
 
+
+def _references_subject(value, ident: str) -> bool:
+    """Match structured IDs without treating ordinary display text as an edge."""
+    if isinstance(value, str):
+        return value == ident
+    if isinstance(value, dict):
+        return ident in value or any(_references_subject(v, ident) for v in value.values())
+    if isinstance(value, (list, tuple)):
+        return any(_references_subject(v, ident) for v in value)
+    return False
+
+
+def _obsolete_auto_members(retained: dict, fresh: dict, incoming: dict,
+                           site_root: Path | None) -> set[str]:
+    """Retire only unconnected auto additions that lost their routine anchor.
+
+    A post-cutoff latest-birth bound does not prove a post-cutoff birth: it only
+    establishes that this dossier no longer supplies a routine pre-cutoff anchor.
+    Unknown chronology and missing dossiers fail closed. Reviewed accounts and
+    semantic family/DNA references remain protected by the normal missing guard.
+    """
+    if site_root is None or 'publicFamilyScopeIds' not in fresh['meta']:
+        return set()
+    cutoff = fresh['meta'].get('publicFamilyCutoff')
+    if isinstance(cutoff, bool) or not isinstance(cutoff, int):
+        return set()
+    bookkeeping = {'publicFamilyNewIds', 'publicFamilyScopeIds', 'publicFamilySyncIds'}
+    old = {p['id']: p for p in retained['people']}
+    candidates = (set(retained['meta'].get('publicFamilyNewIds', []))
+                  - set(incoming) - set(fresh['meta']['publicFamilyScopeIds']))
+    routine_fields = set(WORKING_PERSON_FIELDS) | set(CHRONOLOGY_DISPLAY_FIELDS) | {
+        'id', 'kind', 'catalogueId', 'recordUrl', 'catalogueUrl', 'wikitreeUrl',
+        'publicCatalogueProfile', 'edge',
+    }
+    retired = set()
+    for ident in candidates:
+        person = old.get(ident)
+        if not person or person.get('kind') != 'person':
+            continue
+        # Any additional retained account/family annotation is outside the
+        # automatic routine import and cannot be silently discarded.
+        if any(value and key not in routine_fields for key, value in person.items()):
+            continue
+        edge = person.get('edge', {})
+        if edge and (edge.get('type') != 'group'
+                     or edge.get('semantic', 'collection') != 'collection'):
+            continue
+        attachment = incoming.get(edge.get('parent'), old.get(edge.get('parent'), {}))
+        if edge.get('parent') and attachment.get('kind') != 'group':
+            continue
+        if any(_references_subject(value, ident)
+               for model in (retained, fresh)
+               for key, value in model['meta'].items() if key not in bookkeeping):
+            continue
+        if any(ident in fresh['meta'].get(key, [])
+               for key in ('publicFamilyNewIds', 'publicFamilySyncIds')):
+            continue
+        if ident in fresh.get('landmarks', []) or any(
+                row.get('id') == ident for row in fresh.get('sections', [])):
+            continue
+        if any(_references_subject(row, ident)
+               for model in (retained, fresh) for row in model['people']
+               if row.get('id') != ident):
+            continue
+        if any(_references_subject(value, ident)
+               for model in (retained, fresh) for key, value in model.items()
+               if key not in {'meta', 'people', 'landmarks', 'sections'}):
+            continue
+        # A section rooted at this routine member is navigation, but a reference
+        # from another section may describe a retained family and is protected.
+        if any(_references_subject(row, ident)
+               for model in (retained, fresh) for row in model.get('sections', [])
+               if row.get('id') != ident):
+            continue
+        path = site_root / 'people' / (ident.lower() + '.json')
+        if not path.is_file():
+            continue
+        dossier = json.loads(path.read_text())
+        if (dossier.get('id') != ident or dossier.get('private') or dossier.get('withheld')):
+            continue
+        relationships = dossier.get('relationships') or {}
+        if any(relationships.get(key) for key in (
+                'parents', 'partners', 'spouses', 'children', 'childrenRecorded', 'siblings')):
+            continue
+        latest = (dossier.get('historical_basis') or {}).get('latest_birth_year')
+        if isinstance(latest, bool) or not isinstance(latest, int) or latest <= cutoff:
+            continue
+        # Do not retire a qualifying public person merely because an upstream
+        # projection failed to use an already recorded date or age-derived bound.
+        vitals = dossier.get('vitals') or {}
+        dated = [re.search(r'\b(?:1[0-9]|20)\d{2}\b',
+                           str((vitals.get(kind) or {}).get('date') or ''))
+                 for kind in ('birth', 'death')]
+        if any(match and int(match.group()) <= cutoff for match in dated):
+            continue
+        retired.add(ident)
+    return retired
+
 def overlay_model(retained: dict, fresh: dict, *, site_root: Path | None = None) -> dict:
     """Add current public people and refresh reviewed fields on retained subjects."""
     result = deepcopy(retained)
@@ -167,6 +266,16 @@ def overlay_model(retained: dict, fresh: dict, *, site_root: Path | None = None)
             for key in WORKING_PERSON_FIELDS:
                 if key in previous:
                     existing[ident][key] = deepcopy(previous[key])
+    obsolete_auto = _obsolete_auto_members(retained, fresh, incoming, site_root)
+    for ident in obsolete_auto:
+        existing.pop(ident, None)
+    previous_public -= obsolete_auto
+    if obsolete_auto:
+        for key in ('publicFamilyNewIds', 'publicFamilyScopeIds', 'publicFamilySyncIds'):
+            if key in result['meta']:
+                result['meta'][key] = [i for i in result['meta'][key] if i not in obsolete_auto]
+        result['landmarks'] = [i for i in result['landmarks'] if i not in obsolete_auto]
+        result['sections'] = [s for s in result['sections'] if s['id'] not in obsolete_auto]
     for ident in public_families | previous_public:
         if ident not in incoming:
             raise ValueError('Published family subject absent from current public model: ' + ident)

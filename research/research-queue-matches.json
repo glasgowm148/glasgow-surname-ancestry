@@ -64962,14 +64962,30 @@
       "canonical_groups": [
         "record-ancestry-glasgow-be2339f5f3b7"
       ]
+    },
+    "update-record-ancestry-glasgow-54c77d44a572": {
+      "status": "matched",
+      "profile_ids": [
+        "Glasgow-1001"
+      ],
+      "reviewed_on": "2026-11-15",
+      "assessment": "Probable adult Kendal identity; competing child explicitly separated, original vital precision corrected, parent grades unchanged."
+    },
+    "update-record-ancestry-glasgow-6aa5c3ee3385": {
+      "status": "compatible_candidate",
+      "profile_ids": [
+        "Robertson-Glasgow-11"
+      ],
+      "reviewed_on": "2026-11-15",
+      "assessment": "Probable1839groom candidate from distinctive name/bride/date; local canonical representation/access prerequisite remains unmet. Delayed1818baptism is possible and unselected, not a chronological exclusion."
     }
   },
   "summary": {
     "already_linked": 272,
     "research_question": 18,
-    "compatible_candidate": 219,
+    "compatible_candidate": 220,
     "superseded": 24,
-    "matched": 17,
+    "matched": 18,
     "no_compatible_profile": 33,
     "partly_matched": 17,
     "unnamed_record": 8,

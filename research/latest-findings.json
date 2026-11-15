@@ -85796,6 +85796,87 @@
         "research/Glasgow-591/findings.md",
         "research/transcriptions/originals-2026-09-10-reread/william-1673.json"
       ]
+    },
+    {
+      "id": "local-queue-mixed-adult-child-scopes-20261115",
+      "found_on": "2026-11-15",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "Two mixed adult/child accounts are corrected. William Brown Glasgow’s Kendal adult identity is supported independently and the duplicate creation suggestion is retired. Robert Robertson Glasgow remains a probable 1839 groom candidate on hold. The 1818 and 1816 child entries remain possible, unselected comparisons; delayed baptism is not an exclusion. William’s displayed exact birthday was a baptism field and is replaced locally by a conditional upper bound. James’s primary indexed birth about 1841 is retained independently of his withdrawn 1811 baptism comparison.",
+      "qualification": "Held derivative indexes and maintained secondary research only; no new original inspection. The1815baptism/1816birth sequence and maternal names conflict if literal, but the selected earlier-child identity is only probable. Existing85%parent assessments remain unchanged. A new manual WikiTree birth correction is queued locally, not saved live.",
+      "detail_url": "/people/glasgow-1001.html#research-findings",
+      "people": [
+        {
+          "id": "Glasgow-1001",
+          "name": "William Brown Glasgow",
+          "url": "/people/glasgow-1001.html",
+          "role": "Adult identity retained; birth precision qualified"
+        },
+        {
+          "id": "record-ancestry-glasgow-6aa5c3ee3385",
+          "name": "Robert Robertson Glasgow",
+          "url": "/people/record-ancestry-glasgow-6aa5c3ee3385.html",
+          "role": "Probable adult candidate; representation and source questions remain"
+        },
+        {
+          "id": "record-ancestry-glasgow-8456ffacc0ad",
+          "name": "William Glasgow (1816 child)",
+          "url": "/people/record-ancestry-glasgow-8456ffacc0ad.html",
+          "role": "Separate documentary child; competing adult comparison retained"
+        },
+        {
+          "id": "record-ancestry-glasgow-98605ded7d74",
+          "name": "James Glasgow",
+          "url": "/people/record-ancestry-glasgow-98605ded7d74.html",
+          "role": "Indexed approximate 1841 birth retained; competing 1811 child not adopted"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Berwick baptism index, 23 July 1815",
+          "url": "https://www.ancestry.co.uk/search/collections/9841/records/114661706",
+          "record_id": "ancestry-9841-114661706"
+        },
+        {
+          "title": "Manchester birth 13 April and baptism 23 June 1816",
+          "url": "https://www.ancestry.co.uk/search/collections/9841/records/183640583",
+          "record_id": "ancestry-9841-183640583"
+        },
+        {
+          "title": "Robert’s baptism, 5 January 1818, Birmingham",
+          "url": "https://www.ancestry.co.uk/search/collections/9841/records/170871964",
+          "record_id": "ancestry-9841-170871964"
+        },
+        {
+          "title": "Robert Robertson Glasgow marriage, 11 July 1839, Kilwinning",
+          "url": "https://www.ancestry.co.uk/search/collections/60144/records/4111522",
+          "record_id": "ancestry-60144-4111522"
+        },
+        {
+          "title": "James Glasgow monument index: death in 1903 aged 62, birth about 1841",
+          "url": "https://www.ancestry.co.uk/search/collections/62497/records/348011",
+          "record_id": "ancestry-62497-348011"
+        }
+      ],
+      "source_ids": [
+        "ancestry-9841-114661706",
+        "ancestry-9841-183640583",
+        "ancestry-9841-170871964",
+        "ancestry-60144-4111522",
+        "ancestry-9852-12271211",
+        "ancestry-9852-31321022",
+        "ancestry-1351-922757",
+        "ancestry-9841-76326470",
+        "ancestry-9841-76326471",
+        "ancestry-62497-348011"
+      ],
+      "provenance": [
+        "research/Glasgow-1001/findings.md",
+        "research/record-ancestry-glasgow-6aa5c3ee3385/findings.md",
+        "research/queue-review-2026-10-17/catalogue-integration.json",
+        "research/vital_assessments.json",
+        "research/queue-review-2026-10-17/catalogue-integration.json"
+      ]
     }
   ]
 }
