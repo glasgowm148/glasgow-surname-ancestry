@@ -67,3 +67,15 @@ class StatisticsPageTests(unittest.TestCase):
             page = (web / 'statistics/index.html').read_text(encoding='utf-8')
             self.assertIn('<strong>42</strong>', page)
             self.assertNotIn('<strong>7</strong>', page)
+
+
+class FirstNameCohortTests(unittest.TestCase):
+    def test_birth_surname_and_single_given_name(self):
+        base = {'last_names_at_birth': ['Glasgow'], 'first_names': ['Mary Ann'], 'birth': 'c. 1699', 'gender': 'Female'}
+        rows = statistics.first_name_rows([base, dict(base, last_names_at_birth=['Smith']), dict(base, likely_living=True)])
+        self.assertEqual(rows, [['Mary', 1699, 'Female', 1]])
+
+    def test_bounds_ranges_and_missing_values_remain_undated(self):
+        base = {'last_names_at_birth': ['GLASGOW'], 'first_names': ['John'], 'gender': ''}
+        people = [dict(base, birth=birth) for birth in ('before 1700', 'after 1690', '1690–1710', '')]
+        self.assertEqual(statistics.first_name_rows(people), [['John', None, 'Unknown', 4]])

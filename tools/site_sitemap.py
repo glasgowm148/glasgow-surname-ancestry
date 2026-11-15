@@ -42,7 +42,7 @@ EXCLUDED_PREFIXES = {
 }
 
 READER_GROUPS = (
-    ("people", "People and catalogue", ("catalogue", "people", "early-records")),
+    ("people", "People and catalogue", ("catalogue", "people", "early-records", "statistics")),
     ("families", "Families and places", ("branches", "places")),
     ("tree", "Family tree and DNA", ("onetree", "map", "dna", "ydna", "timeline", "connections")),
     ("sources", "Records and sources", ("sources", "records", "research/transcriptions")),

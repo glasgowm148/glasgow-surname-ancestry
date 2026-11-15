@@ -3,6 +3,7 @@
 from pathlib import Path
 import json
 import re
+from collections import Counter
 try:
     from tools.site_identity import SITE_NAME, page_title
 except ModuleNotFoundError:
@@ -59,6 +60,63 @@ def _current_catalogue_summary() -> str | None:
     return summary.group(0) if summary else None
 
 
+
+def first_name_rows(people):
+    """Aggregate the public birth-surname cohort without exposing extra fields."""
+    counts = Counter()
+    for person in people:
+        if person.get('likely_living') or not any(
+                str(name).strip().casefold() == 'glasgow'
+                for name in person.get('last_names_at_birth', [])):
+            continue
+        names = person.get('first_names') or []
+        first = str(names[0]).strip().split() if names else []
+        name = first[0].strip('[]?').title() if first else ''
+        if not name or name.casefold() in {'unknown', 'unnamed', 'not', 'n.n.', 'nn', 'private'}:
+            name = 'Unknown first name'
+        birth = str(person.get('birth') or '')
+        years = re.findall(r'\b[1-2]\d{3}\b', birth)
+        # A bound or range is not a point estimate; exclude it from year cutoffs.
+        year = int(years[0]) if len(years) == 1 and not re.search(
+            r'before|after|bef\.?|aft\.?|[<>]', birth, re.I) else None
+        gender = person.get('gender')
+        gender = gender if gender in ('Male', 'Female') else 'Unknown'
+        counts[(name, year, gender)] += 1
+    return [[name, year, gender, count] for (name, year, gender), count in
+            sorted(counts.items(), key=lambda item: (item[0][0], item[0][1] or 0, item[0][2]))]
+
+
+def first_names_panel():
+    path = WEB / 'data/people.json'
+    data = json.loads(path.read_text(encoding='utf-8')) if path.exists() else {}
+    rows = first_name_rows(data.get('people', []))
+    payload = json.dumps(rows, ensure_ascii=True).replace('<', '\\u003c')
+    return (
+        '<section class="statistics-names" id="first-names" aria-labelledby="first-names-title">'
+        '<span class="r-kicker">Given names through time</span>'
+        '<h2 id="first-names-title">First names of people born Glasgow</h2>'
+        '<p>People whose recorded surname at birth was Glasgow, wherever they were born. '
+        'Each catalogue person counts once, using the first word of their first given name; spelling variants stay separate.</p>'
+        '<div class="statistics-name-filters">'
+        '<label for="names-century">Born before<select id="names-century">'
+        '<option value="">All years</option>' +
+        ''.join(f'<option value="{year}">Before {year} (&lt;{year})</option>' for year in range(1500, 2100, 100)) +
+        '</select></label><label for="names-gender">Gender<select id="names-gender">'
+        '<option value="">All genders</option><option>Female</option><option>Male</option>'
+        '<option>Unknown</option></select></label></div>'
+        '<p id="names-summary" role="status" aria-live="polite"></p>'
+        '<div class="statistics-name-layout"><div id="names-pie" role="img" aria-label="First-name proportions"></div>'
+        '<div class="statistics-name-table"><table><caption>First-name counts and percentages</caption>'
+        '<thead><tr><th scope="col">First name</th><th scope="col">People</th><th scope="col">Share</th></tr></thead>'
+        '<tbody id="names-rows"></tbody></table></div></div>'
+        '<p class="statistics-name-note">Year filters are cumulative: before 1800 includes all dated births earlier than 1800. '
+        'Approximate single years are included; missing years, date ranges and before/after dates are excluded when a year filter is selected. '
+        'Unknown genders remain available separately. The pie shows the 12 most common names and groups the rest as Other names; the table lists every name. '
+        'These are catalogue patterns, not population statistics.</p>'
+        '<noscript>Enable JavaScript to explore the chart and filters.</noscript>'
+        '<script type="application/json" id="names-data">' + payload + '</script></section>'
+    )
+
 def repair():
     statistics_source = _statistics_markup()
     shell = (WEB / 'research/index.html').read_text(encoding='utf-8')
@@ -81,6 +139,7 @@ def repair():
     panels = rebase_catalogue_links(panels)
     current_summary = rebase_catalogue_links(_current_catalogue_summary() or summary.group(0))
     main = '''<main class="r-main statistics-page" id="main"><header class="v3-page-head statistics-page-head"><span class="r-kicker">The collection, at a glance</span><h1>Statistics from the<br>public historical catalogue.</h1><p>Counts are drawn from the maintained catalogue snapshot. They describe records and documented associations, not a proved single family tree. The headline totals are the same as on <a href="/about/">About</a> and <a href="/status/">Catalogue status</a>.</p></header><section class="statistics-page-summary" aria-label="Catalogue summary">''' + current_summary + '''</section><section class="statistics-page-panels" aria-labelledby="statistics-detail-title"><div class="statistics-page-intro"><span class="r-kicker">Patterns in the collection</span><h2 id="statistics-detail-title">Places, names, branches and movement</h2><p>Each panel remains linked back to the relevant catalogue or place view.</p></div><div class="statistics-grid">''' + panels + '''</div><p class="statistics-caution">''' + caution + '''</p></section></main>'''
+    main = main.replace('<section class="statistics-page-panels"', first_names_panel() + '<section class="statistics-page-panels"', 1)
     shell = re.sub(r'<title>.*?</title>', lambda _: f'<title>{page_title("Statistics")}</title>', shell, count=1, flags=re.S)
     shell = re.sub(r'<meta content="The Glasgow surname (?:archive|project):[^"]*" name="description"\s*/?>', '<meta content="Statistics from the public historical catalogue: places, names, branches and recorded movement." name="description">', shell, count=1)
     shell = shell.replace('data-g-path="/research/index.html"', 'data-g-path="/statistics/index.html"')
@@ -88,6 +147,19 @@ def repair():
     shell = re.sub(r'<nav class="v3-view-nav" aria-label="Section views">.*?</nav>', '', shell, count=1, flags=re.S)
     shell = re.sub(r'<main class="r-main" id="main">.*?</main>', main, shell, count=1, flags=re.S)
     shell = shell.replace('</head>', '<link rel="stylesheet" href="/assets/repair/statistics.css?v=2"></head>', 1)
+    try:
+        from tools.repair_primary_navigation import repair_nav_only_page, repair_site_identity_page
+    except ModuleNotFoundError:
+        from repair_primary_navigation import repair_nav_only_page, repair_site_identity_page
+    shell = shell.replace('g-kind-research', 'g-kind-catalogue')
+    shell = repair_site_identity_page(repair_nav_only_page(shell, Path('statistics/index.html')), Path('statistics/index.html'))
+    for extension in ('css', 'js'):
+        source = ROOT / 'tools' / f'statistics_names.{extension}'
+        target = WEB / 'assets/repair' / f'statistics-names.{extension}'
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_text(source.read_text(encoding='utf-8'), encoding='utf-8')
+    shell = shell.replace('</head>', '<link rel="stylesheet" href="/assets/repair/statistics-names.css?v=1"></head>', 1)
+    shell = shell.replace('</body>', '<script src="/assets/repair/statistics-names.js?v=1" defer></script></body>', 1)
     output = WEB / 'statistics/index.html'
     output.parent.mkdir(parents=True, exist_ok=True)
     before = output.read_text(encoding='utf-8') if output.exists() else None

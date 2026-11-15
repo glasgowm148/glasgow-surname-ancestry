@@ -48,6 +48,7 @@ SECTION_SUBMENU_ITEMS = {
         ('/catalogue/#research-queue', 'Held &amp; pending research'),
         ('/notables/', 'Notables'),
         ('/early-records/', 'Early records'),
+        ('/statistics/', 'Statistics'),
     ),
     '/branches/': (
         ('/branches/', 'All families'),
@@ -79,7 +80,6 @@ SECTION_SUBMENU_ITEMS = {
         ('/about/', 'About this project'),
         ('/evidence/', 'How to read the evidence'),
         ('/coverage/', 'About the data'),
-        ('/statistics/', 'Statistics'),
         ('/data/', 'Data &amp; downloads'),
         ('/resources/', 'Resources'),
         ('/changes/', 'Change log'),
@@ -91,7 +91,7 @@ SECTION_SUBMENU_ITEMS = {
 SECTION_ROOTS = {
     'about': '/about/', 'changes': '/about/', 'coverage': '/about/', 'data': '/about/',
     'evidence': '/about/', 'feedback': '/about/', 'privacy': '/about/', 'resources': '/about/',
-    'statistics': '/about/', 'status': '/about/', 'sitemap': '/about/',
+    'statistics': '/catalogue/', 'status': '/about/', 'sitemap': '/about/',
     'branches': '/branches/',
     'catalogue': '/catalogue/', 'early-records': '/catalogue/', 'people': '/catalogue/', 'notables': '/catalogue/',
     'map': '/onetree/', 'onetree': '/onetree/', 'places': '/branches/',

@@ -42,4 +42,4 @@ const initialScore=params.get('minScore');if(initialScore&&/^\d{1,3}$/.test(init
 const initialRole=params.get('parentRole');if(['father','mother'].includes(initialRole))roleInput.value=initialRole;
 locationInput.value=params.get('candidateLocation')||'';maleInput.checked=params.get('malesOnly')==='1';
 input.addEventListener('input',apply);scoreInput.addEventListener('input',apply);roleInput.addEventListener('change',apply);locationInput.addEventListener('input',apply);maleInput.addEventListener('change',apply);clear.addEventListener('click',()=>{input.value='';scoreInput.value='40';roleInput.value='';locationInput.value='';maleInput.checked=false;apply();input.focus()});apply();
-})();</script><script src="/assets/unified/section-submenus.js?v=91d5aab4d1" defer></script></body></html>
+})();</script><script src="/assets/unified/section-submenus.js?v=84a2ce12c8" defer></script></body></html>
