@@ -1,10 +1,10 @@
 {
-  "assessment_date": "2026-11-13",
-  "opening": "Hill’s inspected printed p. 53 distinguishes senior John Hutcheson in Gairbraid, husband of Marion Wilson or Jarden, from their eldest son John, husband of Agnes Anderson. The existing John profile mixes those generations; the attached father relationship to Thomas remains uncertain without a percentage.",
+  "assessment_date": "2026-11-15",
+  "opening": "Hill’s inspected printed p. 53 distinguishes senior John Hutcheson in Gairbraid, husband of Marion Wilson or Jarden, from their eldest son John, husband of Agnes Anderson. The existing John profile mixes those generations; the attached father relationship to Thomas remains uncertain without a percentage. On 15 November, visually checked Hill p. 87 and fresh FamilySearch family reads resolved the external mapping hold and excluded Agnes as Thomas’s mother; the qualitative parent assessments remain uncertain without percentages.",
   "position": {
-    "answer": "Hill’s inspected printed p. 53 distinguishes senior John Hutcheson in Gairbraid, husband of Marion Wilson or Jarden, from their eldest son John, husband of Agnes Anderson. The existing John profile mixes those generations; the attached father relationship to Thomas remains uncertain without a percentage.",
+    "answer": "Hill’s inspected printed p. 53 distinguishes senior John Hutcheson in Gairbraid, husband of Marion Wilson or Jarden, from their eldest son John, husband of Agnes Anderson. The existing John profile mixes those generations; the attached father relationship to Thomas remains uncertain without a percentage. On 15 November, visually checked Hill p. 87 and fresh FamilySearch family reads resolved the external mapping hold and excluded Agnes as Thomas’s mother; the qualitative parent assessments remain uncertain without percentages.",
     "points": [
-      "Hold imported Agnes-as-Thomas’s-mother and senior-John/Agnes spouse roles.",
+      "Exclude imported Agnes-as-Thomas’s-mother: Hill assigns her to eldest John. Senior John’s WikiTree spouse conflation remains unresolved.",
       "No replacement parent, duplicate John, merge or live edit."
     ]
   },
@@ -12,7 +12,7 @@
     {
       "id": "gairbraid-identity",
       "title": "Three Johns and the Gairbraid source conflict",
-      "markdown": "Hill’s inspected printed p. 53 distinguishes senior John Hutcheson in Gairbraid, husband of Marion Wilson or Jarden, from their eldest son John, husband of Agnes Anderson. The existing John profile mixes those generations; the attached father relationship to Thomas remains uncertain without a percentage. Hill reports the 19 November 1582 charter and names Thomas as the younger son. The eldest John or his son John apparently conveyed the property or reversion to George on 5 August 1600; the actor remains alternative. [Inspected printed page 53](https://archive.org/download/earlyrecordsofol00hill/page/n78.jpg). Underlying charters uninspected."
+      "markdown": "Hill’s inspected printed p. 53 distinguishes senior John Hutcheson in Gairbraid, husband of Marion Wilson or Jarden, from their eldest son John, husband of Agnes Anderson. The existing John profile mixes those generations; the attached father relationship to Thomas remains uncertain without a percentage. Hill reports the 19 November 1582 charter and names Thomas as the younger son. The eldest John or his son John apparently conveyed the property or reversion to George on 5 August 1600; the actor remains alternative. [Inspected printed page 53](https://archive.org/download/earlyrecordsofol00hill/page/n78.jpg). Underlying charters uninspected. Visually checked [printed p. 87](https://archive.org/download/earlyrecordsofol00hill/page/n114.jpg) supports this generational distinction; it is from the same compiled book, and the underlying originals remain uninspected."
     },
     {
       "id": "marion-working-mother",
@@ -22,7 +22,8 @@
   ],
   "questions": [
     "Can the original 1582 confirmation and 1881 history pp. 5–6 reconcile the senior and eldest-son profile identities?",
-    "Which existing Marion Wilson/Jarden profile, if any, is compatible?"
+    "Can an original record strengthen the compatible senior John/Marion household correspondence without endorsing inherited dates or extra ancestry?"
   ],
-  "familysearch_working_state": "FamilySearch GPYT-31C is now linked to Thomas PJ3T-SGD as a qualified uncertain working mother, verified after saving; the original charter remains uninspected and no percentage is assigned. This does not endorse the inherited dates, parents or extra children. No live WikiTree edit has been performed."
+  "familysearch_working_state": "Fresh 15 November family reads verify senior John GPYR-JMS and Marion GPYT-31C already attached to Thomas PJ3T-SGD. These are compatible account correspondences; inherited dates, extra ancestry and additional children are not endorsed. No new parent save or confidence upgrade; no live WikiTree edit.",
+  "historical_relationship_assessment_date": "2026-11-13"
 }

@@ -85188,6 +85188,249 @@
       "provenance": [
         "research/source-library/census-reference-overrides.json"
       ]
+    },
+    {
+      "id": "thomson-peirie-1663-household-recovery-20261115",
+      "found_on": "2026-11-15",
+      "kind": "record",
+      "finding": "The Edinburgh marriage-register index identifies William Thomson, servant to Sir William Thomson the town clerk, and Grizel Peirie on 27 November 1663. A freshly inspected 1664 child’s christening index identifies the corresponding FamilySearch household; Thomson-263 is matched to LR4G-4QS with medium confidence.",
+      "status": "qualified",
+      "qualification": "Root visually verified the printed entry on Paton p.541, PDF p.551, on15November2026; the original parish register remains uninspected. The wife and child details are imported WikiTree assertions, with Savage.ged/Ancestral File provenance, not newly verified baptisms. William’s circa-1638 birth and Edinburgh birthplace remain inherited, unsourced estimates. The compatible 1681 Carstairs William Thomsone/Agnes Glasgow account remains a separate possible later identity; different earlier spouses alone do not exclude it. No relationship confidence or birth-date upgrade is proposed. Root matched Thomson-263 to FamilySearch LR4G-4QS at medium confidence after freshly inspecting William’s Edinburgh christening index X1Y2-R5W, dated 18 December 1664, naming father William and mother Grissell Peirie and attached to that father account. Wife 9796-FLG and the five named children agree with the imported household. FamilySearch displays a marriage on 27 November 1662, while Paton’s printed index gives 27 November 1663; retain this discrepancy pending original-register inspection. The displayed 1753 death, title “Father”, ancestry and additional children are not endorsed. This intended-household mapping does not establish identity with the 1681 Carstairs groom.",
+      "people": [
+        {
+          "id": "Thomson-263",
+          "name": "William Thomson",
+          "url": "/people/thomson-263.html",
+          "role": "Intended Edinburgh groom and father in the imported Peirie household"
+        },
+        {
+          "id": "Peirie-1",
+          "name": "Grissell Peirie",
+          "url": "https://www.wikitree.com/wiki/Peirie-1",
+          "role": "Imported wife, recorded as Grizel in the printed index"
+        },
+        {
+          "id": "Thomson-264",
+          "name": "William Thomson",
+          "url": "https://www.wikitree.com/wiki/Thomson-264",
+          "role": "Imported child; christening stated as 18 December 1664"
+        },
+        {
+          "id": "Thomson-265",
+          "name": "Thomas Thomson",
+          "url": "https://www.wikitree.com/wiki/Thomson-265",
+          "role": "Imported child; christening stated as 23 May 1669"
+        },
+        {
+          "id": "Thomson-266",
+          "name": "Thomas Thomson",
+          "url": "https://www.wikitree.com/wiki/Thomson-266",
+          "role": "Imported child; christening stated as 28 August 1670"
+        },
+        {
+          "id": "Thomson-267",
+          "name": "John Thomson",
+          "url": "https://www.wikitree.com/wiki/Thomson-267",
+          "role": "Imported child; christening stated as 14 July 1672"
+        },
+        {
+          "id": "Thomson-268",
+          "name": "Grissell Thomson",
+          "url": "https://www.wikitree.com/wiki/Thomson-268",
+          "role": "Imported child; christening stated as 4 January 1674"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Henry Paton, ed., A Register of Marriages for the Parish of Edinburgh, 1595–1700 (1905), p. 541; PDF p. 551",
+          "url": "https://electricscotland.com/history/records/scottishrecordso16scotuoft.pdf#page=551"
+        },
+        {
+          "title": "Public WikiTree API: William Thomson, Thomson-263; family fields retrieved 15 November 2026",
+          "url": "https://api.wikitree.com/api.php?action=getPerson&key=Thomson-263&fields=Id%2CName%2CFirstName%2CLastNameAtBirth%2CGender%2CBirthDate%2CBirthLocation%2CDeathDate%2CFather%2CMother%2CBio%2CCreated%2CTouched%2CDataStatus%2CSpouses%2CChildren&format=json"
+        },
+        {
+          "title": "Public WikiTree API: Grissell Peirie, Peirie-1; family fields and import provenance retrieved 15 November 2026",
+          "url": "https://api.wikitree.com/api.php?action=getPerson&key=Peirie-1&fields=Id%2CName%2CFirstName%2CLastNameAtBirth%2CGender%2CBirthDate%2CBirthLocation%2CDeathDate%2CFather%2CMother%2CBio%2CCreated%2CTouched%2CDataStatus%2CSpouses%2CChildren%2CParents%2CSiblings&format=json"
+        },
+        {
+          "title": "FamilySearch, Scotland Births and Baptisms: William Thomson, christening 18 December 1664, Edinburgh; indexed parents William Thomson and Grissell Peirie; freshly inspected by root 15 November 2026",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:X1Y2-R5W"
+        },
+        {
+          "title": "FamilySearch existing household LR4G-4QS; intended-household correspondence only",
+          "url": "https://www.familysearch.org/en/tree/person/details/LR4G-4QS"
+        }
+      ],
+      "detail_url": "/people/thomson-263.html",
+      "provenance": [
+        "Public WikiTree getPerson responses retrieved 15 November 2026; fields include spouse and child identities, relationship identifiers, imported biography and DataStatus.",
+        "research/queue-resolution-2026-09-30/scottish-opr-captures/edinburgh-marriages-1595-1700.txt, lines 66187–66196; printed p. 541, PDF p. 551."
+      ],
+      "relationship_changes": []
+    },
+    {
+      "id": "hutcheson-thomas-agnes-role-resolved-20261115",
+      "found_on": "2026-11-15",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Hill’s visually checked printed p. 87 separates the senior John and Marion generation from the younger John associated with Agnes Anderson in 1588. Read with p. 53, which explicitly names Thomas as senior John and Marion’s younger son, this resolves the imported Agnes-as-Thomas’s-mother role as source-conflicting and excluded. Fresh FamilySearch family readbacks confirm the compatible existing senior household.",
+      "significance": "Resolves a wrong family role and external mapping holds without copying the erroneous maternal link, creating duplicate parents, or changing historical parent confidence. The existing qualified John and Marion links were verified, not newly added.",
+      "qualification": "Hill is compiled evidence; both pages belong to the same book. Original 1582 confirmation, 1588 sasine and manuscript records remain uninspected. Thomas’s father and mother assessments remain uncertain without individual percentages. The compatible FamilySearch household does not prove inherited dates, extra ancestry, titles or additional children. The WikiTree John profile still conflates the senior identity with the eldest son’s wife; no live WikiTree edit is reported. Wilson/Jarden are recorded name forms, not a proved maiden surname.",
+      "people": [
+        {
+          "id": "Hutcheson-1647",
+          "name": "Thomas Hutcheson",
+          "url": "/people/hutcheson-1647.html",
+          "role": "Founders’ father; Agnes maternity excluded"
+        },
+        {
+          "id": "Hutcheson-1651",
+          "name": "John Hutcheson in Gairbraid",
+          "url": "/people/hutcheson-1651.html",
+          "role": "Senior household correspondence; profile’s wife conflation remains"
+        },
+        {
+          "id": "record-marion-wilson-jarden-gairbraid",
+          "name": "Marion Wilson or Jarden",
+          "url": "/people/record-marion-wilson-jarden-gairbraid.html",
+          "role": "Selected uncertain working mother; existing FS correspondence verified"
+        }
+      ],
+      "sources": [
+        {
+          "title": "W.H. Hill, The Early Records of an Old Glasgow Family (1902), printed p.53; visually checked13November2026",
+          "url": "https://archive.org/download/earlyrecordsofol00hill/page/n78.jpg"
+        },
+        {
+          "title": "W.H. Hill, The Early Records of an Old Glasgow Family (1902), printed p.87; visually checked15November2026",
+          "url": "https://archive.org/download/earlyrecordsofol00hill/page/n114.jpg"
+        },
+        {
+          "title": "FamilySearch, Thomas Hutcheson PJ3T-SGD, existing family readback15November2026",
+          "url": "https://www.familysearch.org/en/tree/person/family/PJ3T-SGD"
+        }
+      ],
+      "detail_url": "/people/hutcheson-1647.html#research-findings",
+      "relationship_changes": [],
+      "mapping_maintenance": {
+        "reviewed_on": "2026-11-15",
+        "father": {
+          "pid": "GPYR-JMS",
+          "status": "compatible_existing_senior_household_verified"
+        },
+        "mother": {
+          "pid": "GPYT-31C",
+          "status": "compatible_existing_qualified_maternal_link_verified"
+        },
+        "child_pid": "PJ3T-SGD",
+        "new_parent_additions": 0,
+        "confidence_changed": false,
+        "rejected_import": {
+          "subject": "Hutcheson-1647",
+          "role": "mother",
+          "relative": "Anderson-95451",
+          "status": "excluded_source_conflicting_role",
+          "basis": "Agnes belongs to Thomas’s elder brother John, not senior John’s parental household."
+        }
+      },
+      "provenance": [
+        "research/Hutcheson-1647/findings.md",
+        "research/Hutcheson-1651/findings.md",
+        "research/record-marion-wilson-jarden-gairbraid/findings.md"
+      ]
+    },
+    {
+      "id": "mitchell54981-imported-father-account-recovery-20261115",
+      "found_on": "2026-11-15",
+      "kind": "biographical",
+      "status": "qualified",
+      "finding": "William Mitchell’s imported father hypothesis for Mary (Mitchell) Everitt is matched with medium confidence to FamilySearch P38N-T9P. Mary’s explicit FamilySearch link retains the same John Harrison household and five children, providing the intended-account identification.",
+      "significance": "Recovers an existing corresponding account without creating a duplicate William; separates account identity from unproved historical paternity.",
+      "qualification": "This is tree-account recovery, not an original-record discovery or relationship confidence upgrade. P38N-T9P has no sources and a garbled or circular parent family. Its daughter account 2H2Q-ZW3 is a composite Mary Hayward with displayed 1710–1782 dates incompatible with the earlier Harrison household. No endorsement of those ancestors, spouse Mary Everett, Hayward dates, Scottish birth, Henrico death, Virginia captain or Edinburgh merchant identification. The local circa-1649 birth and circa-1725 death remain inherited estimates; LR26-ZSX remains an unproved alternative. No merge or relationship edit was made.",
+      "people": [
+        {
+          "id": "Mitchell-54981",
+          "name": "William Mitchell",
+          "url": "/people/mitchell-54981.html",
+          "role": "Imported, unproved father hypothesis; corresponding FamilySearch account P38N-T9P"
+        },
+        {
+          "id": "Mitchell-54795",
+          "name": "Mary (Mitchell) Everitt",
+          "url": "https://www.wikitree.com/wiki/Mitchell-54795",
+          "role": "Imported daughter hypothesis; source of the explicit FamilySearch link"
+        }
+      ],
+      "sources": [
+        {
+          "title": "FamilySearch P38N-T9P, William Mitchell; details and family freshly checked 15 November 2026; unsourced tree account",
+          "url": "https://www.familysearch.org/en/tree/person/details/P38N-T9P"
+        },
+        {
+          "title": "FamilySearch 2H2Q-ZW3; composite Mary Hayward account retaining the earlier Harrison household; freshly checked 15 November 2026",
+          "url": "https://www.familysearch.org/en/tree/person/details/2H2Q-ZW3"
+        },
+        {
+          "title": "WikiTree Mitchell-54795, Mary (Mitchell) Everitt; current public family narrative and explicit FamilySearch link retrieved 15 November 2026",
+          "url": "https://www.wikitree.com/wiki/Mitchell-54795"
+        }
+      ],
+      "detail_url": "/people/mitchell-54981.html#research-findings",
+      "relationship_changes": [],
+      "provenance": [
+        "research/Mitchell-54981/findings.md",
+        "research/Mitchell-54981/queue-review-2026-10-17.wiki",
+        "Root fresh read and mapping recorded 15 November 2026; limitations retained with the mapping."
+      ]
+    },
+    {
+      "id": "janet-hutcheson-glasgow-holland-primary-pages-20261115",
+      "found_on": "2026-11-15",
+      "kind": "vital",
+      "status": "qualified",
+      "finding": "Printed civic records place Janet Hutcheson, the named Holland pensioner and natural daughter of deceased George Hutcheson, in Glasgow on 24 July 1680 after coming from Holland. A dated funeral-assistance order establishes her death in Holland on or before 17 July 1684 (before 18 July), tightening the previous before-1685 bound.",
+      "significance": "Adds a documented Glasgow–Holland movement and a tighter death boundary; the existing father assessment is unchanged.",
+      "qualification": "Scanned printed civic-record editions were visually checked; original manuscript minutes were not inspected. The 1680 entry records her intended return to Holland, not exact travel dates. The 1684 order gives a death boundary, not a death day or Dutch municipality. Identification with the unnamed 1588 child and the compatible Ferguson household KCG1-1V7 remains unproved. The Rotterdam index separately names Jonet Hutchieson and Andrew Hodge marrying on 24 January 1678; its register image is uninspected and no father, Glasgow origin or previous spouse is supplied. It remains an identity lead, not a proved spouse, remarriage or parent link. No new person or confidence upgrade is inferred.",
+      "detail_url": "/people/hutcheson-1650.html#research-findings",
+      "people": [
+        {
+          "id": "Hutcheson-1650",
+          "name": "Janet Hutcheson",
+          "url": "/people/hutcheson-1650.html",
+          "role": "Named Holland pensioner; external household identity unresolved"
+        },
+        {
+          "id": "Hutcheson-1648",
+          "name": "George Hutcheson",
+          "url": "/people/hutcheson-1648.html",
+          "role": "Existing father assessment retained"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Extracts from the Records of the Burgh of Glasgow, 1663–1690, pp. 281–283; 24 July 1680 council entry, Janet paragraph p. 283",
+          "url": "https://archive.org/download/extractsfromrec05unkngoog/page/n336.jpg",
+          "record_id": "janet-hutcheson-holland-burgh-orders-1679-1684"
+        },
+        {
+          "title": "Glasgow Corporation, Memorabilia of the City of Glasgow (1868), pp. 245–246; 17 July 1684 funeral-assistance order, year continuity checked",
+          "url": "https://archive.org/download/memorabiliacity00scogoog/page/n256.jpg",
+          "record_id": "janet-hutcheson-holland-burgh-orders-1679-1684"
+        },
+        {
+          "title": "Stadsarchief Rotterdam, DTB archive 1-02, inventory 129, Doop Schots; Trouw Schots, Andrew Hodge and Jonet Hutchieson, 24 January 1678, record 2027641645; archive index, register image uninspected",
+          "url": "https://hdl.handle.net/21.12133/A676C10694A948E4B1C54A963A3C7FA9"
+        }
+      ],
+      "source_ids": [
+        "janet-hutcheson-holland-burgh-orders-1679-1684"
+      ],
+      "relationship_changes": [],
+      "provenance": [
+        "research/Hutcheson-1650/findings.md",
+        "research/Hutcheson-1650/Hutcheson-1650.md"
+      ]
     }
   ]
 }

@@ -2,7 +2,7 @@
 
 ## Current conclusion
 
-Reviewed: 2026-11-13. Hill’s inspected printed p. 53 explicitly names Marion Wilson or Jarden as mother of Thomas Hutcheson, the founders’ father. This source-defined woman is the current working mother, assessed uncertain without a percentage because the account is compiled and the original charter remains uninspected. The separate FamilySearch candidate now has a compatible medium person match from its own-family readback; local selection does not depend on that external identity.
+Reviewed: 2026-11-15. Hill’s inspected printed p. 53 explicitly names Marion Wilson or Jarden as mother of Thomas Hutcheson, the founders’ father. This source-defined woman is the current working mother, assessed uncertain without a percentage because the account is compiled and the original charter remains uninspected. The FamilySearch household correspondence was rechecked on 15 November; its mapping hold is resolved without changing the historical assessment. Agnes Anderson belongs to Thomas’s elder brother and is excluded as his mother. Local selection rests on the compiled maternal clause, not the external tree.
 
 ## Source findings — the reported 1582 confirmation and maternal clause
 
@@ -21,3 +21,11 @@ Next: inspect the original 1582 confirmation cited by Hill (Genealogical MSS. of
 ## Hand-off — administrative source-reference repair
 
 The new mother claim is `clm-29d323af0e0b043e` (claim revision 2, origin research). Assessment revision 1 selected the current working mother as uncertain, without a percentage. Revision 2 was an incomplete administrative source-reference replacement; revision 3 immediately restored the exact original qualitative metadata and changed only the public source reference to `hill1902-hutcheson-gairbraid-parentage-p53`. This is not a confidence change or research improvement. Native evidence continues to reference `rec-8055d36069bfdff6`; the father assessment remains revision 3 unchanged. The replacement API requires all current assessment fields, not a partial patch.
+
+## Source findings — maternal role and external household reconciled, 15 November 2026
+
+The visually checked [Hill (1902), printed p. 87](https://archive.org/download/earlyrecordsofol00hill/page/n114.jpg), names Marion Wilson alias Jarden as mother of the John favoured in the reported 1582 confirmation, himself son of the late John. The younger John’s association with Agnes Anderson in the 2 October 1588 sasine separates that couple from Marion and senior John. Hill’s [p. 53](https://archive.org/download/earlyrecordsofol00hill/page/n78.jpg) explicitly names Thomas as Marion and senior John’s younger son. Agnes’s imported maternity is excluded on this positive family-role conflict; earlier hold language is retained as history.
+
+Fresh FamilySearch own-family and child-family readbacks confirmed the compatible existing household of [Marion GPYT-31C](https://www.familysearch.org/en/tree/person/family/GPYT-31C), senior John GPYR-JMS and sons John GPYR-GNX and Thomas PJ3T-SGD. The external identity hold is resolved. No duplicate person or new parental attachment was needed; the existing qualified maternal link is retained. Inherited dates, additional ancestry and extra children remain unendorsed. The historical maternal assessment stays **uncertain**, without a percentage.
+
+Both printed passages come from Hill’s compiled history; no original confirmation or sasine was inspected. No birthplace, maiden surname, survival in 1582 or death date follows from this review. The original-document tests stated above remain open; no live WikiTree change is reported.

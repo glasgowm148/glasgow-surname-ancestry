@@ -1151,11 +1151,11 @@
     "perspectives": {
       "Craig-19072": {
         "relationship": "father",
-        "reason": "Parent biography calls John only the probable father; child says she is believed related. Source review: live biographies."
+        "reason": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026"
       },
       "Craig-19073": {
         "relationship": "daughter",
-        "reason": "Parent biography calls John only the probable father; child says she is believed related. Source review: live biographies."
+        "reason": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026"
       }
     },
     "analysis_links": [
@@ -1170,7 +1170,10 @@
       "reviewed_at": "2026-09-28",
       "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
       "live_wikitree_status": "uncertain"
-    }
+    },
+    "assessment_history": [],
+    "reason": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
+    "probability": null
   },
   {
     "assertion_id": "C-father-audit-20260928-cunningham-5869-cunningham-22081",
@@ -2374,6 +2377,12 @@
       "live_wikitree_status": "uncertain"
     },
     "assessment_history": [
+      {
+        "status": "uncertain",
+        "probability_percent": null,
+        "assessment_date": "2026-11-13",
+        "source_basis": "Hill (1902), printed p.53, visually inspected, explicitly identifies Thomas the founders’ father as younger son of John Hutcheson in Gairbraid and Marion Wilson or Jarden. The attached father profile Hutcheson-1651 combines this senior identity with Agnes Anderson, assigned by Hill to the senior John’s eldest son John. The historical parent clause is explicit compiled evidence, but the exact attached profile identity still requires reconciliation; retain uncertain without a percentage."
+      },
       {
         "status": "uncertain",
         "probability_percent": null,
@@ -113776,7 +113785,7 @@
     },
     "status": "uncertain",
     "assessment_date": "2026-11-13",
-    "basis": "The inspected printed page explicitly names Marion as Thomas’s mother and distinguishes the senior couple from eldest John and Agnes. Record-level attribution is direct in a compiled source. The charter/manuscripts remain uninspected and external profile identification is not finalized; preserve an explicit qualitative uncertainty rather than inventing an exact percentage.",
+    "basis": "The inspected printed page explicitly names Marion as Thomas’s mother and distinguishes the senior couple from eldest John and Agnes. Record-level attribution is direct in a compiled source. The charter/manuscripts remain uninspected. Fresh FamilySearch own-family verification on 15 November 2026 supports a compatible correspondence with GPYT-31C; that mapping verification does not add original genealogical proof or alter the retained qualitative uncertainty.",
     "assessment_history": [
       {
         "status": "uncertain",
@@ -113789,13 +113798,19 @@
         "probability_percent": null,
         "assessment_date": null,
         "source_basis": null
+      },
+      {
+        "status": "uncertain",
+        "probability_percent": null,
+        "assessment_date": "2026-11-13",
+        "source_basis": "The inspected printed page explicitly names Marion as Thomas’s mother and distinguishes the senior couple from eldest John and Agnes. Record-level attribution is direct in a compiled source. The charter/manuscripts remain uninspected and external profile identification is not finalized; preserve an explicit qualitative uncertainty rather than inventing an exact percentage."
       }
     ],
-    "reason": "The inspected printed page explicitly names Marion as Thomas’s mother and distinguishes the senior couple from eldest John and Agnes. Record-level attribution is direct in a compiled source. The charter/manuscripts remain uninspected and external profile identification is not finalized; preserve an explicit qualitative uncertainty rather than inventing an exact percentage.",
-    "limitations": "Compiled secondary account explicitly names the mother; original1582 charter/manuscripts remain uninspected. Wilson/Jarden are recorded names, not a proved maiden surname. No birth place, survival in1582 or death date inferred. FS GPYT-31C identity remains separate and unconfirmed; no live mother copy authorized. Father revision3 and Agnes source-conflict hold remain unchanged.",
+    "reason": "The inspected printed page explicitly names Marion as Thomas’s mother and distinguishes the senior couple from eldest John and Agnes. Record-level attribution is direct in a compiled source. The charter/manuscripts remain uninspected. Fresh FamilySearch own-family verification on 15 November 2026 supports a compatible correspondence with GPYT-31C; that mapping verification does not add original genealogical proof or alter the retained qualitative uncertainty.",
+    "limitations": "Compiled secondary account explicitly names the mother; original 1582 charter/manuscripts remain uninspected. Wilson/Jarden are recorded names, not a proved maiden surname. No birth place, survival in 1582 or death date inferred by this assessment. Fresh FamilySearch verification establishes existing family correspondence, not independent parentage proof; GPYT-31C’s inherited dates, parents and extra child James (GDWJ-P3D) are not endorsed. The father’s historical uncertainty is retained; its external mapping is reconciled separately. The imported Agnes maternal role is excluded for the explicit generational conflict; its original observation and history are retained.",
     "probability": null,
     "source_summary": "Hill (1902) printed p. 53 explicitly names Marion Wilson or Jarden as mother of Thomas the founders’ father; original uninspected.",
-    "identity_scope": "Named record-defined mother; pending exact external-profile identity review, not an absence of a maternal clause.",
+    "identity_scope": "Named record-defined mother of Thomas; GPYT-31C is the verified compatible FamilySearch own-family correspondence, separate from the compiled maternal evidence and its uncertainty.",
     "working_selection": true,
     "attachment_status": "proposed",
     "allow_new_relationship": true,
@@ -113810,9 +113825,12 @@
     },
     "working_parent_replacement": {
       "previous_parent": "Anderson-95451",
-      "reason": "Hill assigns Agnes to Thomas’s eldest brother John; preserve the imported Agnes role on source-conflict hold while selecting the named Marion in the local working account."
+      "previous_parent_disposition": "rejected_source_conflicting_role",
+      "previous_parent_working_selection": false,
+      "reason": "Hill (1902), printed p. 53, explicitly assigns Agnes Anderson to Thomas’s elder brother John and names Marion Wilson or Jarden as Thomas’s mother. The prior imported maternity is excluded from current transfer; preserve the imported observation and assessment history. Reopen only upon materially different evidence.",
+      "resolution_date": "2026-11-15"
     },
-    "model_note": "Current working mother from the explicit compiled maternal clause; FS GPYT-31C identity is separate/unconfirmed and does not control local selection.",
+    "model_note": "Current working mother from the explicit compiled maternal clause. Root fresh 15 November 2026 child-family readback confirms GPYT-31C already attached to Thomas (PJ3T-SGD) with senior John (GPYR-JMS); this resolves the external mapping hold without changing maternal confidence.",
     "profile_names": {
       "Hutcheson-1647": "Thomas Hutcheson",
       "record-marion-wilson-jarden-gairbraid": "Marion Wilson or Jarden"

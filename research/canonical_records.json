@@ -596223,5 +596223,40 @@
     },
     "publication_status": "approved",
     "provenance": "Root visually verified public printed Lanark no.205, leaf498, on13November2026; vol.I1811 title-page metadata verified. Original retour/register uninspected. FS source WJ62-V4Y is a qualified candidate attachment to MXZX-ZY6; L414-4YJ remains a compatible unresolved alternative, not excluded or merged."
+  },
+  {
+    "record_id": "edinburgh-marriage-thomson-peirie-16631127",
+    "association": "William Thomson and Grizel Peirie, Edinburgh marriage-register entry",
+    "date": "27 November 1663",
+    "year": 1663,
+    "place": "Edinburgh, Midlothian, Scotland",
+    "source_url": "https://electricscotland.com/history/records/scottishrecordso16scotuoft.pdf#page=551",
+    "source_title": "Henry Paton, ed., A Register of Marriages for the Parish of Edinburgh, 1595–1700 (1905), p. 541; PDF p. 551",
+    "source_type": "Published parish-register index",
+    "record_type": "Marriage-register index",
+    "record_category": "Marriage",
+    "status": "Printed parish-register index page visually verified; original parish register uninspected",
+    "source_quality": "published_derivative",
+    "source_status": "Paton printed p.541, PDF p.551 visually verified by root on15November2026; original parish register uninspected",
+    "source_level": "visually inspected printed index",
+    "indexed_facts": {
+      "Groom": "William Thomson",
+      "Bride": "Grizel Peirie",
+      "Date": "27 November 1663",
+      "Description": "Servitor to Sir William Thomson, town-clerk"
+    },
+    "note": "The Peirie (Peerie, Perie) entry identifies Grizel and William Thomson, described as a servant to Sir William Thomson, town clerk. The date and spouse match the public WikiTree Thomson-263/Peirie-1 household. The groom must not be conflated with his same-named employer. This printed-index inspection does not verify the original parish entry or establish the groom’s birth, parents, death or identity with the 1681 Carstairs groom. Grissell is the wife’s WikiTree spelling; Grizel is the printed-index spelling.",
+    "profiles": {
+      "Thomson-263": {
+        "role": "Groom; matched intended Edinburgh Peirie household by exact spouse and marriage date",
+        "timeline_group": "Life events",
+        "identification_status": "qualified"
+      },
+      "Peirie-1": {
+        "role": "Bride recorded as Grizel Peirie; WikiTree Grissell Peirie",
+        "timeline_group": "Life events",
+        "identification_status": "qualified"
+      }
+    }
   }
 ]
