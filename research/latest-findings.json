@@ -85768,6 +85768,34 @@
         "research/canonical_records.json",
         "research/queue-review-2026-10-17/catalogue-integration.json"
       ]
+    },
+    {
+      "id": "william-quothquan-opening-clause-review-20261115",
+      "found_on": "2026-11-15",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "A fresh review of the held 1673 William Glasgow testament leaves a possible affinity phrase in the opening appointment clause unresolved. The names and capacity cannot be securely read, so no son-in-law or other family relationship is accepted. The original is held, not an outstanding acquisition.",
+      "qualification": "All three supplied images were inspected and image24 enlarged; an independent reader also could not securely resolve the clause. This is a limited palaeographical finding, not a new kinship or profile-identity decision. Glasgow-1521’s identification with the testator remains working and no Tyrone bridge follows.",
+      "detail_url": "/people/glasgow-1521.html#research-findings",
+      "people": [
+        {
+          "id": "Glasgow-1521",
+          "name": "William Glasgow",
+          "url": "/people/glasgow-1521.html",
+          "role": "Working testator identity; no new attachment or confidence change"
+        }
+      ],
+      "sources": [
+        {
+          "title": "NRS CC14/5/9, William Glasgow testament dative, indexed9April1673, images24–26; opening on image24 / PDFpage1",
+          "url": "https://www.scotlandspeople.gov.uk/search-records/legal-records/wills"
+        }
+      ],
+      "provenance": [
+        "research/Glasgow-1521/findings.md",
+        "research/Glasgow-591/findings.md",
+        "research/transcriptions/originals-2026-09-10-reread/william-1673.json"
+      ]
     }
   ]
 }

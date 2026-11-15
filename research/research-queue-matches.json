@@ -249,14 +249,16 @@
       "profile_ids": [
         "Glasgow-951"
       ],
-      "assessment": "Existing research study, rather than a newly unassigned person: Who were Alexander of Lisnagaver's parents? The cited study links its named profile subjects; those links do not decide the open relationship or identity question.",
-      "reviewed_on": "2026-10-17",
+      "assessment": "Local held-evidence review: Native father claim clm-da9069842a595219 revision 2 already selects John-4090 at confident 90% (23 October). The 1892 probate citation, identified children and John-867’s 1846 marriage support that inference. Mother remains only possible. Remaining evidence: Split the existing father conclusion from unresolved maternity. Inspect the underlying probate petition/heir schedule; do not count the existing assessment as a new discovery.",
+      "reviewed_on": "2026-11-15",
       "source_refs": [
         "tools/repair_research_questions.py",
-        "www/people/glasgow-951.html"
+        "research/Glasgow-951/findings.md",
+        "research/Glasgow-951/research_plan.json",
+        "research/Glasgow-4090/findings.md"
       ],
       "searches_performed": [
-        "Existing public dossier, named research context and current queue subject reviewed; this item already has a profile or is a study rather than a creation identity."
+        "Reviewed the maintained case/study evidence and applicable native assessments; checked referenced local source availability. No external research or new relationship assessment."
       ],
       "research_remains_open": true
     },
@@ -267,14 +269,16 @@
         "Glasgow-1101",
         "Glasgow-3556"
       ],
-      "assessment": "Existing research study, rather than a newly unassigned person: Is the Thomas named in Archibald’s April 1673 will the later Lifford/Raphoe man? The cited study links its named profile subjects; those links do not decide the open relationship or identity question.",
-      "reviewed_on": "2026-10-17",
+      "assessment": "Local held-evidence review: Betham GO MS225 p.90/viewer97 explicitly names Thomas as Archibald’s eldest son. Native claim clm-370413bde86ecd66 already assesses Thomas-3556’s father as probable 86%. The Lifford property/litigation network supports adult identity. Remaining evidence: The literal son clause and the adult Lifford identification are separate conclusions. A full will or estate recital with distinctive kin/property would discriminate them.",
+      "reviewed_on": "2026-11-15",
       "source_refs": [
         "tools/repair_research_questions.py",
-        "www/branches/research-irish-belfast-donegal/index.html"
+        "research/Glasgow-1101/findings.md",
+        "research/Glasgow-3556/findings.md",
+        "tools/study_stories/research-irish-belfast-donegal.json"
       ],
       "searches_performed": [
-        "Existing public dossier, named research context and current queue subject reviewed; this item already has a profile or is a study rather than a creation identity."
+        "Reviewed the maintained case/study evidence and applicable native assessments; checked referenced local source availability. No external research or new relationship assessment."
       ],
       "research_remains_open": true
     },
@@ -285,16 +289,21 @@
         "Glasgow-3178",
         "Glasgow-1100",
         "Glasgow-1603",
-        "Hew-1066",
+        "Glasgow-1066",
         "Glasgow-3109"
       ],
-      "assessment": "Existing research study, rather than a newly unassigned person: Can the five FamilySearch index and court-record occurrences from 1601–1677 be traced to identifiable people? The cited study links its named profile subjects; those links do not decide the open relationship or identity question.",
-      "reviewed_on": "2026-10-17",
+      "assessment": "Local held-evidence review: The five source occurrences are Agnes1601 Milneburne sasine; Margaret1636 Byris/Kilwinning testament CC9/7/27; John1643 Rashie/Kilbride testament CC9/7/28; James1674 Didup inquest; Hugh1677 deed RD3/42 p.148. Agnes-3178 is probable. Margaret-1100’s identified1610 baptism does not identify the1636 testator. Hugh remains compatible with1603/1066/3109. Hew-1066 is an inherited wrong identifier; the existing correct profile is Glasgow-1066. Remaining evidence: Inspect underlying instruments for distinctive parties, residence or kin. Held index/extract readings do not identify every person, and the originals were not located in checked case holdings. The1610 and1636 Margaret occurrences must not be conflated.",
+      "reviewed_on": "2026-11-15",
       "source_refs": [
-        "tools/repair_research_questions.py"
+        "tools/repair_research_questions.py",
+        "research/transcriptions/walkthroughs/margaret-kilwinning-1636.json",
+        "research/transcriptions/walkthroughs/john-rashlie-1643.json",
+        "research/queue-resolution-2026-09-30/older-records.json",
+        "research/Glasgow-3178/findings.md",
+        "research/Glasgow-1066/findings.md"
       ],
       "searches_performed": [
-        "Existing public dossier, named research context and current queue subject reviewed; this item already has a profile or is a study rather than a creation identity."
+        "Reviewed the maintained case/study evidence and applicable native assessments; checked referenced local source availability. No external research or new relationship assessment."
       ],
       "research_remains_open": true
     },
@@ -304,14 +313,16 @@
       "profile_ids": [
         "Glasgow-822"
       ],
-      "assessment": "Existing research study, rather than a newly unassigned person: Can the Bible John be identified with the Inishrush householder, and who were his parents? The cited study links its named profile subjects; those links do not decide the open relationship or identity question.",
-      "reviewed_on": "2026-10-17",
+      "assessment": "Local held-evidence review: Held synthesis rates Bible John = Inishrush-3927 at 94%. Native James-1509 father claim remains uncertain 18%; Shutter maternity only possible. The 27 October plan rechecked the letter, Bible and probate index without finding a parent clause. Remaining evidence: Split identity from ancestry. The next discriminator is the exact 1803 probate reference and any surviving estate copy/abstract naming children. Repeating the same letter/index is not new evidence.",
+      "reviewed_on": "2026-11-15",
       "source_refs": [
         "tools/repair_research_questions.py",
-        "www/people/glasgow-822.html"
+        "research/Glasgow-822/research_plan.json",
+        "research/Glasgow-822/findings.md",
+        "research/Glasgow-1509/evidence_index.json"
       ],
       "searches_performed": [
-        "Existing public dossier, named research context and current queue subject reviewed; this item already has a profile or is a study rather than a creation identity."
+        "Reviewed the maintained case/study evidence and applicable native assessments; checked referenced local source availability. No external research or new relationship assessment."
       ],
       "research_remains_open": true
     },
@@ -323,14 +334,16 @@
         "Glasgow-3590",
         "Glasgow-3589"
       ],
-      "assessment": "Existing research study, rather than a newly unassigned person: Why was Andro Huchesoun's confirmation included with John Glasgow's record, and could it help identify Margaret? The cited study links its named profile subjects; those links do not decide the open relationship or identity question.",
-      "reviewed_on": "2026-10-17",
+      "assessment": "Local held-evidence review: The 10 September fragment audit identifies Andro Huchesoun’s confirmation, strip396A supplied under CC8/8/5 image276. Andro and bairnis are secure; Johne [Huchesoun?] and clause grammar are provisional. No Glasgow surname is securely read. Remaining evidence: Resolve the full Johne/Andro/bairnis clause and the strip’s own testament reference/date. PDF inclusion and surname resemblance do not identify Margaret. An archive mapping response would be new evidence.",
+      "reviewed_on": "2026-11-15",
       "source_refs": [
         "tools/repair_research_questions.py",
-        "www/research/transcriptions/john-1577/index.html"
+        "research/transcriptions/associated-fragments/john-1577-hutcheson.json",
+        "research/transcriptions/associated-fragments/john-1577-hutcheson-reading.md",
+        "research/Glasgow-3181/findings.md"
       ],
       "searches_performed": [
-        "Existing public dossier, named research context and current queue subject reviewed; this item already has a profile or is a study rather than a creation identity."
+        "Reviewed the maintained case/study evidence and applicable native assessments; checked referenced local source availability. No external research or new relationship assessment."
       ],
       "research_remains_open": true
     },
@@ -375,14 +388,17 @@
         "Glasgow-1144",
         "Glasgow-1078"
       ],
-      "assessment": "Existing research study, rather than a newly unassigned person: Can the seventeenth-century founder records be connected to the later secure Kilwaughter family? The cited study links its named profile subjects; those links do not decide the open relationship or identity question.",
-      "reviewed_on": "2026-10-17",
+      "assessment": "Local held-evidence review: Original 1764 Ballykeel lease memorial159661 expressly names James as Robert’s son. The 1817 equity answers independently define the Rachel Wilson/James-1144/Robert-1983 family. Neither identifies Robert-1143’s father. Remaining evidence: Look for predecessor/successor or kin clauses in GD154 tenant/rental material and PRONI lease endorsements. The later 1821 Larne sibling household is a separate comparison, not a founder bridge.",
+      "reviewed_on": "2026-11-15",
       "source_refs": [
         "tools/repair_research_questions.py",
-        "www/branches/larne-kilwaughter/index.html"
+        "research/larne-proof-2026-09-21/public-synthesis.md",
+        "research/Glasgow-1143/findings.md",
+        "research/Glasgow-1144/findings.md",
+        "tools/study_stories/larne-kilwaughter.json"
       ],
       "searches_performed": [
-        "Existing public dossier, named research context and current queue subject reviewed; this item already has a profile or is a study rather than a creation identity."
+        "Reviewed the maintained case/study evidence and applicable native assessments; checked referenced local source availability. No external research or new relationship assessment."
       ],
       "research_remains_open": true
     },
@@ -394,14 +410,16 @@
         "Glasgow-3375",
         "Glasgow-1604"
       ],
-      "assessment": "Existing research study, rather than a newly unassigned person: Is the Kilwinning John the minister of Kilbirnie, and who were his parents? The cited study links its named profile subjects; those links do not decide the open relationship or identity question.",
-      "reviewed_on": "2026-10-17",
+      "assessment": "Local held-evidence review: The 1672 class, 1674 MA, 1688 ordination and1721 death form the minister’s maintained identity sequence. John-1604 is selected uncertain father; Robert-1078 is an alternative. Addison’s p.6 entry186 names the minister’s student son John, not his parents. Remaining evidence: Need a parent-naming record or a distinctive bridge between the Barbara Alason household and the minister’s spouses/children. Student John’s name alone cannot select either the1713 or1717 child.",
+      "reviewed_on": "2026-11-15",
       "source_refs": [
         "tools/repair_research_questions.py",
-        "www/people/glasgow-1073.html"
+        "research/Glasgow-1073/research_plan.json",
+        "research/Glasgow-1073/findings.md",
+        "research/Glasgow-3375/findings.md"
       ],
       "searches_performed": [
-        "Existing public dossier, named research context and current queue subject reviewed; this item already has a profile or is a study rather than a creation identity."
+        "Reviewed the maintained case/study evidence and applicable native assessments; checked referenced local source availability. No external research or new relationship assessment."
       ],
       "research_remains_open": true
     },
@@ -415,14 +433,16 @@
         "Glasgow-3789",
         "Theobalds-120"
       ],
-      "assessment": "Existing research study, rather than a newly unassigned person: Which existing child profiles match the people named in Robert Glasgow’s trust and succession papers? The cited study links its named profile subjects; those links do not decide the open relationship or identity question.",
-      "reviewed_on": "2026-10-17",
+      "assessment": "Local held-evidence review: Native John-2952 and Anne-2874 father claims are proved99%. Amelia-3789 is status proved after the1 November death-index review, while retained exact fraction88% and trust-Emilia identity remain qualified. Theobalds-120 is John’s housekeeper, distinct from his sister. Remaining evidence: Use existing answers. Inspect SC6/44/4’s Emilia clause, original1867 death576/2/47 and T71 household registers. Retain the native status/percentage qualification rather than inventing a new confidence grade.",
+      "reviewed_on": "2026-11-15",
       "source_refs": [
         "tools/repair_research_questions.py",
-        "www/people/glasgow-1076.html"
+        "research/Glasgow-1076/findings.md",
+        "research/Glasgow-1076/Montgreenan_household_audit.md",
+        "research/Glasgow-3789/findings.md"
       ],
       "searches_performed": [
-        "Existing public dossier, named research context and current queue subject reviewed; this item already has a profile or is a study rather than a creation identity."
+        "Reviewed the maintained case/study evidence and applicable native assessments; checked referenced local source availability. No external research or new relationship assessment."
       ],
       "research_remains_open": true
     },
@@ -435,14 +455,16 @@
         "Glasgow-1509",
         "Glasgow-822"
       ],
-      "assessment": "Existing research study, rather than a newly unassigned person: Who was the father of John Glasgow, farmer (Alexander’s probable father), and is the documented Kilwaughter family inside R-FT20271? The cited study links its named profile subjects; those links do not decide the open relationship or identity question.",
-      "reviewed_on": "2026-10-17",
+      "assessment": "Local held-evidence review: John-4090 is the farmer named in John-867’s1846 marriage. Strong downstream family assessments do not raise John’s own37% upstream hypothesis. The public-safe SNP matrix marks Kilwaughter Robert-1143/James-1144 as unresolved at FT20271 and child SNPs. Remaining evidence: A parent statement or estate bridge above John is separate from verified Kilwaughter male-line SNP evidence. STR grouping and ancestor labels cannot supply either missing result.",
+      "reviewed_on": "2026-11-15",
       "source_refs": [
         "tools/repair_research_questions.py",
-        "www/people/glasgow-951.html"
+        "research/Glasgow-4090/findings.md",
+        "research/Glasgow-951/dna-evidence-matrix.json",
+        "research/Glasgow-951/sources/ydna-evidence-review-2026-09-13.md"
       ],
       "searches_performed": [
-        "Existing public dossier, named research context and current queue subject reviewed; this item already has a profile or is a study rather than a creation identity."
+        "Reviewed the maintained case/study evidence and applicable native assessments; checked referenced local source availability. No external research or new relationship assessment."
       ],
       "research_remains_open": true
     },
@@ -478,14 +500,18 @@
       "profile_ids": [
         "Glasgow-591"
       ],
-      "assessment": "Existing research study, rather than a newly unassigned person: Which Scottish William became the ancestor remembered in the Tyrone tradition? The cited study links its named profile subjects; those links do not decide the open relationship or identity question.",
-      "reviewed_on": "2026-10-17",
+      "assessment": "Local held-evidence review: The original1725 Cavankilgreen memorial was read23October: collective theGlasgows, no personalforename. All three held Quothquan testament images CC14/5/9 images24–26 were examined on10September; latest full-page reread corrects AlexanderBrown/JohnNeilson as executors and WilliamNeilson ofBiggar as cautioner, with no securelyreadkin. Glasgow-3912 was merged into Glasgow-1521. The survivor keeps the1648child/1673testator identification as working, without a Tyronebridge. Remaining evidence: Complete unresolved gutter, appointment and account clauses in the held source using the latest reread, then compare current Glasgow-1521. Do not obtain another copy as a missing source, revive3912 as separate, infer kin from administrative roles, or seek an omitted personalforename in the1725collectiveclause.",
+      "reviewed_on": "2026-11-15",
       "source_refs": [
         "tools/repair_research_questions.py",
-        "www/people/glasgow-591.html"
+        "research/Glasgow-591/findings.md",
+        "research/Glasgow-591/tyrone-71498-review-2026-10-23.md",
+        "research/Glasgow-1521/findings.md",
+        "research/transcriptions/originals-2026-09-10-reread/william-1673.json",
+        "testaments/ScotlandsPeople_CC001400005-00009-00024-.pdf"
       ],
       "searches_performed": [
-        "Existing public dossier, named research context and current queue subject reviewed; this item already has a profile or is a study rather than a creation identity."
+        "Reviewed the maintained case/study evidence and applicable native assessments; checked referenced local source availability. No external research or new relationship assessment."
       ],
       "research_remains_open": true
     },
@@ -38818,13 +38844,18 @@
         "Glasgow-1603",
         "Glasgow-3178"
       ],
-      "assessment": "Existing research study, rather than a newly unassigned person: How do the documented Corsankell households connect to the Glasgow burgh family? The cited study links its named profile subjects; those links do not decide the open relationship or identity question.",
-      "reviewed_on": "2026-10-17",
+      "assessment": "Local held-evidence review: GD39/5/59 explicitly names James elder’s sons James and John; native John-3193 father James-1168 is proved. Cross’s historical account supports Katherine Campbell as spouse and probable mother. William-1098 → James-1168 remains possible 38%. Remaining evidence: Original 1571 succession clauses or an earlier holding transfer must bridge William’s burgh family to Corsankell. Household proof does not establish that upstream link; original TD77/135 f.6r and GD103/2/22 remain unread.",
+      "reviewed_on": "2026-11-15",
       "source_refs": [
         "tools/repair_research_questions.py",
-        "www/branches/research-corsankell-household/index.html"
+        "research/Glasgow-1168/findings.md",
+        "tools/study_stories/research-corsankell-household.json",
+        "research/record-katherine-campbell-corsankell/findings.md"
       ],
-      "research_remains_open": true
+      "research_remains_open": true,
+      "searches_performed": [
+        "Reviewed the maintained case/study evidence and applicable native assessments; checked referenced local source availability. No external research or new relationship assessment."
+      ]
     },
     "study-02fd8944ec72": {
       "status": "research_question",
@@ -38834,24 +38865,34 @@
         "Glasgow-1098",
         "Glasgow-3023"
       ],
-      "assessment": "Existing research study, rather than a newly unassigned person: Do the Stirling, alias-Smith and Saltmarket records describe the same John, and how does William fit? The cited study links its named profile subjects; those links do not decide the open relationship or identity question.",
-      "reviewed_on": "2026-10-17",
+      "assessment": "Local held-evidence review: The maintained edition separates the uncertain Glasgow/Stirling witness identity from the 1506 alias-Smith/Saltmarket candidate. Rapid same-parcel succession to William supports probable sonship. John-1093 remained alive in1565 and is excluded as the owner dead by1553. Remaining evidence: Inspect BL/204 alias/joint-acquisition wording and the first Saltmarket transfer. No shared holding, relative, seal or distinctive associate joins the cities. Do not combine uncertain identities and father links as one proved pedigree.",
+      "reviewed_on": "2026-11-15",
       "source_refs": [
         "tools/repair_research_questions.py",
-        "www/free-space/john-de-glasgow-alias-smith-john-glasgow-of-saltmarket-7ac174/index.html"
+        "research/free-space-pages/edition/john-de-glasgow-alias-smith-john-glasgow-of-saltmarket-7ac174.wiki",
+        "research/record-medieval-1506-john-alias-smith/findings.md",
+        "tools/study_stories/early-scottish-records.json"
       ],
-      "research_remains_open": true
+      "research_remains_open": true,
+      "searches_performed": [
+        "Reviewed the maintained case/study evidence and applicable native assessments; checked referenced local source availability. No external research or new relationship assessment."
+      ]
     },
     "study-403880c788df": {
       "status": "research_question",
       "profile_ids": [],
-      "assessment": "Existing research study, rather than a newly unassigned person: Where does a documented male Kilwaughter line sit among the tested paternal branches? The paternal-branch comparison remains an open study; it supplies no separately identified person for profile creation.",
-      "reviewed_on": "2026-10-17",
+      "assessment": "Local held-evidence review: The13 September matrix records Robert-1143 Y111, James-1144 Y37 and John-822 Y67 as SNP-unresolved. Alexander-951/James J-2738 descendant lines are confirmed FT20271. These comparisons do not transfer SNP states to Kilwaughter. Remaining evidence: Audit the historical direct-male descent and obtain an actual SNP call/Big Y placement for that line. Re-ranking the same STR table cannot answer placement. No private calls or raw DNA were accessed.",
+      "reviewed_on": "2026-11-15",
       "source_refs": [
         "tools/repair_research_questions.py",
-        "www/ydna/index.html"
+        "research/Glasgow-951/dna-evidence-matrix.json",
+        "research/Glasgow-951/sources/ydna-evidence-review-2026-09-13.md",
+        "research/Glasgow-1144/findings.md"
       ],
-      "research_remains_open": true
+      "research_remains_open": true,
+      "searches_performed": [
+        "Reviewed the maintained case/study evidence and applicable native assessments; checked referenced local source availability. No external research or new relationship assessment."
+      ]
     },
     "study-d1b5117e7cb5": {
       "status": "research_question",
@@ -38863,13 +38904,19 @@
         "Glasgow-1968",
         "Glasgow-2539"
       ],
-      "assessment": "Existing research study, rather than a newly unassigned person: How do the 1740 and 1766 households map to the later named families? The cited study links its named profile subjects; those links do not decide the open relationship or identity question.",
-      "reviewed_on": "2026-10-17",
+      "assessment": "Local held-evidence review: The1740 and1766 returns give household heads without ages, spouses or children. Corvanaghan/Moneymore/Mitchell joins remain uncertain. The later Hillsdale family does not identify a1740 householder; the1759 Drumcarn testator identity remains unproved. Remaining evidence: Need holding continuity or kin wording in leases, church, probate or estate records. Start with the maintained PRONI D1413/3a-b notes inventory; keep neighbouring Kildress distinct.",
+      "reviewed_on": "2026-11-15",
       "source_refs": [
         "tools/repair_research_questions.py",
-        "www/branches/research-irish-derryloran/index.html"
+        "tools/study_stories/research-irish-derryloran.json",
+        "surname-research/clusters/agent_derryloran_1740_1766.md",
+        "research/Glasgow-1970/findings.md",
+        "research/Glasgow-1025/findings.md"
       ],
-      "research_remains_open": true
+      "research_remains_open": true,
+      "searches_performed": [
+        "Reviewed the maintained case/study evidence and applicable native assessments; checked referenced local source availability. No external research or new relationship assessment."
+      ]
     },
     "group-2eaad49564e1": {
       "status": "no_compatible_profile",

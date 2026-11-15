@@ -4,6 +4,8 @@ Last updated: 2026-09-27
 
 ## Current conclusion
 
+**Held-source review, 2026-11-15:** all three supplied CC14/5/9 images were inspected again. The opening giver-up/appointment clause on image 24 remains incompletely read. A possible “[sone?] in law” phrase was independently considered but cannot securely be assigned to a named person; it is a transcription question, not an accepted relationship. The 1648-child/testator identity remains working, and no Tyrone connection is supplied.
+
 Current father assessment (22 October 2026): **98% (proved)** for [Glasgow-992](https://www.wikitree.com/wiki/Glasgow-992). Confident for the baptismal child’s parentage; identification with the 1673 Quothquan testator remains working and does not inherit this confidence. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 Glasgow-3912 was merged into this profile as the leading existing-profile match for William Glasgow “in Quodquen,” whose Lanark Commissary Court testament was entered on 9 April 1673. The 1648 Glasgow child could have been this Quothquan man; the index does not give his age, parents, spouse or occupation. This is a working cross-record identification. The original testament, NRS CC14/5/9 images 24–26 (Lanark Commissary Court, in the [ScotlandsPeople wills collection](https://www.scotlandspeople.gov.uk/search-records/legal-records/wills)), was reviewed on 10 September 2026. Its selective reading and partly obscured opening yield no secure kin bridge to the 1648 child; the [printed Lanark index](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/the_commissariot_record_of_lanark__register_of_testaments__1595-1800_~_1903.pdf#page=50) supplies the Quothquan spelling. It gives no evidence for the separate Tyrone migration story.
@@ -66,3 +68,8 @@ Next useful test: Test the Quothquan identity with the testament’s occupation,
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [National Records of Scotland, Church of Scotland Old Parish Registers, births and baptisms, Glasgow parish 644/1, reference 40/156, WILLIAME GLASGOW, indexed 28 September 1648, parents WILLIAME GLASGOW and BESSIE HOWIE; Scotland's People index, original register page not inspected.](https://www.wikitree.com/wiki/Glasgow-1521)
+
+
+## Opening testament clause —15 November 2026
+
+The held original is National Records of Scotland, Lanark Commissary Court, testament dative of William Glasgow, CC14/5/9, images 24–26 (PDF pages 1–3), indexed 9 April 1673, in the [ScotlandsPeople wills collection](https://www.scotlandspeople.gov.uk/search-records/legal-records/wills). This review inspected every supplied page and enlarged the image-24 opening. A second independent reading of that crop also could not securely transcribe the giver-up names and capacities. The possible affinity phrase is retained with brackets for further palaeographical review. It does not identify a daughter, spouse or son-in-law, and administrative office alone is not kinship proof. The earlier selective reading and executor-name correction remain provenance; the unresolved opening must not be silently completed from those summaries. No original image is republished and no family assessment or live profile is changed.

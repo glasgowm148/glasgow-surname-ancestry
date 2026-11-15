@@ -1,6 +1,6 @@
 # Findings: Glasgow-591
 
-Last updated: 2026-10-17
+Last updated: 2026-11-15
 
 ## Current conclusion
 
@@ -8,7 +8,7 @@ Last updated: 2026-10-17
 
 **Earlier Tyrone parentage review, 17 October 2026:** William Glasgow-591 is assessed as the probable father of John Glasgow-551, and John as the probable father of Hugh Glasgow-548, within the explicit family-history pedigree. These are tradition-based probable roles, not documented identifications of the Scottish candidates, the Leitrim witness or either 1740 Hugh.
 
-Reviewed: 2026-10-17
+Reviewed: 2026-11-15
 
 **Selected conditional family, 16 October 2026:** Glasgow-591 and the Cavers man Glasgow-4138 are placed under Glasgow-2462 through possible identity with the Polwarth child Glasgow-1605. Both new father links are very uncertain and share the same unproved premises; no mother or identity merge is selected. [Evidence and alternatives](/branches/early-scottish-records/#polwarth-cavers-ulster-working-family).
 
@@ -42,7 +42,7 @@ it the **reported William c.1655 line**, not a proved Glasgow-591 result.
 | Paton, ed., *Register of the Privy Council of Scotland*, 3rd ser., vol. IX (1684), pp. 473, 483, 673; `sources/privy_council_*` | Names William Glasgow as William Leeden's servant at Ormiston among a Cavers-area group. | Possible Scottish candidate; no age, parents or Irish link. |
 | Ordnance Survey, Roxburghshire Name Book, vol. 8 | Places this Ormiston in Cavers parish, Roxburghshire. | Corrects the profile's East Lothian interpretation. |
 | Thomson, *A Cloud of Witnesses*, `sources/thomson_cloud_of_witnesses.pdf` | Lists John and William Glasgow under Cavers and marks both as wreck survivors. | No age, parents, kinship or later destination; does not establish migration to Ireland. |
-| Grant, *Commissariot Record of Lanark*, p. 38, `sources/commissariot_of_lanark_testament_index_1595-1800.pdf` | Indexes a different William at Quothquan on 9 April 1673. | Candidate lead only; no relationship to Glasgow-591. New-person draft is stored surname-wide. |
+| Grant, *Commissariot Record of Lanark*, p. 38, `sources/commissariot_of_lanark_testament_index_1595-1800.pdf` | Indexes a different William at Quothquan on 9 April 1673. | The original is held and selectively read. Former Glasgow-3912 is merged into Glasgow-1521, whose 1648-child/1673-testator identification remains working. No Tyrone or parental bridge to Glasgow-591 is supplied. |
 | [Registry memorial 71,498](https://irishdeedsindex.net/mem.php?memorial=71498), vol. 101, p. 337 | Original inspected 23 October 2026: “the Glasgows” collectively occupy a neighbouring portion used as a boundary of the Cavankilgreen lease. | Original now read: no individual forename appears; neither William nor John is identified. Trace the neighbouring Glasgow holding through estate/deed succession instead. |
 | [Registry memorial 38,213](https://irishdeedsindex.net/mem.php?memorial=38213), vol. 57, p. 235 | John Glasgow, gentleman of Gortigillagh, County Leitrim, witnessed a Johnston-network agreement in 1728. | Competing John candidate for the next generation; no connection to Glasgow-591 or Tyrone. |
 | Grant, *Commissariot Record of Lanark*, p. 38 | Quothquan/Quodquen testament entries occur for James Glasgow, webster (1624); John (1650 and 1662); William (1673, NRS `CC14/5/9`); and John of Quothquan/Libberton (1685). | Establishes a multigenerational local Glasgow cluster rather than an isolated same-name William. The index supplies no Cavers or Ulster bridge. |
@@ -58,12 +58,10 @@ Glasgow-3296, Glasgow-3019 and Glasgow-3332.
 
 ## Next evidence
 
-1. Read the original 1725 Cavankilgreen memorial and recover the omitted
-   forename, lives, bounds, witnesses and occupations.
+1. The 1725 Cavankilgreen original was read on 23 October: it says “the Glasgows” collectively and supplies no individual forename. Trace the adjoining Glasgow holding through estate/deed succession; do not repeat a superseded forename-recovery test.
 2. Read the original 1728 Gortigillagh memorial and reconstruct its Johnston FAN
    network.
-3. Obtain the 1673 Quothquan testament `CC14/5/9`, then the 1624, 1650, 1662 and
-   1685 entries as a group. Do not attach the cluster without a linking record.
+3. Use the held 1673 Quothquan original, `CC14/5/9` images 24–26, and the latest 10 September full-page reread. Complete the unresolved opening/giver-up clause and account wording, comparing the current Glasgow-1521 working identity; the possible affinity wording noticed on 15 November is not a secure kinship statement. The 1624, 1650, 1662 and 1685 index leads remain separate evidence requests. No cluster or Tyrone attachment follows without a linking record.
 4. Search Cavers estate, kirk-session and tax material for William, Leeden/Leyden
    and Ormiston after 1684.
 5. Upgrade a documented direct-male descendant of Robert-1143/Kilwaughter to

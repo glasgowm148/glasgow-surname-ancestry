@@ -35,10 +35,12 @@
     {
       "claim": "The Lanark Commissariot index records a testament for William Glasgow in Quothquan on 9 April 1673, but the index does not identify his relatives.",
       "confidence": "high",
-      "reasoning": "The original testament is the best new candidate-parent lead because it may name children or other kin. Until it is read, this William cannot be identified as Glasgow-591's father or attached to a profile.",
+      "reasoning": "The original is held and has been inspected in all three supplied images. The latest selective reading and unresolved opening clause do not establish a parent or Tyrone connection. Complete the remaining palaeography and seek a distinctive bridge before changing the working Glasgow-1521 identity or Glasgow-591’s family.",
       "sources": [
         "sources/commissariot_of_lanark_testament_index_1595-1800.pdf",
-        "https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/the_commissariot_record_of_lanark__register_of_testaments__1595-1800_~_1903.pdf"
+        "https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/the_commissariot_record_of_lanark__register_of_testaments__1595-1800_~_1903.pdf",
+        "research/transcriptions/originals-2026-09-10-reread/william-1673.json",
+        "research/Glasgow-1521/findings.md"
       ]
     },
     {
@@ -72,7 +74,7 @@
       "status": "answered"
     },
     {
-      "answer": "No reviewed source identifies either parent of Glasgow-591. The 1673 index entry for William Glasgow in Quothquan is a candidate-parent lead only; its original testament must be read for relationships. The Polwarth baptism does not identify Glasgow-591 or its father as Glasgow-2462.",
+      "answer": "No reviewed source securely identifies either parent of Glasgow-591. The Quothquan original CC14/5/9 images 24–26 is held and selectively read, including a full-page reread on 10 September and bounded opening-clause review on 15 November. Opening names/capacities and possible affinity wording remain insecure; no parent or Tyrone bridge follows. Former Glasgow-3912 is now Glasgow-1521, retaining a working testator/1648-child identification. The Polwarth hypothesis does not prove Glasgow-591’s identity or identify his father as Glasgow-2462.",
       "id": "parents",
       "question": "Which original or indexed records identify the parents?",
       "status": "answered"
@@ -229,8 +231,9 @@
     {
       "id": "CC14/5/9-William-Glasgow-1673",
       "kind": "archive",
-      "reason": "Inspect the original 9 April 1673 testament of William Glasgow in Quothquan, CC14/5/9, for spouse, children, executor, debts, occupation, and kin.",
-      "status": "pending"
+      "reason": "The original is held and selectively read. Resolve the remaining opening/giver-up clause and compare the working Glasgow-1521 identity; acquisition is complete, but no secure kin or Tyrone bridge is read.",
+      "status": "pending",
+      "note": "CC14/5/9 images24–26; latest maintained reread10September2026; bounded original review15November2026."
     },
     {
       "id": "Scott-69166",
@@ -313,7 +316,8 @@
       "source_urls": [
         "https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/the_commissariot_record_of_lanark__register_of_testaments__1595-1800_~_1903.pdf"
       ],
-      "status": "complete"
+      "status": "complete",
+      "follow_up": "Local review, 15 November 2026: the original is now held and selectively read; the historical search result above is retained as provenance, not current source availability. See Glasgow-1521 and the latest 10 September reread."
     }
   ]
 }

@@ -1,6 +1,6 @@
 # Findings: Glasgow-951
 
-Last updated: 2026-10-15
+Last updated: 2026-11-15
 
 <!-- glasgow-951-source-audit-2026-10-06 -->
 ## Current conclusion — source audit, 6 October 2026
@@ -224,6 +224,10 @@ Source: [IrishGenealogy civil birth record](https://www.irishgenealogy.ie/view?r
 The original [30 July 1861 deed, B465](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWB8-D) now identifies Daniel of Kilrea, watchmaker, and Thomas of Lisnagaver, farmer, with wives Margaret and Mary Anne, as the men selling interests under Robert’s will. Their identity with Daniel-3896 and Thomas-987 is established by the combined places, occupations, wives and earlier brotherhood evidence. The siblings’ parents remain unnamed. [C114](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LQRC-Y) names Alexander Glasco of Rochester, express agent, as James the Prescott carpenter’s son; that is not an identification with Alexander-951. The will does not call James deceased. The evidence table in the family account gives the exact transactions and unresolved fractions.
 
 ## Current conclusion
+
+Reviewed: 2026-11-15
+
+**Local worklist review:** the 23 October father assessment below remains unchanged; this is not a new upgrade. Maternal identity remains only possible. Nancy’s held docket does not reproduce the petition, heir schedule or 1894 appraisal contents. The [15 November retrieval receipt](/people/glasgow-4070.html#research-findings) distinguishes unrecovered contents and unsearched films from unavailable material. These remain discriminating evidence requests.
 
 Reviewed 23 October 2026: **90% confident** for father [John Glasgow-4090](https://www.wikitree.com/wiki/Glasgow-4090). The previous qualitative **probable** assessment is strengthened; no earlier percentage is invented.
 
