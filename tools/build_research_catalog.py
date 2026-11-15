@@ -499,6 +499,7 @@ def _catalogue_statistics(
     place_count: int, record_count: int, profile_work_counts: Counter, original_count: int,
     refreshed: str,
 ) -> str:
+    from tools.catalogue_locations import memberships, unknown
     region_people: dict[str, set[str]] = defaultdict(set)
     locality_people: dict[tuple[str, str], set[str]] = defaultdict(set)
     given_names = Counter()
@@ -512,15 +513,13 @@ def _catalogue_statistics(
         birth_region, death_region = _broad_place(person.get("birth_location", "")), _broad_place(person.get("death_location", ""))
         if birth_region and death_region and birth_region != death_region:
             migrations[f"{birth_region} → {death_region}"] += 1
-        seen_locations = set()
-        for record in person["records"]:
-            region = record.get("region") or "Unspecified"
-            region_people[region].add(person["catalogue_id"])
-            location = record.get("record_location") or "Location not specified"
-            key = (record.get("location_id") or location, location)
-            if key not in seen_locations:
-                locality_people[key].add(person["catalogue_id"])
-                seen_locations.add(key)
+        locations = memberships(person)
+        if not locations:continue
+        regions = {r['region'] for r in locations if not unknown(r.get('region'))}
+        for region in regions or {'Unspecified'}:
+            region_people[region].add(person['catalogue_id'])
+        for location in {r['record_location'] for r in locations if not unknown(r.get('record_location'))} or {'Location not specified'}:
+            locality_people[(location, location)].add(person['catalogue_id'])
     family_counts = Counter(
         membership["primary"]["id"] for membership in family_memberships.values() if membership["primary"]
     )
@@ -559,8 +558,9 @@ def _catalogue_statistics(
         for name, count in given_names.most_common()
     ]
     locality_values = []
+    place_ids = {r.get('record_location'):r.get('location_id') for p in people for r in p['records'] if r.get('location_id')}
     for (location_id, label), members in locality_people.items():
-        slug = location_to_slug.get(location_id)
+        slug = location_to_slug.get(place_ids.get(label, location_id))
         link = f'<a href="/places/{slug}.html">{escape(label)}</a>' if slug else escape(label)
         locality_values.append((label, len(members), link))
     locality_values.sort(key=lambda item: (-item[1], item[0]))
@@ -572,11 +572,11 @@ def _catalogue_statistics(
     century_values = sorted(((label, count, "") for label, count in centuries.items()), key=lambda item: item[0])
     migration_values = [(label, count, "") for label, count in migrations.most_common()]
     panels = "".join((
-        _stat_bars("People by region", "A person is counted once in every mapped region where a record places them.", region_values),
+        _stat_bars("People by region", "Each person is counted once per associated region. Reviewed uncertain family associations are included; Unspecified means no usable association is held.", region_values),
         _stat_bars("Most frequent given names", "All surnames, all years and all genders across the public historical catalogue. This panel does not follow the pie-chart filters; the pie includes only people whose surname at birth was Glasgow.", name_values),
         _marriage_statistics_panel(people),
         _stat_bars("Largest exported family branches", "Primary earliest-ancestor groups from exported WikiTree parent links.", family_values),
-        _stat_bars("Most frequent mapped places", "Unique catalogued people associated with each townland or locality.", locality_values),
+        _stat_bars("Most frequent mapped places", "Unique people per associated place, including explicitly uncertain family context. Missing locations on individual records do not make an otherwise located person unspecified.", locality_values),
         _stat_bars("Birth centuries", "People with a usable birth year; estimates remain estimates.", century_values, 20),
         _stat_bars("Most common recorded migrations", "Different broad birth and death regions on the same profile.", migration_values),
     ))
@@ -3859,7 +3859,7 @@ def _unified_records_page(title: str, description: str, body: str) -> str:
 
 def write_csv_exports(public_people, public_records, generated, export_version):
     """Refresh public CSV downloads without rebuilding person dossiers."""
-    csv_fields = ["catalogue_id", "name", "profile_ids", "wikitree_free_space_url", "profile_disposition", "has_wikitree_destination", "profile_work_status", "profile_work_candidate_count", "first_names", "last_names_at_birth", "last_names_current", "suffixes", "has_suffix", "gender", "birth", "birth_note", "birth_location", "birth_location_note", "death", "death_location", "spouses", "father", "mother", "children", "cluster", "clusters", "descendants", "evidence", "recorded_in", "regions", "record_count", "derived_children_count", "outside_export_parent_references", "relationship_warnings", "profile_created", "profile_last_updated", "profile_connected", "reported_children_count", "dna_flags", "wikitree_evidence_profiles", "wikitree_evidence_captured", "wikitree_record_passage_count", "wikitree_source_count", "wikitree_external_url_count", "wikitree_location_claims", "export_version", "catalogue_generated", "catalogue_url", "wikitree_urls"]
+    csv_fields = ["catalogue_id", "name", "profile_ids", "wikitree_free_space_url", "profile_disposition", "has_wikitree_destination", "profile_work_status", "profile_work_candidate_count", "first_names", "last_names_at_birth", "last_names_current", "suffixes", "has_suffix", "gender", "birth", "birth_note", "birth_location", "birth_location_note", "death", "death_location", "spouses", "father", "mother", "children", "cluster", "clusters", "descendants", "evidence", "recorded_in", "regions", "location_associations", "record_count", "derived_children_count", "outside_export_parent_references", "relationship_warnings", "profile_created", "profile_last_updated", "profile_connected", "reported_children_count", "dna_flags", "wikitree_evidence_profiles", "wikitree_evidence_captured", "wikitree_record_passage_count", "wikitree_source_count", "wikitree_external_url_count", "wikitree_location_claims", "export_version", "catalogue_generated", "catalogue_url", "wikitree_urls"]
     with (DATA_DIR / "people.csv").open("w", encoding="utf-8-sig", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=csv_fields)
         writer.writeheader()
@@ -3869,6 +3869,7 @@ def write_csv_exports(public_people, public_records, generated, export_version):
                 row[field] = " | ".join(person[field])
             for field in ("spouses", "father", "mother", "children"):
                 row[field] = " | ".join(relation["name"] + (f" [{relation['id']}]" if relation["id"] else "") for relation in person[field])
+            row["location_associations"] = json.dumps([{key: a[key] for key in ("claim_id", "place", "region", "status", "basis_kind")} for a in person.get("location_associations", [])], ensure_ascii=False, separators=(",", ":"))
             row["record_count"] = len(person["records"])
             row["relationship_warnings"] = " | ".join(person["relationship_warnings"])
             row["profile_created"] = " | ".join(_unique(info["created"] for info in person["profile_information"]))
@@ -5591,6 +5592,7 @@ def _person_page(
     profile_update: dict | None = None,
 ) -> str:
     slug = person["catalogue_id"]
+    from tools.catalogue_locations import association_html
     wiki_links = " / ".join(f'<a href="{WIKITREE_URL}{quote(profile_id)}">{escape(profile_id)}</a>' for profile_id in person["profile_ids"])
     if not wiki_links and person.get("wikitree_free_space_url"):
         wiki_links = f'<a href="{escape(person["wikitree_free_space_url"], quote=True)}">Individual WikiTree Space page</a>'
@@ -5934,6 +5936,7 @@ def _person_page(
 <div class="actions">{map_action}{f'<a class="button secondary" href="{WIKITREE_URL}{quote(person["profile_ids"][0])}">Open WikiTree</a>' if person['profile_ids'] else (f'<a class="button secondary" href="{escape(person["wikitree_free_space_url"], quote=True)}">Open WikiTree Space page</a>' if person.get('wikitree_free_space_url') else '')}<a class="button secondary" href="/compare.html?a={quote(person['profile_ids'][0] if person['profile_ids'] else slug)}">Compare</a><a class="button secondary" href="/feedback.html?person={quote(person['profile_ids'][0] if person['profile_ids'] else slug)}">Report a correction</a></div>
 <section id="overview" class="identity-shell"><div class="identity-heading"><div><p class="kicker">At a glance</p><h2>Identity &amp; family</h2></div><p>Tree links organise the family; documentary status still varies.</p></div>
 <div class="profile-stat-strip"><div><strong>{len(person['records'])}</strong><span>Mapped records</span></div><div><strong>{relation_total}</strong><span>Close relations</span></div><div><strong>{len(dossier['evidence'])}</strong><span>Evidence items</span></div><div><strong>{candidate_total}</strong><span>Candidate leads</span></div></div>
+{association_html(person)}
 <dl class="facts identity-facts"><dt>Birth</dt><dd>{escape(person['birth'] or 'Not recorded')} · {escape(person['birth_location'] or 'Place not recorded')}</dd><dt>Death</dt><dd>{escape(person['death'] or 'Not recorded')} · {escape(person['death_location'] or 'Place not recorded')}</dd><dt>Parents</dt><dd>{compact_relation_links('parents')}</dd><dt>Spouses</dt><dd>{compact_relation_links('spouses')}</dd><dt>Children</dt><dd>{compact_relation_links('children')}</dd><dt>Gender</dt><dd>{escape(person['gender'] or 'Not recorded')}</dd><dt>WikiTree</dt><dd>{wiki_links}</dd><dt>Research clusters</dt><dd>{cluster_tags or 'None assigned'}</dd><dt>Mapped descendants</dt><dd>{person['descendants'] if person['descendants'] is not None else 'Not calculated'}</dd></dl>
 <div class="identity-comparison-context"><p class="subject-subhead">Comparison context</p><p>These child positions and checks are the subject details used to rank possible parents below.</p>{naming_sequence}</div>
 {f'<details class="identity-note"><summary>Estimate and relationship notes</summary><div>{f"<ul>{notes}</ul>" if notes else ""}{f"<ul>{relationship_notes}</ul>" if relationship_notes else ""}</div></details>' if notes or relationship_notes else ''}</section>
@@ -6555,6 +6558,9 @@ def build_research_catalog(records: list[dict], profiles: dict[str, dict], edges
         if person["catalogue_id"] in reviewed_creations:
             decorate_person(person, reviewed_creations[person["catalogue_id"]])
     public_people = [person for person in people if not person["likely_living"]]
+    from tools.catalogue_locations import project as project_locations
+    from tools.catalogue_location_assessments import load_associations
+    project_locations(public_people, load_associations(eligible_catalogue_ids={p['catalogue_id'] for p in public_people}))
     pre1500_draft_paths = {
         "record-medieval-1283-alexander-richard-constable": "surname-research/free-space-pages/Alexander_son_of_Richard_constable_of_Glasgow.md",
         "record-medieval-1283-alexander-richard-messenger": "surname-research/free-space-pages/Alexander_son_of_Richard_messenger_of_Glasgow.md",
@@ -6765,30 +6771,8 @@ def build_research_catalog(records: list[dict], profiles: dict[str, dict], edges
         (CATALOGUE_DIR / "clusters" / f"{filename}.html").write_text(_people_list_page(cluster, "People studied together as a possible group. Being in the same group does not by itself prove they are related.", unique_members, path), encoding="utf-8")
         cluster_cards.append(f'<a class="browse-card" href="{path}"><strong>{escape(cluster)}</strong><span>{_count_words(len(unique_members), "individual", "individuals")}</span></a>')
 
-    by_region = defaultdict(lambda: defaultdict(dict))
-    for person in public_people:
-        for record in person["records"]:
-            region = record.get("region") or "Unspecified"
-            location = record.get("record_location") or "Location not specified"
-            by_region[region][location][person["catalogue_id"]] = person
-    region_cards = []
-    for region, locations in sorted(by_region.items()):
-        members = {person["catalogue_id"]: person for location_people in locations.values() for person in location_people.values()}
-        sections = []
-        for location, location_people in sorted(locations.items()):
-            links = " · ".join(f'<a href="/people/{person["catalogue_id"]}.html">{escape(person["name"])}</a>' for person in sorted(location_people.values(), key=lambda item: item["name"].casefold()))
-            location_slug = next((
-                location_to_slug[record["location_id"]]
-                for person in location_people.values() for record in person["records"]
-                if record.get("record_location") == location and record.get("location_id") in location_to_slug
-            ), None)
-            heading = f'<a href="/places/{location_slug}.html">{escape(location)}</a>' if location_slug else escape(location)
-            sections.append(f'<section><h2>{heading}</h2><p>{links}</p></section>')
-        filename = _slug(region)
-        path = f"/people/locations/{filename}.html"
-        body = f'<p class="kicker">Browse by location</p><h1>{escape(region)}</h1><p class="lede">{_count_words(len(members), "person", "people")} across {_count_words(len(locations), "mapped location", "mapped locations")}. Individuals appear under every mapped locality associated with them.</p>{"".join(sections)}'
-        (CATALOGUE_DIR / "locations" / f"{filename}.html").write_text(_page(f"People recorded in {region}", f"Glasgow surname records grouped by locality in {region}.", body, path), encoding="utf-8")
-        region_cards.append(f'<a class="browse-card" href="{path}"><strong>{escape(region)}</strong><span>{_count_words(len(members), "individual", "individuals")} · {_count_words(len(locations), "location", "locations")}</span></a>')
+    from tools.catalogue_locations import region_pages
+    by_region, region_cards = region_pages(public_people, location_to_slug, web=CATALOGUE_DIR.parent)
 
     bearer_rows = "".join(
         f'<tr><td><a href="https://www.wikitree.com/wiki/Space:Bearers_of_the_%27%27de_Glasgu%27%27_Name_and_the_Emergence_of_the_Glasgow_Surname%2C_c.1175%E2%80%931500#{quote(item["anchor"])}">{escape(item["name"])}</a></td>'

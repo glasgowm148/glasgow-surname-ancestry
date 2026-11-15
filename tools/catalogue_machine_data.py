@@ -876,6 +876,7 @@ def build_machine_models(public_people: list[dict], *, catalogue_ids=None) -> tu
             ),
             "vitals": {"birth": _vital(person.get("birth", ""), person.get("birth_location", ""), person.get("birth_note", "")),
                        "death": _vital(person.get("death", ""), person.get("death_location", ""), person.get("death_note", ""))},
+            "location_associations": person.get("location_associations", []),
             "identity": {"gender": person.get("gender") or None, "occupations": _occupation_terms(person),
                          "locations": locations, "aliases": aliases, "research_clusters": person.get("clusters", [])},
             "relationships": {

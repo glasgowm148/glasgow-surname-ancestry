@@ -11,6 +11,8 @@ description: Research historical WikiTree people, assess exact father–child co
 
 ## Working in this project (read first)
 
+- Missing catalogue geography (owner correction, 15 November 2026): when reviewing Unspecified regions or missing-place placeholders, inspect held subject records and attached event locations, then held spouse, sibling, parent or other direct kin context. Record contextual estimates as explicitly uncertain person-place associations through the workbench; preserve original event/vital/source locations. A blank event must not place an otherwise classified person in Unspecified. When an audit prohibits external research, use local evidence only and report resolved distinct people against a frozen baseline.
+
 - Historical gender classification (owner correction, 15 November 2026): when asked to resolve missing genders from clear given names (for example John), classify the underlying people through revision-checked workbench proposals and synchronize catalogue/search/person/chart views. Do not substitute a chart-only inference checkbox. Preserve existing recorded genders, keep initials and ambiguous names Unknown, and record the name-based basis in the audited change.
 
 - Archive-enquiry duplicate check (owner correction, 15 November 2026): before sending a research records request, check the connected mailbox (including Sent and retained Spam/Trash) for the archive address, subject/person variants and an existing reply thread, and check local correspondence receipts. Distinguish a prepared draft from a sent request. If an earlier enquiry exists, review its scope and outcome before proposing a follow-up; do not send a duplicate. State the account/search limits when no earlier request is found.
