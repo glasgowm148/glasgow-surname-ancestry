@@ -7,7 +7,21 @@
 .statistics-name-filters select{font:15px var(--g-sans);color:#30452d;background:#fff;border:1px solid #8da07c;padding:10px 36px 10px 12px;border-radius:3px;min-width:185px}
 .statistics-name-filters select:focus-visible{outline:3px solid #b17a43;outline-offset:3px}
 .statistics-name-layout{display:grid;grid-template-columns:minmax(180px,1fr) minmax(260px,1fr);gap:32px;align-items:start;margin:24px 0}
-#names-pie{width:100%;max-width:360px;aspect-ratio:1;border-radius:50%;justify-self:center;border:1px solid #d5ddca}
+.statistics-name-chart{min-width:0;text-align:center;padding-top:16px}
+#names-pie{position:relative;width:100%;max-width:400px;aspect-ratio:1;margin:auto;isolation:isolate}
+#names-pie svg{display:block;width:100%;height:auto;overflow:visible;filter:drop-shadow(0 6px 10px #30452d12)}
+.statistics-pie-slice{stroke:#fbfcf7;stroke-width:2.5;stroke-linejoin:round;cursor:pointer;transition:filter .16s,stroke-width .16s}
+.statistics-pie-slice.is-active,.statistics-pie-slice:focus-visible{filter:brightness(1.13);stroke:#30452d;stroke-width:3;outline:none}
+.statistics-pie-total{fill:#30452d;font:500 43px var(--g-serif);text-anchor:middle;pointer-events:none}
+.statistics-pie-label{fill:#69765e;font:13px var(--g-sans);text-anchor:middle;letter-spacing:.07em;pointer-events:none}
+.statistics-pie-tooltip{position:absolute;left:50%;top:0;transform:translateX(-50%);z-index:2;width:max-content;max-width:95%;padding:11px 16px;border:1px solid #53654b;border-radius:8px;background:#30452d;color:#fff;box-shadow:0 5px 18px #20301c24;pointer-events:none;text-align:center}
+.statistics-pie-tooltip[hidden]{display:none}
+.statistics-pie-tooltip strong{display:block;font:500 19px/1.25 var(--g-serif)}
+.statistics-pie-tooltip span{display:block;margin-top:4px;font:12px/1.4 var(--g-sans);color:#e1e8d8}
+.statistics-pie-hint{margin:8px 0 0;color:#69765e;font:12px/1.5 var(--g-sans)}
+.statistics-name-table tr.is-highlighted{background:#e7eddf}
+.statistics-name-empty{display:grid;place-items:center;height:100%;margin:0;color:#69765e;border:1px dashed #c1cbb7;border-radius:50%}
+@media(prefers-reduced-motion:reduce){.statistics-pie-slice{transition:none}}
 .statistics-name-table{max-height:390px;overflow:auto;scrollbar-gutter:stable}
 .statistics-name-table table{width:100%;border-collapse:collapse;color:#43543c;font:13px var(--g-sans)}
 .statistics-name-table caption{text-align:left;margin-bottom:12px;font-weight:600}

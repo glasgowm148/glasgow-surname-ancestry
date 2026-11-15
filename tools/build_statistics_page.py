@@ -105,7 +105,7 @@ def first_names_panel():
         '<option value="">All genders</option><option>Female</option><option>Male</option>'
         '<option>Unknown</option></select></label><button type="button" id="names-reset">Reset filters</button></div>'
         '<p id="names-summary" role="status" aria-live="polite"></p>'
-        '<div class="statistics-name-layout"><div id="names-pie" role="img" aria-label="First-name proportions"></div>'
+        '<div class="statistics-name-layout"><div class="statistics-name-chart"><div id="names-pie"></div><p class="statistics-pie-hint">Hover, tap or focus a slice to explore a name.</p></div>'
         '<div class="statistics-name-table"><table><caption>First-name counts and percentages</caption>'
         '<thead><tr><th scope="col">First name</th><th scope="col">People</th><th scope="col">Share</th></tr></thead>'
         '<tbody id="names-rows"></tbody></table></div></div>'
@@ -162,8 +162,8 @@ def repair():
         target = WEB / 'assets/repair' / f'statistics-names.{extension}'
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_text(source.read_text(encoding='utf-8'), encoding='utf-8')
-    shell = shell.replace('</head>', '<link rel="stylesheet" href="/assets/repair/statistics-names.css?v=2"></head>', 1)
-    shell = shell.replace('</body>', '<script src="/assets/repair/statistics-names.js?v=2" defer></script></body>', 1)
+    shell = shell.replace('</head>', '<link rel="stylesheet" href="/assets/repair/statistics-names.css?v=3"></head>', 1)
+    shell = shell.replace('</body>', '<script src="/assets/repair/statistics-names.js?v=3" defer></script></body>', 1)
     output = WEB / 'statistics/index.html'
     output.parent.mkdir(parents=True, exist_ok=True)
     before = output.read_text(encoding='utf-8') if output.exists() else None
