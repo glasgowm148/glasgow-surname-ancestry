@@ -1,12 +1,14 @@
 # Mary Ellen Glasgow (Glasgow-4269): Lisnagaver birth, 1867
 
-Last updated: 2026-09-30
+Last updated: 2026-11-15
 
 ## Current conclusion
 
+Reviewed: 2026-11-15. The local header, catalogue and dossier now follow the held original review: Mary Ellen, 14 February 1867, Lisnagaver. This repairs a stale local display; it is not a new original reading or a live WikiTree save. The conflicting GRONI date and qualified kin identifications below are retained.
+
 [Mary Ellen Glasgow (Glasgow-4269)](https://www.wikitree.com/wiki/Glasgow-4269) is strongly identified with the child recorded in Ballymoney/Dirraw civil birth entry 214. The inspected original records **14 February 1867**, **Lisnagaver, County Antrim, Ireland**, the child's given names **Mary Ellen**, mother **Mary Glasgow**, and informant **Ann Glasgow**, present at birth and resident at Lisnagaver. No father is entered.
 
-The public profile currently gives Mary Glasgow, 17 February 1867, Ballymoney, Ireland. Its GRONI citation, `U/1867/31/1005/2/214`, points to the same district, year and numbered entry. The name, locality, month/year and entry number support identification with the original; no competing local February 1867 child was found in the recorded bounded searches. The date discrepancy concerns the identified registration and does not justify creating another child. Prefer the original's 14 February reading while preserving the index's 17 February claim explicitly.
+The held 30 September public-profile capture gives Mary Glasgow, 17 February 1867, Ballymoney, Ireland. Its GRONI citation, `U/1867/31/1005/2/214`, points to the same district, year and numbered entry. The name, locality, month/year and entry number support identification with the original; no competing local February 1867 child was found in the recorded bounded searches. The date discrepancy concerns the identified registration and does not justify creating another child. Prefer the original's 14 February reading while preserving the index's 17 February claim explicitly.
 
 ## Source findings
 

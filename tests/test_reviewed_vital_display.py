@@ -1,4 +1,5 @@
 import json
+from copy import deepcopy
 from pathlib import Path
 from tempfile import TemporaryDirectory
 import unittest
@@ -72,6 +73,58 @@ class ReviewedVitalDisplayTests(unittest.TestCase):
             self.assertEqual(1700, person['born'])
             self.assertEqual([{'id':'Example-2'}], person['parents'])
             self.assertEqual('approved', person['locationRegion'])
+
+    def test_explicit_identity_projection_reaches_retained_atlas(self):
+        from tools.sync_ancestry_atlas import overlay_model
+        with TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root/'assets/research').mkdir(parents=True)
+            (root/'people').mkdir()
+            identity = dict(name='Recorded Person', first='Recorded',
+                            surname='Person', currentSurname='Person')
+            assessment = dict(subject='Example-1', status='approved',
+                              project_tree_display=True, tree_projection=identity)
+            (root/'assets/research/assessments.json').write_text(
+                json.dumps({'assessments': [assessment]}))
+            (root/'people/example-1.json').write_text(json.dumps(dict(
+                name='Recorded Person', research_assessments=[assessment])))
+            retained = dict(
+                meta={}, sections=[], landmarks=[], dna=[{'approved': 'retain'}],
+                people=[dict(id='Example-1', kind='person', name='Old label',
+                             first='Old', surname='Label', currentSurname='Label',
+                             born=1700, note='Retained account',
+                             parents=[{'id': 'Example-2'}]),
+                        dict(id='Example-2', kind='person')])
+            fresh = deepcopy(retained)
+            fresh['meta']['date'] = '2026-11-15'
+            apply(fresh, root, lambda place: 'other', {})
+            result = overlay_model(retained, fresh)
+            person = result['people'][0]
+            self.assertEqual({key: person[key] for key in identity}, identity)
+            self.assertEqual(person['born'], 1700)
+            self.assertEqual(person['note'], 'Retained account')
+            self.assertEqual(person['parents'], retained['people'][0]['parents'])
+            self.assertEqual(result['dna'], retained['dna'])
+            self.assertEqual(retained['people'][0]['name'], 'Old label')
+            self.assertEqual(overlay_model(result, fresh), result)
+
+    def test_explicit_tree_name_must_match_resolved_dossier(self):
+        with TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root/'assets/research').mkdir(parents=True)
+            (root/'people').mkdir()
+            assessment = dict(subject='Example-1', status='approved',
+                              project_tree_display=True,
+                              tree_projection={'name': 'Unreviewed alternative'})
+            (root/'assets/research/assessments.json').write_text(
+                json.dumps({'assessments': [assessment]}))
+            (root/'people/example-1.json').write_text(json.dumps(dict(
+                name='Recorded Person', research_assessments=[assessment])))
+            model = dict(meta={}, people=[dict(id='Example-1', name='Old label')])
+            before = deepcopy(model)
+            with self.assertRaisesRegex(ValueError, 'must match the resolved person name'):
+                apply(model, root, lambda place: 'other', {})
+            self.assertEqual(model, before)
 
     def test_family_summary_and_packed_registry_follow_review(self):
         from tools.site_analytics import GOOGLE_TAG, with_analytics

@@ -3608,6 +3608,57 @@
         }
       },
       "project_tree_vitals": true
+    },
+    {
+      "schema_version": 3,
+      "id": "mary-ellen-glasgow-4269-original-birth-projection-20261115",
+      "subject": "Glasgow-4269",
+      "status": "approved",
+      "reviewed": "2026-11-15",
+      "scope": "Reconcile local identity display, birth date and birthplace with the already inspected civil return; no relationship assessment.",
+      "basis": "The original civil birth return was inspected on 30 September 2026: Mary Ellen, born Fourteenth February 1867 at Lisnagaver, mother Mary Glasgow, informant Ann Glasgow present at birth; registered 12 March. Dirraw district, Ballymoney union, printed page 6, entry 214, PDF page 1. The conflicting GRONI derivative U/1867/31/1005/2/214 gives 17 February and is retained. This local reconciliation uses the held review, not a new original reading. Father columns are blank; proposed mother/informant profile identities remain compatible, not certain attachments.",
+      "source": {
+        "url": "/people/glasgow-4269.json",
+        "section": "research_findings / Source findings"
+      },
+      "summary": "Mary Ellen Glasgow: 14 February 1867, Lisnagaver; supersedes the conflicting derivative date in the local display.",
+      "identity": {
+        "name": "Mary Ellen Glasgow"
+      },
+      "vitals": {
+        "birth": {
+          "date": "1867-02-14",
+          "place": "Lisnagaver, County Antrim, Ireland",
+          "status": "exact",
+          "place_status": "certain",
+          "country": "ireland",
+          "note": "The original civil birth return was inspected on 30 September 2026: Mary Ellen, born Fourteenth February 1867 at Lisnagaver, mother Mary Glasgow, informant Ann Glasgow present at birth; registered 12 March. Dirraw district, Ballymoney union, printed page 6, entry 214, PDF page 1. The conflicting GRONI derivative U/1867/31/1005/2/214 gives 17 February and is retained. This local reconciliation uses the held review, not a new original reading. Father columns are blank; proposed mother/informant profile identities remain compatible, not certain attachments.",
+          "qualifier": "Original return inspected 30 September; GRONI index gives conflicting 17 February.",
+          "source_url": "https://www.irishgenealogy.ie/files/civil/birth_returns/births_1867/03501/2286677.pdf",
+          "source_level": "Original civil return previously inspected; held review reconciled locally"
+        }
+      },
+      "catalogue_projection": {
+        "name": "Mary Ellen Glasgow",
+        "birth": "1867-02-14",
+        "birth_year": 1867,
+        "birth_location": "Lisnagaver, County Antrim, Ireland",
+        "birth_note": "The original civil birth return was inspected on 30 September 2026: Mary Ellen, born Fourteenth February 1867 at Lisnagaver, mother Mary Glasgow, informant Ann Glasgow present at birth; registered 12 March. Dirraw district, Ballymoney union, printed page 6, entry 214, PDF page 1. The conflicting GRONI derivative U/1867/31/1005/2/214 gives 17 February and is retained. This local reconciliation uses the held review, not a new original reading. Father columns are blank; proposed mother/informant profile identities remain compatible, not certain attachments.",
+        "date_years": [
+          1867
+        ],
+        "field_statuses": {
+          "birth": "certain",
+          "birth_location": "certain"
+        }
+      },
+      "project_tree_vitals": true,
+      "tree_projection": {
+        "name": "Mary Ellen Glasgow",
+        "first": "Mary Ellen",
+        "surname": "Glasgow",
+        "currentSurname": "Glasgow"
+      }
     }
   ]
 }

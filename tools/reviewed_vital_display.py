@@ -3,7 +3,8 @@ from copy import deepcopy
 import json
 import re
 
-FIELDS = ('born', 'died', 'year', 'birthDisplay', 'deathDisplay', 'birthplace',
+FIELDS = ('name', 'first', 'surname', 'currentSurname',
+          'born', 'died', 'year', 'birthDisplay', 'deathDisplay', 'birthplace',
           'deathplace', 'bornApprox', 'birthLocationRegion', 'deathLocationRegion',
           'locationRegion', 'locationLabel', 'locationColor')
 

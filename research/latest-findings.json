@@ -85877,6 +85877,34 @@
         "research/vital_assessments.json",
         "research/queue-review-2026-10-17/catalogue-integration.json"
       ]
+    },
+    {
+      "id": "mary-ellen-local-birth-reconciliation-20261115",
+      "found_on": "2026-11-15",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "Mary Ellen Glasgow’s local name, birth date and birthplace now follow the previously inspected civil return: 14 February 1867 at Lisnagaver. The stale Mary/17 February/Ballymoney display came from the conflicting derivative index.",
+      "qualification": "This is reconciliation of the held 30 September original review, not a new discovery or original reading. GRONI’s 17 February remains visible as conflicting evidence. No father is recorded; mother and informant profile identities remain qualified. The prepared WikiTree correction remains pending; no live save.",
+      "detail_url": "/people/glasgow-4269.html#research-findings",
+      "people": [
+        {
+          "id": "Glasgow-4269",
+          "name": "Mary Ellen Glasgow",
+          "url": "/people/glasgow-4269.html",
+          "role": "Existing child identity; local vital and name correction only"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Civil births, Dirraw/Ballymoney 1867, printed page 6, entry 214, PDF page 1; original inspected 30 September",
+          "url": "https://www.irishgenealogy.ie/files/civil/birth_returns/births_1867/03501/2286677.pdf"
+        }
+      ],
+      "provenance": [
+        "research/Glasgow-4269/findings.md",
+        "research/Glasgow-4269/civil-birth-update-2026-09-30.wiki",
+        "research/vital_assessments.json"
+      ]
     }
   ]
 }
