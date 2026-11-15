@@ -1,6 +1,13 @@
 /* Focus one statistical story at a time; every chart remains readable without JS. */
 (() => {
   'use strict';
+  const navToggle = document.getElementById('g-nav-toggle');
+  if (navToggle) navToggle.addEventListener('click', event => {
+    if (!matchMedia('(min-width: 761px) and (max-width: 1100px)').matches) return;
+    event.stopImmediatePropagation();
+    document.body.classList.toggle('g-nav-open');
+    navToggle.setAttribute('aria-expanded', String(document.body.classList.contains('g-nav-open')));
+  }, true);
   // Keep the chart surface quiet: combine interpretation and mode notes once.
   document.querySelectorAll('.statistics-panel').forEach(panel => {
     const method = panel.querySelector('.statistics-panel-method');

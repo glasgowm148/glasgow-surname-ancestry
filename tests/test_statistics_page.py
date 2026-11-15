@@ -110,16 +110,18 @@ class PanelChartDataTests(unittest.TestCase):
 class StatisticsLayoutTests(unittest.TestCase):
     def test_overview_keeps_all_totals_with_four_primary(self):
         from bs4 import BeautifulSoup
+        from tools.statistics_overview import render_dashboard_overview
         labels = ['Historical people', 'Mapped records', 'Mapped places', 'Cross-region life courses',
                   'Exported family roots', 'People linked to a root']
         summary = '<div class="statistics-summary">' + ''.join(
             '<div><strong>' + str(index + 1) + '</strong><span>' + label + '</span></div>'
             for index, label in enumerate(labels)) + '</div>'
-        soup = BeautifulSoup(statistics.overview_markup(summary), 'html.parser')
-        self.assertEqual(len(soup.select('.statistics-metric-grid > div')), 4)
-        self.assertEqual(len(soup.select('.statistics-extra-grid > div')), 2)
-        self.assertEqual([node.text for node in soup.select('strong')], ['1', '2', '3', '4', '5', '6'])
-        self.assertFalse(soup.select_one('.statistics-extra-totals').has_attr('open'))
+        soup = BeautifulSoup(render_dashboard_overview(summary, [], [], outline=[]), 'html.parser')
+        self.assertEqual(len(soup.select('.statistics-atlas-metrics > div')), 4)
+        self.assertEqual(len(soup.select('.statistics-overview-totals .statistics-summary > div')), 6)
+        self.assertFalse(soup.select_one('.statistics-overview-totals').has_attr('open'))
+        self.assertEqual([node.text for node in soup.select('.statistics-overview-totals strong')],
+                         ['1', '2', '3', '4', '5', '6'])
 
     def test_views_group_all_charts_and_keep_details(self):
         from bs4 import BeautifulSoup

@@ -1,6 +1,6 @@
 /* Filtered birth-surname distribution: donut, ranking and optional full counts. */
 .statistics-names{margin:0;padding:26px;border:1px solid var(--stat-line,#dde4d6);border-radius:12px;background:var(--stat-paper,#fffef9)}
-.statistics-feature-head{display:flex;justify-content:space-between;gap:24px;align-items:center}
+.statistics-feature-head{display:flex;flex-wrap:wrap;justify-content:space-between;gap:20px;align-items:center}
 .statistics-feature-head h2{margin:6px 0 7px;color:#304b39;font:500 30px/1.2 var(--g-serif);letter-spacing:-.025em}
 .statistics-feature-head p{margin:0;color:#718069;font:12px/1.5 var(--g-sans)}
 .statistics-feature-head .r-kicker{font-size:10px}
@@ -10,9 +10,9 @@
 .statistics-name-filters select:focus-visible{outline:2px solid #ae7e45;outline-offset:3px}
 .statistics-name-filters button{appearance:none;cursor:pointer;padding:10px 7px;border:0;border-radius:4px;background:none;color:#77866b;text-decoration:underline;text-underline-offset:3px;font:11px var(--g-sans)}
 #names-summary{margin:17px 0 0;font:11px/1.6 var(--g-sans);color:#849078}
-.statistics-name-layout{display:grid;grid-template-columns:minmax(220px,1fr) minmax(200px,.9fr);gap:40px;align-items:center;margin:20px 0}
+.statistics-name-layout{display:grid;grid-template-columns:minmax(260px,1.2fr) minmax(190px,.8fr);gap:36px;align-items:center;margin:20px 0}
 .statistics-name-chart{min-width:0;text-align:center}
-#names-pie{position:relative;isolation:isolate;width:100%;max-width:360px;aspect-ratio:1;margin:auto}
+#names-pie{position:relative;isolation:isolate;width:100%;max-width:420px;aspect-ratio:1;margin:auto}
 #names-pie svg{display:block;width:100%;height:auto;overflow:visible}
 .statistics-pie-slice{stroke:#fffef9;stroke-width:2;stroke-linejoin:round;cursor:pointer;transition:filter .15s}
 .statistics-pie-slice.is-active,.statistics-pie-slice:focus-visible{filter:brightness(1.12);stroke:#3e5d40;stroke-width:2;outline:none}
@@ -39,5 +39,8 @@
 .statistics-name-table th:first-child{text-align:left;font-weight:500}.statistics-name-table thead{position:sticky;top:0;background:#fffef9}
 .statistics-name-swatch{display:inline-block;width:8px;height:8px;border-radius:2px;margin-right:8px}.statistics-name-table tr.is-highlighted{background:#eef3e6}
 .statistics-name-empty{display:grid;place-items:center;height:100%;margin:0;color:#89957d;background:#f2f5ec;border-radius:50%;font:13px var(--g-sans)}
-@media(max-width:1050px){.statistics-feature-head{display:block}.statistics-name-filters{margin-top:18px}.statistics-name-layout{gap:24px}}
+@media(max-width:820px){.statistics-name-layout{gap:24px}}
 @media(max-width:700px){.statistics-names{padding:21px 17px}.statistics-feature-head h2{font-size:27px}.statistics-name-layout{grid-template-columns:1fr;gap:24px;margin-top:16px}#names-pie{max-width:300px}.statistics-name-ranking{padding:0 7px 10px}.statistics-name-filters{width:100%;gap:8px}.statistics-name-filters label{flex:1;min-width:0}.statistics-name-filters select{min-width:0}#names-leaders{gap:11px}}
+
+.statistics-names{padding:29px;background:#fffdf8;border-radius:13px}.statistics-feature-head h2{font-size:33px}.statistics-name-ranking{padding-left:16px}.statistics-name-ranking h3{letter-spacing:.15em;font-size:10px}#names-leaders{gap:17px}.statistics-leader-track{height:6px}.statistics-leader-value{font-size:12px}#names-leaders button{font-size:13px}.statistics-pie-label{font-size:11px}.statistics-pie-total{font-size:41px}
+@media(max-width:700px){.statistics-names{padding:23px 18px}.statistics-feature-head h2{font-size:29px}.statistics-name-ranking{padding:0 5px 10px}.statistics-name-layout{grid-template-columns:1fr}#names-pie{max-width:340px}.statistics-name-filters{margin-top:0}.statistics-feature-head{gap:17px}}

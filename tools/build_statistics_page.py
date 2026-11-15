@@ -87,10 +87,12 @@ def first_name_rows(people):
             sorted(counts.items(), key=lambda item: (item[0][0], item[0][1] or 0, item[0][2]))]
 
 
-def first_names_panel():
-    path = WEB / 'data/people.json'
-    data = json.loads(path.read_text(encoding='utf-8')) if path.exists() else {}
-    rows = first_name_rows(data.get('people', []))
+def first_names_panel(people=None):
+    if people is None:
+        path = WEB / 'data/people.json'
+        data = json.loads(path.read_text(encoding='utf-8')) if path.exists() else {}
+        people = data.get('people', [])
+    rows = first_name_rows(people)
     payload = json.dumps(rows, ensure_ascii=True).replace('<', '\\u003c')
     return (
         '<section class="statistics-names" id="first-names" aria-labelledby="first-names-title">'
@@ -123,14 +125,16 @@ def first_names_panel():
     )
 
 
-def enrich_panels(markup):
+def enrich_panels(markup, people=None, index=None):
     """Supply complete denominators and full migration flows to reader charts."""
     from bs4 import BeautifulSoup
     soup = BeautifulSoup(markup, 'html.parser')
     people_path = WEB / 'data/people.json'
-    people = json.loads(people_path.read_text())['people'] if people_path.exists() else []
+    if people is None:
+        people = json.loads(people_path.read_text())['people'] if people_path.exists() else []
     index_path = WEB / 'data/catalogue-search-index.json'
-    index = json.loads(index_path.read_text()) if index_path.exists() else []
+    if index is None:
+        index = json.loads(index_path.read_text()) if index_path.exists() else []
     ids = {
         'People by region': 'regions', 'Most frequent given names': 'given-names',
         'Surnames joined by marriage to Glasgow': 'married-surnames',
@@ -171,38 +175,7 @@ def enrich_panels(markup):
 
 
 
-def overview_markup(summary):
-    from bs4 import BeautifulSoup
-    soup = BeautifulSoup(summary, 'html.parser')
-    cards = soup.select('.statistics-summary > div')
-    selected_labels = ('Historical people', 'Mapped records', 'Mapped places', 'Cross-region life courses')
-    selected, extra = [], []
-    icons = (
-        '<circle cx="9" cy="7" r="3"/><path d="M3 21v-4a6 6 0 0 1 12 0v4M17 4a3 3 0 0 1 0 6m1 4a5 5 0 0 1 3 5v2"/>',
-        '<path d="M5 3h10l4 4v14H5zM14 3v5h5M8 12h8M8 16h8"/>',
-        '<path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/>',
-        '<path d="M3 7h14m-4-4 4 4-4 4M21 17H7m4-4-4 4 4 4"/>',
-    )
-    for card in cards:
-        label = card.find('span')
-        if label and label.get_text() in selected_labels:
-            index = selected_labels.index(label.get_text())
-            if index == 3:
-                label.string = 'Recorded journeys'
-            icon = '<svg class="statistics-metric-icon" viewBox="0 0 24 24" aria-hidden="true">' + icons[index] + '</svg>'
-            selected.append((index, '<div class="statistics-metric">' + icon + card.decode_contents() + '</div>'))
-        else:
-            extra.append(str(card))
-    if not selected and cards:
-        selected = [(i, str(card)) for i, card in enumerate(cards[:4])]
-        extra = [str(card) for card in cards[4:]]
-    result = '<section class="statistics-overview" aria-label="Catalogue summary"><div class="statistics-summary statistics-metric-grid">' + ''.join(card for _, card in sorted(selected)) + '</div>'
-    if extra:
-        result += '<details class="statistics-extra-totals"><summary>More collection totals</summary><div class="statistics-summary statistics-extra-grid">' + ''.join(extra) + '</div></details>'
-    return result + '</section>'
-
-
-def chart_views(panels):
+def chart_views(panels, summary=None, people=None, index=None):
     """Separate visual stories instead of presenting every table at once."""
     from bs4 import BeautifulSoup
     soup = BeautifulSoup(panels, 'html.parser')
@@ -223,15 +196,21 @@ def chart_views(panels):
     if comparison:
         comparison = '<details class="statistics-comparison"><summary>Compare first names across all surnames<span>Entire catalogue</span></summary>' + comparison + '</details>'
     views = {
-        'names': first_names_panel() + comparison,
+        'names': first_names_panel(people) + comparison,
         'time': '<header class="statistics-view-head"><span class="r-kicker">Across generations</span><h2>When they were born</h2><p>Recorded birth years across the whole catalogue, including approximate dates.</p></header>' + panel('birth-centuries'),
         'places': '<header class="statistics-view-head"><span class="r-kicker">Roots and connections</span><h2>Places &amp; families</h2><p>Explore the communities, branches and marriage connections in the collection.</p></header><div class="statistics-grid">' + ''.join(panel(ident) for ident in ('regions', 'family-branches', 'mapped-places', 'married-surnames')) + '</div>',
         'journeys': '<header class="statistics-view-head"><span class="r-kicker">Across borders</span><h2>Recorded journeys</h2><p>These links compare birth and death regions; they do not reconstruct travel routes.</p></header>' + panel('migration'),
     }
+    if summary is not None:
+        try:
+            from tools.statistics_overview import render_dashboard_overview
+        except ModuleNotFoundError:
+            from statistics_overview import render_dashboard_overview
+        views['names'] = render_dashboard_overview(summary, people or [], index or [], web_root=WEB) + views['names']
     # Preserve unusual legacy panels rather than dropping their source counts.
     known = {'given-names', 'birth-centuries', 'regions', 'family-branches', 'mapped-places', 'married-surnames', 'migration'}
     views['places'] += ''.join(str(item) for item in all_panels if item.get('id') not in known)
-    tabs = [('names', 'Names', 'first-names'), ('time', 'Time', 'birth-centuries'),
+    tabs = [('names', 'Overview', 'statistics-view-names'), ('time', 'Generations', 'birth-centuries'),
             ('places', 'Places &amp; families', 'regions'), ('journeys', 'Journeys', 'migration')]
     nav = '<nav class="statistics-view-tabs" id="statistics-detail-title" aria-label="Explore statistics">' + ''.join(
         '<a id="statistics-tab-' + key + '" href="#' + anchor + '" data-statistics-view="' + key + '">' + label + '</a>'
@@ -284,13 +263,17 @@ def repair():
         'First recorded given name across the public historical catalogue.',
         'All surnames, all years and all genders across the public historical catalogue. '
         'This panel does not follow the pie-chart filters; the pie includes only people whose surname at birth was Glasgow.')
-    panels = enrich_panels(panels)
+    people_path = WEB / 'data/people.json'
+    public_people = json.loads(people_path.read_text())['people'] if people_path.exists() else []
+    index_path = WEB / 'data/catalogue-search-index.json'
+    public_index = json.loads(index_path.read_text()) if index_path.exists() else []
+    panels = enrich_panels(panels, public_people, public_index)
     current_summary = rebase_catalogue_links(_current_catalogue_summary() or summary.group(0))
     main = (
         '<main class="r-main statistics-page" id="main"><header class="statistics-page-head">'
-        '<span class="r-kicker">Explore the collection</span><h1>Statistics</h1>'
-        '<p>Names, generations and journeys in the Glasgow catalogue.</p></header>'
-        + overview_markup(current_summary) + chart_views(panels) +
+        '<div><span class="r-kicker">The Glasgow surname project</span><h1>Statistics explorer</h1></div>'
+        '<a class="statistics-about-link" href="/coverage/">About the collection <span aria-hidden="true">↗</span></a></header>'
+        + chart_views(panels, current_summary, public_people, public_index) +
         '<details class="statistics-method statistics-page-method"><summary>About these statistics</summary>'
         '<p>Counts describe the public historical catalogue and its documented associations. '
         'A person can appear in more than one place or marriage-surname category, so those charts are not parts of a single whole. '
@@ -309,8 +292,9 @@ def repair():
         from tools.repair_primary_navigation import repair_nav_only_page, repair_site_identity_page
     except ModuleNotFoundError:
         from repair_primary_navigation import repair_nav_only_page, repair_site_identity_page
-    shell = shell.replace('g-kind-research', 'g-kind-catalogue')
+    shell = shell.replace('g-kind-research', 'g-kind-catalogue stats-dashboard')
     shell = repair_site_identity_page(repair_nav_only_page(shell, Path('statistics/index.html')), Path('statistics/index.html'))
+    shell = shell.replace('g-kind-catalogue v3-site', 'g-kind-catalogue stats-dashboard v3-site') if 'stats-dashboard' not in shell else shell
     shell = install_chart_assets(shell)
     output = WEB / 'statistics/index.html'
     output.parent.mkdir(parents=True, exist_ok=True)

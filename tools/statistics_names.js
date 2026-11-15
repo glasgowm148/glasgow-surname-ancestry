@@ -85,6 +85,7 @@
     function clear() {
       tooltip.hidden = true;
       centerCount.textContent = fmt.format(total);
+      centerCount.style.fontSize = '';
       centerLabel.textContent = 'people';
       paths.forEach(path => path.classList.remove('is-active'));
       tableRows.forEach(row => row.classList.remove('is-highlighted'));
@@ -97,8 +98,9 @@
       // The Other names slice represents every table row beyond the first 12.
       tableRows.forEach((row, i) => row.classList.toggle('is-highlighted', index === 12 ? i >= 12 : i === index));
       leaderButtons.forEach((button, i) => button.classList.toggle('is-highlighted', i === index));
-      centerCount.textContent = share(count);
-      centerLabel.textContent = 'of people';
+      centerCount.textContent = name;
+      centerCount.style.fontSize = name.length > 9 ? '23px' : '29px';
+      centerLabel.textContent = fmt.format(count) + ' people · ' + share(count);
       tipName.textContent = name;
       tipDetail.textContent = fmt.format(count) + ' people · ' + share(count);
       tooltip.hidden = false;
