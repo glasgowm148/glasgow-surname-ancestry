@@ -21,6 +21,19 @@ NEW_START, NEW_END = '<!-- queue-new-profiles:start -->', '<!-- queue-new-profil
 WORKROOM_KICKER = 'Research workroom: leads, not findings'
 # Reader words for stored statuses; the stored value (filters, data JSON) is unchanged.
 STATUS_WORDS = {'On hold': 'On hold: needs another record'}
+# A completed identity review is not an open research case. Closed rows stay
+# listed for provenance but are counted separately from the open worklist.
+CLOSED_IDENTITY_STATUSES = {
+    'Matched profile', 'Compatible profile linked', 'Excluded from profile creation',
+    'Record only', 'Superseded draft',
+}
+
+
+def closure_status(row):
+    """Whether the row's identity review is closed, regardless of later actions."""
+    if row.get('members'):
+        return 'closed' if all(closure_status(member) == 'closed' for member in row['members']) else 'open'
+    return 'closed' if row['status'] in CLOSED_IDENTITY_STATUSES else 'open'
 
 
 def queue_asset(ext):
@@ -313,7 +326,11 @@ def table_rows(rows):
         search = ' '.join((r['name'], r['assessment'], ' '.join(r['profiles']), review.get('assessment', ''),
                            ' '.join(m['name'] + ' ' + m.get('match_review', {}).get('assessment', m['assessment']) for m in members))).casefold()
         done = 'complete' if r.get('identity_review', {}).get('complete') else 'pending'
-        body.append(f'<tr data-reviewed="{done}" data-status="{escape(r["status"], quote=True)}" data-kind="{escape(r["kind"], quote=True)}" data-match="{escape(review.get("label", ""), quote=True)}" data-search="{escape(search, quote=True)}"><td><a href="{escape(r["url"], quote=True)}">{escape(r["name"])}</a><small>{profiles}</small>{related}</td><td>{escape(status_words(r["status"]))}</td><td>{escape(r["kind"])}</td><td>{match}</td><td>{assessment}<small>{sources}</small></td></tr>')
+        closure = closure_status(r)
+        status = escape(status_words(r['status']))
+        if closure == 'closed':
+            status += '<small>Closed identity review</small>'
+        body.append(f'<tr data-reviewed="{done}" data-closure="{closure}" data-status="{escape(r["status"], quote=True)}" data-kind="{escape(r["kind"], quote=True)}" data-match="{escape(review.get("label", ""), quote=True)}" data-search="{escape(search, quote=True)}"><td><a href="{escape(r["url"], quote=True)}">{escape(r["name"])}</a><small>{profiles}</small>{related}</td><td>{status}</td><td>{escape(r["kind"])}</td><td>{match}</td><td>{assessment}<small>{sources}</small></td></tr>')
     return ''.join(body)
 
 
@@ -325,6 +342,14 @@ def render(rows, progress=None, *, lazy_rows=None, opened=False):
     statuses = sorted({r['status'] for r in rows}); kinds = sorted({r['kind'] for r in rows})
     matches = sorted({r['match_review']['label'] for r in rows if r.get('match_review')})
     options = lambda values: ''.join(f'<option>{escape(v)}</option>' for v in values)
+    open_count = sum(closure_status(r) == 'open' for r in rows)
+    closed_count = len(rows) - open_count
+    open_rows = [r for r in rows if closure_status(r) == 'open']
+    pending = sum(r['kind'] == 'WikiTree amendment' for r in open_rows)
+    drafts = sum(r['status'] == 'New profile suggested' for r in open_rows)
+    studies = sum(r['status'] in {'On hold', 'Draft review', 'Open question'} for r in open_rows)
+    partly = sum(r['status'] == 'Record matches recorded' for r in open_rows)
+    mixed = len(open_rows) - pending - drafts - studies - partly
     progress_html = ''
     review_control = ''
     if progress:
@@ -335,12 +360,18 @@ def render(rows, progress=None, *, lazy_rows=None, opened=False):
                          '<p>Existing-profile matches include explicitly tentative candidates. ' +
                          'A completed identity review does not complete an open study or save a WikiTree amendment.</p>')
         review_control = '<label>Identity review<select id="rq-review"><option value="">All items</option><option value="pending">Needs review</option><option value="complete">Reviewed</option></select></label>'
+    breakdown = ('<p id="rq-breakdown" role="status"><strong>' + str(open_count) + ' open actions</strong> across ' +
+                 str(len(rows)) + ' register entries: ' + str(pending) + ' pending WikiTree saves, ' +
+                 str(drafts) + ' profile drafts, ' + str(studies) + ' evidence or study reviews, ' +
+                 str(partly) + ' partly matched' +
+                 (', ' + str(mixed) + ' mixed grouped reviews' if mixed else '') + '. ' + str(closed_count) +
+                 ' closed identity reviews remain listed for provenance.</p>')
     if lazy_rows:
         tbody = f'<tbody data-rows="{escape(lazy_rows, quote=True)}"></tbody>'
         full = f'<p class="rq-full"><a href="{QUEUE_PAGE}">Open the full worklist as its own page →</a></p>'
     else:
         tbody, full = '<tbody>' + table_rows(rows) + '</tbody>', ''
-    return START + f'<section id="research-queue" class="r-section rq-section"><details class="rq-disclosure"{" open" if opened else ""}><summary><span>Held and pending research</span><small>{len(rows)} record reviews, amendments and open studies</small></summary>{progress_html}<p>One worklist for the maintained research registers. Repeated research notes for one research case are grouped; expand them to see each person’s separate identity assessment. On hold means identity or source checks remain; a draft review still requires a current duplicate check before creation. Profile match records the completed identity check separately from outstanding research. Pending updates have not been saved on WikiTree. Each row links to its full evidence and next steps.</p><p><a href="/research/profile-matches/">Profile matching audit · all 140 original items →</a></p><div class="rq-controls"><label>Search research<input id="rq-query" type="search" placeholder="Person, place, profile or question"></label><label>Status<select id="rq-status"><option value="">All statuses</option>{options(statuses)}</select></label><label>Work type<select id="rq-kind"><option value="">All work</option>{options(kinds)}</select></label><label>Profile match<select id="rq-match"><option value="">All matches</option>{options(matches)}</select></label>{review_control}<button id="rq-clear" type="button">Clear</button></div><p id="rq-count" role="status">{len(rows)} research items</p><div class="rq-table-wrap"><table><thead><tr><th>Person or study</th><th>Status</th><th>Work type</th><th>Profile match</th><th>Assessment and evidence</th></tr></thead>'+tbody+'</table></div>'+full+'</details></section>'+END
+    return START + f'<section id="research-queue" class="r-section rq-section"><details class="rq-disclosure"{" open" if opened else ""}><summary><span>Held and pending research</span><small>{len(rows)} register entries · {open_count} open · {closed_count} closed</small></summary>{progress_html}{breakdown}<p>One worklist for the maintained research registers. Repeated research notes for one research case are grouped; expand them to see each person’s separate identity assessment. Closed identity reviews (matched, linked compatible candidate, excluded, record-only or superseded) remain listed for provenance but are not open research cases. Open actions need a live WikiTree save, a profile-creation decision or a record not yet held. Each row links to its full evidence and next steps.</p><p><a href="/research/profile-matches/">Profile matching audit · all 140 original items →</a></p><div class="rq-controls"><label>Search research<input id="rq-query" type="search" placeholder="Person, place, profile or question"></label><label>Status<select id="rq-status"><option value="">All statuses</option>{options(statuses)}</select></label><label>Work type<select id="rq-kind"><option value="">All work</option>{options(kinds)}</select></label><label>Profile match<select id="rq-match"><option value="">All matches</option>{options(matches)}</select></label><label>Closure<select id="rq-closure"><option value="">All entries</option><option value="open">Open actions</option><option value="closed">Closed identity reviews</option></select></label>{review_control}<button id="rq-clear" type="button">Clear</button></div><p id="rq-count" role="status">{len(rows)} research items · {open_count} open</p><div class="rq-table-wrap"><table><thead><tr><th>Person or study</th><th>Status</th><th>Work type</th><th>Profile match</th><th>Assessment and evidence</th></tr></thead>'+tbody+'</table></div>'+full+'</details></section>'+END
 
 
 def publish_match_audit(web, template):
@@ -410,6 +441,7 @@ def build(web=ROOT / 'www'):
     for route in ('catalogue/index.html', 'catalogue.html'):
         path = web / route
         if not path.exists(): continue
+        open_count = sum(closure_status(row) == 'open' for row in rows)
         page = path.read_text(); section = render(rows, progress, lazy_rows=QUEUE_ROWS)
         if suggestions:
             section = section.replace('<div class="rq-controls">', '<p><a href="#wikitree-new-profiles">Needs updated on WikiTree · ' + str(len(suggestions)) + ' suggested new profiles with complete drafts →</a></p><div class="rq-controls">', 1)
@@ -422,9 +454,9 @@ def build(web=ROOT / 'www'):
         page = page.replace('</head>', '<link rel="stylesheet" href="' + queue_asset('css') + '"></head>')
         page = page.replace('</body>', '<script src="' + queue_asset('js') + '" defer></script></body>')
         if 'id="research-queue-jump"' not in page:
-            page = page.replace('</h1>', f'</h1><p id="research-queue-jump"><a href="/catalogue/#research-queue">Held and pending research · {len(rows)} items →</a></p>', 1)
+            page = page.replace('</h1>', f'</h1><p id="research-queue-jump"><a href="/catalogue/#research-queue">Held and pending research · {open_count} open of {len(rows)} items →</a></p>', 1)
         else:
-            page = re.sub(r'(<p id="research-queue-jump">).*?(</p>)', lambda m:m[1]+f'<a href="/catalogue/#research-queue">Held and pending research · {len(rows)} items →</a>'+m[2], page, flags=re.S)
+            page = re.sub(r'(<p id="research-queue-jump">).*?(</p>)', lambda m:m[1]+f'<a href="/catalogue/#research-queue">Held and pending research · {open_count} open of {len(rows)} items →</a>'+m[2], page, flags=re.S)
         pending = sum(row['kind'] == 'WikiTree amendment' for row in rows)
         page = re.sub(r'(<a\b[^>]*href="\?needsUpdate=1"[^>]*>\s*<strong>[^<]+</strong>\s*<span>)\d+ profiles ranked by significance', lambda m: m[1] + f'{pending} profiles ranked by significance', page)
         path.write_text(page)

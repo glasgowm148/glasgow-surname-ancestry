@@ -4,7 +4,7 @@ import json
 import tempfile
 from pathlib import Path
 from bs4 import BeautifulSoup
-from tools.build_research_queue import collect, render, apply_match_reviews, profile_href, consolidate_record_reviews, apply_batch_progress, new_profile_suggestions, render_new_profiles
+from tools.build_research_queue import collect, render, apply_match_reviews, profile_href, consolidate_record_reviews, apply_batch_progress, new_profile_suggestions, render_new_profiles, closure_status
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -68,7 +68,26 @@ class ResearchQueueTests(unittest.TestCase):
                                              percent_complete=50.0, remaining_items=1)), 'html.parser')
         self.assertIn('1 records need identity review', soup.select_one('#rq-progress').text)
         self.assertEqual('complete', soup.select_one('tbody tr')['data-reviewed'])
+        self.assertEqual('open', soup.select_one('tbody tr')['data-closure'])
+        self.assertIn('1 open', soup.select_one('#rq-count').text)
         self.assertEqual(['', 'pending', 'complete'], [o['value'] for o in soup.select('#rq-review option')])
+        self.assertEqual(['', 'open', 'closed'], [o['value'] for o in soup.select('#rq-closure option')])
+
+    def test_closed_identity_reviews_are_counted_separately(self):
+        def row(ident, status):
+            return dict(id=ident, name=ident, kind='Profile identity', status=status,
+                        assessment='Reviewed.', url='/research/' + ident + '/', profiles=[], sources=[],
+                        identity_review=dict(complete=True))
+        soup = BeautifulSoup(render([row('open', 'On hold'), row('closed', 'Compatible profile linked')]), 'html.parser')
+        self.assertIn('2 research items · 1 open', soup.select_one('#rq-count').text)
+        self.assertEqual(['open', 'closed'], [tr['data-closure'] for tr in soup.select('tbody tr')])
+        self.assertIn('1 closed identity reviews remain listed', soup.select_one('#rq-breakdown').text)
+
+    def test_grouped_review_closes_only_when_every_member_is_closed(self):
+        self.assertEqual('closed', closure_status(dict(status='Draft review', members=[
+            dict(status='Matched profile'), dict(status='Compatible profile linked')])))
+        self.assertEqual('open', closure_status(dict(status='Draft review', members=[
+            dict(status='Matched profile'), dict(status='On hold')])))
 
     def test_new_suggestions_require_real_sourced_drafts_and_exclude_candidates(self):
         with tempfile.TemporaryDirectory() as directory:
