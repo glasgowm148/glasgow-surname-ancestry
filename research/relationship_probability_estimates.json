@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "reviewed": "2026-11-15",
+  "reviewed": "2026-11-16",
   "method": "subjective_evidence_assessment",
   "note": "Individual estimates of belief from the maintained evidence and stated alternatives, not measured frequencies. The confidence categories are guides. Record-specific estimates do not certify an unresolved later identity. Unreviewed contributor marks have no assigned percentage.",
   "estimates": [
@@ -47587,6 +47587,126 @@
       "reviewed": "2026-10-25"
     },
     {
+      "subject_id": "record-ancestry-glasgow-winifred-c-i-narrandera-1901",
+      "relative_id": "Ross-17711",
+      "relationship": "mother",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-01ddf9bb99dd45cd",
+      "basis": "The birth index names William H or William and Rebecca J Glasgow at Narrandera. The family is identified with William Henry Glasgow-851 and Rebecca Jane (Ross) Glasgow-17711, whose daughter Annie Glasgow-850 was born at Narrandera in 1888. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3248499"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "Ross-17711",
+      "relative_id": "record-ancestry-glasgow-winifred-c-i-narrandera-1901",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-01ddf9bb99dd45cd",
+      "basis": "The birth index names William H or William and Rebecca J Glasgow at Narrandera. The family is identified with William Henry Glasgow-851 and Rebecca Jane (Ross) Glasgow-17711, whose daughter Annie Glasgow-850 was born at Narrandera in 1888. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3248499"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-lewis-h-kingston-1866",
+      "relative_id": "record-ancestry-mary-ann-lusted-glasgow-household-20261116",
+      "relationship": "mother",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-0353c76badc247e3",
+      "basis": "The birth index names John E or John Eldeit Glasgow and Mary A or Mary Ann Glasgow in New South Wales. The 1860 Camden marriage of John Eldeit Glasgow and Mary Ann Lusted identifies the parents’ marriage; the shared names, districts and chronology support the family. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568707"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-mary-ann-lusted-glasgow-household-20261116",
+      "relative_id": "record-ancestry-glasgow-lewis-h-kingston-1866",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-0353c76badc247e3",
+      "basis": "The birth index names John E or John Eldeit Glasgow and Mary A or Mary Ann Glasgow in New South Wales. The 1860 Camden marriage of John Eldeit Glasgow and Mary Ann Lusted identifies the parents’ marriage; the shared names, districts and chronology support the family. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568707"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-charles-h-tabulam-1862",
+      "relative_id": "record-ancestry-mary-ann-lusted-glasgow-household-20261116",
+      "relationship": "mother",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-0472b867ce1e47fd",
+      "basis": "The birth index names John E or John Eldeit Glasgow and Mary A or Mary Ann Glasgow in New South Wales. The 1860 Camden marriage of John Eldeit Glasgow and Mary Ann Lusted identifies the parents’ marriage; the shared names, districts and chronology support the family. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568250"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-mary-ann-lusted-glasgow-household-20261116",
+      "relative_id": "record-ancestry-glasgow-charles-h-tabulam-1862",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-0472b867ce1e47fd",
+      "basis": "The birth index names John E or John Eldeit Glasgow and Mary A or Mary Ann Glasgow in New South Wales. The 1860 Camden marriage of John Eldeit Glasgow and Mary Ann Lusted identifies the parents’ marriage; the shared names, districts and chronology support the family. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568250"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-william-c-narrandera-1895",
+      "relative_id": "Glasgow-851",
+      "relationship": "father",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-0598197784c647f6",
+      "basis": "The birth index names William H or William and Rebecca J Glasgow at Narrandera. The family is identified with William Henry Glasgow-851 and Rebecca Jane (Ross) Glasgow-17711, whose daughter Annie Glasgow-850 was born at Narrandera in 1888. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3248498"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "Glasgow-851",
+      "relative_id": "record-ancestry-glasgow-william-c-narrandera-1895",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-0598197784c647f6",
+      "basis": "The birth index names William H or William and Rebecca J Glasgow at Narrandera. The family is identified with William Henry Glasgow-851 and Rebecca Jane (Ross) Glasgow-17711, whose daughter Annie Glasgow-850 was born at Narrandera in 1888. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3248498"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
       "subject_id": "Glasgow-1607",
       "relative_id": "Glasgow-4177",
       "relationship": "father",
@@ -47643,6 +47763,1446 @@
         "previous_parent": "Glasgow-1238",
         "reason": "Owner-approved re-point to the same-parish Edrom James; the Stitchel James is retained as a possible alternative."
       }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-george-edward-nsw-1861",
+      "relative_id": "record-ancestry-john-eldeit-glasgow-household-20261116",
+      "relationship": "father",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-0770fa2f40714d72",
+      "basis": "The birth index names John E or John Eldeit Glasgow and Mary A or Mary Ann Glasgow in New South Wales. The 1860 Camden marriage of John Eldeit Glasgow and Mary Ann Lusted identifies the parents’ marriage; the shared names, districts and chronology support the family. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568697"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-john-eldeit-glasgow-household-20261116",
+      "relative_id": "record-ancestry-glasgow-george-edward-nsw-1861",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-0770fa2f40714d72",
+      "basis": "The birth index names John E or John Eldeit Glasgow and Mary A or Mary Ann Glasgow in New South Wales. The 1860 Camden marriage of John Eldeit Glasgow and Mary Ann Lusted identifies the parents’ marriage; the shared names, districts and chronology support the family. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568697"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-edith-tenterfield-1888",
+      "relative_id": "Glasgow-3264",
+      "relationship": "father",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-0a5e70868c6a4c0b",
+      "basis": "The birth index names James E and Mary Glasgow at Tenterfield. The family is identified with James Edward Glasgow-3264 and Mary Alice (Hill) Glasgow-66969, whose other Tenterfield children include Eva Jane Glasgow-3356 (born 1899) and Alice Mary Glasgow-3263 (born 1904). The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568692"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "Glasgow-3264",
+      "relative_id": "record-ancestry-glasgow-edith-tenterfield-1888",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-0a5e70868c6a4c0b",
+      "basis": "The birth index names James E and Mary Glasgow at Tenterfield. The family is identified with James Edward Glasgow-3264 and Mary Alice (Hill) Glasgow-66969, whose other Tenterfield children include Eva Jane Glasgow-3356 (born 1899) and Alice Mary Glasgow-3263 (born 1904). The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568692"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-alfred-richmond-river-1872",
+      "relative_id": "record-ancestry-mary-ann-lusted-glasgow-household-20261116",
+      "relationship": "mother",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-18046bedfe354c3f",
+      "basis": "The birth index names John E or John Eldeit Glasgow and Mary A or Mary Ann Glasgow in New South Wales. The 1860 Camden marriage of John Eldeit Glasgow and Mary Ann Lusted identifies the parents’ marriage; the shared names, districts and chronology support the family. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568244"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-mary-ann-lusted-glasgow-household-20261116",
+      "relative_id": "record-ancestry-glasgow-alfred-richmond-river-1872",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-18046bedfe354c3f",
+      "basis": "The birth index names John E or John Eldeit Glasgow and Mary A or Mary Ann Glasgow in New South Wales. The 1860 Camden marriage of John Eldeit Glasgow and Mary Ann Lusted identifies the parents’ marriage; the shared names, districts and chronology support the family. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568244"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-loisa-r-narrandera-1890",
+      "relative_id": "Ross-17711",
+      "relationship": "mother",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-1a3b28693cd9479b",
+      "basis": "The birth index names William H or William and Rebecca J Glasgow at Narrandera. The family is identified with William Henry Glasgow-851 and Rebecca Jane (Ross) Glasgow-17711, whose daughter Annie Glasgow-850 was born at Narrandera in 1888. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3248482"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "Ross-17711",
+      "relative_id": "record-ancestry-glasgow-loisa-r-narrandera-1890",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-1a3b28693cd9479b",
+      "basis": "The birth index names William H or William and Rebecca J Glasgow at Narrandera. The family is identified with William Henry Glasgow-851 and Rebecca Jane (Ross) Glasgow-17711, whose daughter Annie Glasgow-850 was born at Narrandera in 1888. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3248482"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-annie-minmi-1889",
+      "relative_id": "record-ancestry-isabella-glasgow-minmi-household-20261116",
+      "relationship": "mother",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-1a7e10f7b4b54ad0",
+      "basis": "The birth index names John Glasgow or John F Glasgow and Isabella Glasgow at Minmi. The repeated names, registration district and chronology identify one household; the parent links are probable, not proved by a single record. No marriage, later life or parentage record is held.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3247836"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-isabella-glasgow-minmi-household-20261116",
+      "relative_id": "record-ancestry-glasgow-annie-minmi-1889",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-1a7e10f7b4b54ad0",
+      "basis": "The birth index names John Glasgow or John F Glasgow and Isabella Glasgow at Minmi. The repeated names, registration district and chronology identify one household; the parent links are probable, not proved by a single record. No marriage, later life or parentage record is held.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3247836"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-aden-c-tenterfield-1896",
+      "relative_id": "Hill-66969",
+      "relationship": "mother",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-1d3521622f684431",
+      "basis": "The birth index names Mary Glasgow at Tenterfield. The identified family's other Tenterfield children share the same parents and district.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3247831"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "Hill-66969",
+      "relative_id": "record-ancestry-glasgow-aden-c-tenterfield-1896",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-1d3521622f684431",
+      "basis": "The birth index names Mary Glasgow at Tenterfield. The identified family's other Tenterfield children share the same parents and district.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3247831"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-john-glasgow-minmi-household-20261116",
+      "relative_id": "record-ancestry-isabella-glasgow-minmi-household-20261116",
+      "relationship": "spouse",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-22c627a99d2f47ab",
+      "basis": "Five Minmi birth registrations name John Glasgow and Isabella Glasgow together as parents; no marriage record is held.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568703"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-isabella-glasgow-minmi-household-20261116",
+      "relative_id": "record-ancestry-john-glasgow-minmi-household-20261116",
+      "relationship": "spouse",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-22c627a99d2f47ab",
+      "basis": "Five Minmi birth registrations name John Glasgow and Isabella Glasgow together as parents; no marriage record is held.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568703"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-william-c-narrandera-1895",
+      "relative_id": "Ross-17711",
+      "relationship": "mother",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-23f912dd8d434bb4",
+      "basis": "The birth index names William H or William and Rebecca J Glasgow at Narrandera. The family is identified with William Henry Glasgow-851 and Rebecca Jane (Ross) Glasgow-17711, whose daughter Annie Glasgow-850 was born at Narrandera in 1888. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3248498"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "Ross-17711",
+      "relative_id": "record-ancestry-glasgow-william-c-narrandera-1895",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-23f912dd8d434bb4",
+      "basis": "The birth index names William H or William and Rebecca J Glasgow at Narrandera. The family is identified with William Henry Glasgow-851 and Rebecca Jane (Ross) Glasgow-17711, whose daughter Annie Glasgow-850 was born at Narrandera in 1888. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3248498"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-mavis-a-tenterfield-1894",
+      "relative_id": "Glasgow-3264",
+      "relationship": "father",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-25bb07812eae43f5",
+      "basis": "The birth index names James E and Mary Glasgow at Tenterfield. The family is identified with James Edward Glasgow-3264 and Mary Alice (Hill) Glasgow-66969, whose other Tenterfield children include Eva Jane Glasgow-3356 (born 1899) and Alice Mary Glasgow-3263 (born 1904). The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3248489"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "Glasgow-3264",
+      "relative_id": "record-ancestry-glasgow-mavis-a-tenterfield-1894",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-25bb07812eae43f5",
+      "basis": "The birth index names James E and Mary Glasgow at Tenterfield. The family is identified with James Edward Glasgow-3264 and Mary Alice (Hill) Glasgow-66969, whose other Tenterfield children include Eva Jane Glasgow-3356 (born 1899) and Alice Mary Glasgow-3263 (born 1904). The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3248489"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-david-minmi-1887",
+      "relative_id": "record-ancestry-isabella-glasgow-minmi-household-20261116",
+      "relationship": "mother",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-28fe71ae8eac4ab2",
+      "basis": "The birth index names John Glasgow or John F Glasgow and Isabella Glasgow at Minmi. The repeated names, registration district and chronology identify one household; the parent links are probable, not proved by a single record. No marriage, later life or parentage record is held.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568251"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-isabella-glasgow-minmi-household-20261116",
+      "relative_id": "record-ancestry-glasgow-david-minmi-1887",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-28fe71ae8eac4ab2",
+      "basis": "The birth index names John Glasgow or John F Glasgow and Isabella Glasgow at Minmi. The repeated names, registration district and chronology identify one household; the parent links are probable, not proved by a single record. No marriage, later life or parentage record is held.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568251"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-john-bowling-sydney-1873",
+      "relative_id": "record-ancestry-elizabeth-jane-macgregor-sydney-1873",
+      "relationship": "spouse",
+      "percent": 99,
+      "assessment_status": "proved",
+      "assertion_id": "clm-2d4c1b8bef064e90",
+      "basis": "The 1873 Sydney marriage index names John Bowling Glasgow and Elizth Jane Macgregor together, registration 374.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1780-1764825"
+      ],
+      "scope": "The record names both parties directly.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-elizabeth-jane-macgregor-sydney-1873",
+      "relative_id": "record-ancestry-glasgow-john-bowling-sydney-1873",
+      "relationship": "spouse",
+      "percent": 99,
+      "assessment_status": "proved",
+      "assertion_id": "clm-2d4c1b8bef064e90",
+      "basis": "The 1873 Sydney marriage index names John Bowling Glasgow and Elizth Jane Macgregor together, registration 374.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1780-1764825"
+      ],
+      "scope": "The record names both parties directly.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-elizabeth-ann-irvine-pan-mure-1884",
+      "relative_id": "Irvine-5845",
+      "relationship": "mother",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-314b6309ed7341d2",
+      "basis": "The birth index names William and Isabella Irvine Glasgow at Panmure. The family is identified with William Glasgow-2144 and Isabella (Irvine) Glasgow-5845, whose daughter Jane Glasgow-2148 was born at Panmure in 1885. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-1112798"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "Irvine-5845",
+      "relative_id": "record-ancestry-glasgow-elizabeth-ann-irvine-pan-mure-1884",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-314b6309ed7341d2",
+      "basis": "The birth index names William and Isabella Irvine Glasgow at Panmure. The family is identified with William Glasgow-2144 and Isabella (Irvine) Glasgow-5845, whose daughter Jane Glasgow-2148 was born at Panmure in 1885. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-1112798"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-william-irvine-pan-mure-1892",
+      "relative_id": "Glasgow-2144",
+      "relationship": "father",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-317bf0eb5174487c",
+      "basis": "The birth index names William and Isabella Irvine Glasgow at Panmure. The family is identified with William Glasgow-2144 and Isabella (Irvine) Glasgow-5845, whose daughter Jane Glasgow-2148 was born at Panmure in 1885. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-1734205"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "Glasgow-2144",
+      "relative_id": "record-ancestry-glasgow-william-irvine-pan-mure-1892",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-317bf0eb5174487c",
+      "basis": "The birth index names William and Isabella Irvine Glasgow at Panmure. The family is identified with William Glasgow-2144 and Isabella (Irvine) Glasgow-5845, whose daughter Jane Glasgow-2148 was born at Panmure in 1885. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-1734205"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-alfred-richmond-river-1872",
+      "relative_id": "record-ancestry-john-eldeit-glasgow-household-20261116",
+      "relationship": "father",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-31b4abc3f341463a",
+      "basis": "The birth index names John E or John Eldeit Glasgow and Mary A or Mary Ann Glasgow in New South Wales. The 1860 Camden marriage of John Eldeit Glasgow and Mary Ann Lusted identifies the parents’ marriage; the shared names, districts and chronology support the family. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568244"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-john-eldeit-glasgow-household-20261116",
+      "relative_id": "record-ancestry-glasgow-alfred-richmond-river-1872",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-31b4abc3f341463a",
+      "basis": "The birth index names John E or John Eldeit Glasgow and Mary A or Mary Ann Glasgow in New South Wales. The 1860 Camden marriage of John Eldeit Glasgow and Mary Ann Lusted identifies the parents’ marriage; the shared names, districts and chronology support the family. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568244"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-mary-minmi-1892",
+      "relative_id": "record-ancestry-john-glasgow-minmi-household-20261116",
+      "relationship": "father",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-3e388d1ee11c4609",
+      "basis": "The birth index names John Glasgow or John F Glasgow and Isabella Glasgow at Minmi. The repeated names, registration district and chronology identify one household; the parent links are probable, not proved by a single record. No marriage, later life or parentage record is held.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3248486"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-john-glasgow-minmi-household-20261116",
+      "relative_id": "record-ancestry-glasgow-mary-minmi-1892",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-3e388d1ee11c4609",
+      "basis": "The birth index names John Glasgow or John F Glasgow and Isabella Glasgow at Minmi. The repeated names, registration district and chronology identify one household; the parent links are probable, not proved by a single record. No marriage, later life or parentage record is held.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3248486"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-madoline-f-casino-1892",
+      "relative_id": "record-ancestry-mabel-f-c-glasgow-casino-20261116",
+      "relationship": "mother",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-3f7ccb355dd14467",
+      "basis": "The birth index names Lewis H Glasgow and Mabel F C Glasgow at Casino. The shared names, district and chronology identify one household; the parent links are probable, not proved by a single record. Lewis H Glasgow is probably the 1866 Kingston-born son of John Eldeit Glasgow and Mary Ann Lusted. No marriage or later-life record is held.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3248483"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-mabel-f-c-glasgow-casino-20261116",
+      "relative_id": "record-ancestry-glasgow-madoline-f-casino-1892",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-3f7ccb355dd14467",
+      "basis": "The birth index names Lewis H Glasgow and Mabel F C Glasgow at Casino. The shared names, district and chronology identify one household; the parent links are probable, not proved by a single record. Lewis H Glasgow is probably the 1866 Kingston-born son of John Eldeit Glasgow and Mary Ann Lusted. No marriage or later-life record is held.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3248483"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-aden-c-tenterfield-1896",
+      "relative_id": "Glasgow-3264",
+      "relationship": "father",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-4049c9ee1de94853",
+      "basis": "The birth index names James E Glasgow at Tenterfield. The identified family's other Tenterfield children share the same parents and district.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3247831"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "Glasgow-3264",
+      "relative_id": "record-ancestry-glasgow-aden-c-tenterfield-1896",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-4049c9ee1de94853",
+      "basis": "The birth index names James E Glasgow at Tenterfield. The identified family's other Tenterfield children share the same parents and district.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3247831"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-elen-m-narrandera-1886",
+      "relative_id": "Glasgow-851",
+      "relationship": "father",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-429ddee63dea4824",
+      "basis": "The birth index names William H or William and Rebecca J Glasgow at Narrandera. The family is identified with William Henry Glasgow-851 and Rebecca Jane (Ross) Glasgow-17711, whose daughter Annie Glasgow-850 was born at Narrandera in 1888. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568693"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "Glasgow-851",
+      "relative_id": "record-ancestry-glasgow-elen-m-narrandera-1886",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-429ddee63dea4824",
+      "basis": "The birth index names William H or William and Rebecca J Glasgow at Narrandera. The family is identified with William Henry Glasgow-851 and Rebecca Jane (Ross) Glasgow-17711, whose daughter Annie Glasgow-850 was born at Narrandera in 1888. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568693"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-ernest-bowling-sydney-1879",
+      "relative_id": "record-ancestry-elizabeth-jane-macgregor-sydney-1873",
+      "relationship": "mother",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-4d5e882c383648e9",
+      "basis": "The birth index names John Bowling or John B Glasgow and Elizabeth Jane Glasgow at Sydney. The 1873 Sydney marriage of John Bowling Glasgow and Elizth Jane Macgregor identifies the parents' marriage; the shared names, district and chronology support the family. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568694"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-elizabeth-jane-macgregor-sydney-1873",
+      "relative_id": "record-ancestry-glasgow-ernest-bowling-sydney-1879",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-4d5e882c383648e9",
+      "basis": "The birth index names John Bowling or John B Glasgow and Elizabeth Jane Glasgow at Sydney. The 1873 Sydney marriage of John Bowling Glasgow and Elizth Jane Macgregor identifies the parents' marriage; the shared names, district and chronology support the family. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568694"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-annie-margaret-pan-mure-1887",
+      "relative_id": "Glasgow-2144",
+      "relationship": "father",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-4e57465e2d32459b",
+      "basis": "The birth index names William and Isabella Irvine Glasgow at Panmure. The family is identified with William Glasgow-2144 and Isabella (Irvine) Glasgow-5845, whose daughter Jane Glasgow-2148 was born at Panmure in 1885. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-1112794"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "Glasgow-2144",
+      "relative_id": "record-ancestry-glasgow-annie-margaret-pan-mure-1887",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-4e57465e2d32459b",
+      "basis": "The birth index names William and Isabella Irvine Glasgow at Panmure. The family is identified with William Glasgow-2144 and Isabella (Irvine) Glasgow-5845, whose daughter Jane Glasgow-2148 was born at Panmure in 1885. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-1112794"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-john-pan-mure-1894",
+      "relative_id": "Irvine-5845",
+      "relationship": "mother",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-4e90e1b40e654cab",
+      "basis": "The birth index names William and Isabella Irvine Glasgow at Panmure. The family is identified with William Glasgow-2144 and Isabella (Irvine) Glasgow-5845, whose daughter Jane Glasgow-2148 was born at Panmure in 1885. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-1734200"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "Irvine-5845",
+      "relative_id": "record-ancestry-glasgow-john-pan-mure-1894",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-4e90e1b40e654cab",
+      "basis": "The birth index names William and Isabella Irvine Glasgow at Panmure. The family is identified with William Glasgow-2144 and Isabella (Irvine) Glasgow-5845, whose daughter Jane Glasgow-2148 was born at Panmure in 1885. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-1734200"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-eva-e-sydney-1886",
+      "relative_id": "record-ancestry-glasgow-john-bowling-sydney-1873",
+      "relationship": "father",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-5300cc98807244c1",
+      "basis": "The birth index names John Bowling or John B Glasgow and Elizabeth Jane Glasgow at Sydney. The 1873 Sydney marriage of John Bowling Glasgow and Elizth Jane Macgregor identifies the parents' marriage; the shared names, district and chronology support the family. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568695"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-john-bowling-sydney-1873",
+      "relative_id": "record-ancestry-glasgow-eva-e-sydney-1886",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-5300cc98807244c1",
+      "basis": "The birth index names John Bowling or John B Glasgow and Elizabeth Jane Glasgow at Sydney. The 1873 Sydney marriage of John Bowling Glasgow and Elizth Jane Macgregor identifies the parents' marriage; the shared names, district and chronology support the family. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568695"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-eva-e-sydney-1886",
+      "relative_id": "record-ancestry-elizabeth-jane-macgregor-sydney-1873",
+      "relationship": "mother",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-53cc8304758e441f",
+      "basis": "The birth index names John Bowling or John B Glasgow and Elizabeth Jane Glasgow at Sydney. The 1873 Sydney marriage of John Bowling Glasgow and Elizth Jane Macgregor identifies the parents' marriage; the shared names, district and chronology support the family. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568695"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-elizabeth-jane-macgregor-sydney-1873",
+      "relative_id": "record-ancestry-glasgow-eva-e-sydney-1886",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-53cc8304758e441f",
+      "basis": "The birth index names John Bowling or John B Glasgow and Elizabeth Jane Glasgow at Sydney. The 1873 Sydney marriage of John Bowling Glasgow and Elizth Jane Macgregor identifies the parents' marriage; the shared names, district and chronology support the family. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568695"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-ernest-c-tenterfield-1889",
+      "relative_id": "Hill-66969",
+      "relationship": "mother",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-53d5159b65df4767",
+      "basis": "The birth index names James E and Mary Glasgow at Tenterfield. The family is identified with James Edward Glasgow-3264 and Mary Alice (Hill) Glasgow-66969, whose other Tenterfield children include Eva Jane Glasgow-3356 (born 1899) and Alice Mary Glasgow-3263 (born 1904). The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3247850"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "Hill-66969",
+      "relative_id": "record-ancestry-glasgow-ernest-c-tenterfield-1889",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-53d5159b65df4767",
+      "basis": "The birth index names James E and Mary Glasgow at Tenterfield. The family is identified with James Edward Glasgow-3264 and Mary Alice (Hill) Glasgow-66969, whose other Tenterfield children include Eva Jane Glasgow-3356 (born 1899) and Alice Mary Glasgow-3263 (born 1904). The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3247850"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-norman-h-narrandera-1898",
+      "relative_id": "Glasgow-851",
+      "relationship": "father",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-5547f9c7f5c048af",
+      "basis": "The birth index names William H or William and Rebecca J Glasgow at Narrandera. The family is identified with William Henry Glasgow-851 and Rebecca Jane (Ross) Glasgow-17711, whose daughter Annie Glasgow-850 was born at Narrandera in 1888. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3248490"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "Glasgow-851",
+      "relative_id": "record-ancestry-glasgow-norman-h-narrandera-1898",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-5547f9c7f5c048af",
+      "basis": "The birth index names William H or William and Rebecca J Glasgow at Narrandera. The family is identified with William Henry Glasgow-851 and Rebecca Jane (Ross) Glasgow-17711, whose daughter Annie Glasgow-850 was born at Narrandera in 1888. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3248490"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-john-william-sydney-1877",
+      "relative_id": "record-ancestry-elizabeth-jane-macgregor-sydney-1873",
+      "relationship": "mother",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-5626826e578745bd",
+      "basis": "The birth index names John Bowling or John B Glasgow and Elizabeth Jane Glasgow at Sydney. The 1873 Sydney marriage of John Bowling Glasgow and Elizth Jane Macgregor identifies the parents' marriage; the shared names, district and chronology support the family. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568705"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-elizabeth-jane-macgregor-sydney-1873",
+      "relative_id": "record-ancestry-glasgow-john-william-sydney-1877",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-5626826e578745bd",
+      "basis": "The birth index names John Bowling or John B Glasgow and Elizabeth Jane Glasgow at Sydney. The 1873 Sydney marriage of John Bowling Glasgow and Elizth Jane Macgregor identifies the parents' marriage; the shared names, district and chronology support the family. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568705"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-blanche-ellen-sydney-1874",
+      "relative_id": "record-ancestry-elizabeth-jane-macgregor-sydney-1873",
+      "relationship": "mother",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-58d0fe6e7151422c",
+      "basis": "The birth index names John Bowling or John B Glasgow and Elizabeth Jane Glasgow at Sydney. The 1873 Sydney marriage of John Bowling Glasgow and Elizth Jane Macgregor identifies the parents' marriage; the shared names, district and chronology support the family. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568249"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-elizabeth-jane-macgregor-sydney-1873",
+      "relative_id": "record-ancestry-glasgow-blanche-ellen-sydney-1874",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-58d0fe6e7151422c",
+      "basis": "The birth index names John Bowling or John B Glasgow and Elizabeth Jane Glasgow at Sydney. The 1873 Sydney marriage of John Bowling Glasgow and Elizth Jane Macgregor identifies the parents' marriage; the shared names, district and chronology support the family. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568249"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-william-irvine-pan-mure-1892",
+      "relative_id": "Irvine-5845",
+      "relationship": "mother",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-5bf8e9315585472c",
+      "basis": "The birth index names William and Isabella Irvine Glasgow at Panmure. The family is identified with William Glasgow-2144 and Isabella (Irvine) Glasgow-5845, whose daughter Jane Glasgow-2148 was born at Panmure in 1885. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-1734205"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "Irvine-5845",
+      "relative_id": "record-ancestry-glasgow-william-irvine-pan-mure-1892",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-5bf8e9315585472c",
+      "basis": "The birth index names William and Isabella Irvine Glasgow at Panmure. The family is identified with William Glasgow-2144 and Isabella (Irvine) Glasgow-5845, whose daughter Jane Glasgow-2148 was born at Panmure in 1885. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-1734205"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-ruth-m-narrandera-1893",
+      "relative_id": "Glasgow-851",
+      "relationship": "father",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-5cff6fc3cf644796",
+      "basis": "The birth index names William H or William and Rebecca J Glasgow at Narrandera. The family is identified with William Henry Glasgow-851 and Rebecca Jane (Ross) Glasgow-17711, whose daughter Annie Glasgow-850 was born at Narrandera in 1888. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3248494"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "Glasgow-851",
+      "relative_id": "record-ancestry-glasgow-ruth-m-narrandera-1893",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-5cff6fc3cf644796",
+      "basis": "The birth index names William H or William and Rebecca J Glasgow at Narrandera. The family is identified with William Henry Glasgow-851 and Rebecca Jane (Ross) Glasgow-17711, whose daughter Annie Glasgow-850 was born at Narrandera in 1888. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3248494"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-catherine-minmi-1894",
+      "relative_id": "record-ancestry-john-glasgow-minmi-household-20261116",
+      "relationship": "father",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-5de774025b1e4369",
+      "basis": "The birth index names John Glasgow or John F Glasgow and Isabella Glasgow at Minmi. The repeated names, registration district and chronology identify one household; the parent links are probable, not proved by a single record. No marriage, later life or parentage record is held.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3247839"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-john-glasgow-minmi-household-20261116",
+      "relative_id": "record-ancestry-glasgow-catherine-minmi-1894",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-5de774025b1e4369",
+      "basis": "The birth index names John Glasgow or John F Glasgow and Isabella Glasgow at Minmi. The repeated names, registration district and chronology identify one household; the parent links are probable, not proved by a single record. No marriage, later life or parentage record is held.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3247839"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-colin-casino-1894",
+      "relative_id": "record-ancestry-mabel-f-c-glasgow-casino-20261116",
+      "relationship": "mother",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-5f8f0a3bb3714041",
+      "basis": "The birth index names Lewis H Glasgow and Mabel F C Glasgow at Casino. The shared names, district and chronology identify one household; the parent links are probable, not proved by a single record. Lewis H Glasgow is probably the 1866 Kingston-born son of John Eldeit Glasgow and Mary Ann Lusted. No marriage or later-life record is held.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3247840"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-mabel-f-c-glasgow-casino-20261116",
+      "relative_id": "record-ancestry-glasgow-colin-casino-1894",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-5f8f0a3bb3714041",
+      "basis": "The birth index names Lewis H Glasgow and Mabel F C Glasgow at Casino. The shared names, district and chronology identify one household; the parent links are probable, not proved by a single record. Lewis H Glasgow is probably the 1866 Kingston-born son of John Eldeit Glasgow and Mary Ann Lusted. No marriage or later-life record is held.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3247840"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-annie-richmond-river-1874",
+      "relative_id": "record-ancestry-mary-ann-lusted-glasgow-household-20261116",
+      "relationship": "mother",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-61c22cf21df74d56",
+      "basis": "The birth index names John E or John Eldeit Glasgow and Mary A or Mary Ann Glasgow in New South Wales. The 1860 Camden marriage of John Eldeit Glasgow and Mary Ann Lusted identifies the parents’ marriage; the shared names, districts and chronology support the family. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568246"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-mary-ann-lusted-glasgow-household-20261116",
+      "relative_id": "record-ancestry-glasgow-annie-richmond-river-1874",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-61c22cf21df74d56",
+      "basis": "The birth index names John E or John Eldeit Glasgow and Mary A or Mary Ann Glasgow in New South Wales. The 1860 Camden marriage of John Eldeit Glasgow and Mary Ann Lusted identifies the parents’ marriage; the shared names, districts and chronology support the family. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568246"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-alexander-james-sydney-1882",
+      "relative_id": "record-ancestry-elizabeth-jane-macgregor-sydney-1873",
+      "relationship": "mother",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-65123b3a78af4354",
+      "basis": "The birth index names John Bowling or John B Glasgow and Elizabeth Jane Glasgow at Sydney. The 1873 Sydney marriage of John Bowling Glasgow and Elizth Jane Macgregor identifies the parents' marriage; the shared names, district and chronology support the family. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568243"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-elizabeth-jane-macgregor-sydney-1873",
+      "relative_id": "record-ancestry-glasgow-alexander-james-sydney-1882",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-65123b3a78af4354",
+      "basis": "The birth index names John Bowling or John B Glasgow and Elizabeth Jane Glasgow at Sydney. The 1873 Sydney marriage of John Bowling Glasgow and Elizth Jane Macgregor identifies the parents' marriage; the shared names, district and chronology support the family. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568243"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-annie-minmi-1889",
+      "relative_id": "record-ancestry-john-glasgow-minmi-household-20261116",
+      "relationship": "father",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-6870b9db13924ee2",
+      "basis": "The birth index names John Glasgow or John F Glasgow and Isabella Glasgow at Minmi. The repeated names, registration district and chronology identify one household; the parent links are probable, not proved by a single record. No marriage, later life or parentage record is held.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3247836"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-john-glasgow-minmi-household-20261116",
+      "relative_id": "record-ancestry-glasgow-annie-minmi-1889",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-6870b9db13924ee2",
+      "basis": "The birth index names John Glasgow or John F Glasgow and Isabella Glasgow at Minmi. The repeated names, registration district and chronology identify one household; the parent links are probable, not proved by a single record. No marriage, later life or parentage record is held.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3247836"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-edina-b-tenterfield-1892",
+      "relative_id": "Glasgow-3264",
+      "relationship": "father",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-6b0304fecd08481f",
+      "basis": "The birth index names James E and Mary Glasgow at Tenterfield. The family is identified with James Edward Glasgow-3264 and Mary Alice (Hill) Glasgow-66969, whose other Tenterfield children include Eva Jane Glasgow-3356 (born 1899) and Alice Mary Glasgow-3263 (born 1904). The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3247845"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "Glasgow-3264",
+      "relative_id": "record-ancestry-glasgow-edina-b-tenterfield-1892",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-6b0304fecd08481f",
+      "basis": "The birth index names James E and Mary Glasgow at Tenterfield. The family is identified with James Edward Glasgow-3264 and Mary Alice (Hill) Glasgow-66969, whose other Tenterfield children include Eva Jane Glasgow-3356 (born 1899) and Alice Mary Glasgow-3263 (born 1904). The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3247845"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-alice-berrima-1868",
+      "relative_id": "record-ancestry-mary-ann-lusted-glasgow-household-20261116",
+      "relationship": "mother",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-6d07eb9d9bd54291",
+      "basis": "The birth index names John E or John Eldeit Glasgow and Mary A or Mary Ann Glasgow in New South Wales. The 1860 Camden marriage of John Eldeit Glasgow and Mary Ann Lusted identifies the parents’ marriage; the shared names, districts and chronology support the family. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568245"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-mary-ann-lusted-glasgow-household-20261116",
+      "relative_id": "record-ancestry-glasgow-alice-berrima-1868",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-6d07eb9d9bd54291",
+      "basis": "The birth index names John E or John Eldeit Glasgow and Mary A or Mary Ann Glasgow in New South Wales. The 1860 Camden marriage of John Eldeit Glasgow and Mary Ann Lusted identifies the parents’ marriage; the shared names, districts and chronology support the family. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568245"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-karl-f-s-narrandera-1883",
+      "relative_id": "Glasgow-851",
+      "relationship": "father",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-73ecf38ed4d843f6",
+      "basis": "The birth index names William H or William and Rebecca J Glasgow at Narrandera. The family is identified with William Henry Glasgow-851 and Rebecca Jane (Ross) Glasgow-17711, whose daughter Annie Glasgow-850 was born at Narrandera in 1888. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568706"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "Glasgow-851",
+      "relative_id": "record-ancestry-glasgow-karl-f-s-narrandera-1883",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-73ecf38ed4d843f6",
+      "basis": "The birth index names William H or William and Rebecca J Glasgow at Narrandera. The family is identified with William Henry Glasgow-851 and Rebecca Jane (Ross) Glasgow-17711, whose daughter Annie Glasgow-850 was born at Narrandera in 1888. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568706"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-winifred-c-i-narrandera-1901",
+      "relative_id": "Glasgow-851",
+      "relationship": "father",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-750e1e979baf4ac8",
+      "basis": "The birth index names William H or William and Rebecca J Glasgow at Narrandera. The family is identified with William Henry Glasgow-851 and Rebecca Jane (Ross) Glasgow-17711, whose daughter Annie Glasgow-850 was born at Narrandera in 1888. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3248499"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "Glasgow-851",
+      "relative_id": "record-ancestry-glasgow-winifred-c-i-narrandera-1901",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-750e1e979baf4ac8",
+      "basis": "The birth index names William H or William and Rebecca J Glasgow at Narrandera. The family is identified with William Henry Glasgow-851 and Rebecca Jane (Ross) Glasgow-17711, whose daughter Annie Glasgow-850 was born at Narrandera in 1888. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3248499"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-annie-margaret-pan-mure-1887",
+      "relative_id": "Irvine-5845",
+      "relationship": "mother",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-774d2996d6164187",
+      "basis": "The birth index names William and Isabella Irvine Glasgow at Panmure. The family is identified with William Glasgow-2144 and Isabella (Irvine) Glasgow-5845, whose daughter Jane Glasgow-2148 was born at Panmure in 1885. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-1112794"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "Irvine-5845",
+      "relative_id": "record-ancestry-glasgow-annie-margaret-pan-mure-1887",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-774d2996d6164187",
+      "basis": "The birth index names William and Isabella Irvine Glasgow at Panmure. The family is identified with William Glasgow-2144 and Isabella (Irvine) Glasgow-5845, whose daughter Jane Glasgow-2148 was born at Panmure in 1885. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-1112794"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-catherine-minmi-1894",
+      "relative_id": "record-ancestry-isabella-glasgow-minmi-household-20261116",
+      "relationship": "mother",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-78a6a4dc9de344ac",
+      "basis": "The birth index names John Glasgow or John F Glasgow and Isabella Glasgow at Minmi. The repeated names, registration district and chronology identify one household; the parent links are probable, not proved by a single record. No marriage, later life or parentage record is held.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3247839"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-isabella-glasgow-minmi-household-20261116",
+      "relative_id": "record-ancestry-glasgow-catherine-minmi-1894",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-78a6a4dc9de344ac",
+      "basis": "The birth index names John Glasgow or John F Glasgow and Isabella Glasgow at Minmi. The repeated names, registration district and chronology identify one household; the parent links are probable, not proved by a single record. No marriage, later life or parentage record is held.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3247839"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-edina-b-tenterfield-1892",
+      "relative_id": "Hill-66969",
+      "relationship": "mother",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-7fa6978537e74765",
+      "basis": "The birth index names James E and Mary Glasgow at Tenterfield. The family is identified with James Edward Glasgow-3264 and Mary Alice (Hill) Glasgow-66969, whose other Tenterfield children include Eva Jane Glasgow-3356 (born 1899) and Alice Mary Glasgow-3263 (born 1904). The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3247845"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "Hill-66969",
+      "relative_id": "record-ancestry-glasgow-edina-b-tenterfield-1892",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-7fa6978537e74765",
+      "basis": "The birth index names James E and Mary Glasgow at Tenterfield. The family is identified with James Edward Glasgow-3264 and Mary Alice (Hill) Glasgow-66969, whose other Tenterfield children include Eva Jane Glasgow-3356 (born 1899) and Alice Mary Glasgow-3263 (born 1904). The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3247845"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-mary-minmi-1892",
+      "relative_id": "record-ancestry-isabella-glasgow-minmi-household-20261116",
+      "relationship": "mother",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-8ad8846f7ad84fc8",
+      "basis": "The birth index names John Glasgow or John F Glasgow and Isabella Glasgow at Minmi. The repeated names, registration district and chronology identify one household; the parent links are probable, not proved by a single record. No marriage, later life or parentage record is held.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3248486"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-isabella-glasgow-minmi-household-20261116",
+      "relative_id": "record-ancestry-glasgow-mary-minmi-1892",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-8ad8846f7ad84fc8",
+      "basis": "The birth index names John Glasgow or John F Glasgow and Isabella Glasgow at Minmi. The repeated names, registration district and chronology identify one household; the parent links are probable, not proved by a single record. No marriage, later life or parentage record is held.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3248486"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-annie-richmond-river-1874",
+      "relative_id": "record-ancestry-john-eldeit-glasgow-household-20261116",
+      "relationship": "father",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-8fb99a32a2574bf2",
+      "basis": "The birth index names John E or John Eldeit Glasgow and Mary A or Mary Ann Glasgow in New South Wales. The 1860 Camden marriage of John Eldeit Glasgow and Mary Ann Lusted identifies the parents’ marriage; the shared names, districts and chronology support the family. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568246"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-john-eldeit-glasgow-household-20261116",
+      "relative_id": "record-ancestry-glasgow-annie-richmond-river-1874",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-8fb99a32a2574bf2",
+      "basis": "The birth index names John E or John Eldeit Glasgow and Mary A or Mary Ann Glasgow in New South Wales. The 1860 Camden marriage of John Eldeit Glasgow and Mary Ann Lusted identifies the parents’ marriage; the shared names, districts and chronology support the family. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568246"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-blanche-ellen-sydney-1874",
+      "relative_id": "record-ancestry-glasgow-john-bowling-sydney-1873",
+      "relationship": "father",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-92328167e55343a5",
+      "basis": "The birth index names John Bowling or John B Glasgow and Elizabeth Jane Glasgow at Sydney. The 1873 Sydney marriage of John Bowling Glasgow and Elizth Jane Macgregor identifies the parents' marriage; the shared names, district and chronology support the family. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568249"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-john-bowling-sydney-1873",
+      "relative_id": "record-ancestry-glasgow-blanche-ellen-sydney-1874",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-92328167e55343a5",
+      "basis": "The birth index names John Bowling or John B Glasgow and Elizabeth Jane Glasgow at Sydney. The 1873 Sydney marriage of John Bowling Glasgow and Elizth Jane Macgregor identifies the parents' marriage; the shared names, district and chronology support the family. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568249"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-lewis-h-kingston-1866",
+      "relative_id": "record-ancestry-mabel-f-c-glasgow-casino-20261116",
+      "relationship": "spouse",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-92a263fb5f9b433a",
+      "basis": "Three Casino birth registrations name Lewis H Glasgow and Mabel F C Glasgow together as parents; no marriage record is held.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3248483"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-mabel-f-c-glasgow-casino-20261116",
+      "relative_id": "record-ancestry-glasgow-lewis-h-kingston-1866",
+      "relationship": "spouse",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-92a263fb5f9b433a",
+      "basis": "Three Casino birth registrations name Lewis H Glasgow and Mabel F C Glasgow together as parents; no marriage record is held.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3248483"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-alice-berrima-1868",
+      "relative_id": "record-ancestry-john-eldeit-glasgow-household-20261116",
+      "relationship": "father",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-95d75b695de54a8d",
+      "basis": "The birth index names John E or John Eldeit Glasgow and Mary A or Mary Ann Glasgow in New South Wales. The 1860 Camden marriage of John Eldeit Glasgow and Mary Ann Lusted identifies the parents’ marriage; the shared names, districts and chronology support the family. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568245"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-john-eldeit-glasgow-household-20261116",
+      "relative_id": "record-ancestry-glasgow-alice-berrima-1868",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-95d75b695de54a8d",
+      "basis": "The birth index names John E or John Eldeit Glasgow and Mary A or Mary Ann Glasgow in New South Wales. The 1860 Camden marriage of John Eldeit Glasgow and Mary Ann Lusted identifies the parents’ marriage; the shared names, districts and chronology support the family. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568245"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-john-minmi-1882",
+      "relative_id": "record-ancestry-john-glasgow-minmi-household-20261116",
+      "relationship": "father",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-9a5876d0c7244e07",
+      "basis": "The birth index names John Glasgow or John F Glasgow and Isabella Glasgow at Minmi. The repeated names, registration district and chronology identify one household; the parent links are probable, not proved by a single record. No marriage, later life or parentage record is held.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568703"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-john-glasgow-minmi-household-20261116",
+      "relative_id": "record-ancestry-glasgow-john-minmi-1882",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-9a5876d0c7244e07",
+      "basis": "The birth index names John Glasgow or John F Glasgow and Isabella Glasgow at Minmi. The repeated names, registration district and chronology identify one household; the parent links are probable, not proved by a single record. No marriage, later life or parentage record is held.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568703"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-john-eldeit-glasgow-household-20261116",
+      "relative_id": "record-ancestry-mary-ann-lusted-glasgow-household-20261116",
+      "relationship": "spouse",
+      "percent": 99,
+      "assessment_status": "proved",
+      "assertion_id": "clm-a07b042299c24e58",
+      "basis": "The 1860 Camden marriage index names John Eldeit Glasgow and Mary Ann Lusted together, registration 1443.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1780-1764828"
+      ],
+      "scope": "The record names both parties directly.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-mary-ann-lusted-glasgow-household-20261116",
+      "relative_id": "record-ancestry-john-eldeit-glasgow-household-20261116",
+      "relationship": "spouse",
+      "percent": 99,
+      "assessment_status": "proved",
+      "assertion_id": "clm-a07b042299c24e58",
+      "basis": "The 1860 Camden marriage index names John Eldeit Glasgow and Mary Ann Lusted together, registration 1443.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1780-1764828"
+      ],
+      "scope": "The record names both parties directly.",
+      "allow_new_relationship": true
     },
     {
       "subject_id": "Glasgow-3220",
@@ -48675,6 +50235,96 @@
         "record-ancestry-glasgow-william-barrackpore-1825": "William Glasgow",
         "record-father-william-glasgow-bengal-amelia": "William Glasgow (Bengal, wife Amelia)"
       }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-colin-casino-1894",
+      "relative_id": "record-ancestry-glasgow-lewis-h-kingston-1866",
+      "relationship": "father",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-a6db6d5e59de4583",
+      "basis": "The birth index names Lewis H Glasgow and Mabel F C Glasgow at Casino. The shared names, district and chronology identify one household; the parent links are probable, not proved by a single record. Lewis H Glasgow is probably the 1866 Kingston-born son of John Eldeit Glasgow and Mary Ann Lusted. No marriage or later-life record is held.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3247840"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-lewis-h-kingston-1866",
+      "relative_id": "record-ancestry-glasgow-colin-casino-1894",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-a6db6d5e59de4583",
+      "basis": "The birth index names Lewis H Glasgow and Mabel F C Glasgow at Casino. The shared names, district and chronology identify one household; the parent links are probable, not proved by a single record. Lewis H Glasgow is probably the 1866 Kingston-born son of John Eldeit Glasgow and Mary Ann Lusted. No marriage or later-life record is held.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3247840"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-mavis-a-tenterfield-1894",
+      "relative_id": "Hill-66969",
+      "relationship": "mother",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-a7b1f4ebf3184cea",
+      "basis": "The birth index names James E and Mary Glasgow at Tenterfield. The family is identified with James Edward Glasgow-3264 and Mary Alice (Hill) Glasgow-66969, whose other Tenterfield children include Eva Jane Glasgow-3356 (born 1899) and Alice Mary Glasgow-3263 (born 1904). The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3248489"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "Hill-66969",
+      "relative_id": "record-ancestry-glasgow-mavis-a-tenterfield-1894",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-a7b1f4ebf3184cea",
+      "basis": "The birth index names James E and Mary Glasgow at Tenterfield. The family is identified with James Edward Glasgow-3264 and Mary Alice (Hill) Glasgow-66969, whose other Tenterfield children include Eva Jane Glasgow-3356 (born 1899) and Alice Mary Glasgow-3263 (born 1904). The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3248489"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-karl-f-s-narrandera-1883",
+      "relative_id": "Ross-17711",
+      "relationship": "mother",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-aa56de3423c54c03",
+      "basis": "The birth index names William H or William and Rebecca J Glasgow at Narrandera. The family is identified with William Henry Glasgow-851 and Rebecca Jane (Ross) Glasgow-17711, whose daughter Annie Glasgow-850 was born at Narrandera in 1888. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568706"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "Ross-17711",
+      "relative_id": "record-ancestry-glasgow-karl-f-s-narrandera-1883",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-aa56de3423c54c03",
+      "basis": "The birth index names William H or William and Rebecca J Glasgow at Narrandera. The family is identified with William Henry Glasgow-851 and Rebecca Jane (Ross) Glasgow-17711, whose daughter Annie Glasgow-850 was born at Narrandera in 1888. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568706"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
     },
     {
       "subject_id": "Glasgow-818",
@@ -49961,6 +51611,66 @@
       }
     },
     {
+      "subject_id": "record-ancestry-glasgow-john-william-sydney-1877",
+      "relative_id": "record-ancestry-glasgow-john-bowling-sydney-1873",
+      "relationship": "father",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-b732519c597a4462",
+      "basis": "The birth index names John Bowling or John B Glasgow and Elizabeth Jane Glasgow at Sydney. The 1873 Sydney marriage of John Bowling Glasgow and Elizth Jane Macgregor identifies the parents' marriage; the shared names, district and chronology support the family. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568705"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-john-bowling-sydney-1873",
+      "relative_id": "record-ancestry-glasgow-john-william-sydney-1877",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-b732519c597a4462",
+      "basis": "The birth index names John Bowling or John B Glasgow and Elizabeth Jane Glasgow at Sydney. The 1873 Sydney marriage of John Bowling Glasgow and Elizth Jane Macgregor identifies the parents' marriage; the shared names, district and chronology support the family. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568705"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-edith-tenterfield-1888",
+      "relative_id": "Hill-66969",
+      "relationship": "mother",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-b759e56c16b64f2d",
+      "basis": "The birth index names James E and Mary Glasgow at Tenterfield. The family is identified with James Edward Glasgow-3264 and Mary Alice (Hill) Glasgow-66969, whose other Tenterfield children include Eva Jane Glasgow-3356 (born 1899) and Alice Mary Glasgow-3263 (born 1904). The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568692"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "Hill-66969",
+      "relative_id": "record-ancestry-glasgow-edith-tenterfield-1888",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-b759e56c16b64f2d",
+      "basis": "The birth index names James E and Mary Glasgow at Tenterfield. The family is identified with James Edward Glasgow-3264 and Mary Alice (Hill) Glasgow-66969, whose other Tenterfield children include Eva Jane Glasgow-3356 (born 1899) and Alice Mary Glasgow-3263 (born 1904). The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568692"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
       "subject_id": "record-father-william-glasgow-bengal-amelia",
       "relative_id": "record-queue-newspapers-irish-1800-1850-george-senior-artillery",
       "relationship": "father",
@@ -50019,6 +51729,36 @@
         "record-father-william-glasgow-bengal-amelia": "William Glasgow, Bengal William-and-Amelia household",
         "record-queue-newspapers-irish-1800-1850-george-senior-artillery": "General George Glasgow"
       }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-loisa-r-narrandera-1890",
+      "relative_id": "Glasgow-851",
+      "relationship": "father",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-bf3b6137ff4449f6",
+      "basis": "The birth index names William H or William and Rebecca J Glasgow at Narrandera. The family is identified with William Henry Glasgow-851 and Rebecca Jane (Ross) Glasgow-17711, whose daughter Annie Glasgow-850 was born at Narrandera in 1888. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3248482"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "Glasgow-851",
+      "relative_id": "record-ancestry-glasgow-loisa-r-narrandera-1890",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-bf3b6137ff4449f6",
+      "basis": "The birth index names William H or William and Rebecca J Glasgow at Narrandera. The family is identified with William Henry Glasgow-851 and Rebecca Jane (Ross) Glasgow-17711, whose daughter Annie Glasgow-850 was born at Narrandera in 1888. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3248482"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
     },
     {
       "subject_id": "record-ancestry-glasgow-70ca776967ba",
@@ -100605,6 +102345,36 @@
       }
     },
     {
+      "subject_id": "record-ancestry-glasgow-george-edward-nsw-1861",
+      "relative_id": "record-ancestry-mary-ann-lusted-glasgow-household-20261116",
+      "relationship": "mother",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-d15b03b2340f4d90",
+      "basis": "The birth index names John E or John Eldeit Glasgow and Mary A or Mary Ann Glasgow in New South Wales. The 1860 Camden marriage of John Eldeit Glasgow and Mary Ann Lusted identifies the parents’ marriage; the shared names, districts and chronology support the family. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568697"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-mary-ann-lusted-glasgow-household-20261116",
+      "relative_id": "record-ancestry-glasgow-george-edward-nsw-1861",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-d15b03b2340f4d90",
+      "basis": "The birth index names John E or John Eldeit Glasgow and Mary A or Mary Ann Glasgow in New South Wales. The 1860 Camden marriage of John Eldeit Glasgow and Mary Ann Lusted identifies the parents’ marriage; the shared names, districts and chronology support the family. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568697"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
       "subject_id": "Glasgow-3126",
       "relative_id": "Glasgow-822",
       "relationship": "father",
@@ -102503,6 +104273,126 @@
       }
     },
     {
+      "subject_id": "record-ancestry-glasgow-emily-h-tenterfield-1901",
+      "relative_id": "Hill-66969",
+      "relationship": "mother",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-d55301ac013e4e30",
+      "basis": "The birth index names James E and Mary Glasgow at Tenterfield. The family is identified with James Edward Glasgow-3264 and Mary Alice (Hill) Glasgow-66969, whose other Tenterfield children include Eva Jane Glasgow-3356 (born 1899) and Alice Mary Glasgow-3263 (born 1904). The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3247848"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "Hill-66969",
+      "relative_id": "record-ancestry-glasgow-emily-h-tenterfield-1901",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-d55301ac013e4e30",
+      "basis": "The birth index names James E and Mary Glasgow at Tenterfield. The family is identified with James Edward Glasgow-3264 and Mary Alice (Hill) Glasgow-66969, whose other Tenterfield children include Eva Jane Glasgow-3356 (born 1899) and Alice Mary Glasgow-3263 (born 1904). The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3247848"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-mary-c-casino-1896",
+      "relative_id": "record-ancestry-mabel-f-c-glasgow-casino-20261116",
+      "relationship": "mother",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-d7ba33ff4a1343ef",
+      "basis": "The birth index names Lewis H Glasgow and Mabel F C Glasgow at Casino. The shared names, district and chronology identify one household; the parent links are probable, not proved by a single record. Lewis H Glasgow is probably the 1866 Kingston-born son of John Eldeit Glasgow and Mary Ann Lusted. No marriage or later-life record is held.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3248487"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-mabel-f-c-glasgow-casino-20261116",
+      "relative_id": "record-ancestry-glasgow-mary-c-casino-1896",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-d7ba33ff4a1343ef",
+      "basis": "The birth index names Lewis H Glasgow and Mabel F C Glasgow at Casino. The shared names, district and chronology identify one household; the parent links are probable, not proved by a single record. Lewis H Glasgow is probably the 1866 Kingston-born son of John Eldeit Glasgow and Mary Ann Lusted. No marriage or later-life record is held.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3248487"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-ernest-c-tenterfield-1889",
+      "relative_id": "Glasgow-3264",
+      "relationship": "father",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-d92126778cb8445c",
+      "basis": "The birth index names James E and Mary Glasgow at Tenterfield. The family is identified with James Edward Glasgow-3264 and Mary Alice (Hill) Glasgow-66969, whose other Tenterfield children include Eva Jane Glasgow-3356 (born 1899) and Alice Mary Glasgow-3263 (born 1904). The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3247850"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "Glasgow-3264",
+      "relative_id": "record-ancestry-glasgow-ernest-c-tenterfield-1889",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-d92126778cb8445c",
+      "basis": "The birth index names James E and Mary Glasgow at Tenterfield. The family is identified with James Edward Glasgow-3264 and Mary Alice (Hill) Glasgow-66969, whose other Tenterfield children include Eva Jane Glasgow-3356 (born 1899) and Alice Mary Glasgow-3263 (born 1904). The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3247850"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-mary-c-casino-1896",
+      "relative_id": "record-ancestry-glasgow-lewis-h-kingston-1866",
+      "relationship": "father",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-d9b0593d60eb4330",
+      "basis": "The birth index names Lewis H Glasgow and Mabel F C Glasgow at Casino. The shared names, district and chronology identify one household; the parent links are probable, not proved by a single record. Lewis H Glasgow is probably the 1866 Kingston-born son of John Eldeit Glasgow and Mary Ann Lusted. No marriage or later-life record is held.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3248487"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-lewis-h-kingston-1866",
+      "relative_id": "record-ancestry-glasgow-mary-c-casino-1896",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-d9b0593d60eb4330",
+      "basis": "The birth index names Lewis H Glasgow and Mabel F C Glasgow at Casino. The shared names, district and chronology identify one household; the parent links are probable, not proved by a single record. Lewis H Glasgow is probably the 1866 Kingston-born son of John Eldeit Glasgow and Mary Ann Lusted. No marriage or later-life record is held.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3248487"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
       "subject_id": "Glasgow-2356",
       "relative_id": "Pierce-14470",
       "relationship": "mother",
@@ -102561,6 +104451,186 @@
         "Glasgow-2356": "Robert Finley Glasgow",
         "Pierce-14470": "Mary J. (Pierce) Glasgow"
       }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-ernest-bowling-sydney-1879",
+      "relative_id": "record-ancestry-glasgow-john-bowling-sydney-1873",
+      "relationship": "father",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-da7fa67b75514c19",
+      "basis": "The birth index names John Bowling or John B Glasgow and Elizabeth Jane Glasgow at Sydney. The 1873 Sydney marriage of John Bowling Glasgow and Elizth Jane Macgregor identifies the parents' marriage; the shared names, district and chronology support the family. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568694"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-john-bowling-sydney-1873",
+      "relative_id": "record-ancestry-glasgow-ernest-bowling-sydney-1879",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-da7fa67b75514c19",
+      "basis": "The birth index names John Bowling or John B Glasgow and Elizabeth Jane Glasgow at Sydney. The 1873 Sydney marriage of John Bowling Glasgow and Elizth Jane Macgregor identifies the parents' marriage; the shared names, district and chronology support the family. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568694"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-john-minmi-1882",
+      "relative_id": "record-ancestry-isabella-glasgow-minmi-household-20261116",
+      "relationship": "mother",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-defff16b4c5b4b29",
+      "basis": "The birth index names John Glasgow or John F Glasgow and Isabella Glasgow at Minmi. The repeated names, registration district and chronology identify one household; the parent links are probable, not proved by a single record. No marriage, later life or parentage record is held.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568703"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-isabella-glasgow-minmi-household-20261116",
+      "relative_id": "record-ancestry-glasgow-john-minmi-1882",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-defff16b4c5b4b29",
+      "basis": "The birth index names John Glasgow or John F Glasgow and Isabella Glasgow at Minmi. The repeated names, registration district and chronology identify one household; the parent links are probable, not proved by a single record. No marriage, later life or parentage record is held.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568703"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-charles-h-tabulam-1862",
+      "relative_id": "record-ancestry-john-eldeit-glasgow-household-20261116",
+      "relationship": "father",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-df8936ec38fc443a",
+      "basis": "The birth index names John E or John Eldeit Glasgow and Mary A or Mary Ann Glasgow in New South Wales. The 1860 Camden marriage of John Eldeit Glasgow and Mary Ann Lusted identifies the parents’ marriage; the shared names, districts and chronology support the family. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568250"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-john-eldeit-glasgow-household-20261116",
+      "relative_id": "record-ancestry-glasgow-charles-h-tabulam-1862",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-df8936ec38fc443a",
+      "basis": "The birth index names John E or John Eldeit Glasgow and Mary A or Mary Ann Glasgow in New South Wales. The 1860 Camden marriage of John Eldeit Glasgow and Mary Ann Lusted identifies the parents’ marriage; the shared names, districts and chronology support the family. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568250"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-alexander-james-sydney-1882",
+      "relative_id": "record-ancestry-glasgow-john-bowling-sydney-1873",
+      "relationship": "father",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-e081280fe78a4ff6",
+      "basis": "The birth index names John Bowling or John B Glasgow and Elizabeth Jane Glasgow at Sydney. The 1873 Sydney marriage of John Bowling Glasgow and Elizth Jane Macgregor identifies the parents' marriage; the shared names, district and chronology support the family. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568243"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-john-bowling-sydney-1873",
+      "relative_id": "record-ancestry-glasgow-alexander-james-sydney-1882",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-e081280fe78a4ff6",
+      "basis": "The birth index names John Bowling or John B Glasgow and Elizabeth Jane Glasgow at Sydney. The 1873 Sydney marriage of John Bowling Glasgow and Elizth Jane Macgregor identifies the parents' marriage; the shared names, district and chronology support the family. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568243"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-david-minmi-1887",
+      "relative_id": "record-ancestry-john-glasgow-minmi-household-20261116",
+      "relationship": "father",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-e563bb3456b4474b",
+      "basis": "The birth index names John Glasgow or John F Glasgow and Isabella Glasgow at Minmi. The repeated names, registration district and chronology identify one household; the parent links are probable, not proved by a single record. No marriage, later life or parentage record is held.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568251"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-john-glasgow-minmi-household-20261116",
+      "relative_id": "record-ancestry-glasgow-david-minmi-1887",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-e563bb3456b4474b",
+      "basis": "The birth index names John Glasgow or John F Glasgow and Isabella Glasgow at Minmi. The repeated names, registration district and chronology identify one household; the parent links are probable, not proved by a single record. No marriage, later life or parentage record is held.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568251"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-elen-m-narrandera-1886",
+      "relative_id": "Ross-17711",
+      "relationship": "mother",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-ea3d4cacfd3b4362",
+      "basis": "The birth index names William H or William and Rebecca J Glasgow at Narrandera. The family is identified with William Henry Glasgow-851 and Rebecca Jane (Ross) Glasgow-17711, whose daughter Annie Glasgow-850 was born at Narrandera in 1888. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568693"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "Ross-17711",
+      "relative_id": "record-ancestry-glasgow-elen-m-narrandera-1886",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-ea3d4cacfd3b4362",
+      "basis": "The birth index names William H or William and Rebecca J Glasgow at Narrandera. The family is identified with William Henry Glasgow-851 and Rebecca Jane (Ross) Glasgow-17711, whose daughter Annie Glasgow-850 was born at Narrandera in 1888. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568693"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
     },
     {
       "subject_id": "Glasgow-4124",
@@ -102765,6 +104835,66 @@
         "record-ancestry-glasgow-d71b0ae3f539": "Edward George Glasgow, Emily Caroline household",
         "record-queue-newspapers-irish-1800-1850-george-senior-artillery": "General George Glasgow"
       }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-ruth-m-narrandera-1893",
+      "relative_id": "Ross-17711",
+      "relationship": "mother",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-ee39467df2174ec3",
+      "basis": "The birth index names William H or William and Rebecca J Glasgow at Narrandera. The family is identified with William Henry Glasgow-851 and Rebecca Jane (Ross) Glasgow-17711, whose daughter Annie Glasgow-850 was born at Narrandera in 1888. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3248494"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "Ross-17711",
+      "relative_id": "record-ancestry-glasgow-ruth-m-narrandera-1893",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-ee39467df2174ec3",
+      "basis": "The birth index names William H or William and Rebecca J Glasgow at Narrandera. The family is identified with William Henry Glasgow-851 and Rebecca Jane (Ross) Glasgow-17711, whose daughter Annie Glasgow-850 was born at Narrandera in 1888. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3248494"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-madoline-f-casino-1892",
+      "relative_id": "record-ancestry-glasgow-lewis-h-kingston-1866",
+      "relationship": "father",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-ef46ab60169b4617",
+      "basis": "The birth index names Lewis H Glasgow and Mabel F C Glasgow at Casino. The shared names, district and chronology identify one household; the parent links are probable, not proved by a single record. Lewis H Glasgow is probably the 1866 Kingston-born son of John Eldeit Glasgow and Mary Ann Lusted. No marriage or later-life record is held.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3248483"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-lewis-h-kingston-1866",
+      "relative_id": "record-ancestry-glasgow-madoline-f-casino-1892",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-ef46ab60169b4617",
+      "basis": "The birth index names Lewis H Glasgow and Mabel F C Glasgow at Casino. The shared names, district and chronology identify one household; the parent links are probable, not proved by a single record. Lewis H Glasgow is probably the 1866 Kingston-born son of John Eldeit Glasgow and Mary Ann Lusted. No marriage or later-life record is held.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3248483"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
     },
     {
       "subject_id": "record-anne-glasgow-elphinstone-1840",
@@ -113083,6 +115213,126 @@
       }
     },
     {
+      "subject_id": "record-ancestry-glasgow-norman-h-narrandera-1898",
+      "relative_id": "Ross-17711",
+      "relationship": "mother",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-f2e303c9d7134379",
+      "basis": "The birth index names William H or William and Rebecca J Glasgow at Narrandera. The family is identified with William Henry Glasgow-851 and Rebecca Jane (Ross) Glasgow-17711, whose daughter Annie Glasgow-850 was born at Narrandera in 1888. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3248490"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "Ross-17711",
+      "relative_id": "record-ancestry-glasgow-norman-h-narrandera-1898",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-f2e303c9d7134379",
+      "basis": "The birth index names William H or William and Rebecca J Glasgow at Narrandera. The family is identified with William Henry Glasgow-851 and Rebecca Jane (Ross) Glasgow-17711, whose daughter Annie Glasgow-850 was born at Narrandera in 1888. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3248490"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-john-pan-mure-1894",
+      "relative_id": "Glasgow-2144",
+      "relationship": "father",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-f30ed4d90a164ee6",
+      "basis": "The birth index names William and Isabella Irvine Glasgow at Panmure. The family is identified with William Glasgow-2144 and Isabella (Irvine) Glasgow-5845, whose daughter Jane Glasgow-2148 was born at Panmure in 1885. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-1734200"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "Glasgow-2144",
+      "relative_id": "record-ancestry-glasgow-john-pan-mure-1894",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-f30ed4d90a164ee6",
+      "basis": "The birth index names William and Isabella Irvine Glasgow at Panmure. The family is identified with William Glasgow-2144 and Isabella (Irvine) Glasgow-5845, whose daughter Jane Glasgow-2148 was born at Panmure in 1885. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-1734200"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-lewis-h-kingston-1866",
+      "relative_id": "record-ancestry-john-eldeit-glasgow-household-20261116",
+      "relationship": "father",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-f97855c594c840c7",
+      "basis": "The birth index names John E or John Eldeit Glasgow and Mary A or Mary Ann Glasgow in New South Wales. The 1860 Camden marriage of John Eldeit Glasgow and Mary Ann Lusted identifies the parents’ marriage; the shared names, districts and chronology support the family. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568707"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-john-eldeit-glasgow-household-20261116",
+      "relative_id": "record-ancestry-glasgow-lewis-h-kingston-1866",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-f97855c594c840c7",
+      "basis": "The birth index names John E or John Eldeit Glasgow and Mary A or Mary Ann Glasgow in New South Wales. The 1860 Camden marriage of John Eldeit Glasgow and Mary Ann Lusted identifies the parents’ marriage; the shared names, districts and chronology support the family. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-2568707"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-elizabeth-ann-irvine-pan-mure-1884",
+      "relative_id": "Glasgow-2144",
+      "relationship": "father",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-f980b775dfbd4316",
+      "basis": "The birth index names William and Isabella Irvine Glasgow at Panmure. The family is identified with William Glasgow-2144 and Isabella (Irvine) Glasgow-5845, whose daughter Jane Glasgow-2148 was born at Panmure in 1885. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-1112798"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "Glasgow-2144",
+      "relative_id": "record-ancestry-glasgow-elizabeth-ann-irvine-pan-mure-1884",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-f980b775dfbd4316",
+      "basis": "The birth index names William and Isabella Irvine Glasgow at Panmure. The family is identified with William Glasgow-2144 and Isabella (Irvine) Glasgow-5845, whose daughter Jane Glasgow-2148 was born at Panmure in 1885. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-1112798"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
       "subject_id": "Glasgow-3087",
       "relative_id": "Glasgow-1604",
       "relationship": "father",
@@ -116177,6 +118427,658 @@
       }
     },
     {
+      "subject_id": "Glasco-173",
+      "relative_id": "Glasgow-1241",
+      "relationship": "father",
+      "percent": 38,
+      "assessment_status": "possible",
+      "assertion_id": "clm-fa2-glasco-173-father-20261116",
+      "basis": "Thomas Glasco (Glasco-173, b. before 1742, Dublin) has no named father. Philip Glasgow (Glasgow-1241, b. 1711, Uphall, West Lothian) is a tentative candidate: a supported 1750 Dublin Courant marriage places Philip in the subject's Dublin birth locality about eight years after the birth, his son Philip has a dated child of compatible age, and the naming (Philip's own father is Thomas, matching the subject's given name) fits the Scottish grandparent-name pattern. The age gap is bounded at most 31 years.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "uphaul-philip-thomas-child-1711",
+        "dublin-elder-philip-death-1772"
+      ],
+      "scope": "Thomas's exact birth year is bounded, not exact, and the 1750 marriage is eight years after the birth. No record names Philip as Thomas's father, and a Dublin Philip of this period could be a distinct man from the Uphall-born Philip.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasco-173.html#research-findings",
+          "label": "Father-link inference (FA2, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasco-173": "Thomas Glasco",
+        "Glasgow-1241": "Philip Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-1241",
+      "relative_id": "Glasco-173",
+      "relationship": "child",
+      "percent": 38,
+      "assessment_status": "possible",
+      "assertion_id": "clm-fa2-glasco-173-father-20261116",
+      "basis": "Thomas Glasco (Glasco-173, b. before 1742, Dublin) has no named father. Philip Glasgow (Glasgow-1241, b. 1711, Uphall, West Lothian) is a tentative candidate: a supported 1750 Dublin Courant marriage places Philip in the subject's Dublin birth locality about eight years after the birth, his son Philip has a dated child of compatible age, and the naming (Philip's own father is Thomas, matching the subject's given name) fits the Scottish grandparent-name pattern. The age gap is bounded at most 31 years.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "uphaul-philip-thomas-child-1711",
+        "dublin-elder-philip-death-1772"
+      ],
+      "scope": "Thomas's exact birth year is bounded, not exact, and the 1750 marriage is eight years after the birth. No record names Philip as Thomas's father, and a Dublin Philip of this period could be a distinct man from the Uphall-born Philip.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasco-173.html#research-findings",
+          "label": "Father-link inference (FA2, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasco-173": "Thomas Glasco",
+        "Glasgow-1241": "Philip Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-1041",
+      "relative_id": "Glasgow-563",
+      "relationship": "father",
+      "percent": 32,
+      "assessment_status": "uncertain",
+      "assertion_id": "clm-fa2-glasgow-1041-father-20261116",
+      "basis": "Jesse Lemuel Glasgow (Glasgow-1041, b. 1815, Virginia) has no named father. William Glasgow (Glasgow-563, b. 1778) of Rockbridge, Virginia, with wife Rhoda Neely (Montgomery) Glasgow, is a tentative candidate: their dated children span about 1803–1822 and Jesse's 1815 birth fits within it, a first son named William Monroe (the candidate's own forename) fills the expected patronymic position, and three known-position naming matches support the placement.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "held-reported-scott-household-1850",
+        "faris-william-rhoda-bible-family-1990"
+      ],
+      "scope": "Only broad Virginia locality overlap; no record ties Jesse to William and Rhoda. The couple's children are reconstructed, and other Glasgow men in Virginia are not excluded.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-1041.html#research-findings",
+          "label": "Father-link inference (FA2, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1041": "Jesse Lemuel Glasgow",
+        "Glasgow-563": "William Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-563",
+      "relative_id": "Glasgow-1041",
+      "relationship": "child",
+      "percent": 32,
+      "assessment_status": "uncertain",
+      "assertion_id": "clm-fa2-glasgow-1041-father-20261116",
+      "basis": "Jesse Lemuel Glasgow (Glasgow-1041, b. 1815, Virginia) has no named father. William Glasgow (Glasgow-563, b. 1778) of Rockbridge, Virginia, with wife Rhoda Neely (Montgomery) Glasgow, is a tentative candidate: their dated children span about 1803–1822 and Jesse's 1815 birth fits within it, a first son named William Monroe (the candidate's own forename) fills the expected patronymic position, and three known-position naming matches support the placement.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "held-reported-scott-household-1850",
+        "faris-william-rhoda-bible-family-1990"
+      ],
+      "scope": "Only broad Virginia locality overlap; no record ties Jesse to William and Rhoda. The couple's children are reconstructed, and other Glasgow men in Virginia are not excluded.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-1041.html#research-findings",
+          "label": "Father-link inference (FA2, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1041": "Jesse Lemuel Glasgow",
+        "Glasgow-563": "William Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-143",
+      "relative_id": "Glascow-14",
+      "relationship": "father",
+      "percent": 38,
+      "assessment_status": "possible",
+      "assertion_id": "clm-fa2-glasgow-143-father-20261116",
+      "basis": "Lovey Glasgow (Glasgow-143, b. 1814, North Carolina) has no named father. Isaac Wesley (Glascow) Glasgow (Glascow-14, b. 1786) of Currituck, with wife Dosha (Cannady) Glasgow, is a tentative candidate: the same-couple children William Cooper (1813) and Elijah Hawking (1815) bracket Lovey's 1814 birth in the same locality, and Dosha's maternal age (about 22) is plausible.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "currituck-william-glasgow-will-1805",
+        "isaac-glasgow-obituary-1848"
+      ],
+      "scope": "Strong household-placement, but no record names Lovey's father, and the locality is broad North Carolina. The bracketing children's attribution to Isaac and Dosha is itself reconstructed.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-143.html#research-findings",
+          "label": "Father-link inference (FA2, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glascow-14": "Isaac Wesley (Glascow) Glasgow",
+        "Glasgow-143": "Lovey Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glascow-14",
+      "relative_id": "Glasgow-143",
+      "relationship": "child",
+      "percent": 38,
+      "assessment_status": "possible",
+      "assertion_id": "clm-fa2-glasgow-143-father-20261116",
+      "basis": "Lovey Glasgow (Glasgow-143, b. 1814, North Carolina) has no named father. Isaac Wesley (Glascow) Glasgow (Glascow-14, b. 1786) of Currituck, with wife Dosha (Cannady) Glasgow, is a tentative candidate: the same-couple children William Cooper (1813) and Elijah Hawking (1815) bracket Lovey's 1814 birth in the same locality, and Dosha's maternal age (about 22) is plausible.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "currituck-william-glasgow-will-1805",
+        "isaac-glasgow-obituary-1848"
+      ],
+      "scope": "Strong household-placement, but no record names Lovey's father, and the locality is broad North Carolina. The bracketing children's attribution to Isaac and Dosha is itself reconstructed.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-143.html#research-findings",
+          "label": "Father-link inference (FA2, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glascow-14": "Isaac Wesley (Glascow) Glasgow",
+        "Glasgow-143": "Lovey Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-1594",
+      "relative_id": "Glasgow-1538",
+      "relationship": "father",
+      "percent": 34,
+      "assessment_status": "uncertain",
+      "assertion_id": "clm-fa2-glasgow-1594-father-20261116",
+      "basis": "Robert Glasgow (Glasgow-1594, b. 1829, Lanarkshire) has no named father. Robert Glasgow (Glasgow-1538, b. 1784) of Glasgow, with wife Janet (Gilmour) Glasgow, is a tentative candidate: the birth fits his dated children (about 1821–1832) with a plausible maternal age (35), and the shared given name Robert (also the first dated son's name) is the expected patronymic position.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-9841-7689981",
+        "wandell-robert-james-marion-1760"
+      ],
+      "scope": "Only broad Lanarkshire locality overlap, and the 45-year age gap sits at the upper bound. No record names Robert as the father; other Lanarkshire Glasgow men are not excluded.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-1594.html#research-findings",
+          "label": "Father-link inference (FA2, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1538": "Robert Glasgow",
+        "Glasgow-1594": "Robert Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-1538",
+      "relative_id": "Glasgow-1594",
+      "relationship": "child",
+      "percent": 34,
+      "assessment_status": "uncertain",
+      "assertion_id": "clm-fa2-glasgow-1594-father-20261116",
+      "basis": "Robert Glasgow (Glasgow-1594, b. 1829, Lanarkshire) has no named father. Robert Glasgow (Glasgow-1538, b. 1784) of Glasgow, with wife Janet (Gilmour) Glasgow, is a tentative candidate: the birth fits his dated children (about 1821–1832) with a plausible maternal age (35), and the shared given name Robert (also the first dated son's name) is the expected patronymic position.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-9841-7689981",
+        "wandell-robert-james-marion-1760"
+      ],
+      "scope": "Only broad Lanarkshire locality overlap, and the 45-year age gap sits at the upper bound. No record names Robert as the father; other Lanarkshire Glasgow men are not excluded.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-1594.html#research-findings",
+          "label": "Father-link inference (FA2, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1538": "Robert Glasgow",
+        "Glasgow-1594": "Robert Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-170",
+      "relative_id": "Glasgow-4010",
+      "relationship": "father",
+      "percent": 31,
+      "assessment_status": "uncertain",
+      "assertion_id": "clm-fa2-glasgow-170-father-20261116",
+      "basis": "Thomas Glasgow (Glasgow-170, b. 1835, Ontario) has no named father. Samuel Glasgow (Glasgow-4010, b. 1801) of Prescott, Ontario is a tentative candidate: the 1851 census records Samuel (storekeeper, age next birthday 51, married) in the subject's locality, and a known child was born within six years of Thomas.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-8946-2108340",
+        "prescott-father-tradition"
+      ],
+      "scope": "The census places Samuel in the same district but does not name Thomas as his son; the maternal age for the known spouse Mary E. is at the low end. No direct record of the father.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-170.html#research-findings",
+          "label": "Father-link inference (FA2, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-170": "Thomas Glasgow",
+        "Glasgow-4010": "Samuel Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-4010",
+      "relative_id": "Glasgow-170",
+      "relationship": "child",
+      "percent": 31,
+      "assessment_status": "uncertain",
+      "assertion_id": "clm-fa2-glasgow-170-father-20261116",
+      "basis": "Thomas Glasgow (Glasgow-170, b. 1835, Ontario) has no named father. Samuel Glasgow (Glasgow-4010, b. 1801) of Prescott, Ontario is a tentative candidate: the 1851 census records Samuel (storekeeper, age next birthday 51, married) in the subject's locality, and a known child was born within six years of Thomas.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-8946-2108340",
+        "prescott-father-tradition"
+      ],
+      "scope": "The census places Samuel in the same district but does not name Thomas as his son; the maternal age for the known spouse Mary E. is at the low end. No direct record of the father.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-170.html#research-findings",
+          "label": "Father-link inference (FA2, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-170": "Thomas Glasgow",
+        "Glasgow-4010": "Samuel Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-1985",
+      "relative_id": "Glasgow-209",
+      "relationship": "father",
+      "percent": 34,
+      "assessment_status": "uncertain",
+      "assertion_id": "clm-fa2-glasgow-1985-father-20261116",
+      "basis": "John Glasgow (Glasgow-1985, b. 1820, Pennsylvania) has no named father. John Glasgow (Glasgow-209, b. 1780) with wife Peninnah (Thomas) Glasgow is a tentative candidate: the birth fits their dated children (about 1807–1821) with a late-but-plausible maternal age (42), and the shared given name John fills the expected first-son position.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "held-e-f0fe7f969e32",
+        "held-e-0cad51964207"
+      ],
+      "scope": "Only broad Pennsylvania locality overlap, and no record names John's father; the 42-year maternal age is at the upper bound.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-1985.html#research-findings",
+          "label": "Father-link inference (FA2, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1985": "John Glasgow",
+        "Glasgow-209": "John Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-209",
+      "relative_id": "Glasgow-1985",
+      "relationship": "child",
+      "percent": 34,
+      "assessment_status": "uncertain",
+      "assertion_id": "clm-fa2-glasgow-1985-father-20261116",
+      "basis": "John Glasgow (Glasgow-1985, b. 1820, Pennsylvania) has no named father. John Glasgow (Glasgow-209, b. 1780) with wife Peninnah (Thomas) Glasgow is a tentative candidate: the birth fits their dated children (about 1807–1821) with a late-but-plausible maternal age (42), and the shared given name John fills the expected first-son position.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "held-e-f0fe7f969e32",
+        "held-e-0cad51964207"
+      ],
+      "scope": "Only broad Pennsylvania locality overlap, and no record names John's father; the 42-year maternal age is at the upper bound.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-1985.html#research-findings",
+          "label": "Father-link inference (FA2, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1985": "John Glasgow",
+        "Glasgow-209": "John Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-2089",
+      "relative_id": "Glasgow-2439",
+      "relationship": "father",
+      "percent": 45,
+      "assessment_status": "possible",
+      "assertion_id": "clm-fa2-glasgow-2089-father-20261116",
+      "basis": "James W Glasgow (Glasgow-2089, b. 1821, South Carolina) has no named father. James Glasgow (Glasgow-2439, b. 1789) of South Carolina, with wife Sarah Glasgow, is the best tentative candidate: a known child Archibald C. Glasgow was born about four years from James in the same locality, the shared given name James recurs, and Sarah's maternal age (about 27) is plausible.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "held-e-7797f0e6c7c9"
+      ],
+      "scope": "No record names James W's father. Other South Carolina candidates Glasgow-803 (James Thomas Glasgow) and Glasgow-1145 (Absolom Glasgow) are also age/locality-compatible and are not fully ruled out, so this is a working best-fit placement, not a proof.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-2089.html#research-findings",
+          "label": "Father-link inference (FA2, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-2089": "James W Glasgow",
+        "Glasgow-2439": "James Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-2439",
+      "relative_id": "Glasgow-2089",
+      "relationship": "child",
+      "percent": 45,
+      "assessment_status": "possible",
+      "assertion_id": "clm-fa2-glasgow-2089-father-20261116",
+      "basis": "James W Glasgow (Glasgow-2089, b. 1821, South Carolina) has no named father. James Glasgow (Glasgow-2439, b. 1789) of South Carolina, with wife Sarah Glasgow, is the best tentative candidate: a known child Archibald C. Glasgow was born about four years from James in the same locality, the shared given name James recurs, and Sarah's maternal age (about 27) is plausible.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "held-e-7797f0e6c7c9"
+      ],
+      "scope": "No record names James W's father. Other South Carolina candidates Glasgow-803 (James Thomas Glasgow) and Glasgow-1145 (Absolom Glasgow) are also age/locality-compatible and are not fully ruled out, so this is a working best-fit placement, not a proof.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-2089.html#research-findings",
+          "label": "Father-link inference (FA2, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-2089": "James W Glasgow",
+        "Glasgow-2439": "James Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-2100",
+      "relative_id": "Glasgow-2439",
+      "relationship": "father",
+      "percent": 35,
+      "assessment_status": "uncertain",
+      "assertion_id": "clm-fa2-glasgow-2100-father-20261116",
+      "basis": "Nancy (Glasgow) Campbell (Glasgow-2100, b. 1816, South Carolina) has no named father. James Glasgow (Glasgow-2439, b. 1789) of South Carolina is a tentative candidate: a known child Archibald C. Glasgow was born one year from Nancy in the same locality, and Sarah Glasgow's maternal age (about 22) is plausible.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "held-e-7797f0e6c7c9"
+      ],
+      "scope": "No record names Nancy's father; the locality is broad, and Glasgow-803 is another compatible candidate not ruled out.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-2100.html#research-findings",
+          "label": "Father-link inference (FA2, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-2100": "Nancy (Glasgow) Campbell",
+        "Glasgow-2439": "James Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-2439",
+      "relative_id": "Glasgow-2100",
+      "relationship": "child",
+      "percent": 35,
+      "assessment_status": "uncertain",
+      "assertion_id": "clm-fa2-glasgow-2100-father-20261116",
+      "basis": "Nancy (Glasgow) Campbell (Glasgow-2100, b. 1816, South Carolina) has no named father. James Glasgow (Glasgow-2439, b. 1789) of South Carolina is a tentative candidate: a known child Archibald C. Glasgow was born one year from Nancy in the same locality, and Sarah Glasgow's maternal age (about 22) is plausible.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "held-e-7797f0e6c7c9"
+      ],
+      "scope": "No record names Nancy's father; the locality is broad, and Glasgow-803 is another compatible candidate not ruled out.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-2100.html#research-findings",
+          "label": "Father-link inference (FA2, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-2100": "Nancy (Glasgow) Campbell",
+        "Glasgow-2439": "James Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-2168",
+      "relative_id": "Glasgow-2304",
+      "relationship": "father",
+      "percent": 40,
+      "assessment_status": "possible",
+      "assertion_id": "clm-fa2-glasgow-2168-father-20261116",
+      "basis": "Elizabeth Ann (Glasgow) Samford (Glasgow-2168, b. 1795, South Carolina) has no named father. Archibald Glasgow (Glasgow-2304, b. 1769) of Newberry District is a tentative candidate: the 1800 census heads Archibald's household with a child of the right age in the subject's locality, and a known son Robert was born within five years.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "newberry-archald-census-1810",
+        "held-newberry-james-will-1775-1793"
+      ],
+      "scope": "The 1800 census is a head-of-household count without names, so it cannot identify Elizabeth Ann as a daughter; no record names her father.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-2168.html#research-findings",
+          "label": "Father-link inference (FA2, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-2168": "Elizabeth Ann (Glasgow) Samford",
+        "Glasgow-2304": "Archibald Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-2304",
+      "relative_id": "Glasgow-2168",
+      "relationship": "child",
+      "percent": 40,
+      "assessment_status": "possible",
+      "assertion_id": "clm-fa2-glasgow-2168-father-20261116",
+      "basis": "Elizabeth Ann (Glasgow) Samford (Glasgow-2168, b. 1795, South Carolina) has no named father. Archibald Glasgow (Glasgow-2304, b. 1769) of Newberry District is a tentative candidate: the 1800 census heads Archibald's household with a child of the right age in the subject's locality, and a known son Robert was born within five years.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "newberry-archald-census-1810",
+        "held-newberry-james-will-1775-1793"
+      ],
+      "scope": "The 1800 census is a head-of-household count without names, so it cannot identify Elizabeth Ann as a daughter; no record names her father.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-2168.html#research-findings",
+          "label": "Father-link inference (FA2, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-2168": "Elizabeth Ann (Glasgow) Samford",
+        "Glasgow-2304": "Archibald Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-2277",
+      "relative_id": "Glasgow-2074",
+      "relationship": "father",
+      "percent": 32,
+      "assessment_status": "uncertain",
+      "assertion_id": "clm-fa2-glasgow-2277-father-20261116",
+      "basis": "Samuel Andrew Jackson Glasgow (Glasgow-2277, b. 1831, North Carolina) has no named father. Edward Glasgow (Glasgow-2074, b. 1795, Cookstown, Tyrone) with wife Nancy (Coburn) Glasgow is a tentative candidate: a known child Edward William Glasgow was born in the same specific locality about seven years away, fitting the family's child-bearing span.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-2193-1162440"
+      ],
+      "scope": "Only a broad 'north Carolina' locality, and no record names Samuel's father; the Edward William sibling clue is a locality match, not a stated relationship.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-2277.html#research-findings",
+          "label": "Father-link inference (FA2, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-2074": "Edward Glasgow",
+        "Glasgow-2277": "Samuel Andrew Jackson Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-2074",
+      "relative_id": "Glasgow-2277",
+      "relationship": "child",
+      "percent": 32,
+      "assessment_status": "uncertain",
+      "assertion_id": "clm-fa2-glasgow-2277-father-20261116",
+      "basis": "Samuel Andrew Jackson Glasgow (Glasgow-2277, b. 1831, North Carolina) has no named father. Edward Glasgow (Glasgow-2074, b. 1795, Cookstown, Tyrone) with wife Nancy (Coburn) Glasgow is a tentative candidate: a known child Edward William Glasgow was born in the same specific locality about seven years away, fitting the family's child-bearing span.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-2193-1162440"
+      ],
+      "scope": "Only a broad 'north Carolina' locality, and no record names Samuel's father; the Edward William sibling clue is a locality match, not a stated relationship.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-2277.html#research-findings",
+          "label": "Father-link inference (FA2, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-2074": "Edward Glasgow",
+        "Glasgow-2277": "Samuel Andrew Jackson Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-2446",
+      "relative_id": "Glasgow-4010",
+      "relationship": "father",
+      "percent": 40,
+      "assessment_status": "possible",
+      "assertion_id": "clm-fa2-glasgow-2446-father-20261116",
+      "basis": "John Albert Glasgow (Glasgow-2446, b. 1839, Winchester, Ontario) has no named father. Samuel Glasgow (Glasgow-4010, b. 1801) of Prescott, Ontario is a tentative candidate: the 1851 census records Samuel (storekeeper, age next birthday 51, married) in the subject's locality, with a compatible maternal age (about 19) for the known spouse Mary E.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "prescott-father-tradition"
+      ],
+      "scope": "The census places Samuel in the district but does not name John Albert as his son; no direct record of the father.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-2446.html#research-findings",
+          "label": "Father-link inference (FA2, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-2446": "John Albert Glasgow",
+        "Glasgow-4010": "Samuel Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-4010",
+      "relative_id": "Glasgow-2446",
+      "relationship": "child",
+      "percent": 40,
+      "assessment_status": "possible",
+      "assertion_id": "clm-fa2-glasgow-2446-father-20261116",
+      "basis": "John Albert Glasgow (Glasgow-2446, b. 1839, Winchester, Ontario) has no named father. Samuel Glasgow (Glasgow-4010, b. 1801) of Prescott, Ontario is a tentative candidate: the 1851 census records Samuel (storekeeper, age next birthday 51, married) in the subject's locality, with a compatible maternal age (about 19) for the known spouse Mary E.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "prescott-father-tradition"
+      ],
+      "scope": "The census places Samuel in the district but does not name John Albert as his son; no direct record of the father.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-2446.html#research-findings",
+          "label": "Father-link inference (FA2, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-2446": "John Albert Glasgow",
+        "Glasgow-4010": "Samuel Glasgow"
+      }
+    },
+    {
       "subject_id": "Glasgow-2706",
       "relative_id": "Glasgow-1309",
       "relationship": "father",
@@ -116295,6 +119197,66 @@
       }
     },
     {
+      "subject_id": "Glasgow-2723",
+      "relative_id": "Glasgow-2963",
+      "relationship": "father",
+      "percent": 28,
+      "assessment_status": "uncertain",
+      "assertion_id": "clm-fa2-glasgow-2723-father-20261116",
+      "basis": "John Glasgow (Glasgow-2723, b. 1815, Scotland) has no named father. Robert Glasgow (Glasgow-2963, b. 1780) is a tentative candidate: his wife Jean (McConechie) Glasgow's recorded children span about 1809–1817, into which John's 1815 birth fits with a plausible maternal age (about 33), and a dated first son Robert takes the candidate's own name, the expected patronymic position. Only the shared surname, this household-chronology fit and the naming pattern support the link; no record states it.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60144-3981924",
+        "kilbirnie-john-robert-mcconnachy-baptism-1807"
+      ],
+      "scope": "No record names John as Robert's son. Both people are 'Scotland' only, with no shared specific parish. The Jean McConechie couple's dated children are themselves reconstructed, and other Glasgow men of the right age in Scotland are not ruled out.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-2723.html#research-findings",
+          "label": "Father-link inference (FA2, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-2723": "John Glasgow",
+        "Glasgow-2963": "Robert Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-2963",
+      "relative_id": "Glasgow-2723",
+      "relationship": "child",
+      "percent": 28,
+      "assessment_status": "uncertain",
+      "assertion_id": "clm-fa2-glasgow-2723-father-20261116",
+      "basis": "John Glasgow (Glasgow-2723, b. 1815, Scotland) has no named father. Robert Glasgow (Glasgow-2963, b. 1780) is a tentative candidate: his wife Jean (McConechie) Glasgow's recorded children span about 1809–1817, into which John's 1815 birth fits with a plausible maternal age (about 33), and a dated first son Robert takes the candidate's own name, the expected patronymic position. Only the shared surname, this household-chronology fit and the naming pattern support the link; no record states it.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60144-3981924",
+        "kilbirnie-john-robert-mcconnachy-baptism-1807"
+      ],
+      "scope": "No record names John as Robert's son. Both people are 'Scotland' only, with no shared specific parish. The Jean McConechie couple's dated children are themselves reconstructed, and other Glasgow men of the right age in Scotland are not ruled out.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-2723.html#research-findings",
+          "label": "Father-link inference (FA2, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-2723": "John Glasgow",
+        "Glasgow-2963": "Robert Glasgow"
+      }
+    },
+    {
       "subject_id": "Glasgow-3165",
       "relative_id": "Glasgow-1336",
       "relationship": "father",
@@ -116354,6 +119316,66 @@
       "profile_names": {
         "Glasgow-1336": "Andrew Glasgow",
         "Glasgow-3165": "Andrew Glasgow Esq"
+      }
+    },
+    {
+      "subject_id": "Glasgow-3280",
+      "relative_id": "Glasgow-563",
+      "relationship": "father",
+      "percent": 33,
+      "assessment_status": "uncertain",
+      "assertion_id": "clm-fa2-glasgow-3280-father-20261116",
+      "basis": "Marmaduke D. Glasgow (Glasgow-3280, b. 1804, Pennsylvania) has no named father. William Glasgow (Glasgow-563, b. 1778) with wife Rhoda Neely (Montgomery) Glasgow is a tentative candidate: the birth fits their dated children (about 1803–1822) with a compatible maternal age (25), and a known son Joseph Montgomery Glasgow was born within three years in the same locality.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "faris-william-rhoda-bible-family-1990",
+        "held-reported-scott-household-1850"
+      ],
+      "scope": "Only broad township overlap, and no record names Marmaduke's father; the Rhoda Neely couple's children are reconstructed.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-3280.html#research-findings",
+          "label": "Father-link inference (FA2, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-3280": "Marmaduke D. Glasgow",
+        "Glasgow-563": "William Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-563",
+      "relative_id": "Glasgow-3280",
+      "relationship": "child",
+      "percent": 33,
+      "assessment_status": "uncertain",
+      "assertion_id": "clm-fa2-glasgow-3280-father-20261116",
+      "basis": "Marmaduke D. Glasgow (Glasgow-3280, b. 1804, Pennsylvania) has no named father. William Glasgow (Glasgow-563, b. 1778) with wife Rhoda Neely (Montgomery) Glasgow is a tentative candidate: the birth fits their dated children (about 1803–1822) with a compatible maternal age (25), and a known son Joseph Montgomery Glasgow was born within three years in the same locality.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "faris-william-rhoda-bible-family-1990",
+        "held-reported-scott-household-1850"
+      ],
+      "scope": "Only broad township overlap, and no record names Marmaduke's father; the Rhoda Neely couple's children are reconstructed.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-3280.html#research-findings",
+          "label": "Father-link inference (FA2, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-3280": "Marmaduke D. Glasgow",
+        "Glasgow-563": "William Glasgow"
       }
     },
     {
@@ -116536,6 +119558,124 @@
       "profile_names": {
         "Glasco-144": "Thomas Glasco",
         "Glasgow-3946": "John Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-446",
+      "relative_id": "Glasgow-357",
+      "relationship": "father",
+      "percent": 42,
+      "assessment_status": "possible",
+      "assertion_id": "clm-fa2-glasgow-446-father-20261116",
+      "basis": "Elizabeth (Glasgow) Pridgen (Glasgow-446, b. 1790, North Carolina) has no named father. William Glasgow (Glasgow-357, b. 1757) with wife Sarah Glasgow is a tentative candidate: their same-couple children Isaac Wesley (1786) and John Cooper (1794) bracket Elizabeth's 1790 birth in the same locality, filling an eight-year birth-order slot.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "currituck-william-glasgow-will-1805",
+        "currituck-william-cowell-sale-1782"
+      ],
+      "scope": "No record names Elizabeth's father; the locality is broad, and the couple's children are reconstructed from naming and locality.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-446.html#research-findings",
+          "label": "Father-link inference (FA2, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-357": "William Glasgow",
+        "Glasgow-446": "Elizabeth (Glasgow) Pridgen"
+      }
+    },
+    {
+      "subject_id": "Glasgow-357",
+      "relative_id": "Glasgow-446",
+      "relationship": "child",
+      "percent": 42,
+      "assessment_status": "possible",
+      "assertion_id": "clm-fa2-glasgow-446-father-20261116",
+      "basis": "Elizabeth (Glasgow) Pridgen (Glasgow-446, b. 1790, North Carolina) has no named father. William Glasgow (Glasgow-357, b. 1757) with wife Sarah Glasgow is a tentative candidate: their same-couple children Isaac Wesley (1786) and John Cooper (1794) bracket Elizabeth's 1790 birth in the same locality, filling an eight-year birth-order slot.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "currituck-william-glasgow-will-1805",
+        "currituck-william-cowell-sale-1782"
+      ],
+      "scope": "No record names Elizabeth's father; the locality is broad, and the couple's children are reconstructed from naming and locality.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-446.html#research-findings",
+          "label": "Father-link inference (FA2, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-357": "William Glasgow",
+        "Glasgow-446": "Elizabeth (Glasgow) Pridgen"
+      }
+    },
+    {
+      "subject_id": "Glassgo-3",
+      "relative_id": "Glasgow-2074",
+      "relationship": "father",
+      "percent": 33,
+      "assessment_status": "uncertain",
+      "assertion_id": "clm-fa2-glassgo-3-father-20261116",
+      "basis": "John Glassgo (Glassgo-3, b. 1838, North Carolina) has no named father. Edward Glasgow (Glasgow-2074, b. 1795, Cookstown, Tyrone) with wife Nancy (Coburn) Glasgow is a tentative candidate: a recorded child shares the subject's birth year, and Edward William Glasgow was born in the same specific locality in the same period.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-2193-1162440"
+      ],
+      "scope": "No record names John's father; the same-year recorded child may indicate twins or date uncertainty. Broad locality only.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glassgo-3.html#research-findings",
+          "label": "Father-link inference (FA2, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-2074": "Edward Glasgow",
+        "Glassgo-3": "John Glassgo"
+      }
+    },
+    {
+      "subject_id": "Glasgow-2074",
+      "relative_id": "Glassgo-3",
+      "relationship": "child",
+      "percent": 33,
+      "assessment_status": "uncertain",
+      "assertion_id": "clm-fa2-glassgo-3-father-20261116",
+      "basis": "John Glassgo (Glassgo-3, b. 1838, North Carolina) has no named father. Edward Glasgow (Glasgow-2074, b. 1795, Cookstown, Tyrone) with wife Nancy (Coburn) Glasgow is a tentative candidate: a recorded child shares the subject's birth year, and Edward William Glasgow was born in the same specific locality in the same period.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-2193-1162440"
+      ],
+      "scope": "No record names John's father; the same-year recorded child may indicate twins or date uncertainty. Broad locality only.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glassgo-3.html#research-findings",
+          "label": "Father-link inference (FA2, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-2074": "Edward Glasgow",
+        "Glassgo-3": "John Glassgo"
       }
     },
     {
@@ -122995,6 +126135,36 @@
         "record-ancestry-glasgow-619eba71eddc": "Philip Glasgow",
         "record-ancestry-glasgow-f69c95bf588b": "Grace Rae Johnstone Glasgow"
       }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-emily-h-tenterfield-1901",
+      "relative_id": "Glasgow-3264",
+      "relationship": "father",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-fecd1d7b73484066",
+      "basis": "The birth index names James E and Mary Glasgow at Tenterfield. The family is identified with James Edward Glasgow-3264 and Mary Alice (Hill) Glasgow-66969, whose other Tenterfield children include Eva Jane Glasgow-3356 (born 1899) and Alice Mary Glasgow-3263 (born 1904). The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3247848"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
+    },
+    {
+      "subject_id": "Glasgow-3264",
+      "relative_id": "record-ancestry-glasgow-emily-h-tenterfield-1901",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-fecd1d7b73484066",
+      "basis": "The birth index names James E and Mary Glasgow at Tenterfield. The family is identified with James Edward Glasgow-3264 and Mary Alice (Hill) Glasgow-66969, whose other Tenterfield children include Eva Jane Glasgow-3356 (born 1899) and Alice Mary Glasgow-3263 (born 1904). The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-1778-3247848"
+      ],
+      "scope": "Probable identity from the record cluster; no single record proves the parent-profile identity.",
+      "allow_new_relationship": true
     },
     {
       "subject_id": "record-john-cameron-glasgow-infant-before-1846",
