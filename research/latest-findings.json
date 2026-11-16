@@ -86186,6 +86186,89 @@
         "research/ancestry-glasgow-audit/drafts/reviewed-australian-births-1884-1895-20261105.wiki",
         "research/ancestry-glasgow-audit/drafts/macgregor-elizabeth-jane-20261116.wiki"
       ]
+    },
+    {
+      "id": "minmi-glasgow-household-20261116",
+      "found_on": "2026-11-16",
+      "kind": "relationship",
+      "finding": "Five Minmi, New South Wales birth registrations (1882–1894) name John Glasgow and Isabella Glasgow as parents, forming one household; their 1885 daughter Isabella is the already-profiled Glasgow-2884.",
+      "status": "qualified",
+      "qualification": "The five births repeat the same names and registration district, but no marriage or later-life record for the parents is held. The 1885 registration 25122/1885 exactly matches Glasgow-2884 and is not a new person. Parent links to the other five children are probable; the children are creation-ready local drafts only. No live WikiTree profiles were created.",
+      "people": [
+        {
+          "id": "record-ancestry-john-glasgow-minmi-household-20261116",
+          "name": "John Glasgow",
+          "role": "Father; named in five Minmi births",
+          "url": "/people/record-ancestry-john-glasgow-minmi-household-20261116.html"
+        },
+        {
+          "id": "record-ancestry-isabella-glasgow-minmi-household-20261116",
+          "name": "Isabella Glasgow",
+          "role": "Mother; named in five Minmi births",
+          "url": "/people/record-ancestry-isabella-glasgow-minmi-household-20261116.html"
+        },
+        {
+          "id": "record-ancestry-glasgow-john-minmi-1882",
+          "name": "John Glasgow",
+          "role": "Probable son",
+          "url": "/people/record-ancestry-glasgow-john-minmi-1882.html"
+        },
+        {
+          "id": "record-ancestry-glasgow-isabella-minmi-1885",
+          "name": "Isabella Glasgow",
+          "role": "Exact existing profile match: Glasgow-2884",
+          "url": "/people/record-ancestry-glasgow-isabella-minmi-1885.html"
+        },
+        {
+          "id": "record-ancestry-glasgow-david-minmi-1887",
+          "name": "David Glasgow",
+          "role": "Probable son",
+          "url": "/people/record-ancestry-glasgow-david-minmi-1887.html"
+        },
+        {
+          "id": "record-ancestry-glasgow-annie-minmi-1889",
+          "name": "Annie Glasgow",
+          "role": "Probable daughter",
+          "url": "/people/record-ancestry-glasgow-annie-minmi-1889.html"
+        },
+        {
+          "id": "record-ancestry-glasgow-mary-minmi-1892",
+          "name": "Mary Glasgow",
+          "role": "Probable daughter",
+          "url": "/people/record-ancestry-glasgow-mary-minmi-1892.html"
+        },
+        {
+          "id": "record-ancestry-glasgow-catherine-minmi-1894",
+          "name": "Catherine Glasgow",
+          "role": "Probable daughter",
+          "url": "/people/record-ancestry-glasgow-catherine-minmi-1894.html"
+        },
+        {
+          "id": "Glasgow-2884",
+          "name": "Isabella (Glasgow) Wile",
+          "role": "Existing profile matched to the 1885 birth",
+          "url": "/people/Glasgow-2884.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ancestry, Australia, Birth Index, 1788–1922: John Glasgow, 1882, Minmi, registration 20955",
+          "url": "https://www.ancestry.co.uk/search/collections/1778/records/2568703"
+        },
+        {
+          "title": "Ancestry, Australia, Birth Index, 1788–1922: Isabella Glasgow, 1885, Minmi, registration 25122",
+          "url": "https://www.ancestry.co.uk/search/collections/1778/records/2568699"
+        }
+      ],
+      "detail_url": "/people/record-ancestry-john-glasgow-minmi-household-20261116.html",
+      "provenance": [
+        "research/queue-review-2026-10-17/catalogue-integration.json",
+        "research/research-queue-matches.json",
+        "research/ancestry-glasgow-audit/drafts/minmi-john-glasgow-20261116.wiki",
+        "research/ancestry-glasgow-audit/drafts/minmi-isabella-glasgow-20261116.wiki",
+        "research/ancestry-glasgow-audit/drafts/reviewed-australian-births-1877-1883-20261105.wiki",
+        "research/ancestry-glasgow-audit/drafts/reviewed-australian-births-1884-1895-20261105.wiki"
+      ]
     }
   ]
 }
