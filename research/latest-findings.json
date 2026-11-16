@@ -86269,6 +86269,112 @@
         "research/ancestry-glasgow-audit/drafts/reviewed-australian-births-1877-1883-20261105.wiki",
         "research/ancestry-glasgow-audit/drafts/reviewed-australian-births-1884-1895-20261105.wiki"
       ]
+    },
+    {
+      "id": "eldeit-lusted-glasgow-family-20261116",
+      "found_on": "2026-11-16",
+      "kind": "relationship",
+      "finding": "The 1860 Camden marriage of John Eldeit Glasgow and Mary Ann Lusted is the parent marriage of six New South Wales births (1861–1874); their 1866 son Lewis H Glasgow is the probable father of three Casino births (1892–1896).",
+      "status": "qualified",
+      "qualification": "The marriage index names the couple, and the birth indexes name the parents. The parent identities rest on shared names, districts and chronology; no single record proves every link. Lewis H Glasgow’s identification as the 1866 son and the Casino father is probable. The children are creation-ready local drafts only; no live WikiTree profiles were created.",
+      "people": [
+        {
+          "id": "record-ancestry-john-eldeit-glasgow-household-20261116",
+          "name": "John Eldeit Glasgow",
+          "role": "Father; 1860 Camden marriage source retained",
+          "url": "/people/record-ancestry-john-eldeit-glasgow-household-20261116.html"
+        },
+        {
+          "id": "record-ancestry-mary-ann-lusted-glasgow-household-20261116",
+          "name": "Mary Ann (Lusted) Glasgow",
+          "role": "Mother; 1860 Camden marriage",
+          "url": "/people/record-ancestry-mary-ann-lusted-glasgow-household-20261116.html"
+        },
+        {
+          "id": "record-ancestry-glasgow-george-edward-nsw-1861",
+          "name": "George Edward Glasgow",
+          "role": "Probable son",
+          "url": "/people/record-ancestry-glasgow-george-edward-nsw-1861.html"
+        },
+        {
+          "id": "record-ancestry-glasgow-charles-h-tabulam-1862",
+          "name": "Charles H Glasgow",
+          "role": "Probable son",
+          "url": "/people/record-ancestry-glasgow-charles-h-tabulam-1862.html"
+        },
+        {
+          "id": "record-ancestry-glasgow-lewis-h-kingston-1866",
+          "name": "Lewis H Glasgow",
+          "role": "Probable son; probable Casino father",
+          "url": "/people/record-ancestry-glasgow-lewis-h-kingston-1866.html"
+        },
+        {
+          "id": "record-ancestry-glasgow-alice-berrima-1868",
+          "name": "Alice Glasgow",
+          "role": "Probable daughter",
+          "url": "/people/record-ancestry-glasgow-alice-berrima-1868.html"
+        },
+        {
+          "id": "record-ancestry-glasgow-alfred-richmond-river-1872",
+          "name": "Alfred Glasgow",
+          "role": "Probable son",
+          "url": "/people/record-ancestry-glasgow-alfred-richmond-river-1872.html"
+        },
+        {
+          "id": "record-ancestry-glasgow-annie-richmond-river-1874",
+          "name": "Annie Glasgow",
+          "role": "Probable daughter",
+          "url": "/people/record-ancestry-glasgow-annie-richmond-river-1874.html"
+        },
+        {
+          "id": "record-ancestry-mabel-f-c-glasgow-casino-20261116",
+          "name": "Mabel F C Glasgow",
+          "role": "Probable spouse of Lewis H Glasgow",
+          "url": "/people/record-ancestry-mabel-f-c-glasgow-casino-20261116.html"
+        },
+        {
+          "id": "record-ancestry-glasgow-madoline-f-casino-1892",
+          "name": "Madoline F Glasgow",
+          "role": "Probable daughter of Lewis and Mabel",
+          "url": "/people/record-ancestry-glasgow-madoline-f-casino-1892.html"
+        },
+        {
+          "id": "record-ancestry-glasgow-colin-casino-1894",
+          "name": "Colin Glasgow",
+          "role": "Probable son of Lewis and Mabel",
+          "url": "/people/record-ancestry-glasgow-colin-casino-1894.html"
+        },
+        {
+          "id": "record-ancestry-glasgow-mary-c-casino-1896",
+          "name": "Mary C Glasgow",
+          "role": "Probable daughter of Lewis and Mabel",
+          "url": "/people/record-ancestry-glasgow-mary-c-casino-1896.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ancestry, Australia, Marriage Index, 1788–1950: John Eldeit Glasgow and Mary Ann Lusted, 1860, Camden",
+          "url": "https://www.ancestry.co.uk/search/collections/1780/records/1764828"
+        },
+        {
+          "title": "Ancestry, Australia, Birth Index, 1788–1922: Lewis H Glasgow, 1866, Kingston",
+          "url": "https://www.ancestry.co.uk/search/collections/1778/records/2568707"
+        },
+        {
+          "title": "Ancestry, Australia, Birth Index, 1788–1922: Madoline F Glasgow, 1892, Casino",
+          "url": "https://www.ancestry.co.uk/search/collections/1778/records/3248483"
+        }
+      ],
+      "detail_url": "/people/record-ancestry-john-eldeit-glasgow-household-20261116.html",
+      "provenance": [
+        "research/queue-review-2026-10-17/catalogue-integration.json",
+        "research/ancestry-glasgow-audit/drafts/eldeit-john-glasgow-20261116.wiki",
+        "research/ancestry-glasgow-audit/drafts/lusted-mary-ann-glasgow-20261116.wiki",
+        "research/ancestry-glasgow-audit/drafts/mabel-f-c-glasgow-casino-20261116.wiki",
+        "research/ancestry-glasgow-audit/drafts/reviewed-australia-household-holds-20261105.wiki",
+        "research/ancestry-glasgow-audit/drafts/reviewed-australian-births-1864-1876-20261105.wiki",
+        "research/ancestry-glasgow-audit/drafts/reviewed-australian-births-1884-1895-20261105.wiki"
+      ]
     }
   ]
 }

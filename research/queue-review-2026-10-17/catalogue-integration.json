@@ -399322,10 +399322,16 @@
       "creation_status": "identity_hold",
       "draft_path": "research/ancestry-glasgow-audit/drafts/reviewed-australia-household-holds-20261105.wiki",
       "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe marriage index names John Eldeit Glasgow and Mary Ann Lusted, married in 1860. Registration place: Camden, New South Wales, Australia.<ref>[https://www.ancestry.co.uk/search/collections/1780/records/1764828 Ancestry, Australia, Marriage Index, 1788–1950: John Eldeit Glasgow, record 1780/1764828].</ref><ref>[https://www.ancestry.co.uk/search/collections/9776/records/329570 Ancestry, Australia, Births and Baptisms, 1792–1981: John Eldit Glasgow, record 9776/329570].</ref>\n\n== Research Notes ==\nThe marriage and baptism indexes give Eldeit and Eldit as spellings of his middle name. The matching spouse name supports a probable household link.\n\n== Sources ==\n<references />\n",
-      "assessment": "Documentary subject; wider identity unresolved.",
-      "current_conclusion": "The marriage and baptism indexes give Eldeit and Eldit as spellings of his middle name. The matching spouse name supports a probable household link.",
+      "assessment": "Source marriage record for the John Eldeit Glasgow family; the maintained family account is record-ancestry-john-eldeit-glasgow-household-20261116. Do not create a separate person.",
+      "current_conclusion": "Source marriage record for the John Eldeit Glasgow family; the maintained family account is record-ancestry-john-eldeit-glasgow-household-20261116. Do not create a separate person.",
       "reviewed_at": "2026-11-05",
-      "candidates": [],
+      "candidates": [
+        {
+          "profile_id": "record-ancestry-john-eldeit-glasgow-household-20261116",
+          "name": "John Eldeit Glasgow",
+          "status": "matched"
+        }
+      ],
       "records": [
         {
           "source_title": "Ancestry, Australia, Marriage Index, 1788–1950: John Eldeit Glasgow, record 1780/1764828",
@@ -399381,11 +399387,11 @@
       "death_location": "",
       "occupations": [],
       "source_subject_url": "https://www.ancestry.co.uk/search/collections/1778/records/2568697",
-      "creation_status": "identity_hold",
+      "creation_status": "creation_ready",
       "draft_path": "research/ancestry-glasgow-audit/drafts/reviewed-australia-household-holds-20261105.wiki",
-      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe birth index names George E Glasgow, born 1861 in New South Wales. It gives parents John E Glasgow and Mary A Glasgow, registration place Tabulam, New South Wales, Australia, and registration number 12555.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/2568697 Ancestry, Australia, Birth Index, 1788–1922: George E Glasgow, record 1778/2568697].</ref><ref>[https://www.ancestry.co.uk/search/collections/9776/records/329569 Ancestry, Australia, Births and Baptisms, 1792–1981: George Edward Glasgow, record 9776/329569].</ref>\n\n== Research Notes ==\nThe birth index gives Tabulam as the registration district. The baptism index gives Casino as birthplace and the Clarence River district as the baptism place. The matching initials and parents support a probable match.\n\n== Sources ==\n<references />\n",
-      "assessment": "Documentary subject; wider identity unresolved.",
-      "current_conclusion": "The birth index gives Tabulam as the registration district. The baptism index gives Casino as birthplace and the Clarence River district as the baptism place. The matching initials and parents support a probable match.",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe birth index names George E Glasgow, born 1861 in New South Wales. It gives parents John E Glasgow and Mary A Glasgow, registration place Tabulam, New South Wales, Australia, and registration number 12555.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/2568697 Ancestry, Australia, Birth Index, 1788–1922: George E Glasgow, record 1778/2568697].</ref><ref>[https://www.ancestry.co.uk/search/collections/9776/records/329569 Ancestry, Australia, Births and Baptisms, 1792–1981: George Edward Glasgow, record 9776/329569].</ref>\n\n== Research Notes ==\nThe birth index gives Tabulam as the registration district. The baptism index gives Casino as birthplace and the Clarence River district as the baptism place. The matching initials and parents support a probable match.\n\nAdditional identity review: The birth index names John E or John Eldeit Glasgow and Mary A or Mary Ann Glasgow in New South Wales. The 1860 Camden marriage of John Eldeit Glasgow and Mary Ann Lusted identifies the parents’ marriage; the shared names, districts and chronology support the family. The parent links are probable, not proved by a single record.\n\n== Sources ==\n<references />\n",
+      "assessment": "New South Wales birth record; probable child of John Eldeit Glasgow and Mary Ann Lusted. Parent links probable; no existing profile found.",
+      "current_conclusion": "New South Wales birth record; probable child of John Eldeit Glasgow and Mary Ann Lusted. Parent links probable; no existing profile found.",
       "reviewed_at": "2026-11-05",
       "candidates": [],
       "records": [
@@ -399428,6 +399434,26 @@
           },
           "note": "The baptism index names George Edward Glasgow, born at Casino, with baptism in the Clarence River district, Grafton. It names John Eldit Glasgow and Mary Anne as his parents. A probable companion birth registration names George E Glasgow with parents John E and Mary A Glasgow in 1861."
         }
+      ],
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "action": "add",
+          "relative_id": "record-ancestry-john-eldeit-glasgow-household-20261116",
+          "relative_name": "John Eldeit Glasgow",
+          "status": "probable",
+          "basis": "The birth index names John E or John Eldeit Glasgow and Mary A or Mary Ann Glasgow in New South Wales. The 1860 Camden marriage of John Eldeit Glasgow and Mary Ann Lusted identifies the parents’ marriage; the shared names, districts and chronology support the family. The parent links are probable, not proved by a single record.",
+          "scope": "Record-defined child; probable parent identity"
+        },
+        {
+          "relationship": "mother",
+          "action": "add",
+          "relative_id": "record-ancestry-mary-ann-lusted-glasgow-household-20261116",
+          "relative_name": "Mary Ann (Lusted) Glasgow",
+          "status": "probable",
+          "basis": "The birth index names John E or John Eldeit Glasgow and Mary A or Mary Ann Glasgow in New South Wales. The 1860 Camden marriage of John Eldeit Glasgow and Mary Ann Lusted identifies the parents’ marriage; the shared names, districts and chronology support the family. The parent links are probable, not proved by a single record.",
+          "scope": "Record-defined child; probable parent identity"
+        }
       ]
     },
     {
@@ -399448,11 +399474,11 @@
       "death_location": "",
       "occupations": [],
       "source_subject_url": "https://www.ancestry.co.uk/search/collections/1778/records/2568244",
-      "creation_status": "identity_hold",
+      "creation_status": "creation_ready",
       "draft_path": "research/ancestry-glasgow-audit/drafts/reviewed-australia-household-holds-20261105.wiki",
-      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe birth index names Alfred Glasgow, born 1872 in New South Wales. It gives parents John Eldeit Glasgow and Mary Ann Glasgow, registration place Richmond River, New South Wales, Australia, and registration number 16987.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/2568244 Ancestry, Australia, Birth Index, 1788–1922: Alfred Glasgow, record 1778/2568244].</ref>\n\n== Research Notes ==\nThe registration names his parents. His later identity remains unresolved.\n\n== Sources ==\n<references />\n",
-      "assessment": "Documentary subject; wider identity unresolved.",
-      "current_conclusion": "The registration names his parents. His later identity remains unresolved.",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe birth index names Alfred Glasgow, born 1872 in New South Wales. It gives parents John Eldeit Glasgow and Mary Ann Glasgow, registration place Richmond River, New South Wales, Australia, and registration number 16987.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/2568244 Ancestry, Australia, Birth Index, 1788–1922: Alfred Glasgow, record 1778/2568244].</ref>\n\n== Research Notes ==\nThe registration names his parents. His later identity remains unresolved.\n\nAdditional identity review: The birth index names John E or John Eldeit Glasgow and Mary A or Mary Ann Glasgow in New South Wales. The 1860 Camden marriage of John Eldeit Glasgow and Mary Ann Lusted identifies the parents’ marriage; the shared names, districts and chronology support the family. The parent links are probable, not proved by a single record.\n\n== Sources ==\n<references />\n",
+      "assessment": "New South Wales birth record; probable child of John Eldeit Glasgow and Mary Ann Lusted. Parent links probable; no existing profile found.",
+      "current_conclusion": "New South Wales birth record; probable child of John Eldeit Glasgow and Mary Ann Lusted. Parent links probable; no existing profile found.",
       "reviewed_at": "2026-11-05",
       "candidates": [],
       "records": [
@@ -399475,6 +399501,26 @@
           },
           "note": "The birth index names Alfred Glasgow, born 1872 in New South Wales. It gives parents John Eldeit Glasgow and Mary Ann Glasgow, registration place Richmond River, New South Wales, Australia, and registration number 16987."
         }
+      ],
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "action": "add",
+          "relative_id": "record-ancestry-john-eldeit-glasgow-household-20261116",
+          "relative_name": "John Eldeit Glasgow",
+          "status": "probable",
+          "basis": "The birth index names John E or John Eldeit Glasgow and Mary A or Mary Ann Glasgow in New South Wales. The 1860 Camden marriage of John Eldeit Glasgow and Mary Ann Lusted identifies the parents’ marriage; the shared names, districts and chronology support the family. The parent links are probable, not proved by a single record.",
+          "scope": "Record-defined child; probable parent identity"
+        },
+        {
+          "relationship": "mother",
+          "action": "add",
+          "relative_id": "record-ancestry-mary-ann-lusted-glasgow-household-20261116",
+          "relative_name": "Mary Ann (Lusted) Glasgow",
+          "status": "probable",
+          "basis": "The birth index names John E or John Eldeit Glasgow and Mary A or Mary Ann Glasgow in New South Wales. The 1860 Camden marriage of John Eldeit Glasgow and Mary Ann Lusted identifies the parents’ marriage; the shared names, districts and chronology support the family. The parent links are probable, not proved by a single record.",
+          "scope": "Record-defined child; probable parent identity"
+        }
       ]
     },
     {
@@ -399495,11 +399541,11 @@
       "death_location": "",
       "occupations": [],
       "source_subject_url": "https://www.ancestry.co.uk/search/collections/1778/records/2568246",
-      "creation_status": "identity_hold",
+      "creation_status": "creation_ready",
       "draft_path": "research/ancestry-glasgow-audit/drafts/reviewed-australia-household-holds-20261105.wiki",
-      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe birth index names Annie Glasgow, born 1874 in New South Wales. It gives parents John Eldeit Glasgow and Mary Ann Glasgow, registration place Richmond River, New South Wales, Australia, and registration number 18592.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/2568246 Ancestry, Australia, Birth Index, 1788–1922: Annie Glasgow, record 1778/2568246].</ref>\n\n== Research Notes ==\nThe registration names her parents. Her later identity remains unresolved.\n\n== Sources ==\n<references />\n",
-      "assessment": "Documentary subject; wider identity unresolved.",
-      "current_conclusion": "The registration names her parents. Her later identity remains unresolved.",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe birth index names Annie Glasgow, born 1874 in New South Wales. It gives parents John Eldeit Glasgow and Mary Ann Glasgow, registration place Richmond River, New South Wales, Australia, and registration number 18592.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/2568246 Ancestry, Australia, Birth Index, 1788–1922: Annie Glasgow, record 1778/2568246].</ref>\n\n== Research Notes ==\nThe registration names her parents. Her later identity remains unresolved.\n\nAdditional identity review: The birth index names John E or John Eldeit Glasgow and Mary A or Mary Ann Glasgow in New South Wales. The 1860 Camden marriage of John Eldeit Glasgow and Mary Ann Lusted identifies the parents’ marriage; the shared names, districts and chronology support the family. The parent links are probable, not proved by a single record.\n\n== Sources ==\n<references />\n",
+      "assessment": "New South Wales birth record; probable child of John Eldeit Glasgow and Mary Ann Lusted. Parent links probable; no existing profile found.",
+      "current_conclusion": "New South Wales birth record; probable child of John Eldeit Glasgow and Mary Ann Lusted. Parent links probable; no existing profile found.",
       "reviewed_at": "2026-11-05",
       "candidates": [],
       "records": [
@@ -399521,6 +399567,26 @@
             "Registration Number": "18592"
           },
           "note": "The birth index names Annie Glasgow, born 1874 in New South Wales. It gives parents John Eldeit Glasgow and Mary Ann Glasgow, registration place Richmond River, New South Wales, Australia, and registration number 18592."
+        }
+      ],
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "action": "add",
+          "relative_id": "record-ancestry-john-eldeit-glasgow-household-20261116",
+          "relative_name": "John Eldeit Glasgow",
+          "status": "probable",
+          "basis": "The birth index names John E or John Eldeit Glasgow and Mary A or Mary Ann Glasgow in New South Wales. The 1860 Camden marriage of John Eldeit Glasgow and Mary Ann Lusted identifies the parents’ marriage; the shared names, districts and chronology support the family. The parent links are probable, not proved by a single record.",
+          "scope": "Record-defined child; probable parent identity"
+        },
+        {
+          "relationship": "mother",
+          "action": "add",
+          "relative_id": "record-ancestry-mary-ann-lusted-glasgow-household-20261116",
+          "relative_name": "Mary Ann (Lusted) Glasgow",
+          "status": "probable",
+          "basis": "The birth index names John E or John Eldeit Glasgow and Mary A or Mary Ann Glasgow in New South Wales. The 1860 Camden marriage of John Eldeit Glasgow and Mary Ann Lusted identifies the parents’ marriage; the shared names, districts and chronology support the family. The parent links are probable, not proved by a single record.",
+          "scope": "Record-defined child; probable parent identity"
         }
       ]
     },
@@ -400169,10 +400235,10 @@
       "death_location": "",
       "occupations": [],
       "source_subject_url": "https://www.ancestry.co.uk/search/collections/1778/records/2568250",
-      "creation_status": "identity_hold",
+      "creation_status": "creation_ready",
       "draft_path": "research/ancestry-glasgow-audit/drafts/reviewed-1856-1873-20261105.wiki",
-      "assessment": "Documentary subject; wider identity unresolved.",
-      "current_conclusion": "The index identifies this documentary subject. A wider identity remains unresolved.",
+      "assessment": "New South Wales birth record; probable child of John Eldeit Glasgow and Mary Ann Lusted. Parent links probable; no existing profile found.",
+      "current_conclusion": "New South Wales birth record; probable child of John Eldeit Glasgow and Mary Ann Lusted. Parent links probable; no existing profile found.",
       "reviewed_at": "2026-11-05",
       "candidates": [],
       "records": [
@@ -400196,7 +400262,27 @@
           "note": "The index names Charles H Glasgow, born in New South Wales in 1862, with John E Glasgow and Mary A Glasgow as parents. Tabulam is the registration place. The parents’ indexed names and registration district agree with the 1861 George E entry."
         }
       ],
-      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index names Charles H Glasgow, born in New South Wales in 1862, with John E Glasgow and Mary A Glasgow as parents. Tabulam is the registration place. The parents’ indexed names and registration district agree with the 1861 George E entry.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/2568250 Ancestry, Australia, Birth Index, 1788–1922: Charles H Glasgow, record 1778/2568250].</ref>\n\n== Research Notes ==\nThe index identifies this documentary subject. A wider identity remains unresolved.\n\n== Sources ==\n<references />\n"
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index names Charles H Glasgow, born in New South Wales in 1862, with John E Glasgow and Mary A Glasgow as parents. Tabulam is the registration place. The parents’ indexed names and registration district agree with the 1861 George E entry.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/2568250 Ancestry, Australia, Birth Index, 1788–1922: Charles H Glasgow, record 1778/2568250].</ref>\n\n== Research Notes ==\nThe index identifies this documentary subject. A wider identity remains unresolved.\n\nAdditional identity review: The birth index names John E or John Eldeit Glasgow and Mary A or Mary Ann Glasgow in New South Wales. The 1860 Camden marriage of John Eldeit Glasgow and Mary Ann Lusted identifies the parents’ marriage; the shared names, districts and chronology support the family. The parent links are probable, not proved by a single record.\n\n== Sources ==\n<references />\n",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "action": "add",
+          "relative_id": "record-ancestry-john-eldeit-glasgow-household-20261116",
+          "relative_name": "John Eldeit Glasgow",
+          "status": "probable",
+          "basis": "The birth index names John E or John Eldeit Glasgow and Mary A or Mary Ann Glasgow in New South Wales. The 1860 Camden marriage of John Eldeit Glasgow and Mary Ann Lusted identifies the parents’ marriage; the shared names, districts and chronology support the family. The parent links are probable, not proved by a single record.",
+          "scope": "Record-defined child; probable parent identity"
+        },
+        {
+          "relationship": "mother",
+          "action": "add",
+          "relative_id": "record-ancestry-mary-ann-lusted-glasgow-household-20261116",
+          "relative_name": "Mary Ann (Lusted) Glasgow",
+          "status": "probable",
+          "basis": "The birth index names John E or John Eldeit Glasgow and Mary A or Mary Ann Glasgow in New South Wales. The 1860 Camden marriage of John Eldeit Glasgow and Mary Ann Lusted identifies the parents’ marriage; the shared names, districts and chronology support the family. The parent links are probable, not proved by a single record.",
+          "scope": "Record-defined child; probable parent identity"
+        }
+      ]
     },
     {
       "catalogue_id": "record-ancestry-glasgow-john-glasgow-or-scott-leith-1864",
@@ -400710,10 +400796,10 @@
       "death_location": "",
       "occupations": [],
       "source_subject_url": "https://www.ancestry.co.uk/search/collections/1778/records/2568707",
-      "creation_status": "identity_hold",
+      "creation_status": "creation_ready",
       "draft_path": "research/ancestry-glasgow-audit/drafts/reviewed-australian-births-1864-1876-20261105.wiki",
-      "assessment": "Documentary subject; wider identity unresolved.",
-      "current_conclusion": "The birth index identifies this documentary subject; the wider identity remains unresolved.",
+      "assessment": "New South Wales birth record; probable child of John Eldeit Glasgow and Mary Ann Lusted. Parent links probable; no existing profile found.",
+      "current_conclusion": "New South Wales birth record; probable child of John Eldeit Glasgow and Mary Ann Lusted. Parent links probable; no existing profile found.",
       "reviewed_at": "2026-11-05",
       "candidates": [],
       "records": [
@@ -400737,7 +400823,36 @@
           "note": "The index lists Lewis H Glasgow, born 1866 in New South Wales. Father: John E Glasgow. Mother: Mary A Glasgow. Registration place: Kingston, New South Wales, Australia. Reference: 4263. The indexed parent names also occur in the 1861 George E and 1862 Charles H registrations. The shared names support a family comparison."
         }
       ],
-      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index lists Lewis H Glasgow, born 1866 in New South Wales. Father: John E Glasgow. Mother: Mary A Glasgow. Registration place: Kingston, New South Wales, Australia. Reference: 4263. The indexed parent names also occur in the 1861 George E and 1862 Charles H registrations. The shared names support a family comparison.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/2568707 Ancestry, Australia, Birth Index, 1788–1922: Lewis H Glasgow, record 1778/2568707].</ref>\n\n== Research Notes ==\nThe birth index identifies this documentary subject; the wider identity remains unresolved.\n\n== Sources ==\n<references />\n"
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index lists Lewis H Glasgow, born 1866 in New South Wales. Father: John E Glasgow. Mother: Mary A Glasgow. Registration place: Kingston, New South Wales, Australia. Reference: 4263. The indexed parent names also occur in the 1861 George E and 1862 Charles H registrations. The shared names support a family comparison.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/2568707 Ancestry, Australia, Birth Index, 1788–1922: Lewis H Glasgow, record 1778/2568707].</ref>\n\n== Research Notes ==\nThe birth index names John E or John Eldeit Glasgow and Mary A or Mary Ann Glasgow in New South Wales. The 1860 Camden marriage of John Eldeit Glasgow and Mary Ann Lusted identifies the parents’ marriage; the shared names, districts and chronology support the family. The parent links are probable, not proved by a single record.\n\n== Sources ==\n<references />\n",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "action": "add",
+          "relative_id": "record-ancestry-john-eldeit-glasgow-household-20261116",
+          "relative_name": "John Eldeit Glasgow",
+          "status": "probable",
+          "basis": "The birth index names John E or John Eldeit Glasgow and Mary A or Mary Ann Glasgow in New South Wales. The 1860 Camden marriage of John Eldeit Glasgow and Mary Ann Lusted identifies the parents’ marriage; the shared names, districts and chronology support the family. The parent links are probable, not proved by a single record.",
+          "scope": "Record-defined child; probable parent identity"
+        },
+        {
+          "relationship": "mother",
+          "action": "add",
+          "relative_id": "record-ancestry-mary-ann-lusted-glasgow-household-20261116",
+          "relative_name": "Mary Ann (Lusted) Glasgow",
+          "status": "probable",
+          "basis": "The birth index names John E or John Eldeit Glasgow and Mary A or Mary Ann Glasgow in New South Wales. The 1860 Camden marriage of John Eldeit Glasgow and Mary Ann Lusted identifies the parents’ marriage; the shared names, districts and chronology support the family. The parent links are probable, not proved by a single record.",
+          "scope": "Record-defined child; probable parent identity"
+        },
+        {
+          "relationship": "spouse",
+          "action": "add",
+          "relative_id": "record-ancestry-mabel-f-c-glasgow-casino-20261116",
+          "relative_name": "Mabel F C Glasgow",
+          "status": "probable",
+          "basis": "Three Casino birth registrations name Lewis H Glasgow and Mabel F C Glasgow together as parents; no marriage record is held.",
+          "scope": "Record-defined household; probable spouse"
+        }
+      ]
     },
     {
       "catalogue_id": "record-ancestry-glasgow-alice-berrima-1868",
@@ -400757,10 +400872,10 @@
       "death_location": "",
       "occupations": [],
       "source_subject_url": "https://www.ancestry.co.uk/search/collections/1778/records/2568245",
-      "creation_status": "identity_hold",
+      "creation_status": "creation_ready",
       "draft_path": "research/ancestry-glasgow-audit/drafts/reviewed-australian-births-1864-1876-20261105.wiki",
-      "assessment": "Documentary subject; wider identity unresolved.",
-      "current_conclusion": "The birth index identifies this documentary subject; the wider identity remains unresolved.",
+      "assessment": "New South Wales birth record; probable child of John Eldeit Glasgow and Mary Ann Lusted. Parent links probable; no existing profile found.",
+      "current_conclusion": "New South Wales birth record; probable child of John Eldeit Glasgow and Mary Ann Lusted. Parent links probable; no existing profile found.",
       "reviewed_at": "2026-11-05",
       "candidates": [],
       "records": [
@@ -400784,7 +400899,27 @@
           "note": "The index lists Alice Glasgow, born 1868 in New South Wales. Father: John E Glasgow. Mother: Mary A Glasgow. Registration place: Berrima, New South Wales, Australia. Reference: 6465. The indexed parent names also occur in the 1861 George E and 1862 Charles H registrations. The shared names support a family comparison."
         }
       ],
-      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index lists Alice Glasgow, born 1868 in New South Wales. Father: John E Glasgow. Mother: Mary A Glasgow. Registration place: Berrima, New South Wales, Australia. Reference: 6465. The indexed parent names also occur in the 1861 George E and 1862 Charles H registrations. The shared names support a family comparison.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/2568245 Ancestry, Australia, Birth Index, 1788–1922: Alice Glasgow, record 1778/2568245].</ref>\n\n== Research Notes ==\nThe birth index identifies this documentary subject; the wider identity remains unresolved.\n\n== Sources ==\n<references />\n"
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index lists Alice Glasgow, born 1868 in New South Wales. Father: John E Glasgow. Mother: Mary A Glasgow. Registration place: Berrima, New South Wales, Australia. Reference: 6465. The indexed parent names also occur in the 1861 George E and 1862 Charles H registrations. The shared names support a family comparison.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/2568245 Ancestry, Australia, Birth Index, 1788–1922: Alice Glasgow, record 1778/2568245].</ref>\n\n== Research Notes ==\nThe birth index names John E or John Eldeit Glasgow and Mary A or Mary Ann Glasgow in New South Wales. The 1860 Camden marriage of John Eldeit Glasgow and Mary Ann Lusted identifies the parents’ marriage; the shared names, districts and chronology support the family. The parent links are probable, not proved by a single record.\n\n== Sources ==\n<references />\n",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "action": "add",
+          "relative_id": "record-ancestry-john-eldeit-glasgow-household-20261116",
+          "relative_name": "John Eldeit Glasgow",
+          "status": "probable",
+          "basis": "The birth index names John E or John Eldeit Glasgow and Mary A or Mary Ann Glasgow in New South Wales. The 1860 Camden marriage of John Eldeit Glasgow and Mary Ann Lusted identifies the parents’ marriage; the shared names, districts and chronology support the family. The parent links are probable, not proved by a single record.",
+          "scope": "Record-defined child; probable parent identity"
+        },
+        {
+          "relationship": "mother",
+          "action": "add",
+          "relative_id": "record-ancestry-mary-ann-lusted-glasgow-household-20261116",
+          "relative_name": "Mary Ann (Lusted) Glasgow",
+          "status": "probable",
+          "basis": "The birth index names John E or John Eldeit Glasgow and Mary A or Mary Ann Glasgow in New South Wales. The 1860 Camden marriage of John Eldeit Glasgow and Mary Ann Lusted identifies the parents’ marriage; the shared names, districts and chronology support the family. The parent links are probable, not proved by a single record.",
+          "scope": "Record-defined child; probable parent identity"
+        }
+      ]
     },
     {
       "catalogue_id": "record-ancestry-glasgow-thomas-ballarat-east-1869",
@@ -403062,10 +403197,10 @@
       "death_location": "",
       "occupations": [],
       "source_subject_url": "https://www.ancestry.co.uk/search/collections/1778/records/3248483",
-      "creation_status": "identity_hold",
+      "creation_status": "creation_ready",
       "draft_path": "research/ancestry-glasgow-audit/drafts/reviewed-australian-births-1884-1895-20261105.wiki",
-      "assessment": "Documentary subject; wider identity unresolved.",
-      "current_conclusion": "The birth index identifies this documentary subject; the wider identity remains unresolved.",
+      "assessment": "Casino birth record; probable child of Lewis H Glasgow and Mabel F C Glasgow. Parent links probable; no existing profile found.",
+      "current_conclusion": "Casino birth record; probable child of Lewis H Glasgow and Mabel F C Glasgow. Parent links probable; no existing profile found.",
       "reviewed_at": "2026-11-05",
       "candidates": [],
       "records": [
@@ -403089,7 +403224,27 @@
           "note": "The index lists Madoline F Glasgow, born 1892 in New South Wales. Father: Lewis H Glasgow. Mother: Mabel F C Glasgow. Registration place: Casino, New South Wales, Australia. Reference: 10279."
         }
       ],
-      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index lists Madoline F Glasgow, born 1892 in New South Wales. Father: Lewis H Glasgow. Mother: Mabel F C Glasgow. Registration place: Casino, New South Wales, Australia. Reference: 10279.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/3248483 Ancestry, Australia, Birth Index, 1788–1922: Madoline F Glasgow, record 1778/3248483].</ref>\n\n== Research Notes ==\nThe birth index identifies this documentary subject; the wider identity remains unresolved.\n\n== Sources ==\n<references />\n"
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index lists Madoline F Glasgow, born 1892 in New South Wales. Father: Lewis H Glasgow. Mother: Mabel F C Glasgow. Registration place: Casino, New South Wales, Australia. Reference: 10279.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/3248483 Ancestry, Australia, Birth Index, 1788–1922: Madoline F Glasgow, record 1778/3248483].</ref>\n\n== Research Notes ==\nThe birth index names Lewis H Glasgow and Mabel F C Glasgow at Casino. The shared names, district and chronology identify one household; the parent links are probable, not proved by a single record. Lewis H Glasgow is probably the 1866 Kingston-born son of John Eldeit Glasgow and Mary Ann Lusted. No marriage or later-life record is held.\n\n== Sources ==\n<references />\n",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "action": "add",
+          "relative_id": "record-ancestry-glasgow-lewis-h-kingston-1866",
+          "relative_name": "Lewis H Glasgow",
+          "status": "probable",
+          "basis": "The birth index names Lewis H Glasgow and Mabel F C Glasgow at Casino. The shared names, district and chronology identify one household; the parent links are probable, not proved by a single record. Lewis H Glasgow is probably the 1866 Kingston-born son of John Eldeit Glasgow and Mary Ann Lusted. No marriage or later-life record is held.",
+          "scope": "Record-defined child; probable parent identity"
+        },
+        {
+          "relationship": "mother",
+          "action": "add",
+          "relative_id": "record-ancestry-mabel-f-c-glasgow-casino-20261116",
+          "relative_name": "Mabel F C Glasgow",
+          "status": "probable",
+          "basis": "The birth index names Lewis H Glasgow and Mabel F C Glasgow at Casino. The shared names, district and chronology identify one household; the parent links are probable, not proved by a single record. Lewis H Glasgow is probably the 1866 Kingston-born son of John Eldeit Glasgow and Mary Ann Lusted. No marriage or later-life record is held.",
+          "scope": "Record-defined child; probable parent identity"
+        }
+      ]
     },
     {
       "catalogue_id": "record-ancestry-glasgow-mary-minmi-1892",
@@ -403378,10 +403533,10 @@
       "death_location": "",
       "occupations": [],
       "source_subject_url": "https://www.ancestry.co.uk/search/collections/1778/records/3247840",
-      "creation_status": "identity_hold",
+      "creation_status": "creation_ready",
       "draft_path": "research/ancestry-glasgow-audit/drafts/reviewed-australian-births-1884-1895-20261105.wiki",
-      "assessment": "Documentary subject; wider identity unresolved.",
-      "current_conclusion": "The birth index identifies this documentary subject; the wider identity remains unresolved.",
+      "assessment": "Casino birth record; probable child of Lewis H Glasgow and Mabel F C Glasgow. Parent links probable; no existing profile found.",
+      "current_conclusion": "Casino birth record; probable child of Lewis H Glasgow and Mabel F C Glasgow. Parent links probable; no existing profile found.",
       "reviewed_at": "2026-11-05",
       "candidates": [],
       "records": [
@@ -403405,7 +403560,27 @@
           "note": "The index lists Colin Glasgow, born 1894 in New South Wales. Father: Lewis H Glasgow. Mother: Mabel F C Glasgow. Registration place: Casino, New South Wales, Australia. Reference: 9845."
         }
       ],
-      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index lists Colin Glasgow, born 1894 in New South Wales. Father: Lewis H Glasgow. Mother: Mabel F C Glasgow. Registration place: Casino, New South Wales, Australia. Reference: 9845.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/3247840 Ancestry, Australia, Birth Index, 1788–1922: Colin Glasgow, record 1778/3247840].</ref>\n\n== Research Notes ==\nThe birth index identifies this documentary subject; the wider identity remains unresolved.\n\n== Sources ==\n<references />\n"
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index lists Colin Glasgow, born 1894 in New South Wales. Father: Lewis H Glasgow. Mother: Mabel F C Glasgow. Registration place: Casino, New South Wales, Australia. Reference: 9845.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/3247840 Ancestry, Australia, Birth Index, 1788–1922: Colin Glasgow, record 1778/3247840].</ref>\n\n== Research Notes ==\nThe birth index names Lewis H Glasgow and Mabel F C Glasgow at Casino. The shared names, district and chronology identify one household; the parent links are probable, not proved by a single record. Lewis H Glasgow is probably the 1866 Kingston-born son of John Eldeit Glasgow and Mary Ann Lusted. No marriage or later-life record is held.\n\n== Sources ==\n<references />\n",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "action": "add",
+          "relative_id": "record-ancestry-glasgow-lewis-h-kingston-1866",
+          "relative_name": "Lewis H Glasgow",
+          "status": "probable",
+          "basis": "The birth index names Lewis H Glasgow and Mabel F C Glasgow at Casino. The shared names, district and chronology identify one household; the parent links are probable, not proved by a single record. Lewis H Glasgow is probably the 1866 Kingston-born son of John Eldeit Glasgow and Mary Ann Lusted. No marriage or later-life record is held.",
+          "scope": "Record-defined child; probable parent identity"
+        },
+        {
+          "relationship": "mother",
+          "action": "add",
+          "relative_id": "record-ancestry-mabel-f-c-glasgow-casino-20261116",
+          "relative_name": "Mabel F C Glasgow",
+          "status": "probable",
+          "basis": "The birth index names Lewis H Glasgow and Mabel F C Glasgow at Casino. The shared names, district and chronology identify one household; the parent links are probable, not proved by a single record. Lewis H Glasgow is probably the 1866 Kingston-born son of John Eldeit Glasgow and Mary Ann Lusted. No marriage or later-life record is held.",
+          "scope": "Record-defined child; probable parent identity"
+        }
+      ]
     },
     {
       "catalogue_id": "record-ancestry-glasgow-mavis-a-tenterfield-1894",
@@ -403678,10 +403853,10 @@
       "death_location": "",
       "occupations": [],
       "source_subject_url": "https://www.ancestry.co.uk/search/collections/1778/records/3248487",
-      "creation_status": "identity_hold",
+      "creation_status": "creation_ready",
       "draft_path": "research/ancestry-glasgow-audit/drafts/reviewed-australian-births-1896-1905-20261105.wiki",
-      "assessment": "Documentary subject; wider identity unresolved.",
-      "current_conclusion": "The birth index identifies this documentary subject; the wider identity remains unresolved.",
+      "assessment": "Casino birth record; probable child of Lewis H Glasgow and Mabel F C Glasgow. Parent links probable; no existing profile found.",
+      "current_conclusion": "Casino birth record; probable child of Lewis H Glasgow and Mabel F C Glasgow. Parent links probable; no existing profile found.",
       "reviewed_at": "2026-11-05",
       "candidates": [],
       "records": [
@@ -403705,7 +403880,27 @@
           "note": "The index lists Mary C Glasgow, born 1896 in New South Wales. Father: Lewis H Glasgow. Mother: Mabel F C Glasgow. Registration place: Casino, New South Wales, Australia. Reference: 20668."
         }
       ],
-      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index lists Mary C Glasgow, born 1896 in New South Wales. Father: Lewis H Glasgow. Mother: Mabel F C Glasgow. Registration place: Casino, New South Wales, Australia. Reference: 20668.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/3248487 Ancestry, Australia, Birth Index, 1788–1922: Mary C Glasgow, record 1778/3248487].</ref>\n\n== Research Notes ==\nThe birth index identifies this documentary subject; the wider identity remains unresolved.\n\n== Sources ==\n<references />\n"
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index lists Mary C Glasgow, born 1896 in New South Wales. Father: Lewis H Glasgow. Mother: Mabel F C Glasgow. Registration place: Casino, New South Wales, Australia. Reference: 20668.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/3248487 Ancestry, Australia, Birth Index, 1788–1922: Mary C Glasgow, record 1778/3248487].</ref>\n\n== Research Notes ==\nThe birth index names Lewis H Glasgow and Mabel F C Glasgow at Casino. The shared names, district and chronology identify one household; the parent links are probable, not proved by a single record. Lewis H Glasgow is probably the 1866 Kingston-born son of John Eldeit Glasgow and Mary Ann Lusted. No marriage or later-life record is held.\n\n== Sources ==\n<references />\n",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "action": "add",
+          "relative_id": "record-ancestry-glasgow-lewis-h-kingston-1866",
+          "relative_name": "Lewis H Glasgow",
+          "status": "probable",
+          "basis": "The birth index names Lewis H Glasgow and Mabel F C Glasgow at Casino. The shared names, district and chronology identify one household; the parent links are probable, not proved by a single record. Lewis H Glasgow is probably the 1866 Kingston-born son of John Eldeit Glasgow and Mary Ann Lusted. No marriage or later-life record is held.",
+          "scope": "Record-defined child; probable parent identity"
+        },
+        {
+          "relationship": "mother",
+          "action": "add",
+          "relative_id": "record-ancestry-mabel-f-c-glasgow-casino-20261116",
+          "relative_name": "Mabel F C Glasgow",
+          "status": "probable",
+          "basis": "The birth index names Lewis H Glasgow and Mabel F C Glasgow at Casino. The shared names, district and chronology identify one household; the parent links are probable, not proved by a single record. Lewis H Glasgow is probably the 1866 Kingston-born son of John Eldeit Glasgow and Mary Ann Lusted. No marriage or later-life record is held.",
+          "scope": "Record-defined child; probable parent identity"
+        }
+      ]
     },
     {
       "catalogue_id": "record-ancestry-glasgow-charles-drayton-queensland-1896",
@@ -415464,6 +415659,182 @@
           "relative_name": "John Glasgow",
           "status": "probable",
           "basis": "Five Minmi birth registrations name John Glasgow and Isabella Glasgow together as parents; no marriage record is held.",
+          "scope": "Record-defined household; probable spouse"
+        }
+      ]
+    },
+    {
+      "catalogue_id": "record-ancestry-john-eldeit-glasgow-household-20261116",
+      "subject_id": "john-eldeit-glasgow-household-20261116",
+      "name": "John Eldeit Glasgow",
+      "first_names": [
+        "John",
+        "Eldeit"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "Male",
+      "birth": "",
+      "birth_location": "New South Wales, Australia",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/1780/records/1764828",
+      "creation_status": "creation_ready",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/eldeit-john-glasgow-20261116.wiki",
+      "assessment": "1860 Camden marriage to Mary Ann Lusted; probable father of six New South Wales-born children, 1861–1874.",
+      "current_conclusion": "1860 Camden marriage to Mary Ann Lusted; probable father of six New South Wales-born children, 1861–1874.",
+      "reviewed_at": "2026-11-16",
+      "candidates": [],
+      "records": [
+        {
+          "source_title": "Ancestry, Australia, Marriage Index, 1788–1950: John Eldeit Glasgow, record 1780/1764828",
+          "source_url": "https://www.ancestry.co.uk/search/collections/1780/records/1764828",
+          "source_type": "Provider index transcript",
+          "date": "1860",
+          "year": 1860,
+          "place": "Camden, New South Wales, Australia",
+          "indexed_facts": {
+            "Name": "John Eldeit Glasgow",
+            "Marriage Date": "1860",
+            "Marriage Place": "Camden, New South Wales",
+            "Registration Date": "1860",
+            "Registration Place": "Camden, New South Wales, Australia",
+            "Spouse": "Mary Ann Lusted",
+            "Registration Number": "1443"
+          },
+          "note": "The marriage index names John Eldeit Glasgow and Mary Ann Lusted, married in 1860. Registration place: Camden, New South Wales, Australia."
+        }
+      ],
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe 1860 Camden marriage index names John Eldeit Glasgow and Mary Ann Lusted.<ref>[https://www.ancestry.co.uk/search/collections/1780/records/1764828 Ancestry, Australia, Marriage Index, 1788–1950: John Eldeit Glasgow, record 1780/1764828].</ref>\nThe children's birth indexes cite the family across New South Wales: George Edward (1861, Tabulam), Charles H (1862, Tabulam), Lewis H (1866, Kingston), Alice (1868, Berrima), Alfred (1872, Richmond River) and Annie (1874, Richmond River).<ref>[https://www.ancestry.co.uk/search/collections/1778/records/2568697 Ancestry, Australia, Birth Index, 1788–1922: George E Glasgow, record 1778/2568697].</ref><ref>[https://www.ancestry.co.uk/search/collections/1778/records/2568250 Ancestry, Australia, Birth Index, 1788–1922: Charles H Glasgow, record 1778/2568250].</ref><ref>[https://www.ancestry.co.uk/search/collections/1778/records/2568707 Ancestry, Australia, Birth Index, 1788–1922: Lewis H Glasgow, record 1778/2568707].</ref><ref>[https://www.ancestry.co.uk/search/collections/1778/records/2568245 Ancestry, Australia, Birth Index, 1788–1922: Alice Glasgow, record 1778/2568245].</ref><ref>[https://www.ancestry.co.uk/search/collections/1778/records/2568244 Ancestry, Australia, Birth Index, 1788–1922: Alfred Glasgow, record 1778/2568244].</ref><ref>[https://www.ancestry.co.uk/search/collections/1778/records/2568246 Ancestry, Australia, Birth Index, 1788–1922: Annie Glasgow, record 1778/2568246].</ref>\n\n== Research Notes ==\nThe 1860 Camden marriage index names John Eldeit Glasgow and Mary Ann Lusted. Birth indexes name John E or John Eldeit Glasgow and Mary A or Mary Ann Glasgow as parents of George Edward (1861, Tabulam), Charles H (1862, Tabulam), Lewis H (1866, Kingston), Alice (1868, Berrima), Alfred (1872, Richmond River) and Annie (1874, Richmond River). The shared names, New South Wales districts and chronology support one family; no single record proves every parent identity. No age, parents, occupation, death or later residence is held.\n\n== Sources ==\n<references />\n",
+      "relationship_changes": [
+        {
+          "relationship": "spouse",
+          "action": "add",
+          "relative_id": "record-ancestry-mary-ann-lusted-glasgow-household-20261116",
+          "relative_name": "Mary Ann (Lusted) Glasgow",
+          "status": "proved",
+          "basis": "The 1860 Camden marriage index names John Eldeit Glasgow and Mary Ann Lusted together, registration 1443.",
+          "scope": "Record-defined marriage"
+        }
+      ]
+    },
+    {
+      "catalogue_id": "record-ancestry-mary-ann-lusted-glasgow-household-20261116",
+      "subject_id": "mary-ann-lusted-glasgow-household-20261116",
+      "name": "Mary Ann (Lusted) Glasgow",
+      "first_names": [
+        "Mary",
+        "Ann"
+      ],
+      "last_names_at_birth": [
+        "Lusted"
+      ],
+      "last_names_current": [],
+      "gender": "Female",
+      "birth": "",
+      "birth_location": "New South Wales, Australia",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/1780/records/1764828",
+      "creation_status": "creation_ready",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/lusted-mary-ann-glasgow-20261116.wiki",
+      "assessment": "1860 Camden marriage to John Eldeit Glasgow; probable mother of six New South Wales-born children, 1861–1874.",
+      "current_conclusion": "1860 Camden marriage to John Eldeit Glasgow; probable mother of six New South Wales-born children, 1861–1874.",
+      "reviewed_at": "2026-11-16",
+      "candidates": [],
+      "records": [
+        {
+          "source_title": "Ancestry, Australia, Marriage Index, 1788–1950: John Eldeit Glasgow, record 1780/1764828",
+          "source_url": "https://www.ancestry.co.uk/search/collections/1780/records/1764828",
+          "source_type": "Provider index transcript",
+          "date": "1860",
+          "year": 1860,
+          "place": "Camden, New South Wales, Australia",
+          "indexed_facts": {
+            "Name": "John Eldeit Glasgow",
+            "Marriage Date": "1860",
+            "Marriage Place": "Camden, New South Wales",
+            "Registration Date": "1860",
+            "Registration Place": "Camden, New South Wales, Australia",
+            "Spouse": "Mary Ann Lusted",
+            "Registration Number": "1443"
+          },
+          "note": "The marriage index names John Eldeit Glasgow and Mary Ann Lusted, married in 1860. Registration place: Camden, New South Wales, Australia."
+        }
+      ],
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe 1860 Camden marriage index names John Eldeit Glasgow and Mary Ann Lusted.<ref>[https://www.ancestry.co.uk/search/collections/1780/records/1764828 Ancestry, Australia, Marriage Index, 1788–1950: John Eldeit Glasgow, record 1780/1764828].</ref>\nThe children's birth indexes cite the family across New South Wales: George Edward (1861, Tabulam), Charles H (1862, Tabulam), Lewis H (1866, Kingston), Alice (1868, Berrima), Alfred (1872, Richmond River) and Annie (1874, Richmond River).<ref>[https://www.ancestry.co.uk/search/collections/1778/records/2568697 Ancestry, Australia, Birth Index, 1788–1922: George E Glasgow, record 1778/2568697].</ref><ref>[https://www.ancestry.co.uk/search/collections/1778/records/2568250 Ancestry, Australia, Birth Index, 1788–1922: Charles H Glasgow, record 1778/2568250].</ref><ref>[https://www.ancestry.co.uk/search/collections/1778/records/2568707 Ancestry, Australia, Birth Index, 1788–1922: Lewis H Glasgow, record 1778/2568707].</ref><ref>[https://www.ancestry.co.uk/search/collections/1778/records/2568245 Ancestry, Australia, Birth Index, 1788–1922: Alice Glasgow, record 1778/2568245].</ref><ref>[https://www.ancestry.co.uk/search/collections/1778/records/2568244 Ancestry, Australia, Birth Index, 1788–1922: Alfred Glasgow, record 1778/2568244].</ref><ref>[https://www.ancestry.co.uk/search/collections/1778/records/2568246 Ancestry, Australia, Birth Index, 1788–1922: Annie Glasgow, record 1778/2568246].</ref>\n\n== Research Notes ==\nThe 1860 Camden marriage index names Mary Ann Lusted and John Eldeit Glasgow. Birth indexes name Mary A or Mary Ann Glasgow and John E or John Eldeit Glasgow as parents of George Edward (1861, Tabulam), Charles H (1862, Tabulam), Lewis H (1866, Kingston), Alice (1868, Berrima), Alfred (1872, Richmond River) and Annie (1874, Richmond River). The shared names, New South Wales districts and chronology support one family; no single record proves every parent identity. No age, parents, occupation, death or later residence is held.\n\n== Sources ==\n<references />\n",
+      "relationship_changes": [
+        {
+          "relationship": "spouse",
+          "action": "add",
+          "relative_id": "record-ancestry-john-eldeit-glasgow-household-20261116",
+          "relative_name": "John Eldeit Glasgow",
+          "status": "proved",
+          "basis": "The 1860 Camden marriage index names John Eldeit Glasgow and Mary Ann Lusted together, registration 1443.",
+          "scope": "Record-defined marriage"
+        }
+      ]
+    },
+    {
+      "catalogue_id": "record-ancestry-mabel-f-c-glasgow-casino-20261116",
+      "subject_id": "mabel-f-c-glasgow-casino-20261116",
+      "name": "Mabel F C Glasgow",
+      "first_names": [
+        "Mabel",
+        "F",
+        "C"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "Female",
+      "birth": "",
+      "birth_location": "Casino, New South Wales, Australia",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/1778/records/3248483",
+      "creation_status": "creation_ready",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/mabel-f-c-glasgow-casino-20261116.wiki",
+      "assessment": "Probable spouse of Lewis H Glasgow and mother of three Casino-born children, 1892–1896; maiden name unrecorded.",
+      "current_conclusion": "Probable spouse of Lewis H Glasgow and mother of three Casino-born children, 1892–1896; maiden name unrecorded.",
+      "reviewed_at": "2026-11-16",
+      "candidates": [],
+      "records": [
+        {
+          "source_title": "Ancestry, Australia, Birth Index, 1788–1922: Madoline F Glasgow, record 1778/3248483",
+          "source_url": "https://www.ancestry.co.uk/search/collections/1778/records/3248483",
+          "source_type": "Provider index transcript",
+          "date": "1892",
+          "year": 1892,
+          "place": "New South Wales",
+          "indexed_facts": {
+            "Name": "Madoline F Glasgow",
+            "Birth Date": "1892",
+            "Birth Place": "New South Wales",
+            "Registration Year": "1892",
+            "Registration Place": "Casino, New South Wales, Australia",
+            "Father": "Lewis H Glasgow",
+            "Mother": "Mabel F C Glasgow",
+            "Registration Number": "10279"
+          },
+          "note": "The index lists Madoline F Glasgow, born 1892 in New South Wales. Father: Lewis H Glasgow. Mother: Mabel F C Glasgow. Registration place: Casino, New South Wales, Australia. Reference: 10279."
+        }
+      ],
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nBirth indexes name Mabel F C Glasgow and Lewis H Glasgow as parents of Madoline F (1892), Colin (1894) and Mary C (1896) at Casino, New South Wales.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/3248483 Ancestry, Australia, Birth Index, 1788–1922: Madoline F Glasgow, record 1778/3248483].</ref><ref>[https://www.ancestry.co.uk/search/collections/1778/records/3247840 Ancestry, Australia, Birth Index, 1788–1922: Colin Glasgow, record 1778/3247840].</ref><ref>[https://www.ancestry.co.uk/search/collections/1778/records/3248487 Ancestry, Australia, Birth Index, 1788–1922: Mary C Glasgow, record 1778/3248487].</ref>\n\n== Research Notes ==\nBirth indexes name Mabel F C Glasgow and Lewis H Glasgow as parents of Madoline F (1892), Colin (1894) and Mary C (1896) at Casino, New South Wales. The shared names, district and chronology support one family; no marriage record is held, and Mabel’s maiden name, age, parents, death and later residence are unstated.\n\n== Sources ==\n<references />\n",
+      "relationship_changes": [
+        {
+          "relationship": "spouse",
+          "action": "add",
+          "relative_id": "record-ancestry-glasgow-lewis-h-kingston-1866",
+          "relative_name": "Lewis H Glasgow",
+          "status": "probable",
+          "basis": "Three Casino birth registrations name Mabel F C Glasgow and Lewis H Glasgow together as parents; no marriage record is held.",
           "scope": "Record-defined household; probable spouse"
         }
       ]
