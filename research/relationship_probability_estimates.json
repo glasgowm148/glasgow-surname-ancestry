@@ -121347,6 +121347,66 @@
       }
     },
     {
+      "subject_id": "record-ancestry-glasgow-00e032d2d80d",
+      "relative_id": "Glasgow-1099",
+      "relationship": "father",
+      "percent": 40,
+      "assessment_status": "possible",
+      "assertion_id": "clm-fa3-record-ancestry-glasgow-00e032d2d80d-father-20261116",
+      "basis": "The 24 Oct 1641 High Church, Glasgow baptism names William Glasgow as father, wife Bessy Howie. The catalogue's William Glasgow-992 (wife Bessie Howie, Glasgow) is the same man, father Glasgow-1099 (43%, possible). Carried at 40%.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-12447167",
+        "ancestry-60143-12447168"
+      ],
+      "scope": "Index transcript only. Identification with Glasgow-992 rests on the exact wife and city; the father estimate is itself only possible.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-00e032d2d80d.html#research-findings",
+          "label": "Pre-1700 father link (FA3, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1099": "George Glasgow",
+        "record-ancestry-glasgow-00e032d2d80d": "William Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-1099",
+      "relative_id": "record-ancestry-glasgow-00e032d2d80d",
+      "relationship": "child",
+      "percent": 40,
+      "assessment_status": "possible",
+      "assertion_id": "clm-fa3-record-ancestry-glasgow-00e032d2d80d-father-20261116",
+      "basis": "The 24 Oct 1641 High Church, Glasgow baptism names William Glasgow as father, wife Bessy Howie. The catalogue's William Glasgow-992 (wife Bessie Howie, Glasgow) is the same man, father Glasgow-1099 (43%, possible). Carried at 40%.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-12447167",
+        "ancestry-60143-12447168"
+      ],
+      "scope": "Index transcript only. Identification with Glasgow-992 rests on the exact wife and city; the father estimate is itself only possible.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-00e032d2d80d.html#research-findings",
+          "label": "Pre-1700 father link (FA3, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1099": "George Glasgow",
+        "record-ancestry-glasgow-00e032d2d80d": "William Glasgow"
+      }
+    },
+    {
       "subject_id": "record-ancestry-glasgow-0a8fa08c185f",
       "relative_id": "record-ancestry-glasgow-dac0fe79cdc4",
       "relationship": "father",
@@ -121460,6 +121520,64 @@
       "profile_names": {
         "record-ancestry-glasgow-0e9389cc7835": "Walker Glasgow",
         "record-ancestry-glasgow-deea91bf414e": "Hugh Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-10162c6c81d0",
+      "relative_id": "Glasgow-1156",
+      "relationship": "father",
+      "percent": 87,
+      "assessment_status": "probable",
+      "assertion_id": "clm-fa3-record-ancestry-glasgow-10162c6c81d0-father-20261116",
+      "basis": "A baptism names James Glasgow as father, wife Bessie Whyte (child Heleene). The catalogue's James Glasgow-1150 (Inveresk, wives Agnes Duncan and Bessie Whyte) is the same man, father Glasgow-1156 (91%, proved). Carried at 87%.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-5428427"
+      ],
+      "scope": "Index transcript only. The documentary James is identified with Glasgow-1150 by the exact wife and parish, unmerged.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-10162c6c81d0.html#research-findings",
+          "label": "Pre-1700 father link (FA3, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1156": "Robert Glasgow I",
+        "record-ancestry-glasgow-10162c6c81d0": "James Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-1156",
+      "relative_id": "record-ancestry-glasgow-10162c6c81d0",
+      "relationship": "child",
+      "percent": 87,
+      "assessment_status": "probable",
+      "assertion_id": "clm-fa3-record-ancestry-glasgow-10162c6c81d0-father-20261116",
+      "basis": "A baptism names James Glasgow as father, wife Bessie Whyte (child Heleene). The catalogue's James Glasgow-1150 (Inveresk, wives Agnes Duncan and Bessie Whyte) is the same man, father Glasgow-1156 (91%, proved). Carried at 87%.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-5428427"
+      ],
+      "scope": "Index transcript only. The documentary James is identified with Glasgow-1150 by the exact wife and parish, unmerged.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-10162c6c81d0.html#research-findings",
+          "label": "Pre-1700 father link (FA3, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1156": "Robert Glasgow I",
+        "record-ancestry-glasgow-10162c6c81d0": "James Glasgow"
       }
     },
     {
@@ -121583,6 +121701,126 @@
       }
     },
     {
+      "subject_id": "record-ancestry-glasgow-499f51f341f6",
+      "relative_id": "Glasgow-1030",
+      "relationship": "father",
+      "percent": 92,
+      "assessment_status": "probable",
+      "assertion_id": "clm-fa3-record-ancestry-glasgow-499f51f341f6-father-20261116",
+      "basis": "A baptism names George Glasgow as father, wife Fanne Smith (child Margaret, 1688), in Glasgow. The catalogue's George Glasgow-1090 (wife Fanne Smith) is the same man, father Glasgow-1030 (99%, proved). Carried at 92%.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-22923399",
+        "ancestry-60143-8488873"
+      ],
+      "scope": "Index transcript only. The documentary George is identified with Glasgow-1090 by the exact wife and city, unmerged.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-499f51f341f6.html#research-findings",
+          "label": "Pre-1700 father link (FA3, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1030": "John Glasgow",
+        "record-ancestry-glasgow-499f51f341f6": "George Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-1030",
+      "relative_id": "record-ancestry-glasgow-499f51f341f6",
+      "relationship": "child",
+      "percent": 92,
+      "assessment_status": "probable",
+      "assertion_id": "clm-fa3-record-ancestry-glasgow-499f51f341f6-father-20261116",
+      "basis": "A baptism names George Glasgow as father, wife Fanne Smith (child Margaret, 1688), in Glasgow. The catalogue's George Glasgow-1090 (wife Fanne Smith) is the same man, father Glasgow-1030 (99%, proved). Carried at 92%.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-22923399",
+        "ancestry-60143-8488873"
+      ],
+      "scope": "Index transcript only. The documentary George is identified with Glasgow-1090 by the exact wife and city, unmerged.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-499f51f341f6.html#research-findings",
+          "label": "Pre-1700 father link (FA3, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1030": "John Glasgow",
+        "record-ancestry-glasgow-499f51f341f6": "George Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-50fa2b038006",
+      "relative_id": "Glasgow-1156",
+      "relationship": "father",
+      "percent": 58,
+      "assessment_status": "probable",
+      "assertion_id": "clm-fa3-record-ancestry-glasgow-50fa2b038006-father-20261116",
+      "basis": "A baptism names James Glasgow as father, wife Issobell Duffe (child Mary, 1682), in Midlothian. The catalogue's James Glasgow-2682 (wife Isobell Duffe) is the same man, father Glasgow-1156 (61%, probable). Carried at 58%.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-20577990",
+        "ancestry-60143-22707511"
+      ],
+      "scope": "Index transcript only. Same James-2682 as the 1680 entry, recorded for a second child; unmerged.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-50fa2b038006.html#research-findings",
+          "label": "Pre-1700 father link (FA3, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1156": "Robert Glasgow I",
+        "record-ancestry-glasgow-50fa2b038006": "James Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-1156",
+      "relative_id": "record-ancestry-glasgow-50fa2b038006",
+      "relationship": "child",
+      "percent": 58,
+      "assessment_status": "probable",
+      "assertion_id": "clm-fa3-record-ancestry-glasgow-50fa2b038006-father-20261116",
+      "basis": "A baptism names James Glasgow as father, wife Issobell Duffe (child Mary, 1682), in Midlothian. The catalogue's James Glasgow-2682 (wife Isobell Duffe) is the same man, father Glasgow-1156 (61%, probable). Carried at 58%.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-20577990",
+        "ancestry-60143-22707511"
+      ],
+      "scope": "Index transcript only. Same James-2682 as the 1680 entry, recorded for a second child; unmerged.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-50fa2b038006.html#research-findings",
+          "label": "Pre-1700 father link (FA3, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1156": "Robert Glasgow I",
+        "record-ancestry-glasgow-50fa2b038006": "James Glasgow"
+      }
+    },
+    {
       "subject_id": "record-ancestry-glasgow-567c172632b1",
       "relative_id": "record-ancestry-glasgow-38ab11213a0b",
       "relationship": "father",
@@ -121638,6 +121876,124 @@
       "profile_names": {
         "record-ancestry-glasgow-38ab11213a0b": "David Glasgow",
         "record-ancestry-glasgow-567c172632b1": "Mary Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-57d865127b24",
+      "relative_id": "Glasgow-1156",
+      "relationship": "father",
+      "percent": 50,
+      "assessment_status": "possible",
+      "assertion_id": "clm-fa3-record-ancestry-glasgow-57d865127b24-father-20261116",
+      "basis": "A baptism names James Glasgow as father, wife Duffe (child James, 1679), in Midlothian. The catalogue's James Glasgow-2682 (wife Isobell Duffe) is the likely same man, father Glasgow-1156 (61%, probable). Carried at 50% because the recorded wife forename (Elizabeth) differs from Isobell.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-8973395"
+      ],
+      "scope": "Index transcript only. The wife forename Elizabeth differs from Isobell; either a transcription variant or a different marriage, so this link is weaker than the other Duffe entries.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-57d865127b24.html#research-findings",
+          "label": "Pre-1700 father link (FA3, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1156": "Robert Glasgow I",
+        "record-ancestry-glasgow-57d865127b24": "James Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-1156",
+      "relative_id": "record-ancestry-glasgow-57d865127b24",
+      "relationship": "child",
+      "percent": 50,
+      "assessment_status": "possible",
+      "assertion_id": "clm-fa3-record-ancestry-glasgow-57d865127b24-father-20261116",
+      "basis": "A baptism names James Glasgow as father, wife Duffe (child James, 1679), in Midlothian. The catalogue's James Glasgow-2682 (wife Isobell Duffe) is the likely same man, father Glasgow-1156 (61%, probable). Carried at 50% because the recorded wife forename (Elizabeth) differs from Isobell.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-8973395"
+      ],
+      "scope": "Index transcript only. The wife forename Elizabeth differs from Isobell; either a transcription variant or a different marriage, so this link is weaker than the other Duffe entries.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-57d865127b24.html#research-findings",
+          "label": "Pre-1700 father link (FA3, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1156": "Robert Glasgow I",
+        "record-ancestry-glasgow-57d865127b24": "James Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-614aa110d154",
+      "relative_id": "Glasgow-1030",
+      "relationship": "father",
+      "percent": 84,
+      "assessment_status": "probable",
+      "assertion_id": "clm-fa3-record-ancestry-glasgow-614aa110d154-father-20261116",
+      "basis": "The 4 Apr 1639 Duddingston baptism names Johne Glasgow as father, wife Margaret Sluman. The catalogue's John Glasgow-1088 (wife Margaret Sluman) is the same man, father Glasgow-1030 (88%, probable). Carried at 84%.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-5311060",
+        "ancestry-60143-5311061"
+      ],
+      "scope": "Index transcript only; the documentary John is identified with Glasgow-1088 by name, parish and wife, unmerged.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-614aa110d154.html#research-findings",
+          "label": "Pre-1700 father link (FA3, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1030": "John Glasgow",
+        "record-ancestry-glasgow-614aa110d154": "Johne Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-1030",
+      "relative_id": "record-ancestry-glasgow-614aa110d154",
+      "relationship": "child",
+      "percent": 84,
+      "assessment_status": "probable",
+      "assertion_id": "clm-fa3-record-ancestry-glasgow-614aa110d154-father-20261116",
+      "basis": "The 4 Apr 1639 Duddingston baptism names Johne Glasgow as father, wife Margaret Sluman. The catalogue's John Glasgow-1088 (wife Margaret Sluman) is the same man, father Glasgow-1030 (88%, probable). Carried at 84%.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-5311060",
+        "ancestry-60143-5311061"
+      ],
+      "scope": "Index transcript only; the documentary John is identified with Glasgow-1088 by name, parish and wife, unmerged.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-614aa110d154.html#research-findings",
+          "label": "Pre-1700 father link (FA3, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1030": "John Glasgow",
+        "record-ancestry-glasgow-614aa110d154": "Johne Glasgow"
       }
     },
     {
@@ -121700,6 +122056,124 @@
       "profile_names": {
         "Glasgow-2715": "Glasgow-2715 William Glasgow",
         "record-ancestry-glasgow-617e7370de32": "Isabel Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-6af633ce84e1",
+      "relative_id": "Glasgow-1156",
+      "relationship": "father",
+      "percent": 87,
+      "assessment_status": "probable",
+      "assertion_id": "clm-fa3-record-ancestry-glasgow-6af633ce84e1-father-20261116",
+      "basis": "A baptism names James Glasgow as father, wife Agnes Duncan (child Johne). The catalogue's James Glasgow-1150 (Inveresk, wives Agnes Duncan and Bessie Whyte) is the same man, father Glasgow-1156 (91%, proved). Carried at 87%.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-11700642"
+      ],
+      "scope": "Index transcript only. Same James-1150 as the Bessie Whyte entry, recorded for a second child; unmerged.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-6af633ce84e1.html#research-findings",
+          "label": "Pre-1700 father link (FA3, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1156": "Robert Glasgow I",
+        "record-ancestry-glasgow-6af633ce84e1": "James Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-1156",
+      "relative_id": "record-ancestry-glasgow-6af633ce84e1",
+      "relationship": "child",
+      "percent": 87,
+      "assessment_status": "probable",
+      "assertion_id": "clm-fa3-record-ancestry-glasgow-6af633ce84e1-father-20261116",
+      "basis": "A baptism names James Glasgow as father, wife Agnes Duncan (child Johne). The catalogue's James Glasgow-1150 (Inveresk, wives Agnes Duncan and Bessie Whyte) is the same man, father Glasgow-1156 (91%, proved). Carried at 87%.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-11700642"
+      ],
+      "scope": "Index transcript only. Same James-1150 as the Bessie Whyte entry, recorded for a second child; unmerged.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-6af633ce84e1.html#research-findings",
+          "label": "Pre-1700 father link (FA3, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1156": "Robert Glasgow I",
+        "record-ancestry-glasgow-6af633ce84e1": "James Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-75a6220741ea",
+      "relative_id": "Glasgow-1604",
+      "relationship": "father",
+      "percent": 24,
+      "assessment_status": "uncertain",
+      "assertion_id": "clm-fa3-record-ancestry-glasgow-75a6220741ea-father-20261116",
+      "basis": "A baptism names John Glasgow as father, wife Jeane Cunyinghame (child John, 1690). The catalogue's John Glasgow-1073 M.A. (wife Jean Cunningham) is the same man, father Glasgow-1604 (26%, uncertain). Carried at 24%.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-11304413",
+        "ancestry-60143-1654520"
+      ],
+      "scope": "Index transcript only. The father estimate for Glasgow-1073 is itself only uncertain; the identity with him rests on name, wife and period.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-75a6220741ea.html#research-findings",
+          "label": "Pre-1700 father link (FA3, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1604": "John Glasgow",
+        "record-ancestry-glasgow-75a6220741ea": "John Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-1604",
+      "relative_id": "record-ancestry-glasgow-75a6220741ea",
+      "relationship": "child",
+      "percent": 24,
+      "assessment_status": "uncertain",
+      "assertion_id": "clm-fa3-record-ancestry-glasgow-75a6220741ea-father-20261116",
+      "basis": "A baptism names John Glasgow as father, wife Jeane Cunyinghame (child John, 1690). The catalogue's John Glasgow-1073 M.A. (wife Jean Cunningham) is the same man, father Glasgow-1604 (26%, uncertain). Carried at 24%.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-11304413",
+        "ancestry-60143-1654520"
+      ],
+      "scope": "Index transcript only. The father estimate for Glasgow-1073 is itself only uncertain; the identity with him rests on name, wife and period.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-75a6220741ea.html#research-findings",
+          "label": "Pre-1700 father link (FA3, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1604": "John Glasgow",
+        "record-ancestry-glasgow-75a6220741ea": "John Glasgow"
       }
     },
     {
@@ -121877,6 +122351,64 @@
       }
     },
     {
+      "subject_id": "record-ancestry-glasgow-88a39f330eb0",
+      "relative_id": "Glasgow-1148",
+      "relationship": "father",
+      "percent": 94,
+      "assessment_status": "probable",
+      "assertion_id": "clm-fa3-record-ancestry-glasgow-88a39f330eb0-father-20261116",
+      "basis": "A baptism names Robert Glasgow as father, wife Euphame Laurimer (child Kathrin). The catalogue's Robert Glasgow-1149 (Inveresk, wife Euphame Laurimer) is the same man, father Glasgow-1148 (97%, proved). Carried at 94%.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-7621801"
+      ],
+      "scope": "Index transcript only. The documentary Robert is identified with Glasgow-1149 by the exact wife and parish, unmerged.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-88a39f330eb0.html#research-findings",
+          "label": "Pre-1700 father link (FA3, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1148": "Alexander Glasgow",
+        "record-ancestry-glasgow-88a39f330eb0": "Robert Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-1148",
+      "relative_id": "record-ancestry-glasgow-88a39f330eb0",
+      "relationship": "child",
+      "percent": 94,
+      "assessment_status": "probable",
+      "assertion_id": "clm-fa3-record-ancestry-glasgow-88a39f330eb0-father-20261116",
+      "basis": "A baptism names Robert Glasgow as father, wife Euphame Laurimer (child Kathrin). The catalogue's Robert Glasgow-1149 (Inveresk, wife Euphame Laurimer) is the same man, father Glasgow-1148 (97%, proved). Carried at 94%.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-7621801"
+      ],
+      "scope": "Index transcript only. The documentary Robert is identified with Glasgow-1149 by the exact wife and parish, unmerged.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-88a39f330eb0.html#research-findings",
+          "label": "Pre-1700 father link (FA3, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1148": "Alexander Glasgow",
+        "record-ancestry-glasgow-88a39f330eb0": "Robert Glasgow"
+      }
+    },
+    {
       "subject_id": "record-ancestry-glasgow-93e4883c09d7",
       "relative_id": "record-fa3-william-glasgow-richmond-yorks",
       "relationship": "father",
@@ -121993,6 +122525,180 @@
       }
     },
     {
+      "subject_id": "record-ancestry-glasgow-b351597a7857",
+      "relative_id": "Glasgow-1105",
+      "relationship": "father",
+      "percent": 93,
+      "assessment_status": "probable",
+      "assertion_id": "clm-fa3-record-ancestry-glasgow-b351597a7857-father-20261116",
+      "basis": "The 14 Oct 1704 Kilwinning marriage names John Glasgow and Mary Gemill. The catalogue's John Glasgow-1927 (wife Mary Gemill) is the same man, father Glasgow-1105 (98%, proved). Carried at 93%.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60144-4128220"
+      ],
+      "scope": "Index transcript only. The documentary groom is identified with Glasgow-1927 by the exact spouse; pre-1855 marriage entries name no parents, so this rests on the twin.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-b351597a7857.html#research-findings",
+          "label": "Pre-1700 father link (FA3, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1105": "John Glasgow",
+        "record-ancestry-glasgow-b351597a7857": "John Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-1105",
+      "relative_id": "record-ancestry-glasgow-b351597a7857",
+      "relationship": "child",
+      "percent": 93,
+      "assessment_status": "probable",
+      "assertion_id": "clm-fa3-record-ancestry-glasgow-b351597a7857-father-20261116",
+      "basis": "The 14 Oct 1704 Kilwinning marriage names John Glasgow and Mary Gemill. The catalogue's John Glasgow-1927 (wife Mary Gemill) is the same man, father Glasgow-1105 (98%, proved). Carried at 93%.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60144-4128220"
+      ],
+      "scope": "Index transcript only. The documentary groom is identified with Glasgow-1927 by the exact spouse; pre-1855 marriage entries name no parents, so this rests on the twin.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-b351597a7857.html#research-findings",
+          "label": "Pre-1700 father link (FA3, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1105": "John Glasgow",
+        "record-ancestry-glasgow-b351597a7857": "John Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-b9dbd103f1db",
+      "relative_id": "Glasgow-1073",
+      "relationship": "father",
+      "percent": 92,
+      "assessment_status": "probable",
+      "assertion_id": "clm-fa3-record-ancestry-glasgow-b9dbd103f1db-father-20261116",
+      "basis": "The 15 Dec 1726 Kilbirnie marriage names Robert Glasgow and Margarat Allan. The catalogue's Robert Glasgow-1075 (wife Margaret Allan) is the same man, father Glasgow-1073 (99%, proved). Carried at 92%.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60144-1793735"
+      ],
+      "scope": "Index transcript only. The documentary groom is identified with Glasgow-1075 by the exact spouse; the marriage names no parents, so this rests on the twin.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-b9dbd103f1db.html#research-findings",
+          "label": "Pre-1700 father link (FA3, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1073": "John Glasgow M.A",
+        "record-ancestry-glasgow-b9dbd103f1db": "Robert Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-1073",
+      "relative_id": "record-ancestry-glasgow-b9dbd103f1db",
+      "relationship": "child",
+      "percent": 92,
+      "assessment_status": "probable",
+      "assertion_id": "clm-fa3-record-ancestry-glasgow-b9dbd103f1db-father-20261116",
+      "basis": "The 15 Dec 1726 Kilbirnie marriage names Robert Glasgow and Margarat Allan. The catalogue's Robert Glasgow-1075 (wife Margaret Allan) is the same man, father Glasgow-1073 (99%, proved). Carried at 92%.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60144-1793735"
+      ],
+      "scope": "Index transcript only. The documentary groom is identified with Glasgow-1075 by the exact spouse; the marriage names no parents, so this rests on the twin.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-b9dbd103f1db.html#research-findings",
+          "label": "Pre-1700 father link (FA3, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1073": "John Glasgow M.A",
+        "record-ancestry-glasgow-b9dbd103f1db": "Robert Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-c35dedfe4364",
+      "relative_id": "Glasgow-3375",
+      "relationship": "father",
+      "percent": 22,
+      "assessment_status": "uncertain",
+      "assertion_id": "clm-fa3-record-ancestry-glasgow-c35dedfe4364-father-20261116",
+      "basis": "A baptism names James Glasgow as father, wife Margaret Park (child James, 1689), at Kilwinning. The catalogue's James Glasgow-3105 (wife Margaret Park, Kilwinning) is the same man, father Glasgow-3375 (24%, uncertain). Carried at 22%.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-11677080"
+      ],
+      "scope": "Index transcript only. The father estimate for Glasgow-3105 is itself only uncertain (24%); the identity with him rests on the exact wife and parish.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-c35dedfe4364.html#research-findings",
+          "label": "Pre-1700 father link (FA3, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-3375": "John Glasgow",
+        "record-ancestry-glasgow-c35dedfe4364": "James Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-3375",
+      "relative_id": "record-ancestry-glasgow-c35dedfe4364",
+      "relationship": "child",
+      "percent": 22,
+      "assessment_status": "uncertain",
+      "assertion_id": "clm-fa3-record-ancestry-glasgow-c35dedfe4364-father-20261116",
+      "basis": "A baptism names James Glasgow as father, wife Margaret Park (child James, 1689), at Kilwinning. The catalogue's James Glasgow-3105 (wife Margaret Park, Kilwinning) is the same man, father Glasgow-3375 (24%, uncertain). Carried at 22%.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-11677080"
+      ],
+      "scope": "Index transcript only. The father estimate for Glasgow-3105 is itself only uncertain (24%); the identity with him rests on the exact wife and parish.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-c35dedfe4364.html#research-findings",
+          "label": "Pre-1700 father link (FA3, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-3375": "John Glasgow",
+        "record-ancestry-glasgow-c35dedfe4364": "James Glasgow"
+      }
+    },
+    {
       "subject_id": "record-ancestry-glasgow-c3cf06b7e0b7",
       "relative_id": "record-ancestry-glasgow-75915677543d",
       "relationship": "father",
@@ -122048,6 +122754,122 @@
       "profile_names": {
         "record-ancestry-glasgow-75915677543d": "James Glasgow",
         "record-ancestry-glasgow-c3cf06b7e0b7": "John Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-c49474aa1eac",
+      "relative_id": "record-ancestry-glasgow-00e032d2d80d",
+      "relationship": "father",
+      "percent": 90,
+      "assessment_status": "proved",
+      "assertion_id": "clm-fa3-record-ancestry-glasgow-c49474aa1eac-father-20261116",
+      "basis": "The 24 Oct 1641 High Church, Glasgow baptism of Wm. Glasgow names father William Glasgow and mother Bessy Howie. The father is the documentary person record-ancestry-glasgow-00e032d2d80d, created from that same entry's parent field. The entry directly names the father, so this is carried at 90%.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-12447168"
+      ],
+      "scope": "Index transcript only; the register is uninspected. The named father is a record-defined person (not yet merged with a numbered profile); the mother is a separate question.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-c49474aa1eac.html#research-findings",
+          "label": "Pre-1700 father link (FA3, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "record-ancestry-glasgow-00e032d2d80d": "William Glasgow",
+        "record-ancestry-glasgow-c49474aa1eac": "Wm. Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-00e032d2d80d",
+      "relative_id": "record-ancestry-glasgow-c49474aa1eac",
+      "relationship": "child",
+      "percent": 90,
+      "assessment_status": "proved",
+      "assertion_id": "clm-fa3-record-ancestry-glasgow-c49474aa1eac-father-20261116",
+      "basis": "The 24 Oct 1641 High Church, Glasgow baptism of Wm. Glasgow names father William Glasgow and mother Bessy Howie. The father is the documentary person record-ancestry-glasgow-00e032d2d80d, created from that same entry's parent field. The entry directly names the father, so this is carried at 90%.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-12447168"
+      ],
+      "scope": "Index transcript only; the register is uninspected. The named father is a record-defined person (not yet merged with a numbered profile); the mother is a separate question.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-c49474aa1eac.html#research-findings",
+          "label": "Pre-1700 father link (FA3, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "record-ancestry-glasgow-00e032d2d80d": "William Glasgow",
+        "record-ancestry-glasgow-c49474aa1eac": "Wm. Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-cd75dd899ec7",
+      "relative_id": "Glasgow-1156",
+      "relationship": "father",
+      "percent": 58,
+      "assessment_status": "probable",
+      "assertion_id": "clm-fa3-record-ancestry-glasgow-cd75dd899ec7-father-20261116",
+      "basis": "A baptism names James Glasgow as father, wife Issobell Duff (child James, 1680), in Midlothian. The catalogue's James Glasgow-2682 (wife Isobell Duffe) is the same man, father Glasgow-1156 (61%, probable). Carried at 58%.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-22217758"
+      ],
+      "scope": "Index transcript only. The documentary James is identified with Glasgow-2682 by the exact wife surname Duff/Duffe; the father figure is itself only probable.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-cd75dd899ec7.html#research-findings",
+          "label": "Pre-1700 father link (FA3, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1156": "Robert Glasgow I",
+        "record-ancestry-glasgow-cd75dd899ec7": "James Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-1156",
+      "relative_id": "record-ancestry-glasgow-cd75dd899ec7",
+      "relationship": "child",
+      "percent": 58,
+      "assessment_status": "probable",
+      "assertion_id": "clm-fa3-record-ancestry-glasgow-cd75dd899ec7-father-20261116",
+      "basis": "A baptism names James Glasgow as father, wife Issobell Duff (child James, 1680), in Midlothian. The catalogue's James Glasgow-2682 (wife Isobell Duffe) is the same man, father Glasgow-1156 (61%, probable). Carried at 58%.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-22217758"
+      ],
+      "scope": "Index transcript only. The documentary James is identified with Glasgow-2682 by the exact wife surname Duff/Duffe; the father figure is itself only probable.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-cd75dd899ec7.html#research-findings",
+          "label": "Pre-1700 father link (FA3, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1156": "Robert Glasgow I",
+        "record-ancestry-glasgow-cd75dd899ec7": "James Glasgow"
       }
     },
     {
@@ -122109,6 +122931,66 @@
       }
     },
     {
+      "subject_id": "record-ancestry-glasgow-d8005686c67d",
+      "relative_id": "Glasgow-991",
+      "relationship": "father",
+      "percent": 80,
+      "assessment_status": "probable",
+      "assertion_id": "clm-fa3-record-ancestry-glasgow-d8005686c67d-father-20261116",
+      "basis": "The 25 Nov 1632 Inveresk-with-Musselburgh baptism names Alexander Glasgow as father. The catalogue's Alexander Glasgow-1148 (Inveresk, wife Jannet Clerk) is the same man, and his father is Glasgow-991 (84%, probable). The documentary person and Glasgow-1148 are kept separate, so the link is carried at 80%.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-18392737",
+        "ancestry-60143-18392738"
+      ],
+      "scope": "Index transcript only; register uninspected. Identity of this documentary Alexander with Glasgow-1148 rests on the exact name, parish and wife, and is not merged.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-d8005686c67d.html#research-findings",
+          "label": "Pre-1700 father link (FA3, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-991": "James Glasgow",
+        "record-ancestry-glasgow-d8005686c67d": "Alexander Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-991",
+      "relative_id": "record-ancestry-glasgow-d8005686c67d",
+      "relationship": "child",
+      "percent": 80,
+      "assessment_status": "probable",
+      "assertion_id": "clm-fa3-record-ancestry-glasgow-d8005686c67d-father-20261116",
+      "basis": "The 25 Nov 1632 Inveresk-with-Musselburgh baptism names Alexander Glasgow as father. The catalogue's Alexander Glasgow-1148 (Inveresk, wife Jannet Clerk) is the same man, and his father is Glasgow-991 (84%, probable). The documentary person and Glasgow-1148 are kept separate, so the link is carried at 80%.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-18392737",
+        "ancestry-60143-18392738"
+      ],
+      "scope": "Index transcript only; register uninspected. Identity of this documentary Alexander with Glasgow-1148 rests on the exact name, parish and wife, and is not merged.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-d8005686c67d.html#research-findings",
+          "label": "Pre-1700 father link (FA3, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-991": "James Glasgow",
+        "record-ancestry-glasgow-d8005686c67d": "Alexander Glasgow"
+      }
+    },
+    {
       "subject_id": "record-ancestry-glasgow-f69bb7008da6",
       "relative_id": "Glasgow-1460",
       "relationship": "father",
@@ -122164,6 +123046,306 @@
       "profile_names": {
         "Glasgow-1460": "Glasgow-1460 John Glasgow",
         "record-ancestry-glasgow-f69bb7008da6": "Peter Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-3110",
+      "relative_id": "Glasgow-992",
+      "relationship": "father",
+      "percent": 22,
+      "assessment_status": "uncertain",
+      "assertion_id": "clm-fa3b-glasgow-3110-father-20261116",
+      "basis": "The unnamed Glasgow recorded about 1647 fits the documented child-bearing span (1636-1648) of William Glasgow-992 and Bessie Howie, who live in the Glasgow area; the profile has no forename or locality, so this is a low-confidence household-chronology placement only, not a record statement.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "held-e-9e0b7627cc46",
+        "ancestry-9841-114661708"
+      ],
+      "scope": "Unnamed profile; no locality; several Glasgow households of the period are not excluded.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-3110.html#research-findings",
+          "label": "Pre-1700 cluster father (FA3b, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-3110": "Unknown Glasgow",
+        "Glasgow-992": "William Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-992",
+      "relative_id": "Glasgow-3110",
+      "relationship": "child",
+      "percent": 22,
+      "assessment_status": "uncertain",
+      "assertion_id": "clm-fa3b-glasgow-3110-father-20261116",
+      "basis": "The unnamed Glasgow recorded about 1647 fits the documented child-bearing span (1636-1648) of William Glasgow-992 and Bessie Howie, who live in the Glasgow area; the profile has no forename or locality, so this is a low-confidence household-chronology placement only, not a record statement.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "held-e-9e0b7627cc46",
+        "ancestry-9841-114661708"
+      ],
+      "scope": "Unnamed profile; no locality; several Glasgow households of the period are not excluded.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-3110.html#research-findings",
+          "label": "Pre-1700 cluster father (FA3b, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-3110": "Unknown Glasgow",
+        "Glasgow-992": "William Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-3111",
+      "relative_id": "Glasgow-3118",
+      "relationship": "father",
+      "percent": 32,
+      "assessment_status": "uncertain",
+      "assertion_id": "clm-fa3b-glasgow-3111-father-20261116",
+      "basis": "Mary Glasgow (b. 1671) fits the age gap and maternal age under Alexander Glasgow-3118 with wife Margaret, and the forename Mary recurs in two independent descendant branches below 3118 (a naming echo supporting her as a missing child of that household). No locality comparison is possible, so this stays uncertain.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "opr-kirknewton-alexander-1673",
+        "kirknewton-alexander-smith-1667"
+      ],
+      "scope": "No locality; naming echoes are supporting context, not proof; other Glasgow households of the period are not excluded.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-3111.html#research-findings",
+          "label": "Pre-1700 cluster father (FA3b, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-3111": "Mary Glasgow",
+        "Glasgow-3118": "Alexander Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-3118",
+      "relative_id": "Glasgow-3111",
+      "relationship": "child",
+      "percent": 32,
+      "assessment_status": "uncertain",
+      "assertion_id": "clm-fa3b-glasgow-3111-father-20261116",
+      "basis": "Mary Glasgow (b. 1671) fits the age gap and maternal age under Alexander Glasgow-3118 with wife Margaret, and the forename Mary recurs in two independent descendant branches below 3118 (a naming echo supporting her as a missing child of that household). No locality comparison is possible, so this stays uncertain.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "opr-kirknewton-alexander-1673",
+        "kirknewton-alexander-smith-1667"
+      ],
+      "scope": "No locality; naming echoes are supporting context, not proof; other Glasgow households of the period are not excluded.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-3111.html#research-findings",
+          "label": "Pre-1700 cluster father (FA3b, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-3111": "Mary Glasgow",
+        "Glasgow-3118": "Alexander Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-3301",
+      "relative_id": "Glasgow-2682",
+      "relationship": "father",
+      "percent": 30,
+      "assessment_status": "uncertain",
+      "assertion_id": "clm-fa3b-glasgow-3301-father-20261116",
+      "basis": "Barbara Glasgow (b. 1690) falls between the documented children (c.1677-1691) of James Glasgow-2682 and Isobell Duffe, with a plausible maternal age (30); a household-chronology placement, not a record statement.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "edinburgh-jean-1677-duffe-household",
+        "edinburgh-james-robert-apprenticeship-1641"
+      ],
+      "scope": "No locality; the couple reshaped by other recent links; other households not excluded.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-3301.html#research-findings",
+          "label": "Pre-1700 cluster father (FA3b, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-2682": "James Glasgow",
+        "Glasgow-3301": "Barbara Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-2682",
+      "relative_id": "Glasgow-3301",
+      "relationship": "child",
+      "percent": 30,
+      "assessment_status": "uncertain",
+      "assertion_id": "clm-fa3b-glasgow-3301-father-20261116",
+      "basis": "Barbara Glasgow (b. 1690) falls between the documented children (c.1677-1691) of James Glasgow-2682 and Isobell Duffe, with a plausible maternal age (30); a household-chronology placement, not a record statement.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "edinburgh-jean-1677-duffe-household",
+        "edinburgh-james-robert-apprenticeship-1641"
+      ],
+      "scope": "No locality; the couple reshaped by other recent links; other households not excluded.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-3301.html#research-findings",
+          "label": "Pre-1700 cluster father (FA3b, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-2682": "James Glasgow",
+        "Glasgow-3301": "Barbara Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-3350",
+      "relative_id": "Glasgow-1518",
+      "relationship": "father",
+      "percent": 20,
+      "assessment_status": "uncertain",
+      "assertion_id": "clm-fa3b-glasgow-3350-father-20261116",
+      "basis": "The unnamed Glasgow recorded about 1655 has a plausible 20-year gap below David Glasgow-1518, whose mapped place is about 14 km from the subject Strathblane area; unnamed, so this is a low-confidence locality/chronology placement only.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "held-e-839d54de25b6",
+        "ancestry-60144-2822316"
+      ],
+      "scope": "Unnamed profile; the Strathblane mapping is unproved; not a record statement.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-3350.html#research-findings",
+          "label": "Pre-1700 cluster father (FA3b, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1518": "David Glasgow",
+        "Glasgow-3350": "Unknown Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-1518",
+      "relative_id": "Glasgow-3350",
+      "relationship": "child",
+      "percent": 20,
+      "assessment_status": "uncertain",
+      "assertion_id": "clm-fa3b-glasgow-3350-father-20261116",
+      "basis": "The unnamed Glasgow recorded about 1655 has a plausible 20-year gap below David Glasgow-1518, whose mapped place is about 14 km from the subject Strathblane area; unnamed, so this is a low-confidence locality/chronology placement only.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "held-e-839d54de25b6",
+        "ancestry-60144-2822316"
+      ],
+      "scope": "Unnamed profile; the Strathblane mapping is unproved; not a record statement.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-3350.html#research-findings",
+          "label": "Pre-1700 cluster father (FA3b, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1518": "David Glasgow",
+        "Glasgow-3350": "Unknown Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-3942",
+      "relative_id": "Glasgow-3118",
+      "relationship": "father",
+      "percent": 30,
+      "assessment_status": "uncertain",
+      "assertion_id": "clm-fa3b-glasgow-3942-father-20261116",
+      "basis": "Katherine Glasgow (b. 1695) fits the age gap under Alexander Glasgow-3118 with wife Margaret, and the uncommon forename Katherine recurs in two distinct descendant branches (a naming echo). No locality comparison is possible, so this stays uncertain.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "opr-kirknewton-alexander-1673",
+        "kirknewton-alexander-smith-1667"
+      ],
+      "scope": "No locality; naming echoes are supporting context, not proof.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-3942.html#research-findings",
+          "label": "Pre-1700 cluster father (FA3b, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-3118": "Alexander Glasgow",
+        "Glasgow-3942": "Katherine Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-3118",
+      "relative_id": "Glasgow-3942",
+      "relationship": "child",
+      "percent": 30,
+      "assessment_status": "uncertain",
+      "assertion_id": "clm-fa3b-glasgow-3942-father-20261116",
+      "basis": "Katherine Glasgow (b. 1695) fits the age gap under Alexander Glasgow-3118 with wife Margaret, and the uncommon forename Katherine recurs in two distinct descendant branches (a naming echo). No locality comparison is possible, so this stays uncertain.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "opr-kirknewton-alexander-1673",
+        "kirknewton-alexander-smith-1667"
+      ],
+      "scope": "No locality; naming echoes are supporting context, not proof.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-3942.html#research-findings",
+          "label": "Pre-1700 cluster father (FA3b, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-3118": "Alexander Glasgow",
+        "Glasgow-3942": "Katherine Glasgow"
       }
     },
     {
