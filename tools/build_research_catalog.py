@@ -370,14 +370,26 @@ def sync_generated_marriage_statistics() -> None:
     """Refresh only the generated marriage panel without rebuilding person pages."""
     people = json.loads((DATA_DIR / "people.json").read_text(encoding="utf-8"))["people"]
     panel = _marriage_statistics_panel(people, "/catalogue/")
+    bars = re.search(r'<ol class="statistics-bars">(.*?)</ol>', panel, re.S)
+    if not bars:
+        raise RuntimeError("Generated marriage statistics bars are empty")
+    row_markup = bars.group(1)
+    # Replace only the bar rows inside the marriage panel. This keeps whatever
+    # panel wrapper the target uses: the flat generated artifact, or the
+    # redesigned statistics page that adds id="married-surnames" and moves the
+    # method note into a <details>. Matching stops at the enclosing </section>,
+    # so it never reaches a neighbouring panel.
     pattern = re.compile(
-        r'<section class="statistics-panel"><h3>(?:Surnames of women who married Glasgow|Surnames joined by marriage to Glasgow)</h3>.*?</section>'
+        r'(<h3>(?:Surnames of women who married Glasgow|Surnames joined by marriage to Glasgow)</h3>'
+        r'(?:(?!</section>).)*?<ol class="statistics-bars">).*?(</ol>)',
+        re.S,
     )
     artifact_path = DATA_DIR / "catalogue-statistics.json"
     artifact = json.loads(artifact_path.read_text(encoding="utf-8"))
     for path in (artifact_path, WEB_DIR / "statistics" / "index.html"):
         html = artifact["html"] if path == artifact_path else path.read_text(encoding="utf-8")
-        updated, count = pattern.subn(panel, html, count=1)
+        updated, count = pattern.subn(
+            lambda match: match.group(1) + row_markup + match.group(2), html, count=1)
         if count != 1:
             raise RuntimeError(f"Marriage statistics panel not found in {path}")
         if path == artifact_path:
