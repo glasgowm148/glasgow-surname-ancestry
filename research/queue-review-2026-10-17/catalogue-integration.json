@@ -401510,10 +401510,10 @@
       "death_location": "",
       "occupations": [],
       "source_subject_url": "https://www.ancestry.co.uk/search/collections/1778/records/2568706",
-      "creation_status": "identity_hold",
+      "creation_status": "creation_ready",
       "draft_path": "research/ancestry-glasgow-audit/drafts/reviewed-australian-births-1877-1883-20261105.wiki",
-      "assessment": "Documentary subject; wider identity unresolved.",
-      "current_conclusion": "The birth index identifies this documentary subject; the wider identity remains unresolved.",
+      "assessment": "Birth index names the parents at New South Wales; probable child of William Henry Glasgow and Rebecca Jane (Ross) Glasgow. No existing profile was found; creation ready with probable parent links.",
+      "current_conclusion": "Birth index names the parents at New South Wales; probable child of William Henry Glasgow and Rebecca Jane (Ross) Glasgow. No existing profile was found; creation ready with probable parent links.",
       "reviewed_at": "2026-11-05",
       "candidates": [],
       "records": [
@@ -401537,7 +401537,27 @@
           "note": "The index lists Karl F S Glasgow, born 1883 in New South Wales. Father: William H Glasgow. Mother: Rebecca J Glasgow. Registration place: Narrandera, New South Wales, Australia. Reference: 25126."
         }
       ],
-      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index lists Karl F S Glasgow, born 1883 in New South Wales. Father: William H Glasgow. Mother: Rebecca J Glasgow. Registration place: Narrandera, New South Wales, Australia. Reference: 25126.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/2568706 Ancestry, Australia, Birth Index, 1788–1922: Karl F S Glasgow, record 1778/2568706].</ref>\n\n== Research Notes ==\nThe birth index identifies this documentary subject; the wider identity remains unresolved.\n\n== Sources ==\n<references />\n"
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index lists Karl F S Glasgow, born 1883 in New South Wales. Father: William H Glasgow. Mother: Rebecca J Glasgow. Registration place: Narrandera, New South Wales, Australia. Reference: 25126.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/2568706 Ancestry, Australia, Birth Index, 1788–1922: Karl F S Glasgow, record 1778/2568706].</ref>\n\n== Research Notes ==\nThe birth index names William H or William and Rebecca J Glasgow at Narrandera. The family is identified with William Henry Glasgow-851 and Rebecca Jane (Ross) Glasgow-17711, whose daughter Annie Glasgow-850 was born at Narrandera in 1888. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.\n\n== Sources ==\n<references />\n",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "action": "add",
+          "relative_id": "Glasgow-851",
+          "relative_name": "William Henry Glasgow",
+          "status": "probable",
+          "basis": "The birth index names William H or William and Rebecca J Glasgow at Narrandera. The family is identified with William Henry Glasgow-851 and Rebecca Jane (Ross) Glasgow-17711, whose daughter Annie Glasgow-850 was born at Narrandera in 1888. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+          "scope": "Record-defined child; probable parent identity"
+        },
+        {
+          "relationship": "mother",
+          "action": "add",
+          "relative_id": "Ross-17711",
+          "relative_name": "Rebecca Jane (Ross) Glasgow",
+          "status": "probable",
+          "basis": "The birth index names William H or William and Rebecca J Glasgow at Narrandera. The family is identified with William Henry Glasgow-851 and Rebecca Jane (Ross) Glasgow-17711, whose daughter Annie Glasgow-850 was born at Narrandera in 1888. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+          "scope": "Record-defined child; probable parent identity"
+        }
+      ]
     },
     {
       "catalogue_id": "record-ancestry-glasgow-elizabeth-ann-irvine-pan-mure-1884",
@@ -401559,10 +401579,10 @@
       "death_location": "",
       "occupations": [],
       "source_subject_url": "https://www.ancestry.co.uk/search/collections/1778/records/1112798",
-      "creation_status": "identity_hold",
+      "creation_status": "creation_ready",
       "draft_path": "research/ancestry-glasgow-audit/drafts/reviewed-australian-births-1884-1895-20261105.wiki",
-      "assessment": "Documentary subject; wider identity unresolved.",
-      "current_conclusion": "The birth index identifies this documentary subject; the wider identity remains unresolved.",
+      "assessment": "Birth index names the parents at Panmure, Victoria; probable child of William Glasgow and Isabella (Irvine) Glasgow. No existing profile was found; creation ready with probable parent links.",
+      "current_conclusion": "Birth index names the parents at Panmure, Victoria; probable child of William Glasgow and Isabella (Irvine) Glasgow. No existing profile was found; creation ready with probable parent links.",
       "reviewed_at": "2026-11-05",
       "candidates": [],
       "records": [
@@ -401605,7 +401625,27 @@
           "note": "The index lists Ella Ann Tryine Glasgow, born Abt 1884 in Panh, Victoria. Father: William Glasgow. Mother: Isabella Irvine. Registration place: Victoria, Australia. Reference: 19381. The companion entry gives the same registration reference. The companion gives Eliz Ann Irvine and Panmure. Both cite registration 19381 and name William Glasgow and Isabella Irvine."
         }
       ],
-      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index lists Eliz Ann Irvine Glasgow, born Abt 1884 in Panmure, Victoria. Father: William Glasgow. Mother: Isabella Irvine. Registration place: Victoria, Australia. Reference: 19381. The companion entry gives the same registration reference. The companion gives Ella Ann Tryine and Panh. Both cite registration 19381 and name William Glasgow and Isabella Irvine.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/1112798 Ancestry, Australia, Birth Index, 1788–1922: Eliz Ann Irvine Glasgow, record 1778/1112798].</ref><ref>[https://www.ancestry.co.uk/search/collections/1778/records/1179199 Ancestry, Australia, Birth Index, 1788–1922: Ella Ann Tryine Glasgow, record 1778/1179199].</ref>\n\n== Research Notes ==\nThe birth index identifies this documentary subject; the wider identity remains unresolved.\n\n== Sources ==\n<references />\n"
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index lists Eliz Ann Irvine Glasgow, born Abt 1884 in Panmure, Victoria. Father: William Glasgow. Mother: Isabella Irvine. Registration place: Victoria, Australia. Reference: 19381. The companion entry gives the same registration reference. The companion gives Ella Ann Tryine and Panh. Both cite registration 19381 and name William Glasgow and Isabella Irvine.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/1112798 Ancestry, Australia, Birth Index, 1788–1922: Eliz Ann Irvine Glasgow, record 1778/1112798].</ref><ref>[https://www.ancestry.co.uk/search/collections/1778/records/1179199 Ancestry, Australia, Birth Index, 1788–1922: Ella Ann Tryine Glasgow, record 1778/1179199].</ref>\n\n== Research Notes ==\nThe birth index names William and Isabella Irvine Glasgow at Panmure. The family is identified with William Glasgow-2144 and Isabella (Irvine) Glasgow-5845, whose daughter Jane Glasgow-2148 was born at Panmure in 1885. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.\n\n== Sources ==\n<references />\n",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "action": "add",
+          "relative_id": "Glasgow-2144",
+          "relative_name": "William Glasgow",
+          "status": "probable",
+          "basis": "The birth index names William and Isabella Irvine Glasgow at Panmure. The family is identified with William Glasgow-2144 and Isabella (Irvine) Glasgow-5845, whose daughter Jane Glasgow-2148 was born at Panmure in 1885. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+          "scope": "Record-defined child; probable parent identity"
+        },
+        {
+          "relationship": "mother",
+          "action": "add",
+          "relative_id": "Irvine-5845",
+          "relative_name": "Isabella (Irvine) Glasgow",
+          "status": "probable",
+          "basis": "The birth index names William and Isabella Irvine Glasgow at Panmure. The family is identified with William Glasgow-2144 and Isabella (Irvine) Glasgow-5845, whose daughter Jane Glasgow-2148 was born at Panmure in 1885. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+          "scope": "Record-defined child; probable parent identity"
+        }
+      ]
     },
     {
       "catalogue_id": "record-ancestry-glasgow-elizabeth-maude-richmond-1884",
@@ -401837,10 +401877,10 @@
       "death_location": "",
       "occupations": [],
       "source_subject_url": "https://www.ancestry.co.uk/search/collections/1778/records/2568693",
-      "creation_status": "identity_hold",
+      "creation_status": "creation_ready",
       "draft_path": "research/ancestry-glasgow-audit/drafts/reviewed-australian-births-1884-1895-20261105.wiki",
-      "assessment": "Documentary subject; wider identity unresolved.",
-      "current_conclusion": "The birth index identifies this documentary subject; the wider identity remains unresolved.",
+      "assessment": "Birth index names the parents at New South Wales; probable child of William Henry Glasgow and Rebecca Jane (Ross) Glasgow. No existing profile was found; creation ready with probable parent links.",
+      "current_conclusion": "Birth index names the parents at New South Wales; probable child of William Henry Glasgow and Rebecca Jane (Ross) Glasgow. No existing profile was found; creation ready with probable parent links.",
       "reviewed_at": "2026-11-05",
       "candidates": [],
       "records": [
@@ -401864,7 +401904,27 @@
           "note": "The index lists Elen M Glasgow, born 1886 in New South Wales. Father: William Glasgow. Mother: Rebecca J Glasgow. Registration place: Narrandera, New South Wales, Australia. Reference: 28178."
         }
       ],
-      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index lists Elen M Glasgow, born 1886 in New South Wales. Father: William Glasgow. Mother: Rebecca J Glasgow. Registration place: Narrandera, New South Wales, Australia. Reference: 28178.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/2568693 Ancestry, Australia, Birth Index, 1788–1922: Elen M Glasgow, record 1778/2568693].</ref>\n\n== Research Notes ==\nThe birth index identifies this documentary subject; the wider identity remains unresolved.\n\n== Sources ==\n<references />\n"
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index lists Elen M Glasgow, born 1886 in New South Wales. Father: William Glasgow. Mother: Rebecca J Glasgow. Registration place: Narrandera, New South Wales, Australia. Reference: 28178.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/2568693 Ancestry, Australia, Birth Index, 1788–1922: Elen M Glasgow, record 1778/2568693].</ref>\n\n== Research Notes ==\nThe birth index names William H or William and Rebecca J Glasgow at Narrandera. The family is identified with William Henry Glasgow-851 and Rebecca Jane (Ross) Glasgow-17711, whose daughter Annie Glasgow-850 was born at Narrandera in 1888. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.\n\n== Sources ==\n<references />\n",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "action": "add",
+          "relative_id": "Glasgow-851",
+          "relative_name": "William Henry Glasgow",
+          "status": "probable",
+          "basis": "The birth index names William H or William and Rebecca J Glasgow at Narrandera. The family is identified with William Henry Glasgow-851 and Rebecca Jane (Ross) Glasgow-17711, whose daughter Annie Glasgow-850 was born at Narrandera in 1888. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+          "scope": "Record-defined child; probable parent identity"
+        },
+        {
+          "relationship": "mother",
+          "action": "add",
+          "relative_id": "Ross-17711",
+          "relative_name": "Rebecca Jane (Ross) Glasgow",
+          "status": "probable",
+          "basis": "The birth index names William H or William and Rebecca J Glasgow at Narrandera. The family is identified with William Henry Glasgow-851 and Rebecca Jane (Ross) Glasgow-17711, whose daughter Annie Glasgow-850 was born at Narrandera in 1888. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+          "scope": "Record-defined child; probable parent identity"
+        }
+      ]
     },
     {
       "catalogue_id": "record-ancestry-glasgow-eva-e-sydney-1886",
@@ -402028,10 +402088,10 @@
       "death_location": "",
       "occupations": [],
       "source_subject_url": "https://www.ancestry.co.uk/search/collections/1778/records/1112794",
-      "creation_status": "identity_hold",
+      "creation_status": "creation_ready",
       "draft_path": "research/ancestry-glasgow-audit/drafts/reviewed-australian-births-1884-1895-20261105.wiki",
-      "assessment": "Documentary subject; wider identity unresolved.",
-      "current_conclusion": "The birth index identifies this documentary subject; the wider identity remains unresolved.",
+      "assessment": "Birth index names the parents at Panmure, Victoria; probable child of William Glasgow and Isabella (Irvine) Glasgow. No existing profile was found; creation ready with probable parent links.",
+      "current_conclusion": "Birth index names the parents at Panmure, Victoria; probable child of William Glasgow and Isabella (Irvine) Glasgow. No existing profile was found; creation ready with probable parent links.",
       "reviewed_at": "2026-11-05",
       "candidates": [],
       "records": [
@@ -402074,7 +402134,27 @@
           "note": "The index lists Annie Margaret Glasgow, born Abt 1887 in Panh, Victoria. Father: William Glasgow. Mother: Isabeila Irvine. Registration place: Victoria, Australia. Reference: 13735. The companion entry gives the same registration reference. The companion gives Panmure and the spelling Isabella. Both cite registration 13735."
         }
       ],
-      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index lists Annie Margaret Glasgow, born Abt 1887 in Panmure, Victoria. Father: William Glasgow. Mother: Isabella Irvine. Registration place: Victoria, Australia. Reference: 13735. The companion entry gives the same registration reference. The companion gives Panh and the spelling Isabeila. Both cite registration 13735.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/1112794 Ancestry, Australia, Birth Index, 1788–1922: Annie Margaret Glasgow, record 1778/1112794].</ref><ref>[https://www.ancestry.co.uk/search/collections/1778/records/1179195 Ancestry, Australia, Birth Index, 1788–1922: Annie Margaret Glasgow, record 1778/1179195].</ref>\n\n== Research Notes ==\nThe birth index identifies this documentary subject; the wider identity remains unresolved.\n\n== Sources ==\n<references />\n"
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index lists Annie Margaret Glasgow, born Abt 1887 in Panmure, Victoria. Father: William Glasgow. Mother: Isabella Irvine. Registration place: Victoria, Australia. Reference: 13735. The companion entry gives the same registration reference. The companion gives Panh and the spelling Isabeila. Both cite registration 13735.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/1112794 Ancestry, Australia, Birth Index, 1788–1922: Annie Margaret Glasgow, record 1778/1112794].</ref><ref>[https://www.ancestry.co.uk/search/collections/1778/records/1179195 Ancestry, Australia, Birth Index, 1788–1922: Annie Margaret Glasgow, record 1778/1179195].</ref>\n\n== Research Notes ==\nThe birth index names William and Isabella Irvine Glasgow at Panmure. The family is identified with William Glasgow-2144 and Isabella (Irvine) Glasgow-5845, whose daughter Jane Glasgow-2148 was born at Panmure in 1885. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.\n\n== Sources ==\n<references />\n",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "action": "add",
+          "relative_id": "Glasgow-2144",
+          "relative_name": "William Glasgow",
+          "status": "probable",
+          "basis": "The birth index names William and Isabella Irvine Glasgow at Panmure. The family is identified with William Glasgow-2144 and Isabella (Irvine) Glasgow-5845, whose daughter Jane Glasgow-2148 was born at Panmure in 1885. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+          "scope": "Record-defined child; probable parent identity"
+        },
+        {
+          "relationship": "mother",
+          "action": "add",
+          "relative_id": "Irvine-5845",
+          "relative_name": "Isabella (Irvine) Glasgow",
+          "status": "probable",
+          "basis": "The birth index names William and Isabella Irvine Glasgow at Panmure. The family is identified with William Glasgow-2144 and Isabella (Irvine) Glasgow-5845, whose daughter Jane Glasgow-2148 was born at Panmure in 1885. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+          "scope": "Record-defined child; probable parent identity"
+        }
+      ]
     },
     {
       "catalogue_id": "record-ancestry-glasgow-frederick-ernest-hotham-1887",
@@ -402322,10 +402402,10 @@
       "death_location": "",
       "occupations": [],
       "source_subject_url": "https://www.ancestry.co.uk/search/collections/1778/records/2568692",
-      "creation_status": "identity_hold",
+      "creation_status": "creation_ready",
       "draft_path": "research/ancestry-glasgow-audit/drafts/reviewed-australian-births-1884-1895-20261105.wiki",
-      "assessment": "Documentary subject; wider identity unresolved.",
-      "current_conclusion": "The birth index identifies this documentary subject; the wider identity remains unresolved.",
+      "assessment": "Birth index names the parents at New South Wales; probable child of James Edward Glasgow and Mary Alice (Hill) Glasgow. No existing profile was found; creation ready with probable parent links.",
+      "current_conclusion": "Birth index names the parents at New South Wales; probable child of James Edward Glasgow and Mary Alice (Hill) Glasgow. No existing profile was found; creation ready with probable parent links.",
       "reviewed_at": "2026-11-05",
       "candidates": [],
       "records": [
@@ -402349,7 +402429,27 @@
           "note": "The index lists Edith Glasgow, born 1888 in New South Wales. Father: James E Glasgow. Mother: Mary Glasgow. Registration place: Tenterfield, New South Wales, Australia. Reference: 36348. The index gives New South Wales as birthplace and Tenterfield as registration place."
         }
       ],
-      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index lists Edith Glasgow, born 1888 in New South Wales. Father: James E Glasgow. Mother: Mary Glasgow. Registration place: Tenterfield, New South Wales, Australia. Reference: 36348. The index gives New South Wales as birthplace and Tenterfield as registration place.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/2568692 Ancestry, Australia, Birth Index, 1788–1922: Edith Glasgow, record 1778/2568692].</ref>\n\n== Research Notes ==\nThe birth index identifies this documentary subject; the wider identity remains unresolved.\n\n== Sources ==\n<references />\n"
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index lists Edith Glasgow, born 1888 in New South Wales. Father: James E Glasgow. Mother: Mary Glasgow. Registration place: Tenterfield, New South Wales, Australia. Reference: 36348. The index gives New South Wales as birthplace and Tenterfield as registration place.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/2568692 Ancestry, Australia, Birth Index, 1788–1922: Edith Glasgow, record 1778/2568692].</ref>\n\n== Research Notes ==\nThe birth index names James E and Mary Glasgow at Tenterfield. The family is identified with James Edward Glasgow-3264 and Mary Alice (Hill) Glasgow-66969, whose other Tenterfield children include Eva Jane Glasgow-3356 (born 1899) and Alice Mary Glasgow-3263 (born 1904). The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.\n\n== Sources ==\n<references />\n",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "action": "add",
+          "relative_id": "Glasgow-3264",
+          "relative_name": "James Edward Glasgow",
+          "status": "probable",
+          "basis": "The birth index names James E and Mary Glasgow at Tenterfield. The family is identified with James Edward Glasgow-3264 and Mary Alice (Hill) Glasgow-66969, whose other Tenterfield children include Eva Jane Glasgow-3356 (born 1899) and Alice Mary Glasgow-3263 (born 1904). The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+          "scope": "Record-defined child; probable parent identity"
+        },
+        {
+          "relationship": "mother",
+          "action": "add",
+          "relative_id": "Hill-66969",
+          "relative_name": "Mary Alice (Hill) Glasgow",
+          "status": "probable",
+          "basis": "The birth index names James E and Mary Glasgow at Tenterfield. The family is identified with James Edward Glasgow-3264 and Mary Alice (Hill) Glasgow-66969, whose other Tenterfield children include Eva Jane Glasgow-3356 (born 1899) and Alice Mary Glasgow-3263 (born 1904). The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+          "scope": "Record-defined child; probable parent identity"
+        }
+      ]
     },
     {
       "catalogue_id": "record-ancestry-glasgow-annie-minmi-1889",
@@ -402417,10 +402517,10 @@
       "death_location": "",
       "occupations": [],
       "source_subject_url": "https://www.ancestry.co.uk/search/collections/1778/records/3247850",
-      "creation_status": "identity_hold",
+      "creation_status": "creation_ready",
       "draft_path": "research/ancestry-glasgow-audit/drafts/reviewed-australian-births-1884-1895-20261105.wiki",
-      "assessment": "Documentary subject; wider identity unresolved.",
-      "current_conclusion": "The birth index identifies this documentary subject; the wider identity remains unresolved.",
+      "assessment": "Birth index names the parents at New South Wales; probable child of James Edward Glasgow and Mary Alice (Hill) Glasgow. No existing profile was found; creation ready with probable parent links.",
+      "current_conclusion": "Birth index names the parents at New South Wales; probable child of James Edward Glasgow and Mary Alice (Hill) Glasgow. No existing profile was found; creation ready with probable parent links.",
       "reviewed_at": "2026-11-05",
       "candidates": [],
       "records": [
@@ -402444,7 +402544,27 @@
           "note": "The index lists Ernest C Glasgow, born 1889 in New South Wales. Father: James E Glasgow. Mother: Mary Glasgow. Registration place: Tenterfield, New South Wales, Australia. Reference: 34922."
         }
       ],
-      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index lists Ernest C Glasgow, born 1889 in New South Wales. Father: James E Glasgow. Mother: Mary Glasgow. Registration place: Tenterfield, New South Wales, Australia. Reference: 34922.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/3247850 Ancestry, Australia, Birth Index, 1788–1922: Ernest C Glasgow, record 1778/3247850].</ref>\n\n== Research Notes ==\nThe birth index identifies this documentary subject; the wider identity remains unresolved.\n\n== Sources ==\n<references />\n"
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index lists Ernest C Glasgow, born 1889 in New South Wales. Father: James E Glasgow. Mother: Mary Glasgow. Registration place: Tenterfield, New South Wales, Australia. Reference: 34922.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/3247850 Ancestry, Australia, Birth Index, 1788–1922: Ernest C Glasgow, record 1778/3247850].</ref>\n\n== Research Notes ==\nThe birth index names James E and Mary Glasgow at Tenterfield. The family is identified with James Edward Glasgow-3264 and Mary Alice (Hill) Glasgow-66969, whose other Tenterfield children include Eva Jane Glasgow-3356 (born 1899) and Alice Mary Glasgow-3263 (born 1904). The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.\n\n== Sources ==\n<references />\n",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "action": "add",
+          "relative_id": "Glasgow-3264",
+          "relative_name": "James Edward Glasgow",
+          "status": "probable",
+          "basis": "The birth index names James E and Mary Glasgow at Tenterfield. The family is identified with James Edward Glasgow-3264 and Mary Alice (Hill) Glasgow-66969, whose other Tenterfield children include Eva Jane Glasgow-3356 (born 1899) and Alice Mary Glasgow-3263 (born 1904). The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+          "scope": "Record-defined child; probable parent identity"
+        },
+        {
+          "relationship": "mother",
+          "action": "add",
+          "relative_id": "Hill-66969",
+          "relative_name": "Mary Alice (Hill) Glasgow",
+          "status": "probable",
+          "basis": "The birth index names James E and Mary Glasgow at Tenterfield. The family is identified with James Edward Glasgow-3264 and Mary Alice (Hill) Glasgow-66969, whose other Tenterfield children include Eva Jane Glasgow-3356 (born 1899) and Alice Mary Glasgow-3263 (born 1904). The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+          "scope": "Record-defined child; probable parent identity"
+        }
+      ]
     },
     {
       "catalogue_id": "record-ancestry-glasgow-elizabeth-ann-dwerryhouse-1889",
@@ -402514,10 +402634,10 @@
       "death_location": "",
       "occupations": [],
       "source_subject_url": "https://www.ancestry.co.uk/search/collections/1778/records/3248482",
-      "creation_status": "identity_hold",
+      "creation_status": "creation_ready",
       "draft_path": "research/ancestry-glasgow-audit/drafts/reviewed-australian-births-1884-1895-20261105.wiki",
-      "assessment": "Documentary subject; wider identity unresolved.",
-      "current_conclusion": "The birth index identifies this documentary subject; the wider identity remains unresolved.",
+      "assessment": "Birth index names the parents at New South Wales; probable child of William Henry Glasgow and Rebecca Jane (Ross) Glasgow. No existing profile was found; creation ready with probable parent links.",
+      "current_conclusion": "Birth index names the parents at New South Wales; probable child of William Henry Glasgow and Rebecca Jane (Ross) Glasgow. No existing profile was found; creation ready with probable parent links.",
       "reviewed_at": "2026-11-05",
       "candidates": [],
       "records": [
@@ -402541,7 +402661,27 @@
           "note": "The index lists Loisa R Glasgow, born 1890 in New South Wales. Father: William H Glasgow. Mother: Rebecca J Glasgow. Registration place: Narrandera, New South Wales, Australia. Reference: 23883."
         }
       ],
-      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index lists Loisa R Glasgow, born 1890 in New South Wales. Father: William H Glasgow. Mother: Rebecca J Glasgow. Registration place: Narrandera, New South Wales, Australia. Reference: 23883.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/3248482 Ancestry, Australia, Birth Index, 1788–1922: Loisa R Glasgow, record 1778/3248482].</ref>\n\n== Research Notes ==\nThe birth index identifies this documentary subject; the wider identity remains unresolved.\n\n== Sources ==\n<references />\n"
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index lists Loisa R Glasgow, born 1890 in New South Wales. Father: William H Glasgow. Mother: Rebecca J Glasgow. Registration place: Narrandera, New South Wales, Australia. Reference: 23883.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/3248482 Ancestry, Australia, Birth Index, 1788–1922: Loisa R Glasgow, record 1778/3248482].</ref>\n\n== Research Notes ==\nThe birth index names William H or William and Rebecca J Glasgow at Narrandera. The family is identified with William Henry Glasgow-851 and Rebecca Jane (Ross) Glasgow-17711, whose daughter Annie Glasgow-850 was born at Narrandera in 1888. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.\n\n== Sources ==\n<references />\n",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "action": "add",
+          "relative_id": "Glasgow-851",
+          "relative_name": "William Henry Glasgow",
+          "status": "probable",
+          "basis": "The birth index names William H or William and Rebecca J Glasgow at Narrandera. The family is identified with William Henry Glasgow-851 and Rebecca Jane (Ross) Glasgow-17711, whose daughter Annie Glasgow-850 was born at Narrandera in 1888. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+          "scope": "Record-defined child; probable parent identity"
+        },
+        {
+          "relationship": "mother",
+          "action": "add",
+          "relative_id": "Ross-17711",
+          "relative_name": "Rebecca Jane (Ross) Glasgow",
+          "status": "probable",
+          "basis": "The birth index names William H or William and Rebecca J Glasgow at Narrandera. The family is identified with William Henry Glasgow-851 and Rebecca Jane (Ross) Glasgow-17711, whose daughter Annie Glasgow-850 was born at Narrandera in 1888. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+          "scope": "Record-defined child; probable parent identity"
+        }
+      ]
     },
     {
       "catalogue_id": "record-ancestry-glasgow-holly-ascot-vale-1892",
@@ -402609,10 +402749,10 @@
       "death_location": "",
       "occupations": [],
       "source_subject_url": "https://www.ancestry.co.uk/search/collections/1778/records/1734205",
-      "creation_status": "identity_hold",
+      "creation_status": "creation_ready",
       "draft_path": "research/ancestry-glasgow-audit/drafts/reviewed-australian-births-1884-1895-20261105.wiki",
-      "assessment": "Documentary subject; wider identity unresolved.",
-      "current_conclusion": "The birth index identifies this documentary subject; the wider identity remains unresolved.",
+      "assessment": "Birth index names the parents at Panmure, Victoria; probable child of William Glasgow and Isabella (Irvine) Glasgow. No existing profile was found; creation ready with probable parent links.",
+      "current_conclusion": "Birth index names the parents at Panmure, Victoria; probable child of William Glasgow and Isabella (Irvine) Glasgow. No existing profile was found; creation ready with probable parent links.",
       "reviewed_at": "2026-11-05",
       "candidates": [],
       "records": [
@@ -402636,7 +402776,27 @@
           "note": "The index lists Wm Irvine Glasgow, born Abt 1892 in Panmure, Victoria. Father: Wm Glasgow. Mother: Isabella Irvine. Registration place: Victoria, Australia. Reference: 6820. This child cannot be the same-named William Irvine Glasgow born in 1925."
         }
       ],
-      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index lists Wm Irvine Glasgow, born Abt 1892 in Panmure, Victoria. Father: Wm Glasgow. Mother: Isabella Irvine. Registration place: Victoria, Australia. Reference: 6820. This child cannot be the same-named William Irvine Glasgow born in 1925.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/1734205 Ancestry, Australia, Birth Index, 1788–1922: Wm Irvine Glasgow, record 1778/1734205].</ref>\n\n== Research Notes ==\nThe birth index identifies this documentary subject; the wider identity remains unresolved.\n\n== Sources ==\n<references />\n"
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index lists Wm Irvine Glasgow, born Abt 1892 in Panmure, Victoria. Father: Wm Glasgow. Mother: Isabella Irvine. Registration place: Victoria, Australia. Reference: 6820. This child cannot be the same-named William Irvine Glasgow born in 1925.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/1734205 Ancestry, Australia, Birth Index, 1788–1922: Wm Irvine Glasgow, record 1778/1734205].</ref>\n\n== Research Notes ==\nThe birth index names William and Isabella Irvine Glasgow at Panmure. The family is identified with William Glasgow-2144 and Isabella (Irvine) Glasgow-5845, whose daughter Jane Glasgow-2148 was born at Panmure in 1885. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.\n\n== Sources ==\n<references />\n",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "action": "add",
+          "relative_id": "Glasgow-2144",
+          "relative_name": "William Glasgow",
+          "status": "probable",
+          "basis": "The birth index names William and Isabella Irvine Glasgow at Panmure. The family is identified with William Glasgow-2144 and Isabella (Irvine) Glasgow-5845, whose daughter Jane Glasgow-2148 was born at Panmure in 1885. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+          "scope": "Record-defined child; probable parent identity"
+        },
+        {
+          "relationship": "mother",
+          "action": "add",
+          "relative_id": "Irvine-5845",
+          "relative_name": "Isabella (Irvine) Glasgow",
+          "status": "probable",
+          "basis": "The birth index names William and Isabella Irvine Glasgow at Panmure. The family is identified with William Glasgow-2144 and Isabella (Irvine) Glasgow-5845, whose daughter Jane Glasgow-2148 was born at Panmure in 1885. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+          "scope": "Record-defined child; probable parent identity"
+        }
+      ]
     },
     {
       "catalogue_id": "record-ancestry-glasgow-edina-b-tenterfield-1892",
@@ -402657,10 +402817,10 @@
       "death_location": "",
       "occupations": [],
       "source_subject_url": "https://www.ancestry.co.uk/search/collections/1778/records/3247845",
-      "creation_status": "identity_hold",
+      "creation_status": "creation_ready",
       "draft_path": "research/ancestry-glasgow-audit/drafts/reviewed-australian-births-1884-1895-20261105.wiki",
-      "assessment": "Documentary subject; wider identity unresolved.",
-      "current_conclusion": "The birth index identifies this documentary subject; the wider identity remains unresolved.",
+      "assessment": "Birth index names the parents at New South Wales; probable child of James Edward Glasgow and Mary Alice (Hill) Glasgow. No existing profile was found; creation ready with probable parent links.",
+      "current_conclusion": "Birth index names the parents at New South Wales; probable child of James Edward Glasgow and Mary Alice (Hill) Glasgow. No existing profile was found; creation ready with probable parent links.",
       "reviewed_at": "2026-11-05",
       "candidates": [],
       "records": [
@@ -402684,7 +402844,27 @@
           "note": "The index lists Edina B Glasgow, born 1892 in New South Wales. Father: James E Glasgow. Mother: Mary Glasgow. Registration place: Tenterfield, New South Wales, Australia. Reference: 35108."
         }
       ],
-      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index lists Edina B Glasgow, born 1892 in New South Wales. Father: James E Glasgow. Mother: Mary Glasgow. Registration place: Tenterfield, New South Wales, Australia. Reference: 35108.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/3247845 Ancestry, Australia, Birth Index, 1788–1922: Edina B Glasgow, record 1778/3247845].</ref>\n\n== Research Notes ==\nThe birth index identifies this documentary subject; the wider identity remains unresolved.\n\n== Sources ==\n<references />\n"
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index lists Edina B Glasgow, born 1892 in New South Wales. Father: James E Glasgow. Mother: Mary Glasgow. Registration place: Tenterfield, New South Wales, Australia. Reference: 35108.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/3247845 Ancestry, Australia, Birth Index, 1788–1922: Edina B Glasgow, record 1778/3247845].</ref>\n\n== Research Notes ==\nThe birth index names James E and Mary Glasgow at Tenterfield. The family is identified with James Edward Glasgow-3264 and Mary Alice (Hill) Glasgow-66969, whose other Tenterfield children include Eva Jane Glasgow-3356 (born 1899) and Alice Mary Glasgow-3263 (born 1904). The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.\n\n== Sources ==\n<references />\n",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "action": "add",
+          "relative_id": "Glasgow-3264",
+          "relative_name": "James Edward Glasgow",
+          "status": "probable",
+          "basis": "The birth index names James E and Mary Glasgow at Tenterfield. The family is identified with James Edward Glasgow-3264 and Mary Alice (Hill) Glasgow-66969, whose other Tenterfield children include Eva Jane Glasgow-3356 (born 1899) and Alice Mary Glasgow-3263 (born 1904). The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+          "scope": "Record-defined child; probable parent identity"
+        },
+        {
+          "relationship": "mother",
+          "action": "add",
+          "relative_id": "Hill-66969",
+          "relative_name": "Mary Alice (Hill) Glasgow",
+          "status": "probable",
+          "basis": "The birth index names James E and Mary Glasgow at Tenterfield. The family is identified with James Edward Glasgow-3264 and Mary Alice (Hill) Glasgow-66969, whose other Tenterfield children include Eva Jane Glasgow-3356 (born 1899) and Alice Mary Glasgow-3263 (born 1904). The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+          "scope": "Record-defined child; probable parent identity"
+        }
+      ]
     },
     {
       "catalogue_id": "record-ancestry-glasgow-madoline-f-casino-1892",
@@ -402800,10 +402980,10 @@
       "death_location": "",
       "occupations": [],
       "source_subject_url": "https://www.ancestry.co.uk/search/collections/1778/records/3248494",
-      "creation_status": "identity_hold",
+      "creation_status": "creation_ready",
       "draft_path": "research/ancestry-glasgow-audit/drafts/reviewed-australian-births-1884-1895-20261105.wiki",
-      "assessment": "Documentary subject; wider identity unresolved.",
-      "current_conclusion": "The birth index identifies this documentary subject; the wider identity remains unresolved.",
+      "assessment": "Birth index names the parents at New South Wales; probable child of William Henry Glasgow and Rebecca Jane (Ross) Glasgow. No existing profile was found; creation ready with probable parent links.",
+      "current_conclusion": "Birth index names the parents at New South Wales; probable child of William Henry Glasgow and Rebecca Jane (Ross) Glasgow. No existing profile was found; creation ready with probable parent links.",
       "reviewed_at": "2026-11-05",
       "candidates": [],
       "records": [
@@ -402827,7 +403007,27 @@
           "note": "The index lists Ruth M Glasgow, born 1893 in New South Wales. Father: William H Glasgow. Mother: Rebecca J Glasgow. Registration place: Narrandera, New South Wales, Australia. Reference: 24879."
         }
       ],
-      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index lists Ruth M Glasgow, born 1893 in New South Wales. Father: William H Glasgow. Mother: Rebecca J Glasgow. Registration place: Narrandera, New South Wales, Australia. Reference: 24879.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/3248494 Ancestry, Australia, Birth Index, 1788–1922: Ruth M Glasgow, record 1778/3248494].</ref>\n\n== Research Notes ==\nThe birth index identifies this documentary subject; the wider identity remains unresolved.\n\n== Sources ==\n<references />\n"
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index lists Ruth M Glasgow, born 1893 in New South Wales. Father: William H Glasgow. Mother: Rebecca J Glasgow. Registration place: Narrandera, New South Wales, Australia. Reference: 24879.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/3248494 Ancestry, Australia, Birth Index, 1788–1922: Ruth M Glasgow, record 1778/3248494].</ref>\n\n== Research Notes ==\nThe birth index names William H or William and Rebecca J Glasgow at Narrandera. The family is identified with William Henry Glasgow-851 and Rebecca Jane (Ross) Glasgow-17711, whose daughter Annie Glasgow-850 was born at Narrandera in 1888. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.\n\n== Sources ==\n<references />\n",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "action": "add",
+          "relative_id": "Glasgow-851",
+          "relative_name": "William Henry Glasgow",
+          "status": "probable",
+          "basis": "The birth index names William H or William and Rebecca J Glasgow at Narrandera. The family is identified with William Henry Glasgow-851 and Rebecca Jane (Ross) Glasgow-17711, whose daughter Annie Glasgow-850 was born at Narrandera in 1888. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+          "scope": "Record-defined child; probable parent identity"
+        },
+        {
+          "relationship": "mother",
+          "action": "add",
+          "relative_id": "Ross-17711",
+          "relative_name": "Rebecca Jane (Ross) Glasgow",
+          "status": "probable",
+          "basis": "The birth index names William H or William and Rebecca J Glasgow at Narrandera. The family is identified with William Henry Glasgow-851 and Rebecca Jane (Ross) Glasgow-17711, whose daughter Annie Glasgow-850 was born at Narrandera in 1888. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+          "scope": "Record-defined child; probable parent identity"
+        }
+      ]
     },
     {
       "catalogue_id": "record-ancestry-glasgow-john-pan-mure-1894",
@@ -402847,10 +403047,10 @@
       "death_location": "",
       "occupations": [],
       "source_subject_url": "https://www.ancestry.co.uk/search/collections/1778/records/1734200",
-      "creation_status": "identity_hold",
+      "creation_status": "creation_ready",
       "draft_path": "research/ancestry-glasgow-audit/drafts/reviewed-australian-births-1884-1895-20261105.wiki",
-      "assessment": "Documentary subject; wider identity unresolved.",
-      "current_conclusion": "The birth index identifies this documentary subject; the wider identity remains unresolved.",
+      "assessment": "Birth index names the parents at Panmure, Victoria; probable child of William Glasgow and Isabella (Irvine) Glasgow. No existing profile was found; creation ready with probable parent links.",
+      "current_conclusion": "Birth index names the parents at Panmure, Victoria; probable child of William Glasgow and Isabella (Irvine) Glasgow. No existing profile was found; creation ready with probable parent links.",
       "reviewed_at": "2026-11-05",
       "candidates": [],
       "records": [
@@ -402874,7 +403074,27 @@
           "note": "The index lists Jno Glasgow, born Abt 1894 in Panmure, Victoria. Father: Wh Glasgow. Mother: Isbla Irvine. Registration place: Victoria, Australia. Reference: 14616."
         }
       ],
-      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index lists Jno Glasgow, born Abt 1894 in Panmure, Victoria. Father: Wh Glasgow. Mother: Isbla Irvine. Registration place: Victoria, Australia. Reference: 14616.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/1734200 Ancestry, Australia, Birth Index, 1788–1922: Jno Glasgow, record 1778/1734200].</ref>\n\n== Research Notes ==\nThe birth index identifies this documentary subject; the wider identity remains unresolved.\n\n== Sources ==\n<references />\n"
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index lists Jno Glasgow, born Abt 1894 in Panmure, Victoria. Father: Wh Glasgow. Mother: Isbla Irvine. Registration place: Victoria, Australia. Reference: 14616.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/1734200 Ancestry, Australia, Birth Index, 1788–1922: Jno Glasgow, record 1778/1734200].</ref>\n\n== Research Notes ==\nThe birth index names William and Isabella Irvine Glasgow at Panmure. The family is identified with William Glasgow-2144 and Isabella (Irvine) Glasgow-5845, whose daughter Jane Glasgow-2148 was born at Panmure in 1885. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.\n\n== Sources ==\n<references />\n",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "action": "add",
+          "relative_id": "Glasgow-2144",
+          "relative_name": "William Glasgow",
+          "status": "probable",
+          "basis": "The birth index names William and Isabella Irvine Glasgow at Panmure. The family is identified with William Glasgow-2144 and Isabella (Irvine) Glasgow-5845, whose daughter Jane Glasgow-2148 was born at Panmure in 1885. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+          "scope": "Record-defined child; probable parent identity"
+        },
+        {
+          "relationship": "mother",
+          "action": "add",
+          "relative_id": "Irvine-5845",
+          "relative_name": "Isabella (Irvine) Glasgow",
+          "status": "probable",
+          "basis": "The birth index names William and Isabella Irvine Glasgow at Panmure. The family is identified with William Glasgow-2144 and Isabella (Irvine) Glasgow-5845, whose daughter Jane Glasgow-2148 was born at Panmure in 1885. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+          "scope": "Record-defined child; probable parent identity"
+        }
+      ]
     },
     {
       "catalogue_id": "record-ancestry-glasgow-catherine-minmi-1894",
@@ -402989,10 +403209,10 @@
       "death_location": "",
       "occupations": [],
       "source_subject_url": "https://www.ancestry.co.uk/search/collections/1778/records/3248489",
-      "creation_status": "identity_hold",
+      "creation_status": "creation_ready",
       "draft_path": "research/ancestry-glasgow-audit/drafts/reviewed-australian-births-1884-1895-20261105.wiki",
-      "assessment": "Documentary subject; wider identity unresolved.",
-      "current_conclusion": "The birth index identifies this documentary subject; the wider identity remains unresolved.",
+      "assessment": "Birth index names the parents at New South Wales; probable child of James Edward Glasgow and Mary Alice (Hill) Glasgow. No existing profile was found; creation ready with probable parent links.",
+      "current_conclusion": "Birth index names the parents at New South Wales; probable child of James Edward Glasgow and Mary Alice (Hill) Glasgow. No existing profile was found; creation ready with probable parent links.",
       "reviewed_at": "2026-11-05",
       "candidates": [],
       "records": [
@@ -403016,7 +403236,27 @@
           "note": "The index lists Mavis A Glasgow, born 1894 in New South Wales. Father: James E Glasgow. Mother: Mary Glasgow. Registration place: Tenterfield, New South Wales, Australia. Reference: 33442."
         }
       ],
-      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index lists Mavis A Glasgow, born 1894 in New South Wales. Father: James E Glasgow. Mother: Mary Glasgow. Registration place: Tenterfield, New South Wales, Australia. Reference: 33442.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/3248489 Ancestry, Australia, Birth Index, 1788–1922: Mavis A Glasgow, record 1778/3248489].</ref>\n\n== Research Notes ==\nThe birth index identifies this documentary subject; the wider identity remains unresolved.\n\n== Sources ==\n<references />\n"
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index lists Mavis A Glasgow, born 1894 in New South Wales. Father: James E Glasgow. Mother: Mary Glasgow. Registration place: Tenterfield, New South Wales, Australia. Reference: 33442.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/3248489 Ancestry, Australia, Birth Index, 1788–1922: Mavis A Glasgow, record 1778/3248489].</ref>\n\n== Research Notes ==\nThe birth index names James E and Mary Glasgow at Tenterfield. The family is identified with James Edward Glasgow-3264 and Mary Alice (Hill) Glasgow-66969, whose other Tenterfield children include Eva Jane Glasgow-3356 (born 1899) and Alice Mary Glasgow-3263 (born 1904). The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.\n\n== Sources ==\n<references />\n",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "action": "add",
+          "relative_id": "Glasgow-3264",
+          "relative_name": "James Edward Glasgow",
+          "status": "probable",
+          "basis": "The birth index names James E and Mary Glasgow at Tenterfield. The family is identified with James Edward Glasgow-3264 and Mary Alice (Hill) Glasgow-66969, whose other Tenterfield children include Eva Jane Glasgow-3356 (born 1899) and Alice Mary Glasgow-3263 (born 1904). The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+          "scope": "Record-defined child; probable parent identity"
+        },
+        {
+          "relationship": "mother",
+          "action": "add",
+          "relative_id": "Hill-66969",
+          "relative_name": "Mary Alice (Hill) Glasgow",
+          "status": "probable",
+          "basis": "The birth index names James E and Mary Glasgow at Tenterfield. The family is identified with James Edward Glasgow-3264 and Mary Alice (Hill) Glasgow-66969, whose other Tenterfield children include Eva Jane Glasgow-3356 (born 1899) and Alice Mary Glasgow-3263 (born 1904). The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+          "scope": "Record-defined child; probable parent identity"
+        }
+      ]
     },
     {
       "catalogue_id": "record-ancestry-glasgow-charles-herbert-brunswick-1895",
@@ -403085,10 +403325,10 @@
       "death_location": "",
       "occupations": [],
       "source_subject_url": "https://www.ancestry.co.uk/search/collections/1778/records/3248498",
-      "creation_status": "identity_hold",
+      "creation_status": "creation_ready",
       "draft_path": "research/ancestry-glasgow-audit/drafts/reviewed-australian-births-1884-1895-20261105.wiki",
-      "assessment": "Documentary subject; wider identity unresolved.",
-      "current_conclusion": "The birth index identifies this documentary subject; the wider identity remains unresolved.",
+      "assessment": "Birth index names the parents at New South Wales; probable child of William Henry Glasgow and Rebecca Jane (Ross) Glasgow. No existing profile was found; creation ready with probable parent links.",
+      "current_conclusion": "Birth index names the parents at New South Wales; probable child of William Henry Glasgow and Rebecca Jane (Ross) Glasgow. No existing profile was found; creation ready with probable parent links.",
       "reviewed_at": "2026-11-05",
       "candidates": [],
       "records": [
@@ -403112,7 +403352,27 @@
           "note": "The index lists William C Glasgow, born 1895 in New South Wales. Father: William Glasgow. Mother: Rebecca J Glasgow. Registration place: Narrandera, New South Wales, Australia. Reference: 34790."
         }
       ],
-      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index lists William C Glasgow, born 1895 in New South Wales. Father: William Glasgow. Mother: Rebecca J Glasgow. Registration place: Narrandera, New South Wales, Australia. Reference: 34790.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/3248498 Ancestry, Australia, Birth Index, 1788–1922: William C Glasgow, record 1778/3248498].</ref>\n\n== Research Notes ==\nThe birth index identifies this documentary subject; the wider identity remains unresolved.\n\n== Sources ==\n<references />\n"
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index lists William C Glasgow, born 1895 in New South Wales. Father: William Glasgow. Mother: Rebecca J Glasgow. Registration place: Narrandera, New South Wales, Australia. Reference: 34790.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/3248498 Ancestry, Australia, Birth Index, 1788–1922: William C Glasgow, record 1778/3248498].</ref>\n\n== Research Notes ==\nThe birth index names William H or William and Rebecca J Glasgow at Narrandera. The family is identified with William Henry Glasgow-851 and Rebecca Jane (Ross) Glasgow-17711, whose daughter Annie Glasgow-850 was born at Narrandera in 1888. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.\n\n== Sources ==\n<references />\n",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "action": "add",
+          "relative_id": "Glasgow-851",
+          "relative_name": "William Henry Glasgow",
+          "status": "probable",
+          "basis": "The birth index names William H or William and Rebecca J Glasgow at Narrandera. The family is identified with William Henry Glasgow-851 and Rebecca Jane (Ross) Glasgow-17711, whose daughter Annie Glasgow-850 was born at Narrandera in 1888. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+          "scope": "Record-defined child; probable parent identity"
+        },
+        {
+          "relationship": "mother",
+          "action": "add",
+          "relative_id": "Ross-17711",
+          "relative_name": "Rebecca Jane (Ross) Glasgow",
+          "status": "probable",
+          "basis": "The birth index names William H or William and Rebecca J Glasgow at Narrandera. The family is identified with William Henry Glasgow-851 and Rebecca Jane (Ross) Glasgow-17711, whose daughter Annie Glasgow-850 was born at Narrandera in 1888. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+          "scope": "Record-defined child; probable parent identity"
+        }
+      ]
     },
     {
       "catalogue_id": "record-ancestry-glasgow-aden-c-tenterfield-1896",
@@ -403133,10 +403393,10 @@
       "death_location": "",
       "occupations": [],
       "source_subject_url": "https://www.ancestry.co.uk/search/collections/1778/records/3247831",
-      "creation_status": "identity_hold",
+      "creation_status": "creation_ready",
       "draft_path": "research/ancestry-glasgow-audit/drafts/reviewed-australian-births-1896-1905-20261105.wiki",
-      "assessment": "Documentary subject; wider identity unresolved.",
-      "current_conclusion": "The birth index identifies this documentary subject; the wider identity remains unresolved.",
+      "assessment": "Birth index names James E and Mary Glasgow at Tenterfield; probable son of James Edward Glasgow-3264 and Mary Alice (Hill) Glasgow-66969. No existing profile was found; creation ready with probable parent links.",
+      "current_conclusion": "Birth index names James E and Mary Glasgow at Tenterfield; probable son of James Edward Glasgow-3264 and Mary Alice (Hill) Glasgow-66969. No existing profile was found; creation ready with probable parent links.",
       "reviewed_at": "2026-11-05",
       "candidates": [],
       "records": [
@@ -403160,7 +403420,27 @@
           "note": "The index lists Aden C Glasgow, born 1896 in New South Wales. Father: James E Glasgow. Mother: Mary Glasgow. Registration place: Tenterfield, New South Wales, Australia. Reference: 16991."
         }
       ],
-      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index lists Aden C Glasgow, born 1896 in New South Wales. Father: James E Glasgow. Mother: Mary Glasgow. Registration place: Tenterfield, New South Wales, Australia. Reference: 16991.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/3247831 Ancestry, Australia, Birth Index, 1788–1922: Aden C Glasgow, record 1778/3247831].</ref>\n\n== Research Notes ==\nThe birth index identifies this documentary subject; the wider identity remains unresolved.\n\n== Sources ==\n<references />\n"
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index lists Aden C Glasgow, born 1896 in New South Wales. Father: James E Glasgow. Mother: Mary Glasgow. Registration place: Tenterfield, New South Wales, Australia. Reference: 16991.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/3247831 Ancestry, Australia, Birth Index, 1788–1922: Aden C Glasgow, record 1778/3247831].</ref>\n\n== Research Notes ==\nThe birth index names James E and Mary Glasgow at Tenterfield. The family is identified with James Edward Glasgow-3264 and Mary Alice (Hill) Glasgow-66969, whose other Tenterfield children include Eva Jane Glasgow-3356 (born 1899) and Alice Mary Glasgow-3263 (born 1904). The shared names, registration district and chronology support the link; no separate existing profile was found for Aden C Glasgow. The parent links are probable, not proved by a single record.\n\n== Sources ==\n<references />\n",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "action": "add",
+          "relative_id": "Glasgow-3264",
+          "relative_name": "James Edward Glasgow",
+          "status": "probable",
+          "basis": "The birth index names James E Glasgow at Tenterfield. The identified family's other Tenterfield children share the same parents and district.",
+          "scope": "Record-defined child; probable parent identity"
+        },
+        {
+          "relationship": "mother",
+          "action": "add",
+          "relative_id": "Hill-66969",
+          "relative_name": "Mary Alice (Hill) Glasgow",
+          "status": "probable",
+          "basis": "The birth index names Mary Glasgow at Tenterfield. The identified family's other Tenterfield children share the same parents and district.",
+          "scope": "Record-defined child; probable parent identity"
+        }
+      ]
     },
     {
       "catalogue_id": "record-ancestry-glasgow-mary-c-casino-1896",
@@ -403327,10 +403607,10 @@
       "death_location": "",
       "occupations": [],
       "source_subject_url": "https://www.ancestry.co.uk/search/collections/1778/records/3248490",
-      "creation_status": "identity_hold",
+      "creation_status": "creation_ready",
       "draft_path": "research/ancestry-glasgow-audit/drafts/reviewed-australian-births-1896-1905-20261105.wiki",
-      "assessment": "Documentary subject; wider identity unresolved.",
-      "current_conclusion": "The birth index identifies this documentary subject; the wider identity remains unresolved.",
+      "assessment": "Birth index names the parents at New South Wales; probable child of William Henry Glasgow and Rebecca Jane (Ross) Glasgow. No existing profile was found; creation ready with probable parent links.",
+      "current_conclusion": "Birth index names the parents at New South Wales; probable child of William Henry Glasgow and Rebecca Jane (Ross) Glasgow. No existing profile was found; creation ready with probable parent links.",
       "reviewed_at": "2026-11-05",
       "candidates": [],
       "records": [
@@ -403354,7 +403634,27 @@
           "note": "The index lists Norman H Glasgow, born 1898 in New South Wales. Father: Henry W Glasgow. Mother: Rebecca J Glasgow. Registration place: Narrandera, New South Wales, Australia. Reference: 23685. The indexed father is Henry W Glasgow. Other Narrandera records name William H or William and Rebecca J. This remains a household comparison."
         }
       ],
-      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index lists Norman H Glasgow, born 1898 in New South Wales. Father: Henry W Glasgow. Mother: Rebecca J Glasgow. Registration place: Narrandera, New South Wales, Australia. Reference: 23685. The indexed father is Henry W Glasgow. Other Narrandera records name William H or William and Rebecca J. This remains a household comparison.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/3248490 Ancestry, Australia, Birth Index, 1788–1922: Norman H Glasgow, record 1778/3248490].</ref>\n\n== Research Notes ==\nThe birth index identifies this documentary subject; the wider identity remains unresolved.\n\n== Sources ==\n<references />\n"
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index lists Norman H Glasgow, born 1898 in New South Wales. Father: Henry W Glasgow. Mother: Rebecca J Glasgow. Registration place: Narrandera, New South Wales, Australia. Reference: 23685. The indexed father is Henry W Glasgow. Other Narrandera records name William H or William and Rebecca J. This remains a household comparison.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/3248490 Ancestry, Australia, Birth Index, 1788–1922: Norman H Glasgow, record 1778/3248490].</ref>\n\n== Research Notes ==\nThe birth index names William H or William and Rebecca J Glasgow at Narrandera. The family is identified with William Henry Glasgow-851 and Rebecca Jane (Ross) Glasgow-17711, whose daughter Annie Glasgow-850 was born at Narrandera in 1888. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.\n\n== Sources ==\n<references />\n",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "action": "add",
+          "relative_id": "Glasgow-851",
+          "relative_name": "William Henry Glasgow",
+          "status": "probable",
+          "basis": "The birth index names William H or William and Rebecca J Glasgow at Narrandera. The family is identified with William Henry Glasgow-851 and Rebecca Jane (Ross) Glasgow-17711, whose daughter Annie Glasgow-850 was born at Narrandera in 1888. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+          "scope": "Record-defined child; probable parent identity"
+        },
+        {
+          "relationship": "mother",
+          "action": "add",
+          "relative_id": "Ross-17711",
+          "relative_name": "Rebecca Jane (Ross) Glasgow",
+          "status": "probable",
+          "basis": "The birth index names William H or William and Rebecca J Glasgow at Narrandera. The family is identified with William Henry Glasgow-851 and Rebecca Jane (Ross) Glasgow-17711, whose daughter Annie Glasgow-850 was born at Narrandera in 1888. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+          "scope": "Record-defined child; probable parent identity"
+        }
+      ]
     },
     {
       "catalogue_id": "record-ancestry-glasgow-arthur-ferguson-queensland-1898",
@@ -403574,10 +403874,10 @@
       "death_location": "",
       "occupations": [],
       "source_subject_url": "https://www.ancestry.co.uk/search/collections/1778/records/3247848",
-      "creation_status": "identity_hold",
+      "creation_status": "creation_ready",
       "draft_path": "research/ancestry-glasgow-audit/drafts/reviewed-australian-births-1896-1905-20261105.wiki",
-      "assessment": "Documentary subject; wider identity unresolved.",
-      "current_conclusion": "The birth index identifies this documentary subject; the wider identity remains unresolved.",
+      "assessment": "Birth index names the parents at New South Wales; probable child of James Edward Glasgow and Mary Alice (Hill) Glasgow. No existing profile was found; creation ready with probable parent links.",
+      "current_conclusion": "Birth index names the parents at New South Wales; probable child of James Edward Glasgow and Mary Alice (Hill) Glasgow. No existing profile was found; creation ready with probable parent links.",
       "reviewed_at": "2026-11-05",
       "candidates": [],
       "records": [
@@ -403606,7 +403906,27 @@
         "source_url": "https://www.ancestry.co.uk/search/collections/1778/records/3247848",
         "reason": "The named principal has a historical birth date or a historical registration year in the index."
       },
-      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index lists Emily H Glasgow, born 1901 in New South Wales. Father: James E Glasgow. Mother: Mary Glasgow. Registration place: Tenterfield, New South Wales, Australia. Reference: 26970.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/3247848 Ancestry, Australia, Birth Index, 1788–1922: Emily H Glasgow, record 1778/3247848].</ref>\n\n== Research Notes ==\nThe birth index identifies this documentary subject; the wider identity remains unresolved.\n\n== Sources ==\n<references />\n"
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index lists Emily H Glasgow, born 1901 in New South Wales. Father: James E Glasgow. Mother: Mary Glasgow. Registration place: Tenterfield, New South Wales, Australia. Reference: 26970.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/3247848 Ancestry, Australia, Birth Index, 1788–1922: Emily H Glasgow, record 1778/3247848].</ref>\n\n== Research Notes ==\nThe birth index names James E and Mary Glasgow at Tenterfield. The family is identified with James Edward Glasgow-3264 and Mary Alice (Hill) Glasgow-66969, whose other Tenterfield children include Eva Jane Glasgow-3356 (born 1899) and Alice Mary Glasgow-3263 (born 1904). The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.\n\n== Sources ==\n<references />\n",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "action": "add",
+          "relative_id": "Glasgow-3264",
+          "relative_name": "James Edward Glasgow",
+          "status": "probable",
+          "basis": "The birth index names James E and Mary Glasgow at Tenterfield. The family is identified with James Edward Glasgow-3264 and Mary Alice (Hill) Glasgow-66969, whose other Tenterfield children include Eva Jane Glasgow-3356 (born 1899) and Alice Mary Glasgow-3263 (born 1904). The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+          "scope": "Record-defined child; probable parent identity"
+        },
+        {
+          "relationship": "mother",
+          "action": "add",
+          "relative_id": "Hill-66969",
+          "relative_name": "Mary Alice (Hill) Glasgow",
+          "status": "probable",
+          "basis": "The birth index names James E and Mary Glasgow at Tenterfield. The family is identified with James Edward Glasgow-3264 and Mary Alice (Hill) Glasgow-66969, whose other Tenterfield children include Eva Jane Glasgow-3356 (born 1899) and Alice Mary Glasgow-3263 (born 1904). The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+          "scope": "Record-defined child; probable parent identity"
+        }
+      ]
     },
     {
       "catalogue_id": "record-ancestry-glasgow-matilda-m-sydney-1901",
@@ -403681,10 +404001,10 @@
       "death_location": "",
       "occupations": [],
       "source_subject_url": "https://www.ancestry.co.uk/search/collections/1778/records/3248499",
-      "creation_status": "identity_hold",
+      "creation_status": "creation_ready",
       "draft_path": "research/ancestry-glasgow-audit/drafts/reviewed-australian-births-1896-1905-20261105.wiki",
-      "assessment": "Documentary subject; wider identity unresolved.",
-      "current_conclusion": "The birth index identifies this documentary subject; the wider identity remains unresolved.",
+      "assessment": "Birth index names the parents at New South Wales; probable child of William Henry Glasgow and Rebecca Jane (Ross) Glasgow. No existing profile was found; creation ready with probable parent links.",
+      "current_conclusion": "Birth index names the parents at New South Wales; probable child of William Henry Glasgow and Rebecca Jane (Ross) Glasgow. No existing profile was found; creation ready with probable parent links.",
       "reviewed_at": "2026-11-05",
       "candidates": [],
       "records": [
@@ -403713,7 +404033,27 @@
         "source_url": "https://www.ancestry.co.uk/search/collections/1778/records/3248499",
         "reason": "The named principal has a historical birth date or a historical registration year in the index."
       },
-      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index lists Winifred C I Glasgow, born 1901 in New South Wales. Father: William H Glasgow. Mother: Rebecca J Glasgow. Registration place: Narrandera, New South Wales, Australia. Reference: 5649.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/3248499 Ancestry, Australia, Birth Index, 1788–1922: Winifred C I Glasgow, record 1778/3248499].</ref>\n\n== Research Notes ==\nThe birth index identifies this documentary subject; the wider identity remains unresolved.\n\n== Sources ==\n<references />\n"
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index lists Winifred C I Glasgow, born 1901 in New South Wales. Father: William H Glasgow. Mother: Rebecca J Glasgow. Registration place: Narrandera, New South Wales, Australia. Reference: 5649.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/3248499 Ancestry, Australia, Birth Index, 1788–1922: Winifred C I Glasgow, record 1778/3248499].</ref>\n\n== Research Notes ==\nThe birth index names William H or William and Rebecca J Glasgow at Narrandera. The family is identified with William Henry Glasgow-851 and Rebecca Jane (Ross) Glasgow-17711, whose daughter Annie Glasgow-850 was born at Narrandera in 1888. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.\n\n== Sources ==\n<references />\n",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "action": "add",
+          "relative_id": "Glasgow-851",
+          "relative_name": "William Henry Glasgow",
+          "status": "probable",
+          "basis": "The birth index names William H or William and Rebecca J Glasgow at Narrandera. The family is identified with William Henry Glasgow-851 and Rebecca Jane (Ross) Glasgow-17711, whose daughter Annie Glasgow-850 was born at Narrandera in 1888. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+          "scope": "Record-defined child; probable parent identity"
+        },
+        {
+          "relationship": "mother",
+          "action": "add",
+          "relative_id": "Ross-17711",
+          "relative_name": "Rebecca Jane (Ross) Glasgow",
+          "status": "probable",
+          "basis": "The birth index names William H or William and Rebecca J Glasgow at Narrandera. The family is identified with William Henry Glasgow-851 and Rebecca Jane (Ross) Glasgow-17711, whose daughter Annie Glasgow-850 was born at Narrandera in 1888. The shared names, registration district and chronology support the link; no separate existing profile was found. The parent links are probable, not proved by a single record.",
+          "scope": "Record-defined child; probable parent identity"
+        }
+      ]
     },
     {
       "catalogue_id": "record-ancestry-glasgow-ella-ruth-queensland-1901",
