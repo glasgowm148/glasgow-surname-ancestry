@@ -85946,6 +85946,175 @@
         "research/queue-review-2026-10-17/catalogue-integration.json",
         "research/canonical_records.json"
       ]
+    },
+    {
+      "id": "australian-birth-clusters-20261116",
+      "found_on": "2026-11-16",
+      "kind": "relationship",
+      "finding": "Seventeen previously separate Australian birth-index records at Tenterfield, Narrandera and Panmure are identified as children of three already-profiled families: James Edward Glasgow-3264 and Mary Alice Hill-66969, William Henry Glasgow-851 and Rebecca Jane Ross-17711, and William Glasgow-2144 and Isabella Irvine-5845.",
+      "status": "qualified",
+      "qualification": "The birth indexes name the parents and registration districts. The parent-profile identities rest on shared names, sibling records, locality and chronology; no single record proves each parent identification. The children are creation-ready local drafts with probable parent links. No live WikiTree profiles were created and no parent link is stated as proved.",
+      "people": [
+        {
+          "id": "Glasgow-3264",
+          "name": "James Edward Glasgow",
+          "role": "Father of the Tenterfield birth cluster",
+          "url": "/people/glasgow-3264.html"
+        },
+        {
+          "id": "Hill-66969",
+          "name": "Mary Alice (Hill) Glasgow",
+          "role": "Mother of the Tenterfield birth cluster",
+          "url": "/people/hill-66969.html"
+        },
+        {
+          "id": "Glasgow-851",
+          "name": "William Henry Glasgow",
+          "role": "Father of the Narrandera birth cluster",
+          "url": "/people/glasgow-851.html"
+        },
+        {
+          "id": "Ross-17711",
+          "name": "Rebecca Jane (Ross) Glasgow",
+          "role": "Mother of the Narrandera birth cluster",
+          "url": "/people/ross-17711.html"
+        },
+        {
+          "id": "Glasgow-2144",
+          "name": "William Glasgow",
+          "role": "Father of the Panmure birth cluster",
+          "url": "/people/glasgow-2144.html"
+        },
+        {
+          "id": "Irvine-5845",
+          "name": "Isabella (Irvine) Glasgow",
+          "role": "Mother of the Panmure birth cluster",
+          "url": "/people/irvine-5845.html"
+        },
+        {
+          "id": "record-ancestry-glasgow-edith-tenterfield-1888",
+          "name": "Edith Glasgow",
+          "role": "Probable daughter; creation-ready",
+          "url": "/people/record-ancestry-glasgow-edith-tenterfield-1888.html"
+        },
+        {
+          "id": "record-ancestry-glasgow-ernest-c-tenterfield-1889",
+          "name": "Ernest C Glasgow",
+          "role": "Probable son; creation-ready",
+          "url": "/people/record-ancestry-glasgow-ernest-c-tenterfield-1889.html"
+        },
+        {
+          "id": "record-ancestry-glasgow-edina-b-tenterfield-1892",
+          "name": "Edina B Glasgow",
+          "role": "Probable daughter; creation-ready",
+          "url": "/people/record-ancestry-glasgow-edina-b-tenterfield-1892.html"
+        },
+        {
+          "id": "record-ancestry-glasgow-mavis-a-tenterfield-1894",
+          "name": "Mavis A Glasgow",
+          "role": "Probable daughter; creation-ready",
+          "url": "/people/record-ancestry-glasgow-mavis-a-tenterfield-1894.html"
+        },
+        {
+          "id": "record-ancestry-glasgow-aden-c-tenterfield-1896",
+          "name": "Aden C Glasgow",
+          "role": "Probable son; creation-ready",
+          "url": "/people/record-ancestry-glasgow-aden-c-tenterfield-1896.html"
+        },
+        {
+          "id": "record-ancestry-glasgow-emily-h-tenterfield-1901",
+          "name": "Emily H Glasgow",
+          "role": "Probable daughter; creation-ready",
+          "url": "/people/record-ancestry-glasgow-emily-h-tenterfield-1901.html"
+        },
+        {
+          "id": "record-ancestry-glasgow-karl-f-s-narrandera-1883",
+          "name": "Karl F S Glasgow",
+          "role": "Probable son; creation-ready",
+          "url": "/people/record-ancestry-glasgow-karl-f-s-narrandera-1883.html"
+        },
+        {
+          "id": "record-ancestry-glasgow-elen-m-narrandera-1886",
+          "name": "Elen M Glasgow",
+          "role": "Probable daughter; creation-ready",
+          "url": "/people/record-ancestry-glasgow-elen-m-narrandera-1886.html"
+        },
+        {
+          "id": "record-ancestry-glasgow-loisa-r-narrandera-1890",
+          "name": "Loisa R Glasgow",
+          "role": "Probable daughter; creation-ready",
+          "url": "/people/record-ancestry-glasgow-loisa-r-narrandera-1890.html"
+        },
+        {
+          "id": "record-ancestry-glasgow-ruth-m-narrandera-1893",
+          "name": "Ruth M Glasgow",
+          "role": "Probable daughter; creation-ready",
+          "url": "/people/record-ancestry-glasgow-ruth-m-narrandera-1893.html"
+        },
+        {
+          "id": "record-ancestry-glasgow-william-c-narrandera-1895",
+          "name": "William C Glasgow",
+          "role": "Probable son; creation-ready",
+          "url": "/people/record-ancestry-glasgow-william-c-narrandera-1895.html"
+        },
+        {
+          "id": "record-ancestry-glasgow-norman-h-narrandera-1898",
+          "name": "Norman H Glasgow",
+          "role": "Probable son; creation-ready",
+          "url": "/people/record-ancestry-glasgow-norman-h-narrandera-1898.html"
+        },
+        {
+          "id": "record-ancestry-glasgow-winifred-c-i-narrandera-1901",
+          "name": "Winifred C I Glasgow",
+          "role": "Probable daughter; creation-ready",
+          "url": "/people/record-ancestry-glasgow-winifred-c-i-narrandera-1901.html"
+        },
+        {
+          "id": "record-ancestry-glasgow-elizabeth-ann-irvine-pan-mure-1884",
+          "name": "Eliz Ann Irvine Glasgow",
+          "role": "Probable daughter; creation-ready",
+          "url": "/people/record-ancestry-glasgow-elizabeth-ann-irvine-pan-mure-1884.html"
+        },
+        {
+          "id": "record-ancestry-glasgow-annie-margaret-pan-mure-1887",
+          "name": "Annie Margaret Glasgow",
+          "role": "Probable daughter; creation-ready",
+          "url": "/people/record-ancestry-glasgow-annie-margaret-pan-mure-1887.html"
+        },
+        {
+          "id": "record-ancestry-glasgow-william-irvine-pan-mure-1892",
+          "name": "Wm Irvine Glasgow",
+          "role": "Probable son; creation-ready",
+          "url": "/people/record-ancestry-glasgow-william-irvine-pan-mure-1892.html"
+        },
+        {
+          "id": "record-ancestry-glasgow-john-pan-mure-1894",
+          "name": "Jno Glasgow",
+          "role": "Probable son; creation-ready",
+          "url": "/people/record-ancestry-glasgow-john-pan-mure-1894.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ancestry, Australia, Birth Index, 1788–1922: Edith Glasgow, 1888, Tenterfield",
+          "url": "https://www.ancestry.co.uk/search/collections/1778/records/3247830"
+        },
+        {
+          "title": "Ancestry, Australia, Birth Index, 1788–1922: Karl F S Glasgow, 1883, Narrandera",
+          "url": "https://www.ancestry.co.uk/search/collections/1778/records/3247824"
+        },
+        {
+          "title": "Ancestry, Australia, Birth Index, 1788–1922: Eliz Ann Irvine Glasgow, 1884, Panmure",
+          "url": "https://www.ancestry.co.uk/search/collections/1778/records/3247825"
+        }
+      ],
+      "detail_url": "/people/glasgow-3264.html",
+      "provenance": [
+        "research/queue-review-2026-10-17/catalogue-integration.json",
+        "research/ancestry-glasgow-audit/drafts/reviewed-australian-births-1884-1895-20261105.wiki",
+        "research/ancestry-glasgow-audit/drafts/reviewed-australian-births-1896-1905-20261105.wiki",
+        "research/ancestry-glasgow-audit/drafts/reviewed-australian-births-1877-1883-20261105.wiki"
+      ]
     }
   ]
 }
