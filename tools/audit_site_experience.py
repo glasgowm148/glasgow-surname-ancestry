@@ -146,7 +146,25 @@ def audit(web=WEB):
         summary_sizes.append(len([node for node in summaries[0].children if node.tag == 'div']) if summaries else 0)
     require(summary_sizes[0] > 1 and summary_sizes[0] == summary_sizes[1], 'statistics: headline totals differ from the maintained catalogue')
     panels = [node for node in page('statistics/index.html').nodes if node.has_class('statistics-panel')]
-    require(len(panels) >= 7 and all(node.exposed() for node in panels), 'statistics: detailed panels missing or collapsed')
+
+    def _panel_reachable(node):
+        # A detailed panel counts as present when it is visible, or when it sits
+        # inside a collapsed <details> that exposes its own <summary> (the
+        # reader can open it, e.g. the "compare" sections). It must never be
+        # hard-hidden (hidden/aria-hidden/style) anywhere in its ancestry.
+        if node.exposed():
+            return True
+        chain = [node, *node.ancestors()]
+        for ancestor in chain:
+            if 'hidden' in ancestor.attrs or ancestor.attrs.get('aria-hidden') == 'true':
+                return False
+            if re.search(r'(?:display\s*:\s*none|visibility\s*:\s*hidden)', ancestor.attrs.get('style') or '', re.I):
+                return False
+        return all(ancestor.tag != 'details' or 'open' in ancestor.attrs
+                   or any(child.tag == 'summary' for child in ancestor.children)
+                   for ancestor in chain)
+
+    require(len(panels) >= 7 and all(_panel_reachable(node) for node in panels), 'statistics: detailed panels missing or collapsed')
 
     for relative in IDENTITY_PAGES:
         path = web / relative
