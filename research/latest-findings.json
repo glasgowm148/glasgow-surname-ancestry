@@ -86375,6 +86375,115 @@
         "research/ancestry-glasgow-audit/drafts/reviewed-australian-births-1864-1876-20261105.wiki",
         "research/ancestry-glasgow-audit/drafts/reviewed-australian-births-1884-1895-20261105.wiki"
       ]
+    },
+    {
+      "id": "subject-group-accounts-20261116",
+      "found_on": "2026-11-16",
+      "kind": "record",
+      "finding": "Fourteen previously suggested documentary subjects from nine grouped research reviews now have individual creation-ready catalogue accounts, including the Elder, McCaughey, Macaw, Mulholland and OPR marriage subjects.",
+      "status": "qualified",
+      "qualification": "These are distinct documentary persons, not proved matches to existing profiles. Most parent, spouse and later-life identities remain unresolved and no new family edges were asserted in this batch. The accounts retain their original source limits; no live WikiTree profiles were created.",
+      "people": [
+        {
+          "id": "record-subject-gortereghy-elder-and-anderson-alexander-elder",
+          "name": "Alexander Elder",
+          "role": "New creation-ready account",
+          "url": "/people/record-subject-gortereghy-elder-and-anderson-alexander-elder.html"
+        },
+        {
+          "id": "record-subject-gortereghy-elder-and-anderson-sarah-elder",
+          "name": "Sarah Elder",
+          "role": "New creation-ready account",
+          "url": "/people/record-subject-gortereghy-elder-and-anderson-sarah-elder.html"
+        },
+        {
+          "id": "record-subject-ballymoney-elder-mccaughey-1887-jane-adams-mccaughey",
+          "name": "Jane Adams McCaughey",
+          "role": "New creation-ready account",
+          "url": "/people/record-subject-ballymoney-elder-mccaughey-1887-jane-adams-mccaughey.html"
+        },
+        {
+          "id": "record-subject-ballymena-hillis-elder-1857-alex-hillis",
+          "name": "Alex Hillis",
+          "role": "New creation-ready account",
+          "url": "/people/record-subject-ballymena-hillis-elder-1857-alex-hillis.html"
+        },
+        {
+          "id": "record-subject-kilraughts-montgomery-mccaughey-1839-jane-mccaughey",
+          "name": "Jane McCaughey",
+          "role": "New creation-ready account",
+          "url": "/people/record-subject-kilraughts-montgomery-mccaughey-1839-jane-mccaughey.html"
+        },
+        {
+          "id": "record-subject-lisnagaver-macaw-kilpatrick-1839-hugh-macaw",
+          "name": "Hugh Macaw",
+          "role": "New creation-ready account",
+          "url": "/people/record-subject-lisnagaver-macaw-kilpatrick-1839-hugh-macaw.html"
+        },
+        {
+          "id": "record-subject-gortereghy-elder-households-1911-ellen-elder",
+          "name": "Ellen Elder",
+          "role": "New creation-ready account",
+          "url": "/people/record-subject-gortereghy-elder-households-1911-ellen-elder.html"
+        },
+        {
+          "id": "record-subject-gortereghy-mccaughern-household-1911-matilda-mulholland",
+          "name": "Matilda Mulholland",
+          "role": "New creation-ready account",
+          "url": "/people/record-subject-gortereghy-mccaughern-household-1911-matilda-mulholland.html"
+        },
+        {
+          "id": "record-subject-gortereghy-mccaughern-household-1911-caroline-mccaughern",
+          "name": "Caroline McCaughern",
+          "role": "New creation-ready account",
+          "url": "/people/record-subject-gortereghy-mccaughern-household-1911-caroline-mccaughern.html"
+        },
+        {
+          "id": "record-subject-gortereghy-mccaughern-household-1911-sara-jane-mccaughern",
+          "name": "Sara Jane McCaughern",
+          "role": "New creation-ready account",
+          "url": "/people/record-subject-gortereghy-mccaughern-household-1911-sara-jane-mccaughern.html"
+        },
+        {
+          "id": "record-subject-gortereghy-mccaughern-household-1911-jas-alex-mccaughern",
+          "name": "Jas Alex McCaughern",
+          "role": "New creation-ready account",
+          "url": "/people/record-subject-gortereghy-mccaughern-household-1911-jas-alex-mccaughern.html"
+        },
+        {
+          "id": "record-subject-gortereghy-mccaughern-household-1911-geo-mulholland",
+          "name": "Geo Mulholland",
+          "role": "New creation-ready account",
+          "url": "/people/record-subject-gortereghy-mccaughern-household-1911-geo-mulholland.html"
+        },
+        {
+          "id": "record-subject-opr-alison-marriages-alison-glasgow",
+          "name": "Alison Glasgow",
+          "role": "New creation-ready account",
+          "url": "/people/record-subject-opr-alison-marriages-alison-glasgow.html"
+        },
+        {
+          "id": "record-subject-opr-alison-marriages-george-cargill",
+          "name": "George Cargill",
+          "role": "New creation-ready account",
+          "url": "/people/record-subject-opr-alison-marriages-george-cargill.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "RootsChat, Elder, Murdoch & McMeekin Families (Alex Hillis/Annie Elder marriage, 1857)",
+          "url": "https://www.rootschat.com/forum/index.php?topic=214109.0"
+        },
+        {
+          "title": "Chester County Register of Wills, original file 4015 (Nottingham probate context)",
+          "url": "https://portal.laserfiche.com/Portal/DocView.aspx?id=772934&page=1065&repo=r-24f48cc6"
+        }
+      ],
+      "detail_url": "/catalogue/",
+      "provenance": [
+        "research/queue-review-2026-10-17/catalogue-integration.json",
+        "research/latest-findings-subjects/subjects.json"
+      ]
     }
   ]
 }
