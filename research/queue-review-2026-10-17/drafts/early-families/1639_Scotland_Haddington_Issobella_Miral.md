@@ -28,6 +28,8 @@ Issobella Miral is the mother named in Findmypast’s transcript of Issobell Gla
 Miral is the literal provider reading. It is not normalized to Muirhead or another surname without the original. The record proves the mother’s name within this event, not her origins or a marriage.
 Inspect the maternal surname in OPR 709/1 p.208 before expanding variants or preparing a new live profile.
 
+Source-verification resolution, 16 November 2026: no existing catalogue profile matched this record; it defines a distinct documentary person. The underlying source remains only partly verified (transcript, catalogue description or uninspected original), so the draft is creation-ready with that explicit limit.
+
 == Sources ==
 <references />
 ```

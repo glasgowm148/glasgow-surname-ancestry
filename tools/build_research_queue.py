@@ -137,6 +137,8 @@ def apply_match_reviews(rows, root=ROOT):
             row['status'] = 'Matched profile'
         if status == 'superseded':
             row['status'] = 'Superseded draft'
+        if status == 'disregarded':
+            row['status'] = 'Excluded from profile creation'
     return rows
 
 
@@ -220,6 +222,8 @@ def collect(web=ROOT / 'www', root=ROOT):
                          assessment=assessment, url=url, profiles=list(profiles), sources=list(sources)))
     opr = json.loads((root / 'surname-research/indexes/scotlandspeople-opr-marriages-to-1700.json').read_text())
     for d in opr['new_drafts']:
+        if 'CONSOLIDATED' in str(d.get('status', '')).upper():
+            continue
         used_files.add(d['path'])
         add('opr-' + '-'.join(map(str, d['rows'])), d['title'], 'Profile identity',
             'On hold' if 'HOLD' in d['status'].upper() else 'Draft review', d['assessment'],
@@ -228,6 +232,8 @@ def collect(web=ROOT / 'www', root=ROOT):
     subjects = json.loads((root / 'research/latest-findings-subjects/subjects.json').read_text())
     for group in subjects['groups']:
         for p in group['people']:
+            if 'CONSOLIDATED' in str(p.get('status', '')).upper():
+                continue
             # A reviewed canonical handoff still owns its source draft after its
             # wording changes; textual fingerprints alone would resurrect it.
             used_files.update(p.get('draft_sources', []))
@@ -299,7 +305,7 @@ def collect(web=ROOT / 'www', root=ROOT):
                           'Matched profile': 4, 'Superseded draft': 5}
     for row in rows:
         unique.setdefault((row['url'], row['name']), row)
-    return sorted(unique.values(), key=lambda r: (order[r['status']], r['name'].casefold())), drafts
+    return sorted(unique.values(), key=lambda r: (order.get(r['status'], 9), r['name'].casefold())), drafts
 
 
 QUEUE_PAGE = '/research/queue/'

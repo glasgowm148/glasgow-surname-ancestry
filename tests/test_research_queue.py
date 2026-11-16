@@ -146,6 +146,20 @@ class ResearchQueueTests(unittest.TestCase):
         self.assertNotIn('Elder-5907', records['new-17sep-5c3f1cfb8d0b']['profile_ids'])
         self.assertEqual('compatible_candidate', records['new-17sep-0652ac06be27']['status'])
 
+    def test_disregarded_review_closes_the_creation_row(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / 'research').mkdir()
+            reviews = {'identity': dict(status='disregarded', profile_ids=[],
+                                        assessment='The transcript names a different person.')}
+            (root / 'research/research-queue-matches.json').write_text(
+                json.dumps(dict(reviewed_on='2026-11-16', reviews=reviews)))
+            rows = [dict(id='identity', kind='Profile identity', status='On hold',
+                         assessment='Draft review.', url='/people/record-x.html', profiles=[], sources=[])]
+            apply_match_reviews(rows, root)
+            self.assertEqual('Excluded from profile creation', rows[0]['status'])
+            self.assertEqual('Excluded from profile creation', rows[0]['match_review']['label'])
+
     def test_review_replaces_rejected_leads_without_completing_amendments(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
