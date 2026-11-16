@@ -38,7 +38,7 @@ The burial and later baptism name William and the exact Leithford residence, wit
 
 The two Walters remain separate record accounts pending original-year verification. This source-verification HOLD remains in force; no live creation, merge, exact death date or infant age follows.<ref>Findmypast/SGS, Walter Glasgow burial, 4 June 1647, Leithford, OPR 689/20, https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1625437; Walter Glasgow baptism indexed 23 September 1647, same residence/reference, https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4473489. Supplied ScotlandsPeople OPR 690/10/19 and FamilySearch https://www.familysearch.org/ark:/61903/1:1:VQ4K-FWL instead give 23 September 1649. William’s Mid Calder christening, 24 December 1609, OPR 694/10/15: https://www.familysearch.org/ark:/61903/1:1:X1B2-3LV. Maintained provider readings reused; originals not inspected in this review.</ref>
 
-Source-verification resolution, 16 November 2026: no existing catalogue profile matched this record; it defines a distinct documentary person. The underlying source remains only partly verified (transcript, catalogue description or uninspected original), so the draft is creation-ready with that explicit limit.
+Source-verification status, 16 November 2026: the burial/baptism year-heading check required to establish a distinct person has not been supplied. The source-verification HOLD remains in force; this record is not creation-ready and no profile should be created until the original OPR 689/20 year headings are inspected.
 
 == Sources ==
 <references />
