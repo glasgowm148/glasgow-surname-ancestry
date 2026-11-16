@@ -135593,6 +135593,64 @@
       }
     },
     {
+      "subject_id": "record-ancestry-glasgow-00e285ce1cf9",
+      "relative_id": "Glasgow-1057",
+      "relationship": "father",
+      "percent": 92,
+      "assessment_status": "probable",
+      "assertion_id": "clm-fa5-record-ancestry-glasgow-00e285ce1cf9-father-20261116",
+      "basis": "The parent-index entry names George Glasgow as father of Jean Glasgow (mother Margaret Martin). The catalogue person glasgow-1058 is the same man (same forename, wife Margaret Martin), and his father is Glasgow-1057 (98%). Carried at 92% because the father-draft and glasgow-1058 are not merged.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-11780210"
+      ],
+      "scope": "Index transcript only; original register uninspected. Identified with glasgow-1058 by forename and the exact wife Margaret Martin; not merged.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-00e285ce1cf9.html#research-findings",
+          "label": "Post-1700 twin father (FA5, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1057": "John Glasgow",
+        "record-ancestry-glasgow-00e285ce1cf9": "record-ancestry-glasgow-00e285ce1cf9"
+      }
+    },
+    {
+      "subject_id": "Glasgow-1057",
+      "relative_id": "record-ancestry-glasgow-00e285ce1cf9",
+      "relationship": "child",
+      "percent": 92,
+      "assessment_status": "probable",
+      "assertion_id": "clm-fa5-record-ancestry-glasgow-00e285ce1cf9-father-20261116",
+      "basis": "The parent-index entry names George Glasgow as father of Jean Glasgow (mother Margaret Martin). The catalogue person glasgow-1058 is the same man (same forename, wife Margaret Martin), and his father is Glasgow-1057 (98%). Carried at 92% because the father-draft and glasgow-1058 are not merged.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-11780210"
+      ],
+      "scope": "Index transcript only; original register uninspected. Identified with glasgow-1058 by forename and the exact wife Margaret Martin; not merged.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-00e285ce1cf9.html#research-findings",
+          "label": "Post-1700 twin father (FA5, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1057": "John Glasgow",
+        "record-ancestry-glasgow-00e285ce1cf9": "record-ancestry-glasgow-00e285ce1cf9"
+      }
+    },
+    {
       "subject_id": "record-ancestry-glasgow-01fabc19d03d",
       "relative_id": "record-ancestry-glasgow-288929e0c8d4",
       "relationship": "father",
@@ -135711,6 +135769,64 @@
       }
     },
     {
+      "subject_id": "record-ancestry-glasgow-1524a010d5b3",
+      "relative_id": "Glasgow-1058",
+      "relationship": "father",
+      "percent": 79,
+      "assessment_status": "probable",
+      "assertion_id": "clm-fa5-record-ancestry-glasgow-1524a010d5b3-father-20261116",
+      "basis": "The parent-index entry names John Glasgow as father of Peter Glasgow (mother Margaret Mill). The catalogue person glasgow-3314 is the same man (same forename, wife Margaret Mill), and his father is Glasgow-1058 (84%). Carried at 79% because the father-draft and glasgow-3314 are not merged.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-11162736"
+      ],
+      "scope": "Index transcript only; original register uninspected. Identified with glasgow-3314 by forename and the exact wife Margaret Mill; not merged.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-1524a010d5b3.html#research-findings",
+          "label": "Post-1700 twin father (FA5, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1058": "George Glasgow",
+        "record-ancestry-glasgow-1524a010d5b3": "record-ancestry-glasgow-1524a010d5b3"
+      }
+    },
+    {
+      "subject_id": "Glasgow-1058",
+      "relative_id": "record-ancestry-glasgow-1524a010d5b3",
+      "relationship": "child",
+      "percent": 79,
+      "assessment_status": "probable",
+      "assertion_id": "clm-fa5-record-ancestry-glasgow-1524a010d5b3-father-20261116",
+      "basis": "The parent-index entry names John Glasgow as father of Peter Glasgow (mother Margaret Mill). The catalogue person glasgow-3314 is the same man (same forename, wife Margaret Mill), and his father is Glasgow-1058 (84%). Carried at 79% because the father-draft and glasgow-3314 are not merged.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-11162736"
+      ],
+      "scope": "Index transcript only; original register uninspected. Identified with glasgow-3314 by forename and the exact wife Margaret Mill; not merged.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-1524a010d5b3.html#research-findings",
+          "label": "Post-1700 twin father (FA5, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1058": "George Glasgow",
+        "record-ancestry-glasgow-1524a010d5b3": "record-ancestry-glasgow-1524a010d5b3"
+      }
+    },
+    {
       "subject_id": "record-ancestry-glasgow-187687ac57a0",
       "relative_id": "record-ancestry-glasgow-288929e0c8d4",
       "relationship": "father",
@@ -135770,6 +135886,64 @@
       "profile_names": {
         "record-ancestry-glasgow-187687ac57a0": "Peter Glasgow",
         "record-ancestry-glasgow-288929e0c8d4": "Peter Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-1a7ba78a2bd7",
+      "relative_id": "Glasgow-3034",
+      "relationship": "father",
+      "percent": 31,
+      "assessment_status": "uncertain",
+      "assertion_id": "clm-fa5-record-ancestry-glasgow-1a7ba78a2bd7-father-20261116",
+      "basis": "The parent-index entry names John Glasgow as father of Lillias Glasgow (mother Elizabeth Campbell). The catalogue person glasgow-2721 is the same man (same forename, wife Elizabeth Campbell), and his father is Glasgow-3034 (33%). Carried at 31% because the father-draft and glasgow-2721 are not merged.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-10876864"
+      ],
+      "scope": "Index transcript only; original register uninspected. Identified with glasgow-2721 by forename and the exact wife Elizabeth Campbell; not merged.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-1a7ba78a2bd7.html#research-findings",
+          "label": "Post-1700 twin father (FA5, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-3034": "John Glasgow",
+        "record-ancestry-glasgow-1a7ba78a2bd7": "record-ancestry-glasgow-1a7ba78a2bd7"
+      }
+    },
+    {
+      "subject_id": "Glasgow-3034",
+      "relative_id": "record-ancestry-glasgow-1a7ba78a2bd7",
+      "relationship": "child",
+      "percent": 31,
+      "assessment_status": "uncertain",
+      "assertion_id": "clm-fa5-record-ancestry-glasgow-1a7ba78a2bd7-father-20261116",
+      "basis": "The parent-index entry names John Glasgow as father of Lillias Glasgow (mother Elizabeth Campbell). The catalogue person glasgow-2721 is the same man (same forename, wife Elizabeth Campbell), and his father is Glasgow-3034 (33%). Carried at 31% because the father-draft and glasgow-2721 are not merged.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-10876864"
+      ],
+      "scope": "Index transcript only; original register uninspected. Identified with glasgow-2721 by forename and the exact wife Elizabeth Campbell; not merged.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-1a7ba78a2bd7.html#research-findings",
+          "label": "Post-1700 twin father (FA5, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-3034": "John Glasgow",
+        "record-ancestry-glasgow-1a7ba78a2bd7": "record-ancestry-glasgow-1a7ba78a2bd7"
       }
     },
     {
@@ -135886,6 +136060,64 @@
       "profile_names": {
         "record-ancestry-glasgow-1d745246c591": "Mary Glasgow",
         "record-ancestry-glasgow-55a5d4f379d9": "John Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-1ea66bc3e1f8",
+      "relative_id": "Glasgow-1142",
+      "relationship": "father",
+      "percent": 43,
+      "assessment_status": "possible",
+      "assertion_id": "clm-fa5-record-ancestry-glasgow-1ea66bc3e1f8-father-20261116",
+      "basis": "The parent-index entry names Robert Glasgow as father of Ratchel Dunlop Glasgow (mother Jean Mcconechie). The catalogue person glasgow-2963 is the same man (same forename, wife Jean Mcconechie), and his father is Glasgow-1142 (46%). Carried at 43% because the father-draft and glasgow-2963 are not merged.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-23331037"
+      ],
+      "scope": "Index transcript only; original register uninspected. Identified with glasgow-2963 by forename and the exact wife Jean Mcconechie; not merged.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-1ea66bc3e1f8.html#research-findings",
+          "label": "Post-1700 twin father (FA5, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1142": "James Glasgow",
+        "record-ancestry-glasgow-1ea66bc3e1f8": "record-ancestry-glasgow-1ea66bc3e1f8"
+      }
+    },
+    {
+      "subject_id": "Glasgow-1142",
+      "relative_id": "record-ancestry-glasgow-1ea66bc3e1f8",
+      "relationship": "child",
+      "percent": 43,
+      "assessment_status": "possible",
+      "assertion_id": "clm-fa5-record-ancestry-glasgow-1ea66bc3e1f8-father-20261116",
+      "basis": "The parent-index entry names Robert Glasgow as father of Ratchel Dunlop Glasgow (mother Jean Mcconechie). The catalogue person glasgow-2963 is the same man (same forename, wife Jean Mcconechie), and his father is Glasgow-1142 (46%). Carried at 43% because the father-draft and glasgow-2963 are not merged.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-23331037"
+      ],
+      "scope": "Index transcript only; original register uninspected. Identified with glasgow-2963 by forename and the exact wife Jean Mcconechie; not merged.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-1ea66bc3e1f8.html#research-findings",
+          "label": "Post-1700 twin father (FA5, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1142": "James Glasgow",
+        "record-ancestry-glasgow-1ea66bc3e1f8": "record-ancestry-glasgow-1ea66bc3e1f8"
       }
     },
     {
@@ -136065,6 +136297,64 @@
       }
     },
     {
+      "subject_id": "record-ancestry-glasgow-3941d2a85330",
+      "relative_id": "Glasgow-1572",
+      "relationship": "father",
+      "percent": 59,
+      "assessment_status": "possible",
+      "assertion_id": "clm-fa5-record-ancestry-glasgow-3941d2a85330-father-20261116",
+      "basis": "The parent-index entry names James Glasgow as father of Margaret Glasgow (mother Margaret Anderson). The catalogue person glasgow-1573 is the same man (same forename, wife Margaret Anderson), and his father is Glasgow-1572 (63%). Carried at 59% because the father-draft and glasgow-1573 are not merged.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-313674"
+      ],
+      "scope": "Index transcript only; original register uninspected. Identified with glasgow-1573 by forename and the exact wife Margaret Anderson; not merged.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-3941d2a85330.html#research-findings",
+          "label": "Post-1700 twin father (FA5, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1572": "James Glasgow",
+        "record-ancestry-glasgow-3941d2a85330": "record-ancestry-glasgow-3941d2a85330"
+      }
+    },
+    {
+      "subject_id": "Glasgow-1572",
+      "relative_id": "record-ancestry-glasgow-3941d2a85330",
+      "relationship": "child",
+      "percent": 59,
+      "assessment_status": "possible",
+      "assertion_id": "clm-fa5-record-ancestry-glasgow-3941d2a85330-father-20261116",
+      "basis": "The parent-index entry names James Glasgow as father of Margaret Glasgow (mother Margaret Anderson). The catalogue person glasgow-1573 is the same man (same forename, wife Margaret Anderson), and his father is Glasgow-1572 (63%). Carried at 59% because the father-draft and glasgow-1573 are not merged.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-313674"
+      ],
+      "scope": "Index transcript only; original register uninspected. Identified with glasgow-1573 by forename and the exact wife Margaret Anderson; not merged.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-3941d2a85330.html#research-findings",
+          "label": "Post-1700 twin father (FA5, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1572": "James Glasgow",
+        "record-ancestry-glasgow-3941d2a85330": "record-ancestry-glasgow-3941d2a85330"
+      }
+    },
+    {
       "subject_id": "record-ancestry-glasgow-58b4256bf50e",
       "relative_id": "record-father-henry-glasgow-hertford-sarah",
       "relationship": "father",
@@ -136178,6 +136468,64 @@
       "profile_names": {
         "record-ancestry-glasgow-58e9acc71ecc": "Jane Glasgow",
         "record-ancestry-glasgow-70ca776967ba": "Abraham Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-68b842ca0d3d",
+      "relative_id": "Glasgow-1058",
+      "relationship": "father",
+      "percent": 79,
+      "assessment_status": "probable",
+      "assertion_id": "clm-fa5-record-ancestry-glasgow-68b842ca0d3d-father-20261116",
+      "basis": "The parent-index entry names John Glasgow as father of Issobel Glasgow (mother Margaret Mill). The catalogue person glasgow-3314 is the same man (same forename, wife Margaret Mill), and his father is Glasgow-1058 (84%). Carried at 79% because the father-draft and glasgow-3314 are not merged.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-6102589"
+      ],
+      "scope": "Index transcript only; original register uninspected. Identified with glasgow-3314 by forename and the exact wife Margaret Mill; not merged.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-68b842ca0d3d.html#research-findings",
+          "label": "Post-1700 twin father (FA5, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1058": "George Glasgow",
+        "record-ancestry-glasgow-68b842ca0d3d": "record-ancestry-glasgow-68b842ca0d3d"
+      }
+    },
+    {
+      "subject_id": "Glasgow-1058",
+      "relative_id": "record-ancestry-glasgow-68b842ca0d3d",
+      "relationship": "child",
+      "percent": 79,
+      "assessment_status": "probable",
+      "assertion_id": "clm-fa5-record-ancestry-glasgow-68b842ca0d3d-father-20261116",
+      "basis": "The parent-index entry names John Glasgow as father of Issobel Glasgow (mother Margaret Mill). The catalogue person glasgow-3314 is the same man (same forename, wife Margaret Mill), and his father is Glasgow-1058 (84%). Carried at 79% because the father-draft and glasgow-3314 are not merged.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-6102589"
+      ],
+      "scope": "Index transcript only; original register uninspected. Identified with glasgow-3314 by forename and the exact wife Margaret Mill; not merged.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-68b842ca0d3d.html#research-findings",
+          "label": "Post-1700 twin father (FA5, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1058": "George Glasgow",
+        "record-ancestry-glasgow-68b842ca0d3d": "record-ancestry-glasgow-68b842ca0d3d"
       }
     },
     {
@@ -136533,6 +136881,296 @@
       }
     },
     {
+      "subject_id": "record-ancestry-glasgow-901b18a1d749",
+      "relative_id": "Glasgow-1058",
+      "relationship": "father",
+      "percent": 79,
+      "assessment_status": "probable",
+      "assertion_id": "clm-fa5-record-ancestry-glasgow-901b18a1d749-father-20261116",
+      "basis": "The parent-index entry names John Glasgow as father of Janet Glasgow (mother Margaret Mill). The catalogue person glasgow-3314 is the same man (same forename, wife Margaret Mill), and his father is Glasgow-1058 (84%). Carried at 79% because the father-draft and glasgow-3314 are not merged.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-2912624"
+      ],
+      "scope": "Index transcript only; original register uninspected. Identified with glasgow-3314 by forename and the exact wife Margaret Mill; not merged.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-901b18a1d749.html#research-findings",
+          "label": "Post-1700 twin father (FA5, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1058": "George Glasgow",
+        "record-ancestry-glasgow-901b18a1d749": "record-ancestry-glasgow-901b18a1d749"
+      }
+    },
+    {
+      "subject_id": "Glasgow-1058",
+      "relative_id": "record-ancestry-glasgow-901b18a1d749",
+      "relationship": "child",
+      "percent": 79,
+      "assessment_status": "probable",
+      "assertion_id": "clm-fa5-record-ancestry-glasgow-901b18a1d749-father-20261116",
+      "basis": "The parent-index entry names John Glasgow as father of Janet Glasgow (mother Margaret Mill). The catalogue person glasgow-3314 is the same man (same forename, wife Margaret Mill), and his father is Glasgow-1058 (84%). Carried at 79% because the father-draft and glasgow-3314 are not merged.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-2912624"
+      ],
+      "scope": "Index transcript only; original register uninspected. Identified with glasgow-3314 by forename and the exact wife Margaret Mill; not merged.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-901b18a1d749.html#research-findings",
+          "label": "Post-1700 twin father (FA5, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1058": "George Glasgow",
+        "record-ancestry-glasgow-901b18a1d749": "record-ancestry-glasgow-901b18a1d749"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-937119d8a653",
+      "relative_id": "Glasgow-1304",
+      "relationship": "father",
+      "percent": 61,
+      "assessment_status": "probable",
+      "assertion_id": "clm-fa5-record-ancestry-glasgow-937119d8a653-father-20261116",
+      "basis": "The parent-index entry names Alexander Glasgow as father of Margaret Glasgow (mother Margaret Murray). The catalogue person glasgow-2695 is the same man (same forename, wife Margaret Murray), and his father is Glasgow-1304 (65%). Carried at 61% because the father-draft and glasgow-2695 are not merged.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-4069542"
+      ],
+      "scope": "Index transcript only; original register uninspected. Identified with glasgow-2695 by forename and the exact wife Margaret Murray; not merged.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-937119d8a653.html#research-findings",
+          "label": "Post-1700 twin father (FA5, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1304": "John Glasgow",
+        "record-ancestry-glasgow-937119d8a653": "record-ancestry-glasgow-937119d8a653"
+      }
+    },
+    {
+      "subject_id": "Glasgow-1304",
+      "relative_id": "record-ancestry-glasgow-937119d8a653",
+      "relationship": "child",
+      "percent": 61,
+      "assessment_status": "probable",
+      "assertion_id": "clm-fa5-record-ancestry-glasgow-937119d8a653-father-20261116",
+      "basis": "The parent-index entry names Alexander Glasgow as father of Margaret Glasgow (mother Margaret Murray). The catalogue person glasgow-2695 is the same man (same forename, wife Margaret Murray), and his father is Glasgow-1304 (65%). Carried at 61% because the father-draft and glasgow-2695 are not merged.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-4069542"
+      ],
+      "scope": "Index transcript only; original register uninspected. Identified with glasgow-2695 by forename and the exact wife Margaret Murray; not merged.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-937119d8a653.html#research-findings",
+          "label": "Post-1700 twin father (FA5, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1304": "John Glasgow",
+        "record-ancestry-glasgow-937119d8a653": "record-ancestry-glasgow-937119d8a653"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-99395fec7312",
+      "relative_id": "Glasgow-1530",
+      "relationship": "father",
+      "percent": 89,
+      "assessment_status": "probable",
+      "assertion_id": "clm-fa5-record-ancestry-glasgow-99395fec7312-father-20261116",
+      "basis": "The parent-index entry names John Glasgow as father of William Glasgow (mother Elisabeth Mccallum). The catalogue person glasgow-1535 is the same man (same forename, wife Elisabeth Mccallum), and his father is Glasgow-1530 (95%). Carried at 89% because the father-draft and glasgow-1535 are not merged.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-3968001"
+      ],
+      "scope": "Index transcript only; original register uninspected. Identified with glasgow-1535 by forename and the exact wife Elisabeth Mccallum; not merged.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-99395fec7312.html#research-findings",
+          "label": "Post-1700 twin father (FA5, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1530": "Robert Glasgow",
+        "record-ancestry-glasgow-99395fec7312": "record-ancestry-glasgow-99395fec7312"
+      }
+    },
+    {
+      "subject_id": "Glasgow-1530",
+      "relative_id": "record-ancestry-glasgow-99395fec7312",
+      "relationship": "child",
+      "percent": 89,
+      "assessment_status": "probable",
+      "assertion_id": "clm-fa5-record-ancestry-glasgow-99395fec7312-father-20261116",
+      "basis": "The parent-index entry names John Glasgow as father of William Glasgow (mother Elisabeth Mccallum). The catalogue person glasgow-1535 is the same man (same forename, wife Elisabeth Mccallum), and his father is Glasgow-1530 (95%). Carried at 89% because the father-draft and glasgow-1535 are not merged.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-3968001"
+      ],
+      "scope": "Index transcript only; original register uninspected. Identified with glasgow-1535 by forename and the exact wife Elisabeth Mccallum; not merged.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-99395fec7312.html#research-findings",
+          "label": "Post-1700 twin father (FA5, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1530": "Robert Glasgow",
+        "record-ancestry-glasgow-99395fec7312": "record-ancestry-glasgow-99395fec7312"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-9c575c2c580c",
+      "relative_id": "Glasgow-1572",
+      "relationship": "father",
+      "percent": 59,
+      "assessment_status": "possible",
+      "assertion_id": "clm-fa5-record-ancestry-glasgow-9c575c2c580c-father-20261116",
+      "basis": "The parent-index entry names James Glasgow as father of John Glasgow (mother Margaret Anderson). The catalogue person glasgow-1573 is the same man (same forename, wife Margaret Anderson), and his father is Glasgow-1572 (63%). Carried at 59% because the father-draft and glasgow-1573 are not merged.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-2397569"
+      ],
+      "scope": "Index transcript only; original register uninspected. Identified with glasgow-1573 by forename and the exact wife Margaret Anderson; not merged.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-9c575c2c580c.html#research-findings",
+          "label": "Post-1700 twin father (FA5, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1572": "James Glasgow",
+        "record-ancestry-glasgow-9c575c2c580c": "record-ancestry-glasgow-9c575c2c580c"
+      }
+    },
+    {
+      "subject_id": "Glasgow-1572",
+      "relative_id": "record-ancestry-glasgow-9c575c2c580c",
+      "relationship": "child",
+      "percent": 59,
+      "assessment_status": "possible",
+      "assertion_id": "clm-fa5-record-ancestry-glasgow-9c575c2c580c-father-20261116",
+      "basis": "The parent-index entry names James Glasgow as father of John Glasgow (mother Margaret Anderson). The catalogue person glasgow-1573 is the same man (same forename, wife Margaret Anderson), and his father is Glasgow-1572 (63%). Carried at 59% because the father-draft and glasgow-1573 are not merged.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-2397569"
+      ],
+      "scope": "Index transcript only; original register uninspected. Identified with glasgow-1573 by forename and the exact wife Margaret Anderson; not merged.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-9c575c2c580c.html#research-findings",
+          "label": "Post-1700 twin father (FA5, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1572": "James Glasgow",
+        "record-ancestry-glasgow-9c575c2c580c": "record-ancestry-glasgow-9c575c2c580c"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-be02fc5a4eb7",
+      "relative_id": "Glasgow-1530",
+      "relationship": "father",
+      "percent": 89,
+      "assessment_status": "probable",
+      "assertion_id": "clm-fa5-record-ancestry-glasgow-be02fc5a4eb7-father-20261116",
+      "basis": "The parent-index entry names John Glasgow as father of George Kirkland Glasgow (mother Elisabeth Mccallum). The catalogue person glasgow-1535 is the same man (same forename, wife Elisabeth Mccallum), and his father is Glasgow-1530 (95%). Carried at 89% because the father-draft and glasgow-1535 are not merged.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-9625913"
+      ],
+      "scope": "Index transcript only; original register uninspected. Identified with glasgow-1535 by forename and the exact wife Elisabeth Mccallum; not merged.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-be02fc5a4eb7.html#research-findings",
+          "label": "Post-1700 twin father (FA5, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1530": "Robert Glasgow",
+        "record-ancestry-glasgow-be02fc5a4eb7": "record-ancestry-glasgow-be02fc5a4eb7"
+      }
+    },
+    {
+      "subject_id": "Glasgow-1530",
+      "relative_id": "record-ancestry-glasgow-be02fc5a4eb7",
+      "relationship": "child",
+      "percent": 89,
+      "assessment_status": "probable",
+      "assertion_id": "clm-fa5-record-ancestry-glasgow-be02fc5a4eb7-father-20261116",
+      "basis": "The parent-index entry names John Glasgow as father of George Kirkland Glasgow (mother Elisabeth Mccallum). The catalogue person glasgow-1535 is the same man (same forename, wife Elisabeth Mccallum), and his father is Glasgow-1530 (95%). Carried at 89% because the father-draft and glasgow-1535 are not merged.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-9625913"
+      ],
+      "scope": "Index transcript only; original register uninspected. Identified with glasgow-1535 by forename and the exact wife Elisabeth Mccallum; not merged.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-be02fc5a4eb7.html#research-findings",
+          "label": "Post-1700 twin father (FA5, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1530": "Robert Glasgow",
+        "record-ancestry-glasgow-be02fc5a4eb7": "record-ancestry-glasgow-be02fc5a4eb7"
+      }
+    },
+    {
       "subject_id": "record-ancestry-glasgow-bf85683e40ac",
       "relative_id": "Glasgow-1574",
       "relationship": "father",
@@ -136768,6 +137406,296 @@
       "profile_names": {
         "Glasgow-2433": "John Glasgow",
         "record-ancestry-glasgow-df3c8cfa2bfa": "Euphans Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-e736b2c54eb8",
+      "relative_id": "Glasgow-3034",
+      "relationship": "father",
+      "percent": 31,
+      "assessment_status": "uncertain",
+      "assertion_id": "clm-fa5-record-ancestry-glasgow-e736b2c54eb8-father-20261116",
+      "basis": "The parent-index entry names John Glasgow as father of Mary Glasgow (mother Elizabeth Campbell). The catalogue person glasgow-2721 is the same man (same forename, wife Elizabeth Campbell), and his father is Glasgow-3034 (33%). Carried at 31% because the father-draft and glasgow-2721 are not merged.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-27247764"
+      ],
+      "scope": "Index transcript only; original register uninspected. Identified with glasgow-2721 by forename and the exact wife Elizabeth Campbell; not merged.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-e736b2c54eb8.html#research-findings",
+          "label": "Post-1700 twin father (FA5, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-3034": "John Glasgow",
+        "record-ancestry-glasgow-e736b2c54eb8": "record-ancestry-glasgow-e736b2c54eb8"
+      }
+    },
+    {
+      "subject_id": "Glasgow-3034",
+      "relative_id": "record-ancestry-glasgow-e736b2c54eb8",
+      "relationship": "child",
+      "percent": 31,
+      "assessment_status": "uncertain",
+      "assertion_id": "clm-fa5-record-ancestry-glasgow-e736b2c54eb8-father-20261116",
+      "basis": "The parent-index entry names John Glasgow as father of Mary Glasgow (mother Elizabeth Campbell). The catalogue person glasgow-2721 is the same man (same forename, wife Elizabeth Campbell), and his father is Glasgow-3034 (33%). Carried at 31% because the father-draft and glasgow-2721 are not merged.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-27247764"
+      ],
+      "scope": "Index transcript only; original register uninspected. Identified with glasgow-2721 by forename and the exact wife Elizabeth Campbell; not merged.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-e736b2c54eb8.html#research-findings",
+          "label": "Post-1700 twin father (FA5, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-3034": "John Glasgow",
+        "record-ancestry-glasgow-e736b2c54eb8": "record-ancestry-glasgow-e736b2c54eb8"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-e9d0422a95cb",
+      "relative_id": "Glasgow-4010",
+      "relationship": "father",
+      "percent": 38,
+      "assessment_status": "possible",
+      "assertion_id": "clm-fa5-record-ancestry-glasgow-e9d0422a95cb-father-20261116",
+      "basis": "The parent-index entry names John Glasgow as father of Jane Glasgow (mother Jane Mcconnel). The catalogue person glasgow-2446 is the same man (same forename, wife Jane Mcconnel), and his father is Glasgow-4010 (40%). Carried at 38% because the father-draft and glasgow-2446 are not merged.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-17458229"
+      ],
+      "scope": "Index transcript only; original register uninspected. Identified with glasgow-2446 by forename and the exact wife Jane Mcconnel; not merged.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-e9d0422a95cb.html#research-findings",
+          "label": "Post-1700 twin father (FA5, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-4010": "Samuel Glasgow",
+        "record-ancestry-glasgow-e9d0422a95cb": "record-ancestry-glasgow-e9d0422a95cb"
+      }
+    },
+    {
+      "subject_id": "Glasgow-4010",
+      "relative_id": "record-ancestry-glasgow-e9d0422a95cb",
+      "relationship": "child",
+      "percent": 38,
+      "assessment_status": "possible",
+      "assertion_id": "clm-fa5-record-ancestry-glasgow-e9d0422a95cb-father-20261116",
+      "basis": "The parent-index entry names John Glasgow as father of Jane Glasgow (mother Jane Mcconnel). The catalogue person glasgow-2446 is the same man (same forename, wife Jane Mcconnel), and his father is Glasgow-4010 (40%). Carried at 38% because the father-draft and glasgow-2446 are not merged.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-17458229"
+      ],
+      "scope": "Index transcript only; original register uninspected. Identified with glasgow-2446 by forename and the exact wife Jane Mcconnel; not merged.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-e9d0422a95cb.html#research-findings",
+          "label": "Post-1700 twin father (FA5, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-4010": "Samuel Glasgow",
+        "record-ancestry-glasgow-e9d0422a95cb": "record-ancestry-glasgow-e9d0422a95cb"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-f0853feba0c6",
+      "relative_id": "Glasgow-3034",
+      "relationship": "father",
+      "percent": 31,
+      "assessment_status": "uncertain",
+      "assertion_id": "clm-fa5-record-ancestry-glasgow-f0853feba0c6-father-20261116",
+      "basis": "The parent-index entry names John Glasgow as father of Elizabeth Glasgow (mother Elizabeth Campbell). The catalogue person glasgow-2721 is the same man (same forename, wife Elizabeth Campbell), and his father is Glasgow-3034 (33%). Carried at 31% because the father-draft and glasgow-2721 are not merged.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-8036401"
+      ],
+      "scope": "Index transcript only; original register uninspected. Identified with glasgow-2721 by forename and the exact wife Elizabeth Campbell; not merged.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-f0853feba0c6.html#research-findings",
+          "label": "Post-1700 twin father (FA5, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-3034": "John Glasgow",
+        "record-ancestry-glasgow-f0853feba0c6": "record-ancestry-glasgow-f0853feba0c6"
+      }
+    },
+    {
+      "subject_id": "Glasgow-3034",
+      "relative_id": "record-ancestry-glasgow-f0853feba0c6",
+      "relationship": "child",
+      "percent": 31,
+      "assessment_status": "uncertain",
+      "assertion_id": "clm-fa5-record-ancestry-glasgow-f0853feba0c6-father-20261116",
+      "basis": "The parent-index entry names John Glasgow as father of Elizabeth Glasgow (mother Elizabeth Campbell). The catalogue person glasgow-2721 is the same man (same forename, wife Elizabeth Campbell), and his father is Glasgow-3034 (33%). Carried at 31% because the father-draft and glasgow-2721 are not merged.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-8036401"
+      ],
+      "scope": "Index transcript only; original register uninspected. Identified with glasgow-2721 by forename and the exact wife Elizabeth Campbell; not merged.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-f0853feba0c6.html#research-findings",
+          "label": "Post-1700 twin father (FA5, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-3034": "John Glasgow",
+        "record-ancestry-glasgow-f0853feba0c6": "record-ancestry-glasgow-f0853feba0c6"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-fb2bbe2f9a46",
+      "relative_id": "Glasgow-3034",
+      "relationship": "father",
+      "percent": 31,
+      "assessment_status": "uncertain",
+      "assertion_id": "clm-fa5-record-ancestry-glasgow-fb2bbe2f9a46-father-20261116",
+      "basis": "The parent-index entry names John Glasgow as father of Mary Glasgow (mother Elizabeth Campbell). The catalogue person glasgow-2721 is the same man (same forename, wife Elizabeth Campbell), and his father is Glasgow-3034 (33%). Carried at 31% because the father-draft and glasgow-2721 are not merged.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-13839524"
+      ],
+      "scope": "Index transcript only; original register uninspected. Identified with glasgow-2721 by forename and the exact wife Elizabeth Campbell; not merged.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-fb2bbe2f9a46.html#research-findings",
+          "label": "Post-1700 twin father (FA5, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-3034": "John Glasgow",
+        "record-ancestry-glasgow-fb2bbe2f9a46": "record-ancestry-glasgow-fb2bbe2f9a46"
+      }
+    },
+    {
+      "subject_id": "Glasgow-3034",
+      "relative_id": "record-ancestry-glasgow-fb2bbe2f9a46",
+      "relationship": "child",
+      "percent": 31,
+      "assessment_status": "uncertain",
+      "assertion_id": "clm-fa5-record-ancestry-glasgow-fb2bbe2f9a46-father-20261116",
+      "basis": "The parent-index entry names John Glasgow as father of Mary Glasgow (mother Elizabeth Campbell). The catalogue person glasgow-2721 is the same man (same forename, wife Elizabeth Campbell), and his father is Glasgow-3034 (33%). Carried at 31% because the father-draft and glasgow-2721 are not merged.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-13839524"
+      ],
+      "scope": "Index transcript only; original register uninspected. Identified with glasgow-2721 by forename and the exact wife Elizabeth Campbell; not merged.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-fb2bbe2f9a46.html#research-findings",
+          "label": "Post-1700 twin father (FA5, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-3034": "John Glasgow",
+        "record-ancestry-glasgow-fb2bbe2f9a46": "record-ancestry-glasgow-fb2bbe2f9a46"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-fbee23a73f8e",
+      "relative_id": "Glasgow-1572",
+      "relationship": "father",
+      "percent": 59,
+      "assessment_status": "possible",
+      "assertion_id": "clm-fa5-record-ancestry-glasgow-fbee23a73f8e-father-20261116",
+      "basis": "The parent-index entry names James Glasgow as father of John Glasgow (mother Margaret Anderson). The catalogue person glasgow-1573 is the same man (same forename, wife Margaret Anderson), and his father is Glasgow-1572 (63%). Carried at 59% because the father-draft and glasgow-1573 are not merged.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-10377666"
+      ],
+      "scope": "Index transcript only; original register uninspected. Identified with glasgow-1573 by forename and the exact wife Margaret Anderson; not merged.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-fbee23a73f8e.html#research-findings",
+          "label": "Post-1700 twin father (FA5, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1572": "James Glasgow",
+        "record-ancestry-glasgow-fbee23a73f8e": "record-ancestry-glasgow-fbee23a73f8e"
+      }
+    },
+    {
+      "subject_id": "Glasgow-1572",
+      "relative_id": "record-ancestry-glasgow-fbee23a73f8e",
+      "relationship": "child",
+      "percent": 59,
+      "assessment_status": "possible",
+      "assertion_id": "clm-fa5-record-ancestry-glasgow-fbee23a73f8e-father-20261116",
+      "basis": "The parent-index entry names James Glasgow as father of John Glasgow (mother Margaret Anderson). The catalogue person glasgow-1573 is the same man (same forename, wife Margaret Anderson), and his father is Glasgow-1572 (63%). Carried at 59% because the father-draft and glasgow-1573 are not merged.",
+      "reviewed": "2026-11-16",
+      "source_ids": [
+        "ancestry-60143-10377666"
+      ],
+      "scope": "Index transcript only; original register uninspected. Identified with glasgow-1573 by forename and the exact wife Margaret Anderson; not merged.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-fbee23a73f8e.html#research-findings",
+          "label": "Post-1700 twin father (FA5, 16 Nov 2026)"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1572": "James Glasgow",
+        "record-ancestry-glasgow-fbee23a73f8e": "record-ancestry-glasgow-fbee23a73f8e"
       }
     },
     {
