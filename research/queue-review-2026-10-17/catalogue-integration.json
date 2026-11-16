@@ -400521,10 +400521,10 @@
       "death_location": "",
       "occupations": [],
       "source_subject_url": "https://www.ancestry.co.uk/search/collections/1780/records/1764825",
-      "creation_status": "identity_hold",
+      "creation_status": "creation_ready",
       "draft_path": "research/ancestry-glasgow-audit/drafts/reviewed-1856-1873-20261105.wiki",
-      "assessment": "Documentary subject; wider identity unresolved.",
-      "current_conclusion": "The index identifies this documentary subject. A wider identity remains unresolved.",
+      "assessment": "1873 Sydney marriage to Elizabeth Jane Macgregor; probable father of five Sydney-born children, 1874–1886.",
+      "current_conclusion": "1873 Sydney marriage to Elizabeth Jane Macgregor; probable father of five Sydney-born children, 1874–1886.",
       "reviewed_at": "2026-11-05",
       "candidates": [],
       "records": [
@@ -400547,7 +400547,18 @@
           "note": "The index names John Bowling Glasgow and Elizth Jane Macgregor marrying at Sydney in 1873, registration 374. This groom cannot be the John Bowling Glasgow whose catalogue dossier records death in 1852."
         }
       ],
-      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index names John Bowling Glasgow and Elizth Jane Macgregor marrying at Sydney in 1873, registration 374. This groom cannot be the John Bowling Glasgow whose catalogue dossier records death in 1852.<ref>[https://www.ancestry.co.uk/search/collections/1780/records/1764825 Ancestry, Australia, Marriage Index, 1788–1950: John Bowling Glasgow, record 1780/1764825].</ref>\n\n== Research Notes ==\nThe index identifies this documentary subject. A wider identity remains unresolved.\n\n== Sources ==\n<references />\n"
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index names John Bowling Glasgow and Elizth Jane Macgregor marrying at Sydney in 1873, registration 374. This groom cannot be the John Bowling Glasgow whose catalogue dossier records death in 1852.<ref>[https://www.ancestry.co.uk/search/collections/1780/records/1764825 Ancestry, Australia, Marriage Index, 1788–1950: John Bowling Glasgow, record 1780/1764825].</ref>\n\n== Research Notes ==\nThe 1873 Sydney marriage identifies a later John Bowling Glasgow household. Birth indexes name John Bowling or John B Glasgow and Elizabeth Jane as parents of Blanche Ellen (1874), John William (1877), Ernest Bowling (1879), Alexander James (1882) and Eva E (1886) in Sydney. The shared names, district and chronology support one family; the parent identity remains probable rather than proved by a single record. No later death or parentage record is held.\n\n== Sources ==\n<references />\n",
+      "relationship_changes": [
+        {
+          "relationship": "spouse",
+          "action": "add",
+          "relative_id": "record-ancestry-elizabeth-jane-macgregor-sydney-1873",
+          "relative_name": "Elizabeth Jane (Macgregor) Glasgow",
+          "status": "proved",
+          "basis": "The 1873 Sydney marriage index names John Bowling Glasgow and Elizth Jane Macgregor together, registration 374.",
+          "scope": "Record-defined marriage"
+        }
+      ]
     },
     {
       "catalogue_id": "record-ancestry-glasgow-michael-ballarat-east-1864",
@@ -400906,10 +400917,10 @@
       "death_location": "",
       "occupations": [],
       "source_subject_url": "https://www.ancestry.co.uk/search/collections/1778/records/2568249",
-      "creation_status": "identity_hold",
+      "creation_status": "creation_ready",
       "draft_path": "research/ancestry-glasgow-audit/drafts/reviewed-australian-births-1864-1876-20261105.wiki",
-      "assessment": "Documentary subject; wider identity unresolved.",
-      "current_conclusion": "The birth index identifies this documentary subject; the wider identity remains unresolved.",
+      "assessment": "Sydney birth record; probable child of John Bowling Glasgow and Elizabeth Jane Macgregor. Parent links probable; no existing profile found.",
+      "current_conclusion": "Sydney birth record; probable child of John Bowling Glasgow and Elizabeth Jane Macgregor. Parent links probable; no existing profile found.",
       "reviewed_at": "2026-11-05",
       "candidates": [],
       "records": [
@@ -400933,7 +400944,27 @@
           "note": "The index lists Blanche Ellen Glasgow, born 1874 in New South Wales. Father: John Boland Glasgow. Mother: Elizabeth Jane Glasgow. Registration place: Sydney, New South Wales, Australia. Reference: 2322. The father is indexed as John Boland Glasgow, and the mother as Elizabeth Jane Glasgow. Compare the 1873 Sydney marriage of John Bowling Glasgow and Elizth Jane Macgregor; the surname variant leaves the association open."
         }
       ],
-      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index lists Blanche Ellen Glasgow, born 1874 in New South Wales. Father: John Boland Glasgow. Mother: Elizabeth Jane Glasgow. Registration place: Sydney, New South Wales, Australia. Reference: 2322. The father is indexed as John Boland Glasgow, and the mother as Elizabeth Jane Glasgow. Compare the 1873 Sydney marriage of John Bowling Glasgow and Elizth Jane Macgregor; the surname variant leaves the association open.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/2568249 Ancestry, Australia, Birth Index, 1788–1922: Blanche Ellen Glasgow, record 1778/2568249].</ref>\n\n== Research Notes ==\nThe birth index identifies this documentary subject; the wider identity remains unresolved.\n\n== Sources ==\n<references />\n"
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index lists Blanche Ellen Glasgow, born 1874 in New South Wales. Father: John Boland Glasgow. Mother: Elizabeth Jane Glasgow. Registration place: Sydney, New South Wales, Australia. Reference: 2322. The father is indexed as John Boland Glasgow, and the mother as Elizabeth Jane Glasgow. Compare the 1873 Sydney marriage of John Bowling Glasgow and Elizth Jane Macgregor; the surname variant leaves the association open.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/2568249 Ancestry, Australia, Birth Index, 1788–1922: Blanche Ellen Glasgow, record 1778/2568249].</ref>\n\n== Research Notes ==\nThe birth index names John Bowling or John B Glasgow and Elizabeth Jane Glasgow at Sydney. The 1873 Sydney marriage of John Bowling Glasgow and Elizth Jane Macgregor identifies the parents' marriage; the shared names, district and chronology support the family. The parent links are probable, not proved by a single record.\n\n== Sources ==\n<references />\n",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "action": "add",
+          "relative_id": "record-ancestry-glasgow-john-bowling-sydney-1873",
+          "relative_name": "John Bowling Glasgow",
+          "status": "probable",
+          "basis": "The birth index names John Bowling or John B Glasgow and Elizabeth Jane Glasgow at Sydney. The 1873 Sydney marriage of John Bowling Glasgow and Elizth Jane Macgregor identifies the parents' marriage; the shared names, district and chronology support the family. The parent links are probable, not proved by a single record.",
+          "scope": "Record-defined child; probable parent identity"
+        },
+        {
+          "relationship": "mother",
+          "action": "add",
+          "relative_id": "record-ancestry-elizabeth-jane-macgregor-sydney-1873",
+          "relative_name": "Elizabeth Jane (Macgregor) Glasgow",
+          "status": "probable",
+          "basis": "The birth index names John Bowling or John B Glasgow and Elizabeth Jane Glasgow at Sydney. The 1873 Sydney marriage of John Bowling Glasgow and Elizth Jane Macgregor identifies the parents' marriage; the shared names, district and chronology support the family. The parent links are probable, not proved by a single record.",
+          "scope": "Record-defined child; probable parent identity"
+        }
+      ]
     },
     {
       "catalogue_id": "record-ancestry-glasgow-john-william-sydney-1877",
@@ -400954,10 +400985,10 @@
       "death_location": "",
       "occupations": [],
       "source_subject_url": "https://www.ancestry.co.uk/search/collections/1778/records/2568705",
-      "creation_status": "identity_hold",
+      "creation_status": "creation_ready",
       "draft_path": "research/ancestry-glasgow-audit/drafts/reviewed-australian-births-1877-1883-20261105.wiki",
-      "assessment": "Documentary subject; wider identity unresolved.",
-      "current_conclusion": "The birth index identifies this documentary subject; the wider identity remains unresolved.",
+      "assessment": "Sydney birth record; probable child of John Bowling Glasgow and Elizabeth Jane Macgregor. Parent links probable; no existing profile found.",
+      "current_conclusion": "Sydney birth record; probable child of John Bowling Glasgow and Elizabeth Jane Macgregor. Parent links probable; no existing profile found.",
       "reviewed_at": "2026-11-05",
       "candidates": [],
       "records": [
@@ -400981,7 +401012,27 @@
           "note": "The index lists John William Glasgow, born 1877 in New South Wales. Father: John Bowling Glasgow. Mother: Elizabeth Jane Glasgow. Registration place: Sydney, New South Wales, Australia. Reference: 598. The parents’ names support a comparison with John Bowling Glasgow and Elizth Jane Macgregor, indexed as marrying in Sydney in 1873."
         }
       ],
-      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index lists John William Glasgow, born 1877 in New South Wales. Father: John Bowling Glasgow. Mother: Elizabeth Jane Glasgow. Registration place: Sydney, New South Wales, Australia. Reference: 598. The parents’ names support a comparison with John Bowling Glasgow and Elizth Jane Macgregor, indexed as marrying in Sydney in 1873.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/2568705 Ancestry, Australia, Birth Index, 1788–1922: John William Glasgow, record 1778/2568705].</ref>\n\n== Research Notes ==\nThe birth index identifies this documentary subject; the wider identity remains unresolved.\n\n== Sources ==\n<references />\n"
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index lists John William Glasgow, born 1877 in New South Wales. Father: John Bowling Glasgow. Mother: Elizabeth Jane Glasgow. Registration place: Sydney, New South Wales, Australia. Reference: 598. The parents’ names support a comparison with John Bowling Glasgow and Elizth Jane Macgregor, indexed as marrying in Sydney in 1873.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/2568705 Ancestry, Australia, Birth Index, 1788–1922: John William Glasgow, record 1778/2568705].</ref>\n\n== Research Notes ==\nThe birth index names John Bowling or John B Glasgow and Elizabeth Jane Glasgow at Sydney. The 1873 Sydney marriage of John Bowling Glasgow and Elizth Jane Macgregor identifies the parents' marriage; the shared names, district and chronology support the family. The parent links are probable, not proved by a single record.\n\n== Sources ==\n<references />\n",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "action": "add",
+          "relative_id": "record-ancestry-glasgow-john-bowling-sydney-1873",
+          "relative_name": "John Bowling Glasgow",
+          "status": "probable",
+          "basis": "The birth index names John Bowling or John B Glasgow and Elizabeth Jane Glasgow at Sydney. The 1873 Sydney marriage of John Bowling Glasgow and Elizth Jane Macgregor identifies the parents' marriage; the shared names, district and chronology support the family. The parent links are probable, not proved by a single record.",
+          "scope": "Record-defined child; probable parent identity"
+        },
+        {
+          "relationship": "mother",
+          "action": "add",
+          "relative_id": "record-ancestry-elizabeth-jane-macgregor-sydney-1873",
+          "relative_name": "Elizabeth Jane (Macgregor) Glasgow",
+          "status": "probable",
+          "basis": "The birth index names John Bowling or John B Glasgow and Elizabeth Jane Glasgow at Sydney. The 1873 Sydney marriage of John Bowling Glasgow and Elizth Jane Macgregor identifies the parents' marriage; the shared names, district and chronology support the family. The parent links are probable, not proved by a single record.",
+          "scope": "Record-defined child; probable parent identity"
+        }
+      ]
     },
     {
       "catalogue_id": "record-ancestry-glasgow-henry-alexander-victoria-1878",
@@ -401136,10 +401187,10 @@
       "death_location": "",
       "occupations": [],
       "source_subject_url": "https://www.ancestry.co.uk/search/collections/1778/records/2568694",
-      "creation_status": "identity_hold",
+      "creation_status": "creation_ready",
       "draft_path": "research/ancestry-glasgow-audit/drafts/reviewed-australian-births-1877-1883-20261105.wiki",
-      "assessment": "Documentary subject; wider identity unresolved.",
-      "current_conclusion": "The birth index identifies this documentary subject; the wider identity remains unresolved.",
+      "assessment": "Sydney birth record; probable child of John Bowling Glasgow and Elizabeth Jane Macgregor. Parent links probable; no existing profile found.",
+      "current_conclusion": "Sydney birth record; probable child of John Bowling Glasgow and Elizabeth Jane Macgregor. Parent links probable; no existing profile found.",
       "reviewed_at": "2026-11-05",
       "candidates": [],
       "records": [
@@ -401163,7 +401214,27 @@
           "note": "The index lists Ernest Bowling Glasgow, born 1879 in New South Wales. Father: John B Glasgow. Mother: Elizabeth Jane Glasgow. Registration place: Sydney, New South Wales, Australia. Reference: 3047. The indexed father John B Glasgow and mother Elizabeth Jane Glasgow recur in other Sydney birth entries."
         }
       ],
-      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index lists Ernest Bowling Glasgow, born 1879 in New South Wales. Father: John B Glasgow. Mother: Elizabeth Jane Glasgow. Registration place: Sydney, New South Wales, Australia. Reference: 3047. The indexed father John B Glasgow and mother Elizabeth Jane Glasgow recur in other Sydney birth entries.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/2568694 Ancestry, Australia, Birth Index, 1788–1922: Ernest Bowling Glasgow, record 1778/2568694].</ref>\n\n== Research Notes ==\nThe birth index identifies this documentary subject; the wider identity remains unresolved.\n\n== Sources ==\n<references />\n"
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index lists Ernest Bowling Glasgow, born 1879 in New South Wales. Father: John B Glasgow. Mother: Elizabeth Jane Glasgow. Registration place: Sydney, New South Wales, Australia. Reference: 3047. The indexed father John B Glasgow and mother Elizabeth Jane Glasgow recur in other Sydney birth entries.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/2568694 Ancestry, Australia, Birth Index, 1788–1922: Ernest Bowling Glasgow, record 1778/2568694].</ref>\n\n== Research Notes ==\nThe birth index names John Bowling or John B Glasgow and Elizabeth Jane Glasgow at Sydney. The 1873 Sydney marriage of John Bowling Glasgow and Elizth Jane Macgregor identifies the parents' marriage; the shared names, district and chronology support the family. The parent links are probable, not proved by a single record.\n\n== Sources ==\n<references />\n",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "action": "add",
+          "relative_id": "record-ancestry-glasgow-john-bowling-sydney-1873",
+          "relative_name": "John Bowling Glasgow",
+          "status": "probable",
+          "basis": "The birth index names John Bowling or John B Glasgow and Elizabeth Jane Glasgow at Sydney. The 1873 Sydney marriage of John Bowling Glasgow and Elizth Jane Macgregor identifies the parents' marriage; the shared names, district and chronology support the family. The parent links are probable, not proved by a single record.",
+          "scope": "Record-defined child; probable parent identity"
+        },
+        {
+          "relationship": "mother",
+          "action": "add",
+          "relative_id": "record-ancestry-elizabeth-jane-macgregor-sydney-1873",
+          "relative_name": "Elizabeth Jane (Macgregor) Glasgow",
+          "status": "probable",
+          "basis": "The birth index names John Bowling or John B Glasgow and Elizabeth Jane Glasgow at Sydney. The 1873 Sydney marriage of John Bowling Glasgow and Elizth Jane Macgregor identifies the parents' marriage; the shared names, district and chronology support the family. The parent links are probable, not proved by a single record.",
+          "scope": "Record-defined child; probable parent identity"
+        }
+      ]
     },
     {
       "catalogue_id": "record-ancestry-glasgow-helen-newcastle-1880",
@@ -401365,10 +401436,10 @@
       "death_location": "",
       "occupations": [],
       "source_subject_url": "https://www.ancestry.co.uk/search/collections/1778/records/2568243",
-      "creation_status": "identity_hold",
+      "creation_status": "creation_ready",
       "draft_path": "research/ancestry-glasgow-audit/drafts/reviewed-australian-births-1877-1883-20261105.wiki",
-      "assessment": "Documentary subject; wider identity unresolved.",
-      "current_conclusion": "The birth index identifies this documentary subject; the wider identity remains unresolved.",
+      "assessment": "Sydney birth record; probable child of John Bowling Glasgow and Elizabeth Jane Macgregor. Parent links probable; no existing profile found.",
+      "current_conclusion": "Sydney birth record; probable child of John Bowling Glasgow and Elizabeth Jane Macgregor. Parent links probable; no existing profile found.",
       "reviewed_at": "2026-11-05",
       "candidates": [],
       "records": [
@@ -401392,7 +401463,27 @@
           "note": "The index lists Alexander James Glasgow, born 1882 in New South Wales. Father: John B Glasgow. Mother: Elizabeth Jane Glasgow. Registration place: Sydney, New South Wales, Australia. Reference: 98. The indexed father John B Glasgow and mother Elizabeth Jane Glasgow recur in other Sydney birth entries."
         }
       ],
-      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index lists Alexander James Glasgow, born 1882 in New South Wales. Father: John B Glasgow. Mother: Elizabeth Jane Glasgow. Registration place: Sydney, New South Wales, Australia. Reference: 98. The indexed father John B Glasgow and mother Elizabeth Jane Glasgow recur in other Sydney birth entries.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/2568243 Ancestry, Australia, Birth Index, 1788–1922: Alexander James Glasgow, record 1778/2568243].</ref>\n\n== Research Notes ==\nThe birth index identifies this documentary subject; the wider identity remains unresolved.\n\n== Sources ==\n<references />\n"
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index lists Alexander James Glasgow, born 1882 in New South Wales. Father: John B Glasgow. Mother: Elizabeth Jane Glasgow. Registration place: Sydney, New South Wales, Australia. Reference: 98. The indexed father John B Glasgow and mother Elizabeth Jane Glasgow recur in other Sydney birth entries.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/2568243 Ancestry, Australia, Birth Index, 1788–1922: Alexander James Glasgow, record 1778/2568243].</ref>\n\n== Research Notes ==\nThe birth index names John Bowling or John B Glasgow and Elizabeth Jane Glasgow at Sydney. The 1873 Sydney marriage of John Bowling Glasgow and Elizth Jane Macgregor identifies the parents' marriage; the shared names, district and chronology support the family. The parent links are probable, not proved by a single record.\n\n== Sources ==\n<references />\n",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "action": "add",
+          "relative_id": "record-ancestry-glasgow-john-bowling-sydney-1873",
+          "relative_name": "John Bowling Glasgow",
+          "status": "probable",
+          "basis": "The birth index names John Bowling or John B Glasgow and Elizabeth Jane Glasgow at Sydney. The 1873 Sydney marriage of John Bowling Glasgow and Elizth Jane Macgregor identifies the parents' marriage; the shared names, district and chronology support the family. The parent links are probable, not proved by a single record.",
+          "scope": "Record-defined child; probable parent identity"
+        },
+        {
+          "relationship": "mother",
+          "action": "add",
+          "relative_id": "record-ancestry-elizabeth-jane-macgregor-sydney-1873",
+          "relative_name": "Elizabeth Jane (Macgregor) Glasgow",
+          "status": "probable",
+          "basis": "The birth index names John Bowling or John B Glasgow and Elizabeth Jane Glasgow at Sydney. The 1873 Sydney marriage of John Bowling Glasgow and Elizth Jane Macgregor identifies the parents' marriage; the shared names, district and chronology support the family. The parent links are probable, not proved by a single record.",
+          "scope": "Record-defined child; probable parent identity"
+        }
+      ]
     },
     {
       "catalogue_id": "record-ancestry-glasgow-john-minmi-1882",
@@ -401945,10 +402036,10 @@
       "death_location": "",
       "occupations": [],
       "source_subject_url": "https://www.ancestry.co.uk/search/collections/1778/records/2568695",
-      "creation_status": "identity_hold",
+      "creation_status": "creation_ready",
       "draft_path": "research/ancestry-glasgow-audit/drafts/reviewed-australian-births-1884-1895-20261105.wiki",
-      "assessment": "Documentary subject; wider identity unresolved.",
-      "current_conclusion": "The birth index identifies this documentary subject; the wider identity remains unresolved.",
+      "assessment": "Sydney birth record; probable child of John Bowling Glasgow and Elizabeth Jane Macgregor. Parent links probable; no existing profile found.",
+      "current_conclusion": "Sydney birth record; probable child of John Bowling Glasgow and Elizabeth Jane Macgregor. Parent links probable; no existing profile found.",
       "reviewed_at": "2026-11-05",
       "candidates": [],
       "records": [
@@ -401972,7 +402063,27 @@
           "note": "The index lists Eva E Glasgow, born 1886 in New South Wales. Father: John B Glasgow. Mother: Elizabeth J Glasgow. Registration place: Sydney, New South Wales, Australia. Reference: 1439."
         }
       ],
-      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index lists Eva E Glasgow, born 1886 in New South Wales. Father: John B Glasgow. Mother: Elizabeth J Glasgow. Registration place: Sydney, New South Wales, Australia. Reference: 1439.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/2568695 Ancestry, Australia, Birth Index, 1788–1922: Eva E Glasgow, record 1778/2568695].</ref>\n\n== Research Notes ==\nThe birth index identifies this documentary subject; the wider identity remains unresolved.\n\n== Sources ==\n<references />\n"
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index lists Eva E Glasgow, born 1886 in New South Wales. Father: John B Glasgow. Mother: Elizabeth J Glasgow. Registration place: Sydney, New South Wales, Australia. Reference: 1439.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/2568695 Ancestry, Australia, Birth Index, 1788–1922: Eva E Glasgow, record 1778/2568695].</ref>\n\n== Research Notes ==\nThe birth index names John Bowling or John B Glasgow and Elizabeth Jane Glasgow at Sydney. The 1873 Sydney marriage of John Bowling Glasgow and Elizth Jane Macgregor identifies the parents' marriage; the shared names, district and chronology support the family. The parent links are probable, not proved by a single record.\n\n== Sources ==\n<references />\n",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "action": "add",
+          "relative_id": "record-ancestry-glasgow-john-bowling-sydney-1873",
+          "relative_name": "John Bowling Glasgow",
+          "status": "probable",
+          "basis": "The birth index names John Bowling or John B Glasgow and Elizabeth Jane Glasgow at Sydney. The 1873 Sydney marriage of John Bowling Glasgow and Elizth Jane Macgregor identifies the parents' marriage; the shared names, district and chronology support the family. The parent links are probable, not proved by a single record.",
+          "scope": "Record-defined child; probable parent identity"
+        },
+        {
+          "relationship": "mother",
+          "action": "add",
+          "relative_id": "record-ancestry-elizabeth-jane-macgregor-sydney-1873",
+          "relative_name": "Elizabeth Jane (Macgregor) Glasgow",
+          "status": "probable",
+          "basis": "The birth index names John Bowling or John B Glasgow and Elizabeth Jane Glasgow at Sydney. The 1873 Sydney marriage of John Bowling Glasgow and Elizth Jane Macgregor identifies the parents' marriage; the shared names, district and chronology support the family. The parent links are probable, not proved by a single record.",
+          "scope": "Record-defined child; probable parent identity"
+        }
+      ]
     },
     {
       "catalogue_id": "record-ancestry-glasgow-gertrude-dwerryhouse-1886",
@@ -414912,6 +415023,64 @@
           "supplement_id": "hill1902-marion-wilson-jarden-gairbraid",
           "canonical_record_id": "hill1902-hutcheson-gairbraid-parentage-p53",
           "independence_group": "hill1902-gairbraid-p53"
+        }
+      ]
+    },
+    {
+      "catalogue_id": "record-ancestry-elizabeth-jane-macgregor-sydney-1873",
+      "subject_id": "elizabeth-jane-macgregor-sydney-1873",
+      "name": "Elizabeth Jane (Macgregor) Glasgow",
+      "first_names": [
+        "Elizabeth",
+        "Jane"
+      ],
+      "last_names_at_birth": [
+        "Macgregor"
+      ],
+      "last_names_current": [],
+      "gender": "Female",
+      "birth": "",
+      "birth_location": "Sydney, New South Wales",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/1780/records/1764825",
+      "creation_status": "creation_ready",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/macgregor-elizabeth-jane-20261116.wiki",
+      "assessment": "1873 Sydney marriage to John Bowling Glasgow; probable mother of five Sydney-born children, 1874–1886.",
+      "current_conclusion": "1873 Sydney marriage to John Bowling Glasgow; probable mother of five Sydney-born children, 1874–1886.",
+      "reviewed_at": "2026-11-16",
+      "candidates": [],
+      "records": [
+        {
+          "source_title": "Ancestry, Australia, Marriage Index, 1788–1950: John Bowling Glasgow and Elizth Jane Macgregor, record 1780/1764825",
+          "source_url": "https://www.ancestry.co.uk/search/collections/1780/records/1764825",
+          "source_type": "Provider index transcript",
+          "date": "1873",
+          "year": 1873,
+          "place": "Sydney, New South Wales",
+          "indexed_facts": {
+            "Name": "Elizth Jane Macgregor",
+            "Marriage Date": "1873",
+            "Marriage Place": "Sydney, New South Wales",
+            "Registration Date": "1873",
+            "Registration Place": "Sydney, New South Wales, Australia",
+            "Spouse": "John Bowling Glasgow",
+            "Registration Number": "374"
+          },
+          "note": "The index names Elizth Jane Macgregor and John Bowling Glasgow marrying at Sydney in 1873, registration 374."
+        }
+      ],
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index names Elizth Jane Macgregor and John Bowling Glasgow marrying at Sydney in 1873, registration 374. The marriage record is the held record naming her before the children's births, which call her Elizabeth Jane Glasgow.<ref>[https://www.ancestry.co.uk/search/collections/1780/records/1764825 Ancestry, Australia, Marriage Index, 1788–1950: John Bowling Glasgow and Elizth Jane Macgregor, record 1780/1764825].</ref>\n\n== Research Notes ==\nThe 1873 Sydney marriage identifies a later John Bowling Glasgow household. Birth indexes name John Bowling or John B Glasgow and Elizabeth Jane as parents of Blanche Ellen (1874), John William (1877), Ernest Bowling (1879), Alexander James (1882) and Eva E (1886) in Sydney. The shared names, district and chronology support one family; the parent identity remains probable rather than proved by a single record. No later death or parentage record is held.\n\n== Sources ==\n<references />\n",
+      "relationship_changes": [
+        {
+          "relationship": "spouse",
+          "action": "add",
+          "relative_id": "record-ancestry-glasgow-john-bowling-sydney-1873",
+          "relative_name": "John Bowling Glasgow",
+          "status": "proved",
+          "basis": "The 1873 Sydney marriage index names Elizth Jane Macgregor and John Bowling Glasgow together, registration 374.",
+          "scope": "Record-defined marriage"
         }
       ]
     }

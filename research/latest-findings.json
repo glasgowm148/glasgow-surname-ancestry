@@ -86115,6 +86115,77 @@
         "research/ancestry-glasgow-audit/drafts/reviewed-australian-births-1896-1905-20261105.wiki",
         "research/ancestry-glasgow-audit/drafts/reviewed-australian-births-1877-1883-20261105.wiki"
       ]
+    },
+    {
+      "id": "sydney-bowling-glasgow-family-20261116",
+      "found_on": "2026-11-16",
+      "kind": "relationship",
+      "finding": "The 1873 Sydney marriage of John Bowling Glasgow and Elizabeth Jane Macgregor is the parent marriage of five Sydney-born children: Blanche Ellen (1874), John William (1877), Ernest Bowling (1879), Alexander James (1882) and Eva E (1886).",
+      "status": "qualified",
+      "qualification": "The marriage index names the couple, and the birth indexes name John Bowling or John B Glasgow and Elizabeth Jane as parents. The shared names, district and chronology support one family, but no single record proves the parent-profile identities. The 1873 groom cannot be the John Bowling Glasgow who died in 1852. The children are creation-ready local drafts with probable parent links; no live WikiTree profiles were created.",
+      "people": [
+        {
+          "id": "record-ancestry-glasgow-john-bowling-sydney-1873",
+          "name": "John Bowling Glasgow",
+          "role": "Father; 1873 Sydney marriage",
+          "url": "/people/record-ancestry-glasgow-john-bowling-sydney-1873.html"
+        },
+        {
+          "id": "record-ancestry-elizabeth-jane-macgregor-sydney-1873",
+          "name": "Elizabeth Jane (Macgregor) Glasgow",
+          "role": "Mother; 1873 Sydney marriage",
+          "url": "/people/record-ancestry-elizabeth-jane-macgregor-sydney-1873.html"
+        },
+        {
+          "id": "record-ancestry-glasgow-blanche-ellen-sydney-1874",
+          "name": "Blanche Ellen Glasgow",
+          "role": "Probable daughter",
+          "url": "/people/record-ancestry-glasgow-blanche-ellen-sydney-1874.html"
+        },
+        {
+          "id": "record-ancestry-glasgow-john-william-sydney-1877",
+          "name": "John William Glasgow",
+          "role": "Probable son",
+          "url": "/people/record-ancestry-glasgow-john-william-sydney-1877.html"
+        },
+        {
+          "id": "record-ancestry-glasgow-ernest-bowling-sydney-1879",
+          "name": "Ernest Bowling Glasgow",
+          "role": "Probable son",
+          "url": "/people/record-ancestry-glasgow-ernest-bowling-sydney-1879.html"
+        },
+        {
+          "id": "record-ancestry-glasgow-alexander-james-sydney-1882",
+          "name": "Alexander James Glasgow",
+          "role": "Probable son",
+          "url": "/people/record-ancestry-glasgow-alexander-james-sydney-1882.html"
+        },
+        {
+          "id": "record-ancestry-glasgow-eva-e-sydney-1886",
+          "name": "Eva E Glasgow",
+          "role": "Probable daughter",
+          "url": "/people/record-ancestry-glasgow-eva-e-sydney-1886.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ancestry, Australia, Marriage Index, 1788–1950: John Bowling Glasgow and Elizth Jane Macgregor, 1873, Sydney",
+          "url": "https://www.ancestry.co.uk/search/collections/1780/records/1764825"
+        },
+        {
+          "title": "Ancestry, Australia, Birth Index, 1788–1922: Blanche Ellen Glasgow, 1874, Sydney",
+          "url": "https://www.ancestry.co.uk/search/collections/1778/records/3247819"
+        }
+      ],
+      "detail_url": "/people/record-ancestry-glasgow-john-bowling-sydney-1873.html",
+      "provenance": [
+        "research/queue-review-2026-10-17/catalogue-integration.json",
+        "research/ancestry-glasgow-audit/drafts/reviewed-1856-1873-20261105.wiki",
+        "research/ancestry-glasgow-audit/drafts/reviewed-australian-births-1864-1876-20261105.wiki",
+        "research/ancestry-glasgow-audit/drafts/reviewed-australian-births-1877-1883-20261105.wiki",
+        "research/ancestry-glasgow-audit/drafts/reviewed-australian-births-1884-1895-20261105.wiki",
+        "research/ancestry-glasgow-audit/drafts/macgregor-elizabeth-jane-20261116.wiki"
+      ]
     }
   ]
 }
