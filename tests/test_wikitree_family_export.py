@@ -36,6 +36,53 @@ def sample_envelope() -> dict:
     return {"items": [{"person": subject}]}
 
 
+class FamilySearchCaptureTests(unittest.TestCase):
+    pid = "9QMG-R4T"
+    source = f"https://www.familysearch.org/en/tree/person/sources/{pid}/?lang=en"
+
+    def capture(self, page):
+        with tempfile.TemporaryDirectory() as directory:
+            return exporter.scrape_familysearch_pid(page, self.pid, Path(directory), 0, 0, 0, 0)
+
+    def test_http_failure_including_after_login(self):
+        page = Mock(url=self.source)
+        for login in (False, True):
+            with self.subTest(login=login):
+                error_response = Mock(ok=False, status=503)
+                page.goto.side_effect = [Mock(ok=True), error_response] if login else [error_response]
+                with patch.object(exporter, "looks_like_familysearch_login", return_value=login), patch("builtins.input"):
+                    with self.assertRaisesRegex(exporter.ExportError, "503"):
+                        self.capture(page)
+                page.content.assert_not_called()
+
+    def test_verify_source_destination_before_saving(self):
+        page = Mock()
+        page.goto.return_value = Mock(ok=True)
+        with patch.object(exporter, "looks_like_familysearch_login", return_value=False), \
+             patch.object(exporter, "scroll_familysearch_page"), \
+             patch.object(exporter, "expand_all_familysearch_sources"), \
+             patch.object(exporter, "save_familysearch_page_snapshot") as save:
+            for page.url in (self.source.replace(self.pid, "AAAA-BBB"), self.source.replace(".org", ".org.example")):
+                with self.assertRaisesRegex(exporter.ExportError, "requested sources page"):
+                    self.capture(page)
+            save.assert_not_called()
+            page.url = self.source
+            page.locator.return_value.inner_text.return_value = "Sources"
+            page.locator.return_value.evaluate_all.return_value = []
+            self.assertEqual(self.capture(page)["status"], "ok")
+            save.assert_called_once()
+
+    def test_extract_links_checks_the_host(self):
+        page = Mock()
+        valid = {"text": "Record", "href": "https://www.familysearch.org/ark:/example"}
+        page.locator.return_value.evaluate_all.return_value = [
+            valid, valid, {"href": "https://example.org/?next=familysearch.org"},
+            {"href": "https://familysearch.org.example.org/record/1"},
+            {"href": "https://[invalid/"},
+        ]
+        self.assertEqual(exporter.extract_page_links(page), [valid])
+
+
 class ResearchLoopTests(unittest.TestCase):
     def test_json_write_preserves_unrelated_temporary_file(self) -> None:
         with tempfile.TemporaryDirectory() as directory:

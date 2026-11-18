@@ -52,6 +52,7 @@ import time
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Iterable
+from urllib.parse import urlsplit
 
 import requests
 
@@ -489,7 +490,7 @@ def looks_like_familysearch_login(page: Any) -> bool:
     return sum(marker in body for marker in login_markers) >= 2
 
 
-def wait_for_manual_familysearch_login(page: Any, target_url: str) -> None:
+def wait_for_manual_familysearch_login(page: Any, target_url: str) -> Any:
     """
     Pause while the user logs into FamilySearch in the opened browser.
 
@@ -501,7 +502,7 @@ def wait_for_manual_familysearch_login(page: Any, target_url: str) -> None:
     print("Complete any MFA/CAPTCHA yourself.")
     input("When the FamilySearch site is fully logged in, press Enter here: ")
 
-    page.goto(
+    return page.goto(
         target_url,
         wait_until="domcontentloaded",
         timeout=DEFAULT_FS_TIMEOUT_MS,
@@ -744,6 +745,20 @@ def clean_page_text(text: str) -> str:
     return "\n".join(output).strip()
 
 
+def familysearch_path(url: str) -> str | None:
+    """Return the path of an HTTP(S) URL hosted by FamilySearch."""
+    try:
+        parsed = urlsplit(url)
+        host = parsed.hostname or ""
+    except ValueError:
+        return None
+    if parsed.scheme in {"http", "https"} and (
+        host == "familysearch.org" or host.endswith(".familysearch.org")
+    ):
+        return parsed.path
+    return None
+
+
 def extract_page_links(page: Any) -> list[dict[str, str]]:
     """Extract visible links from the FamilySearch source page."""
     try:
@@ -772,7 +787,7 @@ def extract_page_links(page: Any) -> list[dict[str, str]]:
             continue
 
         # Keep FamilySearch links and direct record/image URLs. Drop nav noise.
-        if "familysearch.org" not in href:
+        if familysearch_path(href) is None:
             continue
 
         key = (text, href)
@@ -816,6 +831,12 @@ def save_familysearch_page_snapshot(
     return result
 
 
+def require_familysearch_sources_page(page: Any, pid: str) -> None:
+    path = familysearch_path(page.url)
+    if not path or not path.rstrip("/").endswith(f"/tree/person/sources/{pid}"):
+        raise ExportError(f"FamilySearch did not return the requested sources page for {pid}.")
+
+
 def scrape_familysearch_pid(
     page: Any,
     pid: str,
@@ -828,14 +849,18 @@ def scrape_familysearch_pid(
     """Open one FamilySearch person Sources page and export visible data."""
     source_url = f"https://www.familysearch.org/tree/person/sources/{pid}"
 
-    page.goto(
+    response = page.goto(
         source_url,
         wait_until="domcontentloaded",
         timeout=DEFAULT_FS_TIMEOUT_MS,
     )
 
     if looks_like_familysearch_login(page):
-        wait_for_manual_familysearch_login(page, source_url)
+        response = wait_for_manual_familysearch_login(page, source_url)
+
+    if response is None or not response.ok:
+        status = response.status if response is not None else "no response"
+        raise ExportError(f"FamilySearch sources request for {pid} failed ({status}).")
 
     try:
         page.wait_for_load_state(
@@ -847,6 +872,8 @@ def scrape_familysearch_pid(
         pass
 
     time.sleep(settle_seconds)
+
+    require_familysearch_sources_page(page, pid)
 
     # Scroll first so all lazy-loaded source rows are present, then expand
     # each source title exactly once. A second pass could collapse open cards.
@@ -862,6 +889,8 @@ def scrape_familysearch_pid(
         raise ExportError(
             f"FamilySearch still appears to be on a login page for {pid}."
         )
+
+    require_familysearch_sources_page(page, pid)
 
     body_text = clean_page_text(
         page.locator("body").inner_text(timeout=20_000)
