@@ -7,8 +7,10 @@ absent.
 """
 from __future__ import annotations
 
+from collections import defaultdict
 import json
 from pathlib import Path
+import subprocess
 import sys
 import unittest
 
@@ -16,7 +18,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
 
 try:
-    from genealogy.store import Research, open_project
+    from genealogy.store import Research, open_project, stable_id
     from genealogy.store.project import StorageSettings, load_config
     DATABASE = ROOT / StorageSettings.from_config(load_config(ROOT)).database
 except Exception as error:  # pragma: no cover - reported by skip below
@@ -73,11 +75,66 @@ class MigratedGlasgowDatabase(unittest.TestCase):
         self.assertTrue(rows)
         self.assertTrue(all(row["sha256"] and len(row["sha256"]) == 64 for row in rows))
 
-    def test_reconciliation_report_accounts_for_every_disagreement(self) -> None:
-        report = json.loads((ROOT / "data/private/workbench/migration-report.json").read_text())
-        resolutions = [row["resolution"] for row in report["reconciliation"]]
-        self.assertFalse([r for r in resolutions if r.startswith("unexplained")])
-        self.assertEqual(report["conflicts"], [])
+    def test_original_relationship_disagreements_are_preserved_in_the_database(self) -> None:
+        from workbench_migrate import Migration, as_percent
+
+        # The original inputs predate reconciliation. A receipt from a later
+        # incremental run cannot verify what happened to those legacy rows.
+        def original(filename: str):
+            return json.loads(subprocess.check_output(
+                ["git", "-C", str(ROOT), "show", f"bf42d127d21c:research/{filename}"],
+            ))
+
+        by_assertion = defaultdict(list)
+        for index, row in enumerate(original("relationship_probability_estimates.json")["estimates"]):
+            by_assertion[row.get("assertion_id")].append((index, row))
+        stale = separate = 0
+        for row in original("relationship_assessments.json"):
+            assertion = row["assertion_id"]
+            parties = Migration._claim_people(row)
+            if parties is None:
+                continue
+            estimates = by_assertion.pop(assertion, [])
+            current, _ = as_percent(row.get("probability"))
+            if current is None:
+                values = {e["percent"] for _, e in estimates if Migration._estimate_matches(parties, e)
+                          and isinstance(e.get("percent"), int)}
+                if len(values) == 1:
+                    current = values.pop()
+            for index, estimate in estimates:
+                matches = Migration._estimate_matches(parties, estimate)
+                if matches and estimate.get("percent") == current:
+                    continue
+                with self.subTest(assertion=assertion, estimate_row=index):
+                    claim_id, = self.research.find_external("glasgow-assertion", assertion)
+                    history = [r["estimate_percent"] for r in self.research.assessment_history(claim_id)]
+                    self.assertIn(current, history)
+                    if matches:
+                        self.assertIn(estimate["percent"], history[:history.index(current)])
+                        stale += 1
+                    else:
+                        alternate = stable_id("clm", "glasgow", assertion, "estimate", index)
+                        alt_history = self.research.assessment_history(alternate)
+                        self.assertIn(estimate["percent"], [r["estimate_percent"] for r in alt_history])
+                        self.assertIsNotNone(self.project.store.one(
+                            "SELECT 1 FROM dependency WHERE dependent_id=? AND premise_id=?",
+                            (alternate, claim_id),
+                        ))
+                        separate += 1
+        self.assertEqual((29, 1), (stale, separate))
+        self.assertFalse(self.project.store.all(
+            "SELECT id FROM legacy_item WHERE disposition='conflict' AND resolved_on IS NULL "
+            "AND input_path IN ('research/relationship_assessments.json', "
+            "'research/relationship_probability_estimates.json')",
+        ))
+
+    def test_current_project_grade_labels_are_declared(self) -> None:
+        rows = self.project.store.all(
+            "SELECT DISTINCT r.grade FROM assessment a JOIN assessment_revision r "
+            "ON r.assessment_id=a.id AND r.revision=a.current_revision "
+            "WHERE r.grade IS NOT NULL AND r.vocabulary='project-grades'",
+        )
+        self.assertFalse({row["grade"] for row in rows} - self.project.config.grades.keys())
 
 
 if __name__ == "__main__":

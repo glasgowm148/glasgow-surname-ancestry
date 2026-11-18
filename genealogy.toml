@@ -94,6 +94,22 @@ exports = "data/private/workbench/exports"
 # genealogy.local.toml (ignored by Git).
 repository = "."
 
+# Glasgow relationship assessments use these evidence labels.
+[grades.proved]
+label = "Proved"
+meaning = "The available evidence establishes the specific claim."
+confidence = "documented"
+
+[grades.possible]
+label = "Possible"
+meaning = "The claim fits the known evidence but needs corroboration."
+confidence = "possible"
+
+[grades.uncertain]
+label = "Uncertain"
+meaning = "The evidence is insufficient or conflicting, and the claim remains open."
+confidence = "possible"
+
 [site]
 # Fixed for reproducible workbench builds; raise it deliberately with each release.
 build_date = "2026-10-25"

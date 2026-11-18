@@ -159,6 +159,18 @@ class GlasgowMigrationFixture(unittest.TestCase):
             question = stable_id("qst", "research/Harrow-14/presentation.json", 0)
             self.assertEqual(project.store.get("question", question)["resolves"], "The 1786 Currituck Isaac.")
 
+    def test_scoped_cli_receipt_leaves_the_full_receipt_in_place(self) -> None:
+        full = self.project / "data/private/workbench/migration-report.json"
+        write(self.project, str(full.relative_to(self.project)), {"reconciliation": ["full receipt"]})
+
+        self.assertEqual(0, workbench_migrate.main([
+            "--project", str(self.project), "--source-root", str(self.source), "--only", "profiles",
+        ]))
+
+        self.assertEqual({"reconciliation": ["full receipt"]}, json.loads(full.read_text()))
+        scoped = full.with_name("migration-report-profiles.json")
+        self.assertEqual({"profiles"}, json.loads(scoped.read_text())["steps"].keys())
+
     def test_profile_filter_registers_only_selected_case_then_default_registers_all(self) -> None:
         for name in ("Harrow-14", "record-other"):
             write(self.source, f"research/{name}/findings.md", f"Notes for {name}")

@@ -483,7 +483,8 @@ class Migration:
         return dict(counts)
 
     # ---------------------------------------------------------------- relationships
-    def _claim_people(self, row: dict) -> tuple[str, str, str] | None:
+    @staticmethod
+    def _claim_people(row: dict) -> tuple[str, str, str] | None:
         """(child WikiTree id, relative WikiTree id, relative's role) from an assessment's perspectives."""
         perspectives = row.get("perspectives") or {}
         for person, view in perspectives.items():
@@ -503,7 +504,8 @@ class Migration:
                 return first, second, RELATION_ROLES[role]
         return None
 
-    def _estimate_key(self, estimate: dict) -> tuple[str, str, str] | None:
+    @staticmethod
+    def _estimate_key(estimate: dict) -> tuple[str, str, str] | None:
         role = str(estimate.get("relationship", "")).casefold()
         if role in CHILD_ROLES:
             return estimate["relative_id"], estimate["subject_id"], "parent"
@@ -514,6 +516,15 @@ class Migration:
                 return first, second, mapped
             return estimate["subject_id"], estimate["relative_id"], mapped
         return None
+
+    @classmethod
+    def _estimate_matches(cls, parties: tuple[str, str, str], estimate: dict) -> bool:
+        child, relative, role = parties
+        key = cls._estimate_key(estimate)
+        return key is not None and {key[0], key[1]} == {child, relative} and (
+            key[2] == role or key[2] == "parent" and role in ("father", "mother")
+            or estimate.get("relationship") in CHILD_ROLES
+        )
 
     def _revision_fields(self, entry: dict, *, current: bool) -> dict:
         fields = self._raw_revision_fields(entry, current=current)
@@ -577,10 +588,7 @@ class Migration:
                 rows_here = by_assertion.get(aid, [])
 
                 def same_claim(estimate: dict) -> bool:
-                    key = self._estimate_key(estimate)
-                    return key is not None and {key[0], key[1]} == {child, relative_id} and (
-                        key[2] == role or key[2] == "parent" and role in ("father", "mother")
-                        or estimate.get("relationship") in CHILD_ROLES)
+                    return self._estimate_matches(parties, estimate)
 
                 own_percent, _ = as_percent(row.get("probability"))
                 adopted = None
@@ -1260,7 +1268,7 @@ def main(argv=None) -> int:
     parser.add_argument("--project", type=Path, default=ROOT, help="project directory holding genealogy.toml")
     parser.add_argument("--only", nargs="+", choices=Migration.STEPS)
     parser.add_argument("--profile-id", action="append", help="Research directory to refresh; repeat with --only profiles")
-    parser.add_argument("--report", type=Path, default=ROOT / "data/private/workbench/migration-report.json")
+    parser.add_argument("--report", type=Path, help="override the default complete or scoped migration receipt path")
     args = parser.parse_args(argv)
     if args.profile_id:
         if args.only != ["profiles"]:
@@ -1271,11 +1279,15 @@ def main(argv=None) -> int:
             parser.error(str(exc))
     with open_project(args.project, create=True) as project:
         report = Migration(project, args.source_root.resolve(), args.profile_id).run(args.only)
-    args.report.parent.mkdir(parents=True, exist_ok=True)
-    args.report.write_text(json.dumps(report, indent=1, sort_keys=True, ensure_ascii=False) + "\n", encoding="utf-8")
+    report_path = args.report
+    if report_path is None:
+        scope = "-" + "-".join(sorted(set(args.only))) if args.only else ""
+        report_path = args.project / "data/private/workbench" / f"migration-report{scope}.json"
+    report_path.parent.mkdir(parents=True, exist_ok=True)
+    report_path.write_text(json.dumps(report, indent=1, sort_keys=True, ensure_ascii=False) + "\n", encoding="utf-8")
     print(json.dumps(report["steps"], indent=1))
     print(f"{len(report.get('reconciliation', []))} reconciled estimate rows, {len(report['conflicts'])} conflicts kept, "
-          f"{len(report['unresolved'])} unresolved items; report: {args.report}")
+          f"{len(report['unresolved'])} unresolved items; report: {report_path}")
     return 0
 
 
