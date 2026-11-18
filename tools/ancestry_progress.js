@@ -325,7 +325,7 @@
     const niceStep = v => { const raw = v/4, p = 10**Math.floor(Math.log10(raw || 1)); return (p >= 10 ? [1,2,2.5,5,10] : [1,2,5,10]).map(m => m*p).find(s => s >= raw) || p*10; };
     const step = niceStep(Math.max(4, ...up, ...down)), maxUp = Math.max(step, Math.ceil(Math.max(0,...up)/step)*step), maxDown = Math.max(step, Math.ceil(Math.max(0,...down)/step)*step);
     const y = v => top + (maxUp - v)/(maxUp+maxDown)*plotH, band = plotW/days.length, barW = Math.max(3, Math.min(24, band*.68));
-    const svg = [`<svg viewBox="0 0 ${width} ${height}" role="img" aria-labelledby="day-chart-title day-chart-desc"><title id="day-chart-title">Research findings per day</title><desc id="day-chart-desc">Columns above the line count improved ratings, new fathers and replacements; below the line, lowered ratings. The same values are in the table of changes per day.</desc>`];
+    const svg = [`<svg viewBox="0 0 ${width} ${height}" role="group" aria-labelledby="day-chart-title" aria-describedby="day-chart-desc"><title id="day-chart-title">Research findings per day</title><desc id="day-chart-desc">Columns above the line count improved ratings, new fathers and replacements; below the line, lowered ratings. The same values are in the table of changes per day.</desc>`];
     for (let v = -maxDown; v <= maxUp; v += step) svg.push(`<line class="pd-grid${v === 0 ? ' pd-zero' : ''}" x1="${left}" x2="${width-right}" y1="${y(v)}" y2="${y(v)}"/><text class="pd-axis" x="${left-6}" y="${y(v)+4}" text-anchor="end">${Math.abs(v)}</text>`);
     const tickEvery = Math.ceil(days.length / Math.max(2, Math.floor(plotW/64)));
     days.forEach((date, i) => {
@@ -342,8 +342,11 @@
       if (i % tickEvery === 0 || i === days.length-1) {
         if (i === days.length-1 || (days.length-1-i)*band >= 60) svg.push(`<text class="pd-axis" x="${cx}" y="${height-10}" text-anchor="${i === 0 ? 'start' : i === days.length-1 ? 'end' : 'middle'}" ${i === 0 ? `dx="${-band/2+2}"` : i === days.length-1 ? `dx="${band/2-2}"` : ''}>${esc(shortDate(date))}</text>`);
       }
-      const label = `${longDate(date)}: ${total ? CHANGES.map(k => `${c[k.key]} ${k.short}`).join(', ') : 'no research changes'}`;
-      svg.push(`<rect class="pd-hit" data-day="${date}" x="${left+band*i}" y="${top}" width="${band}" height="${plotH}" tabindex="${total ? 0 : -1}" role="button" aria-label="${esc(label)}${total ? '. Show findings' : ''}" aria-pressed="${date === state.day}"/>`);
+      const label = `${longDate(date)}: ${CHANGES.map(k => `${c[k.key]} ${k.short}`).join(', ')}. Show findings`;
+      const action = total
+        ? `tabindex="0" role="button" aria-label="${esc(label)}" aria-pressed="${date === state.day}"`
+        : 'aria-hidden="true"';
+      svg.push(`<rect class="pd-hit" data-day="${date}" x="${left+band*i}" y="${top}" width="${band}" height="${plotH}" ${action}/>`);
     });
     svg.push('</svg><div class="pd-tip" id="day-tip" hidden></div>');
     target.innerHTML = svg.join('');

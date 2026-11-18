@@ -1,6 +1,6 @@
 /* Ancestry research progress dashboard. Source of www/assets/research/ancestry-progress.css (copied by tools/build_ancestry_progress.py). */
 .ancestry-progress{
-  --pd-ink:#243e34;--pd-ink-2:#4f5d53;--pd-muted:#6b7669;--pd-line:#d6dccc;--pd-hair:#e4e7dc;
+  --pd-ink:#243e34;--pd-ink-2:#4f5d53;--pd-muted:#626d60;--pd-line:#d6dccc;--pd-hair:#e4e7dc;
   --pd-card:#fffef9;--pd-wash:#f1f2ea;--pd-accent:#285e49;
   --pd-good:#006300;--pd-good-bg:#e3f1e1;--pd-bad:#b42318;--pd-bad-bg:#fbe9e7;
   --pd-improved:#2a78d6;--pd-new:#1baf7a;--pd-replaced:#6250d6;--pd-lowered:#e34948;
@@ -86,7 +86,7 @@
 .pd-selected{fill:var(--pd-wash)}
 .pd-hit{fill:transparent;cursor:pointer;outline:none}
 .pd-hit:focus-visible{stroke:var(--pd-ink);stroke-width:2}
-.pd-hit[tabindex="-1"]{cursor:default}
+.pd-hit[aria-hidden=true]{cursor:default}
 .pd-tip{position:absolute;z-index:3;pointer-events:none;display:grid;gap:3px;min-width:180px;max-width:260px;background:#fff;border:1px solid var(--pd-line);border-radius:8px;box-shadow:0 6px 18px rgba(36,62,52,.14);padding:8px 10px;font-size:.82rem}
 .pd-tip span{display:flex;align-items:center}.pd-tip b{margin-left:auto;padding-left:12px;font-variant-numeric:tabular-nums}
 .pd-tip em{color:var(--pd-muted);font-size:.76rem}
