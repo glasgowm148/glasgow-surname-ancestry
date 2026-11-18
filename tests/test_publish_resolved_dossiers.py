@@ -260,6 +260,30 @@ class ResolvedDossierTests(unittest.TestCase):
         self.assertEqual(module.project_catalogue_parents(deepcopy(result), reviewed), result)
         self.assertEqual(module.project_catalogue_parents(result, {}), original)
 
+    def test_selected_parent_projection_uses_whole_branch_counts(self):
+        primary = {'id': 'Root-1', 'catalogued_members': 4}
+        other = {'id': 'Root-2', 'catalogued_members': 1}
+        original = [
+            {'id': f'child-{i}', 'father': [{'id': 'Father-1'}], 'family_root': deepcopy(root),
+             'family_roots': [deepcopy(root)]}
+            for i, root in enumerate([primary, primary, primary, primary, other])
+        ]
+        reviewed = {
+            'child-0': {'relationships': {'parents': []}},
+            'child-1': {'relationships': {'parents': [{'id': 'Father-1', 'relationship': 'father'}]}},
+        }
+
+        def selected(row):
+            return row['id'] in reviewed
+
+        full = module.project_catalogue_parents(deepcopy(original), reviewed)
+        targeted = module.project_catalogue_parents(deepcopy(original), reviewed, select_row=selected)
+        self.assertEqual(full, targeted)
+        self.assertEqual([None, 3, 3, 3, 1], [row['family_root']['catalogued_members'] if row['family_root'] else None
+                                              for row in targeted])
+        self.assertEqual([0, 3, 3, 3, 1], [row['family_roots'][0]['catalogued_members'] for row in targeted])
+        self.assertEqual(targeted, module.project_catalogue_parents(deepcopy(targeted), reviewed, select_row=selected))
+
     def test_new_source_claim_survives_restoring_an_older_review_import(self):
         original = {'id': 'Example-1', 'vitals': {'birth': {'date': '1800'}}, 'claims': [], 'evidence': []}
         review = {'id': 'review', 'subject': 'Example-1', 'status': 'approved',

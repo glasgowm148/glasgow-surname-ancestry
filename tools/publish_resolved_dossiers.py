@@ -4,6 +4,7 @@
 Run after dossier generation. No conclusions are extracted from narrative prose.
 """
 import argparse
+from collections import Counter
 from copy import deepcopy
 import json
 from pathlib import Path
@@ -433,10 +434,17 @@ def project_catalogue_vitals(rows, assessments):
     return rows
 
 
-def project_catalogue_parents(rows, reviewed):
-    """Use the current assessed parents in search, retaining reversible imports."""
+def _branch_membership_counts(rows):
+    return Counter(root['id'] for row in rows if (root := row.get('family_root')))
+
+
+def project_catalogue_parents(rows, reviewed, *, select_row=None):
+    """Project assessed parents for selected rows; count branches across the whole catalogue."""
     fields = ('father', 'mother', 'missing_father', 'missing_mother', 'family_root', 'family_roots')
+    prior_counts = _branch_membership_counts(rows) if select_row is not None else None
     for row in rows:
+        if select_row is not None and not select_row(row):
+            continue
         prior = row.pop('parent_review', {})
         for key, original in prior.get('original_fields', {}).items():
             if original['present']:
@@ -476,12 +484,12 @@ def project_catalogue_parents(rows, reviewed):
                 parent.get('id') and not parent.get('outside_export')
                 for parent in row.get('father', []))):
             row['family_root'] = None
-    counts = {}
-    for row in rows:
-        if root := row.get('family_root'):
-            counts[root['id']] = counts.get(root['id'], 0) + 1
+    counts = _branch_membership_counts(rows)
     for row in rows:
         primary = row.get('family_root')
+        if (select_row is not None and not select_row(row)
+                and (not primary or counts[primary['id']] == prior_counts[primary['id']])):
+            continue
         for root in row.get('family_roots', []):
             root['catalogued_members'] = counts.get(root['id'], 0) if primary and primary['id'] == root['id'] else 0
         if primary and 'catalogued_members' in primary:
@@ -773,7 +781,7 @@ def publish(root=ROOT / 'www', profile_ids=None):
             project_catalogue_spouses(search, reviewed)
         else:
             targeted = [row for row in search if selected_rows(row)]
-            project_catalogue_parents(targeted, reviewed)
+            project_catalogue_parents(search, reviewed, select_row=selected_rows)
             project_catalogue_spouses(targeted, reviewed)
         for row in search:
             if requested is not None and not selected_rows(row):
