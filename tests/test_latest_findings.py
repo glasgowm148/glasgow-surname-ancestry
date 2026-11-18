@@ -220,20 +220,45 @@ class LatestFindingsTests(unittest.TestCase):
             row['relationship_changes'] = [change]
             for before, after, previous, current in [('probable', 'possible', 85, 35),
                                                      ('certain', 'possible', 95, 35),
-                                                     ('probable', 'probable', 85, 71)]:
+                                                     ('probable', 'probable', 85, 71),
+                                                     ('certain', 'certain', 96, 92),
+                                                     ('unmarked', 'probable', 20, 71)]:
                 change.update(before=before, after=after, previous_probability_percent=previous,
                               probability_percent=current)
                 ledger.write_text(json.dumps({'findings': [row]}))
                 loaded = findings.load_findings(ledger, web)[0]
                 soup = BeautifulSoup(findings.row_html(loaded), 'html.parser')
-                self.assertEqual('', soup.select_one('tr')['data-relationship-upgrade'])
-                self.assertIn(f'{before.capitalize()} ({previous}%) → {after.capitalize()} ({current}%)', soup.get_text())
+                row_attrs = soup.select_one('tr').attrs
+                self.assertEqual('', row_attrs['data-relationship-upgrade'])
+                self.assertEqual('0', row_attrs['data-change-count'])
+                self.assertEqual('0', row_attrs['data-ungraded-count'])
+                self.assertIn(f'({previous}%) → {after.capitalize()} ({current}%)', soup.get_text())
                 self.assertNotIn('became certain', soup.get_text())
                 self.assertNotIn('private/prior-assessment.txt', str(soup))
             for invalid_percent in [-1, 101, True, '35']:
                 change['probability_percent'] = invalid_percent
                 ledger.write_text(json.dumps({'findings': [row]}))
                 with self.assertRaises(ValueError): findings.load_findings(ledger, web)
+
+    def test_mixed_finding_counts_only_promotions_to_certain(self):
+        with tempfile.TemporaryDirectory() as directory:
+            web, ledger, row = self.fixture(directory)
+            change = dict(relationship='father', subject='Example child', relative='Example relative',
+                          explanation='The source adds evidence.', previous_status_provenance='earlier review')
+            row['relationship_changes'] = [
+                dict(change, before='unmarked', after='certain'),
+                dict(change, before='possible', after='certain', relationship='mother'),
+                dict(change, before='unmarked', after='probable', relationship='mother'),
+                dict(change, before='certain', after='possible'),
+            ]
+            ledger.write_text(json.dumps({'findings': [row]}))
+            findings.repair(web, ledger, refresh_subject_drafts=False, refresh_tree_status=False)
+            [indexed] = json.loads((web / 'data/latest-findings-index.json').read_text())
+            self.assertEqual('father mother', indexed['data-relationship-upgrade'])
+            self.assertEqual('2', indexed['data-change-count'])
+            self.assertEqual('1', indexed['data-ungraded-count'])
+            self.assertEqual('1', indexed['data-father-count'])
+            self.assertEqual('1', indexed['data-father-ungraded-count'])
 
     def test_archive_pages_count_from_the_earliest_finding_and_keep_links_stable(self):
         with tempfile.TemporaryDirectory() as directory:

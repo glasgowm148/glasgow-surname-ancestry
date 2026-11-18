@@ -172,6 +172,15 @@ def page_urls(items):
             for index, item in enumerate(ordered)}
 
 
+def became_certain(before, after):
+    return before != 'certain' and after == 'certain'
+
+
+def grade_label(grade, percent=None):
+    label = 'Unmarked (previously ungraded)' if grade == 'unmarked' else grade.capitalize()
+    return label + (f' ({percent:g}%)' if percent is not None else '')
+
+
 def row_html(item):
     esc = lambda value: escape(str(value), quote=True)
     def person_html(person):
@@ -210,7 +219,9 @@ def row_html(item):
     significance = f'<p class="lf-significance">{esc(item["significance"])}</p>' if item.get('significance') else ''
     qualification = f'<p>{esc(item["qualification"])}</p>' if item.get('qualification') else ''
     changes = item.get('relationship_changes', [])
-    upgrades = ' '.join(sorted({change['relationship'] for change in changes if change['after'] == 'certain'}))
+    promotions = [change for change in changes if became_certain(change['before'], change['after'])]
+    father_promotions = [change for change in promotions if change['relationship'] == 'father']
+    upgrades = ' '.join(sorted({change['relationship'] for change in promotions}))
     change_groups = {}
     for change in changes:
         key = tuple(change.get(field) for field in ('relationship', 'relative', 'before', 'after', 'explanation', *CHANGE_PERCENT_FIELDS))
@@ -219,18 +230,18 @@ def row_html(item):
     for (relationship, relative, before, after, explanation, previous_percent, percent), subjects in change_groups.items():
         subject_names = '; '.join(esc(subject) for subject in subjects)
         change_label = RELATIONSHIPS[relationship] + (' relationships' if len(subjects) > 1 else ' relationship')
-        badge = change_label + (' became certain' if after == 'certain' else ' confidence revised')
-        grade_label = lambda grade, value: ('Unmarked (previously ungraded)' if grade == 'unmarked' else grade.capitalize()) + (f' ({value:g}%)' if value is not None else '')
+        promoted = became_certain(before, after)
+        badge = change_label + (' became certain' if promoted else ' confidence revised')
         transition = grade_label(before, previous_percent) + ' → ' + grade_label(after, percent)
         changes_html += (
-            f'<div class="lf-relationship-change"><span class="lf-status lf-{"confirmed" if after == "certain" else "qualified"}">{badge}</span>'
+            f'<div class="lf-relationship-change"><span class="lf-status lf-{"confirmed" if promoted else "qualified"}">{badge}</span>'
             f'<p><strong>{subject_names} — {esc(relationship)}: {esc(relative)}.</strong> '
             f'{esc(transition)}. {esc(explanation)}</p></div>')
     external_case = item['detail_url'].startswith('https://')
     case_attributes = ' target="_blank" rel="noopener noreferrer"' if external_case else ''
     case_label = 'Open WikiTree profile ↗' if external_case else 'Read the research →'
     return (f'<tr id="finding-{esc(item["id"])}" data-date="{item["found_on"]}" '
-            f'data-kind="{item["kind"]}" data-status="{item["status"]}" data-relationship-upgrade="{upgrades}" data-change-count="{len(changes)}" data-ungraded-count="{sum(c["before"] == "unmarked" for c in changes)}" data-father-count="{sum(c["relationship"] == "father" for c in changes)}" data-father-ungraded-count="{sum(c["relationship"] == "father" and c["before"] == "unmarked" for c in changes)}" data-studies="{esc(' '.join(s['id'] for s in studies))}" data-places="{esc(' '.join(p['slug'] for p in item.get('_places', [])))}" data-search="{esc(search)}">'
+            f'data-kind="{item["kind"]}" data-status="{item["status"]}" data-relationship-upgrade="{upgrades}" data-change-count="{len(promotions)}" data-ungraded-count="{sum(c["before"] == "unmarked" for c in promotions)}" data-father-count="{len(father_promotions)}" data-father-ungraded-count="{sum(c["before"] == "unmarked" for c in father_promotions)}" data-studies="{esc(' '.join(s['id'] for s in studies))}" data-places="{esc(' '.join(p['slug'] for p in item.get('_places', [])))}" data-search="{esc(search)}">'
             f'<td data-label="Found"><a class="lf-date" href="{item.get("_page_url", "/latest-findings/")}#finding-{esc(item["id"])}"><time datetime="{item["found_on"]}">{label}</time></a></td>'
             f'<td data-label="People"><ul class="lf-people">{people}</ul>{study_html}</td>'
             f'<td data-label="Finding"><span class="lf-kind">{KINDS[item["kind"]]}</span><p class="lf-fact">{esc(item["finding"])}</p>{significance}</td>'
