@@ -53,6 +53,8 @@ def main():
         write('data/wikitree/live-profile-overrides.json', {'profiles': {}})
         write('data/wikitree/profile-evidence.json', {'profiles': {
             'Historic-1': {'privacy': 60, 'profile_fields': {**eligible, 'Name': 'Historic-1', 'FirstName': 'Historical', 'BirthDate': '1750'}},
+            'Withheld-1': {'privacy': 60, 'withheld': True, 'profile_fields': eligible},
+            'Likely-1': {'privacy': 60, 'profile_fields': {**eligible, 'likely_living': True}},
             'Private-1': {'privacy': 40, 'profile_fields': {'Privacy': 40, 'Name': 'Private-1', 'DeathDate': '1800'}},
             'Living-1': {'privacy': 60, 'profile_fields': {'Privacy': 60, 'Name': 'Living-1', 'IsLiving': 1}},
         }})

@@ -13,7 +13,7 @@ RUNTIME = Path.home() / 'Library/Application Support/genealogy-tools'
 STATUS = RUNTIME / 'open-profile-status.json'
 FIELDS = ('Name', 'FirstName', 'MiddleName', 'LastNameAtBirth', 'LastNameCurrent',
           'LongName', 'BirthDate', 'BirthLocation', 'DeathDate', 'DeathLocation',
-          'Gender', 'Privacy', 'IsLiving', 'Touched')
+          'Gender', 'Privacy', 'IsLiving', 'Touched', 'withheld', 'likely_living')
 PROFILE_ID = re.compile(r"\b[A-Za-z][A-Za-z_'’]*(?:-[A-Za-z][A-Za-z_'’]*)*-\d+\b")
 EXCLUDED = re.compile(r'\b(?:DNA|GEDmatch|FTDNA|haplogroup|chromosome|tester|kit\s*(?:id|number)|transcription|licensed|restricted|credentials)\b', re.I)
 ANALYTICAL_EXCLUDED = re.compile(r'\b(?:DNA|GEDmatch|FTDNA|haplogroup|chromosome|tester|kit\s*(?:id|number)|licensed|restricted|credentials)\b', re.I)
@@ -70,6 +70,9 @@ def metadata(root=ROOT):
             rows[ident] = {k: fields[k] for k in FIELDS if k in fields}
             if nested:
                 rows[ident]['Privacy'] = raw.get('privacy', fields.get('Privacy'))
+                for flag in ('withheld', 'likely_living'):
+                    if raw.get(flag):
+                        rows[ident][flag] = True
             origins[ident] = f'{path.relative_to(root)}#/profiles/{ident}' + ('/profile_fields' if nested else '')
     return rows, origins
 
