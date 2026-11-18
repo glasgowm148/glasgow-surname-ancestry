@@ -4,24 +4,15 @@ Last updated: 2026-11-13
 
 ## Current conclusion
 
-Reviewed: 2026-10-29. Re-read against the later dated sections below; no change to this conclusion.
+Reviewed: 2026-11-13.
 
-NRS `RH15/120/178` independently identifies this family. On 22 November 1722
-Robert Glasgow at Paddockholm wrote to his brother James Glasgow, a student of
-divinity at Glasgow, and sent butter and cheese for Mr Gordon. Robert-1075 was
-baptised at Kilbirnie in 1693 and is the established Paddockholm man; his
-brother [Glasgow-1140](https://www.wikitree.com/wiki/Glasgow-1140) was baptised
-there in 1700 and fits the divinity student. The letter therefore strongly
-confirms the existing sibling relationship and supplies direct adult residence
-for Robert and status for James.
+Robert Glasgow, the Kilbirnie surgeon of Paddockholm, was baptised at Kilbirnie on 17 October 1693. The baptism transcripts name [John Glasgow](/people/glasgow-1073.html), minister of the Gospel, as his father and [Jean Cunningham](https://www.wikitree.com/wiki/Cunningham-20924), recorded as Jeane Cunynghame, as his mother. The existing assessments are **99% proved** for John, reviewed 22 October, and **90% proved** for Jean, first assessed on 5 November from the explicitly named mother in the index.
 
-This is a separate Kilbirnie generation. It does not identify the North Leith
-glassworks servant of 1694 or connect Robert of Paddockholm to Robert Glaskow of
-Larne.
+On 22 November 1722 Robert wrote from Paddockholm to his brother [James Glasgow](/people/glasgow-1140.html), then a divinity student in Glasgow, and sent butter and cheese for Mr Gordon. James was baptised in Kilbirnie in 1700 and fits the student named in the letter, which strongly supports their existing sibling relationship. The letter supplies no connection to the North Leith glassworks servant of 1694 or Robert Glaskow of Larne.
 
-Daughter Anna-3005’s existing father relationship is now 95% confident from 58%, after checking Paterson’s original printed p.252 and the exact Hugh Allan marriage identity. Other family assessments retain their own scopes.
+The proposed biography gives Robert’s marriage to [Margaret Allan](https://www.wikitree.com/wiki/Allan-4046) as **15 December 1726**, the date on Paterson’s checked printed page 252. The earlier **1736** wording and inherited Kilbirnie OPR 596, 10/74 citation remain an unresolved source conflict. The 13 November correction applies to the proposed biography. The original marriage register has yet to be checked for this review.
 
-The proposed biography’s inherited 1736 marriage statement is corrected on 13 November 2026 to **15 December 1726**, as printed in the already visually checked Paterson p.252. The old OPR 596, 10/74 citation remains in Research Notes as an unresolved source conflict; no fresh parish-image inspection or relationship reassessment follows. Margaret Allan is the wife, and Jean Cunningham the mother.
+The existing assessment for Robert as father of [Anna Glasgow](/people/glasgow-3005.html) rose from **58% to 95% confident** on 23 October. Paterson names Ann as Robert and Margaret’s daughter and gives the same husband, Hugh Allan, and exact marriage date as Anna’s parish-cited biography.
 
 ## Source findings
 - [National Records of Scotland, RH15/120/178](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=RH15%2F120%2F178), letter from Robert Glasgow, Paddockholm, to his brother James Glasgow, student of divinity at Glasgow, 22 November 1722.
@@ -42,7 +33,7 @@ The transcript-validated baptism record for **Robert Glasgow**, 17 Oct 1693, Kil
 Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
 <!-- END FMP-GLASGOW-fmp-glasgow-d33ed1d5cc49 -->
 
-+### Supplied Scotland’s People OPR births and baptisms — 10 September 2026
+### Supplied Scotland’s People OPR births and baptisms — 10 September 2026
 
 | Source locator | Indexed entry | Assessment |
 | --- | --- | --- |
@@ -92,10 +83,15 @@ The page also corrects two errors in the earlier OCR-based source account: Rober
 
 [James Paterson, History of the County of Ayr, volII(1852), printed p.252, IA leaf 268](https://archive.org/details/historyofcountyo02pateuoft/page/n268/mode/1up).
 
+## Mother assessment — 5 November 2026
+
+The held Ancestry index gives Robert’s Kilbirnie baptism on 17 October 1693 and names his mother as **Jeane Cunynghame**. The attached [Jean Cunningham](https://www.wikitree.com/wiki/Cunningham-20924) matches the named mother in that entry and other indexed baptisms of the same couple. The first review assesses the existing mother link at **90% proved**. The Ancestry and FamilySearch derivatives represent the same event, and the original register remains uninspected for this review. [Held Ancestry index entry](https://www.ancestry.co.uk/search/collections/60143/records/23860723).
+
+
 <!-- BEGIN FMP-BIRTH-SCOPE-PAGES12-16-20261023 -->
 ## Findmypast pages 12–16 source review — 23 October 2026
 
-Role in this account: Compatible adult-father comparison: compiled Mountgreenan family account says Robert Glasgow of Puddockholm/Kilbirnie married Margaret Allan and had a son James; profile identity is not proven by this index.. New source-defined child event: James Glasgow, birth year 1750, baptism 18 Mar 1750 at Kilbirnie, father Robert Glasgow, mother Margarat Allan. Birth year is not an exact birthday. Parent names fit compiled family context; no child profile is matched. Dalry 1750 profile/event is a distinct candidate comparison.
+Role in this account: Compatible adult-father comparison: compiled Mountgreenan family account says Robert Glasgow of Puddockholm/Kilbirnie married Margaret Allan and had a son James; the adult profile identification remains unresolved for this entry. New source-defined child event: James Glasgow, birth year 1750, baptism 18 Mar 1750 at Kilbirnie, father Robert Glasgow, mother Margarat Allan. Birth year is not an exact birthday. Parent names fit compiled family context; no child profile is matched. Dalry 1750 profile/event is a distinct candidate comparison.
 
 Next question: Compare the original Kilbirnie register, family account and existing James-1142 Dalry record before identity assignment.
 
