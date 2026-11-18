@@ -598,6 +598,52 @@ def retire_creation_context(web, retired, restored=()):
                {'id': old, 'redirect_to': f'/assets/research/people/{target}.json', 'native_merge_redirect': target})
 
 
+def archive_retired_creation(web, old, target):
+    """Keep a former creation account available without its creation action."""
+    from bs4 import BeautifulSoup
+
+    json_path = web / "people" / (old + ".json")
+    previous = _read(json_path, {})
+    original = previous.get("superseded_documentary_account", previous)
+    if not original.get("evidence"):
+        return False
+
+    page_path = web / "people" / (old + ".html")
+    if not page_path.is_file():
+        return False
+    soup = BeautifulSoup(page_path.read_text(encoding="utf-8"), "html.parser")
+    notice = BeautifulSoup(
+        '<section id="archived-documentary-account"><h2>Archived documentary account</h2>'
+        '<p>The reviewed identity is linked to an existing WikiTree profile. '
+        f'<a href="/people/{escape(target, quote=True)}.html">Open the current catalogue profile</a>.</p></section>',
+        "html.parser",
+    )
+    if not soup.select_one("#archived-documentary-account"):
+        panels = soup.select("#wikitree-update")
+        if panels:
+            panels[0].replace_with(notice)
+            for panel in panels[1:]:
+                panel.decompose()
+        elif main := soup.find("main"):
+            main.insert(0, notice)
+        else:
+            raise ValueError(f"{old}: existing reader shell has no main")
+        for actions in soup.select(".profile-wikitree-actions"):
+            actions.clear()
+            link = soup.new_tag("a", href=f"/people/{target}.html")
+            link.string = "Open the current catalogue profile"
+            actions.append(link)
+        page_path.write_text(str(soup), encoding="utf-8")
+    _write(json_path, {
+        "id": old,
+        "status": "superseded",
+        "redirect_to": f"/people/{target}.json",
+        "native_merge_redirect": target,
+        "superseded_documentary_account": original,
+    })
+    return True
+
+
 def apply_creations(root=ROOT, catalogue_ids=None):
     """Materialize reviewed identities in the actual catalogue and person pages."""
     from bs4 import BeautifulSoup
@@ -712,8 +758,9 @@ def apply_creations(root=ROOT, catalogue_ids=None):
     publish_creation_aliases(root, entries)
     from tools.publish_retired_record_redirects import redirect_page
     for old, target in retired.items():
-        (web / "people" / (old + ".html")).write_text(redirect_page(old, target), encoding="utf-8")
-        _write(web / "people" / (old + ".json"), {"id": old, "redirect_to": f"/people/{target}.json", "native_merge_redirect": target})
+        if old not in native_retired or not archive_retired_creation(web, old, target):
+            (web / "people" / (old + ".html")).write_text(redirect_page(old, target), encoding="utf-8")
+            _write(web / "people" / (old + ".json"), {"id": old, "redirect_to": f"/people/{target}.json", "native_merge_redirect": target})
         _write(web / "people" / (old + ".network.json"), {"redirect_to": f"/people/{target}.network.json", "relationships": []})
     refresh_creation_statistics(root)
     return {"integrated": [p["catalogue_id"] for p in people], "count": len(people)}

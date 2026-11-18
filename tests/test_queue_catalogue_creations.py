@@ -82,6 +82,26 @@ The deed does not give her birth date. No compatible profile survived the docume
         with self.assertRaisesRegex(ValueError,"historical status"):
             module.reviewed_people(self.root)
 
+    def test_existing_profile_retirement_archives_sources_and_removes_creation_action(self):
+        module.apply_creations(self.root, [self.slug])
+        dossier = self.read('people/' + self.slug + '.json')
+        self.assertTrue(dossier['evidence'])
+        target = 'example-2'
+        (self.root / 'www/people/example-2.html').write_text('<html><main>Existing profile</main></html>')
+
+        with patch.object(module, 'native_creation_merges', return_value=({self.slug: 'Example-2'}, {})):
+            module.apply_creations(self.root, [self.slug])
+
+        archived = self.read('people/' + self.slug + '.json')
+        self.assertEqual('superseded', archived['status'])
+        self.assertNotIn('wikitree_update', archived)
+        self.assertEqual(dossier, archived['superseded_documentary_account'])
+        self.assertNotIn(self.slug, {row['catalogue_id'] for row in self.read('data/people.json')['people']})
+        soup = BeautifulSoup((self.root / 'www/people' / (self.slug + '.html')).read_text(), 'html.parser')
+        self.assertIsNone(soup.select_one('#wikitree-update'))
+        self.assertEqual('/people/example-2.html', soup.select_one('#archived-documentary-account a')['href'])
+        self.assertIsNotNone(soup.select_one(f'a[href="{self.url}"]'))
+
     def test_native_merge_into_existing_profile_does_not_recreate_duplicate(self):
         web = self.root / 'www'
         target = 'Example-2'
