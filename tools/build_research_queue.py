@@ -17,6 +17,8 @@ from tools import repair_research_questions as questions
 
 START, END = '<!-- research-queue:start -->', '<!-- research-queue:end -->'
 NEW_START, NEW_END = '<!-- queue-new-profiles:start -->', '<!-- queue-new-profiles:end -->'
+CATALOGUE_INTEGRATION = Path('research/queue-review-2026-10-17/catalogue-integration.json')
+CREATION_HOLDS = {'identity_hold', 'hold_source_verification'}
 # Queue pages are a workroom: every one says so before its own status (S3-11).
 WORKROOM_KICKER = 'Research workroom: leads, not findings'
 # Reader words for stored statuses; the stored value (filters, data JSON) is unchanged.
@@ -52,6 +54,16 @@ MATCH_LABELS = {'matched': 'Matched profile', 'compatible_candidate': 'Compatibl
                 'superseded': 'Superseded draft', 'disregarded': 'Excluded from profile creation'}
 
 
+def catalogue_integration(root):
+    path = root / CATALOGUE_INTEGRATION
+    return json.loads(path.read_text()) if path.exists() else {}
+
+
+def held_creation_subjects(integration):
+    return {row['subject_id']: row for row in integration.get('new_people', [])
+            if row.get('creation_status') in CREATION_HOLDS}
+
+
 def apply_batch_progress(rows, root=ROOT):
     """Keep the fixed review denominator separate from unsaved amendments."""
     registry = json.loads((root / 'research/research-queue-matches.json').read_text())
@@ -66,8 +78,8 @@ def apply_batch_progress(rows, root=ROOT):
     if set(results) - baseline_ids:
         raise ValueError('Review results contain an item outside the frozen baseline')
     member_ids = {m['id']: r['id'] for r in baseline for m in r.get('members', [r])}
-    integration_path = root / 'research/queue-review-2026-10-17/catalogue-integration.json'
-    integration = json.loads(integration_path.read_text()) if integration_path.exists() else {}
+    integration = catalogue_integration(root)
+    held_subjects = held_creation_subjects(integration)
     creations = {'update-' + p['catalogue_id']: p for p in integration.get('new_people', [])}
     derived = {'update-' + ident.casefold(): ('existing_profile', ident)
                for ident in integration.get('profile_updates', {})}
@@ -77,10 +89,13 @@ def apply_batch_progress(rows, root=ROOT):
         ids = {row['id']} if row['id'] in baseline_ids else {
             member_ids.get(m['id'], m['id']) for m in row.get('members', [row])}
         checked = [results.get(ident, {}) for ident in ids]
-        if row['id'] in derived:
-            disposition, ident = derived[row['id']]
+        held_subject = held_subjects.get(row['id'])
+        if held_subject and closure_status(row) == 'closed':
+            continue
+        if row['id'] in derived or held_subject:
+            disposition, ident = derived.get(row['id'], ('new_profile', row['id']))
             checked = [{'disposition': disposition}]
-            creation = creations.get(row['id'], {})
+            creation = held_subject or creations.get(row['id'], {})
             candidates = [c.get('profile_id') or c.get('id') for c in creation.get('candidates', [])
                           if c.get('status') not in {'excluded', 'rejected', 'contradicted'}]
             candidates = [i for i in candidates if i]
@@ -96,7 +111,9 @@ def apply_batch_progress(rows, root=ROOT):
         done = bool(checked) and all(r.get('disposition') in complete for r in checked)
         row['identity_review'] = dict(complete=done, baseline_ids=sorted(ids),
                                       dispositions=sorted({r['disposition'] for r in checked if r.get('disposition')}))
-        if done and row['kind'] == 'Profile identity':
+        if held_subject:
+            row['status'] = 'On hold'
+        elif done and row['kind'] == 'Profile identity':
             row['research_status'] = row['status']
             status = row.get('match_review', {}).get('status')
             row['status'] = {'compatible_candidate': 'Compatible profile linked',
@@ -178,12 +195,13 @@ def profile_href(profile_id, web=ROOT / 'www'):
 def new_profile_suggestions(root=ROOT):
     registry = json.loads((root / 'research/research-queue-matches.json').read_text())
     subjects = json.loads((root / 'research/latest-findings-subjects/subjects.json').read_text())
+    held_subjects = held_creation_subjects(catalogue_integration(root))
     suggestions = []
     for group in subjects['groups']:
         for person in group['people']:
             ident = 'subject-' + group['slug'] + '-' + person['anchor']
             review = registry['reviews'].get(ident, {})
-            if review.get('status') != 'no_compatible_profile' or review.get('profile_ids'):
+            if ident in held_subjects or review.get('status') != 'no_compatible_profile' or review.get('profile_ids'):
                 continue
             text = person['wikitext']
             if not all(x in text for x in ('== Biography ==', '== Sources ==', '<references />', '<ref')):
@@ -213,9 +231,7 @@ def render_new_profiles(suggestions):
 
 def collect(web=ROOT / 'www', root=ROOT):
     rows, drafts, used_files, fingerprints = [], [], set(), set()
-    integration = root / 'research/queue-review-2026-10-17/catalogue-integration.json'
-    if integration.exists():
-        used_files.update(p['draft_path'] for p in json.loads(integration.read_text()).get('new_people', []))
+    used_files.update(p['draft_path'] for p in catalogue_integration(root).get('new_people', []))
     overrides=json.loads((root/'research/research-queue-overrides.json').read_text()).get('draft_replacements',{})
     def add(ident, name, kind, status, assessment, url, profiles=(), sources=()):
         rows.append(dict(id=ident, name=name, kind=kind, status=status,

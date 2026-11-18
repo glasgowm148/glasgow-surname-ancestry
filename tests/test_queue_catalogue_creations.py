@@ -255,6 +255,32 @@ The deed does not give her birth date. No compatible profile survived the docume
         self.assertIsInstance(projected["records"][0]["year"], str)
         self.assertEqual("Scotland", projected["merged_source_accounts"][1]["records"][0]["region"])
 
+    def test_native_receipt_projects_existing_catalogue_link_with_legacy_subject_id(self):
+        from genealogy.store import Research, open_project
+        (self.root / "genealogy.toml").write_text(
+            '[project]\nname="Fictional"\n[storage]\ndatabase="test.sqlite"\n'
+        )
+        links = self.root / "data/wikitree/catalogue-profile-links.json"
+        links.parent.mkdir(parents=True)
+        subject = self.slug.removeprefix("record-")
+        with open_project(self.root, create=True) as project:
+            research = Research(project.store)
+            with project.store.write(actor="test") as tx:
+                research.create_person(tx, id="survivor")
+                research.create_person(tx, id="retired")
+                research.map_external(tx, "survivor", "wikitree", "Example-2")
+                research.map_external(tx, "retired", "glasgow-local", subject)
+                merge = research.merge_people(tx, survivor_id="survivor", retired_id="retired",
+                                              reason="Exact fictional record match")
+            row = {"profile_id": "Example-2", "native_merge_id": merge}
+            links.write_text(json.dumps({"entries": {self.slug: row, "record-other-account": row}}))
+            self.assertEqual({self.slug: "Example-2"}, module.native_creation_merges(self.root)[0])
+            self.assertEqual([], module.reviewed_people(self.root, [self.slug]))
+            with project.store.write(actor="test") as tx:
+                research.undo_merge(tx, merge, reason="Test reversal")
+        self.assertEqual({}, module.native_creation_merges(self.root)[0])
+        self.assertEqual([self.slug], [entry["catalogue_id"] for entry in module.reviewed_people(self.root)])
+
     def test_native_merge_projects_all_sources_preserves_hold_and_undo(self):
         from genealogy.cli import initialize_project
         from genealogy.store import Research, open_project

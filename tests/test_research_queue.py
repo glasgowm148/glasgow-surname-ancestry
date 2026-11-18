@@ -29,6 +29,41 @@ class ResearchQueueTests(unittest.TestCase):
             self.assertEqual(rows[1]['match_review']['reviewed_on'], '2026-10-18')
             self.assertEqual(rows[1]['status'], 'On hold')
 
+    def test_creation_hold_overrides_earlier_no_match_suggestion(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            batch = root / 'research/queue-review-2026-10-17'
+            batch.mkdir(parents=True)
+            subjects = root / 'research/latest-findings-subjects'
+            subjects.mkdir()
+            ident = 'subject-family-jane'
+            (subjects / 'subjects.json').write_text(json.dumps({'groups': [
+                {'slug': 'family', 'people': [{'anchor': 'jane', 'wikitext': 'not a creation draft'}]},
+            ]}))
+            (batch / 'catalogue-integration.json').write_text(json.dumps({'new_people': [
+                {'catalogue_id': 'record-jane', 'subject_id': ident,
+                 'creation_status': 'hold_source_verification', 'reviewed_at': '2026-10-18'},
+            ]}))
+            (batch / 'baseline.json').write_text(json.dumps({'rows': [{'id': ident}]}))
+            (batch / 'progress.json').write_text(json.dumps({
+                'reviewed_on': '2026-10-17',
+                'baseline_results': {ident: {'disposition': 'new_profile'}},
+            }))
+            (root / 'research/research-queue-matches.json').write_text(json.dumps({
+                'current_batch': 'research/queue-review-2026-10-17/baseline.json',
+                'reviewed_on': '2026-10-17',
+                'reviews': {ident: {'status': 'no_compatible_profile', 'assessment': 'No match found.'}},
+            }))
+            row = dict(id=ident, kind='Profile identity', status='Draft review',
+                       assessment='Original source verification remains open.', profiles=[])
+            apply_match_reviews([row], root)
+            apply_batch_progress([row], root)
+
+            self.assertEqual('On hold', row['status'])
+            self.assertEqual('hold_source_verification', row['match_review']['status'])
+            self.assertEqual('2026-10-18', row['match_review']['reviewed_on'])
+            self.assertEqual([], new_profile_suggestions(root))
+
     def test_progress_counts_frozen_items_without_finishing_amendments(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)

@@ -17,6 +17,7 @@ from pathlib import Path
 import re
 import sys
 
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import build_research_catalog as catalogue
 from catalogue_machine_data import build_machine_models, build_network, compact_resolver_row, _wikitree_profile_url
@@ -99,12 +100,11 @@ def native_creation_merges(root):
         merges = {old: new for old, new in view._merged_public.items()
                   if old != new and old.startswith("record-")}
         reasons = {}
-        rows = project.store.all("SELECT id,kind,survivor_id,reason FROM entity_merge")
+        rows = project.store.all("SELECT id,kind,survivor_id,reason,moved_json FROM entity_merge")
         undone = {row["reason"].split("undo ", 1)[1].split(":", 1)[0]
                   for row in rows if row["kind"] == "split" and str(row["reason"] or "").startswith("undo ")}
-        for row in rows:
-            if row["kind"] != "merge" or row["id"] in undone:
-                continue
+        active = {row["id"]: row for row in rows if row["kind"] == "merge" and row["id"] not in undone}
+        for row in active.values():
             target = view.person(row["survivor_id"])
             if target:
                 reason = row["reason"]
@@ -115,6 +115,32 @@ def native_creation_merges(root):
                 except (TypeError, ValueError):
                     pass
                 reasons.setdefault(target, []).append(reason)
+
+        # Older reviewed links kept the catalogue prefix only in the link
+        # receipt. Retire that route when its exact subject alias was moved
+        # by the same active native merge to the stated WikiTree profile.
+        path = root / "data/wikitree/catalogue-profile-links.json"
+        for slug, link in _read(path, {}).get("entries", {}).items():
+            if not slug.startswith("record-") or not isinstance(link, dict):
+                continue
+            merge = active.get(link.get("native_merge_id"))
+            if not merge or view.person(merge["survivor_id"]) != link.get("profile_id"):
+                continue
+            subject = slug.removeprefix("record-")
+            if view._merged_public.get(subject) != link["profile_id"]:
+                continue
+            for item in json.loads(merge["moved_json"] or "{}").get("rows", []):
+                if item.get("table") != "external_id":
+                    continue
+                alias = project.store.one(
+                    "SELECT value,system FROM external_id WHERE id=?", (item["key"].get("id"),)
+                )
+                if not alias or alias["system"] != "glasgow-local" or alias["value"] != subject:
+                    continue
+                if slug in merges and merges[slug] != link["profile_id"]:
+                    raise ValueError(f"{slug}: current merge conflicts with the reviewed catalogue link")
+                merges[slug] = link["profile_id"]
+                break
     return merges, reasons
 
 
