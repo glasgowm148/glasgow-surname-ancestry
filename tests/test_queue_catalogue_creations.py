@@ -152,6 +152,8 @@ The deed does not give her birth date. No compatible profile survived the docume
         stats.parent.mkdir(parents=True)
         stats.write_text('<main><h1>Keep statistics layout</h1><div class="statistics-summary">Old</div>'
             '<div class="statistics-grid">Old</div><p class="statistics-caution">Old</p></main>')
+        (web / 'data').mkdir(exist_ok=True)
+        (web / 'data/records-index.json').write_text(json.dumps([{'id': 'one'}, {'id': 'two'}]))
         module.apply_creations(self.root)
         for relative in ('catalogue.html', 'catalogue/index.html', 'catalogue/advanced.html'):
             soup = BeautifulSoup((web / relative).read_text(), 'html.parser')
@@ -163,7 +165,8 @@ The deed does not give her birth date. No compatible profile survived the docume
         self.assertNotIn('>Old<', stats.read_text())
         artifact = BeautifulSoup(self.read('data/catalogue-statistics.json')['html'], 'html.parser')
         self.assertEqual('1', artifact.select_one('.statistics-summary strong').text)
-        self.assertEqual('1', artifact.select('.statistics-summary strong')[1].text)
+        mapped_label = artifact.find('span', string='Mapped records')
+        self.assertEqual('2', mapped_label.find_previous_sibling('strong').text)
 
     def test_retired_context_removes_search_identity_preserves_record_event_rows(self):
         old, current = 'record-retired', self.slug

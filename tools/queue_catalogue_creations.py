@@ -513,7 +513,9 @@ def refresh_creation_statistics(root):
         for person in people}
     places = _read(web / 'data/places-index.json', [])
     locations = {place['id']: place['slug'] for place in places}
-    records = _read(web / 'assets/research/record-index.json', None)
+    records = _read(web / 'data/records-index.json', None)
+    if records is None:
+        records = _read(web / 'assets/research/record-index.json', None)
     record_count = len(records) if records is not None else sum(len(person['records']) for person in people)
     work_counts = Counter(person.get('profile_work_status') or 'unreviewed'
                           for person in people if not person.get('profile_ids'))
