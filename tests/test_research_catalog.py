@@ -586,13 +586,15 @@ class ResearchCatalogueTest(unittest.TestCase):
             html = (WEB / relative).read_text(encoding="utf-8")
             if relative.endswith(".json"):
                 html = json.loads(html)["html"]
-            panel = re.search(
-                r'<section class="statistics-panel"><h3>Surnames joined by marriage to Glasgow</h3>.*?</section>', html
+            heading = BeautifulSoup(html, "html.parser").find(
+                "h3", string="Surnames joined by marriage to Glasgow"
             )
-            self.assertTrue(panel, relative)
+            self.assertIsNotNone(heading, relative)
+            panel = heading.find_parent("section", class_="statistics-panel")
+            self.assertIsNotNone(panel, relative)
             rendered = [
-                (unescape(surname), int(count.replace(",", "")))
-                for surname, count in re.findall(r'marriageSurname=[^"#]*#catalogue-results">([^<]+)</a>.*?<strong>([\d,]+)</strong>', panel.group(0))
+                (link.get_text(strip=True), int(link.find_parent("li").strong.get_text(strip=True).replace(",", "")))
+                for link in panel.select('ol.statistics-bars a[href*="marriageSurname="][href$="#catalogue-results"]')
             ]
             self.assertEqual(expected, rendered, relative)
 

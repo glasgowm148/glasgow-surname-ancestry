@@ -102,6 +102,59 @@ vm.runInNewContext(fs.readFileSync(path.join(process.argv[1],'assets/unified/sit
             self.assertEqual(result[name]["total"], 200)
         self.assertIsNone(result["legacy"]["counts"])
 
+    def test_dialog_keyboard_navigation_tracks_only_current_results(self):
+        result = self.run_node(r'''
+const fs=require('node:fs'),vm=require('node:vm'),path=require('node:path');
+const assert=require('node:assert/strict');
+const events={},attributes={},pending=new Map();
+let timer;
+const input={value:'',addEventListener:(event,fn)=>events[event]=fn,focus(){},select(){},
+ setAttribute:(key,value)=>attributes[key]=value,removeAttribute:key=>delete attributes[key]};
+const output={innerHTML:''},dialog={open:false,showModal(){this.open=true},addEventListener(){}};
+const elements={'#g-search-dialog':dialog,'#g-search-input':input,'#g-search-results':output,
+ '#g-advanced-people':{},'#g-advanced-records':{},'#g-search-announcement':{}};
+const location={origin:'https://fixture.test',href:'https://fixture.test/'};
+const ctx={window:{location,GlasgowResearch:{search:q=>new Promise(resolve=>pending.set(q,resolve))},addEventListener(){}},
+ document:{body:{dataset:{},classList:{contains:()=>false}},addEventListener(){},querySelectorAll:()=>[],
+  getElementById:()=>null,querySelector(selector){
+   if(elements[selector])return elements[selector];
+   const id=selector.slice(1);return output.innerHTML.includes('id="'+id+'"')?{id,scrollIntoView(){}}:null;
+  }},
+ localStorage:{getItem:()=>null},MutationObserver:class{},innerWidth:1440,
+ setTimeout:fn=>{timer=fn;return fn},clearTimeout:()=>{timer=null},URL,location};
+vm.runInNewContext(fs.readFileSync(path.join(process.argv[1],'assets/unified/site.js'),'utf8'),ctx);
+const item=id=>({name:id,url:'/people/'+id+'.html',kind:'person'});
+const press=key=>events.keydown({key,preventDefault(){}});
+const type=q=>{input.value=q;events.input()};
+const tick=()=>new Promise(resolve=>setImmediate(resolve));
+(async()=>{
+ ctx.window.GlasgowSite.openSearch('initial');
+ pending.get('initial')([item('first'),item('second'),item('last')]);
+ await tick();
+ press('ArrowUp');
+ assert.equal(attributes['aria-activedescendant'],'g-result-2');
+ type('intermediate');
+ press('Enter');
+ assert.equal(location.href,'https://fixture.test/');
+ timer();
+ press('ArrowDown');
+ press('Enter');
+ assert.equal(location.href,'https://fixture.test/');
+ type('final');
+ pending.get('intermediate')([item('obsolete')]);
+ await tick();
+ assert.doesNotMatch(output.innerHTML,/obsolete/);
+ timer();
+ pending.get('final')([item('current')]);
+ await tick();
+ press('ArrowDown');
+ assert.equal(attributes['aria-activedescendant'],'g-result-0');
+ press('Enter');
+ console.log(JSON.stringify(location.href));
+})().catch(e=>{console.error(e);process.exitCode=1});
+''')
+        self.assertEqual(result, "/people/current.html")
+
     def test_registry_is_unique_and_installation_is_idempotent(self):
         routes = search_routes()
         self.assertEqual(len(routes), len({row["url"] for row in routes}))

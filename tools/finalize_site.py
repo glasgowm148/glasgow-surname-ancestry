@@ -57,7 +57,7 @@ def finalize(site_root=ROOT/'www'):
         if not path.exists():continue
         before=path.read_text();after=apply_layout(before)
         if after!=before:path.write_text(after)
-    copies={'people/search.js':'catalogue_search.js','people/profile-update.js':'profile_update.js','records/search.js':'record_search.js','assets/research/branches-directory.js':'branches_directory.js','assets/research/core.js':'site_sources/performance/core.js','assets/unified/site-metrics.js':'site_metrics.js'}
+    copies={'people/search.js':'catalogue_search.js','people/profile-update.js':'profile_update.js','records/search.js':'record_search.js','assets/research/branches-directory.js':'branches_directory.js','assets/research/core.js':'site_sources/performance/core.js','assets/unified/site-metrics.js':'site_metrics.js','assets/unified/section-submenus.js':'section_submenus.js'}
     for dest,src in copies.items():
         path=site_root/dest;content=(ROOT/'tools'/src).read_text()
         if not path.exists() or path.read_text()!=content:path.parent.mkdir(parents=True,exist_ok=True);path.write_text(content)

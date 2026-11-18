@@ -214,6 +214,9 @@
       const href = link.getAttribute('href') || '';
       return href.startsWith('#') ? `${location.pathname}${location.search}${href}` : link.href;
     }
+    function isLocalAnchor(url) {
+      return url.hash && clean(url.pathname) === path && (!url.search || url.search === location.search);
+    }
     function render() {
       queued = false;
       sourceLinks = (owned.length ? owned : source ? [...source.querySelectorAll(timeline
@@ -245,7 +248,8 @@
         const localCurrent = (dna || timeline) && source?.querySelector('a[aria-current]');
         const active = localCurrent ? clean(url.pathname) === path && url.hash === new URL(hrefOf(localCurrent), location.href).hash
           : current ? link === current : link.hasAttribute('aria-current');
-        return {index, href: url.href, text: link.textContent.replace(/\s+/g, ' ').trim(), title: link.title,
+        const href = isLocalAnchor(url) ? location.pathname + location.search + url.hash : url.href;
+        return {index, href, text: link.textContent.replace(/\s+/g, ' ').trim(), title: link.title,
           group: link.dataset.sectionGroup, active};
       });
       const next = JSON.stringify(rows);
@@ -300,7 +304,7 @@
         event.stopPropagation();
         localLink.click();
         schedule();
-      } else if (url.hash && clean(url.pathname) === path && url.search === location.search) {
+      } else if (isLocalAnchor(url)) {
         // Keep same-page family-study and catalogue anchors in the current
         // document. Hash navigation supplies native history/back behaviour.
         event.preventDefault();

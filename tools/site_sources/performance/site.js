@@ -32,9 +32,19 @@ function openSearch(q=''){showDialog(searchDialog);input.value=q;input.focus();i
 const SEARCH_ROUTES='<p class="g-search-routes">Or browse instead: <a href="/catalogue/">the people list</a> · <a href="/branches/">families and places</a> · <a href="/latest-findings/">latest findings</a> · <a href="/research/#open-questions">open research questions</a>.</p>';
 const SEARCH_HINT='<div class="g-search-status g-search-hint">Type a name, a place, a family or a record. '+SEARCH_ROUTES.replace('<p class="g-search-routes">Or browse instead: ','Not sure where to start? Try ').replace('</p>','')+'</div>';
 function labelFor(p){if(p.kind==='person')return p.meta||p.sub||[p.life,p.place,p.id].filter(Boolean).join(' · ');return p.meta||p.sub||''}
-async function renderSearch(){
- const seq=++searchSeq,q=input.value.trim();index=-1;output.innerHTML='<div class="g-search-status" role="status">Searching the collection…</div>';input.removeAttribute('aria-activedescendant');
- $('#g-advanced-people').href='/catalogue/?q='+encodeURIComponent(q);$('#g-advanced-records').href='/records/?q='+encodeURIComponent(q);
+function renderSearch(delay=0){
+ clearTimeout(debounce);
+ const seq=++searchSeq,q=input.value.trim();
+ results=[];
+ index=-1;
+ output.innerHTML='<div class="g-search-status" role="status">Searching the collection…</div>';
+ input.removeAttribute('aria-activedescendant');
+ $('#g-advanced-people').href='/catalogue/?q='+encodeURIComponent(q);
+ $('#g-advanced-records').href='/records/?q='+encodeURIComponent(q);
+ if(delay) debounce=setTimeout(()=>loadSearchResults(q,seq),delay);
+ else loadSearchResults(q,seq);
+}
+async function loadSearchResults(q,seq){
  try{const found=await search(q,activeTab);if(seq!==searchSeq)return;const kinds=q?(activeTab==='all'?['person','place','record','page']:activeTab==='people'?['person']:activeTab==='places'?['place']:activeTab==='records'?['record']:['page']):['page'];results=[];let html='';
  for(const kind of kinds){const group=found.filter(r=>r.kind===kind);if(!group.length)continue;const limit=activeTab==='all'&&q?(kind==='person'?7:kind==='place'?4:4):q?35:10;const rows=group.slice(0,limit);html+=`<div class="g-result-group">${({person:'People',place:'Places',record:'Records',page:q?'Families, research & pages':'Where would you like to go?'})[kind]}${q?' · '+(found.counts?.[kind]??group.length).toLocaleString():''}</div>`;
  for(const p of rows){const n=results.length;results.push(p);html+=`<a class="g-result" id="g-result-${n}" href="${esc(p.url)}" role="option" aria-selected="false" data-g-result="${n}">${icon(p.icon)}<span class="g-result-copy"><span class="g-result-title">${esc(p.name)}</span><span class="g-result-meta">${esc(labelFor(p))}</span></span>${p.tree?'<span class="g-result-mark">In the tree</span>':''}<span class="g-result-arrow">↗</span></a>`}
@@ -43,10 +53,24 @@ async function renderSearch(){
  if(!results.length)html=`<div class="g-empty">${icon('search')}<h3>No matches for “${esc(q)}”.</h3><p>Try fewer words, a surname variant, a place or a WikiTree ID. The full people catalogue also searches relatives and evidence text.</p>${SEARCH_ROUTES}</div>`;
  if(activeTab==='all'&&q)html+='<div class="g-search-status">All searches people, places, records, family studies, research questions, transcriptions and latest findings.</div>';
  output.innerHTML=html;const total=found.counts?Object.values(found.counts).reduce((a,b)=>a+b,0):found.length;$('#g-search-announcement').textContent=results.length+' results shown'+(q?' of '+total.toLocaleString()+' matches':'');
- }catch(e){if(seq!==searchSeq)return;output.innerHTML='<div class="g-search-status">The search index could not be loaded. <a href="/catalogue/">Open the full catalogue</a> or <button type="button" id="g-search-retry">try again</button>.</div>';$('#g-search-retry')?.addEventListener('click',renderSearch)}
+ }catch(e){if(seq!==searchSeq)return;output.innerHTML='<div class="g-search-status">The search index could not be loaded. <a href="/catalogue/">Open the full catalogue</a> or <button type="button" id="g-search-retry">try again</button>.</div>';$('#g-search-retry')?.addEventListener('click',()=>renderSearch())}
 }
-input?.addEventListener('input',()=>{clearTimeout(debounce);debounce=setTimeout(renderSearch,100)});
-input?.addEventListener('keydown',e=>{if(e.key==='ArrowDown'||e.key==='ArrowUp'){e.preventDefault();if(!results.length)return;index=(index+(e.key==='ArrowDown'?1:-1)+results.length)%results.length;$$('[data-g-result]').forEach((r,i)=>r.setAttribute('aria-selected',String(i===index)));const el=$('#g-result-'+index);input.setAttribute('aria-activedescendant',el.id);el.scrollIntoView({block:'nearest'})}else if(e.key==='Enter'){e.preventDefault();if(results.length)window.location.href=results[Math.max(index,0)].url}});
+input?.addEventListener('input',()=>renderSearch(100));
+input?.addEventListener('keydown',e=>{
+ if(e.key==='ArrowDown'||e.key==='ArrowUp'){
+  e.preventDefault();
+  if(!results.length)return;
+  if(e.key==='ArrowDown') index=(index+1)%results.length;
+  else index=index<=0?results.length-1:index-1;
+  $$('[data-g-result]').forEach((r,i)=>r.setAttribute('aria-selected',String(i===index)));
+  const el=$('#g-result-'+index);
+  input.setAttribute('aria-activedescendant',el.id);
+  el.scrollIntoView({block:'nearest'});
+ }else if(e.key==='Enter'){
+  e.preventDefault();
+  if(results.length)window.location.href=results[Math.max(index,0)].url;
+ }
+});
 $$('[data-g-tab]').forEach(b=>b.addEventListener('click',()=>{activeTab=b.dataset.gTab;$$('[data-g-tab]').forEach(x=>x.setAttribute('aria-selected',String(x===b)));renderSearch();input.focus()}));
 for(const d of [searchDialog,notebookDialog]){d?.addEventListener('click',e=>{if(e.target===d){const r=d.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)closeDialog(d)}});d?.addEventListener('close',updateExpanded)}
 function saved(){const a=store.read(KEY,[]);return Array.isArray(a)?a.filter(p=>p&&typeof p.id==='string'&&typeof p.url==='string'&&p.url.startsWith('/people/')):[]}

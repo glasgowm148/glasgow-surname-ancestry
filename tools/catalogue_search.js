@@ -446,8 +446,9 @@
     if(page>1) params.set('page',String(page));
     if(perPage!==50) params.set('perPage',String(perPage));
     if(autoBrowseSort) params.delete('sort');
-    const query=params.toString();
-    const next=`${location.pathname}${query?`?${query}`:''}${location.hash}`;
+    // A bare URL opens the default research cohort, so bookmark the unfiltered view explicitly.
+    const query=params.toString()||'all=1';
+    const next=`${location.pathname}?${query}${location.hash}`;
     if(pendingPush&&next!==`${location.pathname}${location.search}${location.hash}`) history.pushState(null,'',next);
     else history.replaceState(null,'',next);
     pendingPush=false;
