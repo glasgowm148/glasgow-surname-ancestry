@@ -6,6 +6,8 @@ The father relationship with [Thomas Hutcheson](https://www.wikitree.com/wiki/Hu
 
 Reviewed 13 November 2026: Hill’s inspected printed p. 8 names Janet’s husband David Duncan; its cited 15 June 1642 precept calls Janet his relict. A separately inspected printed retour, Lanark 206 dated 24 May 1642, already calls the same named sibling-group Janet the widow of an unnamed Duncan. Combining that family identity with Hill’s David supplies the earlier inclusive deceased-by 24 May 1642 boundary; the retour itself does not supply his given name. The original precept remains uninspected; no parent assessment changes.
 
+The retours of 24 May 1642 concern succession to Thomas’s specified lands. [Lanark no. 206](https://archive.org/details/inquisitionumadc00grea/page/n498/mode/1up) names Janet and Helen as heirs-portioners; the adjacent no. 205 names Elizabeth in the Monkland lands. The [Glasgow council order of 18 January 1679](https://archive.org/download/memorabiliacity00scogoog/page/n241.jpg) identifies Janet in Holland as George’s natural daughter, a niece of Janet Duncan. [Hill, p. 49](https://archive.org/details/historyofhospita00hutc/page/49/mode/1up) names Marion Stewart as Thomas’s widow and reports that he died without issue.
+
 ## Source findings
 
 ## Father relationship assessment — 28 September 2026
