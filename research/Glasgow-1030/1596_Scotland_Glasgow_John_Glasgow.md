@@ -11,7 +11,7 @@ currently presented as George's brother.
 
 John Glasgow was a brother of [[Glasgow-3188|Ninian Glasgow]]. Ninian's burgess
 admission on 23 October 1596 calls Ninian the "second son to Robert G., fisher,
-burgess." Ninian's testament, made at Glasgow on 10 January 1613, expressly
+burgess." Ninian's testament, made at Glasgow on an unread day in January 1613, expressly
 names "Johne glasgw his brother." The following clothing description is not
 secure enough to quote. The combined wording proves the brother relationship,
 but does not say whether John was a full or half-brother. Ninian's father
@@ -23,9 +23,9 @@ Ninian.<ref>James R. Anderson, ed.,
 p. 24], entry dated 23 October 1596: "Glasgow, Ninian, B. and F., as second son
 to Robert G., fisher, burgess"; National Records of Scotland, Glasgow
 Commissary Court, CC9/7/9, images 142-145, testament testamentar and inventory
-of Ninian Glasgow, made 10 January 1613 and confirmed 8 May 1613.</ref>
+of Ninian Glasgow, made in January 1613 (day unread) and confirmed 8 May 1613.</ref>
 
-John was alive when Ninian made the testament on 10 January 1613. The source
+John was alive when Ninian made the testament on an unread day in January 1613. The source
 does not give John's age, occupation, residence, spouse or children.
 
 A John Glasgow described as a fisher appears in [[Glasgow-1096|Robert's]] immediate Glasgow
@@ -45,10 +45,10 @@ candidate for the record-defined brother.
 == Research Notes ==
 
 Suggested creation data:
-* Birth: before 10 January 1613; exact date and place unknown. An earlier
+* Birth: by the will’s unread day in January 1613; exact date and place unknown. An earlier
   estimate depends on identifying him with the adult fisher recorded in
   1572–73 or with the later husband, neither of which is proved.
-* Death: after 10 January 1613; place unknown and date uncertain.
+* Death: after the will was made on an unread day in January 1613; place unknown and date uncertain.
 * Possible father: [[Glasgow-1096|Robert Glasgow]], fisher and burgess; not
   directly proved because John may have been Ninian's half-brother.
 * Mother: unknown. Robert's documented spouse Margaret Rowand is a candidate,

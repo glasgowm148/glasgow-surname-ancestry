@@ -6,7 +6,7 @@
 and burgess of Glasgow. Ninian's 1613 testament left her ten merks and
 expressly called her ''his sist[er]''.<ref name="Ninian1613">National Records of
 Scotland, Glasgow Commissary Court, CC9/7/9, images 142–145, testament of
-Ninian Glasgow, made 10 January 1613 and confirmed 8 May 1613; working
+Ninian Glasgow, made in January 1613 (day unread) and confirmed 8 May 1613; working
 transcription of the original images supplied 6 September 2026.</ref>
 
 Marion and Robert Fultoun were the parents of [[Fultoun-5|James Fultoun]],

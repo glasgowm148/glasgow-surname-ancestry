@@ -43,6 +43,9 @@ def publish(*, render_people=True, gate=True, refresh_index=True):
         from tools.public_privacy import repair as repair_privacy
     except ModuleNotFoundError:
         from public_privacy import repair as repair_privacy
+    evidence_repairs = runpy.run_path(str(ROOT / 'tools/repair_evidence_source_links.py'))['repair']
+    # Title corrections feed source grouping and the record detail builders.
+    evidence_repairs(urls=False)
     # Source library documents follow the dossiers' current evidence; the repairs
     # below (dates, privacy, static sections) then apply on top.
     runpy.run_path(str(ROOT / 'tools/build_source_documents.py'))['main']([])
@@ -57,7 +60,7 @@ def publish(*, render_people=True, gate=True, refresh_index=True):
     runpy.run_path(str(ROOT / 'tools/publish_resolved_dossiers.py'))['publish']()
     # Reapply approved map corrections after imports; raw map inputs are private.
     runpy.run_path(str(ROOT / 'tools/project_record_locations.py'))['project'](ROOT / 'www', write=True)
-    runpy.run_path(str(ROOT / 'tools/repair_evidence_source_links.py'))['repair']()
+    evidence_repairs()
     catalogue = runpy.run_path(str(ROOT / 'tools/build_research_catalog.py'))
     catalogue['sync_generated_profile_work_status']()
     # People added to people.json after the catalogue build (case dossiers, reviewed

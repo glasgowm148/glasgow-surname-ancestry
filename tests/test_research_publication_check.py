@@ -174,6 +174,31 @@ class PublicationCheckTest(unittest.TestCase):
         self.assertIn("(1x)", maintained[0].message)
         self.assertEqual(["warn"], [i.level for i in checker.items if i.code == "CORRECTION_NOT_IN_BUILT_RECORDS"])
 
+    def test_corrected_reading_ignores_captures_and_quoted_history_but_checks_current_sources_and_drafts(self):
+        ident = "Glasgow-3188"
+        self.tree.findings(ident, CONCLUSION)
+        self.tree.write(check.SUPERSEDED_READINGS, json.dumps({"readings": [{
+            "id": "ninian", "profile": ident, "superseded": "10 January 1613",
+            "corrected": "an unread day of January 1613", "allowed_context": "earlier|supersed"}]}))
+        path = "www/people/glasgow-3188.json"
+        remote = "Ninian made his will on 10 January 1613."
+        dossier = {
+            "research_findings": [{"sections": [
+                {"markdown": 'The earlier draft said "made 10 January 1613".'}]}],
+            "wikitree_update": {"remote_wikitext": remote, "draft_wikitext": "The day in January is unread."},
+            "wikitree_comparison": {"remote_wikitext": remote, "draft_wikitext": remote},
+        }
+        self.tree.write(path, json.dumps(dossier))
+        self.assertNotIn("CORRECTION_NOT_IN_BUILT_RECORDS", self.codes(self.run_check(), ident))
+
+        dossier["evidence"] = [{"source": {"title": "Ninian’s testament, made 10 January 1613"}}]
+        dossier["wikitree_update"]["draft_wikitext"] = remote
+        dossier["wikitree_comparison"]["draft_wikitext"] = "The testament was signed 10 January 1613."
+        self.tree.write(path, json.dumps(dossier))
+        hits = [row for row in self.run_check().items if row.code == "CORRECTION_NOT_IN_BUILT_RECORDS"]
+        self.assertEqual(1, len(hits))
+        self.assertIn("(3x)", hits[0].message)
+
     def test_open_register_entry_and_completed_queue_entry_are_reported(self):
         self.tree.findings("Glasgow-1", CONCLUSION)
         self.tree.write("surname-research/to-update.md", "# WikiTree work queue\n\n## Review — 6 October 2026\n\n"

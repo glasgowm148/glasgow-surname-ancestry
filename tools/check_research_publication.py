@@ -610,7 +610,10 @@ class Checker:
 
         def text_of(path: Path) -> str:
             if path not in cache:
-                cache[path] = path.read_text(encoding="utf-8", errors="ignore") if path.exists() else ""
+                if path.parent == self.web / "people" and path.suffix == ".json":
+                    cache[path] = _current_dossier_reading_text(path)
+                else:
+                    cache[path] = path.read_text(encoding="utf-8", errors="ignore") if path.exists() else ""
             return cache[path]
 
         for reading in registry:
@@ -714,12 +717,37 @@ class Checker:
         return self
 
 
+def _current_dossier_reading_text(path: Path) -> str:
+    """Keep live comparison captures out of the current-reading check."""
+    text = path.read_text(encoding="utf-8", errors="ignore") if path.exists() else ""
+    try:
+        dossier = json.loads(text)
+    except json.JSONDecodeError:
+        return text
+    if not isinstance(dossier, dict):
+        return text
+    for key in ("wikitree_update", "wikitree_comparison"):
+        comparison = dossier.get(key)
+        if not isinstance(comparison, dict):
+            continue
+        remote = comparison.pop("remote_wikitext", None)
+        if key == "wikitree_comparison" and comparison.get("draft_wikitext") == remote:
+            comparison.pop("draft_wikitext", None)
+    return json.dumps(dossier, ensure_ascii=False)
+
+
+_FIELD_QUOTE = re.compile(r'(?<!\\)(?:\\\\)*"')
+
+
 def _context(text: str, match: re.Match) -> str:
-    """The wording around a match, kept inside one quoted value or line and 120 characters."""
-    before = max(text.rfind('"', 0, match.start()), text.rfind("\n", 0, match.start()), match.start() - 121) + 1
-    ends = [i for i in (text.find('"', match.end()), text.find("\n", match.end())) if i != -1]
-    after = min([*ends, match.end() + 120])
-    return text[before:after]
+    """Keep 120 characters of context inside the field, including escaped quotes."""
+    prefix = text[max(0, match.start() - 120):match.start()]
+    suffix = text[match.end():match.end() + 120]
+    before = max(prefix.rfind("\n") + 1, max((m.end() for m in _FIELD_QUOTE.finditer(prefix)), default=0))
+    quote = _FIELD_QUOTE.search(suffix)
+    ends = [pos for pos in (quote.start() if quote else -1, suffix.find("\n")) if pos >= 0]
+    after = min(ends, default=len(suffix))
+    return prefix[before:] + match.group() + suffix[:after]
 
 
 def folder_is_read(folder: str, tool_text: str) -> bool:

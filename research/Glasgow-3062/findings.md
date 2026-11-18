@@ -48,7 +48,7 @@ contradict a birth during Robert’s lifetime. Maternity remains uncertain.
 | Glasgow & West of Scotland Family History Society, *Glasgow High Kirk Baptisms 1609-1777*, 7 August 1610, vol. 1/320; [public record index](https://www.gwsfhs.org.uk/records/james-fultoun/) | James Fultoun was the lawful son of **Robert Fultoun and Marion Glasgow**; John Howie and James Barr were witnesses. | Direct spouse and parent-child evidence. The public page confirms the record exists in the named dataset; its full transcription is preserved in both Fultoun WikiTree profiles. |
 | James R. Anderson, ed., *Burgesses & Guild Brethren of Glasgow, 1573–1750* (1925), [p. 24](https://archive.org/details/scottishrecordso43scotuoft/page/24/mode/2up), 23 October 1596 | Ninian Glasgow was admitted as second son to Robert Glasgow, fisher, burgess. | Direct Ninian–Robert parentage; supports Marion’s common father when combined with the 1613 sister clause. |
 | NRS Glasgow Commissary Court CC9/7/5, transcribed in [Ninian Glasgow's profile](https://www.wikitree.com/wiki/Glasgow-3188) | Jonet Meik's testament names a Marion Glasgow as a legatee but does not call her a daughter. | Household association only; insufficient to prove Marion's parents. |
-| NRS Glasgow Commissary Court CC9/7/9, images 142–145, testament of Ninian Glasgow, made 10 January 1613 and confirmed 8 May 1613 | The will gives ten merks to `Marioun glasgw his sist[er]`. | Direct sibling evidence. Combined with Ninian’s recorded father and the shared surname, it supports Robert as Marion’s confident inferred father. Working transcription supplied 6 September 2026; no competing father is evidenced. |
+| NRS Glasgow Commissary Court CC9/7/9, images 142–145, testament of Ninian Glasgow, made in January 1613 (day unread) and confirmed 8 May 1613 | The will gives ten merks to `Marioun glasgw his sist[er]`. | Direct sibling evidence. Combined with Ninian’s recorded father and the shared surname, it supports Robert as Marion’s confident inferred father. Working transcription supplied 6 September 2026; no competing father is evidenced. |
 | NRS Edinburgh Commissary Court CC8/8/32, images 123–124, testament of Andrew Glasgow, 1597/8 | Andrew names daughters Marion, Jonet and Isobel. | Direct proof of a record-defined daughter Marion; no identifying link to this profile. |
 
 ## Exact relationship reconstruction
@@ -90,7 +90,7 @@ Barr, [https://www.gwsfhs.org.uk/records/james-fultoun/ public record index].</r
 Ninian Glasgow's 1613 testament left ten merks to `Marioun glasgw his
 sist[er]`, directly establishing Marion as his sister rather than his
 daughter.<ref>National Records of Scotland, Glasgow Commissary Court, NRS
-CC9/7/9, images 142–145, testament of Ninian Glasgow, made 10 January 1613 and
+CC9/7/9, images 142–145, testament of Ninian Glasgow, made in January 1613 (day unread) and
 confirmed 8 May 1613; working transcription of the original images, family
 clause on image 144.</ref> Combined with Ninian’s 1596 admission as Robert Glasgow’s second son,
 the shared Glasgow surname and compatible chronology, this supports Robert
