@@ -99,6 +99,7 @@ The deed does not give her birth date. No compatible profile survived the docume
         self.assertNotIn(self.slug, {row['catalogue_id'] for row in self.read('data/people.json')['people']})
         soup = BeautifulSoup((self.root / 'www/people' / (self.slug + '.html')).read_text(), 'html.parser')
         self.assertIsNone(soup.select_one('#wikitree-update'))
+        self.assertIsNone(soup.select_one('a[href="#wikitree-update"]'))
         self.assertEqual('/people/example-2.html', soup.select_one('#archived-documentary-account a')['href'])
         self.assertIsNotNone(soup.select_one(f'a[href="{self.url}"]'))
 

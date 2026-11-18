@@ -611,7 +611,8 @@ def archive_retired_creation(web, old, target):
     page_path = web / "people" / (old + ".html")
     if not page_path.is_file():
         return False
-    soup = BeautifulSoup(page_path.read_text(encoding="utf-8"), "html.parser")
+    contents = page_path.read_text(encoding="utf-8")
+    soup = BeautifulSoup(contents, "html.parser")
     notice = BeautifulSoup(
         '<section id="archived-documentary-account"><h2>Archived documentary account</h2>'
         '<p>The reviewed identity is linked to an existing WikiTree profile. '
@@ -633,7 +634,12 @@ def archive_retired_creation(web, old, target):
             link = soup.new_tag("a", href=f"/people/{target}.html")
             link.string = "Open the current catalogue profile"
             actions.append(link)
-        page_path.write_text(str(soup), encoding="utf-8")
+    for link in soup.select('a[href="#wikitree-update"]'):
+        link["href"] = "#archived-documentary-account"
+        link.string = "Archived account"
+    rendered = str(soup)
+    if rendered != contents:
+        page_path.write_text(rendered, encoding="utf-8")
     _write(json_path, {
         "id": old,
         "status": "superseded",
