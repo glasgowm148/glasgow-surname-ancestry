@@ -86,7 +86,9 @@ class ResolvedDossierTests(unittest.TestCase):
                 return {'id': pid, 'url': f'/people/{pid.lower()}.html',
                         'wikitree_url': f'https://www.wikitree.com/wiki/{pid}'}
             dossier = {'relationships': {'parents': [relative('Father-1'), relative('Tait-2506')]}}
+            dossier['presentation'] = {'relationships': deepcopy(dossier['relationships'])}
             module.repair_external_family_links(dossier, root)
+            self.assertEqual(dossier['relationships'], dossier['presentation']['relationships'])
             self.assertEqual(dossier['relationships']['parents'][0]['url'], '/people/father-1.html')
             self.assertEqual(dossier['relationships']['parents'][1]['url'],
                              'https://www.wikitree.com/wiki/Tait-2506')

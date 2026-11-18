@@ -296,7 +296,7 @@ def resolve(dossier, assessments, shared_assessments=()):
                     continue
                 existing_role = row.get('relationship')
                 asserted_role = resolved.get('relationship')
-                role_matches = (existing_role == asserted_role
+                role_matches = (not existing_role or existing_role == asserted_role
                                 or existing_role in GENERIC_ROLES.get(asserted_role, ())
                                 or asserted_role in GENERIC_ROLES.get(existing_role, ()))
                 if existing_role not in prior_roles and (group != FAMILY_GROUPS.get(asserted_role) or not role_matches):
@@ -594,6 +594,8 @@ def repair_external_family_links(dossier, root):
                     and relative.get('wikitree_url') == external
                     and not (root / local.lstrip('/')).is_file()):
                 relative['url'] = external
+    if 'presentation' in dossier:
+        dossier['presentation']['relationships'] = deepcopy(dossier.get('relationships', {}))
 
 
 def publish(root=ROOT / 'www', profile_ids=None):

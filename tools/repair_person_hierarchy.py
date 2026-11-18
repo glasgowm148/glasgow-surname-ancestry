@@ -888,16 +888,22 @@ def _relationship_assessments() -> list[dict]:
     return _load_json(ROOT / "research" / "relationship_assessments.json", [])
 
 
-def _shared_relationship_assessment(profile_id: str, relation: dict) -> dict | None:
+def _shared_relationship_assessment(profile_id: str, relation: dict, group: str) -> dict | None:
+    relative_id = relation.get("id")
+    if not relative_id:
+        return None
     dossier, _, _ = _profile_data(profile_id)
-    return next((row for rows in dossier.get("relationships", {}).values() for row in rows
-                 if row.get("id") == relation.get("id") and row.get("lifecycle") == "current"), None)
+    groups = dossier.get("relationships", {})
+    candidates = (groups[group],) if group in groups else groups.values()
+    role = relation.get("relationship")
+    return next((row for rows in candidates for row in rows if row.get("id") == relative_id
+                 and row.get("lifecycle") == "current" and (not role or row.get("relationship") == role)), None)
 
 
 def _assessed_relation(profile_id: str, relation: dict, group: str) -> dict:
     if relation.get('display') in {'alternative', 'historical', 'superseded'} or relation.get('lifecycle') in {'alternative', 'historical', 'superseded'}:
         return relation
-    return _shared_relationship_assessment(profile_id, relation) or relation
+    return _shared_relationship_assessment(profile_id, relation, group) or relation
 
 
 def _relation_reason(editorial: dict, relation: dict, group: str) -> str:
@@ -2932,7 +2938,7 @@ def _repair_page(path, add_tree_links, lines) -> int:
             payload = {"version": PRESENTATION_VERSION, **presentation, "record_associations": _record_rows(profile_id)}
             _, model, _ = _profile_data(profile_id)
             payload["vitals"] = _current_vitals(profile_id, dossier, model, presentation)
-            payload["relationships"] = {group: [_assessed_relation(profile_id, row, group) for row in rows] for group, rows in (dossier.get("relationships") or {}).items() if isinstance(rows, list)}
+            payload["relationships"] = dossier.get("relationships") or {}
             if dossier.get("presentation") != payload:
                 dossier["presentation"] = payload
                 json_path.write_text(json.dumps(dossier, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")

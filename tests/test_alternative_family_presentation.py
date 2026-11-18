@@ -34,6 +34,14 @@ class AlternativeFamilyPresentationTests(unittest.TestCase):
         self.assertIn('Earlier evidence remains inspectable.', earlier.get_text())
         self.assertNotIn('New probable father', earlier.get_text())
 
+    def test_parent_assessment_does_not_appear_in_same_pair_sibling_group(self):
+        parent = {'id': 'Relative-1', 'relationship': 'father', 'lifecycle': 'current', 'status': 'proved'}
+        sibling = {'id': 'Relative-1', 'relationship': 'sibling', 'status': 'unknown'}
+        dossier = {'relationships': {'parents': [parent], 'siblings': [sibling]}}
+        with patch.object(renderer, '_profile_data', return_value=(dossier, {}, {})):
+            self.assertEqual(parent, renderer._assessed_relation('Child-1', {'id': 'Relative-1'}, 'parents'))
+            self.assertEqual(sibling, renderer._assessed_relation('Child-1', sibling, 'siblings'))
+
     def test_historical_grade_is_not_overwritten_by_current_pair_assessment(self):
         old = {'id': 'Father-1', 'lifecycle': 'historical', 'status': 'possible', 'probability': {'value': .48}}
         with patch.object(renderer, '_shared_relationship_assessment') as current:

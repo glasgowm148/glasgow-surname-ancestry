@@ -85,7 +85,9 @@ class ResolvedPublicModelTests(unittest.TestCase):
                             self.assertTrue(all(r['status'] == 'superseded' for r in rows), aid)
                             continue
                         replacement = next(c for c in dossier['claims'] if c['id'] == claim['superseded_by'])
-                        self.assertEqual('current', replacement['lifecycle'])
+                        replacement_assessment = by_id[replacement['id']]
+                        self.assertEqual(replacement_assessment.get('lifecycle') or 'current', replacement['lifecycle'])
+                        self.assertIn(replacement['lifecycle'], {'current', 'alternative'})
                         self.assertIn(aid, replacement['historical_claim_ids'])
                         self.assertFalse(any(r.get('claim_id') == aid for rows in dossier['relationships'].values() for r in rows))
                         continue
