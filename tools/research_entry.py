@@ -63,6 +63,12 @@ def current_row(project, kind: str, key: str) -> tuple[dict[str, Any], int] | No
     row = project.store.get(table, entity_id(kind, key))
     if row is None:
         return None
+    if kind == "record":
+        extra = json.loads(row["extra_json"] or "{}")
+        if "legacy_json" not in extra and isinstance(extra.get("legacy"), dict):
+            # A per-profile mention can introduce the record before it has a
+            # canonical row. Its imported payload still has a checked revision.
+            return extra["legacy"], row["revision"]
     generated = views.Views(project.store)
     if kind == "finding":
         rows = generated.findings()["findings"]
@@ -81,7 +87,7 @@ def next_index(project, table: str) -> int:
     else:
         rows = project.store.all(f"SELECT extra_json FROM {table} WHERE extra_json LIKE '%\"legacy_json\"%'")
         values = [json.loads(row["extra_json"]).get("legacy_index", -1) for row in rows]
-    return max(values, default=-1) + 1
+    return max((index for index in values if type(index) is int), default=-1) + 1
 
 
 def upsert(project, kind: str, row: dict[str, Any], *, expected_revision: int | None, actor: str,
@@ -138,6 +144,8 @@ def upsert(project, kind: str, row: dict[str, Any], *, expected_revision: int | 
                 migration._record(tx, row, batch_id, relative, f"/{next_index(project, 'record')}", access=access)
             else:
                 index = json.loads(existing["extra_json"] or "{}").get("legacy_index")
+                if type(index) is not int:
+                    index = next_index(project, "record")
                 tx.update("record", target, {**record_columns(row, access), "extra_json": extra_json(
                     {"glasgow_record_id": key, "legacy_json": json.dumps(row, ensure_ascii=False),
                      "legacy_index": index})}, expected_revision=expected_revision)

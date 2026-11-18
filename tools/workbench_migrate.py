@@ -386,14 +386,17 @@ class Migration:
                                           extra={"source_status": row.get("source_status")})
         return source_id
 
-    def _record(self, tx, row: dict, batch_id: str, relative: str, pointer: str, *, access: str) -> str:
+    def _record(self, tx, row: dict, batch_id: str, relative: str, pointer: str, *, access: str) -> str | None:
+        """Return the record ID only when this input can supply record mentions."""
         record_id = stable_id("rec", "glasgow", row["record_id"])
         if record_id in self._records:
             return record_id
         if self.store.get("record", record_id):
-            self.refresh(tx, "record", record_id, relative, row, {
+            state = self.refresh(tx, "record", record_id, relative, row, {
                 **record_columns(row, access),
                 "extra_json": extra_json(self._record_extra(tx, record_id, row, relative, pointer))}, batch_id, pointer)
+            if state == "conflict":
+                return None
             self._records.add(record_id)
             return record_id
         source_id = self._source_for(tx, row)
@@ -461,7 +464,8 @@ class Migration:
                 for index, row in enumerate(data):
                     access = record_access(row)
                     record_id = self._record(tx, row, batch_id, relative, f"/{index}", access=access)
-                    counts["mentions"] += self._mentions(tx, record_id, row.get("profiles") or {}, access=access)
+                    if record_id is not None:
+                        counts["mentions"] += self._mentions(tx, record_id, row.get("profiles") or {}, access=access)
                     counts["records"] += 1
         for path in sorted(self.source.glob("research/*/records_mentions.json")):
             relative = path.relative_to(self.source).as_posix()
@@ -473,8 +477,9 @@ class Migration:
                     if not row.get("record_id"):
                         continue
                     record_id = self._record(tx, row, batch_id, relative, f"/records/{index}", access="public")
-                    counts["profile mentions"] += self._mentions(tx, record_id, {profile: {"role": row.get("role")}},
-                                                                 access="public")
+                    if record_id is not None:
+                        counts["profile mentions"] += self._mentions(
+                            tx, record_id, {profile: {"role": row.get("role")}}, access="public")
         return dict(counts)
 
     # ---------------------------------------------------------------- relationships

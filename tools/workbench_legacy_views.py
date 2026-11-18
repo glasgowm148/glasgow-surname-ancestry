@@ -484,7 +484,8 @@ class Views:
         rows = []
         for row in self.store.all(f"SELECT * FROM {table} WHERE extra_json LIKE '%\"legacy_json\"%' ORDER BY id"):
             extra = json.loads(row["extra_json"])
-            rows.append((extra.get("legacy_index", 10 ** 9), row["id"], json.loads(extra["legacy_json"]), row))
+            index = extra.get("legacy_index")
+            rows.append((index if type(index) is int else 10 ** 9, row["id"], json.loads(extra["legacy_json"]), row))
         return [(legacy, row) for _, _, legacy, row in sorted(rows, key=lambda item: (item[0], item[1]))]
 
     def records(self) -> list[dict[str, Any]]:

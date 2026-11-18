@@ -130,6 +130,7 @@ class GlasgowMigrationFixture(unittest.TestCase):
         write(self.source, "research/relationship_assessments.json", changed)
         records = json.loads(json.dumps(RECORDS))
         records[0]["note"] = "Edited by hand."
+        records[0]["profiles"]["Harrow-404"] = {"role": "Unreviewed attribution"}
         write(self.source, "research/canonical_records.json", records)
         report = self.migrate()
         self.assertEqual(len(report["conflicts"]), 2)
@@ -140,6 +141,9 @@ class GlasgowMigrationFixture(unittest.TestCase):
             self.assertEqual([h["estimate_percent"] for h in research.assessment_history(claim)], [44, 95])
             record = research.find_external("glasgow-record", "will-1805")[0]
             self.assertEqual(project.store.get("record", record)["summary"], "Names sons including Isaac.")
+            mention = stable_id("men", record, "Harrow-404")
+            self.assertIsNone(project.store.get("mention", mention))
+            self.assertIsNone(project.store.get("claim", stable_id("clm", "identity", mention)))
 
     def test_editorial_presentation_still_catches_up(self) -> None:
         presentation = {"evidence_questions": [{"question": "Which Isaac does the will mean?", "answer": "Open."}]}
@@ -272,6 +276,34 @@ class GlasgowMigrationFixture(unittest.TestCase):
                 write(self.source, relative, json.loads(text))
         report = self.migrate()   # the regenerated files are current, not hand edits
         self.assertEqual(report["conflicts"], [], report["conflicts"])
+
+    def test_entry_tool_can_promote_an_existing_profile_mention_to_canonical_record(self) -> None:
+        import research_entry
+
+        stub = {"record_id": "mention-only", "role": "Witness"}
+        write(self.source, "research/Harrow-14/records_mentions.json", {"records": [stub]})
+        self.migrate()
+        with open_project(self.project) as project:
+            key = stub["record_id"]
+            current, revision = research_entry.current_row(project, "record", key)
+            self.assertEqual(current, stub)
+            reviewed = {"record_id": key, "year": 1801, "association": "Invented deed"}
+            result = research_entry.upsert(project, "record", reviewed, expected_revision=revision,
+                                           actor="test", reason="Fictional original inspected")
+            self.assertEqual(workbench_legacy_views.Views(project.store).records(), [*RECORDS, reviewed])
+            self.assertEqual(research_entry.current_row(project, "record", key), (reviewed, result["revision"]))
+
+            # Simulate an older promotion that already stored a null index.
+            record = project.store.get("record", result["entity"])
+            extra = json.loads(record["extra_json"])
+            extra["legacy_index"] = None
+            with project.store.write(actor="fixture", tool="research_entry fixture") as tx:
+                tx.update("record", record["id"], {"extra_json": json.dumps(extra)},
+                          expected_revision=result["revision"])
+            self.assertEqual(workbench_legacy_views.Views(project.store).records(), [*RECORDS, reviewed])
+            later = {"record_id": "later-fixture", "year": 1810, "association": "Invented index"}
+            research_entry.upsert(project, "record", later, expected_revision=None, actor="test", reason=None)
+            self.assertEqual(workbench_legacy_views.Views(project.store).records(), [*RECORDS, later, reviewed])
 
     def test_publication_applies_the_privacy_level_policy(self) -> None:
         from genealogy.store import NameInput

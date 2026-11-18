@@ -60,9 +60,12 @@ class ResearchPreflightTests(unittest.TestCase):
             r = record()
             r['profiles']['Glasgow-2'][field] = value
             assert not record_needs_review(r, 'Glasgow-1', None, [pair()])
-        r = record()
-        r['status'] = 'Original uninspected'
-        assert not record_needs_review(r, 'Glasgow-1', None, [pair()])
+        for status in ('Original uninspected', 'Original not inspected',
+                       'Transcript not yet inspected', 'Transcript has not been inspected', None):
+            with self.subTest(status=status):
+                r = record()
+                r['status'] = status
+                assert not record_needs_review(r, 'Glasgow-1', None, [pair()])
         r = record()
         r['publish_to_record_index'] = False
         assert not record_needs_review(r, 'Glasgow-1', None, [pair()])

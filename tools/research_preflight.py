@@ -62,11 +62,13 @@ def explicit_role(role, kind):
 
 def record_needs_review(record, child, father, assessments):
     roles = record.get('profiles', {})
-    if not record.get('publish_to_record_index') or 'inspected' not in record.get('status', '').lower():
+    status = record.get('status')
+    if not record.get('publish_to_record_index') or not isinstance(status, str):
         return False
-    # "original uninspected" alone is not an inspected transcript.
-    status = record.get('status', '').lower()
-    if not re.search(r'(?<!un)inspected', status):
+    # A transcript can be inspected while the original is still uninspected.
+    inspection_phrases = re.findall(r'\b(?:(?:not|never)\s+(?:yet\s+)?(?:been\s+)?)?inspected\b',
+                                    status.casefold())
+    if 'inspected' not in inspection_phrases:
         return False
     if not explicit_role(roles.get(child, {}).get('role', ''), 'child'):
         return False
