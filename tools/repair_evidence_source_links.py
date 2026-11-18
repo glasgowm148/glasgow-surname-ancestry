@@ -62,7 +62,9 @@ def _repair_source_readers(web, prior, reviewed):
         for node in soup.select("title, h1, noscript p"):
             text = " ".join(node.get_text().split())
             if prior in text:
-                node.string = text.replace(prior, reviewed, 1)
+                # No-script prose already appends a full stop to the caption.
+                term = prior + "." if reviewed.endswith(".") and prior + "." in text else prior
+                node.string = text.replace(term, reviewed, 1)
         revised = str(soup)
         if revised != original:
             atomic_write_text(path, revised)

@@ -70,7 +70,7 @@ class EvidenceSourceCorrectionTests(unittest.TestCase):
 
     def test_existing_source_route_retains_its_exact_id_and_historical_text(self):
         prior = "Archive A, dated 10 January 1613"
-        reviewed = "Archive A, dated in January 1613 (day unread)"
+        reviewed = "Archive A, dated in January 1613 (day unread)."
         ident = "s-abcdef"
         correction = {"previous_source_title": prior, "reason": "The image leaves the day unread."}
         record = {"record_id": "fixture", "source_title": reviewed}
@@ -84,7 +84,7 @@ class EvidenceSourceCorrectionTests(unittest.TestCase):
                 path.parent.mkdir(parents=True, exist_ok=True)
             index.write_text(json.dumps([{"id": ident, "title": prior}]))
             doc.write_text(json.dumps({"id": ident, "title": prior, "transcription": prior}))
-            reader.write_text(f"<head><title>{prior}</title></head><body><h1>{prior}</h1><blockquote>{prior}</blockquote></body>")
+            reader.write_text(f"<head><title>{prior}</title></head><body><h1>{prior}</h1><blockquote>{prior}</blockquote><noscript><p>Citation: {prior}.</p></noscript></body>")
             browse.write_text(f'<a href="/sources/{ident}/">{prior}</a><p>{prior}</p>')
 
             self.assertEqual(5, repair_source_title(web, correction, record))
@@ -92,6 +92,8 @@ class EvidenceSourceCorrectionTests(unittest.TestCase):
             self.assertEqual(prior, json.loads(doc.read_text())["transcription"])
             self.assertIn(f"<title>{reviewed}</title>", reader.read_text())
             self.assertIn(f"<blockquote>{prior}</blockquote>", reader.read_text())
+            self.assertIn(f"<p>Citation: {reviewed}</p>", reader.read_text())
+            self.assertNotIn("..</p>", reader.read_text())
             self.assertIn(f'<a href="/sources/{ident}/">{reviewed}</a>', browse.read_text())
             self.assertIn(f"<p>{prior}</p>", browse.read_text())
             self.assertEqual(0, repair_source_title(web, correction, record))
