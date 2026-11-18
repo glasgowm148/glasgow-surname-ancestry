@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import json
 import re
+from contextlib import closing
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Callable
@@ -113,32 +114,33 @@ def concise_profile_link(profile: dict[str, Any]) -> str:
 
 def load_workbook_profiles(path: Path) -> dict[str, dict[str, Any]]:
     profiles: dict[str, dict[str, Any]] = {}
-    workbook = load_workbook(path, read_only=True, data_only=True)
-    sheet = workbook["TableData"]
-    rows = sheet.iter_rows(values_only=True)
-    headers = [text(value, "") for value in next(rows)]
+    with closing(load_workbook(path, read_only=True, data_only=True)) as workbook:
+        sheet = workbook["TableData"]
+        rows = sheet.iter_rows(values_only=True)
+        headers = [text(value, "") for value in next(rows, ())]
+        if headers.count("WT ID") != 1:
+            raise ValueError(f"Expected one 'WT ID' column in {path} (TableData).")
 
-    for values in rows:
-        row = dict(zip(headers, values))
-        wt_id = text(row.get("WT ID"), "")
-        if not re.fullmatch(r"Glasgow-\d+", wt_id):
-            continue
-        first = text(row.get("First"), "")
-        surname = text(row.get("LNAB"), text(row.get("Current"), ""))
-        profiles[wt_id] = {
-            "wikitree_id": wt_id,
-            "display_name": " ".join(part for part in (first, surname) if part) or wt_id,
-            "birth_date": row.get("Birth Date"),
-            "birth_location": row.get("Birth Place"),
-            "death_date": row.get("Death Date"),
-            "death_location": row.get("Death Place"),
-            "relations": {},
-            "research_cases": [],
-            "direct_case": False,
-            "early_evidence": False,
-            "workbook_modified": row.get("Modified"),
-        }
-    workbook.close()
+        for values in rows:
+            row = dict(zip(headers, values))
+            wt_id = text(row.get("WT ID"), "")
+            if not re.fullmatch(r"Glasgow-\d+", wt_id):
+                continue
+            first = text(row.get("First"), "")
+            surname = text(row.get("LNAB"), text(row.get("Current"), ""))
+            profiles[wt_id] = {
+                "wikitree_id": wt_id,
+                "display_name": " ".join(part for part in (first, surname) if part) or wt_id,
+                "birth_date": row.get("Birth Date"),
+                "birth_location": row.get("Birth Place"),
+                "death_date": row.get("Death Date"),
+                "death_location": row.get("Death Place"),
+                "relations": {},
+                "research_cases": [],
+                "direct_case": False,
+                "early_evidence": False,
+                "workbook_modified": row.get("Modified"),
+            }
     return profiles
 
 
@@ -184,8 +186,13 @@ def merge_case_indexes(
                 "death_date",
                 "death_location",
             ):
-                if summary.get(key) not in (None, ""):
-                    profile[key] = summary[key]
+                value = summary.get(key)
+                if key in {"birth_date", "death_date"} and clean_date(value).casefold() == "unknown":
+                    continue
+                if key == "display_name" and value == wt_id and profile.get(key):
+                    continue
+                if value not in (None, ""):
+                    profile[key] = value
             profile.setdefault("research_cases", [])
             if case_id not in profile["research_cases"]:
                 profile["research_cases"].append(case_id)

@@ -8,9 +8,10 @@ import csv
 import json
 import re
 import sys
+from contextlib import ExitStack
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import urlparse
+from urllib.parse import unquote, urlparse
 
 from playwright.sync_api import TimeoutError as PlaywrightTimeoutError
 from playwright.sync_api import sync_playwright
@@ -257,7 +258,7 @@ def main() -> int:
         "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
     )
 
-    with sync_playwright() as playwright:
+    with sync_playwright() as playwright, ExitStack() as resources:
         launch_options = {
             "headless": True,
             "args": ["--disable-blink-features=AutomationControlled"],
@@ -265,8 +266,11 @@ def main() -> int:
         if options.browser_executable:
             launch_options["executable_path"] = options.browser_executable
         browser = playwright.chromium.launch(**launch_options)
+        resources.callback(browser.close)
         context = browser.new_context(user_agent=user_agent, locale="en-GB")
+        resources.callback(context.close)
         page = context.new_page()
+        resources.callback(page.close)
         page.add_init_script(
             "Object.defineProperty(navigator,'webdriver',{get:()=>undefined})"
         )
@@ -280,7 +284,16 @@ def main() -> int:
                 continue
             url = f"https://www.wikitree.com/wiki/{profile_id}"
             try:
-                page.goto(url, wait_until="domcontentloaded", timeout=90_000)
+                response = page.goto(url, wait_until="domcontentloaded", timeout=90_000)
+                if response is None or not response.ok:
+                    code = response.status if response else "no response"
+                    raise RuntimeError(f"WikiTree page request failed: {code}")
+                final_url = urlparse(page.url)
+                if (
+                    final_url.hostname != "www.wikitree.com"
+                    or unquote(final_url.path).rstrip("/").casefold() != f"/wiki/{profile_id.casefold()}"
+                ):
+                    raise RuntimeError(f"Different WikiTree profile after navigation: {page.url}")
                 page.wait_for_timeout(2_000)
                 if "Just a moment" in page.title() or not page.locator("body").inner_text().strip():
                     page.wait_for_timeout(12_000)
@@ -334,7 +347,6 @@ def main() -> int:
             except (PlaywrightTimeoutError, RuntimeError, OSError, ValueError) as exc:
                 failures.append((profile_id, str(exc)))
                 print(f"[{index}/{len(ids)}] {profile_id}: ERROR {exc}", flush=True)
-        browser.close()
 
     from surname_research_index import rebuild_surname_indexes
 

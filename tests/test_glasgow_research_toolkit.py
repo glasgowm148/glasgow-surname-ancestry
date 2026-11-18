@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import hashlib
 import json
 import io
 from contextlib import redirect_stdout
@@ -158,6 +159,30 @@ class GlasgowResearchToolkitTests(unittest.TestCase):
             self.assertNotIn("RESTRICTED LIVING DETAIL", bundled_text)
             self.assertNotIn("RESTRICTED BRIEF BODY", bundled_text)
             self.assertNotIn("LICENSED FINDINGS BODY", bundled_text)
+
+    def test_manifest_matches_file_bytes_and_unknown_death_does_not_become_an_event(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            legacy = root / "legacy"
+            bundle = root / "bundle"
+            write_synthetic_legacy_case(legacy)
+            raw_findings = "# Café\r\n\r\nFirst finding.\r\n".encode()
+            (legacy / "findings.md").write_bytes(raw_findings)
+            path = legacy / "evidence_index.json"
+            index = json.loads(path.read_text())
+            index["profiles"]["Fixture-2"]["death_date"] = " 0000-00 "
+            path.write_text(json.dumps(index))
+            write_toolkit_research_bundle(legacy, bundle)
+            case = read_case_artifact_bundle(bundle)
+
+            provenance, = case.records(ImportProvenance)
+            observation = provenance.observations[0]
+            findings, = [artifact for artifact in observation["artifacts"] if artifact["filename"] == "findings.md"]
+            self.assertEqual(findings["bytes"], len(raw_findings))
+            self.assertEqual(findings["sha256"], hashlib.sha256(raw_findings).hexdigest())
+            person, = [person for person in case.records("Person") if person.id.endswith("Fixture-2")]
+            self.assertEqual(person.living, LivingStatus.UNKNOWN)
+            self.assertEqual(person.event_ids, [])
 
     def test_raw_dna_marker_fails_before_bundle_write(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:

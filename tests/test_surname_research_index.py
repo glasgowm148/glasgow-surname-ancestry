@@ -13,6 +13,22 @@ from surname_research_index import rebuild_surname_indexes
 
 
 class SurnameIndexTests(unittest.TestCase):
+    def test_missing_profile_id_header_keeps_existing_index(self):
+        with tempfile.TemporaryDirectory() as directory:
+            workspace = Path(directory)
+            workbook = Workbook()
+            workbook.active.title = "TableData"
+            workbook.active.append(["First", "Birth Date"])
+            workbook.save(workspace / "glasgow-one-tree.xlsx")
+            index = workspace / "surname-research" / "indexes" / "profiles.json"
+            index.parent.mkdir(parents=True)
+            index.write_text("existing index", encoding="utf-8")
+
+            with self.assertRaisesRegex(ValueError, "WT ID"):
+                rebuild_surname_indexes(workspace)
+
+            self.assertEqual(index.read_text(encoding="utf-8"), "existing index")
+
     def test_builds_contextual_profile_and_early_indexes(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
             workspace = Path(directory)
@@ -106,8 +122,8 @@ class SurnameIndexTests(unittest.TestCase):
                     {
                         "profiles": {
                             "Glasgow-1": {
-                                "display_name": "John Glasgow",
-                                "birth_date": "1590-00-00",
+                                "display_name": "Glasgow-1",
+                                "birth_date": "0000-00-00",
                                 "birth_location": "Ayrshire, Scotland",
                                 "relations": {"parents": ["Glasgow-2"]},
                             }

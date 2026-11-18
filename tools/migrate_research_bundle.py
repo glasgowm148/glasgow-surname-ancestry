@@ -35,7 +35,7 @@ def main(argv: list[str] | None = None) -> int:
     args = command.parse_args(argv)
     try:
         paths = write_toolkit_research_bundle(args.research_dir, args.bundle_dir)
-    except ValueError as error:
+    except (OSError, ValueError) as error:
         command.error(str(error))
     print(f"Wrote private toolkit research bundle to {args.bundle_dir}")
     print(f"Toolkit bundle manifest: {paths['bundle-manifest.json']}")

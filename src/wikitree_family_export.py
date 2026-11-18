@@ -941,9 +941,8 @@ def scrape_familysearch_sources_via_cdp(
     """
     Attach to normal Chrome over CDP and process each unique PID once.
 
-    A fresh temporary tab is created for each PID and closed afterwards.
-    Popups opened by that temporary tab are closed immediately. Existing user
-    tabs and the Chrome process itself are left untouched.
+    Reuse one temporary tab and close it when the batch ends.
+    Popups opened by the temporary tab are closed immediately.
     """
     try:
         from playwright.sync_api import sync_playwright
@@ -973,6 +972,9 @@ def scrape_familysearch_sources_via_cdp(
         + (", ".join(all_pids) if all_pids else "none")
     )
 
+    if not all_pids:
+        return envelope
+
     pid_cache: dict[str, dict[str, Any]] = {}
     snapshot_dir = output_dir / "familysearch_pages"
 
@@ -993,57 +995,42 @@ def scrape_familysearch_sources_via_cdp(
 
         context = contexts[0]
 
-        for position, pid in enumerate(all_pids, start=1):
-            print(
-                f"[{position}/{len(all_pids)}] "
-                f"Fetching FamilySearch sources for {pid}..."
-            )
-
-            page = None
-
+        def close_popup(popup: Any) -> None:
             try:
-                page = context.new_page()
+                popup.close()
+            except Exception:
+                pass
 
-                # Only close popups created by this temporary page.
-                def close_popup(popup: Any) -> None:
-                    try:
-                        popup.close()
-                    except Exception:
-                        pass
-
-                page.on("popup", close_popup)
-
-                pid_cache[pid] = scrape_familysearch_pid(
-                    page=page,
-                    pid=pid,
-                    snapshot_dir=snapshot_dir,
-                    max_scrolls=max_scrolls,
-                    settle_seconds=settle_seconds,
-                    expand_passes=expand_passes,
-                    expand_wait_seconds=expand_wait_seconds,
-                )
-
-                print(f"[{position}/{len(all_pids)}] Completed {pid}")
-
-            except Exception as exc:
-                pid_cache[pid] = {
-                    "status": "error",
-                    "pid": pid,
-                    "error": str(exc),
-                }
-
+        page = None
+        try:
+            for position, pid in enumerate(all_pids, start=1):
                 print(
-                    f"[{position}/{len(all_pids)}] Failed {pid}: {exc}",
-                    file=sys.stderr,
+                    f"[{position}/{len(all_pids)}] "
+                    f"Fetching FamilySearch sources for {pid}..."
                 )
-
-            finally:
-                if page is not None:
-                    try:
-                        if not page.is_closed():
-                            page.close()
-                    except Exception:
-                        pass
+                try:
+                    if page is None or page.is_closed():
+                        page = context.new_page()
+                        page.on("popup", close_popup)
+                    pid_cache[pid] = scrape_familysearch_pid(
+                        page=page,
+                        pid=pid,
+                        snapshot_dir=snapshot_dir,
+                        max_scrolls=max_scrolls,
+                        settle_seconds=settle_seconds,
+                        expand_passes=expand_passes,
+                        expand_wait_seconds=expand_wait_seconds,
+                    )
+                    print(f"[{position}/{len(all_pids)}] Completed {pid}")
+                except Exception as exc:
+                    pid_cache[pid] = {"status": "error", "pid": pid, "error": str(exc)}
+                    print(f"[{position}/{len(all_pids)}] Failed {pid}: {exc}", file=sys.stderr)
+        finally:
+            if page is not None and not page.is_closed():
+                try:
+                    page.close()
+                except Exception:
+                    pass
 
         # Do not call browser.close(). With a CDP connection that can close the
         # user's real Chrome process. Exiting sync_playwright disconnects.
@@ -1088,6 +1075,9 @@ def scrape_familysearch_sources(
     person = envelope["items"][0].get("person")
     if not isinstance(person, dict):
         raise ExportError("The response did not include the subject profile.")
+
+    if not any(profile.get("FamilySearchPIDs") for profile in iter_all_profiles(person)):
+        return envelope
 
     pid_cache: dict[str, dict[str, Any]] = {}
     snapshot_dir = output_dir / "familysearch_pages"
@@ -1223,7 +1213,10 @@ def clean_date(value: Any) -> str:
     """WikiTree ``YYYY-00-00`` placeholders as readable text; ``0000-00-00`` is unknown."""
     from genealogy.dates import wikitree_date
 
-    return wikitree_date(str(value) if value else None) or "unknown"
+    date = str(value or "").strip()
+    if date in {"0000", "0000-00"}:
+        return "unknown"
+    return wikitree_date(date) or "unknown"
 
 
 def scalar(value: Any) -> str:
@@ -1597,10 +1590,15 @@ def utc_now() -> str:
     return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
-def write_json_file(path: Path, value: Any) -> None:
-    """Write JSON atomically so an interrupted run does not corrupt a case."""
-    path.parent.mkdir(parents=True, exist_ok=True)
+def write_json_file(path: Path, value: Any, *, replace: bool = True) -> None:
+    """Write complete JSON to disk, optionally refusing to replace a capture."""
     contents = json.dumps(value, ensure_ascii=False, indent=2, sort_keys=True) + "\n"
+    write_text_file(path, contents, replace=replace)
+
+
+def write_text_file(path: Path, contents: str, *, replace: bool = True) -> None:
+    """Publish complete text via an atomic same-directory operation."""
+    path.parent.mkdir(parents=True, exist_ok=True)
     try:
         existing_mode = path.stat().st_mode & 0o777
     except FileNotFoundError:
@@ -1612,12 +1610,15 @@ def write_json_file(path: Path, value: Any) -> None:
             prefix=f".{path.name}.", suffix=".tmp", delete=False,
         ) as handle:
             temporary = Path(handle.name)
-            if existing_mode is not None:
+            if replace and existing_mode is not None:
                 os.fchmod(handle.fileno(), existing_mode)
             handle.write(contents)
             handle.flush()
             os.fsync(handle.fileno())
-        temporary.replace(path)
+        if replace:
+            temporary.replace(path)
+        else:
+            os.link(temporary, path)
     finally:
         if temporary is not None:
             temporary.unlink(missing_ok=True)
@@ -1695,6 +1696,44 @@ def load_research_case(
     findings_path = case_dir / RESEARCH_FINDINGS_FILE
     profile_notes_path = case_dir / research_profile_notes_file(wikitree_id)
 
+    if state_path.exists():
+        state = read_json_object(state_path)
+    else:
+        now = utc_now()
+        state = {
+            "schema_version": RESEARCH_SCHEMA_VERSION,
+            "root_wikitree_id": wikitree_id,
+            "created_at": now,
+            "updated_at": now,
+            "captures": [],
+            "errors": [],
+        }
+
+    root_id = state.get("root_wikitree_id")
+    if root_id != wikitree_id:
+        raise ExportError(
+            f"Research case {case_dir} belongs to {root_id}, not {wikitree_id}."
+        )
+
+    for key in ("captures", "errors"):
+        if not isinstance(state.get(key, []), list):
+            raise ExportError(f"'{key}' must be a list in {state_path}.")
+
+    if plan_path.exists():
+        plan = read_json_object(plan_path)
+    else:
+        plan = default_research_plan(wikitree_id)
+
+    if plan.get("case_id") != wikitree_id:
+        raise ExportError(
+            f"Research plan {plan_path} belongs to "
+            f"{plan.get('case_id')}, not {wikitree_id}."
+        )
+
+    for key in ("questions", "web_searches", "targets", "findings"):
+        if not isinstance(plan.get(key), list):
+            raise ExportError(f"'{key}' must be a list in {plan_path}.")
+
     if not findings_path.exists():
         subject = wikitree_id_markdown_link(wikitree_id, {})
         findings_path.write_text(
@@ -1728,42 +1767,10 @@ def load_research_case(
             encoding="utf-8",
         )
 
-    if state_path.exists():
-        state = read_json_object(state_path)
-    else:
-        now = utc_now()
-        state = {
-            "schema_version": RESEARCH_SCHEMA_VERSION,
-            "root_wikitree_id": wikitree_id,
-            "created_at": now,
-            "updated_at": now,
-            "captures": [],
-            "errors": [],
-        }
-
-    root_id = state.get("root_wikitree_id")
-    if root_id != wikitree_id:
-        raise ExportError(
-            f"Research case {case_dir} belongs to {root_id}, not {wikitree_id}."
-        )
-
-    if plan_path.exists():
-        plan = read_json_object(plan_path)
-    else:
-        plan = default_research_plan(wikitree_id)
-
-    if plan.get("case_id") != wikitree_id:
-        raise ExportError(
-            f"Research plan {plan_path} belongs to "
-            f"{plan.get('case_id')}, not {wikitree_id}."
-        )
-
-    for key in ("questions", "web_searches", "targets", "findings"):
-        if not isinstance(plan.get(key), list):
-            raise ExportError(f"'{key}' must be a list in {plan_path}.")
-
-    write_json_file(state_path, state)
-    write_json_file(plan_path, plan)
+    if not state_path.exists():
+        write_json_file(state_path, state)
+    if not plan_path.exists():
+        write_json_file(plan_path, plan)
     return state, plan
 
 
@@ -1954,27 +1961,30 @@ def store_research_capture(
     source: str,
 ) -> str:
     """Store an immutable raw capture and register it in case state."""
+    subject_id = envelope_subject_id(envelope)
+    person = envelope["items"][0]["person"]
+    profile_count = sum(1 for _ in iter_all_profiles(person))
     captures_dir = case_dir / "captures"
-    captures_dir.mkdir(parents=True, exist_ok=True)
     captured_at = utc_now()
     stamp = captured_at.replace(":", "").replace("-", "")
     base = f"{stamp}_{safe_stem(requested_id)}"
     capture_path = captures_dir / f"{base}.json"
     suffix = 2
-    while capture_path.exists():
-        capture_path = captures_dir / f"{base}_{suffix}.json"
-        suffix += 1
+    while True:
+        try:
+            write_json_file(capture_path, envelope, replace=False)
+            break
+        except FileExistsError:
+            capture_path = captures_dir / f"{base}_{suffix}.json"
+            suffix += 1
 
-    write_json_file(capture_path, envelope)
     relative_path = capture_path.relative_to(case_dir).as_posix()
-    person = envelope["items"][0].get("person", {})
-    profile_count = sum(1 for _ in iter_all_profiles(person)) if isinstance(person, dict) else 0
 
     state.setdefault("captures", []).append(
         {
             "captured_at": captured_at,
             "requested_wikitree_id": requested_id,
-            "subject_wikitree_id": envelope_subject_id(envelope),
+            "subject_wikitree_id": subject_id,
             "source": source,
             "path": relative_path,
             "profile_count": profile_count,
@@ -2067,6 +2077,11 @@ def merge_profile_summary(
     for key, value in incoming.items():
         if key in {"relations", "familysearch", "evidence_urls", "familysearch_pids", "capture_paths"}:
             continue
+        if key in {"birth_date", "death_date"} and clean_date(value).casefold() == "unknown":
+            if clean_date(existing.get(key)).casefold() != "unknown":
+                continue
+        if key == "display_name" and value == incoming.get("wikitree_id") and existing.get(key):
+            continue
         if value not in (None, "", [], {}):
             merged[key] = value
 
@@ -2088,10 +2103,11 @@ def merge_profile_summary(
             | set(incoming.get("relations", {}).get(relation, []))
         )
     merged["relations"] = relationships
-    merged["familysearch"] = {
-        **existing.get("familysearch", {}),
-        **incoming.get("familysearch", {}),
-    }
+    merged["familysearch"] = dict(existing.get("familysearch", {}))
+    for pid, result in incoming.get("familysearch", {}).items():
+        previous = merged["familysearch"].get(pid, {})
+        if result.get("status") == "ok" or previous.get("status") != "ok":
+            merged["familysearch"][pid] = result
     return merged
 
 
@@ -2106,9 +2122,11 @@ def build_evidence_index(
             continue
         capture_path = capture["path"]
         envelope = read_json_object(case_dir / capture_path)
-        person = envelope["items"][0].get("person")
-        if not isinstance(person, dict):
-            continue
+        try:
+            envelope_subject_id(envelope)
+        except ExportError as exc:
+            raise ExportError(f"Invalid research capture {capture_path}: {exc}") from exc
+        person = envelope["items"][0]["person"]
 
         for profile in iter_all_profiles(person):
             wt_id = str(profile.get("Name") or "")
@@ -2323,17 +2341,11 @@ def update_research_outputs(
         for path, old_heading, new_heading in headings:
             content = path.read_text(encoding="utf-8")
             if content.startswith(old_heading + "\n"):
-                path.write_text(
-                    new_heading + content[len(old_heading) :],
-                    encoding="utf-8",
-                )
+                write_text_file(path, new_heading + content[len(old_heading) :])
     write_json_file(case_dir / RESEARCH_STATE_FILE, state)
     write_json_file(case_dir / RESEARCH_PLAN_FILE, plan)
     write_json_file(case_dir / RESEARCH_INDEX_FILE, index)
-    (case_dir / RESEARCH_BRIEF_FILE).write_text(
-        render_research_brief(plan, state, index),
-        encoding="utf-8",
-    )
+    write_text_file(case_dir / RESEARCH_BRIEF_FILE, render_research_brief(plan, state, index))
 
 
 def safe_stem(wikitree_id: str) -> str:
@@ -2685,9 +2697,16 @@ def run_research_mode(
     if args.research_dir is None:
         raise ExportError("Internal error: research directory is missing.")
 
-    state, plan = load_research_case(args.research_dir, wikitree_id)
     if args.descendant_depth < 0:
         raise ValueError("--descendant-depth cannot be negative.")
+    imported = None
+    if args.import_ai_export:
+        imported = extract_envelope_from_ai_export(args.import_ai_export)
+        subject_id = envelope_subject_id(imported)
+        if subject_id != wikitree_id and redirected_subject_alias(imported) != wikitree_id:
+            raise ExportError(f"Imported export is for {subject_id}, not {wikitree_id}.")
+
+    state, plan = load_research_case(args.research_dir, wikitree_id)
 
     for target in plan.get("targets", []):
         if (
@@ -2720,13 +2739,8 @@ def run_research_mode(
     mappings = merge_familysearch_mappings(cli_mappings, plan_mappings)
     failures = 0
 
-    if args.import_ai_export:
-        envelope = extract_envelope_from_ai_export(args.import_ai_export)
-        subject_id = envelope_subject_id(envelope)
-        if subject_id != wikitree_id and redirected_subject_alias(envelope) != wikitree_id:
-            raise ExportError(
-                f"Imported export is for {subject_id}, not {wikitree_id}."
-            )
+    if imported is not None:
+        envelope = imported
         store_research_capture(
             args.research_dir,
             state,
@@ -2811,6 +2825,11 @@ def run_research_mode(
                     f"{terminal_wikitree_id_link(target_id, {})}: {message}",
                     file=sys.stderr,
                 )
+
+            # Keep completed targets and their capture references recoverable
+            # even if a later target is interrupted.
+            write_json_file(args.research_dir / RESEARCH_STATE_FILE, state)
+            write_json_file(args.research_dir / RESEARCH_PLAN_FILE, plan)
 
     update_research_outputs(args.research_dir, state, plan)
     toolkit_bundle_paths: dict[str, Path] = {}
@@ -2902,35 +2921,29 @@ def main() -> int:
 
         markdown = make_markdown(envelope, wikitree_id)
 
-    except (ValueError, ExportError) as exc:
+    except (OSError, ValueError, ExportError) as exc:
         print(f"Error: {exc}", file=sys.stderr)
         return 1
     except KeyboardInterrupt:
         print("\nCancelled.", file=sys.stderr)
         return 130
 
-    args.output_dir.mkdir(parents=True, exist_ok=True)
-
     stem = safe_stem(wikitree_id)
     markdown_path = args.output_dir / f"{stem}_ai_export.md"
+    try:
+        write_text_file(markdown_path, markdown)
+        if args.write_json:
+            json_path = args.output_dir / f"{stem}_family_export.json"
+            write_json_file(json_path, envelope)
+    except OSError as exc:
+        print(f"Error writing export: {exc}", file=sys.stderr)
+        return 1
 
-    markdown_path.write_text(markdown, encoding="utf-8")
     person = envelope["items"][0].get("person", {})
     if isinstance(person, dict):
         print(f"WikiTree subject: {terminal_profile_link(person)}")
     print(f"Wrote single AI export: {markdown_path}")
-
     if args.write_json:
-        json_path = args.output_dir / f"{stem}_family_export.json"
-        json_path.write_text(
-            json.dumps(
-                envelope,
-                ensure_ascii=False,
-                indent=2,
-                sort_keys=True,
-            ),
-            encoding="utf-8",
-        )
         print(f"Wrote optional JSON: {json_path}")
 
     if args.toolkit_case_directory:

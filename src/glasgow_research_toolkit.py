@@ -48,13 +48,13 @@ def _artifact_observations(case_directory: Path) -> list[dict[str, Any]]:
     for filename in LEGACY_FILES:
         path = case_directory / filename
         try:
-            content = path.read_text(encoding="utf-8")
+            content = path.read_bytes()
         except OSError as exc:
             raise ValueError(f"could not read required legacy artifact {path}: {exc}") from exc
         observations.append({
             "filename": filename,
-            "bytes": len(content.encode("utf-8")),
-            "sha256": _digest(content),
+            "bytes": len(content),
+            "sha256": hashlib.sha256(content).hexdigest(),
             "sensitivity": "private",
         })
     return observations
@@ -80,6 +80,7 @@ def _person_id(wikitree_id: str) -> str:
 
 
 def _profile_records(profiles: Mapping[str, Any]):
+    from genealogy.dates import date_sort_key, wikitree_date
     from genealogy.models import (
         Event, ExternalIdentifier, LivingStatus, Name, Person, Place, Sensitivity,
     )
@@ -100,7 +101,12 @@ def _profile_records(profiles: Mapping[str, Any]):
         ):
             date = raw_profile.get(date_key)
             place = raw_profile.get(place_key)
-            date_text = str(date).strip() if date not in (None, "") else None
+            date_text = str(date).strip() if date is not None else ""
+            if (
+                date_text.casefold() in {"0000", "0000-00", "unknown"}
+                or wikitree_date(date_text) is None
+            ):
+                date_text = None
             place_text = str(place).strip() if place not in (None, "") else None
             if not date_text and not place_text:
                 continue
@@ -125,7 +131,10 @@ def _profile_records(profiles: Mapping[str, Any]):
             event_ids.append(event_id)
         display_name = str(raw_profile.get("display_name") or wikitree_id).strip()
         death = raw_profile.get("death_date")
-        living = LivingStatus.DECEASED if death not in (None, "", "0000-00-00") else LivingStatus.UNKNOWN
+        living = (
+            LivingStatus.DECEASED if date_sort_key(death)[0] == 0
+            else LivingStatus.UNKNOWN
+        )
         people.append(Person(
             id=person_id,
             names=[Name(value=display_name, kind="preferred")],
@@ -149,7 +158,7 @@ def _relationship_records(profiles: Mapping[str, Any], person_ids: set[str]):
     for raw_id, raw_profile in sorted(profiles.items()):
         if not isinstance(raw_profile, Mapping):
             continue
-        current_wt = str(raw_profile.get("wikitree_id") or raw_id)
+        current_wt = str(raw_profile.get("wikitree_id") or raw_id).strip()
         current = _person_id(current_wt)
         relations = raw_profile.get("relations", {})
         if not isinstance(relations, Mapping):
@@ -162,7 +171,7 @@ def _relationship_records(profiles: Mapping[str, Any], person_ids: set[str]):
                     f"legacy evidence profile {raw_id!r} {relation_name} must be a list"
                 )
             for related_value in related_values:
-                related = _person_id(str(related_value))
+                related = _person_id(str(related_value).strip())
                 if current not in person_ids or related not in person_ids or current == related:
                     continue
                 if relation_name == "parents":

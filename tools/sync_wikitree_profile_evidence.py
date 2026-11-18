@@ -76,7 +76,10 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--batch-size", type=int, default=50)
     parser.add_argument("--refresh", action="store_true")
     parser.add_argument("--no-research-cases", action="store_true")
-    return parser.parse_args()
+    options = parser.parse_args()
+    if options.batch_size < 1:
+        parser.error("--batch-size must be positive")
+    return options
 
 
 def year(value: object) -> int | None:
@@ -414,7 +417,7 @@ def main() -> int:
                         "person": fallback_profile, "user_name": missing_target,
                     }
             all_names = set(batch)
-            for item in items:
+            for item in by_requested.values():
                 person = item["person"]
                 if person.get("Name"):
                     all_names.add(person["Name"])
@@ -436,7 +439,10 @@ def main() -> int:
                     failures.append({"profile_id": target, "error": "No public profile returned"})
                 continue
             person = item["person"]
-            subject_name = person.get("Name") or target
+            subject_name = person.get("Name")
+            if not subject_name:
+                failures.append({"profile_id": target, "error": "Returned person has no WikiTree ID"})
+                continue
             profile = dict(full_profiles.get(subject_name, person))
             for relation in RELATION_NAMES:
                 raw = person.get(relation) or {}

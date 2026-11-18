@@ -2,7 +2,8 @@ import json
 import sys
 import tempfile
 import unittest
-from unittest.mock import Mock, patch
+from types import SimpleNamespace
+from unittest.mock import MagicMock, Mock, patch
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -43,6 +44,42 @@ class FamilySearchCaptureTests(unittest.TestCase):
     def capture(self, page):
         with tempfile.TemporaryDirectory() as directory:
             return exporter.scrape_familysearch_pid(page, self.pid, Path(directory), 0, 0, 0, 0)
+
+    def test_cdp_reuses_and_closes_one_tab_even_after_a_pid_fails(self):
+        envelope = sample_envelope()
+        person = envelope["items"][0]["person"]
+        person["FamilySearchPIDs"] = ["ABCD-123", self.pid]
+        page = Mock()
+        page.is_closed.return_value = False
+        context = Mock()
+        context.new_page.return_value = page
+        sync = MagicMock()
+        playwright = {"playwright.sync_api": SimpleNamespace(sync_playwright=sync)}
+        with tempfile.TemporaryDirectory() as directory, patch.dict(sys.modules, playwright), \
+             patch.object(exporter, "scrape_familysearch_pid", side_effect=[
+                 exporter.ExportError("Unavailable"), {"status": "ok"},
+             ]) as scrape:
+            browser = sync.return_value.__enter__.return_value.chromium.connect_over_cdp.return_value
+            browser.contexts = [context]
+            exporter.scrape_familysearch_sources_via_cdp(
+                envelope, "http://localhost:9333", Path(directory), 0, 0, 0, 0,
+            )
+        context.new_page.assert_called_once()
+        page.close.assert_called_once()
+        browser.close.assert_not_called()
+        self.assertEqual([call.kwargs["page"] for call in scrape.call_args_list], [page, page])
+        self.assertEqual(person["FamilySearchBrowserSources"][self.pid]["status"], "error")
+        self.assertEqual(person["FamilySearchBrowserSources"]["ABCD-123"]["status"], "ok")
+
+    def test_no_browser_connection_without_familysearch_targets(self):
+        envelope = sample_envelope()
+        sync = Mock()
+        playwright = {"playwright.sync_api": SimpleNamespace(sync_playwright=sync)}
+        with tempfile.TemporaryDirectory() as directory, patch.dict(sys.modules, playwright):
+            output = Path(directory)
+            exporter.scrape_familysearch_sources_via_cdp(envelope, "http://localhost:9333", output, 0, 0, 0, 0)
+            exporter.scrape_familysearch_sources(envelope, output / "browser", output, True, 0, 0, 0, 0)
+            sync.assert_not_called()
 
     def test_http_failure_including_after_login(self):
         page = Mock(url=self.source)
@@ -253,6 +290,68 @@ class ResearchLoopTests(unittest.TestCase):
             path.write_text(exporter.make_markdown(envelope, "Example-1"), encoding="utf-8")
             self.assertEqual(exporter.extract_envelope_from_ai_export(path), envelope)
 
+    def test_capture_keeps_both_collections_when_timestamp_collides(self):
+        with tempfile.TemporaryDirectory() as directory:
+            case_dir = Path(directory)
+            state = {}
+            first = sample_envelope()
+            second = sample_envelope()
+            second["items"][0]["person"]["FirstName"] = "Updated"
+            with patch.object(exporter, "utc_now", return_value="2026-11-18T12:00:00Z"):
+                first_path = exporter.store_research_capture(case_dir, state, first, "Example-1", "test")
+                second_path = exporter.store_research_capture(case_dir, state, second, "Example-1", "test")
+            self.assertNotEqual(first_path, second_path)
+            self.assertEqual(exporter.read_json_object(case_dir / first_path), first)
+            self.assertEqual(exporter.read_json_object(case_dir / second_path), second)
+
+    def test_evidence_index_preserves_facts_and_successful_sources_after_stub(self):
+        with tempfile.TemporaryDirectory() as directory:
+            case_dir = Path(directory)
+            state = {"root_wikitree_id": "Example-1"}
+            first = sample_envelope()
+            first["items"][0]["person"].update(
+                DeathDate="1870-00-00",
+                FamilySearchBrowserSources={"ABCD-123": {"status": "ok"}},
+            )
+            second = {"items": [{"person": {
+                "Name": "Example-1",
+                "BirthDate": "0000-00-00",
+                "DeathDate": "0000",
+                "FamilySearchBrowserSources": {"ABCD-123": {"status": "error"}},
+            }}]}
+            for envelope in (first, second):
+                exporter.store_research_capture(case_dir, state, envelope, "Example-1", "test")
+            profile = exporter.build_evidence_index(case_dir, state)["profiles"]["Example-1"]
+        self.assertEqual(profile["display_name"], "Alice Example")
+        self.assertEqual(profile["birth_date"], "1800-00-00")
+        self.assertEqual(profile["death_date"], "1870-00-00")
+        self.assertEqual(profile["familysearch"]["ABCD-123"]["status"], "ok")
+        self.assertEqual(len(profile["capture_paths"]), 2)
+
+    def test_interrupted_research_resumes_after_completed_capture(self):
+        with tempfile.TemporaryDirectory() as directory:
+            case_dir = Path(directory)
+            argv = ["export", "Example-1", "--research-dir", directory, "--descendant-depth", "2"]
+            with patch.object(sys, "argv", argv):
+                args = exporter.parse_args()
+            with patch.object(exporter, "scrape_target", side_effect=[sample_envelope(), KeyboardInterrupt]):
+                with self.assertRaises(KeyboardInterrupt):
+                    exporter.run_research_mode(args, "Example-1", {})
+            state = exporter.read_json_object(case_dir / exporter.RESEARCH_STATE_FILE)
+            plan = exporter.read_json_object(case_dir / exporter.RESEARCH_PLAN_FILE)
+            capture, = state["captures"]
+            self.assertTrue((case_dir / capture["path"]).is_file())
+            root, child = plan["targets"]
+            self.assertEqual((root["id"], root["status"]), ("Example-1", "complete"))
+            self.assertEqual((child["id"], child["status"]), ("Example-2", "pending"))
+
+    def test_invalid_capture_does_not_write_raw_file(self):
+        with tempfile.TemporaryDirectory() as directory:
+            case_dir = Path(directory)
+            with self.assertRaises(exporter.ExportError):
+                exporter.store_research_capture(case_dir, {}, {"items": []}, "Example-1", "test")
+            self.assertFalse((case_dir / "captures").exists())
+
     def test_capture_builds_deduplicated_index_and_brief(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
             case_dir = Path(directory)
@@ -391,6 +490,7 @@ class ResearchLoopTests(unittest.TestCase):
                 if resolved == "Example-2":
                     with self.assertRaises(exporter.ExportError):
                         exporter.run_research_mode(args, "Old-1", {})
+                    self.assertFalse((root / exporter.RESEARCH_STATE_FILE).exists())
                 else:
                     with patch("builtins.print"):
                         self.assertEqual(exporter.run_research_mode(args, "Old-1", {}), 0)
