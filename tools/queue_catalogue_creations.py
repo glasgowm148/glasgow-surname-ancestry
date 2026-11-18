@@ -10,6 +10,7 @@ import argparse
 from contextlib import contextmanager
 from collections import Counter
 from copy import deepcopy
+import csv
 from datetime import date
 from html import escape
 import json
@@ -598,6 +599,25 @@ def retire_creation_context(web, retired, restored=()):
                {'id': old, 'redirect_to': f'/assets/research/people/{target}.json', 'native_merge_redirect': target})
 
 
+def retire_people_csv(web, retired):
+    """Remove retired identities from the people export, preserving record exports."""
+    from tools.project_paths import atomic_write_csv, atomic_write_text
+
+    path = web / "data/people.csv"
+    if not retired or not path.is_file():
+        return
+    with path.open(encoding="utf-8-sig", newline="") as handle:
+        reader = csv.DictReader(handle)
+        rows = list(reader)
+    kept = [row for row in rows if row["catalogue_id"] not in retired]
+    if len(kept) != len(rows):
+        atomic_write_csv(path, reader.fieldnames, kept)
+    mirror = path.with_suffix(".csv.txt")
+    if mirror.exists() and mirror.read_bytes() != path.read_bytes():
+        with path.open(encoding="utf-8-sig", newline="") as handle:
+            atomic_write_text(mirror, handle.read(), encoding="utf-8-sig")
+
+
 def archive_retired_creation(web, old, target):
     """Keep a former creation account available without its creation action."""
     from bs4 import BeautifulSoup
@@ -768,6 +788,7 @@ def apply_creations(root=ROOT, catalogue_ids=None):
             (web / "people" / (old + ".html")).write_text(redirect_page(old, target), encoding="utf-8")
             _write(web / "people" / (old + ".json"), {"id": old, "redirect_to": f"/people/{target}.json", "native_merge_redirect": target})
         _write(web / "people" / (old + ".network.json"), {"redirect_to": f"/people/{target}.network.json", "relationships": []})
+    retire_people_csv(web, native_retired)
     refresh_creation_statistics(root)
     return {"integrated": [p["catalogue_id"] for p in people], "count": len(people)}
 

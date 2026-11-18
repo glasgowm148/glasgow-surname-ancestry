@@ -88,6 +88,10 @@ The deed does not give her birth date. No compatible profile survived the docume
         self.assertTrue(dossier['evidence'])
         target = 'example-2'
         (self.root / 'www/people/example-2.html').write_text('<html><main>Existing profile</main></html>')
+        people_csv = self.root / 'www/data/people.csv'
+        people_csv.write_text(f'catalogue_id,name\n{self.slug},Former listing\n{target},Existing profile\n')
+        mirror_csv = people_csv.with_suffix('.csv.txt')
+        mirror_csv.write_bytes(people_csv.read_bytes())
 
         with patch.object(module, 'native_creation_merges', return_value=({self.slug: 'Example-2'}, {})):
             module.apply_creations(self.root, [self.slug])
@@ -97,6 +101,9 @@ The deed does not give her birth date. No compatible profile survived the docume
         self.assertNotIn('wikitree_update', archived)
         self.assertEqual(dossier, archived['superseded_documentary_account'])
         self.assertNotIn(self.slug, {row['catalogue_id'] for row in self.read('data/people.json')['people']})
+        self.assertNotIn(self.slug, people_csv.read_text())
+        self.assertIn(target, people_csv.read_text())
+        self.assertEqual(people_csv.read_bytes(), mirror_csv.read_bytes())
         soup = BeautifulSoup((self.root / 'www/people' / (self.slug + '.html')).read_text(), 'html.parser')
         self.assertIsNone(soup.select_one('#wikitree-update'))
         self.assertIsNone(soup.select_one('a[href="#wikitree-update"]'))
