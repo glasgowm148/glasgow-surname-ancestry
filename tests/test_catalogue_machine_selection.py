@@ -50,6 +50,35 @@ class SelectedDossierTests(unittest.TestCase):
         self.assertNotIn('private_capture', result['Fable-1'])
         self.assertNotIn('credentials', result['Fable-1'])
 
+    def test_alternative_or_negated_hypotheses_do_not_imply_parentage(self):
+        for relation in ('grandfather of', 'possible father or grandfather of',
+                         'possible collateral of, not established father of',
+                         'not the daughter of'):
+            with self.subTest(relation=relation):
+                self.assertEqual((None, None), machine._assessment_roles({'relationship': relation}))
+        self.assertEqual(('child', 'father'), machine._assessment_roles({'relationship': 'probable father of'}))
+        self.assertEqual(('parent', 'child'), machine._assessment_roles({'relationship': 'son of, possibly by an earlier partner'}))
+
+    def test_parent_assessments_do_not_upgrade_the_opposite_role(self):
+        relative = dict(catalogue_id='fable-2', profile_ids=['Fable-2'], name='Rowan Fable')
+        for role, other_role in (('father', 'mother'), ('mother', 'father')):
+            with self.subTest(role=role):
+                child = dict(catalogue_id='fable-1', profile_ids=['Fable-1'], name='Ada Fable',
+                             mother=[{'id': 'Fable-2'}], father=[{'id': 'Fable-2'}])
+                if role == 'father':
+                    # A documented father may also be absent from the imported tree.
+                    child['father'] = []
+                assessment = dict(person_a='Fable-2', person_b='Fable-1', relationship=f'{role} of',
+                                  status='probable', status_label=f'Probable {role}',
+                                  basis=f'The record identifies a likely {role}.', provenance='example')
+                with patch.object(machine, '_relationship_assessments', return_value=[assessment]), \
+                        patch.object(machine, '_research_plans', return_value={}):
+                    dossiers, _ = machine.build_machine_models([child, relative], catalogue_ids={'fable-1'})
+                links = dossiers['fable-1']['relationships']['parents']
+                self.assertEqual({role: 'probable', other_role: 'unknown'},
+                                 {link['relationship']: link['status'] for link in links})
+                self.assertEqual(2, len(links))
+
     def test_selected_child_retains_unselected_parent_context(self):
         child = dict(catalogue_id='fable-1', profile_ids=['Fable-1'], name='Ada Fable',
                      father=[{'id': 'Fable-2'}], records=[], wikitree_evidence=[])

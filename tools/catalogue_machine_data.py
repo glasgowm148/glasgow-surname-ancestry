@@ -342,16 +342,18 @@ def public_research_states(public_ids: set[str]) -> dict[str, dict]:
 
 
 def _assessment_roles(assessment: dict) -> tuple[str | None, str | None]:
-    relation = assessment["relationship"].casefold()
-    if re.search(r"\b(?:son|daughter|child) of\b", relation):
+    relation = assessment["relationship"].strip().casefold()
+    direct = re.match(r"^(?:(?:probable|possible|uncertain) )?([a-z]+) of\b", relation)
+    if not direct:
+        return None, None
+    role = direct[1]
+    if role in {"son", "daughter", "child"}:
         return "parent", "child"
-    if "father of" in relation:
-        return "child", "father"
-    if "mother of" in relation:
-        return "child", "mother"
-    if re.search(r"\b(?:brother|sister|sibling) of\b", relation):
+    if role in {"father", "mother"}:
+        return "child", role
+    if role in {"brother", "sister", "sibling"}:
         return "sibling", "sibling"
-    if re.search(r"\b(?:husband|wife|spouse) of\b", relation):
+    if role in {"husband", "wife", "spouse"}:
         return "spouse", "spouse"
     return None, None
 
@@ -718,9 +720,12 @@ def build_machine_models(public_people: list[dict], *, catalogue_ids=None) -> tu
             if role == "parent":
                 gender = people_by_id.get(other_id, {}).get("gender")
                 role = "father" if gender == "Male" else "mother" if gender == "Female" else "parent"
-            edge = next((item for (rid, rrole), item in relation_lookup.items()
-                         if rid == other_id and (rrole == role or {rrole, role} <= {"child", "son", "daughter"}
-                                                   or {rrole, role} <= {"parent", "father", "mother"})), None)
+            edge = relation_lookup.get((other_id, role))
+            if edge is None and role == "parent":
+                typed_edges = [relation_lookup[(other_id, typed_role)]
+                               for typed_role in ("father", "mother") if (other_id, typed_role) in relation_lookup]
+                if len(typed_edges) == 1:
+                    edge = typed_edges[0]
             other = people_by_id[other_id]
             if edge is None:
                 edge = {
@@ -730,6 +735,7 @@ def build_machine_models(public_people: list[dict], *, catalogue_ids=None) -> tu
                     "network_url": f"/people/{other['catalogue_id']}.network.json", "wikitree_url": _wikitree_profile_url(other_id),
                 }
                 relations.append(edge)
+                relation_lookup[other_id, role] = edge
             edge.update({"status": assessment["status"], "status_label": assessment["status_label"],
                          "basis": "documentary" if assessment["status"] == "proved" else "research_assessment",
                          "evidence_ids": [assessment_evidence["id"]], "claim_id": claim["id"]})

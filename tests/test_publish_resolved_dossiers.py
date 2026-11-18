@@ -110,6 +110,45 @@ class ResolvedDossierTests(unittest.TestCase):
         self.assertFalse(any(r.get('claim_id') == 'retired-link' for rows in resolved['relationships'].values() for r in rows))
         self.assertEqual(resolved, module.resolve(resolved, [], [retired]))
 
+    def test_parent_hypothesis_does_not_replace_a_same_pair_sibling(self):
+        sibling = {'id': 'Relative-2', 'relationship': 'sibling', 'claim_id': 'existing-sibling',
+                   'status': 'unknown', 'tree_relationship': True}
+        assessment = {'assertion_id': 'father-hypothesis', 'people': ['Person-1', 'Relative-2'],
+                      'publication_status': 'approved', 'status': 'uncertain',
+                      'lifecycle': 'alternative', 'display': 'alternative',
+                      'source_ids': ['record'], 'allow_new_relationship': True,
+                      'perspectives': {
+                          'Person-1': {'relationship': 'father', 'reason': 'Compare a possible father.'},
+                          'Relative-2': {'relationship': 'child', 'reason': 'Compare a possible child.'},
+                      }}
+        possible_father = {'id': 'Person-1', 'relationship': 'son', 'claim_id': 'imported-son'}
+        cases = [
+            ({'id': 'Person-1', 'relationships': {'siblings': [sibling]}}, 'parents', 'father'),
+            ({'id': 'Relative-2', 'relationships': {
+                'children': [possible_father], 'siblings': [dict(sibling, id='Person-1')]}}, 'children', 'child'),
+        ]
+        for original, group, role in cases:
+            with self.subTest(role=role):
+                resolved = module.resolve(original, [], [assessment])
+                self.assertEqual(original['relationships']['siblings'], resolved['relationships']['siblings'])
+                edge, = resolved['relationships'][group]
+                self.assertEqual((role, 'alternative', 'father-hypothesis'),
+                                 (edge['relationship'], edge['display'], edge['claim_id']))
+                history = resolved['relationship_history']
+                self.assertEqual([] if group == 'parents' else ['imported-son'],
+                                 [row['claim_id'] for row in history])
+                self.assertEqual(resolved, module.resolve(resolved, [], [assessment]))
+
+    def test_brother_assessment_can_refine_an_imported_sibling_role(self):
+        original = {'id': 'Person-1', 'relationships': {'siblings': [
+            {'id': 'Relative-2', 'relationship': 'sibling'}]}, 'claims': []}
+        assessment = {'assertion_id': 'reviewed-brother', 'people': ['Person-1', 'Relative-2'],
+                      'publication_status': 'approved', 'status': 'proved', 'source_ids': ['record'],
+                      'perspectives': {'Person-1': {'relationship': 'brother', 'reason': 'Record identifies a brother.'}}}
+        resolved = module.resolve(original, [], [assessment])
+        sibling, = resolved['relationships']['siblings']
+        self.assertEqual(('brother', 'reviewed-brother'), (sibling['relationship'], sibling['claim_id']))
+
     def test_stepmother_correction_preserves_history_and_catalogue_biological_mother(self):
         original = {'id': 'Child-1', 'relationships': {'parents': [
             {'id': 'Martha-1', 'name': 'Martha', 'relationship': 'mother', 'claim_id': 'old-mother'}]},

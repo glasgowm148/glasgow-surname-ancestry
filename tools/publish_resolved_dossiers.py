@@ -24,6 +24,18 @@ except ModuleNotFoundError:  # imported as tools.publish_resolved_dossiers
 ROOT = Path(__file__).resolve().parents[1]
 HISTORY_SEED = ROOT / 'research/relationship_history_seed.json'
 SECTIONS = ('vitals', 'relationships', 'claims', 'events')
+FAMILY_GROUPS = {
+    'father': 'parents', 'mother': 'parents', 'parent': 'parents',
+    'stepfather': 'parents', 'stepmother': 'parents',
+    'son': 'children', 'daughter': 'children', 'child': 'children', 'stepchild': 'children',
+    'sibling': 'siblings', 'brother': 'siblings', 'sister': 'siblings',
+    'spouse': 'spouses',
+}
+GENERIC_ROLES = {
+    'parent': {'father', 'mother'},
+    'child': {'son', 'daughter'},
+    'sibling': {'brother', 'sister'},
+}
 REVIEW_SCHEMA = {'data_view': {'enum': ['reviewed'], 'description': 'Default fields incorporate explicit approved structured assessments.'}, 'imported': {'type': 'object', 'required': ['sections', 'provenance'], 'description': 'Original pre-review sections and their import provenance; retained for comparison.'}, 'research_assessments': {'type': 'array', 'description': 'Approved source assessments applied to default fields, including remaining questions and superseded interpretations.'}, 'events': {'type': 'array', 'description': 'Explicit reviewed events with evidence references, roles and provenance.'}}
 REVIEW_SCHEMA.update({
     'vitals': {'type': 'object', 'description': 'Resolved vital assertions. A null date/place is unresolved, not missing display data. Identity-dependent alternatives retain their own provenance and qualifiers; display_date is conditional display text, not a resolved date.'},
@@ -273,14 +285,20 @@ def resolve(dossier, assessments, shared_assessments=()):
                 if claim.get('id') == aid:
                     claim.update(lifecycle='historical', status='superseded')
             continue
+        correction = (assessment.get('role_correction') or {}).get(dossier['id'])
+        prior_roles = set(correction.get('from', ())) if correction else set()
         found = False
         for group, rows in result.get('relationships', {}).items():
             for index, row in enumerate(rows):
                 resolved = shared_relationship(dossier['id'], row, [assessment])
                 if not resolved:
                     continue
-                correction = (assessment.get('role_correction') or {}).get(dossier['id'])
-                if correction and row.get('relationship') not in [correction.get('to'), *correction.get('from', [])]:
+                existing_role = row.get('relationship')
+                asserted_role = resolved.get('relationship')
+                role_matches = (existing_role == asserted_role
+                                or existing_role in GENERIC_ROLES.get(asserted_role, ())
+                                or asserted_role in GENERIC_ROLES.get(existing_role, ()))
+                if existing_role not in prior_roles and (group != FAMILY_GROUPS.get(asserted_role) or not role_matches):
                     continue
                 historical = deepcopy(row)
                 historical.update(lifecycle='historical', superseded_by=aid)
@@ -313,10 +331,7 @@ def resolve(dossier, assessments, shared_assessments=()):
                 raise ValueError(f"Shared assertion {aid} must identify one relative")
             other = others[0]
             current = shared_relationship(dossier['id'], {'id': other}, [assessment])
-            groups = {'father': 'parents', 'mother': 'parents', 'stepfather': 'parents',
-                      'stepmother': 'parents', 'son': 'children', 'stepchild': 'children',
-                      'daughter': 'children', 'child': 'children', 'sibling': 'siblings', 'spouse': 'spouses'}
-            group = groups.get(current.get('relationship'))
+            group = FAMILY_GROUPS.get(current.get('relationship'))
             if not group or not assessment.get('source_ids'):
                 raise ValueError(f"Shared assertion {aid} needs a supported family role and sources")
             current.update(id=other, name=assessment.get('profile_names', {}).get(other, other),
@@ -328,24 +343,19 @@ def resolve(dossier, assessments, shared_assessments=()):
                     raise ValueError(f'Shared assertion {aid} has an invalid documentary account URL')
                 current.update(url=relative_urls['url'], wikitree_url=None)
             result.setdefault('relationships', {}).setdefault(group, []).append(current)
-        correction = (assessment.get('role_correction') or {}).get(dossier['id'])
         if correction:
-            groups = {'father': 'parents', 'mother': 'parents', 'stepfather': 'parents',
-                      'stepmother': 'parents', 'son': 'children', 'stepchild': 'children',
-                      'daughter': 'children', 'child': 'children', 'sibling': 'siblings', 'spouse': 'spouses'}
             role = current.get('relationship')
-            if correction.get('to') != role or role not in groups or not assessment.get('source_ids'):
+            if correction.get('to') != role or role not in FAMILY_GROUPS or not assessment.get('source_ids'):
                 raise ValueError(f'Role correction {aid} needs a supported destination role')
             # One reviewed pair may replace both a mistaken parent row and an
             # ungraded sibling row. Preserve both in history, publish one row
             # in the group matching the explicitly corrected relationship.
-            prior_roles = set(correction.get('from', []))
             for rows in result['relationships'].values():
                 rows[:] = [row for row in rows if not (
                     row.get('claim_id') in previous_ids or row.get('claim_id') == aid
                     or (row.get('relationship') in prior_roles
                         and row.get('id') == current.get('id')))]
-            result['relationships'].setdefault(groups[role], []).append(current)
+            result['relationships'].setdefault(FAMILY_GROUPS[role], []).append(current)
         # Status, role, interpretation and citations come from the same reviewed
         # pair and its explicit viewing-person perspective, not a UI override.
         claim = {k: deepcopy(current[k]) for k in (
