@@ -1,16 +1,16 @@
 # Findings: Robert Glasgow (Glasgow-1075), Paddockholm
 
-Last updated: 2026-11-13
+Last updated: 2026-11-18
 
 ## Current conclusion
 
-Reviewed: 2026-11-13.
+Reviewed: 2026-11-18.
 
 Robert Glasgow, the Kilbirnie surgeon of Paddockholm, was baptised at Kilbirnie on 17 October 1693. The baptism transcripts name [John Glasgow](/people/glasgow-1073.html), minister of the Gospel, as his father and [Jean Cunningham](https://www.wikitree.com/wiki/Cunningham-20924), recorded as Jeane Cunynghame, as his mother. The existing assessments are **99% proved** for John, reviewed 22 October, and **90% proved** for Jean, first assessed on 5 November from the explicitly named mother in the index.
 
 On 22 November 1722 Robert wrote from Paddockholm to his brother [James Glasgow](/people/glasgow-1140.html), then a divinity student in Glasgow, and sent butter and cheese for Mr Gordon. James was baptised in Kilbirnie in 1700 and fits the student named in the letter, which strongly supports their existing sibling relationship. The letter supplies no connection to the North Leith glassworks servant of 1694 or Robert Glaskow of Larne.
 
-The proposed biography gives Robert’s marriage to [Margaret Allan](https://www.wikitree.com/wiki/Allan-4046) as **15 December 1726**, the date on Paterson’s checked printed page 252. The earlier **1736** wording and inherited Kilbirnie OPR 596, 10/74 citation remain an unresolved source conflict. The 13 November correction applies to the proposed biography. The original marriage register has yet to be checked for this review.
+Robert Glasgow and [Margaret Allan](https://www.wikitree.com/wiki/Allan-4046) married on **15 December 1726** according to both Paterson (printed p. 252) and the [Scottish marriage index](https://www.ancestry.co.uk/search/collections/60144/records/1793735). The index names the bride as Margarat Allan and gives Kilbirnie and film 1041381. The inherited biography gives **1736** and cites Kilbirnie OPR 596, 10/74. That citation still needs an image check to establish what the parish clerk recorded. The [FamilySearch catalogue](https://www.familysearch.org/en/search/catalog/koha:24530) identifies film 1041381 as a copy of the Kilbirnie registers.
 
 The existing assessment for Robert as father of [Anna Glasgow](/people/glasgow-3005.html) rose from **58% to 95% confident** on 23 October. Paterson names Ann as Robert and Margaret’s daughter and gives the same husband, Hugh Allan, and exact marriage date as Anna’s parish-cited biography.
 

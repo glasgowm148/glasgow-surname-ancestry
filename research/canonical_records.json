@@ -112484,7 +112484,7 @@
     "source_type": "Provider index search row",
     "record_type": "Marriage index",
     "record_category": "Marriage",
-    "status": "Provider index search row; new catalogue draft",
+    "status": "Inspected marriage index transcript; couple and date agree with the checked printed family account",
     "source_quality": "provider_derivative",
     "source_status": "Ancestry marriage index transcript",
     "source_level": "inspected transcript",
@@ -112496,8 +112496,18 @@
       "Gender": "Male",
       "FHL Film Number": "1041381"
     },
-    "note": "The index names Robert Glasgow and Margarat Allan, married on 15 Dec 1726 at Kilbirnie, Ayr, Scotland. FHL Film Number: 1041381.",
+    "note": "The index names Robert Glasgow and Margarat Allan, married on 15 Dec 1726 at Kilbirnie, Ayr, Scotland. FHL Film Number: 1041381. The couple and exact date agree with James Paterson’s History of the County of Ayr, vol. II (1852), [printed p. 252](https://archive.org/details/historyofcountyo02pateuoft/page/n268/mode/1up), which identifies Robert as the surgeon at Kilbirnie and Margaret as Allan of Ladesyde. Margarat is the spelling in the index. The existing documentary draft association is retained. The original parish entry has not been inspected, and the inherited 1736 wording and OPR 596, 10/74 citation are unresolved. The [FamilySearch catalogue](https://www.familysearch.org/en/search/catalog/koha:24530) lists the Kilbirnie films, with digitised images restricted to centres or affiliate libraries.",
     "profiles": {
+      "Glasgow-1075": {
+        "role": "Probably the indexed groom, Robert Glasgow of Puddockholm",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      },
+      "Allan-4046": {
+        "role": "Probably the indexed bride, Margaret Allan of Ladesyde",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      },
       "record-ancestry-glasgow-b9dbd103f1db": {
         "role": "Documentary subject: groom",
         "assessment": "identity_hold",
@@ -112511,7 +112521,7 @@
       "explanation": "Marriage 15 Dec 1726"
     },
     "provenance": "private Ancestry capture glasgow-records/scotland-select-marriages-1561-1910-60144/results-AH.csv",
-    "reviewed_on": "2026-11-04",
+    "reviewed_on": "2026-11-18",
     "publish_to_record_index": true,
     "reference": "Original data: Scotland, Marriages, 1561-1910 (FamilySearch index of Scottish parish registers)"
   },

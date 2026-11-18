@@ -86580,6 +86580,46 @@
           "url": "https://archive.org/stream/historyofcongreg00kill/historyofcongreg00kill_djvu.txt"
         }
       ]
+    },
+    {
+      "id": "kilbirnie-robert-glasgow-margaret-allan-marriage-index-20261118",
+      "found_on": "2026-11-18",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "The Kilbirnie marriage index names Robert Glasgow and Margarat Allan on 15 December 1726. Paterson gives the same couple and date for Robert Glasgow of Puddockholm and Margaret Allan of Ladesyde.",
+      "significance": "Links the existing index entry to the couple’s two public profiles and adds index evidence for the 1726 date used in Robert’s proposed biography.",
+      "qualification": "The Ancestry transcript gives Kilbirnie as the event place and cites FHL film 1041381. The parish register image still needs inspection to check the exact entry wording and resolve the inherited 1736 date and OPR 596, 10/74 citation.",
+      "people": [
+        {
+          "id": "Glasgow-1075",
+          "name": "Robert Glasgow",
+          "url": "/people/glasgow-1075.html",
+          "role": "Probable identification with the groom"
+        },
+        {
+          "id": "Allan-4046",
+          "name": "Margaret Allan",
+          "url": "/people/allan-4046.html",
+          "role": "Probable identification with the bride, indexed as Margarat Allan"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ancestry, Scotland, Select Marriages, 1561–1910, entry 60144/1793735",
+          "url": "https://www.ancestry.co.uk/search/collections/60144/records/1793735"
+        },
+        {
+          "title": "James Paterson, History of the County of Ayr, vol. II (1852), printed p. 252",
+          "url": "https://archive.org/details/historyofcountyo02pateuoft/page/n268/mode/1up"
+        }
+      ],
+      "detail_url": "/sources/s-74ae84f4719facdf/",
+      "relationship_changes": [],
+      "provenance": [
+        "ancestry-60144-1793735",
+        "private Ancestry capture glasgow-records/scotland-select-marriages-1561-1910-60144/results-AH.csv",
+        "research/Glasgow-1075/findings.md"
+      ]
     }
   ]
 }
