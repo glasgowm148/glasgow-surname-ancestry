@@ -1,13 +1,23 @@
 # Findings: Glasgow-4165
 
+Last updated: 2026-11-05
+
 ## Current conclusion
 
-Reviewed: 2026-10-16
+Reviewed: 2026-11-05.
+
+The full Irvine baptism transcripts name Margaret Martine as the mother of Isabel (1741), Magdalen (1743) and Mary (1745), where the earlier review saw only “Margt”. The full couple name and the 1731–1747 baptism sequence strongly favour identifying their father, George Glasgow-4165, with the Irvine adult account already attached to [George Glasgow-1058](/people/glasgow-1058.html). The two profiles remain a merge candidate.
+
+The existing father assessment for [John Glasgow-1057](/people/glasgow-1057.html) rose from **22% to 75% probable**. [Agnes Spark](https://www.wikitree.com/wiki/Spark-330) rose from ungraded uncertain to **75% probable**, assessed from the explicit mother clause in the 1687 Kilwinning baptism. Both parent conclusions still depend on identifying the Irvine adult with that 1687 child. [Margaret Martin](https://www.wikitree.com/wiki/Martin-103040) is the probable mother of the three Irvine daughters at **88%**. The held transcripts are index copies of the same events. The original registers remain uninspected.
+
+The Nethermains merchant, the Manchester patentee and the Royal Artillery subjects remain separate. The review supplies no newly established occupation, birth date, or death date for this profile. [Stevenston study and remaining identity questions](/branches/research-stevenston-estate-network/#chapter-calder-irvine-working-family).
+
+## Earlier working assessment — 16 October 2026
 
 **Selected Calder/Irvine working families, 16 October 2026:** John of the Calder/Meek household is placed under William-1026 through the 1702 child comparison, uncertain. George of the Irvine Margt household is placed under John-1057 and Agnes Spark through the 1687 child and 1728 couple comparison, both uncertain. Existing dates, recorded-child grades and competing identities remain. [Evidence and alternatives](/branches/early-scottish-records/#calder-irvine-working-family).
 
 <!-- site-audit-2026-10-07:overall-conclusion -->
-George Glasgow was recorded on his profile as born before 1722, an uncertain date, with an Irvine family context; no record has yet been identified with him in this research. Every newspaper notice once compared with him was withdrawn on 6 October 2026: the 1762 Manchester patentee was a working weaver of Manchester; the Glasgow merchant 'of Nethermains' in notices of 1767 to 1777 is a possible match for another profile, George Glasgow (Glasgow-3312); and the Royal Artillery officers named between 1771 and 1795 have no WikiTree profile.
+At that stage, the profile carried an uncertain birth bound before 1722 and an Irvine family context. The record-to-profile comparisons remained provisional. Every newspaper notice once compared with him was withdrawn on 6 October 2026: the 1762 Manchester patentee was a working weaver of Manchester; the Glasgow merchant 'of Nethermains' in notices of 1767 to 1777 is a possible match for another profile, George Glasgow (Glasgow-3312); and the Royal Artillery officers named between 1771 and 1795 have no WikiTree profile.
 
 ## Current conclusion — additional newspaper originals, 5 October 2026
 
