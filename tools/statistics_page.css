@@ -12,6 +12,7 @@
 .statistics-metric:nth-child(2){background:#f7f1e7}.statistics-metric:nth-child(3){background:#edf3f4}.statistics-metric:nth-child(4){background:#f3eff5}
 .statistics-metric strong{display:block;color:var(--stat-ink);font:500 clamp(25px,3vw,34px)/1 var(--g-serif);font-variant-numeric:tabular-nums}
 .statistics-metric span{display:block;margin-top:8px;max-width:90%;font:11px/1.4 var(--g-sans);color:#68745e}
+.statistics-metric-missing{display:block;margin-top:4px;color:#8a947e;font-size:10px;line-height:1.4}
 .statistics-coverage-share{color:#87927d;font-size:11px;font-weight:400}
 .statistics-metric-icon{position:absolute;width:22px;height:22px;right:15px;top:18px;stroke:#7b9377;stroke-width:1.4;fill:none;opacity:.75}
 .statistics-extra-totals{margin-top:9px}

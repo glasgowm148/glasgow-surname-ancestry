@@ -179,19 +179,23 @@ def catalogue_coverage_panel(people=None, registry=None):
     rows = "".join(
         f'<tr><th scope="row">{label}</th><td>{number(row[0])}</td>'
         f'<td>{number(row[1])} <span class="statistics-coverage-share">({share(row[1], row[0])})</span></td>'
-        f'<td>{number(row[2])} <span class="statistics-coverage-share">({share(row[2], row[0])})</span></td></tr>'
+        f'<td>{number(row[0] - row[1])} <span class="statistics-coverage-share">({share(row[0] - row[1], row[0])})</span></td>'
+        f'<td>{number(row[2])} <span class="statistics-coverage-share">({share(row[2], row[0])})</span></td>'
+        f'<td>{number(row[0] - row[2])} <span class="statistics-coverage-share">({share(row[0] - row[2], row[0])})</span></td></tr>'
         for label, row in sorted(buckets.items(), key=lambda item: century_key(item[0]))
     )
     metric_parts = []
-    for label, value, show_share in (
-            ("Catalogue people", total, False),
-            ("With a WikiTree ID", wikitree, True),
-            ("With a FamilySearch ID", familysearch, True),
-            ("With both", both, True)):
+    for label, value, show_share, missing in (
+            ("Catalogue people", total, False, None),
+            ("With a WikiTree ID", wikitree, True, total - wikitree),
+            ("With a FamilySearch ID", familysearch, True, total - familysearch),
+            ("With both", both, True, total - both)):
         suffix = " · " + share(value, total) if show_share else ""
+        missing_html = ("<small class=\"statistics-metric-missing\">" + number(missing) +
+                        " missing · " + share(missing, total) + "</small>") if missing is not None else ""
         metric_parts.append(
             '<div class="statistics-metric"><strong>' + number(value) + '</strong>'
-            '<span>' + label + suffix + '</span></div>')
+            '<span>' + label + suffix + '</span>' + missing_html + '</div>')
     metrics = "".join(metric_parts)
     return (
         '<section class="statistics-panel" id="catalogue-coverage">'
@@ -200,12 +204,13 @@ def catalogue_coverage_panel(people=None, registry=None):
         '<div class="statistics-generations-table-wrap"><table>'
         '<caption>Catalogue people with WikiTree and FamilySearch identities, by birth century</caption>'
         '<thead><tr><th scope="col">Birth century</th><th scope="col">People</th>'
-        '<th scope="col">WikiTree ID</th><th scope="col">FamilySearch ID</th></tr></thead>'
+        '<th scope="col">WikiTree ID</th><th scope="col">WikiTree missing</th>'
+        '<th scope="col">FamilySearch ID</th><th scope="col">FamilySearch missing</th></tr></thead>'
         '<tbody>' + rows + '</tbody></table></div>'
         '<details class="statistics-panel-method"><summary>About this chart</summary>'
         '<p>People in the public research catalogue with a WikiTree or FamilySearch identity. '
         'Century rows use the first recorded birth year; missing or unusable birth dates are shown separately. '
-        'Table percentages are within each birth century; the cards are shares of the whole catalogue.</p>'
+        'Table percentages are within each birth century; the cards are shares of the whole catalogue. Missing counts are people without that identity.</p>'
         '</details></section>'
     )
 
