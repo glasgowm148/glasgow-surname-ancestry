@@ -55,7 +55,7 @@ class GuideLinkTests(unittest.TestCase):
         soup = BeautifulSoup(html, 'html.parser')
         link = soup.select_one('.question-status a.ev-label-link')
         self.assertEqual('/evidence/#open-questions-guide', link['href'])
-        self.assertEqual('Open · probable father, not proved', link.get_text())
+        self.assertEqual(questions.QUESTION_ACTIONS['glasgow-951'][0], link.get_text(strip=True))
 
     def test_home_about_records_and_sources_link_the_guide(self):
         for path in ('tools/site_sources/reader_guidance/home-start.html', 'tools/site_sources/reader_guidance/about-intro.html',

@@ -71,9 +71,9 @@
       [/^\/latest-findings(\/|$)/, '/latest-findings/'],
       [/^\/(sources|records|research\/transcriptions)(\/|$)/, '/sources/'],
       [/^\/(research|sources|records|events|free-space|compare|connections|candidate-matches)(\/|$)/, '/research/'],
-      [/^\/(about|evidence|resources|coverage|data|changes|privacy|feedback|status|sitemap)(\/|$)/, '/about/'],
+      [/^\/(about|evidence|resources|coverage|data|statistics|changes|privacy|feedback|status|sitemap)(\/|$)/, '/about/'],
       [/^\/(branches|places)(\/|$)/, '/branches/'],
-      [/^\/(catalogue|people|notables|early-records|statistics)(\/|\.|$)/, '/catalogue/'],
+      [/^\/(catalogue|people|notables|early-records)(\/|\.|$)/, '/catalogue/'],
       // Timeline is part of the Y-DNA section; Map is part of the Atlas.
       [/^\/(ydna|dna|timeline)(\/|$)/, '/ydna/'],
       [/^\/(onetree|map)(\/|$)/, '/onetree/'],
@@ -162,6 +162,7 @@
         make('/about/', 'About this project'),
         make('/evidence/', 'How to read the evidence'),
         make('/coverage/', 'About the data'),
+        make('/statistics/', 'Statistics'),
         make('/data/', 'Data & downloads'),
         make('/resources/', 'Resources'),
         make('/changes/', 'Change log'),
@@ -175,24 +176,23 @@
         make('/onetree/#view=dna', 'Y-DNA'),
         make('/map/', 'Map'),
       ];
-      if (/^\/(catalogue|people|notables|early-records|statistics)(\/|$)/.test(path)) return [
+      if (/^\/(catalogue|people|notables|early-records)(\/|$)/.test(path)) return [
         make('/catalogue/', 'People search'),
         make('/catalogue/?missingProfile=1#catalogue-filters', 'No WikiTree link', 'People with no confirmed WikiTree link'),
         make('/catalogue/?needsUpdate=1#catalogue-filters', 'WikiTree updates', 'People whose WikiTree details need updating'),
         make('/catalogue/#research-queue', 'Held & pending research'),
         make('/notables/', 'Notables'),
         make('/early-records/', 'Early records'),
-        make('/statistics/', 'Statistics'),
       ];
       return [];
     }
     const owned = ownedLinks();
     function owns(url) {
       const target = clean(url.pathname);
-      if (root === '/catalogue/') return /^\/(catalogue|people|notables|early-records|statistics)(\/|$)/.test(target);
+      if (root === '/catalogue/') return /^\/(catalogue|people|notables|early-records)(\/|$)/.test(target);
       if (root === '/research/') return /^\/(research|free-space|events|compare|connections|candidate-matches)(\/|$)/.test(target);
       if (root === '/sources/') return /^\/(sources|records|research\/transcriptions)(\/|$)/.test(target);
-      if (root === '/about/') return /^\/(about|evidence|resources|coverage|data|changes|privacy|feedback|status)(\/|$)/.test(target);
+      if (root === '/about/') return /^\/(about|evidence|resources|coverage|data|statistics|changes|privacy|feedback|status)(\/|$)/.test(target);
       if (root === '/branches/') return /^\/(branches|places)(\/|$)/.test(target);
       if (root === '/onetree/') return /^\/(onetree|map)$/.test(target);
       if (root === '/ydna/') return /^\/(ydna|timeline)$/.test(target);

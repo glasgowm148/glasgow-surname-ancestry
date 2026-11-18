@@ -48,7 +48,6 @@ SECTION_SUBMENU_ITEMS = {
         ('/catalogue/#research-queue', 'Held &amp; pending research'),
         ('/notables/', 'Notables'),
         ('/early-records/', 'Early records'),
-        ('/statistics/', 'Statistics'),
     ),
     '/branches/': (
         ('/branches/', 'All families'),
@@ -80,6 +79,7 @@ SECTION_SUBMENU_ITEMS = {
         ('/about/', 'About this project'),
         ('/evidence/', 'How to read the evidence'),
         ('/coverage/', 'About the data'),
+        ('/statistics/', 'Statistics'),
         ('/data/', 'Data &amp; downloads'),
         ('/resources/', 'Resources'),
         ('/changes/', 'Change log'),
@@ -112,7 +112,10 @@ def section_for(relative: Path) -> str:
     key = relative.parts[0]
     if key.endswith('.html'):
         key = key[:-5]
-    return SECTION_ROOTS.get(key, '/')
+    href = f'/{key}/'
+    owners = [section for section, items in SECTION_SUBMENU_ITEMS.items()
+              if any(target == href for target, _ in items)]
+    return owners[0] if len(owners) == 1 else SECTION_ROOTS.get(key, '/')
 
 
 def _relative_url(relative: Path) -> str:

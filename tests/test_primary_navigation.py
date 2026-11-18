@@ -41,9 +41,11 @@ class PrimaryNavigationTests(unittest.TestCase):
             self.assertIn(f'<span>{label}</span>', nav)
         self.assertNotIn('href="/statistics/"', nav)
         self.assertNotIn('href="/resources/"', nav)
-        # Statistics belongs under People.
+        # Statistics belongs under About.
+        people = NAVIGATION.render_primary_navigation(Path("catalogue/index.html"))
+        self.assertNotIn('href="/statistics/"', people)
         statistics = NAVIGATION.render_primary_navigation(Path("statistics/index.html"))
-        self.assertIn('href="/catalogue/" aria-current="page"', statistics)
+        self.assertIn('href="/about/" aria-current="page"', statistics)
         self.assertIn('<a href="/statistics/" aria-current="location">Statistics</a>', statistics)
 
     @requires_generated_data

@@ -66,12 +66,12 @@ class NavigationCompletionTests(unittest.TestCase):
         self.assertIn("root === '/latest-findings/'", js)
         # Changes and Feedback stay under About (AGENTS.md); site audit S1-07
         # adds the evidence guide and privacy to the same section.
-        self.assertIn("evidence|resources|coverage|data|changes|privacy|feedback|status", js)
+        self.assertIn("evidence|resources|coverage|data|statistics|changes|privacy|feedback|status", js)
         about_start = js.index("if (root === '/about/') return [")
         about_end = js.index("      ];", about_start)
         about_fallback = js[about_start:about_end]
         self.assertEqual(
-            ["/about/", "/evidence/", "/coverage/", "/data/", "/resources/",
+            ["/about/", "/evidence/", "/coverage/", "/statistics/", "/data/", "/resources/",
              "/changes/", "/privacy/", "/feedback/"],
             re.findall(r"make\('([^']+)'", about_fallback),
         )
