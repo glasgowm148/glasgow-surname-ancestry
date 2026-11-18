@@ -1041,11 +1041,12 @@ def generate_model(catalogue_path: Path, prior: dict) -> dict:
     family_aliases = reviewed_family_aliases(assessments, parent_aliases, {p['id'] for p in people})
     from tools.queue_catalogue_creations import native_creation_merges
     native_aliases, _ = native_creation_merges(ROOT)
-    model_ids = {p['id'] for p in people}
-    for old, current in native_aliases.items():
-        if current not in model_ids:
+    model_ids = {p['id'].casefold(): p['id'] for p in people}
+    for old, route_id in native_aliases.items():
+        current = model_ids.get(route_id.casefold())
+        if current is None:
             continue
-        if old in model_ids or family_aliases.get(old, current) != current:
+        if old.casefold() in model_ids or family_aliases.get(old, current) != current:
             raise ValueError('Conflicting native family alias: ' + old)
         family_aliases[old] = current
     reviewed_parent_ids = apply_reviewed_parent_replacements(people, assessments)
