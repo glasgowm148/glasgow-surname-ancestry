@@ -112524,7 +112524,11 @@
     "provenance": "private Ancestry capture glasgow-records/scotland-select-marriages-1561-1910-60144/results-AH.csv",
     "reviewed_on": "2026-11-18",
     "publish_to_record_index": true,
-    "reference": "Original data: Scotland, Marriages, 1561-1910 (FamilySearch index of Scottish parish registers)"
+    "reference": "Original data: Scotland, Marriages, 1561-1910 (FamilySearch index of Scottish parish registers)",
+    "supersedes_public_record_ids": [
+      "5f7b8506e37e1cf9"
+    ],
+    "public_record_replacement_reason": "This generated draft occurrence has the same provider entry 60144/1793735, indexed couple, date and place as the canonical row. Retain its identifier as a lookup alias and the held groom-draft association on the canonical record."
   },
   {
     "record_id": "ancestry-60144-1814737",
