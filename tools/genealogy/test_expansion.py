@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Focused checks for eligibility, privacy projection and refresh hooks."""
+from datetime import date
 import ast
 import json
 from pathlib import Path
@@ -27,6 +28,17 @@ def main():
     assert profiles.eligibility({'Privacy': 60, 'BirthDate': '1750'}) == 'historical_birth'
     assert profiles.eligibility({'Privacy': 60, 'DeathDate': '2000'}) == 'recorded_death'
     assert profiles.eligibility({'Privacy': 50, 'DeathDate': '1750'}) == 'not_open'
+    with patch.object(profiles, 'date', wraps=date) as calendar:
+        calendar.today.return_value = date(2026, 11, 18)
+        def reason(**fields):
+            return profiles.eligibility({'Privacy': 60, **fields})
+        assert reason(BirthDate='1906-11-17') == 'historical_birth'
+        for birth in ('1906-11-18', '1906-12-01', '1906-00-00', '1905-invalid'):
+            assert reason(BirthDate=birth) == 'living_status_unknown'
+        assert reason(DeathDate='2026-12-01') == 'living_status_unknown'
+        assert reason(DeathDate='2026-02-30') == 'living_status_unknown'
+        assert reason(IsLiving=' true ', DeathDate='1750') == 'living'
+    assert profiles.eligibility(eligible, {}) == 'not_open'
     from tools.public_privacy import PublicPrivacy
     with tempfile.TemporaryDirectory() as tmp:
         root = Path(tmp)

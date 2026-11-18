@@ -1,4 +1,5 @@
 """Project open-profile search projection; never stage raw API narratives."""
+from calendar import monthrange
 from collections import Counter
 from datetime import date
 import hashlib
@@ -73,22 +74,37 @@ def metadata(root=ROOT):
     return rows, origins
 
 
+def latest_possible_date(value):
+    """Upper bound of a WikiTree date, including zero month/day placeholders."""
+    match = re.fullmatch(r'(\d{4})(?:-(\d{2})(?:-(\d{2}))?)?', str(value or '').strip())
+    if not match:
+        return None
+    year, month, day = (int(part or 0) for part in match.groups())
+    if not year or (day and not month):
+        return None
+    month = month or 12
+    try:
+        return date(year, month, day or monthrange(year, month)[1])
+    except ValueError:
+        return None
+
+
 def eligibility(row, checked=None):
-    checked = checked or {}
-    if str(row.get('Privacy')) != '60' or (checked and str(checked.get('Privacy')) != '60'):
+    if str(row.get('Privacy')) != '60' or (checked is not None and str(checked.get('Privacy')) != '60'):
         return 'not_open'
-    if str(row.get('IsLiving', '')).lower() in ('1', 'true') or str(checked.get('IsLiving', '')).lower() in ('1', 'true'):
+    checked = checked or {}
+    if str(row.get('IsLiving', '')).strip().lower() in ('1', 'true') or str(checked.get('IsLiving', '')).strip().lower() in ('1', 'true'):
         return 'living'
     if row.get('likely_living') or row.get('withheld'):
         return 'living'
-    if str(row.get('IsLiving', '')).lower() in ('0', 'false') or str(checked.get('IsLiving', '')).lower() in ('0', 'false'):
+    if str(row.get('IsLiving', '')).strip().lower() in ('0', 'false') or str(checked.get('IsLiving', '')).strip().lower() in ('0', 'false'):
         return 'explicit_nonliving'
-    def year(key):
-        match = re.match(r'^(\d{4})', str(row.get(key, '')))
-        return int(match[1]) if match else 0
-    if 0 < year('DeathDate') <= date.today().year:
+    today = date.today()
+    death = latest_possible_date(row.get('DeathDate'))
+    if death and death <= today:
         return 'recorded_death'
-    if 0 < year('BirthDate') <= date.today().year - 120:
+    birth = latest_possible_date(row.get('BirthDate'))
+    if birth and (birth.year + 120, birth.month, birth.day) < (today.year, today.month, today.day):
         return 'historical_birth'
     return 'living_status_unknown'
 

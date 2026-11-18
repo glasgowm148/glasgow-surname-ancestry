@@ -9,7 +9,7 @@ WORKBENCH_DB ?= data/private/workbench/glasgow.sqlite
 # The checkout whose research files the migration reads (never written).
 WORKBENCH_SOURCE ?= .
 
-.PHONY: test validate validate-strict lint check check-browser check-accessibility check-research check-links build rebuild-local build-notables build-ancestry-progress migrate-workbench research-views check-workbench check-workbench-views build-workbench-site backup-workbench
+.PHONY: test test-js validate validate-strict lint check check-browser check-accessibility check-research check-links build rebuild-local build-notables build-ancestry-progress migrate-workbench research-views check-workbench check-workbench-views build-workbench-site backup-workbench
 
 # Recompute branch connectivity from the resolved public person dossiers.
 build-ancestry-progress:
@@ -22,6 +22,9 @@ build-notables:
 test:
 	$(PYTHON) -m unittest discover -s tests -q
 
+test-js:
+	node --test tests/*.cjs tests/record_search_context.js tests/test_catalogue_map_model.js
+
 validate:
 	$(PYTHON) tools/validate_data.py
 
@@ -31,7 +34,7 @@ validate-strict:
 lint:
 	$(RUFF) check src tools tests
 
-check: lint validate test check-research check-links check-workbench-views
+check: lint validate test test-js check-research check-links check-workbench-views
 
 # --- Research database (genealogy-research-workbench) ---------------------------
 # Load or catch up the research database from the legacy files (repeatable; never
