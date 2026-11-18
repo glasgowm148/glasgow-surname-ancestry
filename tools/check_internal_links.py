@@ -25,7 +25,8 @@ repository; ``deploy/nginx/`` holds only cache headers):
   nginx and is reported under its own cause.
 - ``#fragment`` targets are checked only for links into person pages
   (``/people/<slug>.html#id``, using the page's ``id`` attributes and its lazy
-  fragments' ``data-r-fragment-anchors``). They are reported, never gated.
+  fragments' ``data-r-fragment-anchors``). Managed merge aliases that forward
+  the fragment are checked against the survivor. They are reported, never gated.
 
 Broken links are grouped by cause, the generator pattern that produced them,
 with the builder to fix (``CAUSES``). With ``--baseline`` the check ratchets:
@@ -39,6 +40,7 @@ from __future__ import annotations
 
 import argparse
 from collections import Counter, defaultdict
+from functools import lru_cache
 import json
 from pathlib import Path
 import posixpath
@@ -46,6 +48,8 @@ import re
 import sys
 import time
 from urllib.parse import urlsplit
+
+from bs4 import BeautifulSoup
 
 from genealogy.sitecheck import (  # noqa: F401  (resolve/page_url/site_files are part of this tool's API)
     LinkCheckOptions, check_site, page_url, pairs_of, read_baseline, resolve, site_files,
@@ -177,11 +181,51 @@ def classify(page: str, value: str, target: str, how: str, files) -> str:
     return "missing-page"
 
 
+_PERSON_ALIAS_SCRIPT = re.compile(
+    r'location\.replace\("([a-z0-9_\'-]+\.html)"\+location\.search\+location\.hash\)'
+)
+
+
+def unresolved_person_anchors(rows, site_root, files):
+    """Keep misses except where a managed fragment-forwarding alias reaches the anchor."""
+    @lru_cache(maxsize=None)
+    def destination(relative):
+        soup = BeautifulSoup((site_root / relative).read_text(encoding="utf-8", errors="replace"), "html.parser")
+        refresh = soup.head.find("meta", attrs={"http-equiv": "refresh"}) if soup.head else None
+        if refresh:
+            for script in soup.head.find_all("script"):
+                if script.has_attr("src"):
+                    continue
+                match = _PERSON_ALIAS_SCRIPT.fullmatch(script.get_text().strip())
+                if match and refresh.get("content") == f"0; url={match[1]}":
+                    return f"people/{match[1]}", set()
+        anchors = {value for node in soup.find_all(True) for key in ("id", "name")
+                   if (value := node.get(key))}
+        for node in soup.select("[data-r-fragment-anchors]"):
+            anchors.update(node["data-r-fragment-anchors"].split())
+        return None, anchors
+
+    def reaches_anchor(row):
+        target = row["target"]
+        visited = set()
+        while target in files and target not in visited:
+            next_target, anchors = destination(target)
+            if next_target is None:
+                return bool(visited) and row["anchor"] in anchors
+            visited.add(target)
+            target = next_target
+        return False
+
+    return [row for row in rows if not reaches_anchor(row)]
+
+
 def check(site_root: Path, jobs: int | None = None) -> dict:
     """Scan the site and return all results (no baseline logic)."""
     started = time.time()
-    result = check_site(Path(site_root), OPTIONS, jobs)
+    site_root = Path(site_root)
+    result = check_site(site_root, OPTIONS, jobs)
     files = result.pop("files")
+    result["missing_anchors"] = unresolved_person_anchors(result["missing_anchors"], site_root, files)
     for row in result["broken"]:
         row["cause"] = classify(row["page"], row["href"], row["target"], row.pop("how"), files)
     result["elapsed_seconds"] = round(time.time() - started, 1)

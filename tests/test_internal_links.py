@@ -96,6 +96,34 @@ class InternalLinkCheckerTest(unittest.TestCase):
         self.assertEqual([(a["page"], a["anchor"]) for a in result["missing_anchors"]],
                          [("catalogue/index.html", "no-such-anchor")])
 
+    def test_person_aliases_preserve_only_anchors_that_reach_the_survivor(self):
+        from tools.publish_retired_record_redirects import redirect_page
+
+        write(self.site / "people/old.html", redirect_page("Old", "Middle"))
+        write(self.site / "people/middle.html", redirect_page("Middle", "A"))
+        write(self.site / "people/loop.html", redirect_page("Loop", "Loop"))
+        write(self.site / "people/refresh-only.html",
+              page("", '<meta http-equiv="refresh" content="0; url=a.html">'))
+        write(self.site / "index.html", page(
+            '<a href="/people/old.html#known">forwarded id</a>'
+            '<a href="/people/old.html#lazy-one">forwarded lazy id</a>'
+            '<a href="/people/old.html#missing">missing on survivor</a>'
+            '<a href="/people/loop.html#known">alias cycle</a>'
+            '<a href="/people/refresh-only.html#known">fragment dropped</a>'))
+        result = checker.check(self.site, jobs=1)
+        self.assertEqual([(row["target"], row["anchor"]) for row in result["missing_anchors"]
+                          if row["page"] == "index.html"],
+                         [("people/old.html", "missing"), ("people/loop.html", "known"),
+                          ("people/refresh-only.html", "known")])
+
+    def test_legacy_research_tools_anchor_lands_inside_archive_section(self):
+        from tools.repair_person_hierarchy import _with_legacy_anchors
+
+        archive = '<details id="archive-tools"><summary>Original notes and downloads</summary></details>'
+        result = _with_legacy_anchors(archive)
+        self.assertRegex(result, r'<details id="archive-tools">.*<span id="research-tools" class="anchor-alias"')
+        self.assertEqual(_with_legacy_anchors(result), result)
+
     def test_parallel_scan_matches_serial(self):
         serial = checker.check(self.site, jobs=1)
         parallel = checker.check(self.site, jobs=2)

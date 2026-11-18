@@ -2235,6 +2235,7 @@ _LEGACY_ANCHORS = (
     # moved into the archive/update disclosures.
     ("research-findings", ("research", "full-research", "overview")),
     ("research-update", ("wikitree-update", "archive-tools", "overview")),
+    ("research-tools", ("archive-tools",)),
     ("review-provenance", ("archive-tools", "overview")),
     # Andrew-1319 still links to William-1026's former recommendation heading.
     # Keep that incoming link beside the current overall conclusion.
