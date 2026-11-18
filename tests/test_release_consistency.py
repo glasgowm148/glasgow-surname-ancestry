@@ -1,8 +1,11 @@
+from contextlib import redirect_stdout
 import importlib.util
+from io import StringIO
 import json
 import tempfile
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
 ROOT = Path(__file__).resolve().parents[1]
 spec = importlib.util.spec_from_file_location("check_release_consistency", ROOT / "tools/check_release_consistency.py")
@@ -57,6 +60,25 @@ class ReleaseConsistencyTests(unittest.TestCase):
                 self.assertEqual(3, json.loads((web / "health.json").read_text())["counts"]["people"])
             finally:
                 consistency.WEB = original
+
+    def test_fix_exits_unsuccessfully_when_people_data_disagrees(self):
+        with tempfile.TemporaryDirectory() as directory:
+            web = Path(directory)
+            (web / "data").mkdir()
+            (web / "data/catalogue-search-index.json").write_text('[{}]')
+            (web / "data/people.json").write_text('{"people": [], "count": 0}')
+            (web / "health.json").write_text('{"counts": {"people": 0}}')
+            output = StringIO()
+            with patch.object(consistency, "WEB", web), patch(
+                "sys.argv", ["check_release_consistency", "--fix", "--no-research"],
+            ), redirect_stdout(output):
+                with self.assertRaises(SystemExit) as failure:
+                    consistency.main()
+
+            self.assertEqual(1, failure.exception.code)
+            self.assertIn("fixed: health.json people: 0 != 1", output.getvalue())
+            self.assertIn("MISMATCH: people.json people: 0 != search index 1", output.getvalue())
+            self.assertNotIn("fixed: people.json", output.getvalue())
 
 
 if __name__ == "__main__":

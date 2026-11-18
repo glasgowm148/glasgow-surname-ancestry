@@ -101,8 +101,9 @@ def publish(*, render_people=True, gate=True, refresh_index=True):
     finalize(ROOT / 'www')
     # Finalizing adds the reviewed canonical records after the catalogue wrote its
     # headline totals; bring those totals into line (only numbers it can verify).
-    for fixed in runpy.run_path(str(ROOT / 'tools/check_release_consistency.py'))['check'](True):
-        print('fixed:', fixed)
+    unresolved = runpy.run_path(str(ROOT / 'tools/check_release_consistency.py'))['repair_totals']()
+    if unresolved:
+        raise RuntimeError('Release totals remain inconsistent:\n' + '\n'.join(unresolved))
     if not refresh_index:
         return
     refresh_result = runpy.run_path(str(ROOT / 'tools/genealogy/batch_complete.py'))['refresh_after_batch']()

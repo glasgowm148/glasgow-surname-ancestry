@@ -13,7 +13,9 @@ import shlex
 import subprocess
 import sys
 import tarfile
+import tempfile
 from pathlib import Path
+from typing import BinaryIO
 
 
 EXCLUDE_PATTERNS = (
@@ -104,34 +106,50 @@ def bundle_name(now: dt.datetime | None = None) -> str:
     return f"glasgow-site-{now.strftime('%Y%m%d-%H%M%S')}.tar.gz"
 
 
+class DigestReader:
+    """Hash the same bytes that tarfile writes into the archive."""
+
+    def __init__(self, handle: BinaryIO) -> None:
+        self.handle = handle
+        self.digest = hashlib.sha256()
+
+    def read(self, size: int) -> bytes:
+        chunk = self.handle.read(size)
+        self.digest.update(chunk)
+        return chunk
+
+
 def make_bundle(site_root: Path, now: dt.datetime | None = None) -> Path:
     """Create a verified, rootless tarball in dist/ beside (never inside) www."""
     validate_release_tree(site_root)
     destination = site_root.parent / BUNDLE_DIR_NAME / bundle_name(now)
     destination.parent.mkdir(parents=True, exist_ok=True)
-    temporary = site_root.parent / f".{destination.name}.tmp"
-    with tarfile.open(temporary, "w:gz") as archive:
-        manifest = []
-        for path in sorted(site_root.rglob("*")):
-            relative = path.relative_to(site_root)
-            if is_excluded(relative) or relative.as_posix() == "release-manifest.json" or path.is_symlink() or not path.is_file():
-                continue
-            with path.open("rb") as handle:
-                digest = hashlib.file_digest(handle, "sha256").hexdigest()
-            manifest.append({"path": relative.as_posix(), "bytes": path.stat().st_size, "sha256": digest})
-            info = archive.gettarinfo(path, arcname=relative.as_posix())
+    with tempfile.TemporaryDirectory(dir=destination.parent) as staging:
+        temporary = Path(staging) / destination.name
+        with tarfile.open(temporary, "w:gz", dereference=True) as archive:
+            manifest = []
+            for path in sorted(site_root.rglob("*")):
+                relative = path.relative_to(site_root)
+                if is_excluded(relative) or relative.as_posix() == "release-manifest.json" or path.is_symlink() or not path.is_file():
+                    continue
+                with path.open("rb") as handle:
+                    info = archive.gettarinfo(arcname=relative.as_posix(), fileobj=handle)
+                    info.mode = 0o644
+                    reader = DigestReader(handle)
+                    archive.addfile(info, reader)
+                manifest.append({
+                    "path": relative.as_posix(),
+                    "bytes": info.size,
+                    "sha256": reader.digest.hexdigest(),
+                })
+            content = (json.dumps({"schema_version": 1, "files": manifest}, separators=(",", ":")) + "\n").encode()
+            info = tarfile.TarInfo("release-manifest.json")
+            info.size = len(content)
             info.mode = 0o644
-            with path.open("rb") as handle:
-                archive.addfile(info, handle)
-        content = (json.dumps({"schema_version": 1, "files": manifest}, separators=(",", ":")) + "\n").encode()
-        info = tarfile.TarInfo("release-manifest.json")
-        info.size = len(content)
-        info.mode = 0o644
-        archive.addfile(info, io.BytesIO(content))
-    subprocess.run(["gzip", "-t", str(temporary)], check=True)
-    temporary.replace(destination)
+            archive.addfile(info, io.BytesIO(content))
+        subprocess.run(["gzip", "-t", str(temporary)], check=True)
+        temporary.replace(destination)
     return destination
-
 
 def target_parts(target: str) -> tuple[str, str]:
     if ":" not in target:

@@ -100,18 +100,31 @@ def check(fix: bool) -> list[str]:
     return problems
 
 
+def repair_totals() -> list[str]:
+    """Report completed repairs and return discrepancies still present."""
+    before = check(fix=True)
+    if not before:
+        return []
+    remaining = check(fix=False)
+    unresolved = set(remaining)
+    for problem in before:
+        if problem not in unresolved:
+            print("fixed:", problem)
+    return remaining
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument("--fix", action="store_true", help="rewrite verified totals in place")
     parser.add_argument("--no-research", action="store_true", help="skip the research publication check")
     args = parser.parse_args()
-    problems = check(args.fix)
+    problems = repair_totals() if args.fix else check(fix=False)
     for problem in problems:
-        print(("fixed: " if args.fix else "MISMATCH: ") + problem)
+        print("MISMATCH:", problem)
     research_failed = False if args.no_research else research_check() != 0
-    if (problems and not args.fix) or research_failed:
+    if problems or research_failed:
         sys.exit(1)
-    print("Release totals consistent." if not problems else f"Fixed {len(problems)} total(s).")
+    print("Release totals consistent.")
 
 
 def research_check() -> int:

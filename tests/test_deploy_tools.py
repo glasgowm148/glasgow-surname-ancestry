@@ -8,6 +8,7 @@ import tarfile
 import tempfile
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
 from tools import deploy_site, stamp_asset_versions
 
@@ -65,6 +66,41 @@ class DeploySiteTests(unittest.TestCase):
                     data = contents.extractfile(entry["path"]).read()
                     self.assertEqual(entry["bytes"], len(data))
                     self.assertEqual(entry["sha256"], hashlib.sha256(data).hexdigest())
+
+    def test_bundle_hashes_the_bytes_archived_during_a_concurrent_edit(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary) / "www"
+            root.mkdir()
+            page = root / "index.html"
+            page.write_bytes(b"before")
+            get_info = tarfile.TarFile.gettarinfo
+
+            def edit_page(archive, *args, **kwargs):
+                info = get_info(archive, *args, **kwargs)
+                page.write_bytes(b"edited")
+                return info
+
+            with patch.object(tarfile.TarFile, "gettarinfo", edit_page):
+                archive = deploy_site.make_bundle(root)
+
+            with tarfile.open(archive) as contents:
+                data = contents.extractfile("index.html").read()
+                manifest = json.load(contents.extractfile("release-manifest.json"))
+            self.assertEqual(b"edited", data)
+            self.assertEqual(hashlib.sha256(data).hexdigest(), manifest["files"][0]["sha256"])
+
+    def test_failed_bundle_removes_incomplete_archive(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary) / "www"
+            root.mkdir()
+            (root / "index.html").write_bytes(b"ok")
+            error = subprocess.CalledProcessError(1, "gzip")
+
+            with patch.object(deploy_site.subprocess, "run", side_effect=error):
+                with self.assertRaises(subprocess.CalledProcessError):
+                    deploy_site.make_bundle(root)
+
+            self.assertEqual([], list((root.parent / deploy_site.BUNDLE_DIR_NAME).iterdir()))
 
     def test_bundle_rejects_escaped_symlink(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
