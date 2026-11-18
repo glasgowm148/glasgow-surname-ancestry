@@ -317,5 +317,81 @@ class CurrentExplanatoryOverrideTests(unittest.TestCase):
         self.assertEqual(legacy["source_summary"], result["source_summary"])
         self.assertEqual(legacy["identity_scope"], result["identity_scope"])
 
+class LegacyWordingCorrectionTests(unittest.TestCase):
+    def setUp(self):
+        self.assertion = {
+            "assertion_id": "legacy-father", "claim": "The assessed father",
+            "status": "probable", "assessment_date": "2026-10-17",
+            "limitations": "Reported Robert Example relationship",
+            "model_note": "Compare Robert Example",
+            "assessment_history": [{"status": "unknown", "source_basis": "Archive named Robert Example"}],
+            "perspectives": {"Child-1": {"relationship": "father", "status_label": "Probable in the family history",
+                                          "reason": "Reported Robert Example relationship"}},
+        }
+        self.estimate = {
+            "assertion_id": "legacy-father", "subject_id": "Child-1", "relative_id": "Father-1",
+            "relationship": "father", "percent": 76, "assessment_status": "probable",
+            "basis": "Compare Robert Example", "reviewed": "2026-10-17",
+        }
+        self.original = {
+            "revision": 1, "change_set_id": "original", "tool": "workbench_migrate relationships",
+            "status": "probable", "estimate_percent": 76, "assessed_on": "2026-10-17",
+            "reasoning": "Evidence for the relationship", "limitations": "Reported Robert Example relationship",
+            "basis_json": None, "working_selection": False, "attachment_status": None,
+            "extra_json": json.dumps({"estimate_source": {"basis": "Compare Robert Example"}}),
+        }
+        self.correction = {
+            **self.original, "revision": 2, "change_set_id": "editorial", "tool": "genealogy proposal apply",
+            "limitations": "Reported William Example relationship",
+            "extra_json": json.dumps({
+                "estimate_source": {"basis": "Compare William Example"},
+                "legacy_wording_corrections": [["Robert Example", "William Example"]],
+            }),
+        }
+
+    def views(self, revisions):
+        view = Views.__new__(Views)
+        view._merged_entities = {}
+        view._merged_public = {}
+        view.claims = lambda: [{
+            "id": "claim-example",
+            "extra": {"legacy": self.assertion, "legacy_index": 0,
+                      "legacy_estimates": [(0, self.estimate)]},
+        }]
+        view.revisions = lambda _: revisions
+        return view
+
+    def test_wording_correction_preserves_fields_and_history(self):
+        view = self.views([self.original, self.correction])
+        (assessment,) = view.assessments()
+        (estimate,) = view.estimates()
+        expected = dict(self.assertion, limitations="Reported William Example relationship",
+                        model_note="Compare William Example",
+                        perspectives={"Child-1": {**self.assertion["perspectives"]["Child-1"],
+                                                  "reason": "Reported William Example relationship"}})
+        self.assertEqual(expected, assessment)
+        self.assertEqual(dict(self.estimate, basis="Compare William Example"), estimate)
+
+    def test_subsequent_reassessment_uses_normal_projection(self):
+        regrade = {**self.correction, "revision": 3, "change_set_id": "regrade",
+                   "status": "proved", "estimate_percent": 99, "assessed_on": "2026-11-19",
+                   "reasoning": "New relationship evidence", "limitations": "Scope of new evidence",
+                   "extra_json": None}
+        view = self.views([self.original, self.correction, regrade])
+        (assessment,) = view.assessments()
+        (estimate,) = view.estimates()
+        self.assertEqual("proved", assessment["status"])
+        self.assertEqual("New relationship evidence", assessment["basis"])
+        (ordinary_assessment,) = self.views([self.original, regrade]).assessments()
+        self.assertEqual(ordinary_assessment["assessment_history"], assessment["assessment_history"])
+        self.assertEqual("Compare William Example", assessment["model_note"])
+        self.assertEqual(99, estimate["percent"])
+        self.assertEqual(76, estimate["assessment_history"][0]["percent"])
+
+    def test_wording_revision_cannot_hide_a_grade_change(self):
+        with self.assertRaisesRegex(ValueError, "preserve the previous assessment metadata"):
+            self.views([self.original, dict(self.correction, estimate_percent=99)]).assessments()
+
+
 if __name__ == "__main__":
     unittest.main()

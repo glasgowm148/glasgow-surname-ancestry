@@ -21,7 +21,9 @@ Rules:
   that previously showed an earlier revision is corrected, with that earlier
   value kept in its ``assessment_history``.
 * A claim reassessed through the workbench gets its derived fields (status,
-  probability, dates, basis, history) from the database revisions.
+  probability, dates, basis, history) from the database revisions. A revision
+  whose legacy wording corrections preserve the prior assessment metadata
+  updates the current imported prose without adding a research review.
 * Relationship claims created in the database after migration are appended,
   as are explicitly approved native reassessments of imported estimate-only
   claims. Unreviewed imports retain their original compatibility shape.
@@ -72,6 +74,72 @@ def _extra(row: dict[str, Any]) -> dict[str, Any]:
 
 def dump(value: Any) -> str:
     return json.dumps(value, indent=2, ensure_ascii=False) + "\n"
+
+
+WORDING_CORRECTIONS = "legacy_wording_corrections"
+_REVISION_AUDIT_FIELDS = {"revision", "change_set_id", "tool", "reasoning", "limitations", "extra_json"}
+_LEGACY_PROSE_FIELDS = {"basis", "claim", "limitations", "model_note", "reason", "record_scope", "scope"}
+
+
+def _replace_wording(value: Any, corrections: list[list[str]]) -> Any:
+    if isinstance(value, str):
+        for old, new in corrections:
+            value = value.replace(old, new)
+        return value
+    if isinstance(value, dict):
+        return {key: _replace_wording(item, corrections) for key, item in value.items()}
+    if isinstance(value, list):
+        return [_replace_wording(item, corrections) for item in value]
+    return value
+
+
+def _legacy_wording(row: dict[str, Any], corrections: list[list[str]]) -> dict[str, Any]:
+    if not corrections:
+        return row
+    corrected = {key: _replace_wording(value, corrections) if key in _LEGACY_PROSE_FIELDS else value
+                 for key, value in row.items()}
+    if isinstance(corrected.get("probability"), dict):
+        corrected["probability"] = {
+            key: _replace_wording(value, corrections) if key in ("basis", "scope") else value
+            for key, value in corrected["probability"].items()
+        }
+    if isinstance(corrected.get("perspectives"), dict):
+        corrected["perspectives"] = {
+            person: {key: _replace_wording(value, corrections) if key == "reason" else value
+                     for key, value in perspective.items()}
+            if isinstance(perspective, dict) else perspective
+            for person, perspective in corrected["perspectives"].items()
+        }
+    return corrected
+
+
+def _legacy_assessment_revisions(revisions: list[dict[str, Any]]) -> tuple[list[dict[str, Any]], list[list[str]]]:
+    """Apply audited literal corrections without turning them into genealogy reviews."""
+    substantive = []
+    corrections = []
+    previous = None
+    for revision in revisions:
+        extra = _extra(revision)
+        changes = extra.pop(WORDING_CORRECTIONS, None)
+        if changes is None:
+            substantive.append(revision)
+        else:
+            valid = isinstance(changes, list) and changes and all(
+                isinstance(pair, list) and len(pair) == 2 and all(isinstance(text, str) for text in pair)
+                and pair[0] and pair[0] != pair[1] for pair in changes)
+            if previous is None or not valid:
+                raise ValueError("A wording correction needs a prior revision and nonempty literal substitutions")
+            prior_extra = _extra(previous)
+            prior_extra.pop(WORDING_CORRECTIONS, None)
+            substantive_fields = revision.keys() | previous.keys()
+            if (any(revision.get(key) != previous.get(key) for key in substantive_fields - _REVISION_AUDIT_FIELDS)
+                    or any(revision.get(key) != _replace_wording(previous.get(key), changes)
+                           for key in ("reasoning", "limitations"))
+                    or extra != _replace_wording(prior_extra, changes)):
+                raise ValueError("A wording correction must preserve the previous assessment metadata")
+            corrections.extend(changes)
+        previous = revision
+    return substantive, corrections
 
 
 def research_fields(revision: dict[str, Any]) -> dict[str, Any]:
@@ -221,13 +289,16 @@ class Views:
         for claim in self.claims():
             extra = claim["extra"]
             revisions = self.revisions(claim["id"])
+            corrections = []
+            if "legacy" in extra or extra.get("legacy_estimates"):
+                revisions, corrections = _legacy_assessment_revisions(revisions)
             current = revisions[-1] if revisions else None
             if "legacy" in extra:
                 row = dict(extra["legacy"])
                 row = self._legacy_participants(row)
                 if not self.migrated(current):
                     row.update(self.derived_assessment(revisions, row))
-                legacy.append((extra.get("legacy_index", 0), row))
+                legacy.append((extra.get("legacy_index", 0), _legacy_wording(row, corrections)))
             elif current is not None and (
                     ("legacy_estimates" not in extra and self.researched_here(claim))
                     or ("legacy_estimates" in extra
@@ -363,11 +434,14 @@ class Views:
         for claim in self.claims():
             extra = claim["extra"]
             revisions = self.revisions(claim["id"])
+            corrections = []
+            if "legacy" in extra or extra.get("legacy_estimates"):
+                revisions, corrections = _legacy_assessment_revisions(revisions)
             current = revisions[-1] if revisions else None
             percent = current["estimate_percent"] if current else None
             for index, row in extra.get("legacy_estimates", []):
                 if self.migrated(current) and row.get("percent") == percent:
-                    projected = self._legacy_participants(row)
+                    projected = self._legacy_participants(_legacy_wording(row, corrections))
                     originals[id(projected)] = row
                     legacy.append((index, projected))
                     continue
@@ -388,6 +462,7 @@ class Views:
                         if current["basis_json"]:
                             corrected["source_ids"] = json.loads(current["basis_json"])
                         corrected.update(research_fields(current))
+                corrected = _legacy_wording(corrected, corrections)
                 originals[id(corrected)] = row
                 legacy.append((index, corrected))
             if not extra.get("legacy_estimates") and "legacy" not in extra and current is not None \
