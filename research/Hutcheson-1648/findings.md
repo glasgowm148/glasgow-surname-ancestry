@@ -4,7 +4,7 @@
 
 The father relationship with [Thomas Hutcheson](https://www.wikitree.com/wiki/Hutcheson-1647) is assessed as **confident**. Specific compiled family histories identify George as Thomas Sr.'s eldest son; chronology and named family match.
 
-George is also the father named in the published account of the Holland pensioner [Janet Hutcheson](https://www.wikitree.com/wiki/Hutcheson-1650). The source-basis correction of 12 November 2026 retains their existing confident father assessment; identity with his unnamed 1588 child by Elspeth Craig remains unresolved.
+Published descriptions of later records support George’s marriage to [Elizabeth (Elspeth) Craig](https://www.wikitree.com/wiki/Craig-19072). The published burgh order names George as father of [Janet Hutcheson](https://www.wikitree.com/wiki/Hutcheson-1650), the Holland pensioner. Her mother and her potential identity with the unnamed 1588 girl remain unresolved. The existing confident father assessment for this Janet is retained.
 
 Reviewed: 2026-11-13
 
@@ -23,7 +23,7 @@ Source summary: W.H. Hill, Early Records of an Old Glasgow Family; History of Gl
 <!-- repo-integration-audit-2026-10-07:L05-012 -->
 ## Relationship assessment — daughter Janet (Hutcheson-1650), 28 September 2026
 
-The September review relied on a biography that called the 1588 child Janet. This attribution is corrected on 12 November 2026: the published *History of Glasgow*, volume II, [chapter XX](https://www.electricscotland.com/history/glasgow/glasgow2_20.htm), leaves that child unnamed but quotes a 1679 burgh order naming Janet Hutcheson in Holland as the natural daughter of deceased George. The surrounding narrative identifies the hospital founder. The existing confident father grade is retained on that named account, without a new percentage or selection flag. No original burgh or kirk-session entry was inspected. Janet's identity with the unnamed 1588 child and her mother remain unresolved.
+The September review relied on a biography that called the 1588 child Janet. This attribution is corrected on 12 November 2026: the published *History of Glasgow*, volume II, [chapter XX](https://www.electricscotland.com/history/glasgow/glasgow2_20.htm), leaves that child unnamed but quotes a 1679 burgh order naming Janet Hutcheson in Holland as the natural daughter of deceased George. The surrounding narrative identifies the hospital founder. The existing confident father grade is retained on that named account, without a new percentage or selection flag. The original burgh and kirk-session entries remain uninspected. Janet's identity with the unnamed 1588 child and her mother remain unresolved.
 
 
 <!-- repo-integration-audit-2026-10-07:L17-005 -->
@@ -36,7 +36,7 @@ The captured WikiTree biography, which lists W. H. Hill, *Early Records of an Ol
 - ten days before his death he mortified a tenement and 20,000 merks to found an almshouse;
 - he died on 26 December 1639 and was buried on the east side of Glasgow Cathedral.
 
-These are earlier compiled-history statements, superseded where qualified by the 13 November review below; the notarial instrument, kirk-session minute and will have not been seen. Earlier caution: the captured biography of Janet Hutcheson (Hutcheson-1654) says that George and Thomas died unmarried and without heirs, which contradicts the Craig marriage; neither claim has been tested.
+These are earlier compiled-history statements, superseded where qualified by the 13 November review below; the notarial instrument, kirk-session minute and will have not been seen. The captured biography of Janet Hutcheson (Hutcheson-1654) gives a conflicting account of the founders’ marriages and heirs. See the 18 November source comparison below for the founders’ marriage and succession evidence.
 
 Recorded in `research/Hutcheson-1648/Hutcheson-1648.md` (28 September 2026); carried into this file on 7 October 2026.
 
@@ -47,7 +47,7 @@ George Hutcheson of Lambhill was a Glasgow notary, public writer, lender and lan
 
 George’s charitable deed of 16 December 1639 provided property and 20,000 merks in bonds for an institution supporting poor elderly men. Thomas, his younger brother, subsequently added endowments and carried forward the associated school. Hutchesons’ Grammar School records the foundation stone on 19 March 1641 and its first pupils in 1643. George’s foundation was an almshouse in the historical sense of hospital, not a modern medical institution.
 
-George died in December 1639. Published accounts differ between 26 and 31 December and between burial on the east and south sides of Glasgow Cathedral. Retain the existing 26 December value with its source attribution rather than silently replacing it. The original burial evidence, 1588 kirk-session entry and relevant testament have not been inspected in this batch. The older claim that he died unmarried is contradicted by later published accounts of Elizabeth Craig. The named Holland daughter Janet remains distinct from the unnamed girl in the 1588 account unless further evidence identifies them.
+George died in December 1639. Published accounts differ between 26 and 31 December and between burial on the east and south sides of Glasgow Cathedral. Retain the existing 26 December value with its source attribution rather than silently replacing it. The original burial evidence, 1588 kirk-session entry and relevant testament have not been inspected in this batch. The published accounts of Elizabeth Craig and the two child references are compared below under the 18 November review.
 
 Sources: [Stuart Handley, ‘Hutcheson, George (1550x60–1639), philanthropist’, Oxford Dictionary of National Biography, published 23 September 2004, version 21 May 2009, DOI 10.1093/ref:odnb/14275.](https://academic.oup.com/oxford-dictionary-of-national-biography/reference/63486/reference-article-abstract/580683688); [History of Glasgow, volume II, chapter XX, ‘George Hutcheson, Notary, Banker, and Philanthropist’, public HTML transcription.](https://www.electricscotland.com/history/glasgow/glasgow2_20.htm); [T. F. Henderson, ‘Hutcheson, George’, Dictionary of National Biography, volume 28 (1891), public-domain text transcribed on Wikisource.](https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Hutcheson,_George); [Hutchesons’ Grammar School, ‘Our History’, ‘Our founders’ section.](https://www.hutchesons.org/our-school/our-history/). Public extracts and published text were reviewed; the full paywalled ODNB article and original manuscripts were not inspected.
 
@@ -59,3 +59,9 @@ George's deed of 16 December 1639 endowed a charitable hospital for poor older m
 ## Source findings — printed death-date evidence, 13 November 2026
 
 Hill’s institutional history (1881), printed p.37, has now been visually checked. It reports 26 December 1639 and burial on the east side of the Cathedral, footnoting George’s Testament Testamentar. This makes 26 December the better-attributed published claim in the sources reviewed here. Henderson’s DNB (1891) gives 31 December and south-side burial without a date-specific citation. The cited testament remains uninspected, so the discrepancy is unresolved at the original-record level. Source: [Hill, printed p.37](https://archive.org/details/historyofhospita00hutc/page/37/mode/1up).
+
+## Source findings — marriage, children and succession, 18 November 2026
+
+Hill reproduces the 28 August 1588 kirk-session entry, which records an unnamed girl born to George and Elizabeth (Elspeth) Craig and orders their marriage within a month. Hill also describes later infeftments granting Elspeth a liferent and discusses her 1632 testament and codicil as the records of George’s wife. These later records support the marriage. The kirk-session order supplies no date for the wedding. [Hill (1881), printed pp. 35–36](https://deriv.nls.uk/dcn23/9542/95420646.23.pdf).
+
+The 1679 burgh order names Janet Hutcheson in Holland as George’s natural daughter. Hill inferred that she was a different person from the unnamed girl in the 1588 entry. The evidence reviewed leaves that identity and Janet’s mother unresolved. George’s published will names his brother Thomas as executor, and Hill reports Thomas’s service as George’s heir in 1640. Those roles do not establish how many children George had. The original kirk-session minute, infeftments, testaments, burgh order and 1640 retour remain uninspected. [Hill (1881), printed pp. 37–38 and p. 47 n. 2](https://deriv.nls.uk/dcn23/9542/95420646.23.pdf), [History of Glasgow, vol. II, ch. XX](https://www.electricscotland.com/history/glasgow/glasgow2_20.htm).

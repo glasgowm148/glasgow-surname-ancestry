@@ -1,39 +1,21 @@
 == Biography ==
-'''Helen Hutcheson''' was born about 1575, likely in Gairbraid or Lambhill near Glasgow, Lanarkshire, Scotland. She was one of the five known children of [[Hutcheson-1647|Thomas Hutcheson (abt. 1520–1594)]] and [[Herbertson-132|Helen (Herbertson) Hutcheson (1520–)]].  
+'''Helen Hutcheson''' was the wife of [[Hill-17647|Ninian Hill]] and sister of [[Hutcheson-1649|Mr Thomas Hutcheson of Lambhill]]. The Lanark retour of 24 May 1642 names Helen as Ninian’s widow and calls him a citizen of Glasgow. It identifies Thomas as the brother of Helen and [[Hutcheson-1654|Janet Hutcheson]]. Compiled family histories also identify her as a sister of [[Hutcheson-1648|George Hutcheson]], Thomas’s brother and fellow founder of Hutchesons’ Hospital.<ref name="Retour206">Great Britain, Record Commission, ''Inquisitionum ad Capellam Domini Regis Retornatarum Abbreviatio'', vol. I (London, 1811), [https://archive.org/details/inquisitionumadc00grea/page/n498/mode/1up Lanark no. 206, 24 May 1642], register xvi.233. Printed abstract inspected. Original inquest uninspected.</ref><ref name="Barlanark">''The Old Country Houses of the Old Glasgow Gentry'', VIII, [http://gdl.cdlr.strath.ac.uk/smihou/smihou008.htm Barlanark].</ref>
 
-This made her the sister of [[Hutcheson-1648|George Hutcheson (1554–1639)]] and [[Hutcheson-1649|Thomas Hutcheson Jr. (c. 1558–1641)]], the famous Glasgow notary brothers who founded Hutchesons’ Hospital and Grammar School.
+== Marriage and children ==
+William H. Hill dates their marriage to 1609 and reports Ninian’s death in 1623. Hill reproduces a Glasgow baptism entry dated 8 December 1623 which names their lawful son George and calls his father deceased. That published extract places Ninian’s death by the baptism date. The 1642 retour independently confirms the widowhood. The original marriage, baptism and testament entries remain uninspected.<ref name="Hill1881p13">W. H. Hill, ''The History of the Hospital and School in Glasgow Founded by George and Thomas Hutcheson'' (Glasgow, 1881), [https://archive.org/details/historyofhospita00hutc/page/13/mode/1up p. 13 and footnote 1].</ref><ref name="Retour206" />
 
-== Family ==
-About 1609, Helen married [[Hill-17647|Ninian Hill of Garioch (1583–1623)]], Merchant Burgess in Glasgow and younger son of James Hill of Ibrox. Their marriage forged a strong alliance between the Hill and Hutcheson families, connecting the Garioch and Lambhill estates that funded major charitable endowments for the city.
+Hill’s published extract of George Hutcheson’s testament names four of Helen’s children as legatees: Ninian, Margaret, Elspeth and Helen Hill. Hill reports six more children from the Glasgow baptism register, including four sons and two daughters, most of whom died in infancy. His account names Margaret’s husbands in order as John Bryson and Bailie James Pollock. He gives Thomas Pollock of Balgray as Elspeth’s husband, and William Gray of Carntyne as Marion’s. Helen married a Glasgow merchant named Maxwell. Hill gives John Maxwell as a possible identification and reports conflicting accounts of their issue. The Barlanark account calls him John.<ref name="Hill1881p9">Hill, ''History of the Hospital and School'', [https://archive.org/download/historyofhospita00hutc/page/n30.jpg printed p. 9], published extract of the testament. Original testament uninspected.</ref><ref name="Hill1881p13" /><ref>Hill, [https://archive.org/download/historyofhospita00hutc/page/n35.jpg printed p. 14] and [https://archive.org/details/historyofhospita00hutc/page/16/mode/1up p. 16].</ref><ref name="Barlanark" />
 
-Helen and Ninian had ten known children, several of whom — along with some grandchildren (“oyes”) — appear as legatees in the will of George Hutcheson in 1639:
+The wider compiled pedigree also names Janet, James, an earlier Ninian and two sons named George. The identification of each baptism remains to be checked. A Glasgow register entry cited for [[Hill-17648|Ninian Hill of Lambhill]] gives 10 July 1621 and names Ninian Hill and Heleine Hutchesoune as his parents. Hill’s printed account assigns the eldest surviving Ninian a birth in 1623. The chronology of the same-named children remains unresolved. Margaret’s Bryson and Pollock children include legatees described as grandchildren in the testament extract.<ref name="Hill1902">W. H. Hill, ''Early Records of an Old Glasgow Family'' (1902), [https://deriv.nls.uk/dcn23/9556/95565896.23.pdf pp. 36–65].</ref><ref name="Hill1881p9" /><ref name="Hill1881p13" /><ref>ScotlandsPeople, Glasgow Old Parish Register, baptisms, 644/1 10 378, 10 July 1621, as cited in [https://www.wikitree.com/wiki/Hill-17648 Ninian Hill’s account]. Original register image uninspected.</ref>
 
-* Janet Hill
-* Margaret Hill or Bryson, later Pollock
-* Elspeth (Elizabeth) Hill or Pollock
-* Helen Hill or Maxwell — married John Maxwell
-* Marion Hill or Gray
-* James Hill (died young)
-* Ninian Hill (No. 1, died in infancy)
-* George Hill (Nos. 1 & 3, died young)
-* [[Hill-17648|Mr. Ninian Hill of Lambhill (1621–1685)]] — fourth and only surviving son, MA graduate, Burgess of Glasgow, signatory of the Solemn League and Covenant
-
-== Inheritance and Legacy ==
-Through her direct Hutcheson line, Helen’s family inherited significant shares of Lambhill, Gairbraid, Nether Carmyle (“Hutchesontoun”), Ramshorn, and Meadowflat lands. These properties funded Hutchesons’ Hospital and School for generations.
-
-She appears in multiple charters and family settlements connecting the Hill descendants to the broader Hutcheson charitable trust. Her personal relics — an iron “kist” and family purse — are mentioned in *Early Records of an Old Glasgow Family*.
-
-== Death ==
-Helen survived her husband, [[Hill-17647|Ninian Hill (1583–1623)]], who died in 1623. Her exact date of death is unknown but she likely died in Glasgow in the mid-17th century. Her descendants remained part of Glasgow’s merchant and landholding elite for generations.
+== Inheritance ==
+Helen, Janet and Elizabeth describe themselves as Thomas’s three lawful full sisters and heirs-portioners in the printed transcription of their 15 October 1641 ratification of his charitable grant.<ref name="Ratification1641">Hill, ''History of the Hospital and School'', Appendix no. VI, [https://archive.org/download/historyofhospita00hutc/page/n305.jpg printed p. 254] and [https://archive.org/download/historyofhospita00hutc/page/n306.jpg printed p. 255], published transcription of the ratification dated 15 October 1641. Original deed uninspected.</ref> In the Lanark retour of 24 May 1642, Helen and Janet were served heirs-portioners of their brother Thomas in the lands described in the preceding entry. That entry names Auchingray and Caldercruikis, with its mill, in the parish of Monkland, and names their sister [[Hutcheson-1655|Elizabeth Hutcheson]], widow of [[Pollok-99|James Pollok]], as an heir-portioner there.<ref name="Retour206" /><ref>''Inquisitionum ad Capellam Domini Regis Retornatarum Abbreviatio'', vol. I, [https://archive.org/details/inquisitionumadc00grea/page/n498/mode/1up Lanark no. 205, 24 May 1642], register xvi.232.</ref> Later Hill family holdings and transactions are described separately in the family history. The iron kist and purse associated with Helen are also reported there.<ref name="Hill1902" />
 
 == Research Notes ==
-* Helen is believed by some researchers to be a daughter of Thomas Hutcheson Sr. and Helen Herbertson, based on property connections, George Hutcheson’s will, and the Hill family’s status as legatees. However, no direct birth or testament record has been found, so this relationship remains an informed hypothesis.
-* Her marriage to Ninian Hill ensured the continued link between the Hill estates and the Hutchesons’ Hospital Trust.
+Helen’s approximate birth about 1575 and a birthplace at Gairbraid or Lambhill are estimates. Her association with [[Hutcheson-1647|Thomas Hutcheson]] and [[Herbertson-132|Helen Herbertson]] as parents remains under review. The 1642 service directly identifies Helen as Thomas of Lambhill’s sister, and the compiled accounts propose their parental family. Reconciling the children’s chronology requires independent evidence for Helen’s birth or earlier family. Hill reports that she died shortly before 1654. Her exact death date and place remain unknown.<ref name="Retour206" /><ref name="Hill1902" /><ref name="Hill1881p13" />
 
 == Sources ==
-<references/>
-* *Early Records of an Old Glasgow Family*, W.H. Hill (1902), pp. 36–65 [https://deriv.nls.uk/dcn23/9556/95565896.23.pdf]
-* *The History of Glasgow, Volume 2, Chapter XX* [https://www.electricscotland.com/history/glasgow/glasgow2_20.htm]
-* George Hutcheson’s Will, 18 April 1639
-* Glasgow Town Clerks’ Records
-* *The Old Country Houses of the Old Glasgow Gentry*, VIII. Barlanark [http://gdl.cdlr.strath.ac.uk/smihou/smihou008.htm]
+<references />
+* ''The History of Glasgow'', vol. 2, [https://www.electricscotland.com/history/glasgow/glasgow2_20.htm chapter XX].
+* George Hutcheson’s testament, cited in the family account as 18 April 1639. Original document uninspected.
+* Glasgow Town Clerks’ Records, general reference. No specific entry has been identified for this account.

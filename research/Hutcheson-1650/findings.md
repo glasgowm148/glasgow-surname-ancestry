@@ -6,7 +6,7 @@ Reviewed 15 November 2026: this existing named account is qualified to Janet Hut
 
 George died on 26 December 1639. Allowing a posthumous birth during 1640, Janet was born **before 1641**. She was in Glasgow on **24 July 1680**, having come from Holland, and undertook to return there. The dated funeral-assistance order establishes that she died in Holland **on or before 17 July 1684**, represented as **before 18 July 1684**. It does not give her death day, age or a Dutch municipality.
 
-The same history describes an **unnamed female child** born to George and Elspeth Craig in the 1588 kirk-session case. It does not name that child Janet. Whether she and the Holland pensioner were the same woman remains unresolved; neither identity nor distinctness is asserted. Do not carry a 1587/1588 birth or Elspeth Craig maternity into this record-scoped account.
+The history quotes the 1588 kirk-session case about an **unnamed female child** born to George and Elspeth Craig. Its author describes the Holland pensioner as another daughter. The quoted entries leave open whether she and the unnamed child were the same woman. Do not carry a 1587/1588 birth or Elspeth Craig maternity into this record-scoped account.
 
 ## Source findings — named Holland daughter, 12 November 2026
 
@@ -16,7 +16,7 @@ The published 1679 order directs money through John Craig to Janet in Holland an
 
 The scanned printed *Memorabilia of the City of Glasgow* (1868), [p. 231](https://archive.org/download/memorabiliacity00scogoog/page/n241.jpg), confirms the named natural-daughter clause on 18 January 1679. The 24 July 1680 council entry in *Extracts from the Records of the Burgh of Glasgow, 1663–1690*, [pp. 281–283](https://archive.org/download/extractsfromrec05unkngoog/page/n336.jpg), records her presence here after coming from Holland. She was allowed £4 sterling yearly if remaining in Glasgow or £5 if returning to Holland, and engaged to return and remain there. The heading and page continuity were checked; no exact travel date is inferred.
 
-*Memorabilia*, [pp. 245–246](https://archive.org/download/memorabiliacity00scogoog/page/n256.jpg), records the 17 July 1684 order for £30 Scots through Jean Main toward Janet's funeral expenses, saying she died in Holland. This tightens the earlier before-1685 bound. The printed editions were visually inspected; the manuscript minutes remain uninspected. Payment intermediaries are not thereby relatives.
+*Memorabilia*, [pp. 245–246](https://archive.org/download/memorabiliacity00scogoog/page/n256.jpg), records the 17 July 1684 order for £30 Scots through Jean Main toward Janet's funeral expenses, saying she died in Holland. This tightens the earlier before-1685 bound. The printed editions were visually inspected; the manuscript minutes remain uninspected. John Craig and Jean Main appear as payment intermediaries. The civic entries identify no spouse, child, heir or executor for Janet. Whether she married or left descendants remains open.
 
 ## Earlier father review — source attribution corrected
 

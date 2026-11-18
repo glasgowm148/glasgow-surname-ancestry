@@ -3493,18 +3493,21 @@
       "id": "pollok-99-retour-death-bound-20261113",
       "subject": "Pollok-99",
       "status": "approved",
-      "reviewed": "2026-11-13",
-      "basis": "Printed Lanark retour205, 24 May 1642, directly styles Elizabeth Hutchesone widow of James Pollok, citizen of Glasgow. Original retour uninspected; exact FS candidate identification remains qualified.",
+      "reviewed": "2026-11-18",
+      "basis": "The inspected printed transcription of the ratification dated 15 October 1641 names James Pollok, cooper and burgess of Glasgow, as Elizabeth Hutcheson’s consenting spouse. The separately inspected printed Lanark retour no. 205 of 24 May 1642 calls her his widow, and calls him a citizen of Glasgow. The original deed and retour are uninspected. FamilySearch candidate correspondence remains qualified.",
       "vitals": {
         "death": {
           "date": "before 1642-05-25",
-          "display_date": "Deceased by 24 May 1642",
+          "display_date": "Living 15 October 1641, deceased by 24 May 1642",
           "place": null,
           "status": "before",
-          "qualifier": "Inclusive boundary from widow wording in the printed abstract, not exact death date/place; property places do not establish death place."
+          "qualifier": "James was living on 15 October 1641 and is reported deceased by the widow clause dated 24 May 1642. The calendar dates alone do not exclude death later on 15 October. His exact death date and place remain unknown.",
+          "living_on": "1641-10-15",
+          "note": "James is described as a consenting husband in the 15 October 1641 ratification. The 24 May 1642 retour names his widow. The date field retains the machine-readable inclusive upper boundary, and the evidence records the living-on lower boundary."
         }
       },
       "source_ids": [
+        "hill1881-hutcheson-sisters-ratification-1641-10-15",
         "retours-lanark-205-elizabeth-hutchesone-1642"
       ]
     },
@@ -3658,6 +3661,36 @@
         "first": "Mary Ellen",
         "surname": "Glasgow",
         "currentSurname": "Glasgow"
+      }
+    },
+    {
+      "schema_version": 3,
+      "id": "hutcheson-361-death-year-1711-20261118",
+      "subject": "Hutcheson-361",
+      "status": "approved",
+      "reviewed": "2026-11-18",
+      "basis": "Killen's published Saintfield congregation history reports the death of Alexander Hutchinson in 1711. P. Beryl Eustace, Registry of Deeds, Dublin: Abstracts of Wills, vol. I, p. 144, no. 340, cites memorial 47/311/30761 and gives 25 September 1711 for Alexander's will. W. R. Scott gives 5 September 1711 as a will date. The earlier death bound before 5 September is incompatible with the printed memorial will date and is withdrawn as a current date. The original will, memorial image and cited Betham abstract were uninspected at review.",
+      "summary": "The published congregation history places Alexander's death in 1711. His exact death day and month remain unresolved. County Armagh is retained as the uncertain inherited death locality.",
+      "vitals": {
+        "death": {
+          "date": "1711",
+          "status": "probable",
+          "place": "County Armagh, Ireland",
+          "place_status": "uncertain",
+          "note": "Year only, from the published Saintfield congregation history. The will abstract and Scott's study give different September will dates. Neither gives the date of death. County Armagh is an inherited uncertain locality and is not established by either the congregation's death-year note or the will abstract.",
+          "source_url": "https://archive.org/stream/historyofcongreg00kill/historyofcongreg00kill_djvu.txt",
+          "source_level": "Published congregational history with independent printed will abstract as a chronology check"
+        }
+      },
+      "vital_qualifications": {
+        "death": "Death year 1711 reported in the Saintfield congregation history. Day, month and the inherited County Armagh locality remain uncertain."
+      },
+      "source": {
+        "url": "https://archive.org/details/historyofcongreg00kill/page/226/mode/2up",
+        "section": "W. D. Killen, History of Congregations of the Presbyterian Church in Ireland (1886), Saintfield account."
+      },
+      "catalogue_projection": {
+        "death": "1711"
       }
     }
   ]

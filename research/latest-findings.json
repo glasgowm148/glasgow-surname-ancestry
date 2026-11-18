@@ -86484,6 +86484,102 @@
         "research/queue-review-2026-10-17/catalogue-integration.json",
         "research/latest-findings-subjects/subjects.json"
       ]
+    },
+    {
+      "id": "hutcheson-sisters-ratification-pollok-family-20261118",
+      "found_on": "2026-11-18",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "In the printed transcription of the 15 October 1641 ratification, Janet, Bessie and Helen Hutcheson identify themselves as the three lawful full sisters and heirs-portioners of Thomas of Lambhill. The deed names Bessie’s consenting husband, James Pollok, as a Glasgow cooper and burgess. The 24 May 1642 Lanark retour calls Bessie his widow. Hill’s separate extract of George Hutcheson’s testament names six Pollok children of Bessie and four Hill children of Helen.",
+      "significance": "The two dated records bound James’s death after his 15 October 1641 appearance and by 24 May 1642. The October 1641 ratification and May 1642 services show distinct legal acts. The published testament extract distinguishes the sisters’ children from their grandchildren.",
+      "qualification": "The printed ratification, testament extract and Lanark retour abstracts were checked. Their underlying manuscripts remain uninspected. The ratification and retour supply the death interval. Its exact date and place, James’s wider Pollok pedigree and the identification of the 1644 testament confirmations remain unresolved. Existing parent assessments were retained.",
+      "people": [
+        {
+          "id": "Hutcheson-1652",
+          "name": "Helen Hutcheson",
+          "url": "/people/hutcheson-1652.html"
+        },
+        {
+          "id": "Hutcheson-1654",
+          "name": "Janet Hutcheson",
+          "url": "/people/hutcheson-1654.html"
+        },
+        {
+          "id": "Hutcheson-1655",
+          "name": "Elizabeth (Bessie) Hutcheson",
+          "url": "/people/hutcheson-1655.html"
+        },
+        {
+          "id": "Hutcheson-1649",
+          "name": "Thomas Hutcheson of Lambhill",
+          "url": "/people/hutcheson-1649.html"
+        },
+        {
+          "id": "Hutcheson-1648",
+          "name": "George Hutcheson",
+          "url": "/people/hutcheson-1648.html"
+        },
+        {
+          "id": "Pollok-99",
+          "name": "James Pollok",
+          "url": "https://www.wikitree.com/wiki/Pollok-99"
+        }
+      ],
+      "sources": [
+        {
+          "title": "W. H. Hill, The History of the Hospital and School in Glasgow (1881), Appendix VI, printed p. 254, ratification and spouse clauses",
+          "url": "https://archive.org/download/historyofhospita00hutc/page/n305.jpg"
+        },
+        {
+          "title": "W. H. Hill, The History of the Hospital and School in Glasgow (1881), Appendix VI, printed p. 255, 15 October 1641 execution",
+          "url": "https://archive.org/download/historyofhospita00hutc/page/n306.jpg"
+        },
+        {
+          "title": "Hill (1881), printed p. 9, published extract of George Hutcheson’s testament",
+          "url": "https://archive.org/download/historyofhospita00hutc/page/n30.jpg"
+        },
+        {
+          "title": "Inquisitionum ad Capellam Domini Regis Retornatarum Abbreviatio, vol. I, Lanark nos. 205–206, 24 May 1642",
+          "url": "https://archive.org/details/inquisitionumadc00grea/page/n498/mode/1up"
+        }
+      ],
+      "detail_url": "/people/hutcheson-1655.html#research-findings",
+      "relationship_changes": [],
+      "provenance": [
+        "Canonical records hill1881-hutcheson-sisters-ratification-1641-10-15, retours-lanark-205-elizabeth-hutchesone-1642 and lanark-retour-206-hutcheson-coheirs-1642",
+        "research/Hutcheson-1652/findings.md",
+        "research/Hutcheson-1654/findings.md",
+        "research/Hutcheson-1655/findings.md"
+      ]
+    },
+    {
+      "id": "hutcheson-361-drumalig-will-memorial-20261118",
+      "found_on": "2026-11-18",
+      "reviewed_on": "2026-11-18",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "The published abstract of Alexander Hutcheson's Drumalig will memorial names his son John as executor, daughters Beatrix Wallace and Mary Young, and five grandsons. It refers to half of Drumalig and dates the will to 25 September 1711.",
+      "qualification": "The abstract does not identify a wife, the children's mother or every inheritance share. Scott gives a different September date for the will. The earlier death bound before 5 September conflicts with the printed memorial; the congregation history supports 1711 as the death year. The memorial image, original will and Betham abstract remain uninspected.",
+      "detail_url": "/people/hutcheson-361.html",
+      "people": [
+        {
+          "id": "Hutcheson-361",
+          "name": "Rev. Alexander Hutcheson",
+          "url": "https://www.wikitree.com/wiki/Hutcheson-361",
+          "role": "Drumalig testator; death year 1711, exact date unresolved",
+          "draft_url": "/people/hutcheson-361.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Irish Manuscripts Commission, Eustace, Registry of Deeds abstracts of wills, vol. I, p. 144, no. 340; memorial 47/311/30761",
+          "url": "https://www.irishmanuscripts.ie/digital/Registry%20Of%20Deeds%20Abstracts%20Of%20Wills%20Vol%201%201708-45/Registry%20Of%20Deeds%20Abstracts%20Of%20Wills%20Vol%201%201708-45.pdf"
+        },
+        {
+          "title": "Killen, History of Congregations of the Presbyterian Church in Ireland, Saintfield account",
+          "url": "https://archive.org/stream/historyofcongreg00kill/historyofcongreg00kill_djvu.txt"
+        }
+      ]
     }
   ]
 }

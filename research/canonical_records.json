@@ -596641,5 +596641,50 @@
         "identification_status": "qualified"
       }
     }
+  },
+  {
+    "record_id": "hill1881-hutcheson-sisters-ratification-1641-10-15",
+    "association": "Janet, Bessie and Helen Hutcheson ratify Thomas’s charitable grants. Bessie acts with the consent of her husband, James Pollok.",
+    "date": "15 October 1641",
+    "year": 1641,
+    "date_status": "recorded",
+    "place": "Glasgow, Lanarkshire, Scotland (deed execution)",
+    "country": "scotland",
+    "record_type": "Charitable grant ratification",
+    "record_category": "Other records",
+    "source_title": "W. H. Hill, The History of the Hospital and School in Glasgow (1881), Appendix VI, pp. 254–255, ratification dated 15 October 1641",
+    "source_url": "https://archive.org/download/historyofhospita00hutc/page/n305.jpg",
+    "related_urls": [
+      "https://archive.org/download/historyofhospita00hutc/page/n306.jpg"
+    ],
+    "source_type": "Published transcription of contemporary deed",
+    "source_quality": "published_derivative",
+    "status": "Printed transcription, pages 254–255, visually inspected on 18 November 2026; original deed uninspected",
+    "note": "Janet, Bessie and Helen Hutcheson identify themselves as the three only lawful full sisters and heirs-portioners of the late Mr Thomas Hutcheson of Lambhill. Bessie acts with the consent of James Pollok, identified as her spouse and a cooper and burgess of Glasgow. The consent clause places him living on 15 October 1641. Lanark retour no. 205 names Bessie as his widow on 24 May 1642, giving the other bound. The deed concerns their ratification of Thomas’s grants for the hospital. The two 1642 retours show their service as heirs in specified lands. Neither records a Pollok marriage date, exact death date or death place.",
+    "profiles": {
+      "Hutcheson-1654": {
+        "role": "Janet, lawful full sister and heir-portioner of Thomas; ratifying party",
+        "timeline_group": "Family and estate"
+      },
+      "Hutcheson-1655": {
+        "role": "Bessie (Elizabeth), lawful full sister and heir-portioner of Thomas; ratifying party, acting with James’s consent",
+        "timeline_group": "Family and estate"
+      },
+      "Hutcheson-1652": {
+        "role": "Helen, lawful full sister and heir-portioner of Thomas; ratifying party",
+        "timeline_group": "Family and estate"
+      },
+      "Hutcheson-1649": {
+        "role": "Deceased brother and author of the grants being ratified",
+        "timeline_group": "Family and estate"
+      },
+      "Pollok-99": {
+        "role": "James Pollok, consenting spouse of Bessie; named cooper and burgess of Glasgow",
+        "timeline_group": "Family and estate"
+      }
+    },
+    "provenance": "Printed p. 254 (Internet Archive leaf n305) contains the sister, succession and spouse clauses. Printed p. 255 (leaf n306) dates the execution at Glasgow. Both printed images were visually checked by the research lead. The manuscript was not inspected.",
+    "publication_status": "approved",
+    "publish_to_record_index": true
   }
 ]

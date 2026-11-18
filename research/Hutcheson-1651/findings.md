@@ -2,9 +2,15 @@
 
 ## Current conclusion
 
-Overview reviewed 15 November 2026; the historical qualitative parent assessment of 13 November is unchanged.
+Family and succession account checked 18 November 2026. The qualitative parent assessment of 13 November remains in force.
 
 Hill’s inspected printed p. 53 distinguishes senior John Hutcheson in Gairbraid, husband of Marion Wilson or Jarden, from their eldest son John, husband of Agnes Anderson. The existing John profile mixes those generations; the attached father relationship to Thomas remains uncertain without a percentage. The 15 November review excludes Agnes as Thomas’s mother and confirms the compatible existing senior-John FamilySearch household; these are role and external-identity resolutions, not a confidence increase.
+
+## Source findings — marriage, succession and the three Johns, 18 November 2026
+
+[Hill (1902), printed pp. 53 and 87](https://archive.org/stream/earlyrecordsofol00hill/earlyrecordsofol00hill_djvu.txt) can be read together. The family summary associates the 1582 confirmation with senior John, his wife Marion Wilson or Jarden and their eldest son. The fuller title account names the eldest son as recipient of the 19 November 1582 confirmation, describes his father as deceased, and names him and his mother Marion as occupiers. Hill reports their younger son as [Thomas of Lambhill](/people/hutcheson-1647.html). The 2 October 1588 sasine separately associates the eldest son with [Agnes Anderson](https://www.wikitree.com/wiki/Anderson-95451), daughter of William Anderson of Stobcross and Janet Maxwell.
+
+Hill identifies another John as son of the younger John and husband of Janet Johnstone. His account leaves open whether the eldest son or his own son was the grantor in the 5 August 1600 transaction concerning Gairbraid or its reversion. [George Hutcheson](/people/hutcheson-1648.html) would have been the grantor’s nephew or cousin, respectively. The 1582 recipient and 1588 couple can be identified from Hill’s account. The original confirmation and sasine remain uninspected, the 1600 grantor is unresolved, and the evidence supplies no additional child or earlier parent for senior John.
 
 ## Source findings — inspected Hill parentage and import hold, 13 November 2026
 
