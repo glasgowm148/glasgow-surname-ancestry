@@ -125,6 +125,91 @@ def first_names_panel(people=None):
     )
 
 
+def _familysearch_registry():
+    path = ROOT / "data/familysearch/person-links.json"
+    if not path.exists():
+        return {}
+    value = json.loads(path.read_text(encoding="utf-8"))
+    people = value.get("people") if isinstance(value, dict) else None
+    return people if isinstance(people, dict) else {}
+
+
+def _birth_century_label(year):
+    if not year:
+        return "Unknown birth"
+    century = year // 100 + 1
+    return f"{century}{'st' if century == 21 else 'th'} century"
+
+
+def catalogue_coverage_panel(people=None, registry=None):
+    """Catalogue coverage: WikiTree and FamilySearch identities by birth century."""
+    people = people or []
+    registry = {str(key).lower(): value for key, value in (registry or {}).items()}
+
+    def has_wikitree(person):
+        return bool(person.get("profile_ids")) or bool(person.get("wikitree_urls"))
+
+    def has_familysearch(person):
+        return str(person.get("catalogue_id", "")).lower() in registry
+
+    total = len(people)
+    wikitree = sum(has_wikitree(person) for person in people)
+    familysearch = sum(has_familysearch(person) for person in people)
+    both = sum(1 for person in people if has_wikitree(person) and has_familysearch(person))
+
+    buckets = {}
+    for person in people:
+        match = re.search(r"\b(?:1[0-9]|20)\d{2}\b", str(person.get("birth") or ""))
+        label = _birth_century_label(int(match.group()) if match else None)
+        row = buckets.setdefault(label, [0, 0, 0])
+        row[0] += 1
+        row[1] += has_wikitree(person)
+        row[2] += has_familysearch(person)
+
+    def century_key(label):
+        match = re.search(r"(\d+)", label)
+        return (1, 0) if not match else (0, int(match.group(1)))
+
+    def share(count, base):
+        return f"{100 * count / base:.1f}%" if base else "0.0%"
+
+    def number(count):
+        return f"{count:,}"
+
+    rows = "".join(
+        f'<tr><th scope="row">{label}</th><td>{number(row[0])}</td>'
+        f'<td>{number(row[1])} <span class="statistics-coverage-share">({share(row[1], row[0])})</span></td>'
+        f'<td>{number(row[2])} <span class="statistics-coverage-share">({share(row[2], row[0])})</span></td></tr>'
+        for label, row in sorted(buckets.items(), key=lambda item: century_key(item[0]))
+    )
+    metric_parts = []
+    for label, value, show_share in (
+            ("Catalogue people", total, False),
+            ("With a WikiTree ID", wikitree, True),
+            ("With a FamilySearch ID", familysearch, True),
+            ("With both", both, True)):
+        suffix = " · " + share(value, total) if show_share else ""
+        metric_parts.append(
+            '<div class="statistics-metric"><strong>' + number(value) + '</strong>'
+            '<span>' + label + suffix + '</span></div>')
+    metrics = "".join(metric_parts)
+    return (
+        '<section class="statistics-panel" id="catalogue-coverage">'
+        '<h3>Catalogue coverage</h3>'
+        '<div class="statistics-metric-grid">' + metrics + '</div>'
+        '<div class="statistics-generations-table-wrap"><table>'
+        '<caption>Catalogue people with WikiTree and FamilySearch identities, by birth century</caption>'
+        '<thead><tr><th scope="col">Birth century</th><th scope="col">People</th>'
+        '<th scope="col">WikiTree ID</th><th scope="col">FamilySearch ID</th></tr></thead>'
+        '<tbody>' + rows + '</tbody></table></div>'
+        '<details class="statistics-panel-method"><summary>About this chart</summary>'
+        '<p>People in the public research catalogue with a WikiTree or FamilySearch identity. '
+        'Century rows use the first recorded birth year; missing or unusable birth dates are shown separately. '
+        'Table percentages are within each birth century; the cards are shares of the whole catalogue.</p>'
+        '</details></section>'
+    )
+
+
 def enrich_panels(markup, people=None, index=None):
     """Supply complete denominators and full migration flows to reader charts."""
     from bs4 import BeautifulSoup
@@ -220,6 +305,7 @@ def chart_views(panels, summary=None, people=None, index=None):
         'time': render_generations_story(people or [], panel('birth-centuries')),
         'places': render_places_story(people or [], index or [], summary or '', web_root=WEB) + places_details,
         'journeys': render_journeys_story(flows, panel('migration'), web_root=WEB),
+        'coverage': catalogue_coverage_panel(people, _familysearch_registry()),
     }
     if summary is not None:
         try:
@@ -230,7 +316,7 @@ def chart_views(panels, summary=None, people=None, index=None):
     # Preserve unusual legacy panels rather than dropping their source counts.
     known = {'given-names', 'birth-centuries', 'regions', 'family-branches', 'mapped-places', 'married-surnames', 'migration'}
     views['places'] += ''.join(str(item) for item in all_panels if item.get('id') not in known)
-    tabs = [('names', 'Overview', 'statistics-view-names'), ('time', 'Generations', 'statistics-view-time'),
+    tabs = [('names', 'Overview', 'statistics-view-names'), ('coverage', 'Catalogue', 'statistics-view-coverage'), ('time', 'Generations', 'statistics-view-time'),
             ('places', 'Places &amp; families', 'statistics-view-places'), ('journeys', 'Journeys', 'statistics-view-journeys')]
     nav = '<nav class="statistics-view-tabs" id="statistics-detail-title" aria-label="Explore statistics">' + ''.join(
         '<a id="statistics-tab-' + key + '" href="#' + anchor + '" data-statistics-view="' + key + '">' + label + '</a>'
