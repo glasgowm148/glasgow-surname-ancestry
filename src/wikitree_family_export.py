@@ -438,6 +438,16 @@ def iter_all_profiles(person: dict[str, Any]) -> Iterable[dict[str, Any]]:
                 yield profile
 
 
+def redirected_subject_alias(envelope: dict[str, Any]) -> str | None:
+    """Return the original ID only when the redirect resolves to this subject."""
+    redirect = envelope.get("redirect")
+    if isinstance(redirect, dict) and redirect.get("resolved") == envelope_subject_id(envelope):
+        requested = redirect.get("requested")
+        if isinstance(requested, str) and requested and requested != redirect["resolved"]:
+            return requested
+    return None
+
+
 def attach_familysearch_pids(
     envelope: dict[str, Any],
     manual_mappings: dict[str, list[str]],
@@ -447,10 +457,13 @@ def attach_familysearch_pids(
     if not isinstance(person, dict):
         raise ExportError("The response did not include the subject profile.")
 
+    alias = redirected_subject_alias(envelope)
     for profile in iter_all_profiles(person):
         wt_id = str(profile.get("Name") or "")
         pids = set(extract_familysearch_pids(profile))
         pids.update(manual_mappings.get(wt_id, []))
+        if alias and profile is person:
+            pids.update(manual_mappings.get(alias, []))
 
         profile["FamilySearchPIDs"] = sorted(pids)
         profile.setdefault("FamilySearchBrowserSources", {})
@@ -1903,11 +1916,12 @@ def extract_envelope_from_ai_export(path: Path) -> dict[str, Any]:
         raise ExportError(f"Could not read AI export {path}: {exc}") from exc
 
     marker = "## Raw structured export"
-    marker_at = content.find(marker)
-    if marker_at < 0:
+    # The exporter appends this section after all quoted profile text.
+    headings = list(re.finditer(rf"^{re.escape(marker)}[ \t]*$", content, re.MULTILINE))
+    if not headings:
         raise ExportError(f"No '{marker}' section was found in {path}.")
 
-    match = re.search(r"```json\s*\n(.*?)\n```", content[marker_at:], re.DOTALL)
+    match = re.search(r"```json\s*\n(.*?)\n```", content[headings[-1].end():], re.DOTALL)
     if not match:
         raise ExportError(f"No JSON code block was found after '{marker}' in {path}.")
 
@@ -2594,6 +2608,9 @@ def update_familysearch_target_outcomes(
         for profile in iter_all_profiles(person)
         if profile.get("Name")
     }
+    alias = redirected_subject_alias(envelope)
+    if alias:
+        profiles[alias] = person
     for target in plan.get("targets", []):
         if not isinstance(target, dict) or target.get("kind") != "familysearch":
             continue
@@ -2706,7 +2723,7 @@ def run_research_mode(
     if args.import_ai_export:
         envelope = extract_envelope_from_ai_export(args.import_ai_export)
         subject_id = envelope_subject_id(envelope)
-        if subject_id != wikitree_id:
+        if subject_id != wikitree_id and redirected_subject_alias(envelope) != wikitree_id:
             raise ExportError(
                 f"Imported export is for {subject_id}, not {wikitree_id}."
             )

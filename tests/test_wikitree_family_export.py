@@ -243,6 +243,16 @@ class ResearchLoopTests(unittest.TestCase):
 
         self.assertEqual(exporter.envelope_subject_id(result), "Example-1")
 
+    def test_import_uses_export_section_after_quoted_biography(self):
+        envelope = sample_envelope()
+        envelope["items"][0]["person"]["Bio"] = (
+            'Quoted older export\n## Raw structured export\n\n```json\n{"old": true}\n```'
+        )
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "export.md"
+            path.write_text(exporter.make_markdown(envelope, "Example-1"), encoding="utf-8")
+            self.assertEqual(exporter.extract_envelope_from_ai_export(path), envelope)
+
     def test_capture_builds_deduplicated_index_and_brief(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
             case_dir = Path(directory)
@@ -349,6 +359,45 @@ class ResearchLoopTests(unittest.TestCase):
                 profile_notes_path.read_text(encoding="utf-8"),
                 "# Curated updates\n",
             )
+
+    def test_redirect_applies_both_mappings_and_updates_original_queue_target(self):
+        envelope = sample_envelope()
+        envelope["redirect"] = {"requested": "Old-1", "resolved": "Example-1"}
+        plan = exporter.default_research_plan("Old-1")
+        exporter.add_research_target(plan, "familysearch", "ABCD-123", "lookup", "Old-1")
+        mappings = exporter.research_familysearch_mappings(plan)
+        mappings["Example-1"] = ["EFGH-456"]
+        exporter.attach_familysearch_pids(envelope, mappings)
+        person = envelope["items"][0]["person"]
+        self.assertEqual(person["FamilySearchPIDs"], ["ABCD-123", "EFGH-456"])
+        self.assertEqual(person["Children"]["2"]["FamilySearchPIDs"], [])
+        for status, expected in [("error", "error"), ("ok", "complete")]:
+            person["FamilySearchBrowserSources"]["ABCD-123"] = {"status": status}
+            exporter.update_familysearch_target_outcomes(plan, envelope, browser_used=True)
+            self.assertEqual(plan["targets"][-1]["status"], expected)
+            self.assertEqual(plan["targets"][-1]["profile_id"], "Old-1")
+
+    def test_import_redirect_requires_matching_subject(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            path = root / "capture.md"
+            with patch.object(sys, "argv", ["export", "Old-1", "--research-dir", str(root),
+                                            "--import-ai-export", str(path)]):
+                args = exporter.parse_args()
+            envelope = sample_envelope()
+            for resolved in ("Example-2", "Example-1"):
+                envelope["redirect"] = {"requested": "Old-1", "resolved": resolved}
+                path.write_text(exporter.make_markdown(envelope, "Old-1"), encoding="utf-8")
+                if resolved == "Example-2":
+                    with self.assertRaises(exporter.ExportError):
+                        exporter.run_research_mode(args, "Old-1", {})
+                else:
+                    with patch("builtins.print"):
+                        self.assertEqual(exporter.run_research_mode(args, "Old-1", {}), 0)
+            state = exporter.read_json_object(root / exporter.RESEARCH_STATE_FILE)
+            capture, = state["captures"]
+            self.assertEqual(capture["requested_wikitree_id"], "Old-1")
+            self.assertEqual(capture["subject_wikitree_id"], "Example-1")
 
     def test_plan_familysearch_target_is_durable(self) -> None:
         plan = exporter.default_research_plan("Example-1")
