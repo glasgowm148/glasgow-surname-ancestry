@@ -2,8 +2,7 @@
 
 ## Current conclusion
 
-David Clarkson, born 6 February 1810 and baptised 11 February 1810 at Douglas,
-Lanarkshire, is an ancestor of [M Glasgow (Glasgow-933)](https://www.wikitree.com/wiki/Glasgow-933).
+David Clarkson was born on 6 February 1810 and baptised on 11 February 1810 at Douglas, Lanarkshire.
 His attached parents are [John Clarkson (Clarkson-4004)](https://www.wikitree.com/wiki/Clarkson-4004)
 and [Elizabeth Gold (Gold-2337)](https://www.wikitree.com/wiki/Gold-2337).
 

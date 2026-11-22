@@ -49,8 +49,7 @@ The attached family comprises nine children: [[Glasgow-939|William]],
 [[Glasgow-937|Alexander]], [[Glasgow-944|Ellen Jane]],
 [[Glasgow-941|Agnes]], [[Glasgow-945|Emily]], [[Glasgow-942|Robert]] and
 [[Glasgow-943|Matilda]]. A supplied descendant chart reports ninety-nine known
-descendants across four generations.<ref>Descendant chart supplied by
-[[Glasgow-933|M Glasgow]].</ref>
+descendants across four generations.<ref>Descendant chart supplied to the project.</ref>
 
 Robert reportedly died on 27 November 1902 in Glasgow from chronic bronchitis.
 The original Scottish death record remains a priority check.
