@@ -5,6 +5,10 @@ description: Research historical WikiTree people, assess exact father–child co
 
 # WikiTree Research
 
+- Chat-driven execution (owner correction, 16 November 2026): the owner will not run commands, assemble evidence packets or choose/switch specialist agents. For normal research requests, the agent performs the workflow end to end. Before substantial extraction, identity or relationship work, read [Model routing and agent-operated batches](references/model-routing-and-batches.md); use the existing controller where applicable, handle its files and checks yourself, and report verified outcomes or concrete blockers rather than terminal instructions for the owner.
+
+- Visual model routing (owner-authorized, 16 November 2026): Astra may interpret bounded historical source-image regions only. It must not orchestrate, resolve identities, select relationships or release research holds. Preserve the original pixels, source references, uncertainty and alternative readings; SOL reviews any resulting substantive identity or relationship proposal separately.
+
 - Research priority (owner correction, 30 October 2026): prioritise Unknown fathers and Uncertain/Possible father links supporting large early branches, with an attainable discriminating test. Do not use the primary queue for small percentage adjustments to already Probable links (for example 82% to 85%). Keep completed source holds out of immediate repeat work; a confidence-grade improvement must follow evidence, not the desired ranking.
 
 - Cross-chat integration (owner correction, 30 October 2026): when the owner asks to integrate all work, review completed changes and handoffs across chats and reconcile them into the shared catalogue and site. Do not exclude work merely because another chat produced it. Preserve provenance, distinguish unverified leads from findings, coordinate active edits, and stage reviewed files by explicit path.

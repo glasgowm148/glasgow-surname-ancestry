@@ -23,6 +23,9 @@ from typing import Any
 
 from genealogy.store import Research, StaleRevisionError, StoreError, stable_id
 from genealogy.store.vocabulary import PROPOSAL_MAP, QUESTION_MAP, normalise
+from research_integrity import (CREATION_DOCUMENT, MATCH_DOCUMENT, HELD_STATUSES,
+                                hold_status, validate_creation_document,
+                                validate_held_questions, validate_hold_release)
 
 ROW_TABLES = ("question", "search", "finding", "hypothesis", "proposal")
 
@@ -135,6 +138,10 @@ def frame_of(document: Any, spec: Spec) -> Any:
 def row_identity(relative: str, field: str, index: int, key: str | None, row: Any) -> tuple:
     if key is not None:
         return field, "key", key
+    if relative == CREATION_DOCUMENT and field == "new_people" and isinstance(row, dict):
+        ident = row.get("catalogue_id") or row.get("subject_id")
+        if ident:
+            return field, "id", ident
     if relative.endswith("parent_candidates.json") and isinstance(row, dict) and row.get("id"):
         return field, "id", row["id"]
     return field, "index", index
@@ -245,8 +252,12 @@ class Documents:
                     changes.update(core_columns(table, row))
                 tx.update(table, target, changes, expected_revision=entity["revision"])
             return target
-        note_id = prior["entity"] if prior else stable_id("not", "document-row", relative, field,
-                                                        key if key is not None else index)
+        identity = row_identity(relative, field, index, key, row)
+        # Creation rows can move while retaining identity. New rows must not
+        # reuse another row's old positional note ID after a reorder/deletion.
+        natural = ("id", identity[2]) if relative == CREATION_DOCUMENT and identity[1] == "id" else (
+            key if key is not None else index,)
+        note_id = prior["entity"] if prior else stable_id("not", "document-row", relative, field, *natural)
         text = json.dumps(meta, ensure_ascii=False)
         existing = self.store.get("note", note_id)
         if existing is None:
@@ -294,6 +305,30 @@ class Documents:
     def store_document(self, tx, relative: str, document: Any) -> None:
         """Hold a document's rows and frame in the database (first import or a recorded change)."""
         spec = spec_for(relative)
+        if spec is None:
+            raise ValueError(f"Unsupported research document: {relative}")
+        previous = self.compose(relative) if self.frame(relative) else None
+        def evidence_revision(record_id):
+            record = self.store.get("record", record_id)
+            return record["revision"] if record else None
+        if relative == CREATION_DOCUMENT:
+            # Inside the caller's write transaction: publication-only checks are
+            # too late, and targeted edits must check the complete registry.
+            from workbench_legacy_views import Views
+            aliases = Views(self.store)._merged_public
+            validate_creation_document(document, previous, aliases=aliases,
+                                       evidence_revision=evidence_revision)
+        elif relative == MATCH_DOCUMENT and previous:
+            for key, old in previous.get("reviews", {}).items():
+                if hold_status(old, status_field="status") not in HELD_STATUSES:
+                    continue
+                new = document.get("reviews", {}).get(key)
+                if new is None:
+                    raise ValueError(f"Held identity review {key} cannot be silently removed")
+                validate_hold_release(old, new, evidence_revision=evidence_revision, status_field="status")
+        elif relative.endswith("/research_plan.json") and previous:
+            validate_held_questions(previous.get("questions", []), document.get("questions", []),
+                                    evidence_revision=evidence_revision)
         seen: set[str] = set()
         existing_rows = self.stored_rows(relative)
         lookup = {row_identity(relative, r["field"], r["index"], r.get("key"), json.loads(r["row_json"])): r

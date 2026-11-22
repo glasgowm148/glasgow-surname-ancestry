@@ -23,6 +23,10 @@ by row: edit the file, then record it with
 removed from the file is kept in the database, marked removed.
 
 Relationship assessments are not entered here: use `genealogy assess`.
+
+Held document rows require an evidence-backed release receipt before becoming
+actionable; see docs/research-integrity.md. The guards run inside the write
+transaction, including complete-registry creation identity checks.
 """
 from __future__ import annotations
 
