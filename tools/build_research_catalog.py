@@ -489,8 +489,8 @@ def sync_generated_profile_work_status() -> dict[str, int]:
             caution,
             updated,
         )
-        updated = re.sub(r"\d[\d,]* profiles ranked by significance",
-                         f"{update_count:,} profiles ranked by significance", updated)
+        updated = re.sub(r"\d[\d,]*(?= profiles ranked by (?:significance|update priority)\b)",
+                         f"{update_count:,}", updated)
         # The summary number immediately precedes its label in generated markup.
         updated = re.sub(
             r"<div><strong>\d{1,3}(?:,\d{3})*</strong><span>Creation-ready profiles</span></div>",
@@ -6878,7 +6878,7 @@ def build_research_catalog(records: list[dict], profiles: dict[str, dict], edges
 <a class="browse-card" href="?region=Ireland"><strong>Irish Glasgows</strong><span>{irish_count:,} people with mapped Irish associations</span></a>
 <a class="browse-card" href="?to=1699"><strong>Before 1700</strong><span>{early_count:,} early people and documentary occurrences</span></a>
 <a class="browse-card" href="/catalogue/?missingProfile=1&amp;sort=birth%3Aasc#catalogue-filters"><strong>WikiTree identity workbench</strong><span>{missing_profile_count:,} documentary identities without confirmed destinations: {profile_work_counts['creation_ready']:,} creation-ready, {profile_work_counts['existing_profile_candidate']:,} possible existing-profile matches on HOLD, {profile_work_counts['identity_hold']:,} identity-insufficient HOLD, {profile_work_counts['free_space_only']:,} pre-1500 subjects missing an individual Space page, and {profile_work_counts['unreviewed']:,} awaiting review</span></a>
-<a class="browse-card" href="/catalogue/?needsUpdate=1&amp;sort=significance%3Adesc#catalogue-filters"><strong>Needs updated on WikiTree</strong><span>{len(ranked_updates):,} profiles ranked by significance, with paste-ready or exact manual corrections</span></a>
+<a class="browse-card" href="/catalogue/?needsUpdate=1&amp;sort=significance%3Adesc#catalogue-filters"><strong>Needs updated on WikiTree</strong><span>{len(ranked_updates):,} profiles ranked by update priority, with paste-ready or exact manual corrections</span></a>
 <a class="browse-card" href="?missingFather=1"><strong>Missing fathers</strong><span>{missing_father_count:,} people without a recorded father</span></a>
 <a class="browse-card" href="?original=1"><strong>Original-record evidence</strong><span>{original_count:,} people linked to original evidence</span></a>
 <a class="browse-card" href="/people/early-bearers.html"><strong>Early <em>de Glasgu</em> bearers</strong><span>{len(early_bearers)} medieval documentary entries</span></a>

@@ -2,7 +2,7 @@
 
 Glasgow consumes the independent [genealogy-research-workbench](https://github.com/glasgowm148/genealogy-research-workbench) repository through the Git submodule at `vendor/genealogy-research-workbench/`. The parent commit records the exact revision. Run `git ls-tree HEAD vendor/genealogy-research-workbench` to check it.
 
-**18 November 2026.** The local pin is `e18dcea` on toolkit branch `codex/preserve-projection-confidence`. The public projection applies configured grades only to assessments using the project's grading vocabulary. Other assessments retain their stored confidence. Publish the toolkit commit before sharing its parent pin.
+**18 November 2026.** The local pin is `e18dcea` on toolkit branch `codex/preserve-projection-confidence`. The public projection applies configured grades only to assessments using the project's grading vocabulary. Other assessments retain their stored confidence. The toolkit commit was pushed to its [feature branch](https://github.com/glasgowm148/genealogy-research-workbench/tree/codex/preserve-projection-confidence) and verified against the remote on 22 November 2026.
 
 **26 October 2026.** The submodule used workbench commit `4c9e3b6` (0.10.1: database schema version 2, with resolutions for items kept for review and in-place files tracked by version), the workbench's `main`; a fresh recursive clone fetches it. It is not tagged. Moving from 0.9 needs one database migration, which backs the database up first: `.venv/bin/genealogy db migrate` (the Glasgow database was migrated on 25 October 2026).
 

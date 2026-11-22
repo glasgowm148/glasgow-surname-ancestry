@@ -122,7 +122,7 @@ class TargetedFindingsPrivacyTests(unittest.TestCase):
                 refresh_catalogue_summaries(rows)
             for route in ['catalogue.html', 'catalogue/index.html', 'catalogue/advanced.html']:
                 page = (root / route).read_text()
-                self.assertIn('2 profiles ranked by significance', page)
+                self.assertIn('2 profiles ranked by update priority', page)
                 self.assertIn('href="/catalogue/?needsUpdate=1&amp;sort=significance%3Adesc#catalogue-filters"', page)
                 self.assertNotIn('108 profiles', page)
 

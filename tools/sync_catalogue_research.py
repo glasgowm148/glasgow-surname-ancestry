@@ -591,7 +591,7 @@ def refresh_catalogue_summaries(rows):
         for link in soup.select('a[href*="needsUpdate"]'):
             label, count = link.find("strong"), link.find("span")
             if label and count and plain(label) in {"Needs updated on WikiTree", "WikiTree profiles to update"}:
-                count.string = f"{len(pending):,} profiles ranked by significance, with paste-ready or exact manual corrections"
+                count.string = f"{len(pending):,} profiles ranked by update priority, with paste-ready or exact manual corrections"
         missing = [row for row in rows if row.get("missing_profile")]
         for link in soup.select('a.browse-card[href*="missingProfile"]'):
             count = link.find("span")
