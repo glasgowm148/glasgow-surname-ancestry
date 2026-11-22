@@ -91,7 +91,7 @@ SECTION_SUBMENU_ITEMS = {
 SECTION_ROOTS = {
     'about': '/about/', 'changes': '/about/', 'coverage': '/about/', 'data': '/about/',
     'evidence': '/about/', 'feedback': '/about/', 'privacy': '/about/', 'resources': '/about/',
-    'statistics': '/catalogue/', 'status': '/about/', 'sitemap': '/about/',
+    'statistics': '/about/', 'status': '/about/', 'sitemap': '/about/',
     'branches': '/branches/',
     'catalogue': '/catalogue/', 'early-records': '/catalogue/', 'people': '/catalogue/', 'notables': '/catalogue/',
     'map': '/onetree/', 'onetree': '/onetree/', 'places': '/branches/',

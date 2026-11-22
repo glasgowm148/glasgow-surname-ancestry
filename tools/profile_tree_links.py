@@ -25,6 +25,11 @@ from pathlib import Path
 import re
 from urllib.parse import quote
 
+try:
+    from tools.sync_familysearch_links import load_matches, validated_snapshot
+except ModuleNotFoundError:
+    from sync_familysearch_links import load_matches, validated_snapshot
+
 ROOT = Path(__file__).resolve().parents[1]
 WEB = ROOT / "www"
 STATUS = "assets/research/tree-research-status.json"
@@ -50,7 +55,6 @@ _EXISTING_NAV = re.compile(r'<nav\b[^>]*\bid="profile-tree-links"[^>]*>.*?</nav>
 _EXISTING_STYLE = re.compile(r'<style\b[^>]*\bid="profile-tree-links-css"[^>]*>.*?</style>', re.S)
 _EXISTING_FS = re.compile(r'<a\b[^>]*\bdata-fs-link\b[^>]*>.*?</a>', re.S)
 FS_LINKS = ROOT / "data" / "familysearch" / "person-links.json"
-_FS_CACHE: dict = {}
 _PERSON = re.compile(r"""<body\b[^>]*\sdata-g-person=(?:"([^"]*)"|'([^']*)')""")
 
 
@@ -108,17 +112,16 @@ def person_of(page: str) -> dict | None:
     return person if isinstance(person, dict) else None
 
 
-def familysearch_links(path: Path = FS_LINKS) -> dict:
+def familysearch_links(path: Path | None = None) -> dict:
     """catalogue id (lower case) -> FamilySearch person ID, from tools/sync_familysearch_links.py."""
-    if path not in _FS_CACHE:
-        _FS_CACHE[path] = json.loads(path.read_text(encoding="utf-8")).get("people", {}) if path.is_file() else {}
-    return _FS_CACHE[path]
+    return load_matches(FS_LINKS if path is None else path)
 
 
 def add_familysearch_link(page: str, person: dict | None, links: dict | None = None) -> str:
     """Put "View on FamilySearch" after the WikiTree button, or refresh it. Idempotent."""
+    matches = familysearch_links() if links is None else validated_snapshot(links)
     page = _EXISTING_FS.sub("", page)
-    entry = (familysearch_links() if links is None else links).get(str((person or {}).get("id", "")).lower())
+    entry = matches.get(str((person or {}).get("id", "")).lower())
     actions = _ACTIONS.search(page)
     if not entry or not actions:
         return page
@@ -158,6 +161,7 @@ def load_lines(web: Path = WEB) -> dict | None:
 
 
 def apply(web: Path = WEB, *, write: bool = True) -> dict:
+    fs_links = familysearch_links()
     lines = load_lines(web)
     counts = {"pages": 0, "changed": 0}
     for path in sorted((web / "people").glob("*.html")):
@@ -165,7 +169,7 @@ def apply(web: Path = WEB, *, write: bool = True) -> dict:
         if 'class="dossier-actions"' not in text:
             continue
         counts["pages"] += 1
-        updated = add_to_page(text, lines)
+        updated = add_to_page(text, lines, fs_links)
         if updated != text:
             counts["changed"] += 1
             if write:

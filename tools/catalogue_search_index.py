@@ -15,8 +15,12 @@ ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
+from tools.sync_familysearch_links import load_matches
+
 
 def build(site_root=ROOT / 'www'):
+    # Validate before any index/shard output (and before running preparation).
+    links = load_matches(ROOT / 'data/familysearch/person-links.json')
     source = (ROOT / 'tools/catalogue_search.js').read_text()
     normalizers = source[source.index('  const normaliseLiteral='):source.index('  const esc=')]
     prepare = source[source.index('  function prepare('):source.index('  function loadPeople(')]
@@ -34,8 +38,6 @@ process.stdout.write(JSON.stringify(rows));
     full_path = site_root / 'data/catalogue-search-index.json'
     rows = json.loads(subprocess.run(['node', '-e', script, str(full_path)], check=True, capture_output=True, text=True).stdout)
     # Reuse the same curated matches as the person-page FamilySearch buttons.
-    links_path = ROOT / 'data/familysearch/person-links.json'
-    links = json.loads(links_path.read_text()).get('people', {}) if links_path.exists() else {}
     for person in rows:
         matches = {}
         for profile_id in [person['id'], *person.get('profile_ids', [])]:

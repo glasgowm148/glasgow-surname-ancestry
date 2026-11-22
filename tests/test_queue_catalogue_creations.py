@@ -55,6 +55,44 @@ The deed does not give her birth date. No compatible profile survived the docume
     def read(self, relative):
         return json.loads((self.root / "www" / relative).read_text())
 
+    def test_duplicate_subject_blocks_targeted_creation_before_output_changes(self):
+        other = deepcopy(self.entry)
+        other["catalogue_id"] = "record-jane-second-account"
+        (self.root / module.MANIFEST).write_text(json.dumps({"new_people": [self.entry, other]}))
+        page = self.root / "www/people/glasgow-1521.html"
+        original = page.read_bytes()
+        with self.assertRaisesRegex(ValueError, "Duplicate canonical subject_id"):
+            module.apply_creations(self.root, [self.slug])
+        self.assertEqual(original, page.read_bytes())
+        self.assertFalse((self.root / "www/data/people.json").exists())
+
+    def test_hand_edited_creation_status_cannot_bypass_authoritative_hold(self):
+        from genealogy.store import open_project
+        from tools.workbench_documents import Documents
+        (self.root / "genealogy.toml").write_text('[project]\nname="Fictional"\n[storage]\ndatabase="test.sqlite"\n')
+        self.entry["creation_status"] = "hold_source_verification"
+        self.save()
+        held = json.loads((self.root / module.MANIFEST).read_text())
+        with open_project(self.root, create=True) as project:
+            with project.store.write(actor="test", tool="fixture") as tx:
+                Documents(project.store).store_document(tx, str(module.MANIFEST), held)
+        self.entry["creation_status"] = "creation_ready"
+        self.save()
+        with self.assertRaisesRegex(ValueError, "workbench before publishing"):
+            module.apply_creations(self.root)
+        self.assertFalse((self.root / "www/data/people.json").exists())
+
+    def test_conflicting_crosswalk_blocks_creation_before_dossier_writes(self):
+        crosswalk = self.root / "data/familysearch/person-links.json"
+        crosswalk.parent.mkdir(parents=True)
+        crosswalk.write_text(json.dumps({"people": {
+            "example-1": {"id": "TEST-001", "confidence": "high"},
+            "example-2": {"id": "TEST-001", "confidence": "medium"}}}))
+        with self.assertRaisesRegex(ValueError, "distinct unresolved"):
+            module.apply_creations(self.root)
+        self.assertFalse((self.root / "www/people" / (self.slug + ".json")).exists())
+        self.assertFalse((self.root / "www/data/people.json").exists())
+
 
     def test_comparison_source_is_retained_without_becoming_a_personal_event(self):
         comparison=deepcopy(self.entry["records"][0])
@@ -689,6 +727,7 @@ The deed does not give her birth date. No compatible profile survived the docume
 
     def test_explicit_case_ignores_unrelated_invalid_draft_before_validation(self):
         broken = dict(self.entry, catalogue_id="record-unrelated-walter",
+                      subject_id="unrelated-walter",
                       draft_path="research/drafts/walter.wiki")
         broken_path = self.root / broken["draft_path"]
         broken_path.write_text("Unrelated existing draft awaiting its own review.")

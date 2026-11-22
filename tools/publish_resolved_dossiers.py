@@ -141,6 +141,23 @@ def shared_relationship(profile_id, relation, assessments):
             result.update(claim_id=assessment['assertion_id'], lifecycle=assessment.get('lifecycle') or 'current',
                           display=assessment.get('display') or ('hypothesis' if assessment.get('hypothesis_status') else 'current'), tree_relationship=False,
                           relationship_source='shared_research_assertion')
+            # An unselected added-father hypothesis remains inspectable, but
+            # must not masquerade as a current parent through stale metadata.
+            # Retained attachments, genuine imported links and mothers differ.
+            provenance = result.get('provenance') or assessment.get('provenance') or {}
+            attachment = str(result.get('attachment_status') or '').casefold()
+            roles = {str(view.get('relationship', '')).casefold()
+                     for view in (assessment.get('perspectives') or {}).values()
+                     if isinstance(view, dict)}
+            if (result.get('working_selection') is False
+                    and result.get('allow_new_relationship') is True
+                    and isinstance(provenance, dict)
+                    and provenance.get('new_father_attachment') is True
+                    and attachment not in {'attached', 'retained'}
+                    and relation.get('tree_relationship') is not True
+                    and 'father' in roles):
+                result.update(lifecycle='alternative', display='alternative',
+                              hypothesis_status='unselected')
             role = result.get('relationship', 'relationship')
             # Shared vocabulary: tools/evidence_labels.py.
             if role.casefold() in evidence_labels.ROLE_NOUNS:

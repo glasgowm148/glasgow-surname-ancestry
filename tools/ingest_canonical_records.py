@@ -92,6 +92,30 @@ def merge_citations(rows, supplied):
     return [by_id.pop(identity(row), row) for row in rows] + list(by_id.values())
 
 
+def reviewed_event_rows(events, selected):
+    """Apply explicit per-profile source scope without changing recorded dates."""
+    by_url = {row['source_url']: row for row in selected}
+    result = []
+    for previous in events:
+        source = by_url.get(previous.get('source_url'))
+        profiles = {key.casefold(): detail for key, detail in (source or {}).get('profiles', {}).items()}
+        detail = profiles.get(str(previous.get('p', '')).casefold())
+        row = deepcopy(previous)
+        if detail:
+            if detail.get('timeline_group') == 'Possible family records':
+                row.update(kind='unresolved', research=True, event_type='identity_comparison',
+                           status='possible', role=detail['role'], label='Possible record identity comparison',
+                           note=detail['role'])
+            elif source.get('event_role') == 'child born (indexed birth)':
+                row.update(event_type='birth_index', role=detail['role'],
+                           label='Indexed birth: ' + str(source.get('person') or ''),
+                           note=source.get('note') or '')
+            if row != previous:
+                row.setdefault('source_scope_correction', {'previous': deepcopy(previous)})
+        result.append(row)
+    return result
+
+
 def main_body(shell, body):
     result, count = re.subn(r'(<main\b[^>]*>)[\s\S]*?(</main>)',
                           lambda m: m[1] + body + m[2], shell, count=1, flags=re.I)
@@ -188,6 +212,9 @@ def source_page(shell, doc, *, existing=False, site_root=None):
     title_correction = (doc.get('annotations') or {}).get('title_correction')
     if title_correction:
         body += '<p><strong>Source-title correction:</strong> ' + escape(title_correction['reason']) + '</p>'
+    withdrawal = (doc.get('annotations') or {}).get('publication_withdrawal')
+    if withdrawal:
+        body += '<p><strong>Attribution withdrawn:</strong> ' + escape(withdrawal['reason']) + '</p>'
     body += '<p>Reviewed source details and inspection limits are stated with each maintained record; an entry is not treated as an original image reading unless its assessment says so.</p>'
     for row in doc.get('records', []):
         body += '<article><h2>' + escape(' '.join((row.get('association') or row.get('name') or 'Record association').split())) + '</h2>'
@@ -209,7 +236,12 @@ def source_page(shell, doc, *, existing=False, site_root=None):
         body += '<li>' + label + who + ': ' + _inline_source_note(row.get('assertion') or '', site_root) + '</li>'
     body += '</ul>'
     body = start + '<section aria-label="Reviewed canonical records">' + body + '</section>' + end
-    if start in shell:
+    if withdrawal:
+        # A withdrawal must replace the old source body, including source-reader
+        # blocks outside the canonical ingest section; a notice appended below
+        # the stale account would still present the withdrawn dates as facts.
+        result = main_body(shell, body)
+    elif start in shell:
         result = re.sub(re.escape(start) + r'[\s\S]*?' + re.escape(end), lambda _: body, shell, count=1)
     elif existing:
         result = re.sub(r'</main>', lambda _: body + '</main>', shell, count=1, flags=re.I)
@@ -614,6 +646,9 @@ def plan(root: Path, record_ids: list[str], *, defer_unpublished_profiles=False)
     sources = merge(sources, sorted(source_rows, key=lambda r: r['id']), 'id')
     writes[web / 'data/records-index.json'] = full
     writes[web / 'assets/research/record-index.json'] = compact
+    event_path = web / 'assets/research/event-index.json'
+    if event_path.exists():
+        writes[event_path] = reviewed_event_rows(read(event_path), [lookup[rid] for rid in record_ids])
     writes[web / 'assets/v3/source-index.json'] = sources
     writes[web / 'assets/v3/source-index-packed.json'] = packed_source_index(sources)
     writes[web / 'records/index.html'] = main_body((web / 'records/index.html').read_text(), records_body(full))
@@ -650,14 +685,21 @@ def reviewed_record_ids(root=ROOT):
 
 def publish_reviewed(root=ROOT):
     """Replay only explicit public-record opt-ins after broader generators."""
+    from tools.withdraw_canonical_records import apply as withdraw
+    withdrawal = withdraw(root, refresh_sources=False)
     ids = reviewed_record_ids(root)
     if not ids:
-        return {'selected_records': 0, 'changed_files': 0}
+        return {'selected_records': 0, 'changed_files': withdrawal['changed_files'],
+                **({'withdrawn_records': withdrawal['withdrawn_records']} if withdrawal['withdrawn_records'] else {})}
     # The finalizer rebuilds Sources collections immediately afterwards.
     # Reviewed rows may name drafts that stay unpublished (identity HOLD):
     # list them without the link, as the targeted ingest does, rather than
     # failing the whole site finalization.
-    return apply(Path(root), ids, refresh_sources=False, defer_unpublished_profiles=True)
+    result = apply(Path(root), ids, refresh_sources=False, defer_unpublished_profiles=True)
+    result['changed_files'] += withdrawal['changed_files']
+    if withdrawal['withdrawn_records']:
+        result['withdrawn_records'] = withdrawal['withdrawn_records']
+    return result
 
 
 def main():

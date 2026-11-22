@@ -21,6 +21,8 @@ import sys
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import build_research_catalog as catalogue
+from research_integrity import HELD_STATUSES, canonical_id, hold_status, validate_creation_document
+from sync_familysearch_links import load_matches
 from catalogue_machine_data import build_machine_models, build_network, compact_resolver_row, _wikitree_profile_url
 try:
     from relationship_update_changes import catalogue_changes, normalise_change
@@ -241,6 +243,27 @@ def reviewed_people(root=ROOT, catalogue_ids=None, *, merge_state=None):
     payload = _read(root / MANIFEST, {})
     entries = payload.get("new_people", [])
     merges, reasons = native_creation_merges(root) if merge_state is None else merge_state
+    validate_creation_document(payload, aliases=merges)
+    if (root / "genealogy.toml").is_file():
+        from genealogy.store import open_project
+        from workbench_documents import Documents
+        with open_project(root, readonly=True) as project:
+            documents = Documents(project.store)
+            if documents.frame(str(MANIFEST)):
+                previous = documents.compose(str(MANIFEST))
+                # The held document is the authority. A proposed receipt cannot
+                # upgrade a held account; record the reviewed release first.
+                # Fieldwise identity prevents swapping subject/catalogue IDs.
+                ready_rows = {
+                    (canonical_id(old.get("catalogue_id")), canonical_id(old.get("subject_id")))
+                    for old in previous.get("new_people", [])
+                    if hold_status(old) not in HELD_STATUSES}
+                for row in entries:
+                    if hold_status(row) in HELD_STATUSES:
+                        continue
+                    identities = (canonical_id(row.get("catalogue_id")), canonical_id(row.get("subject_id")))
+                    if identities not in ready_rows:
+                        raise ValueError("Record the creation decision or hold release through the workbench before publishing this account")
     if catalogue_ids is not None:
         requested = list(catalogue_ids)
         if len(requested) != len(set(requested)):
@@ -477,13 +500,15 @@ def _root_paths(root):
     """Keep existing renderers root-aware without leaking patched module paths."""
     import add_research_case_dossiers as cases
     import sync_catalogue_research as sync
+    import profile_tree_links
     assignments = [(cases, "ROOT", root), (cases, "WEB", root / "www"),
                    (sync, "ROOT", root), (sync, "WEB", root / "www"),
                    # The shell already has its new subject content. A renderer
                    # refresh here could replace it with a stale previous dossier.
                    (sync, "revise", lambda text: (text, False)),
                    (catalogue, "PROJECT_ROOT", root),
-                   (catalogue, "RESEARCH_DIR", root / "research")]
+                   (catalogue, "RESEARCH_DIR", root / "research"),
+                   (profile_tree_links, "FS_LINKS", root / "data/familysearch/person-links.json")]
     old = [(module, key, getattr(module, key)) for module, key, _ in assignments]
     try:
         for module, key, value in assignments:
@@ -683,6 +708,8 @@ def apply_creations(root=ROOT, catalogue_ids=None):
     entries = reviewed_people(root, catalogue_ids)
     if not entries and not native_retired:
         return {"integrated": [], "count": 0}
+    # Validate before the first dossier write, not halfway through rendering.
+    load_matches(root / "data/familysearch/person-links.json")
     all_records = reviewed_records(root, catalogue_ids)
     built = catalogue._build_people(all_records, {}, [], {}, {"profiles": {}})
     by_id = {person['catalogue_id']: person for person in built}

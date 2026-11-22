@@ -9,8 +9,10 @@ import re
 
 try:
     from tools.site_identity import SITE_URL, page_title
+    from tools.sync_familysearch_links import load_matches
 except ModuleNotFoundError:
     from site_identity import SITE_URL, page_title
+    from sync_familysearch_links import load_matches
 
 ROOT = Path(__file__).resolve().parents[1]
 WEB = ROOT / 'www'
@@ -73,9 +75,9 @@ def clean_citation(value):
 
 
 def rows():
+    fs = load_matches(FS_LINKS)
     people = {p.get('catalogue_id'): p for p in load(PEOPLE, {}).get('people', [])}
     evidence = load(EVIDENCE, {}).get('profiles', {})
-    fs = load(FS_LINKS, {}).get('people', {})
     assessments = load(ASSESSMENTS, [])
     estimates = load(ROOT / 'research/relationship_probability_estimates.json', {}).get('estimates', [])
     out, seen = [], set()
