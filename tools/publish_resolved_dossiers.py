@@ -578,6 +578,27 @@ def _export_projection(dossier):
     return projection
 
 
+def project_network(network, dossier):
+    """Apply reviewed public relationships while retaining the imported network."""
+    result = deepcopy(network.get('imported', network))
+    if dossier is None:
+        return result
+    result['imported'] = deepcopy(result)
+    result['data_view'] = 'reviewed'
+    if dossier.get('identity_review'):
+        result['person']['name'] = dossier['name']
+    result['relationships'] = [deepcopy(row) for rows in dossier['relationships'].values() for row in rows]
+    result['vitals'] = deepcopy(dossier.get('vitals', {}))
+    result['assessment_provenance'] = [a['id'] for a in dossier['research_assessments']]
+    if dossier.get('shared_relationship_assertions'):
+        result['shared_relationship_assertions'] = deepcopy(dossier['shared_relationship_assertions'])
+        result['relationship_history'] = deepcopy(dossier['relationship_history'])
+        ids = set(result['shared_relationship_assertions']) | {row.get('claim_id') for row in result['relationship_history']}
+        result['claims'] = [deepcopy(claim) for claim in dossier.get('claims', [])
+                            if claim.get('id') in ids or claim.get('superseded_by') in ids]
+    return result
+
+
 def merge_maintained_assessments(registry, maintained):
     """Replace the durable register's own rows; retain unrelated publications."""
     source = {row['id']: deepcopy(row) for row in maintained}
@@ -769,22 +790,9 @@ def publish(root=ROOT / 'www', profile_ids=None):
         if requested is not None:
             if not selected_rows(before.get('person', {})):
                 continue
-        network = deepcopy(before.get('imported', before))
-        dossier = reviewed.get(network.get('person', {}).get('id', '').casefold())
-        if dossier:
-            network['imported'] = deepcopy(network)
-            network['data_view'] = 'reviewed'
-            if dossier.get('identity_review'):
-                network['person']['name'] = dossier['name']
-            network['relationships'] = [deepcopy(r) for rows in dossier['relationships'].values() for r in rows]
-            network['vitals'] = deepcopy(dossier.get('vitals', {}))
-            network['assessment_provenance'] = [a['id'] for a in dossier['research_assessments']]
-            if dossier.get('shared_relationship_assertions'):
-                network['shared_relationship_assertions'] = deepcopy(dossier['shared_relationship_assertions'])
-                network['relationship_history'] = deepcopy(dossier['relationship_history'])
-                ids = set(network['shared_relationship_assertions']) | {r.get('claim_id') for r in network['relationship_history']}
-                network['claims'] = [deepcopy(c) for c in dossier.get('claims', [])
-                                     if c.get('id') in ids or c.get('superseded_by') in ids]
+        imported = before.get('imported', before)
+        dossier = reviewed.get(imported.get('person', {}).get('id', '').casefold())
+        network = project_network(before, dossier)
         if network != before:
             path.write_text(json.dumps(network, ensure_ascii=False, separators=(',', ':')) + '\n')
     schema_path = root / 'data/schema/person.schema.json'

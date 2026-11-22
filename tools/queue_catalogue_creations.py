@@ -739,14 +739,15 @@ def apply_creations(root=ROOT, catalogue_ids=None):
         for old in combined["people"]:
             if old.get("catalogue_id") == person["catalogue_id"] and old.get("profile_ids"):
                 raise ValueError(f"{person['catalogue_id']}: existing-profile canonical ID collision")
-    dossiers, resolver = build_machine_models(people)
+    imported_dossiers, resolver = build_machine_models(people)
     try:
-        from publish_resolved_dossiers import resolve
+        from publish_resolved_dossiers import project_network, resolve
     except ModuleNotFoundError:
-        from tools.publish_resolved_dossiers import resolve
+        from tools.publish_resolved_dossiers import project_network, resolve
     assessments = _read(web / "assets/research/assessments.json", {}).get("assessments", [])
     shared = _read(root / "research/relationship_assessments.json", [])
-    dossiers = {slug: resolve(dossier, assessments, shared) for slug, dossier in dossiers.items()}
+    dossiers = {slug: resolve(dossier, assessments, shared) for slug, dossier in imported_dossiers.items()}
+    imported_by_id = {dossier["id"]: dossier for dossier in imported_dossiers.values()}
     from tools.publish_resolved_dossiers import project_catalogue_spouses, project_catalogue_parents
     project_catalogue_spouses(people, {d['id'].casefold(): d for d in dossiers.values()})
     searches = []
@@ -754,6 +755,7 @@ def apply_creations(root=ROOT, catalogue_ids=None):
     links = {p["id"]: p.get("catalogue_id") or p.get("slug") or p["id"].lower() for p in public_index}
     links.update({d["id"]: slug for slug, d in dossiers.items()})
     audits = reviewed_audits(root, catalogue_ids)
+    hierarchy_paths = []
     with _root_paths(root) as cases:
         # A maintained canonical findings file supersedes the manifest's
         # short creation conclusion.  Load it through the public-privacy
@@ -781,7 +783,9 @@ def apply_creations(root=ROOT, catalogue_ids=None):
             if person["creation_historical_basis"]:
                 dossier["historical_basis"] = deepcopy(person["creation_historical_basis"])
             _write(web / f"people/{slug}.json", dossier)
-            _write(web / f"people/{slug}.network.json", build_network(dossier, {d["id"]: d for d in dossiers.values()}))
+            imported_network = build_network(imported_dossiers[slug], imported_by_id)
+            network = project_network(imported_network, dossier if dossier.get("data_view") == "reviewed" else None)
+            _write(web / f"people/{slug}.network.json", network)
             soup = BeautifulSoup(cases.page_shell(person, dossier, findings, links, resolved=True), "html.parser")
             soup.select_one("#research-tools").insert(0, BeautifulSoup(creation_panel(update), "html.parser"))
             destination = soup.select_one(".profile-wikitree-actions")
@@ -793,7 +797,11 @@ def apply_creations(root=ROOT, catalogue_ids=None):
                     link.string = "Inspect the original source"
             soup.body.append(soup.new_tag("script", src=f"/people/profile-update.js?v={catalogue.CATALOGUE_ASSET_VERSION}", defer=True))
             from tools.site_analytics import with_analytics
-            (web / f"people/{slug}.html").write_text(with_analytics(str(soup)), encoding="utf-8")
+            page_path = web / f"people/{slug}.html"
+            if root == ROOT and (dossier.get("shared_relationship_assertions") or
+                                 (page_path.exists() and "data-dossier-presentation=" in page_path.read_text(encoding="utf-8"))):
+                hierarchy_paths.append(page_path)
+            page_path.write_text(with_analytics(str(soup)), encoding="utf-8")
             searches.append(_search_row(person, dossier))
         project_catalogue_parents(searches, {d["id"].casefold(): d for d in dossiers.values()})
         # Context assets belong to complete sites; tiny build fixtures may omit them.
@@ -819,6 +827,11 @@ def apply_creations(root=ROOT, catalogue_ids=None):
         _write(web / "people" / (old + ".network.json"), {"redirect_to": f"/people/{target}.network.json", "relationships": []})
     retire_people_csv(web, native_retired)
     refresh_creation_statistics(root)
+    if hierarchy_paths:
+        # The legacy shell serves as input for the dossier renderer. Refresh
+        # only these creation pages once their new data and routes are in place.
+        from tools.repair_person_hierarchy import repair_dossier_pages
+        repair_dossier_pages(hierarchy_paths)
     return {"integrated": [p["catalogue_id"] for p in people], "count": len(people)}
 
 

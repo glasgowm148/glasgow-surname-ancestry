@@ -2992,6 +2992,18 @@ def _repair_pages(paths, add_tree_links, lines) -> int:
 
 
 @cached_hierarchy_sources()
+def repair_dossier_pages(paths) -> int:
+    """Render selected pages from their already-materialized public dossiers."""
+    global _INDEX_CACHE
+    _INDEX_CACHE = None
+    try:
+        from tools.profile_tree_links import add_to_page, load_lines
+    except ModuleNotFoundError:
+        from profile_tree_links import add_to_page, load_lines
+    return _repair_pages(paths, add_to_page, load_lines(WEB))
+
+
+@cached_hierarchy_sources()
 def repair(profile_ids=None):
     global _INDEX_CACHE
     if not profile_ids:  # a full pass; a single-person refresh reuses the current index

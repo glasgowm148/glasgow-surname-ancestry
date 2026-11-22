@@ -8,6 +8,7 @@ from copy import deepcopy
 from unittest.mock import patch
 
 from bs4 import BeautifulSoup
+from tools import repair_person_hierarchy as hierarchy
 from tools.site_analytics import with_analytics
 
 spec = importlib.util.spec_from_file_location("queue_creations", Path(__file__).resolve().parents[1] / "tools/queue_catalogue_creations.py")
@@ -518,15 +519,33 @@ The deed does not give her birth date. No compatible profile survived the docume
         }
         path = self.root / "research/relationship_assessments.json"
         path.write_text(json.dumps([assessment]))
-        for _ in range(2):
-            module.apply_creations(self.root)
-            dossier = self.read(f"people/{self.slug}.json")
-            row = self.read("data/catalogue-search-index.json")[0]
-            self.assertEqual(dossier["relationships"]["parents"][0]["id"], "Glasgow-9001")
-            self.assertEqual([p["id"] for p in row["father"]], ["Glasgow-9001"])
-            self.assertFalse(row["missing_father"])
-            self.assertTrue(row["missing_mother"])
-            self.assertEqual(row["mother"], [])
+        web = self.root / "www"
+        template = web / "people/glasgow-1521.html"
+        template.write_text(template.read_text().replace('class="g-rail"', 'id="g-navigation" class="g-rail"'))
+        with (patch.object(module, "ROOT", self.root.resolve()),
+              patch.multiple(hierarchy, ROOT=self.root, WEB=web, _INDEX_CACHE=None, _PROFILE_UPDATE_CACHE={})):
+            for _ in range(2):
+                module.apply_creations(self.root)
+                dossier = self.read(f"people/{self.slug}.json")
+                row = self.read("data/catalogue-search-index.json")[0]
+                self.assertEqual(dossier["relationships"]["parents"][0]["id"], "Glasgow-9001")
+                self.assertEqual([p["id"] for p in row["father"]], ["Glasgow-9001"])
+                self.assertFalse(row["missing_father"])
+                self.assertTrue(row["missing_mother"])
+                self.assertEqual(row["mother"], [])
+                page = BeautifulSoup((web / f"people/{self.slug}.html").read_text(), "html.parser")
+                claim = page.select_one(f'#family tr[data-claim-id="{assessment["assertion_id"]}"]')
+                self.assertIn("The reviewed deed names her father.", claim.get_text(" ", strip=True))
+                payload = json.loads(page.select_one("pre.archive-json").get_text())
+                self.assertEqual(dossier["claims"], payload["claims"])
+                self.assertEqual(dossier["relationships"], payload["relationships"])
+                self.assertEqual(dossier["relationships"], dossier["presentation"]["relationships"])
+                network = self.read(f"people/{self.slug}.network.json")
+                self.assertEqual(dossier["relationships"]["parents"], network["relationships"])
+                approved_claim = next(c for c in dossier["claims"] if c["id"] == assessment["assertion_id"])
+                self.assertEqual([approved_claim], network["claims"])
+                self.assertFalse(network["imported"]["relationships"])
+                self.assertEqual(len(page.select("#wikitree-update")), 1)
 
     def test_integrates_main_filters_complete_draft_evidence_and_is_idempotent(self):
         self.assertEqual(module.apply_creations(self.root)["count"], 1)
