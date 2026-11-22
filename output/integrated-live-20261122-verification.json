@@ -1,0 +1,137 @@
+{
+  "verified_utc": "2026-11-22T14:08:06.849458+00:00",
+  "site": "https://glasgow.phenotype.dev/",
+  "payload_commit": "54557d3bad3c0317fa86c563f4ce4ffcac0dd2e1",
+  "toolkit_commit": "e18dceaabc133575c1501121945a588005f6863f",
+  "bundle": {
+    "file": "glasgow-site-20261122-135616.tar.gz",
+    "bytes": 695695244,
+    "sha256": "996b51e91bcc1c41ff1e26f7dd854e765ee86711b116e0c96b1a8de8a2d48c0a",
+    "payload_files": 147486
+  },
+  "catalogue": {
+    "people": 8011,
+    "records": 16866,
+    "verified_holds": 280,
+    "verified_legacy_record_urls": 349,
+    "ready": 1166
+  },
+  "rollback": {
+    "private_server_path": "/var/backups/glasgow/20261122-integrated-PgVBwJ/site-before.tar.gz",
+    "sha256": "ec0371d589e3f892fde1e3de4456cc816d8d165641f32b5d59da91bca700ac87"
+  },
+  "checks": {
+    "python_tests_run": 1591,
+    "python_skipped": 7,
+    "javascript_tests_passed": 23,
+    "matching_workbench_views": 346,
+    "site_experience_checks_passed": 888,
+    "link_scan_pages": 48331,
+    "internal_references": 2101021,
+    "broken_links": 0,
+    "person_anchors_checked": 13721,
+    "missing_person_anchors": 0,
+    "publication_baseline_items": 22,
+    "new_publication_failures": 0,
+    "final_privacy_gate": "passed",
+    "origin_checksum_dry_run_changes": 0,
+    "withdrawn_paths_https_status": [
+      404,
+      404
+    ],
+    "production_smoke": "passed",
+    "https_samples": {
+      "/": {
+        "status": 200,
+        "bytes": 131632,
+        "sha256": "4ba7d0af7ba7f5a35842c987781eb7461ac724a6a6442e5e2e237af7bb89a4e0",
+        "matches_local": false,
+        "matches_after_email_decoding": true
+      },
+      "/catalogue/": {
+        "status": 200,
+        "bytes": 116979,
+        "sha256": "36ac281c4ab03c837e65f866d7923cbd51caaad503c7ea5a3533f5a1199ed8fc",
+        "matches_local": false,
+        "matches_after_email_decoding": true
+      },
+      "/latest-findings/": {
+        "status": 200,
+        "bytes": 221009,
+        "sha256": "0f0545b944dd8a3573aeff518b5ce295bb231c9627589b1461d2b89c51a5bb51",
+        "matches_local": false,
+        "matches_after_email_decoding": true
+      },
+      "/people/glasgow-1075.html": {
+        "status": 200,
+        "bytes": 81565,
+        "sha256": "2c4ac473866de85a30e4fa823f2d4313927609ff43df7cdb684557a40c740a2d",
+        "matches_local": false,
+        "matches_after_email_decoding": true
+      },
+      "/people/glasgow-3188.html": {
+        "status": 200,
+        "bytes": 151214,
+        "sha256": "02bc64c4994f91ea6f6695c5cb70163c9e94aa4b9809e22986a34dc64e7f038c",
+        "matches_local": false,
+        "matches_after_email_decoding": true
+      },
+      "/people/glasgow-951.html": {
+        "status": 200,
+        "bytes": 149972,
+        "sha256": "f1112e6b6dc2cdb88cafa24a18a0c4b43b2bc618cb02e19dbb71de9191d5821e",
+        "matches_local": false,
+        "matches_after_email_decoding": true
+      },
+      "/branches/research-irish-belfast-donegal/": {
+        "status": 200,
+        "bytes": 200668,
+        "sha256": "fe6f870a2094292c0d51a460a2086ae3ec9e8ce3287130710da1a4cc0788184b",
+        "matches_local": true,
+        "matches_after_email_decoding": true
+      },
+      "/branches/research-irish-moneymore/": {
+        "status": 200,
+        "bytes": 208227,
+        "sha256": "b37c081dee4f09ff75867b09177cde4c421d10908e99cd3d8010a480234cc4d7",
+        "matches_local": true,
+        "matches_after_email_decoding": true
+      },
+      "/branches/research-stevenston-estate-network/": {
+        "status": 200,
+        "bytes": 171096,
+        "sha256": "e339f758550f15e5da02d1a3ef8088fadb792ab64ed45c7609fcc3621657faa5",
+        "matches_local": true,
+        "matches_after_email_decoding": true
+      },
+      "/sources/s-74ae84f4719facdf/": {
+        "status": 200,
+        "bytes": 22157,
+        "sha256": "93d523ecd3ef62a086b0e11592a05fb3974d4d499c47addd27a956461ce2b703",
+        "matches_local": true,
+        "matches_after_email_decoding": true
+      },
+      "/assets/research/records/ffd2f166f3694800.json": {
+        "status": 200,
+        "bytes": 5262,
+        "sha256": "84b78314acaf5ad72942562c3f5f3412de25bee02d8f6507c4a848a5f4f47b5b",
+        "matches_local": true,
+        "matches_after_email_decoding": true
+      },
+      "/health.json": {
+        "status": 200,
+        "bytes": 662,
+        "sha256": "76f5563dbdc89a82f9039831e67bac6772a258a8c221e5da68d8491cd9f46220",
+        "matches_local": true,
+        "matches_after_email_decoding": true
+      },
+      "/assets/research/core.js": {
+        "status": 200,
+        "bytes": 30043,
+        "sha256": "252a88caf36cddf50c276f07c5d011eddf7c9a86c7986e1677142e61bcc1bef5",
+        "matches_local": true,
+        "matches_after_email_decoding": true
+      }
+    }
+  }
+}

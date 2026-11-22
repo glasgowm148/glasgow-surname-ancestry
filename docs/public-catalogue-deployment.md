@@ -8,7 +8,15 @@ The catalogue's maintained stylesheet is `tools/catalogue-light.css`. Both the c
 
 `tools/deploy_site.py --bundle` now writes `dist/glasgow-site-YYYYMMDD-HHMMSS.tar.gz` beside `www/`, never inside it. Keep only the latest bundle there. The bundle paths recorded in the release notes below (`www/glasgow-site-…`) describe where those older bundles were written at the time. The deploy and bundle exclude lists also leave out the root build reports `dossier-release.json` and `integration-report.json`, temporary `*.tmp` files and any stray `glasgow-site-*.tar.gz`, so none of them is published even while an old copy still sits in `www/`. `www/health.json` stays public: the status page links it. Legacy `x.html` copies of clean pages (`catalogue.html`, `feedback.html` and the others in `tools/publish_clean_urls.py`) carry `rel="canonical"` to their clean `/x/` URL.
 
-## Current live release — public launch sweep, 14 November 2026
+## Current live release — integrated catalogue and evidence review, 22 November 2026
+
+Payload commit `54557d3bad3c` is live. The catalogue contains 8,011 people and 16,866 record entries. The release includes the corrected Hutcheson biographies and Scottish overview, Belfast–Donegal and Robert Glasgow conclusions, and seven further source reviews. It preserves 349 older record URLs and keeps 280 unresolved identities out of the creation-ready queue.
+
+The production checksum comparison found zero differences against the frozen release. Production smoke checks passed, and seven HTTPS responses matched their local files byte for byte. The other six matched exactly after reversing Cloudflare’s email protection. Both withdrawn routes returned HTTP 404. The release bundle contains 147,486 files. Its digest, the verified private rollback backup, and the individual HTTPS checks are in the [release receipt](../output/integrated-live-20261122-verification.json).
+
+The current Git tree omits 580 restricted files. Their original local hashes were verified. Earlier public Git history still contains withdrawn material.
+
+## Previous live release — public launch sweep, 14 November 2026
 
 The complete site was rebuilt and the launch fixes were committed in `09efd5bc05f0`: corrected source dates, functioning reverse source sorts, improved contrast, repaired legacy section links and redirects, and valid candidate links. Current totals are **8,027 people, 16,987 record entries and 27,442 source references**. Existing source evidence and complete drafts were preserved; record ID changes were reconciled by their original provider URLs.
 
