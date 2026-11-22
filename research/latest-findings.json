@@ -86486,6 +86486,59 @@
       ]
     },
     {
+      "id": "newberry-1800-and-index-role-corrections-20261116",
+      "found_on": "2026-11-16",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "The Newberry household comparison for Elizabeth Ann Glasgow uses the published 1800 transcription, not the separately inspected 1810 census. The 1800 transcription names only Archibald: Elizabeth and Robert remain unproved child comparisons. A review of held provider fields also corrected 37 birth-only entries previously labelled as baptisms and distinguished two mislabelled parent entries from the children they name.",
+      "qualification": "Corrections use previously held records and indexed fields; no new original-image inspection or genealogical connection is claimed. Existing tentative estimates are retained where their scope remains valid. Unresolved adult/child identifications and the Cranston 1855 same-family birth interval remain qualified.",
+      "people": [
+        {
+          "id": "Glasgow-2304",
+          "name": "Archibald Glasgow",
+          "url": "/people/glasgow-2304.html"
+        },
+        {
+          "id": "Glasgow-2168",
+          "name": "Elizabeth Ann (Glasgow) Samford",
+          "url": "/people/glasgow-2168.html"
+        },
+        {
+          "id": "Glasgow-2769",
+          "name": "Robert Glasgow",
+          "url": "/people/glasgow-2769.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "1800 Newberry County census, published transcription, Archibald Glasgow household",
+          "url": "https://genealogytrails.com/scar/newberry/1800nbycensusG.htm"
+        },
+        {
+          "title": "1810 Newberry census, page 119A, original schedule previously inspected 30 October 2026",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:33SQ-GYBM-SHB"
+        },
+        {
+          "title": "Ancestry index, Janet Glasgow, indexed Birth Date 17 April 1797",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/16872538"
+        },
+        {
+          "title": "Ancestry parent index, John Glasgow, spouse Elizabeth Meek, child James Glasgow",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/16872550"
+        },
+        {
+          "title": "Ancestry parent index, G. Glasgow, spouse Rebekah Foy, child John Frederick Glasgow",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/6657245"
+        }
+      ],
+      "detail_url": "/people/glasgow-2304.html",
+      "provenance": [
+        "research/canonical_records.json",
+        "research/relationship_assessments.json",
+        "research/Glasgow-2304/findings.md"
+      ]
+    },
+    {
       "id": "hutcheson-sisters-ratification-pollok-family-20261118",
       "found_on": "2026-11-18",
       "kind": "record",
@@ -86620,6 +86673,223 @@
         "private Ancestry capture glasgow-records/scotland-select-marriages-1561-1910-60144/results-AH.csv",
         "research/Glasgow-1075/findings.md"
       ]
+    },
+    {
+      "id": "ancestry-60143-4516595-father-attribution-review",
+      "found_on": "2026-11-15",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "The Anderston index gives a birth on 16 October 1863 to Samuel Glasgow and Jane Horn. Glasgow-2526 has a documented Belfast child, Jane Trelford Glasgow (Glasgow-2530), born on 26 May 1877 to Samuel Glasgow and Jane Woods. These are different children and couple attributions.",
+      "qualification": "A remarriage or surname variant is possible, but no dated evidence connects the Horn household to Glasgow-2526. The comparison uses held derivative indexes; original register images remain uninspected.",
+      "people": [
+        {
+          "id": "record-ancestry-glasgow-3dd8c13c0490",
+          "name": "Jane Glasgow",
+          "url": "/people/record-ancestry-glasgow-3dd8c13c0490.html"
+        },
+        {
+          "id": "Glasgow-2526",
+          "name": "Samuel Glasgow",
+          "url": "/people/glasgow-2526.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ancestry Scotland, Select Births and Baptisms, index entry 4516595",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/4516595"
+        }
+      ],
+      "detail_url": "/people/record-ancestry-glasgow-3dd8c13c0490.html",
+      "provenance": "Completed cross-chat source and household comparison, confirmed in the current catalogue on 22 November 2026."
+    },
+    {
+      "id": "ancestry-60143-10050797-father-attribution-review",
+      "found_on": "2026-11-15",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "The New Monkland index gives a birth on 27 June 1859 to John Glasgow and Ann Little. Glasgow-1699 is recorded with Ann Jane Ferguson and a daughter named Margaret (Glasgow-1798) in County Tyrone; the Tyrone account does not independently identify the child in New Monkland.",
+      "qualification": "No record bridges the Little and Ferguson households or establishes that the two Margaret entries name one child. The comparison uses held derivative indexes; original register images remain uninspected.",
+      "people": [
+        {
+          "id": "record-ancestry-glasgow-92f55425ca31",
+          "name": "Margaret Calder Glasgow",
+          "url": "/people/record-ancestry-glasgow-92f55425ca31.html"
+        },
+        {
+          "id": "Glasgow-1699",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-1699.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ancestry Scotland, Select Births and Baptisms, index entry 10050797",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/10050797"
+        }
+      ],
+      "detail_url": "/people/record-ancestry-glasgow-92f55425ca31.html",
+      "provenance": "Completed cross-chat source and household comparison, confirmed in the current catalogue on 22 November 2026."
+    },
+    {
+      "id": "ancestry-60143-10339542-father-attribution-review",
+      "found_on": "2026-11-15",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "The Edinburgh index gives a birth on 8 September 1857 to Thomas Glasgow and Agnes Dodds. The held 1857 Leith marriage identifies Glasgow-3842 with Agnes Craigie.",
+      "qualification": "The same given names and nearby places leave the father possible, but no alias, remarriage or other source bridges the two couples. The comparison uses held derivative indexes; original register images remain uninspected.",
+      "people": [
+        {
+          "id": "record-ancestry-glasgow-72adb94a9eb1",
+          "name": "Agnes Glasgow",
+          "url": "/people/record-ancestry-glasgow-72adb94a9eb1.html"
+        },
+        {
+          "id": "Glasgow-3842",
+          "name": "Thomas Glasgow",
+          "url": "/people/glasgow-3842.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ancestry Scotland, Select Births and Baptisms, index entry 10339542",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/10339542"
+        }
+      ],
+      "detail_url": "/people/record-ancestry-glasgow-72adb94a9eb1.html",
+      "provenance": "Completed cross-chat source and household comparison, confirmed in the current catalogue on 22 November 2026."
+    },
+    {
+      "id": "ancestry-60143-11915722-father-attribution-review",
+      "found_on": "2026-11-15",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "The 1757 Mid Calder entries name Andrew Glasgow and Janet Young. The 1741 Kirknewton baptism of Glasgow-1309 names Andrew Glasgow and Janet Clerk and concerns a separately recorded Alexander. The 1757 entries do not corroborate the 1741 household.",
+      "qualification": "The nearby places and father’s name leave Glasgow-3052 as an unselected possibility. The existing 32% comparison and the separately preferred Andrew-1239 remain in the relationship research. The comparison uses held derivative indexes; original register images remain uninspected.",
+      "people": [
+        {
+          "id": "record-ancestry-glasgow-7b3227c05400",
+          "name": "Alexander Glasgow",
+          "url": "/people/record-ancestry-glasgow-7b3227c05400.html"
+        },
+        {
+          "id": "Glasgow-3052",
+          "name": "Andrew Glasgow",
+          "url": "/people/glasgow-3052.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ancestry Scotland, Select Births and Baptisms, index entry 11915722",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/11915722"
+        },
+        {
+          "title": "Ancestry Scotland, Select Births and Baptisms, index entry 19314979",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/19314979"
+        }
+      ],
+      "detail_url": "/people/record-ancestry-glasgow-7b3227c05400.html",
+      "provenance": "Completed cross-chat source and household comparison, confirmed in the current catalogue on 22 November 2026."
+    },
+    {
+      "id": "ancestry-60143-6028290-father-attribution-review",
+      "found_on": "2026-11-15",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "The Symington index gives a birth on 25 February 1862 to William Glasgow and Jane Watson. Glasgow-612 is documented with Jane Curry and Sarah Jane Gormley. His documented family does not identify Jane Watson.",
+      "qualification": "No alias, remarriage or migration record bridges the Watson and Curry households. The two records sharing the names William and Jane are insufficient to identify the indexed father. The comparison uses held derivative indexes; original register images remain uninspected.",
+      "people": [
+        {
+          "id": "record-ancestry-glasgow-18adb863ea82",
+          "name": "Janet Glasgow",
+          "url": "/people/record-ancestry-glasgow-18adb863ea82.html"
+        },
+        {
+          "id": "Glasgow-612",
+          "name": "William Glasgow",
+          "url": "/people/glasgow-612.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ancestry Scotland, Select Births and Baptisms, index entry 6028290",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/6028290"
+        }
+      ],
+      "detail_url": "/people/record-ancestry-glasgow-18adb863ea82.html",
+      "provenance": "Completed cross-chat source and household comparison, confirmed in the current catalogue on 22 November 2026."
+    },
+    {
+      "id": "ancestry-60143-21869213-father-attribution-review",
+      "found_on": "2026-11-15",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "The parallel Symington and Covington and Thankerton entries name William Glasgow and Margaret Henderson as parents of Marion, born 25 March 1838. Glasgow-2876’s wife Margaret Graham is documented on the memorial as dying in 1814 and cannot be Marion’s mother. The paired entries support the existing documentary father William Glasgow.",
+      "qualification": "Glasgow-2876 could have remarried. No dated link establishes that he and the documentary father are the same man. The comparison uses held derivative indexes; original register images remain uninspected.",
+      "people": [
+        {
+          "id": "record-ancestry-glasgow-8680d54a27b1",
+          "name": "Marion Glasgow",
+          "url": "/people/record-ancestry-glasgow-8680d54a27b1.html"
+        },
+        {
+          "id": "Glasgow-2876",
+          "name": "William Glasgow",
+          "url": "/people/glasgow-2876.html"
+        },
+        {
+          "id": "record-ancestry-glasgow-0e7ff39c0d2a",
+          "name": "William Glasgow",
+          "url": "/people/record-ancestry-glasgow-0e7ff39c0d2a.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ancestry Scotland, Select Births and Baptisms, index entry 21869213",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/21869213"
+        },
+        {
+          "title": "Ancestry Scotland, Select Births and Baptisms, parallel entry 21263264",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/21263264"
+        },
+        {
+          "title": "Ancestry Scotland, Select Births and Baptisms, parallel entry 238896",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/238896"
+        }
+      ],
+      "detail_url": "/people/record-ancestry-glasgow-8680d54a27b1.html",
+      "provenance": "Completed cross-chat source and household comparison, confirmed in the current catalogue on 22 November 2026."
+    },
+    {
+      "id": "ancestry-60143-17813118-father-attribution-review",
+      "found_on": "2026-11-15",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "The two Irvine index entries repeat the birth on 12 April 1777 to George Glasgow and Agnes Muir. They do not supply a baptism date or independent evidence to identify the father. Glasgow-1070’s recorded spouse was Agnes Williamson.",
+      "qualification": "Irvine and Kilwinning are compatible, and a remarriage is possible. No record bridges the Muir and Williamson households; Glasgow-1070 remains an unselected father comparison. The comparison uses held derivative indexes; original register images remain uninspected.",
+      "people": [
+        {
+          "id": "record-ancestry-glasgow-efc78022e404",
+          "name": "Peggy Glasgow",
+          "url": "/people/record-ancestry-glasgow-efc78022e404.html"
+        },
+        {
+          "id": "Glasgow-1070",
+          "name": "George Glasgow",
+          "url": "/people/glasgow-1070.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ancestry Scotland, Select Births and Baptisms, index entry 17813118",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/17813118"
+        },
+        {
+          "title": "Ancestry Scotland, Select Births and Baptisms, index entry 7283292",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/7283292"
+        }
+      ],
+      "detail_url": "/people/record-ancestry-glasgow-efc78022e404.html",
+      "provenance": "Completed cross-chat source and household comparison, confirmed in the current catalogue on 22 November 2026."
     }
   ]
 }
