@@ -39,6 +39,8 @@ def finalize(site_root=ROOT/'www'):
     from tools.build_source_collections import repair as repair_source_collections, ready as source_collections_ready
     if source_collections_ready(site_root):
         counts.update(repair_source_collections(site_root))
+    from tools.build_record_details import repair_legacy_lookups
+    counts.update(repair_legacy_lookups(site_root))
     health_path=site_root/'health.json'
     generated=date.fromisoformat(json.loads(health_path.read_text())['generated']) if health_path.exists() else None
     built=datetime.now().replace(second=0,microsecond=0)  # one stamp for every page in this build

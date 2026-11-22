@@ -10,7 +10,7 @@ let registryPromise;const registry=()=>registryPromise??=(json('/assets/v3/regis
 const canonical=id=>window.GlasgowRoutes?.[String(id||'').toLowerCase()]||String(id||'').toLowerCase();
 const person=id=>json('/assets/research/people/'+encodeURIComponent(canonical(id))+'.json');
 const original=id=>json('/people/'+encodeURIComponent(canonical(id))+'.json');
-const record=id=>/^[a-f0-9]{16}$/.test(id)?json('/assets/research/records/'+id+'.json'):Promise.reject(Error('Invalid record identifier.'));
+const record=id=>typeof id==='string'&&id.length&&!/[^\w-]/.test(id)?json('/assets/research/records/'+id+'.json'):Promise.reject(Error('Invalid record identifier.'));
 function safeURL(value){if(!value||!String(value).trim())return '';try{const u=new URL(value,location.origin);return ['http:','https:'].includes(u.protocol)?u.href:''}catch{return ''}}
 const storage={get(key,fallback){try{const x=JSON.parse(localStorage.getItem(key)||'null');return x??fallback}catch{return fallback}},set(key,value){try{localStorage.setItem(key,JSON.stringify(value));return true}catch{return false}},sessionGet(key,fallback){try{return JSON.parse(sessionStorage.getItem(key)||'null')??fallback}catch{return fallback}},sessionSet(key,value){try{sessionStorage.setItem(key,JSON.stringify(value));return true}catch{return false}}};
 function toast(s){window.GlasgowSite?.toast(s)}

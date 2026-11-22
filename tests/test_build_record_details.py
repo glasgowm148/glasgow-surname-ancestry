@@ -35,6 +35,59 @@ class RecordDetails(unittest.TestCase):
             details.main(['--web', str(web)])
             self.assertEqual(details.build(web)[0], {})
 
+    def test_legacy_lookup_follows_public_record_and_drops_a_withdrawn_alias(self):
+        with TemporaryDirectory() as directory:
+            root = Path(directory)
+            web = root / 'www'
+            older, current = '1' * 16, 'ancestry-123-456'
+            source = 's-' + '3' * 16
+            url = 'https://example.org/public-register'
+
+            def put(path, value):
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_text(json.dumps(value))
+
+            put(root / details.RETIRED_URLS, {'record_lookups': {
+                'published_on': '2026-11-14', 'bundle_sha256': 'a' * 64,
+                'records': {older: [current, source, url]},
+            }})
+            row = {'record_id': current, 'document_id': source, 'source_url': url, 'note': 'Reviewed entry'}
+            full = web / 'data/records-index.json'
+            compact = web / 'assets/research/record-index.json'
+            source_json = web / f'assets/v3/sources/{source}.json'
+            put(full, [row])
+            put(compact, [{'id': current, 'document_id': source}])
+            doc = {'id': source, 'url': url, 'records': [{'id': older}]}
+            put(source_json, doc)
+            put(web / f'assets/research/records/{current}.json', dict(row, local_generator_detail='Ignored'))
+            alias = web / f'assets/research/records/{older}.json'
+
+            self.assertEqual(details.repair_legacy_lookups(web), {'legacy_record_lookups': 1})
+            output = json.loads(alias.read_text())
+            self.assertEqual(output['record_id'], older)
+            self.assertEqual(output['canonical_record_id'], current)
+            self.assertEqual(output['superseded_by'], current)
+            self.assertEqual(output['note'], row['note'])
+            self.assertNotIn('local_generator_detail', output)
+            self.assertEqual(json.loads(full.read_text()), [row])
+            self.assertEqual(json.loads(compact.read_text()), [{'id': current, 'document_id': source}])
+            self.assertEqual(details.repair_legacy_lookups(web), {})
+
+            put(source_json, dict(doc, annotations={'publication_withdrawal': {'reason': 'Scope'}}))
+            self.assertEqual(details.repair_legacy_lookups(web), {'removed_legacy_record_lookups': 1})
+            self.assertFalse(alias.exists())
+            put(source_json, doc)
+            put(compact, [])
+            put(alias, dict(row, record_id=older))
+            self.assertEqual(details.repair_legacy_lookups(web), {'removed_legacy_record_lookups': 1})
+            self.assertFalse(alias.exists())
+
+            put(compact, [{'id': current, 'document_id': source}])
+            notice = {'record_id': older, 'withdrawn': True, 'reason': 'Scope'}
+            put(alias, notice)
+            self.assertEqual(details.repair_legacy_lookups(web), {})
+            self.assertEqual(json.loads(alias.read_text()), notice)
+
 
 if __name__ == '__main__':
     unittest.main()
