@@ -49,6 +49,12 @@ class ReopenedProfileUpdatesTest(unittest.TestCase):
                 self.assertEqual('', update['remote_wikitext'])
                 self.assertEqual('', update['proposed_wikitext'])
                 self.assertEqual('', update['draft_wikitext'])
+                retained_capture = {'profiles': {'Glasgow-1': {'biography_wikitext': current}}}
+                self.assertEqual(update, catalogue._load_profile_updates(retained_capture)['Glasgow-1'])
+                current_path.write_text(current + '\nTampered material')
+                with self.assertRaisesRegex(ValueError, 'preservation review is stale'):
+                    catalogue._load_profile_updates(retained_capture)
+                current_path.write_text(current)
                 for invalid_rows in ([], [dict(historical_row, birth_year=2000)],
                                      [dict(historical_row, birth_year=None)],
                                      [dict(historical_row, json_url='/people/another.json')]):

@@ -5122,7 +5122,8 @@ def _load_profile_updates(wikitree_evidence: dict, report: list | None = None,
                         f"entry {'dated ' + entry_date if entry_date else 'undated'}, not after the completion")
                 continue
         capture = captures.get(profile_id)
-        if specification.get('private_comparison') is True and (not capture or capture.get('narrative_withheld') is True):
+        if specification.get('private_comparison') is True and (
+                specification.get('private_capture_path') or not capture or capture.get('narrative_withheld') is True):
             updates[profile_id] = _private_additive_profile_update(profile_id, specification, wikitree_evidence)
             continue
         if not capture:
