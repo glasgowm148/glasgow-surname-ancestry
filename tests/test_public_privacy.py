@@ -113,6 +113,22 @@ class PublicPrivacyTests(unittest.TestCase):
             self.assertEqual(0, remove_withheld_subject_routes(web, people, policy))
             self.assertEqual('Historical subject', (web / 'people/historical-1.html').read_text())
 
+    def test_withheld_orphan_event_route_is_removed_after_subject_leaves_index(self):
+        policy = PublicPrivacy({"Private-1": {"IsLiving": True}})
+        with tempfile.TemporaryDirectory() as directory:
+            web = Path(directory)
+            events = web / "assets/v3/events"
+            events.mkdir(parents=True)
+            orphan = events / "private-1.json"
+            orphan.write_text("[]")
+            retained = events / "private-10.json"
+            retained.write_text("[]")
+
+            self.assertEqual(1, remove_withheld_subject_routes(web, [], policy))
+            self.assertFalse(orphan.exists())
+            self.assertTrue(retained.exists())
+            self.assertEqual(0, remove_withheld_subject_routes(web, [], policy))
+
     def test_withheld_route_cleanup_does_not_follow_external_directories(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)

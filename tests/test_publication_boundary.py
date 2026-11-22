@@ -26,5 +26,17 @@ class PublicationBoundaryTests(unittest.TestCase):
             self.assertEqual(audit(root, policy), [])
 
 
+    def test_empty_or_opaque_files_cannot_publish_a_withheld_id_in_their_path(self):
+        policy = PublicPrivacy({"Example-100": {"IsLiving": True}})
+        with tempfile.TemporaryDirectory() as directory, patch('tools.check_publication_boundary.audit_approved_research', return_value=[]):
+            root = Path(directory)
+            for name, content in (("example-100.json", b"[]"), ("example-100.png", b"fixture")):
+                (root / name).write_bytes(content)
+            self.assertCountEqual(audit(root, policy), [
+                "Withheld identifier remains in path: example-100.json",
+                "Withheld identifier remains in path: example-100.png",
+            ])
+
+
 if __name__ == "__main__":
     unittest.main()

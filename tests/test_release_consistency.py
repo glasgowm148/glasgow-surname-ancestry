@@ -14,6 +14,25 @@ spec.loader.exec_module(consistency)
 
 
 class ReleaseConsistencyTests(unittest.TestCase):
+    def test_stale_manifest_remains_a_blocker_after_repairing_headline_totals(self):
+        with tempfile.TemporaryDirectory() as directory:
+            web = Path(directory)
+            data = web / 'data'
+            data.mkdir()
+            (data / 'catalogue-search-index.json').write_text('[{}]')
+            (data / 'people.json').write_text('{"people": [{}]}')
+            (data / 'records-index.json').write_text('[{}, {}]')
+            manifest = data / 'manifest.json'
+            original = '{"datasets": [{"name": "people", "count": 1}, {"name": "records", "count": 1}]}'
+            manifest.write_text(original)
+            (web / 'health.json').write_text('{"counts": {"people": 1, "records": 1}}')
+
+            with patch.object(consistency, 'WEB', web):
+                self.assertEqual(['manifest.json records: 1 != 2'], consistency.repair_totals())
+
+            self.assertEqual(original, manifest.read_text())
+            self.assertEqual(2, json.loads((web / 'health.json').read_text())['counts']['records'])
+
     def test_record_and_place_totals_follow_the_published_indexes(self):
         with tempfile.TemporaryDirectory() as directory:
             web = Path(directory)

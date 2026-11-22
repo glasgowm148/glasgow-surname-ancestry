@@ -54,6 +54,14 @@ def check(fix: bool) -> list[str]:
     for label, value in (("people.json people", len(people_json["people"])), ("people.json count", people_json.get("count", len(people_json["people"])))):
         if value != people:
             problems.append(f"{label}: {value:,} != search index {people:,}")
+    manifest_path = WEB / "data/manifest.json"
+    if manifest_path.exists():
+        manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+        datasets = {row["name"]: row["count"] for row in manifest["datasets"]}
+        for name, label in (("people", "Historical people"), ("records", "Mapped records")):
+            if label in totals and datasets.get(name) != totals[label]:
+                actual = f"{datasets[name]:,}" if name in datasets else "missing"
+                problems.append(f"manifest.json {name}: {actual} != {totals[label]:,}")
     health_path = WEB / "health.json"
     if health_path.exists():
         health = json.loads(health_path.read_text(encoding="utf-8"))

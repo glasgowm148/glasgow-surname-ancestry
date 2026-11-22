@@ -366,26 +366,30 @@ def evidence_envelope(evidence, people):
 
 
 def remove_withheld_subject_routes(web, people, policy):
-    """Remove direct subject files, whose names/prose may omit profile tokens."""
-    removed = 0
+    """Remove subject routes even when the withheld person has left the index."""
+    slug_pattern = re.compile(r"[a-z0-9_-]+")
+    slugs = {key for key in policy.blocked if slug_pattern.fullmatch(key)}
     for person in people:
-        if not any(str(key).casefold() in policy.blocked for key in person.get('profile_ids', [])):
+        if not any(str(key).casefold() in policy.blocked for key in person.get("profile_ids", [])):
             continue
-        slug = person.get('catalogue_id', '')
-        if not re.fullmatch(r'[a-z0-9_-]+', slug):
-            raise ValueError('Unsafe withheld catalogue slug')
-        paths = [web / 'people' / (slug + suffix) for suffix in ('.html', '.json', '.network.json')]
-        paths += [web / 'people' / slug / 'index.html',
-                  web / 'assets/research/people' / (slug + '.json'),
-                  web / 'assets/v3/events' / (slug + '.json')]
+        slug = person.get("catalogue_id", "")
+        if not slug_pattern.fullmatch(slug):
+            raise ValueError("Unsafe withheld catalogue slug")
+        slugs.add(slug)
+    removed = 0
+    root = web.resolve()
+    for slug in sorted(slugs):
+        paths = [web / "people" / (slug + suffix) for suffix in (".html", ".json", ".network.json")]
+        paths += [web / "people" / slug / "index.html",
+                  web / "assets/research/people" / (slug + ".json"),
+                  web / "assets/v3/events" / (slug + ".json")]
         for path in paths:
-            if not path.resolve().is_relative_to(web.resolve()):
-                raise ValueError('Withheld route escapes public site')
+            if not path.resolve().is_relative_to(root):
+                raise ValueError("Withheld route escapes public site")
             if path.is_file():
                 path.unlink()
                 removed += 1
     return removed
-
 
 def repair_orphaned_subjects(web, policy):
     """Recover older redacted index/detail objects without dropping safe namesakes."""

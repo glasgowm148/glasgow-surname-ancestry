@@ -18,12 +18,15 @@ from pathlib import Path
 from typing import BinaryIO
 
 
+NEWSPAPER_ASSETS = Path("assets/sources/newspapers")
 EXCLUDE_PATTERNS = (
     "glasgow-site-*.tar.gz", ".DS_Store", "._*", ".env", ".env.*",
     "*.py", "*.pyc", "*.pyo", "*.pem", "*.key", "*.p12", "*.pfx",
     "__pycache__/",
     # Internal build reports, never reader pages (site audit S1-05).
     "/dossier-release.json", "/integration-report.json", "*.tmp",
+    # Local OCR sidecars fall outside the newspaper image approval.
+    f"/{NEWSPAPER_ASSETS.as_posix()}/*.png.txt",
 )
 # Root-level build reports matched by name in is_excluded() as well.
 BUILD_REPORTS = {"dossier-release.json", "integration-report.json"}
@@ -45,9 +48,13 @@ def prepare_release(site_root: Path, write: bool = True) -> None:
     sys.path.insert(0, str(tools))
     from stamp_asset_versions import stamp
     from finalize_site import finalize
-    if write: finalize(site_root)
-
     if write:
+        finalize(site_root)
+        # Finalization can publish reviewed records and refresh the data manifest.
+        # Update the verified headline counts before stamping the release pages.
+        totals = [sys.executable, str(tools / 'check_release_consistency.py'), '--fix', '--no-research']
+        if subprocess.run(totals).returncode:
+            raise SystemExit('Release totals remain inconsistent; not releasing')
         # Scripts that load other versioned assets change hash when stamped,
         # so repeat until references settle.
         for _ in range(4):
@@ -75,6 +82,7 @@ def is_excluded(relative: Path) -> bool:
         or relative.match("glasgow-site-*.tar.gz")
         or (len(relative.parts) == 1 and relative.name in BUILD_REPORTS)
         or relative.suffix == ".tmp"
+        or (relative.parent == NEWSPAPER_ASSETS and relative.name.endswith(".png.txt"))
     )
 
 

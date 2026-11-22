@@ -8,6 +8,7 @@ import tarfile
 import tempfile
 import unittest
 from pathlib import Path
+from types import SimpleNamespace
 from unittest.mock import patch
 
 from tools import deploy_site, stamp_asset_versions
@@ -36,6 +37,36 @@ class StampAssetVersionsTests(unittest.TestCase):
 
 
 class DeploySiteTests(unittest.TestCase):
+    def test_release_repairs_verified_totals_before_stamping_and_gating(self) -> None:
+        root = Path('www')
+        steps = []
+
+        def run(command):
+            steps.append((Path(command[1]).name, *command[2:]))
+            return subprocess.CompletedProcess(command, 0)
+
+        def stamp(site, write):
+            steps.append('stamp' if write else 'check versions')
+            self.assertEqual(site, root)
+            return 0, 0
+
+        modules = {
+            'finalize_site': SimpleNamespace(finalize=lambda site: steps.append(('finalize', site))),
+            'stamp_asset_versions': SimpleNamespace(stamp=stamp),
+        }
+        with patch.dict('sys.modules', modules), patch.object(deploy_site.subprocess, 'run', side_effect=run):
+            deploy_site.prepare_release(root)
+
+        self.assertEqual(steps, [
+            ('finalize', root),
+            ('check_release_consistency.py', '--fix', '--no-research'),
+            'stamp',
+            ('check_release_consistency.py',),
+            ('repair_atlas_destinations.py', '--check'),
+            ('check_publication_boundary.py',),
+            'check versions',
+        ])
+
     def test_bundle_uses_site_root_and_exclusions(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary) / "www"
@@ -66,6 +97,31 @@ class DeploySiteTests(unittest.TestCase):
                     data = contents.extractfile(entry["path"]).read()
                     self.assertEqual(entry["bytes"], len(data))
                     self.assertEqual(entry["sha256"], hashlib.sha256(data).hexdigest())
+
+    def test_release_excludes_newspaper_ocr_sidecars_but_retains_published_text(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary) / 'www'
+            target = root.parent / 'deployed'
+            image = Path('assets/sources/newspapers/clip.png')
+            sidecar = image.with_suffix('.png.txt')
+            transcription = Path('research/transcriptions/clip.txt')
+            for relative in (image, sidecar, transcription):
+                path = root / relative
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_text('fixture')
+            remote_sidecar = target / sidecar
+            remote_sidecar.parent.mkdir(parents=True)
+            remote_sidecar.write_text('previous release')
+
+            with tarfile.open(deploy_site.make_bundle(root)) as archive:
+                self.assertEqual(set(archive.getnames()), {image.as_posix(), transcription.as_posix(), 'release-manifest.json'})
+
+            subprocess.run(deploy_site.rsync_command(root, str(target), dry_run=False),
+                           check=True, capture_output=True)
+            self.assertTrue((target / image).is_file())
+            self.assertTrue((target / transcription).is_file())
+            self.assertFalse(remote_sidecar.exists())
+            self.assertTrue((root / sidecar).is_file())
 
     def test_bundle_hashes_the_bytes_archived_during_a_concurrent_edit(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:

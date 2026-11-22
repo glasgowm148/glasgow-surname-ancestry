@@ -5,13 +5,13 @@ import json
 import re
 
 try:
-    from public_privacy import from_sources, public_capture
+    from public_privacy import from_sources, profile_tokens, public_capture
     from site_analytics import audit as analytics_audit
     from repair_public_dna import WITHHELD_ASSETS, ATLAS_MODELS, DNA_INDEX
     from public_manuscript_previews import audit_approved_previews
     from public_ydna_research import audit_approved_research, approved_document
 except ModuleNotFoundError:
-    from tools.public_privacy import from_sources, public_capture
+    from tools.public_privacy import from_sources, profile_tokens, public_capture
     from tools.site_analytics import audit as analytics_audit
     from tools.repair_public_dna import WITHHELD_ASSETS, ATLAS_MODELS, DNA_INDEX
     from tools.public_manuscript_previews import audit_approved_previews
@@ -67,10 +67,15 @@ def audit(web=ROOT / "www", policy=None):
     if dna_index.exists() and json.loads(dna_index.read_text()) != [] and not approved_document(DNA_INDEX, dna_index.read_text()):
         failures.append(f"Individual DNA index remains: {DNA_INDEX}")
     for path in web.rglob("*"):
-        if not path.is_file() or path.suffix.lower() not in {".html", ".json", ".js", ".csv", ".txt", ".md"}:
+        if not path.is_file():
+            continue
+        relative = path.relative_to(web)
+        if not policy.blocked.isdisjoint(profile_tokens(relative.as_posix())):
+            failures.append(f"Withheld identifier remains in path: {relative}")
+        if path.suffix.lower() not in {".html", ".json", ".js", ".csv", ".txt", ".md"}:
             continue
         text = path.read_text(encoding="utf-8")
-        approved = approved_document(path.relative_to(web).as_posix(), text)
+        approved = approved_document(relative.as_posix(), text)
         if policy.contains_private_id(text, include_testers=not approved):
             failures.append(f"Withheld identifier remains: {path.relative_to(web)}")
         if path.suffix == ".html" and re.search(r'<article\b[^>]*\brepair-tester-row\b', text) and not approved:
