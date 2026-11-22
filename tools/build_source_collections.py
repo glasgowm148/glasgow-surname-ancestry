@@ -592,8 +592,20 @@ def move_branch_tables(web, data, sections):
         target = master_query(coll=route)
         ids = re.findall(r'\bid="([^"]+)"', sections[route])
         row_target = lambda ident: master_query(coll=route, id='c-' + slug(route) + '-' + ident)
-        aliases = ''.join(f'<span id="{e(ident, quote=True)}" data-source-target="{e(row_target(ident), quote=True)}"></span>' for ident in ids if ident != name)
         metadata = json.loads((ROOT / f'surname-research/indexes/scotlandspeople-opr-{kind}-to-1700.json').read_text())
+        targets = {ident: ident for ident in ids if ident != name}
+        if kind == 'marriages':
+            # The old page had one draft anchor for each group of index rows.
+            # The Sources master list has entries for the actual rows.
+            for draft in metadata.get('new_drafts', []):
+                rows = draft['rows']
+                first_row = next((f'opr-marriage-{number:02d}' for number in rows
+                                  if f'opr-marriage-{number:02d}' in targets), None)
+                if first_row:
+                    alias = 'opr-marriage-identity-' + '-'.join(map(str, rows))
+                    targets[alias] = first_row
+        aliases = ''.join(f'<span id="{e(ident, quote=True)}" data-source-target="{e(row_target(row_id), quote=True)}"></span>'
+                          for ident, row_id in targets.items())
         conclusion = '<p>' + e(metadata.get('conclusion','')) + '</p>'
         replacement = f'<!-- {name}:start --><section id="{name}"><h2>Scottish parish {kind} through 1700</h2>{conclusion}<p>The reviewed index, profile assessments, source links and record limitations are now in <a href="{e(target, quote=True)}">the source list: {e(SPECIAL_COLLECTIONS[route][0])}</a>. These index entries remain subject to original-register and identity checks.</p>{aliases}</section><!-- {name}:end -->'
         text = re.sub(pattern, lambda _: replacement, text, flags=re.S)

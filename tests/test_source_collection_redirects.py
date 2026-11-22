@@ -1,9 +1,27 @@
 import tempfile
 import unittest
 from pathlib import Path
-from tools.build_source_collections import publish_collection_redirects
+from bs4 import BeautifulSoup
+from tools.build_source_collections import move_branch_tables, publish_collection_redirects
 
 class CollectionRedirectTests(unittest.TestCase):
+    def test_former_marriage_draft_anchor_opens_an_existing_master_row(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            web = Path(tmp)
+            scotland = web / 'branches/scottish-families/index.html'
+            scotland.parent.mkdir(parents=True)
+            scotland.write_text('<main><!-- opr-marriages-to-1700:start --><!-- opr-marriages-to-1700:end --></main></body>')
+            ireland = web / 'branches/early-ireland/index.html'
+            ireland.parent.mkdir()
+            ireland.write_text('<main></main>')
+            sections = {f'{kind}/scotland/opr-to-1700': '' for kind in ('births', 'marriages', 'deaths')}
+            sections['marriages/scotland/opr-to-1700'] = '<tr id="opr-marriage-08"></tr><tr id="opr-marriage-32"></tr>'
+            move_branch_tables(web, {'rows': [], 'conclusion': ''}, sections)
+            soup = BeautifulSoup(scotland.read_text(), 'html.parser')
+            target = soup.find(id='opr-marriage-identity-8-32')['data-source-target']
+            self.assertEqual(target, soup.find(id='opr-marriage-08')['data-source-target'])
+            self.assertIn('id=c-marriages-scotland-opr-to-1700-opr-marriage-08', target)
+
     def test_reclassified_public_route_survives_repeated_builds(self):
         with tempfile.TemporaryDirectory() as tmp:
             web=Path(tmp);destination='/sources/deaths/scotland/1850-1899/';old='/sources/other/scotland/1850-1899/'
