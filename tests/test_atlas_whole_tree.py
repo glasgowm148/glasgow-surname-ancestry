@@ -48,6 +48,14 @@ class WholeTreeRendererTest(unittest.TestCase):
         for token in ('function setGrand(', 'id="grand-toggle"', "&filter=grandparents", 'drawGrandLabels(guard,z)'):
             self.assertIn(token, page)
 
+    def test_birth_surname_and_sex_filters_preserve_matching_descendants(self):
+        page = whole_tree_renderer(self.original)
+        self.assertIn("const personFilters = {glasgow: true, male: true}", page)
+        self.assertIn("person.surname || ''", page)
+        self.assertIn("person.sex || ''", page)
+        self.assertIn("!matchesPersonFilters(P.get(id))){for(const child of n.children)visit(child);return}", page)
+        self.assertIn("visible.has(e.a)&&visible.has(e.b)", page)
+
     def test_family_areas_and_pins(self):
         page = whole_tree_renderer(self.original)
         self.assertIn('familyAreaHit(x,y)', page)

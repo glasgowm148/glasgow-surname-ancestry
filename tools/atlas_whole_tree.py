@@ -650,7 +650,41 @@ function treeRebuild(anchor,refit){if(state.view!=='family'||!state.familyRoot)r
 '''
 
 
+PERSON_FILTERS_JS = r'''
+const personFilters = {glasgow: true, male: true};
+function matchesPersonFilters(person) {
+  return (!personFilters.glasgow || String(person.surname || '').trim().toLowerCase() === 'glasgow') &&
+    (!personFilters.male || /^(m|male)$/i.test(String(person.sex || '').trim()));
+}
+function installPersonFilters() {
+  const tools = $('#canopy-tools');
+  if (!tools || $('#canopy-person-filters')) return;
+  const group = document.createElement('div');
+  group.id = 'canopy-person-filters';
+  group.style.cssText = 'display:flex;flex:1 0 100%;gap:12px;align-items:center;flex-wrap:wrap';
+  for (const [key, label] of [['glasgow', 'Glasgow birth surname only'], ['male', 'Males only']]) {
+    const field = document.createElement('label');
+    field.style.cssText = 'display:inline-flex;gap:4px;align-items:center;font:inherit;letter-spacing:normal;text-transform:none';
+    const input = document.createElement('input');
+    input.type = 'checkbox';
+    input.style.cssText = 'width:auto;flex:none;margin:0';
+    input.checked = personFilters[key];
+    input.onchange = () => { personFilters[key] = input.checked; canopyDirty(); };
+    field.append(input, label);
+    group.append(field);
+  }
+  tools.append(group);
+  uiBoxes = null;
+}
+'''
+
 PATCHES = [
+    ("$('#visible-records').textContent=fw?", "$('#visible-records').textContent=(personFilters.glasgow||personFilters.male)&&!fw&&!MF&&!state.grand&&!state.early?fmt(v.shown)+' of '+fmt(P.size)+' people':fw?"),
+    ("function canopyDirty(){canopyVis=null;", "function canopyDirty(){if(atlas)atlas.miniCanvas=null;canopyVis=null;"),
+    ("for(const ch of scene.chunks){cx.strokeStyle=ch.colour;", "if(scene.type==='all'&&canopyVis){for(const [key,path] of canopyVis.paths){cx.strokeStyle=key.split('|')[0];cx.globalAlpha=.55;cx.lineWidth=.52/k;cx.stroke(path)}}else for(const ch of scene.chunks){cx.strokeStyle=ch.colour;"),
+    ("function buildCanopyVis(){", PERSON_FILTERS_JS + "function buildCanopyVis(){installPersonFilters();"),
+    ("visible.add(id);if(n.type!=='hub'", "if(n.type==='person'&&!matchesPersonFilters(P.get(id))){for(const child of n.children)visit(child);return}visible.add(id);if(n.type!=='hub'"),
+    ("p.y<H-55&&isMatch(n)}).map(n=>n.id);openDirectory", "p.y<H-55&&isMatch(n)&&(scene.type!=='all'||canopyVis?.visible.has(n.id))}).map(n=>n.id);openDirectory"),
     ("chunk.type==='coparent'?[1/cam.k,4/cam.k]:", "chunk.type==='sibling'?[5/cam.k,2/cam.k]:chunk.type==='coparent'?[1/cam.k,4/cam.k]:"),
     ("e.type==='coparent'?[1/cam.k,4/cam.k]:", "e.type==='sibling'?[5/cam.k,2/cam.k]:e.type==='coparent'?[1/cam.k,4/cam.k]:"),
     ("chunk.type==='coparent'?[1/k,3/k]:", "chunk.type==='sibling'?[5/k,2/k]:chunk.type==='coparent'?[1/k,3/k]:"),
