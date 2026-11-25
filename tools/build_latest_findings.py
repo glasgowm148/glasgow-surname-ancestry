@@ -281,7 +281,7 @@ def render_main(rows, total=None, page_number=None, studies=(), browse=False, pl
         f'<a id="{ident}" href="{page_url(target)}" aria-disabled="false">{text}</a>' if target else
         f'<a id="{ident}" href="/latest-findings/" aria-disabled="true">{text}</a>')
     options = ''.join(f'<option value="{key}">{label}</option>' for key, label in KINDS.items())
-    dashboard, feed_start, findings_table = '', '', ''
+    dashboard, feed_start, findings_table, recent_summary = '', '', '', ''
     if page_number is None:
         start, end = PROGRESS_MARKERS['dashboard']
         dashboard = f'</header>{start}{end}'
@@ -289,13 +289,23 @@ def render_main(rows, total=None, page_number=None, studies=(), browse=False, pl
         start, end = PROGRESS_MARKERS['findings']
         findings_table = start + end
         lede = 'Research progress across the Glasgow paternal family, then new records and supported corrections, newest first.'
+        recent_items = ''.join(
+            f'<li><time datetime="{escape(item["found_on"])}">{escape(item["found_on"])}</time>'
+            f'<p>{escape(item["finding"])}</p>'
+            f'<a href="{escape(item.get("_page_url", "/latest-findings/"), quote=True)}#finding-{escape(item["id"], quote=True)}">'
+            f'View evidence</a></li>' for item in rows[:3]
+        )
+        if recent_items:
+            recent_summary = ('<section class="lf-recent-summary" aria-labelledby="lf-recent-summary-title">'
+                              '<h2 id="lf-recent-summary-title">Recent discoveries</h2>'
+                              f'<ol>{recent_items}</ol></section>')
         progress = ''
     else:
         lede = 'New records and supported corrections from the Glasgow research, newest first.'
         progress = '<p class="lf-progress"><a href="/latest-findings/#research-progress">Research progress charts →</a><span>See how father-link confidence and branch connectivity change over time.</span></p>'
     return f'''<main id="main" class="latest-findings-page" data-lf-total="{total}" data-lf-page="{page_number or 'latest'}">
 <header class="lf-intro"><p class="r-kicker">What we have learned</p><h1>Latest findings</h1>
-<p class="lf-lede">{lede}</p>{progress}{dashboard}{feed_start}
+<p class="lf-lede">{lede}</p>{recent_summary}{progress}{dashboard}{feed_start}
 <p>Dates show when evidence was found or reviewed. Each finding gives its sources and what remains uncertain.</p>
 <p>The finding assessment applies to the statement in that row. A supported record fact does not confirm its identification with a linked WikiTree profile. Profile identification limits appear beside the person and in the research.</p>
 <p>Use Assessment to find relationships that became certain. <a href="/research/relationship-audit/">Read the historical audit and counts →</a></p>{follow}{'</div>' if feed_start else '</header>'}

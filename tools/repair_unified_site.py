@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import argparse
 from collections import Counter
+from hashlib import sha256
 from html import unescape
 from html.parser import HTMLParser
 import json
@@ -33,6 +34,31 @@ WEB = ROOT / "www"
 OLD_WEB = ROOT / "www_old"
 PERSON_DIR = WEB / "people"
 OLD_PERSON_DIR = OLD_WEB / "people"
+
+
+def repair_connections_overlay(web: Path = WEB) -> int:
+    """Install the maintained Glasgow cue on generated connection results."""
+    source = ROOT / "tools/site_sources/connections_overlay.js"
+    page = web / "connections/index.html"
+    if not page.is_file():
+        return 0
+    target = web / "assets/v3/connections-overlay.js"
+    target.parent.mkdir(parents=True, exist_ok=True)
+    source_text = source.read_text(encoding="utf-8")
+    changed = int(not target.exists() or target.read_text(encoding="utf-8") != source_text)
+    if changed:
+        target.write_text(source_text, encoding="utf-8")
+    content = page.read_text(encoding="utf-8")
+    version = sha256(source_text.encode()).hexdigest()[:10]
+    tag = f'<script defer src="/assets/v3/connections-overlay.js?v={version}"></script>'
+    stripped = re.sub(r'<script\b[^>]*src="/assets/v3/connections-overlay\.js(?:\?[^"]*)?"[^>]*>\s*</script>', '', content)
+    updated = stripped.replace("</body>", tag + "</body>", 1)
+    if updated != content:
+        page.write_text(updated, encoding="utf-8")
+        changed += 1
+    return changed
+
+
 ARCHIVAL_SNAPSHOTS = ()  # Superseded and tester-level originals are now private.
 
 LOCAL_FILE_LINKS = (
@@ -947,6 +973,7 @@ def main() -> int:
         parser.error("both www and www_old are required")
     changed: Counter[str] = Counter()
     if not args.check:
+        changed["connections_overlay"] += repair_connections_overlay()
         changed.update(repair_people())
         changed.update(repair_records())
         changed.update(repair_catalogue())

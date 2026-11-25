@@ -70,10 +70,11 @@ def render_status_body(health: dict) -> str:
         f'<div class="status-card"><strong>{value:,}</strong><span>{escape(label)}</span></div>'
         for label, value in cards)
     explicit, candidate, unresolved = (links.get(key, 0) for key in ("explicit", "candidate", "unresolved"))
+    maintained = links.get("maintained_reading", 0)
     source_html = "".join(
         f'<div class="status-card"><strong>{value:,}</strong><span>{escape(label)}</span></div>'
         for label, value in (("Source cited", explicit), ("Possible source match", candidate),
-                             ("Source still to be added", unresolved)))
+                             ("Source still to be added", unresolved), ("Maintained reading", maintained)))
     return (
         '<p class="kicker">About the data</p><h1>Catalogue status</h1>'
         f'<p class="lede">These totals come from the catalogue compiled on {escape(reader_date(health.get("generated")))} '
@@ -81,10 +82,12 @@ def render_status_body(health: dict) -> str:
         'the people search use the same totals.</p>'
         f'<div class="status-grid">{card_html}</div>'
         '<section id="record-sources"><h2>Sources for each record entry</h2>'
-        '<p>A record entry links a person to a record. '
+        '<p>A record entry links one person to one record or event. It is different from a collected reference in the '
+        '<a href="/sources/">Source Library</a>: one document can produce several person entries, and several '
+        'references can describe the same document. '
         f'{explicit:,} entries cite their source directly. {candidate:,} have a possible match in the source library '
-        f'that still needs checking. {unresolved:,} still need their source added. This is a measure of how far the '
-        'linking work has gone, not of how many records are missing.</p>'
+        f'that still needs checking. {unresolved:,} still need their source added. '
+        'The maintained-reading category covers separately recorded readings of source material.</p>'
         f'<div class="status-grid">{source_html}</div></section>'
         '<section><h2>What these numbers do not show</h2><p>They describe what the catalogue contains, not whether '
         'every family relationship is correct. A possible source match is a lead until someone has checked it.</p>'
@@ -95,7 +98,9 @@ def render_status_body(health: dict) -> str:
     )
 
 
-FEEDBACK_SCRIPT = """<script>(()=>{const p=new URLSearchParams(location.search).get('person')||'';const line=document.querySelector('#feedback-person-line');const label=document.querySelector('#feedback-person');const link=document.querySelector('#feedback-wikitree');const text=document.querySelector('#feedback-template');if(p){label.textContent=p;line.hidden=false}if(/^[A-Za-z][A-Za-z_'’-]*-\\d+$/.test(p)){link.href='https://www.wikitree.com/wiki/'+encodeURIComponent(p);link.hidden=false}text.value=`Person or page: ${p||'[name, dates or page link]'}\\nPage link: ${p?location.href:'[paste the page address]'}\\nWhat is wrong, and what should it say:\\n\\nThe record (archive, reference, date) or how you know:\\n\\n`;const copy=document.querySelector('#feedback-copy');copy.addEventListener('click',async()=>{try{await navigator.clipboard.writeText(text.value);copy.textContent='Copied'}catch(error){text.select();copy.textContent='Selected: press Ctrl+C or ⌘C to copy'}});})();</script>"""
+FEEDBACK_SCRIPT = '<script id="feedback-context">' + (
+    Path(__file__).with_name('site_sources') / 'reader_guidance/feedback.js'
+).read_text(encoding='utf-8') + '</script>'
 
 
 def render_feedback_body() -> str:
@@ -153,8 +158,10 @@ def apply_to_site(web: Path = WEB) -> dict[str, int]:
             continue
         if route.startswith("feedback"):
             updated = _replace_main(page, render_feedback_body())
-            updated = re.sub(r"<script>\(\(\)=>\{const p=new URLSearchParams.*?</script>",
-                             lambda _: FEEDBACK_SCRIPT, updated, count=1, flags=re.S)
+            previous = r'<script(?: id="feedback-context")?>\s*\(\(\)=>\{const [pq]=new URLSearchParams.*?</script>|<script id="feedback-context">.*?</script>'
+            updated, replaced = re.subn(previous, lambda _: FEEDBACK_SCRIPT, updated, count=1, flags=re.S)
+            if not replaced:
+                updated = updated.replace('</body>', FEEDBACK_SCRIPT + '</body>', 1)
         else:
             updated = _replace_main(page, render_status_body(health))
         if updated != page:

@@ -25,7 +25,9 @@ def finalize(site_root=ROOT/'www'):
     from datetime import date, datetime
     from tools.publish_reviewed_collections import publish as publish_collections
     from tools.ingest_canonical_records import publish_reviewed
+    from tools.repair_unified_site import repair_connections_overlay
     counts=Counter()
+    counts["connections_overlay"] = repair_connections_overlay(site_root)
     # The opt-in records use the project root's maintained www. Never route
     # an alternate export tree into its sibling production directory.
     if site_root.name == 'www':

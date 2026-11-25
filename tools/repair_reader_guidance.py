@@ -124,7 +124,8 @@ def home_page(page, health=None):
     figure = re.search(r'<figure class="repair-canopy-figure">.*?</figure>', page, re.S)
     if not figure:
         raise ValueError('Homepage tree preview missing')
-    intro = intro.replace('<!-- reader-tree-preview -->', figure[0])
+    preview = re.sub(r'(The family tree|The family atlas) · [\d,]+ public profiles', 'Explore the family tree', figure[0])
+    intro = intro.replace('<!-- reader-tree-preview -->', preview)
     # Retain the linked visual in the opening; remove its former lower section.
     page = re.sub(r'<section class="reader-tree"[^>]*>.*?</section>', '', page, count=1, flags=re.S)
     if 'class="reader-intro"' in page:
@@ -142,7 +143,7 @@ def home_page(page, health=None):
     example = example.replace('Explore the main research questions', 'See all open questions').replace('Follow Alexander’s evidence', 'Read Alexander’s research').replace('Read the shared sources', 'Find his source records').replace('The leading Gortahar death identification', 'Probable death at Gortahar')
     example = replace_block(example, r'<div class="r-actions">.*?</div>',
                             '<div class="r-actions"><a class="r-button primary" href="/people/glasgow-951.html">Read Alexander’s research →</a>'
-                            '<a class="r-button" href="/research/#open-questions">See all open questions →</a>'
+                            '<a class="r-button" href="/onetree/#person=Glasgow-951&amp;view=family">Compare proposed parents in the tree</a>'
                             '<a class="r-button" href="/sources/?person=Glasgow-951">Find his source records</a></div>')
     example = example.replace('/people/glasgow-951.html#life-events', '/people/glasgow-951.html#census-household', 1)
     example = example.replace('/people/glasgow-951.html#life-events', '/people/glasgow-951.html#death-assessment', 1)
@@ -233,6 +234,9 @@ def coverage_totals(page, health):
         geo = geo or re.search(r'<strong>([\d,]+)</strong> record entries had a matched location; the other <strong>([\d,]+)</strong>', section[1])
         body = (f'<p>The people index contains <strong>{people:,} people</strong>, the same total shown on About, '
                 f'Catalogue status and Statistics (catalogue compiled {escape(reader_date(health.get("generated")))}). '
+                'The Source Library has a separate collected-reference total because references and person–record '
+                'entries are different units: one document may produce several entries, and several references may '
+                'describe the same document. '
                 'The family tree is compiled separately and counts WikiTree profiles rather than index entries: '
                 f'when it was last counted, on {TREE_COUNT_DATE}, it held <strong>{tree[1]} public profile IDs</strong>'
                 + (f', of which <strong>{mapped[1]}</strong> matched index entries' if mapped else '')
@@ -264,6 +268,24 @@ def coverage_page(page, health=None):
         'An evidence date remains an association until its assertion is evaluated; it is not automatically a life event.': 'A date attached to a source or research note is not treated as an event in someone’s life until its meaning has been checked.',
     }.items():
         page = page.replace(old, new)
+    coverage_note = (
+        '<section class="r-section" id="coverage-by-place"><h2>Which records have been checked?</h2>'
+        '<h3>Scotland · parish births and baptisms through 1700</h3>'
+        '<p>The Scotland’s People index search used the exact surname Glasgow and reviewed all 127 returned rows. '
+        'A different spelling, a missing register or a child recorded under another surname could fall outside that search. '
+        '<a href="/sources/?coll=births%2Fscotland%2Fopr-to-1700#source-list">Browse the indexed baptisms by parish</a>.</p>'
+        '<h3>Lisnagaver, Rasharkin and Kilrea · nineteenth century</h3>'
+        '<p>John Glasgow and Margaret Garvin’s 1846 marriage and their 1851 household are among the records checked. '
+        'Daniel Glasgow’s will identifies his brother Thomas and nephew Daniel Neely Glasgow. The brothers’ parents remain an open question. '
+        '<a href="/branches/lisnagaver-rasharkin/">Read the household evidence and outstanding searches</a>.</p>'
+        '<p>These searches cover particular names, places and sources. If a person is missing, '
+        '<a href="/sources/#source-list">try the place or a surname variant in the Source Library</a>.</p></section>'
+    )
+    existing = r'<section[^>]*id="coverage-by-place"[^>]*>.*?</section>'
+    if re.search(existing, page, re.S):
+        page = re.sub(existing, lambda _: coverage_note, page, count=1, flags=re.S)
+    else:
+        page = page.replace('</main>', coverage_note + '</main>', 1)
     return page
 
 

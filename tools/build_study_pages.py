@@ -3,7 +3,7 @@
 from collections import Counter
 from html import escape
 from pathlib import Path
-from urllib.parse import urlsplit
+from urllib.parse import urlencode, urlsplit
 import csv
 import json
 import math
@@ -656,7 +656,13 @@ def render(branch, group, families, authored, registry, rows, geo, places=None, 
     gaps = ''
     for i,g in enumerate(story.get('gaps') or []):
         if not any(g.get(k) for k in ('title','why','where','url')): continue
-        gaps += f'<article class="sp-gap"><span class="sp-number">{i+1:02}</span><div><span class="sp-kicker">{esc(g.get("priority","medium"))} priority</span><h3>{inline(g.get("title"))}</h3><p>{inline(g.get("why"))}</p><p>{inline(g.get("where"))}</p>{link(target_label(g.get("url")),g.get("url")) if g.get("url") else ""}</div></article>'
+        anchor = f'research-gap-{i + 1}'
+        params = {'study': story['title'], 'page': f'/branches/{sid}/#{anchor}', 'question': str(g.get('title') or story.get('question') or '')}
+        profile = re.fullmatch(r'/people/([\w-]+)\.html(?:#[^ ]*)?', g.get('url') or '')
+        if profile:
+            params['profile'] = profile[1]
+        contribute = link('Have a record for this question?', '/feedback/?' + urlencode(params))
+        gaps += f'<article class="sp-gap" id="{anchor}"><span class="sp-number">{i+1:02}</span><div><span class="sp-kicker">{esc(g.get("priority","medium"))} priority</span><h3>{inline(g.get("title"))}</h3><p>{inline(g.get("why"))}</p><p>{inline(g.get("where"))}</p>{link(target_label(g.get("url")),g.get("url")) if g.get("url") else ""}<p class="sp-keep">{contribute}</p></div></article>'
     if gaps: body += section('gaps','What would settle it','<div class="sp-gap-grid">'+gaps+'</div>')
     evidence = evidence_log(story.get('evidence_log'),sid)
     if sid == 'larne-kilwaughter':
@@ -668,6 +674,10 @@ def render(branch, group, families, authored, registry, rows, geo, places=None, 
     evidence += study_place_links.render_study_places(places or [])
     evidence += findings_block(findings or [], findings_url)
     evidence += '<h3 class="sp-subhead">Continue the research</h3><div class="sp-chips">'+link('Explore the records',f'/records/?branch={sid}')+link('Open the map',f'/map/?branch={sid}')+''.join(link(e.get('label','Related study'),e.get('url')) for e in story.get('related') or [])+'</div>'
+    if not gaps and story.get('question'):
+        params = {'study': story['title'], 'question': story['question'], 'page': f'/branches/{sid}/#study-question'}
+        evidence += '<p>' + link('Send evidence about this question', '/feedback/?' + urlencode(params)) + '</p>'
+
     evidence += f'<p class="sp-caption">{inline(story.get("sources_note") or "Source provenance and individual uncertainties are retained in the linked profiles and dated record entries.")}</p>'
     from bs4 import BeautifulSoup
     page = BeautifulSoup('<main class="sp-page">'+body+section('evidence','Sources & people',evidence)+'</main>', 'html.parser')

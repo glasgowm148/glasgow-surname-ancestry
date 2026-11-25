@@ -35,3 +35,9 @@
   .lf-table td[data-label="Found"]{font-weight:700}
   .lf-table td[data-label="Found"]::before{display:none}
 }
+
+.lf-recent-summary {max-width: 76ch; margin-block: 1.5rem}
+.lf-recent-summary ol {padding-inline-start: 1.4rem}
+.lf-recent-summary li {margin-block: 1rem}
+.lf-recent-summary time {font-size: .85rem}
+.lf-recent-summary li p {margin-block: .25rem}

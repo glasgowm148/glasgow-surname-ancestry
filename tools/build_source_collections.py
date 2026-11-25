@@ -105,10 +105,10 @@ def card(row):
     detail = f'/sources/{row["id"]}/'
     original = row.get('original_url')
     if original:
-        label = 'Family account ↗' if row['original_kind'] == 'profile' else 'Original ↗'
+        label = 'Family account ↗' if row['original_kind'] == 'profile' else 'Open provider ↗'
         origin = f'<a class="sc-src sc-src-{"profile" if row["original_kind"] == "profile" else "original"}" href="{e(original, quote=True)}">{label}</a>'
     else:
-        origin = '<span class="sc-src sc-src-none" title="Original link not recorded; see the citation">No link</span>'
+        origin = '<span class="sc-src sc-src-none" title="See the source page for the available evidence">No provider link</span>'
     people = row.get('people') or []
     shown = ''.join(f'<a href="{e(p.get("url") or detail, quote=True)}">{e(" ".join(p["name"].split()))}</a>' for p in people[:3])
     more = f'<a class="sc-more" href="{detail}">+{len(people) - 3} more</a>' if len(people) > 3 else ''
@@ -875,7 +875,7 @@ def repair(web=None):
     intro = '<p class="sc-callout">This library brings together original-record references, indexes, transcripts and family accounts. Counts describe our collected references, not unique people or complete archival holdings. Collections, countries and years are filters on one list; uncertain or missing dates remain visible. Select a row for its record text, linked people and the recorded provider link. A profile citation is labelled as a family account, and an item we hold only as a citation is labelled “citation only — no transcription yet”.</p>'
     todo = sum(1 for r in master['rows'] if r.get('a') == 'c')
     todolink = f'<p class="sc-m-todo"><a href="{master_query(ev="c")}">Citation-only to-do list</a> — {todo:,} items with no transcription, image or record entry yet; each needs the underlying record found and transcribed.</p>'
-    page('', 'Sources', hero('Sources', 'Every collected reference in one list: filter by record type, collection, country, provider or date, and follow each record to its people and original source.', len(rows)) + typelinks + browser(rows, '', static_index=False) + todolink + intro + '<p><a href="/sources/browse/">Complete reference index</a> · <a href="/records/">Records by person</a> · <a href="/research/transcriptions/">Wills & transcriptions</a></p>')
+    page('', 'Sources', hero('Sources', 'Every collected reference in one list: filter by record type, collection, country, provider or date, and follow each record to its people and original source.', len(rows)) + '<p>Several references can describe the same document. To follow an individual through records and events, open <a href="/records/">Records by Person</a>.</p>' + typelinks + browser(rows, '', static_index=False) + todolink + intro + '<p><a href="/sources/browse/">Complete reference index</a> · <a href="/records/">Records by person</a> · <a href="/research/transcriptions/">Wills & transcriptions</a></p>')
     redirects = subpage_redirects(rows, newspaper, sections)
     for category, (title, description) in TYPES.items():
         selected = [r for r in rows if category in r['categories']]

@@ -502,6 +502,28 @@ function treeCandidates(pid){const p=P.get(pid),alts=p&&p.publicFatherAlternativ
  return alts.filter(r=>r&&r.id&&r.id!==pid&&P.has(r.id)&&!seen.has(r.id)&&seen.add(r.id)).sort((a,b)=>rank(a)-rank(b))}
 function treeCandPill(r){const st=String(r.status||''),v=r.probability&&typeof r.probability.value==='number'?' · '+Math.round(r.probability.value*100)+'%':'';
  return {text:r.tree_relationship?'WikiTree · '+(r.tree_status||'unrated'):(TREE_LABEL[st]||'Possible')+v,tone:r.tree_relationship&&/confident|certain/.test(r.tree_status||'')?'mid':'weak'}}
+function treeParentEvidence(person) {
+ const assessments = [];
+ for (const [kind, relatives] of [['', person.parents], ['Candidate ', person.publicFatherAlternatives]]) {
+   for (const relative of relatives || []) {
+     if (relative.withheld) continue;
+     const basis = relative.basis || relative.reason;
+     const next = relative.next_test || relative.research_state?.reopen_when;
+     const limits = relative.limitations || relative.probability?.scope;
+     if (![basis, next, limits].some(value => typeof value === 'string' && value.trim())) continue;
+     const name = P.get(relative.id)?.name || relative.name || relative.id;
+     const label = relative.statusLabel || relative.probability?.label || relative.status || '';
+     const role = relative.role || relative.relationship || 'father';
+     const heading = kind + role + ': ' + name + (label ? ' · ' + label : '');
+     const fields = [['Evidence', basis], ['What remains uncertain', limits], ['Next record to check', next]];
+     const body = fields.filter(([,value]) => typeof value === 'string' && value.trim())
+       .map(([key,value]) => `<p><b>${key}</b> ${esc(value)}</p>`).join('');
+     assessments.push(`<details><summary>${esc(heading)}</summary>${body}</details>`);
+   }
+ }
+ if (!assessments.length) return '';
+ return `<section class="detail-section"><h3>Evidence for the parents</h3><p>Open a name to read the assessment. Percentages express the researcher’s judgement of this particular link.</p>${assessments.join('')}</section>`;
+}
 function makeTree(id){
  uiBoxes=null;
  if(state.treeRoot!==id){state.treeRoot=id;for(const k of ['up','down']){state.treeOpen[k].clear();state.treeShut[k].clear()}}
@@ -679,6 +701,7 @@ function installPersonFilters() {
 '''
 
 PATCHES = [
+    ("if(state.detailTab==='overview'){", "if(state.detailTab==='overview'||state.detailTab==='family')body+=treeParentEvidence(p);if(state.detailTab==='overview'){"),
     ("$('#visible-records').textContent=fw?", "$('#visible-records').textContent=(personFilters.glasgow||personFilters.male)&&!fw&&!MF&&!state.grand&&!state.early?fmt(v.shown)+' of '+fmt(P.size)+' people':fw?"),
     ("function canopyDirty(){canopyVis=null;", "function canopyDirty(){if(atlas)atlas.miniCanvas=null;canopyVis=null;"),
     ("for(const ch of scene.chunks){cx.strokeStyle=ch.colour;", "if(scene.type==='all'&&canopyVis){for(const [key,path] of canopyVis.paths){cx.strokeStyle=key.split('|')[0];cx.globalAlpha=.55;cx.lineWidth=.52/k;cx.stroke(path)}}else for(const ch of scene.chunks){cx.strokeStyle=ch.colour;"),
@@ -839,7 +862,7 @@ PATCHES = [
     ("function makeFamily(id,lens='descendants'){", TREE_JS + "function makeFamily(id,lens='descendants'){if(TREE)return makeTree(id);"),
     ("state.lens=lens;", "state.lens='tree';"),
     ("$('#canvas-sub').textContent=family?(",
-     "$('#canvas-sub').textContent=family?state.lens==='tree'?(state.treeOrient==='h'?'Ancestors to the right, descendants to the left, one band per generation.':'Ancestors above, descendants below, one band per generation.')+' Use − / + for more generations; the round buttons open or fold away one line.':("),
+     "$('#canvas-sub').textContent=family?state.lens==='tree'?(state.treeOrient==='h'?'Ancestors to the right, descendants to the left, one band per generation.':'Ancestors above, descendants below, one band per generation.')+' Use − / + for more generations; the round buttons open or fold away one line. Evidence labels show the project assessment; dashed cards are competing candidates. Open a person to read the source basis and unresolved question.':("),
     ("function focusFamilyStart(id){const n=scene.map.get(id);if(!n)return;",
      "function focusFamilyStart(id){const n=scene.map.get(id);if(!n)return;if(scene.tree){treeStart(n);return}"),
     ("if(scene.type==='all')drawEraGround();", "if(scene.type==='all')drawEraGround();else if(scene.tree)drawTreeBands();"),

@@ -46,7 +46,9 @@ class ReleaseConsistencyTests(unittest.TestCase):
             (web / 'status.html').write_text('<strong>1</strong><span>Mapped records</span><strong>2</strong><span>Research places</span>')
             original, consistency.WEB = consistency.WEB, web
             try:
-                self.assertEqual(4, len(consistency.check(fix=False)))
+                problems = consistency.check(fix=False)
+                self.assertEqual(5, len(problems))
+                self.assertTrue(any('source_links' in issue for issue in problems))
                 consistency.check(fix=True)
                 self.assertEqual([], consistency.check(fix=False))
                 self.assertEqual({'people': 0, 'records': 2, 'places': 1},
@@ -79,6 +81,29 @@ class ReleaseConsistencyTests(unittest.TestCase):
                 self.assertEqual(3, json.loads((web / "health.json").read_text())["counts"]["people"])
             finally:
                 consistency.WEB = original
+
+    def test_home_coverage_and_records_share_index_totals(self):
+        with tempfile.TemporaryDirectory() as directory:
+            web = Path(directory)
+            (web / "data").mkdir()
+            (web / "coverage").mkdir()
+            (web / "records").mkdir()
+            (web / "data/catalogue-search-index.json").write_text('[{}]')
+            (web / "data/people.json").write_text('{"people": [{}]}')
+            (web / "data/records-index.json").write_text('[{}, {}]')
+            (web / "index.html").write_text("Search 3 people by name")
+            (web / "coverage/index.html").write_text('<strong class="r-coverage-number">5</strong><p>People in the index</p>')
+            (web / "records/index.html").write_text('<strong>4</strong><span>record entries</span>')
+            with patch.object(consistency, 'WEB', web):
+                self.assertEqual(len(consistency.check(fix=True)), 3)
+                self.assertEqual(consistency.check(fix=False), [])
+            self.assertIn('Search 1 people', (web / "index.html").read_text())
+            self.assertIn('>2<', (web / "records/index.html").read_text())
+
+            strip = '<div class="records-status-strip"><div><strong>1</strong><span>Source cited</span></div></div><p id="records-scope">'
+            (web / "records/index.html").write_text(strip)
+            with patch.object(consistency, 'WEB', web):
+                self.assertEqual(consistency.check(fix=False), ['records/index.html citation-status counts: 1 != 2'])
 
     def test_fix_exits_unsuccessfully_when_people_data_disagrees(self):
         with tempfile.TemporaryDirectory() as directory:

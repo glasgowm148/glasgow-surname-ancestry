@@ -1124,7 +1124,11 @@
     viewResults.hidden=!found.length;
     updateUrl();
     if(!found.length){
-      out.innerHTML='<p class="notice">No catalogue match. Try removing one filter or broadening the date range.</p>';
+      const term=controlValue(controls.query).trim() || controlValue(controls.name).trim()
+        || [controlValue(controls.first),controlValue(controls.last)].join(' ').trim() || controlValue(controls.location).trim();
+      const sourceHref=term?'/sources/?q='+encodeURIComponent(term)+'#source-list':'/sources/#source-list';
+      out.innerHTML='<p class="notice">No catalogue match. Try removing one filter or broadening the date range. '
+        +'<a href="'+sourceHref+'">Search the Source Library'+(term?' for “'+esc(term)+'”':'')+'</a> or check <a href="/coverage/#coverage-by-place">which places and periods have been searched</a>.</p>';
       window.dispatchEvent(new CustomEvent('catalogue:zero-results',{detail:{surface:'people',query:controls.query.value}}));
       return;
     }

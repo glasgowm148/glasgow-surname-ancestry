@@ -15,6 +15,7 @@ release fails when research would not reach a reader (a new item only).
 
 from __future__ import annotations
 
+from collections import Counter
 import argparse
 import json
 import re
@@ -22,10 +23,10 @@ import sys
 from pathlib import Path
 
 WEB = Path(__file__).resolve().parents[1] / "www"
-PAGES = ("catalogue.html", "catalogue/index.html", "catalogue/advanced.html", "people/index.html", "status.html", "status/index.html", "statistics/index.html")
+PAGES = ("index.html", "coverage/index.html", "records/index.html", "catalogue.html", "catalogue/index.html", "catalogue/advanced.html", "people/index.html", "status.html", "status/index.html", "statistics/index.html")
 
 
-def expected_totals() -> dict[str, int]:
+def expected_totals() -> tuple[dict[str, int], dict[str, int] | None]:
     index = json.loads((WEB / "data/catalogue-search-index.json").read_text(encoding="utf-8"))
     totals = {
         "Historical people": len(index),
@@ -34,11 +35,15 @@ def expected_totals() -> dict[str, int]:
         "People with original evidence": sum(1 for p in index if p.get("has_original_record")),
         "Creation-ready profiles": sum(1 for p in index if p.get("profile_work_status") == "creation_ready"),
     }
+    source_links = None
     for label, filename in (("Mapped records", "records-index.json"), ("Research places", "places-index.json")):
         path = WEB / "data" / filename
         if path.exists():
-            totals[label] = len(json.loads(path.read_text(encoding="utf-8")))
-    return totals
+            rows = json.loads(path.read_text(encoding="utf-8"))
+            totals[label] = len(rows)
+            if label == "Mapped records":
+                source_links = dict(Counter(row.get("supporting_source_status") or "unresolved" for row in rows))
+    return totals, source_links
 
 
 STAT = r'(<strong>)([\d,]+)(</strong><span>{label}</span>)'
@@ -47,8 +52,18 @@ LEDE = re.compile(r"Search ([\d,]+) historical people")
 
 
 def check(fix: bool) -> list[str]:
-    totals = expected_totals()
+    totals, expected_links = expected_totals()
     people = totals["Historical people"]
+    # The home, coverage, status and records pages present the same units with different markup.
+    patterns = [(label, re.compile(STAT.format(label=re.escape(label)))) for label in totals]
+    patterns.extend([
+        ("Historical people", re.compile(r'(Search )([\d,]+)( people by name)')),
+        ("Historical people", re.compile(r'(The people index contains <strong>)([\d,]+)( people</strong>)')),
+    ])
+    for name, label in (("Historical people", "People in the index"), ("Mapped records", "Record entries linked to people"),
+                        ("Mapped records", "record entries"), ("Research places", "Places")):
+        if name in totals:
+            patterns.append((name, re.compile(r'(<strong(?: class="r-coverage-number")?>)([\d,]+)(</strong><(?:p|span)>' + label + r'</(?:p|span)>)')))
     problems = []
     people_json = json.loads((WEB / "data/people.json").read_text(encoding="utf-8"))
     for label, value in (("people.json people", len(people_json["people"])), ("people.json count", people_json.get("count", len(people_json["people"])))):
@@ -74,6 +89,11 @@ def check(fix: bool) -> list[str]:
                 if fix:
                     counts[key] = expected
                     changed = True
+        if expected_links is not None and health.get("source_links") != expected_links:
+            problems.append(f"health.json source_links: {health.get('source_links')} != {expected_links}")
+            if fix:
+                health["source_links"] = expected_links
+                changed = True
         if changed:
             health_path.write_text(json.dumps(health, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     for relative in PAGES:
@@ -81,8 +101,14 @@ def check(fix: bool) -> list[str]:
         if not path.exists():
             continue
         page = original = path.read_text(encoding="utf-8")
-        for label, value in totals.items():
-            pattern = re.compile(STAT.format(label=re.escape(label)))
+        if relative == "records/index.html" and expected_links is not None:
+            strip = re.search(r'<div class="records-status-strip"[^>]*>(.*?)<p id="records-scope"', page, re.S)
+            if strip:
+                displayed = sum(int(number.replace(",", "")) for number in re.findall(r'<strong>([\d,]+)</strong>', strip[1]))
+                if displayed != totals["Mapped records"]:
+                    problems.append(f"{relative} citation-status counts: {displayed:,} != {totals['Mapped records']:,}")
+        for label, pattern in patterns:
+            value = totals[label]
             for match in pattern.finditer(page):
                 if int(match[2].replace(",", "")) != value:
                     problems.append(f"{relative} '{label}': {match[2]} != {value:,}")
