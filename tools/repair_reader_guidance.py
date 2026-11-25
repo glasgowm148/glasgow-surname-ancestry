@@ -38,7 +38,6 @@ PUBLIC_LABELS = {
     'Important external studies, locally summarised.': 'Research summaries',
     'Statistics from the public historical catalogue.': 'Family history statistics',
     'Places, names, branches and movement': 'Places, names, families and migration',
-    'Largest exported family branches': 'Largest family groups from WikiTree',
     'Every record. Room to explore.': 'People and records',
     'Return to the canvas': 'Return to the tree', 'Back to canopy': 'Back to the whole tree',
     'What would resolve this': 'What evidence would answer this?',

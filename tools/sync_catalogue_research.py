@@ -571,8 +571,10 @@ def refresh_person(soup, findings, update, links):
 def refresh_catalogue_summaries(rows):
     pending = sorted((r for r in rows if r.get("needs_wikitree_update")),
                      key=lambda r: (-r["wikitree_update_significance"], r["name"].casefold()))
-    for relative in ("catalogue.html", "catalogue/index.html", "catalogue/advanced.html"):
+    for relative in ("catalogue.html", "catalogue/index.html", "catalogue/advanced.html", "people/index.html"):
         path = WEB / relative
+        if not path.is_file():
+            continue
         old = path.read_text(encoding="utf-8")
         soup = BeautifulSoup(old, "html.parser")
         for link in soup.select('a[href]'):
@@ -604,7 +606,7 @@ def refresh_catalogue_summaries(rows):
         if preview:
             description = preview.find("p", recursive=False)
             if description:
-                description.string = f"{len(pending):,} source-backed corrections remain on WikiTree. The highest-significance updates are previewed here; the filter opens the complete queue. Each page provides either paste-ready text or the exact manual relationship, confidence or vital-field action."
+                description.string = f"{len(pending):,} entries await WikiTree review. The queue includes suggested corrections and draft profiles. Some drafts are on hold while their identity or sources are checked."
             grid = preview.select_one(".wikitree-update-grid")
             if grid:
                 grid.clear()

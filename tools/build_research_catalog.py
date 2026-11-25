@@ -6858,7 +6858,7 @@ def build_research_catalog(records: list[dict], profiles: dict[str, dict], edges
         for person, update in ranked_updates[:8]
     )
     update_preview_html = f'''<section class="wikitree-update-preview"><div class="strong-match-heading"><div><p class="kicker">Profile maintenance</p><h2>Needs updated on WikiTree</h2></div><a class="button secondary" href="/catalogue/?needsUpdate=1&amp;sort=significance%3Adesc#catalogue-filters">Open significance-ranked table</a></div>
-<p>{len(ranked_updates):,} source-backed corrections remain on WikiTree. The highest-significance updates are previewed here; the filter opens the complete queue. Each page provides either paste-ready text or the exact manual relationship, confidence or vital-field action.</p><div class="wikitree-update-grid">{update_preview_cards}</div></section>'''
+<p>{len(ranked_updates):,} entries await WikiTree review. The queue includes suggested corrections and draft profiles. Some drafts are on hold while their identity or sources are checked.</p><div class="wikitree-update-grid">{update_preview_cards}</div></section>'''
     statistics_html = _catalogue_statistics(
         public_people, family_memberships, location_to_slug, len(place_index), len(public_records),
         profile_work_counts, original_count, refreshed,

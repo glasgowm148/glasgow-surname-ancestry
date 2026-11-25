@@ -193,7 +193,7 @@ def _finding_rows(site_root: Path, findings_path: Path) -> list[list[str]]:
         # token based, so stable first occurrence preserves every distinct
         # query term while keeping the worker index compact.
         raw_search = " ".join([*(str(p.get("id") or "") for p in people), *(_text(p["name"]) for p in people[3:])]).strip()
-        seen_tokens = set()
+        seen_tokens = {token.casefold() for person in people[:3] for token in _text(person["name"]).split()}
         search_tokens = []
         for token in raw_search.split():
             key = token.casefold()

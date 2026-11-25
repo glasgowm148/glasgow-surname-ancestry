@@ -129,7 +129,7 @@ class SectionIndexTests(unittest.TestCase):
                 ],
             }]})
             row = site_search._finding_rows(site, findings)[0]
-            self.assertEqual("Glasgow-1 Glasgow-2 Glasgow-9999 Glasgow-4 Glasgow-5 Glasgow-6 Alex Glasgow Distinct Last Person", row[4])
+            self.assertEqual("Glasgow-1 Glasgow-2 Glasgow-9999 Glasgow-4 Glasgow-5 Glasgow-6 Distinct Last Person", row[4])
             self.assertIn("Alex Glasgow", row[3])
             self.assertIn("Unique Late Subject", row[3])
 

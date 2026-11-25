@@ -30,6 +30,7 @@ def expected_totals() -> tuple[dict[str, int], dict[str, int] | None]:
     index = json.loads((WEB / "data/catalogue-search-index.json").read_text(encoding="utf-8"))
     totals = {
         "Historical people": len(index),
+        "WikiTree review entries": sum(bool(row.get("needs_wikitree_update")) for row in index),
         "Exported family roots": len({p["family_root"]["id"] for p in index if p.get("family_root")}),
         "People linked to a root": sum(1 for p in index if p.get("family_root")),
         "People with original evidence": sum(1 for p in index if p.get("has_original_record")),
@@ -57,6 +58,8 @@ def check(fix: bool) -> list[str]:
     # The home, coverage, status and records pages present the same units with different markup.
     patterns = [(label, re.compile(STAT.format(label=re.escape(label)))) for label in totals]
     patterns.extend([
+        ("WikiTree review entries", re.compile(r'(>)([\d,]+)( entries await WikiTree review)')),
+        ("WikiTree review entries", re.compile(r'(>)([\d,]+)( profiles ranked by update priority)')),
         ("Historical people", re.compile(r'(Search )([\d,]+)( people by name)')),
         ("Historical people", re.compile(r'(The people index contains <strong>)([\d,]+)( people</strong>)')),
     ])
